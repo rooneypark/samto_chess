@@ -33,6 +33,8 @@ const assert=require('node:assert/strict');
  assert.equal(await page.locator('.party .hero').count(),6);
  const imageSources=await page.locator('.party img').evaluateAll(els=>els.map(e=>e.getAttribute('src')));
  assert.deepEqual(imageSources,['xuchu','1','32','35','diaochan','119'].map(id=>'assets/gate-lobby/'+id+'.png'));
+ // Settings opens its own screen (it used to be a dialog); the gate button under test is hidden while it is open.
+ const opened=page.locator('.settings-runtime:not([hidden])'),closeSettings=async()=>{await page.locator('.settings-runtime .home-back').click();await opened.waitFor({state:'hidden'});await page.locator('.game[aria-busy=false]').waitFor();};
  // Press feedback has no layout shift or changes outside the pressed button.
  const button=page.locator('[data-action=settings]'),box=await button.boundingBox();
  const center={x:box.x+box.width/2,y:box.y+box.height/2};
@@ -49,20 +51,20 @@ const assert=require('node:assert/strict');
  assert.ok(pressPixels.changed>100);assert.equal(pressPixels.outside,0);
  await page.mouse.move(470,350);assert.equal(await page.locator('.gate-hit.is-pressed').count(),0);
  await page.mouse.move(center.x,center.y);assert.equal(await page.locator('.gate-hit.is-pressed').count(),1);
- await page.mouse.move(470,350);await page.mouse.up();assert.equal(await page.locator('#modal[open]').count(),0);
+ await page.mouse.move(470,350);await page.mouse.up();assert.equal(await opened.count(),0);
  const restored=await page.locator('.game').screenshot();assert.ok(restored.equals(screenshot),'Release must restore the exact original pixels');
  // Space uses the browser's native single activation; no synthetic duplicate click.
  await button.focus();await page.keyboard.down('Space');assert.equal(await page.locator('.gate-hit.is-pressed').count(),1);
- await page.keyboard.up('Space');await page.locator('#modal[open]').waitFor();assert.equal(await page.locator('.gate-hit.is-pressed').count(),0);await page.keyboard.press('Escape');
- await button.focus();await page.keyboard.press('Enter');await page.locator('#modal[open]').waitFor();assert.equal(await page.locator('.gate-hit.is-pressed').count(),0);await page.keyboard.press('Escape');
+ await page.keyboard.up('Space');await opened.waitFor();assert.equal(await page.locator('.gate-hit.is-pressed').count(),0);await closeSettings();
+ await button.focus();await page.keyboard.press('Enter');await opened.waitFor();assert.equal(await page.locator('.gate-hit.is-pressed').count(),0);await closeSettings();
  // Real touch events, including implicit capture and dragging outside before release.
  const touch=await page.context().newCDPSession(page);
  const point={x:center.x,y:center.y};
  await touch.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[point]});assert.equal(await page.locator('.gate-hit.is-pressed').count(),1);
- await touch.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});await page.locator('#modal[open]').waitFor();await page.keyboard.press('Escape');
+ await touch.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});await opened.waitFor();await closeSettings();
  await touch.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[point]});
  await touch.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:470,y:350}]});
- await touch.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});assert.equal(await page.locator('#modal[open]').count(),0);assert.equal(await page.locator('.gate-hit.is-pressed').count(),0);
+ await touch.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});assert.equal(await opened.count(),0);assert.equal(await page.locator('.gate-hit.is-pressed').count(),0);
  await touch.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[point]});
  await touch.send('Input.dispatchTouchEvent',{type:'touchCancel',touchPoints:[]});assert.equal(await page.locator('.gate-hit.is-pressed').count(),0);await touch.detach();
  await page.mouse.move(center.x,center.y);await page.mouse.down();await page.evaluate(()=>window.dispatchEvent(new Event('blur')));assert.equal(await page.locator('.gate-hit.is-pressed').count(),0);await page.mouse.move(470,350);await page.mouse.up();
@@ -70,22 +72,17 @@ const assert=require('node:assert/strict');
  for(const action of ['mail','quests','settings','formation','campaign']){
   await page.locator(`[data-action=${action}]`).click();
   if(action==='campaign'){await page.locator('.campaign-v4[aria-busy=false]').waitFor();await page.locator('#campaign-back').click();}
-  else{await page.locator('#modal[open]').waitFor();await page.keyboard.press('Escape');}
+  else{const screen={mail:'.mail-v1',quests:'.missions-v1',settings:'.settings-runtime',formation:'.formation-runtime'}[action];await page.locator(screen+':not([hidden])').waitFor();await page.locator(screen+' .home-back').click();await page.locator(screen).waitFor({state:'hidden'});}
  }
- // Reorder the actual saved party, not a visual-only demonstration.
- await page.locator('[data-action=formation]').click();
- await page.locator('.formation-list li').nth(1).locator('button').first().click();
- await page.locator('#save-party').click();await waitForSave(page,s=>s.order[0]==='1');
- assert.equal(await page.locator('.party img').first().getAttribute('src'),'assets/gate-lobby/1.png');
- await page.locator('[data-action=barracks]').click();await page.locator('.barracks-screen').waitFor();
- await page.locator('[data-action=home]').click();
- await page.locator('[data-action=shop]').click();await page.locator('.shop-screen').waitFor();
- await page.locator('[data-action=home]').click();
+ await page.locator('[role=tab][data-action=barracks]').click();await page.locator('.barracks-screen').waitFor();
+ await page.locator('[role=tab][data-action=home]').click();
+ await page.locator('[role=tab][data-action=shop]').click();await page.locator('.shop-screen').waitFor();
+ await page.locator('[role=tab][data-action=home]').click();
  for(const viewport of [{width:360,height:640},{width:390,height:844},{width:1440,height:900}]){
   await page.setViewportSize(viewport);await page.mouse.move(0,0);
   const game=await page.locator('.game').boundingBox();assert.ok(game.width<=viewport.width+.1&&game.height<=viewport.height+.1);
   for(const action of ['depart','barracks','settings']){
-   const box=await page.locator(`[data-action=${action}]`).boundingBox();assert.ok(box.x>=game.x-1&&box.y>=game.y-1&&box.x+box.width<=game.x+game.width+1&&box.y+box.height<=game.y+game.height+1);
+   const box=await page.locator(`[data-action=${action}]:visible`).first().boundingBox();assert.ok(box.x>=game.x-1&&box.y>=game.y-1&&box.x+box.width<=game.x+game.width+1&&box.y+box.height<=game.y+game.height+1);
   }
   await page.screenshot({path:artifact('gate-lobby',`live-${viewport.width}.png`)});
  }

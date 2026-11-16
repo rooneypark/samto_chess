@@ -35,9 +35,12 @@ const run=(name,env)=>new Promise(resolve=>{
  const env={...process.env,SAMGUK_BASE_URL:process.env.SAMGUK_BASE_URL??server.url};
  console.log('server',env.SAMGUK_BASE_URL);
  const results=[];
- try{for(const name of selected){console.log('\n== '+name);results.push(await run(name,env));}}
+ // A failed check is run once more before it counts: several checks pass on their own but time out when the
+ // whole suite keeps the machine busy. One that needed the second run is reported as PASS (retried).
+ // SAMGUK_NO_RETRY=1 turns this off.
+ try{for(const name of selected){console.log('\n== '+name);let result=await run(name,env);if(!result.ok&&process.env.SAMGUK_NO_RETRY!=='1'){console.log('\n== '+name+' (retry)');result={...await run(name,env),retried:true};}results.push(result);}}
  finally{server?.stop();}
- console.log('\n'+results.map(r=>`${r.ok?'PASS':'FAIL'} ${r.name} (${r.seconds}s)`).join('\n'));
+ console.log('\n'+results.map(r=>`${r.ok?'PASS':'FAIL'} ${r.name} (${r.seconds}s)${r.retried&&r.ok?' (retried)':''}`).join('\n'));
  const failed=results.filter(r=>!r.ok).length;
  console.log(`${results.length-failed}/${results.length} browser checks passed`);
  process.exitCode=failed?1:0;

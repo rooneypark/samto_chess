@@ -10,7 +10,8 @@ async function checkPress(page,button){
  const after=await page.screenshot({clip,path:artifact('ui-components',id+'-pressed.png')});
  const a=await sharp(before).ensureAlpha().raw().toBuffer({resolveWithObject:true}),b=await sharp(after).ensureAlpha().raw().toBuffer();
  let mask=await sharp(path.resolve('game/assets/ui-common/'+def.file)).resize(a.info.width,a.info.height,{kernel:'nearest'}).ensureAlpha().raw().toBuffer();
- if(id.startsWith('barracks-card')){
+ // The same applies to any control whose layout box lands on a fractional pixel.
+ if(id.startsWith('barracks-card')||[box.x,box.y,box.width,box.height].some(v=>!Number.isInteger(v))){
   // Grid cards have fractional CSS bounds. Rasterize the source mask at those
   // exact bounds; rounding and resizing the PNG shifts its edge by a pixel.
   await button.evaluate(e=>{const r=e.getBoundingClientRect(),layer=document.createElement('div'),face=document.createElement('div');layer.id='qa-card-mask';Object.assign(layer.style,{position:'fixed',inset:'0',background:'black',zIndex:'2147483647',pointerEvents:'none'});Object.assign(face.style,{position:'absolute',left:r.x+'px',top:r.y+'px',width:r.width+'px',height:r.height+'px',background:'white',maskImage:getComputedStyle(e).getPropertyValue('--art-image'),maskSize:'100% 100%',maskRepeat:'no-repeat',imageRendering:getComputedStyle(e).imageRendering});layer.append(face);document.body.append(layer);});
@@ -49,14 +50,16 @@ async function checkPress(page,button){
  }
  await page.locator('.roster-card[data-hero="1"]').click();
  await page.screenshot({path:artifact('ui-components','barracks-normal.png')});
- await page.locator('[data-faction="위"]').click();assert.equal(await page.locator('[data-faction="위"]').getAttribute('aria-pressed'),'true');
+ await page.locator('.barracks-screen [data-faction="위"]').click();assert.equal(await page.locator('.barracks-screen [data-faction="위"]').getAttribute('aria-pressed'),'true');
  assert.ok(await page.locator('.roster-card').count()>0);
  assert.ok(await page.locator('.roster-card').evaluateAll(async els=>{const {heroes}=await import('./heroes.js');return els.every(e=>heroes.find(h=>h.id===e.dataset.hero).faction==='위')}));
- await page.locator('[data-faction="전체"]').click();await page.locator('[data-hero="35"]').click();assert.equal(await page.locator('.hero-name').textContent(),'제갈량');
+ await page.locator('.barracks-screen [data-faction="전체"]').click();await page.locator('[data-hero="35"]').click();assert.equal(await page.locator('.hero-name').textContent(),'제갈량');
  const old=(await savedState(page)).heroes['35'].level;
  await page.locator('#train').click();await page.locator('#growth-confirm').click();await waitForSave(page,s=>s.heroes['35'].level===old+1);
  assert.equal(await page.locator('.hero-level').textContent(),'Lv.'+(old+1));
- for(const id of ['hero-skill','treasure-open','barracks-formation']){await page.locator('#'+id).click();await page.locator('#modal[open]').waitFor();await page.keyboard.press('Escape');}
+ await page.locator('#hero-skill').click();await page.locator('#modal[open]').waitFor();await page.keyboard.press('Escape');
+ // The treasure box and formation are their own screens now; each returns to the barracks.
+ for(const [id,screen] of [['treasure-open','.treasure-runtime'],['barracks-formation','.formation-runtime']]){await page.locator('#'+id).click();await page.locator(screen+'[aria-busy=false]').waitFor();await page.locator(screen+' .home-back').click();await page.locator(screen).waitFor({state:'hidden'});await page.locator('.barracks-screen').waitFor();}
  for(const viewport of [{width:320,height:568},{width:390,height:844},{width:1440,height:900}]){
   await page.setViewportSize(viewport);const root=await page.locator('.game').boundingBox();assert.ok(root.width<=viewport.width+.1&&root.height<=viewport.height+.1);
   for(const id of ['train','awaken','treasure-open']){const b=await page.locator('#'+id).boundingBox();assert.ok(b.x>=root.x&&b.x+b.width<=root.x+root.width+1);}
