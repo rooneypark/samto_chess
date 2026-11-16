@@ -42,9 +42,9 @@ async function press(page,button){
  for(const button of await page.locator('.arena-v2 button.art-control,.wallet button.art-control,.bottom-nav button.art-control').all())if(await button.isVisible())report.push(await press(page,button));
  assert.equal(await page.locator('.bottom-nav [data-action=arena]:visible').getAttribute('data-art-button'),'nav-arena-selected');
  const original=await page.locator('.challenger.opponent strong').innerText();
- await page.locator('#arena-next').click();await page.locator('[data-arena-pick="1"]').click();await page.locator('.arena-v2[aria-busy=false]').waitFor();
+ await page.locator('#arena-next').click();await page.locator('.arena-opponents-runtime [data-tier="1"]').click();await page.locator('.arena-opponents-runtime .home-back').click();await page.locator('.arena-v2[aria-busy=false]').waitFor();
  assert.notEqual(await page.locator('.challenger.opponent strong').innerText(),original);
- await page.locator('#arena-next').click();await page.locator('#arena-more').click();await page.locator('[data-arena-pick="2"]').click();await page.locator('.arena-v2[aria-busy=false]').waitFor();
+ await page.locator('#arena-next').click();await page.locator('.arena-opponents-runtime .more').click();await page.locator('.arena-opponents-runtime [data-tier="2"]').click();await page.locator('.arena-opponents-runtime .home-back').click();await page.locator('.arena-v2[aria-busy=false]').waitFor();
  await page.locator('#arena-formation').click();await page.locator('#arena-defense').click();await waitForSave(page,s=>!!s.arena.defense);await page.keyboard.press('Escape');
  for(const button of ['arena-rank','arena-history','arena-season','arena-rules']){await page.locator('#'+button).click();await page.keyboard.press('Escape');}
  const beforeShop=await savedState(page);await page.locator('#arena-shop').click();await page.locator('[data-merit=treasure]').evaluate(b=>{b.click();b.click();});const bought=await waitForSave(page,s=>s.merit===beforeShop.merit-30);assert.equal(bought.treasureTokens,beforeShop.treasureTokens+5);await page.keyboard.press('Escape');

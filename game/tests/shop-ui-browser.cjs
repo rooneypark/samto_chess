@@ -63,20 +63,20 @@ async function press(page,button){
  const one=await waitForSave(page,s=>!!s.shop.pending);assert.equal(one.gold,before.gold-300);assert.equal(one.shop.pending.results.length,1);assert.equal(Object.keys(one.shop.receipts).length,Object.keys(before.shop.receipts).length+1);
  const awarded=one.shop.pending.results[0];assert.ok(one.heroes[awarded.id].owned);
  if(before.heroes[awarded.id].owned)assert.equal(one.heroes[awarded.id].cards,before.heroes[awarded.id].cards+1);
- await page.reload();await page.locator('#result-confirm').waitFor();assert.equal((await savedState(page)).gold,one.gold);await page.locator('#result-confirm').click();await waitForSave(page,s=>!s.shop.pending);
+ await page.reload();await page.locator('.recruit-results-runtime .save').waitFor();assert.equal((await savedState(page)).gold,one.gold);await page.locator('.recruit-results-runtime .save').click();await waitForSave(page,s=>!s.shop.pending);
  // Ten draws debit exactly once and keep the B+ guarantee.
  await page.locator('[data-count="10"]').click();await page.locator('#purchase-confirm').click();
- const ten=await waitForSave(page,s=>s.shop.pending?.results.length===10);assert.equal(ten.gold,one.gold-3000);assert.ok(ten.shop.pending.results.some(r=>r.grade!=='C'));await page.locator('#result-confirm').click();await waitForSave(page,s=>!s.shop.pending);
+ const ten=await waitForSave(page,s=>s.shop.pending?.results.length===10);assert.equal(ten.gold,one.gold-3000);assert.ok(ten.shop.pending.results.some(r=>r.grade!=='C'));await page.locator('.recruit-results-runtime .save').click();await waitForSave(page,s=>!s.shop.pending);
  // Free diamonds are consumed before paid diamonds, including a split debit.
  await seed(page,s=>{s.diamonds=150;s.freeDiamonds=40;s.paidDiamonds=110;return s});await page.locator('.shop-v2[aria-busy=false]').waitFor();await page.locator('[data-select-currency=diamonds]').click();
  assert.ok(await page.locator('[data-count="10"]').isDisabled());await page.locator('[data-count="1"]').click();await page.locator('#purchase-confirm').click();
  const diamond=await waitForSave(page,s=>!!s.shop.pending);assert.equal(diamond.diamonds,50);assert.equal(diamond.freeDiamonds,0);assert.equal(diamond.paidDiamonds,50);
- await page.locator('#result-confirm').click();await waitForSave(page,s=>!s.shop.pending);assert.ok(await page.locator('[data-count="1"]').isDisabled());assert.equal(await page.locator('.wallet [data-field=diamonds]:visible').textContent(),'50');
+ await page.locator('.recruit-results-runtime .save').click();await waitForSave(page,s=>!s.shop.pending);assert.ok(await page.locator('[data-count="1"]').isDisabled());assert.equal(await page.locator('.wallet [data-field=diamonds]:visible').textContent(),'50');
  // Simulate an aborted IndexedDB write; no debit, award, pity or receipt survives.
  await page.locator('[data-select-currency=gold]').click();const beforeFail=await savedState(page);
  await page.evaluate(()=>{const original=IDBObjectStore.prototype.put;window.failNextShopWrite=true;IDBObjectStore.prototype.put=function(...args){if(this.name==='profile'&&window.failNextShopWrite){window.failNextShopWrite=false;this.transaction.abort();return;}return original.apply(this,args);};});
  await page.locator('[data-count="1"]').click();await page.locator('#purchase-confirm').click();await page.locator('#toast:not([hidden])').waitFor();
- assert.deepEqual(await savedState(page),beforeFail);assert.equal(await page.locator('.wallet [data-field=gold]').textContent(),beforeFail.gold.toLocaleString());await page.locator('#purchase-cancel').click();
+ assert.deepEqual(await savedState(page),beforeFail);assert.equal(await page.locator('.wallet [data-field=gold]:visible').textContent(),beforeFail.gold.toLocaleString());await page.locator('#purchase-cancel').click();
  // Revisit the live page through the other artwork tabs and exercise all sizes.
  for(const tab of ['home','barracks','shop'])await page.locator('.bottom-nav [data-action="'+tab+'"]:visible').click();
  for(const size of [{width:320,height:568},{width:390,height:844},{width:1440,height:900}]){

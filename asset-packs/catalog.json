@@ -7228,8 +7228,8 @@
     {
       "path": "asset-packs/v1/ui-build-reference-v1-001.zip",
       "category": "ui-build-reference",
-      "bytes": 37350262,
-      "sha256": "9edb1acc028057a93ad01301a1c555d0cb05e1e5b9cf5b88b124d8bda9336d9e",
+      "bytes": 37398609,
+      "sha256": "656727ba25e26b28a02173eef85095ecab1e418d018fd384756b81f790f7da26",
       "files": [
         {
           "path": "art-source/ui-build/v1/battle-sprites/1-back.png",
@@ -7338,48 +7338,48 @@
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/barracks-390.png",
-          "bytes": 386331,
-          "sha256": "89854a4e880bf88430f000f0c130d03b397262cbd2fe7b0c63c9a33b735bddfc"
+          "bytes": 344421,
+          "sha256": "10877784215109a82ec21c0b19c1ab5968df66d620d2e0dab54d84e91be053df"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/barracks-941.png",
-          "bytes": 1717693,
-          "sha256": "2979c944a9038f876f872e5397909f5113ec87e3ea73769271cf7ff695a6fc82"
+          "bytes": 1584373,
+          "sha256": "0cf41f67ed81221d9518dcf1defddde1aeb7b16c4d4b13037b8a1b6a5042a935"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/battle-390.png",
-          "bytes": 442510,
-          "sha256": "91cf31d774f62c5c5f1f4ed0e5d3630233b9e8974f14a983be771213493ec16b"
+          "bytes": 448155,
+          "sha256": "cc458b9114387e29e2ff1deb4b5d635a0d3ff0943978c04d0e83efc560a8164f"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/battle-941.png",
-          "bytes": 2038494,
-          "sha256": "b1e9bfd611d977b1fa30bfedd9499aa68c51b933cbb3295373c4ee32ccab5023"
+          "bytes": 2075338,
+          "sha256": "fc0c2b7cbdaec9f830b947ee750c83c083f85dda3aec9e415c3ca482c6105067"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/home-390.png",
-          "bytes": 498881,
-          "sha256": "14d8b2d9fa40e91d2860625939e229562df5b7215a89de353cc10a41f39a0fc0"
+          "bytes": 497936,
+          "sha256": "e0962142d1fe9333ffcb26bbbbce3604d9263d62bbcd4b4efc74ea74303e2eac"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/home-941.png",
-          "bytes": 2322154,
-          "sha256": "02164a4d690e4c864c09400320eee5a17cb3f9c7c64b8adadb269b46771e9f28"
+          "bytes": 2316806,
+          "sha256": "eaad2c2be4740722755360e766524559729084acf06eb5b69b82a8b58114d340"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/shop-390.png",
-          "bytes": 315824,
-          "sha256": "f8015f1c3db71abf3a66264dc72bcb67747a64a65153242a9016d71a1a52a8b8"
+          "bytes": 332106,
+          "sha256": "f92b96b7ba8c09f71b8ef87255953d1c3f94dc627ed074070d78ab8b6f8c6da0"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/shop-941.png",
-          "bytes": 1397410,
-          "sha256": "bfda61f5787509368c62b3685a2fcb9bdfcc49c7c5236ba78a499915728bddbd"
+          "bytes": 1542577,
+          "sha256": "c85a69ab48c3a6846e112f9116f2548c84856000091f9dcc9f833fcc13a7c7a0"
         },
         {
           "path": "design-delivery/v2/05-mockups/arena-versus-v1.png",
-          "bytes": 1393277,
-          "sha256": "2aa5653f790cdf83df3006f926ad6b83d7091ba36739779c6c9a44582437a5c3"
+          "bytes": 1421084,
+          "sha256": "24c1111da8342cfed7d40531eb9b2f7388fc68b750489e2b76e655857059bbf6"
         },
         {
           "path": "design-delivery/v2/05-mockups/barracks-clean-plate.png",
@@ -7406,8 +7406,8 @@
     {
       "path": "asset-packs/v1/ui-build-reference-v1-002.zip",
       "category": "ui-build-reference",
-      "bytes": 23672945,
-      "sha256": "4c66f528da1429a5b80aa94cc93bc401217a455be6cbdea554c0e7155bea99e7",
+      "bytes": 23942242,
+      "sha256": "9e72acad92cedcbcad6fca1dab6a1058ae751f22de35cc632928fd51b535ad0e",
       "files": [
         {
           "path": "design-delivery/v2/05-mockups/battle-rank-indicator-v1.png",
@@ -7421,13 +7421,13 @@
         },
         {
           "path": "design-delivery/v2/05-mockups/battle-record-v1.png",
-          "bytes": 1132535,
-          "sha256": "ec79350e094784e053e6d6c1cbf89cd040e690880761958ba2216792194f6c21"
+          "bytes": 1170607,
+          "sha256": "ebac1ae84235b12a9c0d7367803bba6cbe8355d8f86b62e68b24032399544003"
         },
         {
           "path": "design-delivery/v2/05-mockups/battle-results-v1.png",
-          "bytes": 1279162,
-          "sha256": "9bb4d42daa4990b7279aecdb09b5e29c157b02ede3e6b8d988e97e6885341594"
+          "bytes": 1328198,
+          "sha256": "9ed708937bc88fe6c4c44e7f90fd0166e948e58d0a0440b58cdf76b34c7dc60a"
         },
         {
           "path": "design-delivery/v2/05-mockups/campaign-landmarks-v3.png",
@@ -7436,8 +7436,8 @@
         },
         {
           "path": "design-delivery/v2/05-mockups/campaign-selection-v4.png",
-          "bytes": 1411320,
-          "sha256": "cc0aaafa29010cb4d5087c086af4f9645c8f882590c7936563c137152b3755e1"
+          "bytes": 1442404,
+          "sha256": "6e089b17d5fd164f8127c72f6bba30d4495da382a1a1db7250fc95b51d828586"
         },
         {
           "path": "design-delivery/v2/05-mockups/codex-v1-mobile.png",
@@ -7486,8 +7486,8 @@
         },
         {
           "path": "design-delivery/v2/05-mockups/mail-v1.png",
-          "bytes": 1019572,
-          "sha256": "efdae78b5a9662e0b62de29e1a43fee71673b96162c7b727fe98a933859c5145"
+          "bytes": 1057440,
+          "sha256": "8113bf2d7726b716887cad9566e30a112d7113dbe2fe6c30e6e7ff54ad7d4ec3"
         },
         {
           "path": "design-delivery/v2/05-mockups/missions-v1-mobile.png",
@@ -7496,8 +7496,8 @@
         },
         {
           "path": "design-delivery/v2/05-mockups/missions-v1.png",
-          "bytes": 1037247,
-          "sha256": "2f3efe7e30209908196dbbab264bab04b376461160a4238e163c7403bd7edcea"
+          "bytes": 1073672,
+          "sha256": "020ecce3095e3701f313b55b210872b242ddc36ba09d615f4954ea8876e39fa7"
         },
         {
           "path": "design-delivery/v2/05-mockups/portraits-v1-mobile.png",
@@ -7511,8 +7511,8 @@
         },
         {
           "path": "design-delivery/v2/05-mockups/shop-recruitment-v1.png",
-          "bytes": 1465282,
-          "sha256": "8ed57662610ff61e4cd7b9504e4f5dfb2c2476f162101bba3e4195b17c6ab05b"
+          "bytes": 1542577,
+          "sha256": "c85a69ab48c3a6846e112f9116f2548c84856000091f9dcc9f833fcc13a7c7a0"
         },
         {
           "path": "design-delivery/v2/05-mockups/start-v1-mobile.png",
