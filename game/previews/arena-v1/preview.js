@@ -12,5 +12,5 @@ hero('1',264,317,932,'.duel-generals');hero('119',677,317,932,'.duel-generals');
 ['1','xuchu','32','35','diaochan','119'].forEach((id,i)=>hero(id,112+i*137,68,1163,'.formation-generals'));
 const toast=document.querySelector('.preview-status');let timer;
 game.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{clearTimeout(timer);toast.textContent=b.dataset.note??'군웅대전 디자인 시안입니다. 실제 저장은 변경하지 않습니다.';toast.hidden=false;timer=setTimeout(()=>toast.hidden=true,3300);}));
-const background=new Image();background.src='previews/arena-v1/courtyard.png';
+const background=new Image();background.src='assets/arena-v2/courtyard.png';
 await Promise.all([uiComponentsReady,...painting,background.decode(),...Array.from(document.images,i=>i.decode()),document.fonts.ready]);game.inert=false;game.setAttribute('aria-busy','false');

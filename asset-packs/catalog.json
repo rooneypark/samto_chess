@@ -795,287 +795,6 @@
       ]
     },
     {
-      "path": "asset-packs/v1/critical-cutins-v1-001.zip",
-      "category": "critical-cutins",
-      "bytes": 36440638,
-      "sha256": "b7f100f377da4894e3d906cdb8f1fed11debfcb837afe0c2c44ab6c5aab6628e",
-      "files": [
-        {
-          "path": "art-source/critical-cutins/v1/0/critical-v2.png",
-          "bytes": 1475647,
-          "sha256": "6cf95c4049e42c5db19df37ffe33686fb8790f398e1df749623d361ec60ac868"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/0/critical-v3.png",
-          "bytes": 1482796,
-          "sha256": "a3cbe303acc5151271c939a70332dfab7199fb507cf11615faf3d96274466920"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/0/critical.png",
-          "bytes": 1412883,
-          "sha256": "f383b54af3dec15451c003cb6dc52fb33174c214e6c1d95250aeb396ab407a60"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/1/critical.png",
-          "bytes": 842089,
-          "sha256": "61b619ab6e5492814bf31745947ad6aa46c9166aef947a518dc7136b25e7548f"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/119/critical-v2.png",
-          "bytes": 1080045,
-          "sha256": "67f13abce2908aa6c674b38586fd7447fffd39ad0d4dc280b2a6090b89a5e40d"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/119/critical.png",
-          "bytes": 1077192,
-          "sha256": "0b43b058d79d6a029bcfb939050480eae3743bc9454cd4b3275792eff3392760"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/15/critical.png",
-          "bytes": 935954,
-          "sha256": "b38438657163a836c7158560a9466d349ca35a71585e18ef657afda9ae7f3321"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/16/critical.png",
-          "bytes": 995003,
-          "sha256": "44c7687c180ba2ef257539653cc874d5de29c05c1749db9119aed22cd6f07cbb"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/2/critical.png",
-          "bytes": 936533,
-          "sha256": "3de61a1cc7a594a8a3437512f1a3ca1355aa622d02fe430a4df239af28b9e8b9"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/32/critical-v2.png",
-          "bytes": 929301,
-          "sha256": "44d6c1023268da813babe180c46669577018d7dee619c2088fb43b5937c81227"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/32/critical.png",
-          "bytes": 922407,
-          "sha256": "cc699aa6a1859eb9546b9616d3712f377fda742d660b9ef06758f27a02573cbe"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/33/critical.png",
-          "bytes": 964050,
-          "sha256": "c81d16489c2bb98e3e8cf8928152aebfd34153c228c060f8a51535f6cc20f359"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/34/critical.png",
-          "bytes": 953625,
-          "sha256": "585eafe7895141de1777197de281a3d9e63bce253a5ab7926006ee7a019bf559"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/35/critical.png",
-          "bytes": 878534,
-          "sha256": "0379a704f8f5034331bc0f342456c88a9a7d854eb45ce1ebad0fec777561c290"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/77/critical.png",
-          "bytes": 953392,
-          "sha256": "e93e485217fa0d37feb2737c89efb25fef2b4c61fe0cd22ebf5dc25b1f4fc525"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/archer/critical.png",
-          "bytes": 1042160,
-          "sha256": "c511fb7b45638d5c445c29ee476f0ffdfd6bd12b7fa12c4846073ca48d51f45b"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/caohong/critical.png",
-          "bytes": 1136427,
-          "sha256": "b670b0f68196dfd5b6da3e45ca2948364412169f4a5258021b42b889d3a225b3"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/dianwei/critical.png",
-          "bytes": 1503012,
-          "sha256": "928897b5ca33d1805b7fd0ca0bad7c9ad4449ac7336cbaf4f72fc9a31153ac00"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/diaochan/critical.png",
-          "bytes": 974535,
-          "sha256": "5b29083d7a4ee982d506a68b4ceca1616df19002904633ae258d391591d38580"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/dingfeng/critical.png",
-          "bytes": 870317,
-          "sha256": "6013e134f51bd41c819e49ec816be8934e6b31625fe1682fc032b0ca8df244f8"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/dongzhuo/critical.png",
-          "bytes": 996050,
-          "sha256": "4ed3a647a481f573fb5105714bd45cd862d5488b7b65eab80416d148dde75fc0"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/ganning/critical.png",
-          "bytes": 1516309,
-          "sha256": "4fc03eac979586f0ca0bc3e80d33976c1ef96b0443bcd5c21d9dfb644adb462a"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/gongsunzan/critical.png",
-          "bytes": 915509,
-          "sha256": "3a013e026123b97279294ada85a5cac84477358330a6e87d2f28dc1258d31add"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/guojia/critical.png",
-          "bytes": 800224,
-          "sha256": "c3440e55966aa5439cfa95251d210840c53ca5f229e074ef1e5672e929256fcf"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/huanggai/critical.png",
-          "bytes": 1076426,
-          "sha256": "2facb4fb33fa32ee8543ff7ee7a1fb805441d1dcef7fd60250edf9c67d919772"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/huatuo/critical.png",
-          "bytes": 1346281,
-          "sha256": "8148eec0fa98fa244fdf043f1a720153f73d20cb2965fa39c241622cd846c26a"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/huaxiong/critical.png",
-          "bytes": 993781,
-          "sha256": "e004a76c9916706c0cca08f98d4fc9ae484a537e166f51ee39752a28c68269d5"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/infantry/critical.png",
-          "bytes": 1000525,
-          "sha256": "26ed7cf3540ed243d31f622a268495d231602d17be4c9512f1ef7e6ad4588ecd"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/jiangwei/critical.png",
-          "bytes": 1003353,
-          "sha256": "84bb6e5888ff3096aaf928cc0f87c0e7ae884edee7fa0548640dfc09c3031ed9"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/liaohua/critical.png",
-          "bytes": 886732,
-          "sha256": "05d639fa5d156071d2f093ffa46936bc65cd48913cba666b1dee3997a560234a"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/lumeng/critical.png",
-          "bytes": 899538,
-          "sha256": "46e570db0dc5e24d1681178af711f6ec1d0f088659a4a71eba04bb031e9d1aca"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/lusu/critical.png",
-          "bytes": 788493,
-          "sha256": "ab38031a79a776b53023fdeb1c77ee6ad7fc9c8170c1d2b6210d945faf9f4985"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/luxun/critical.png",
-          "bytes": 1352265,
-          "sha256": "9527d072f2d4ccde5c78f8fecbbafdbe997240dc9cf27b543bc843e3f8ab4003"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/machao/critical.png",
-          "bytes": 1018718,
-          "sha256": "2457f5b0596d88ef159ff1a90edc7e7d296d13d4d769f39bb730c07a74209c02"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/pangtong/critical.png",
-          "bytes": 923518,
-          "sha256": "b8a3dcb8c91317378317d8f008c036b98179d5fb52c1732506b1b71c660f8e30"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/panzhang/critical.png",
-          "bytes": 985306,
-          "sha256": "6986e98022043c0a7ae42686f5e058e2aabddbf1f21407c90cf784791a2eeef2"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/simayi/critical.png",
-          "bytes": 780923,
-          "sha256": "33969e244212fbf2d10fb42000722f6af75041b95b113d04866d36b4fd629854"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/sunce/critical.png",
-          "bytes": 1024017,
-          "sha256": "84c150dc416014ecd07b7d67fb5c2430350bf105e83a27100113be344e4bc985"
-        }
-      ]
-    },
-    {
-      "path": "asset-packs/v1/critical-cutins-v1-002.zip",
-      "category": "critical-cutins",
-      "bytes": 14057745,
-      "sha256": "a8321fb596d83d45b6db332cc923e81b3dd9bb43da5acdf00af62c26c0f84b15",
-      "files": [
-        {
-          "path": "art-source/critical-cutins/v1/sunquan/critical.png",
-          "bytes": 895189,
-          "sha256": "3fd015e9f1d5e20d724b7631a2e1dc6c5dbf8c6ab037f5ce228438a28a9aadf8"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/sunshangxiang/critical.png",
-          "bytes": 834308,
-          "sha256": "632d725a5ef84725796bc882f45b1088ebc59b55941156ff248789483ca9ad0a"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/tactician/critical.png",
-          "bytes": 767909,
-          "sha256": "576a1f45f5de28232781433fd77d7568edba8cbba3ea2bc5c7df968f267f3756"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/taishici/critical.png",
-          "bytes": 1081309,
-          "sha256": "3d823fd27c197c74b799b128181e2dfb624716fbc2156780a7c46fc05cbbd9ea"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/weiyan/critical.png",
-          "bytes": 1024659,
-          "sha256": "c41c90441e2f18d8af09dd682d23bd3b16cda501ead38fc0d7faeb5826a4cbc9"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/wenchou/critical.png",
-          "bytes": 936786,
-          "sha256": "83b1917d3d85be583e72c13ad92711dbd6293fc1a05e3f484700d086001e26be"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/xiahouyuan/critical.png",
-          "bytes": 1084985,
-          "sha256": "2bd6019ef61d5fa311b9c3e400895d848b1914de1f5ed62d09a88886c0c70e54"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/xuchu/critical.png",
-          "bytes": 1034139,
-          "sha256": "96b4717530e28fb21fb201947804f4985fb6d76ea8688c250eba906159d3bffe"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/xuhuang/critical.png",
-          "bytes": 1049436,
-          "sha256": "9370aed88ad5dcb3ff4136f98cbc93cb064c1645c77ffe15f6f9b5d26007e339"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/xunyu/critical.png",
-          "bytes": 832912,
-          "sha256": "9984f02e3db7ce860b621dfdc9c3e373dc8ac1b00223e4a19cac4c2ba9d1fcba"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/yanliang/critical.png",
-          "bytes": 1021333,
-          "sha256": "c19a6220c0ee5fde5cfaeef05b3f8788a262357aab0798f1961084c93db63b50"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/yuanshao/critical.png",
-          "bytes": 1531142,
-          "sha256": "fac8de3c63c7a82f2b495dbec022e3a11c6b6edbeeed3040e20d15bfedc725d6"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/yuejin/critical.png",
-          "bytes": 1009623,
-          "sha256": "660cd608c10e12119aef988279938cc33939c4b132f0f8f3d288200b12769fe7"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/zhangjue/critical.png",
-          "bytes": 892805,
-          "sha256": "881a31e483905e8e87b30a17b2a059adaca9990a2ae4b02211f134845916fab2"
-        },
-        {
-          "path": "art-source/critical-cutins/v1/zhoucang/critical.png",
-          "bytes": 1352517,
-          "sha256": "9ee006e6ac06cf679bfba495aa6dffa8bffa9463f7d4bc15ecaa4d83061ce7ae"
-        }
-      ]
-    },
-    {
       "path": "asset-packs/v1/motions-15-v1-001.zip",
       "category": "motions-15",
       "bytes": 639049,
@@ -7509,8 +7228,8 @@
     {
       "path": "asset-packs/v1/ui-build-reference-v1-001.zip",
       "category": "ui-build-reference",
-      "bytes": 38175512,
-      "sha256": "caa131c844232e5b9763bb2ee5e24ce62638255950754864cc082fc879793e08",
+      "bytes": 37742420,
+      "sha256": "c828a67980c59ee433632b56d3e4f5c2a13a66ced8d10c5d424c53f9877f93f5",
       "files": [
         {
           "path": "art-source/ui-build/v1/battle-sprites/1-back.png",
@@ -7618,64 +7337,9 @@
           "sha256": "9ef732d6ca410772783836541515514b4919c9454dd563a98076c07010211eb2"
         },
         {
-          "path": "design-delivery/v2/05-mockups/approved-runtime/barracks-390.png",
-          "bytes": 386331,
-          "sha256": "89854a4e880bf88430f000f0c130d03b397262cbd2fe7b0c63c9a33b735bddfc"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/approved-runtime/barracks-941.png",
-          "bytes": 1717693,
-          "sha256": "2979c944a9038f876f872e5397909f5113ec87e3ea73769271cf7ff695a6fc82"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/approved-runtime/battle-390.png",
-          "bytes": 442510,
-          "sha256": "91cf31d774f62c5c5f1f4ed0e5d3630233b9e8974f14a983be771213493ec16b"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/approved-runtime/battle-941.png",
-          "bytes": 2038494,
-          "sha256": "b1e9bfd611d977b1fa30bfedd9499aa68c51b933cbb3295373c4ee32ccab5023"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/approved-runtime/home-390.png",
-          "bytes": 498881,
-          "sha256": "14d8b2d9fa40e91d2860625939e229562df5b7215a89de353cc10a41f39a0fc0"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/approved-runtime/home-941.png",
-          "bytes": 2322154,
-          "sha256": "02164a4d690e4c864c09400320eee5a17cb3f9c7c64b8adadb269b46771e9f28"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/approved-runtime/shop-390.png",
-          "bytes": 315824,
-          "sha256": "f8015f1c3db71abf3a66264dc72bcb67747a64a65153242a9016d71a1a52a8b8"
-        },
-        {
           "path": "design-delivery/v2/05-mockups/approved-runtime/shop-941.png",
           "bytes": 1397410,
           "sha256": "bfda61f5787509368c62b3685a2fcb9bdfcc49c7c5236ba78a499915728bddbd"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/arena-history-v1-mobile.png",
-          "bytes": 185272,
-          "sha256": "5d081c7ac357bfc4f737e37402acb7e2766a6daa8ca613988d0bacdf8b97bfe7"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/arena-opponents-v1-mobile.png",
-          "bytes": 230690,
-          "sha256": "c06298e1e2888d3584115311fc122ba27673d254a77b5a748f38d8875d6f3cfc"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/arena-ranking-v1-mobile.png",
-          "bytes": 185461,
-          "sha256": "5a00d830d4b874b9b7f4d84dfaf0d4de82d59b207389eb0b22fcab99d37079ee"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/arena-season-v1-mobile.png",
-          "bytes": 227129,
-          "sha256": "537b9a019a5236c2d9e4b34526ec853de2d75b9be1216e1f1273e96e645e0af6"
         },
         {
           "path": "design-delivery/v2/05-mockups/arena-versus-v1.png",
@@ -7701,15 +7365,7 @@
           "path": "design-delivery/v2/05-mockups/battle-preparation-v1.png",
           "bytes": 2386347,
           "sha256": "457630f07c492508ba1554607026fed767747d34353d68dd5390a57e6585f389"
-        }
-      ]
-    },
-    {
-      "path": "asset-packs/v1/ui-build-reference-v1-002.zip",
-      "category": "ui-build-reference",
-      "bytes": 34698490,
-      "sha256": "f93cccaec8a4c4daea38f48b604479ed6db9f25d727c93b1b40a5c1e936f3afd",
-      "files": [
+        },
         {
           "path": "design-delivery/v2/05-mockups/battle-rank-indicator-v1.png",
           "bytes": 2136963,
@@ -7736,11 +7392,6 @@
           "sha256": "5ac52d94d4b5bf505c4565bdac9f80e930e7418dbc2843a835130587a403e30a"
         },
         {
-          "path": "design-delivery/v2/05-mockups/campaign-selection-v4-chapter3.png",
-          "bytes": 1411511,
-          "sha256": "e1d1c9cb15dd4e6591e769b7f9e2fe04f28b49e2d9d93e8f79d0bc6643768b1f"
-        },
-        {
           "path": "design-delivery/v2/05-mockups/campaign-selection-v4.png",
           "bytes": 1411320,
           "sha256": "cc0aaafa29010cb4d5087c086af4f9645c8f882590c7936563c137152b3755e1"
@@ -7756,25 +7407,18 @@
           "sha256": "3a9a6041654d2ec7e0148c7ebb925c22934ba8c128d6749b06692297621d93b1"
         },
         {
-          "path": "design-delivery/v2/05-mockups/dialog-v1-mobile.png",
-          "bytes": 127981,
-          "sha256": "2669918939d5501e16404c7767d71c4c2770ba3a0de38b0a29b0b3c0d48ada01"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/exchange-v1-mobile.png",
-          "bytes": 227696,
-          "sha256": "00499037c9275f6755649b9d53f73ac72cd3213e90eef7e66d38977bf5187885"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/exchange-v1.png",
-          "bytes": 948733,
-          "sha256": "10961a36870979a541d2aa940fee5a2a9a96e124e3f21652e47327a7de1f25a6"
-        },
-        {
           "path": "design-delivery/v2/05-mockups/expedition-v1-mobile.png",
           "bytes": 237919,
           "sha256": "2afb4798e6f197ecd856ccf5d78a3a6a93b67c620add8368b41d208de3fdd251"
-        },
+        }
+      ]
+    },
+    {
+      "path": "asset-packs/v1/ui-build-reference-v1-002.zip",
+      "category": "ui-build-reference",
+      "bytes": 15557236,
+      "sha256": "ee47e7866d6566a481f517cec8d9320e18384146d237faa6ed3cf014b26dd8f1",
+      "files": [
         {
           "path": "design-delivery/v2/05-mockups/expedition-v1.png",
           "bytes": 1004912,
@@ -7811,11 +7455,6 @@
           "sha256": "efdae78b5a9662e0b62de29e1a43fee71673b96162c7b727fe98a933859c5145"
         },
         {
-          "path": "design-delivery/v2/05-mockups/merit-shop-v1-mobile.png",
-          "bytes": 228187,
-          "sha256": "8a33b3d5c08fa34cab59520dec78e74d74d8d01a561a280903079778d50dcf2b"
-        },
-        {
           "path": "design-delivery/v2/05-mockups/missions-v1-mobile.png",
           "bytes": 231122,
           "sha256": "33c01927e37fd7542ca42c4021acdccabe80731f6e5b807da9811f87d37595a9"
@@ -7826,16 +7465,6 @@
           "sha256": "2f3efe7e30209908196dbbab264bab04b376461160a4238e163c7403bd7edcea"
         },
         {
-          "path": "design-delivery/v2/05-mockups/pickup-rates-v1-mobile.png",
-          "bytes": 221678,
-          "sha256": "af4cff5becdd92dc24fa47bee175d14e9f8a40c34197f11e7bb5b9a54b30640c"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/pickup-rates-v1.png",
-          "bytes": 907684,
-          "sha256": "25916a578f4460b7169a2382fd4bab734be2af53333f91ce1d0ba6c22e015df4"
-        },
-        {
           "path": "design-delivery/v2/05-mockups/portraits-v1-mobile.png",
           "bytes": 246815,
           "sha256": "555f07e5b8a56610e9e18cb8c6eeafa3431b0e013cb0e87a9ec649ff3271b260"
@@ -7844,46 +7473,6 @@
           "path": "design-delivery/v2/05-mockups/portraits-v1.png",
           "bytes": 1019049,
           "sha256": "9736ad613d0cac34f282a938315885eafeae84e6fbeada91f796e013574c127b"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/products-v1-mobile.png",
-          "bytes": 219680,
-          "sha256": "31f39a53c966d59ada354e1803035f9ee38c6cdac1099313db6ca2f89a6fe3e6"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/products-v1.png",
-          "bytes": 890824,
-          "sha256": "99a02f7d0ac0cea57cd5dae08e1170a3e68a1424778b4ef7a57e43a34d749347"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/rates-v1-mobile.png",
-          "bytes": 221599,
-          "sha256": "7fa26071975c6378d21dea2ca63857ec0c8855bd1d9fc325fc4211d1a10a7780"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/rates-v1.png",
-          "bytes": 903730,
-          "sha256": "595f938be89377c2845076979185b894fca81c1217afa19a996ab32c40bca0af"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/recruit-results-v1-mobile.png",
-          "bytes": 234782,
-          "sha256": "f8f70c10e2309254a8e225b950e348bc26679fc9f5c47b7dab1cd8878a31fd2e"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/recruit-results-v1.png",
-          "bytes": 929857,
-          "sha256": "7c846b9b53a4fde376bb28237e79752e520425a1a01a1cd0862be5aa0c9b249b"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/s-select-v1-mobile.png",
-          "bytes": 239422,
-          "sha256": "da6a4536f201249f999dda0400e92d9a3845ef1b3fc695ae08b0729a89532766"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/s-select-v1.png",
-          "bytes": 992739,
-          "sha256": "7e4ecdf434ad860ddb5bc4a9ef8d5c749e3a901564074b98abf63263a6afa5f3"
         },
         {
           "path": "design-delivery/v2/05-mockups/shop-recruitment-v1.png",
@@ -7901,21 +7490,6 @@
           "sha256": "89043847ae48022cb0a0d748c0de1735ecf7766c4dfe4d57ec0eabe27d1b1a67"
         },
         {
-          "path": "design-delivery/v2/05-mockups/strategy-v1-mobile.png",
-          "bytes": 217520,
-          "sha256": "8629994676671d599d06762c8bddf97b09d3172dbdd162917aea5e6cd9cb24d9"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/strategy-v1.png",
-          "bytes": 890218,
-          "sha256": "f06a40f59659efe92231744e37450766489ddf12f1196cacdff8dbba7b8a25f4"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/toast-v1-mobile.png",
-          "bytes": 200565,
-          "sha256": "7b4111f0b6a523869a8a7e14b0783cdfc2f5f47599fe09d354db496b695b730f"
-        },
-        {
           "path": "design-delivery/v2/05-mockups/tower-v1-mobile.png",
           "bytes": 224868,
           "sha256": "17bbed3210f9d3db246dfd6c75079e6ae99e7e2147309a1d1f4fce14c4c5a01f"
@@ -7924,16 +7498,6 @@
           "path": "design-delivery/v2/05-mockups/tower-v1.png",
           "bytes": 941513,
           "sha256": "1a89a9cdafbe91dd20e5eb56856f04b69aec18ec9ac5f9b706e6cfa9373cd4f9"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/treasure-results-v1-mobile.png",
-          "bytes": 213557,
-          "sha256": "c3a8ac41b04913dcd5eef94add9bada869fcfd2876c12a4ffbcafc3a4e2d5795"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/treasure-results-v1.png",
-          "bytes": 836264,
-          "sha256": "462ad37adbd3a37fc204bcf3659efb5f877e52d7f8f120d883dce68dd20fc60b"
         },
         {
           "path": "design-delivery/v2/06-components/scroll/paper-repair-source.png",
@@ -7945,59 +7509,9 @@
     {
       "path": "asset-packs/v1/ui-previews-v1-001.zip",
       "category": "ui-previews",
-      "bytes": 19541430,
-      "sha256": "3ec34de90e1d86254e322eee60b417c3a85dd903d398deb59b797e65a9cdf4cd",
+      "bytes": 6276679,
+      "sha256": "932e79f65fe0ef50560366cfa9ce579cdac799ed870e70138876b8c891f76218",
       "files": [
-        {
-          "path": "game/previews/alliance-v1/headquarters.png",
-          "bytes": 2041088,
-          "sha256": "ccb88a1927d83ad15384cd81ab0f5af93fc34425c647aa21fa75a4e4a95bd7d9"
-        },
-        {
-          "path": "game/previews/arena-v1/courtyard.png",
-          "bytes": 2271871,
-          "sha256": "200150a5325dcd72ed1991c3a80c95c501bb19ec197eb0afc9984e704599628b"
-        },
-        {
-          "path": "game/previews/campaign-v1/map.png",
-          "bytes": 2760349,
-          "sha256": "2c4a23fa2826c93eb6fd92b10b1c1a78e5d856423b59afc718ddb224eb52ffc3"
-        },
-        {
-          "path": "game/previews/campaign-v3/assets/hulao-gate.png",
-          "bytes": 389272,
-          "sha256": "590f729d6256b6e2c2e145dbcec8576255399a378bc2ba75d563d9efcb206ddd"
-        },
-        {
-          "path": "game/previews/campaign-v3/assets/sishui-wall.png",
-          "bytes": 814116,
-          "sha256": "42f7c7e5d9d9309a28a9d2aa3030e5a5182b7b252303366e2882036235e40277"
-        },
-        {
-          "path": "game/previews/campaign-v3/assets/yellow-camp.png",
-          "bytes": 412374,
-          "sha256": "3d9a715505d1fa61bfb190b8d2bacc0ccc22b8130aa8faef5ca10ac7bdf17088"
-        },
-        {
-          "path": "game/previews/campaign-v4/assets/hulao-gate-cleared.png",
-          "bytes": 313469,
-          "sha256": "4c9ae9e8982f7e35cf90edc30a31480851009919568490f907c1f7c626f9f810"
-        },
-        {
-          "path": "game/previews/campaign-v4/assets/sishui-wall-cleared.png",
-          "bytes": 746964,
-          "sha256": "17ca47b25ee99b9bd10e9165ed1600914548b879e0ad9253f1321dc3f5b2ce49"
-        },
-        {
-          "path": "game/previews/campaign-v4/assets/yellow-camp-cleared.png",
-          "bytes": 327996,
-          "sha256": "4784a5f70a03f7c2c6e044ea22abaf2ed21797318558e0d430fc1eadf46f0c47"
-        },
-        {
-          "path": "game/previews/government-v3/assets/town-zoned.png",
-          "bytes": 1856007,
-          "sha256": "87d6a5909ee775ab049da0d630dc82fd82ab0cdf3b616fd968e0def7eb1d983a"
-        },
         {
           "path": "game/previews/motion-v1/assets/guan-skill-cutin-v2.png",
           "bytes": 842089,
@@ -8279,19 +7793,9 @@
           "sha256": "e1b8962eae800b192944352701209b2bcc8106a005d06005fbe99c2c183e7a66"
         },
         {
-          "path": "game/previews/shop-v1/coin.png",
-          "bytes": 5354,
-          "sha256": "fa5ff98603b1530dce19daaee4fe9986d3d8c08d322f622a28179158f9859467"
-        },
-        {
           "path": "game/previews/shop-v1/gem-pressed.png",
           "bytes": 4830,
           "sha256": "d74e655c7d4bf2649b3fe5a7359a52dfc45781c62adcaf428cef3fbef244cdd2"
-        },
-        {
-          "path": "game/previews/shop-v1/gem.png",
-          "bytes": 5179,
-          "sha256": "db971713745432a0d8cf17cf66eb2f731aaa31d41f7dcff50cf604380d93f5ec"
         },
         {
           "path": "game/previews/shop-v1/nav-shop-selected-pressed.png",
@@ -8302,11 +7806,6 @@
           "path": "game/previews/shop-v1/nav-shop-selected.png",
           "bytes": 64443,
           "sha256": "d19b68a26bae75b390a1308c95004ad89969a5b260e9177f3f78d820476c08c3"
-        },
-        {
-          "path": "game/previews/shop-v1/recruitment-hall.png",
-          "bytes": 2157208,
-          "sha256": "68fa41b39eb932d98d6f0b9169d5c4ee8daef9254ef00fd0da5cdf86f1f2d34b"
         },
         {
           "path": "game/previews/shop-v1/shop-content-pressed.png",

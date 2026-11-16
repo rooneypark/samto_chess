@@ -28,5 +28,5 @@ game.querySelectorAll('[data-currency]').forEach(b=>b.addEventListener('click',(
  game.querySelectorAll('[data-currency]').forEach(el=>{const selected=el===b;skin(el,'currency-'+(selected?'green':'blue'));el.setAttribute('aria-pressed',String(selected));});
  game.querySelectorAll('[data-count]').forEach(el=>el.querySelector('span').textContent=((gold?300:100)*Number(el.dataset.count)).toLocaleString()+' '+(gold?'골드':'다이아'));
 }));
-await Promise.all([uiComponentsReady,preloadArtwork(['recruitment-hall','nav-shop-selected','coin','gem'].map(id=>base+id+'.png')),Promise.all([...document.images].map(i=>i.decode())),document.fonts.ready,...pending]);
+await Promise.all([uiComponentsReady,preloadArtwork([base+'nav-shop-selected.png',...['recruitment-hall','coin','gem'].map(id=>'assets/shop-v2/'+id+'.png')]),Promise.all([...document.images].map(i=>i.decode())),document.fonts.ready,...pending]);
 game.inert=false;game.setAttribute('aria-busy','false');

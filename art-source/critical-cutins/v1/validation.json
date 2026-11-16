@@ -11,7 +11,7 @@
       "name": "관우",
       "faction": "촉",
       "file": "assets/1.webp",
-      "source": "art-source\\critical-cutins\\v1\\1\\critical.png",
+      "source": "game/assets/skill-cutins/1.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -22,14 +22,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 881950,
-      "sha256": "61b619ab6e5492814bf31745947ad6aa46c9166aef947a518dc7136b25e7548f"
+      "sha256": "d9cc8bbf82faca07ca0fc681e4eec7ffc730aaad774d387ef3b37a7e0ca01e74"
     },
     {
       "id": "2",
       "name": "장비",
       "faction": "촉",
       "file": "assets/2.webp",
-      "source": "art-source\\critical-cutins\\v1\\2\\critical.png",
+      "source": "game/assets/skill-cutins/2.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -40,14 +40,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 887991,
-      "sha256": "3de61a1cc7a594a8a3437512f1a3ca1355aa622d02fe430a4df239af28b9e8b9"
+      "sha256": "5eded26608f138d333f535d541a6044a5b21c5a280d64e6bfbfe01eff9459862"
     },
     {
       "id": "15",
       "name": "조운",
       "faction": "촉",
       "file": "assets/15.webp",
-      "source": "art-source\\critical-cutins\\v1\\15\\critical.png",
+      "source": "game/assets/skill-cutins/15.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -58,14 +58,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 900057,
-      "sha256": "b38438657163a836c7158560a9466d349ca35a71585e18ef657afda9ae7f3321"
+      "sha256": "2cdbdd5309116b3338bdff011c780c6f93a05b51666153f6f68382329437a225"
     },
     {
       "id": "16",
       "name": "황충",
       "faction": "촉",
       "file": "assets/16.webp",
-      "source": "art-source\\critical-cutins\\v1\\16\\critical.png",
+      "source": "game/assets/skill-cutins/16.webp",
       "width": 1672,
       "height": 941,
       "alphaBounds": [
@@ -76,14 +76,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 837620,
-      "sha256": "44c7687c180ba2ef257539653cc874d5de29c05c1749db9119aed22cd6f07cbb"
+      "sha256": "d86284597d317a620d918f51455bbc673cc19cf55679a00af7de75a0e7e4f07a"
     },
     {
       "id": "35",
       "name": "제갈량",
       "faction": "촉",
       "file": "assets/35.webp",
-      "source": "art-source\\critical-cutins\\v1\\35\\critical.png",
+      "source": "game/assets/skill-cutins/35.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -94,14 +94,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 869086,
-      "sha256": "0379a704f8f5034331bc0f342456c88a9a7d854eb45ce1ebad0fec777561c290"
+      "sha256": "5699eaa145e79241af67723283dee0d80a7a4cb6c389724365e65cd5a8880ed0"
     },
     {
       "id": "0",
       "name": "유비",
       "faction": "촉",
       "file": "assets/0.webp",
-      "source": "art-source\\critical-cutins\\v1\\0\\critical-v3.png",
+      "source": "game/assets/skill-cutins/0.webp",
       "width": 1536,
       "height": 1024,
       "alphaBounds": [
@@ -112,14 +112,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 867637,
-      "sha256": "a3cbe303acc5151271c939a70332dfab7199fb507cf11615faf3d96274466920"
+      "sha256": "c43c7dde7a38c25e6d4dee7de20d64f0f7db4f68189e80cbe58afd718d71129c"
     },
     {
       "id": "32",
       "name": "조조",
       "faction": "위",
       "file": "assets/32.webp",
-      "source": "art-source\\critical-cutins\\v1\\32\\critical-v2.png",
+      "source": "game/assets/skill-cutins/32.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -130,14 +130,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 871248,
-      "sha256": "44d6c1023268da813babe180c46669577018d7dee619c2088fb43b5937c81227"
+      "sha256": "0ec2e02045f12d7c8e989cb42decea4f589831c6f873813b3d7a2b1a6e5f3c5a"
     },
     {
       "id": "33",
       "name": "하후돈",
       "faction": "위",
       "file": "assets/33.webp",
-      "source": "art-source\\critical-cutins\\v1\\33\\critical.png",
+      "source": "game/assets/skill-cutins/33.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -148,14 +148,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 859763,
-      "sha256": "c81d16489c2bb98e3e8cf8928152aebfd34153c228c060f8a51535f6cc20f359"
+      "sha256": "fad650ceb4086f10dfd0a71867714afce98b21f4aa2fc3ee0f70f053199b0f95"
     },
     {
       "id": "34",
       "name": "장료",
       "faction": "위",
       "file": "assets/34.webp",
-      "source": "art-source\\critical-cutins\\v1\\34\\critical.png",
+      "source": "game/assets/skill-cutins/34.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -166,14 +166,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 905800,
-      "sha256": "585eafe7895141de1777197de281a3d9e63bce253a5ab7926006ee7a019bf559"
+      "sha256": "41168e68a51fc17711f7cf0ce4cef105a03507572aaf75ed55dc2ce1e7b4bda1"
     },
     {
       "id": "77",
       "name": "주유",
       "faction": "오",
       "file": "assets/77.webp",
-      "source": "art-source\\critical-cutins\\v1\\77\\critical.png",
+      "source": "game/assets/skill-cutins/77.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -184,14 +184,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 944035,
-      "sha256": "e93e485217fa0d37feb2737c89efb25fef2b4c61fe0cd22ebf5dc25b1f4fc525"
+      "sha256": "551b74dd54c122f213649a6c385e013d02e5cbc9721a6c44404daa070abe4cbd"
     },
     {
       "id": "119",
       "name": "여포",
       "faction": "군웅",
       "file": "assets/119.webp",
-      "source": "art-source\\critical-cutins\\v1\\119\\critical-v2.png",
+      "source": "game/assets/skill-cutins/119.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -202,14 +202,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 832184,
-      "sha256": "67f13abce2908aa6c674b38586fd7447fffd39ad0d4dc280b2a6090b89a5e40d"
+      "sha256": "ff893d8de6f7e29c5afe740d73399df11d19041dc1ca41f84ec332de858225e4"
     },
     {
       "id": "infantry",
       "name": "의용보병",
       "faction": "군웅",
       "file": "assets/infantry.webp",
-      "source": "art-source\\critical-cutins\\v1\\infantry\\critical.png",
+      "source": "game/assets/skill-cutins/infantry.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -220,14 +220,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 919468,
-      "sha256": "26ed7cf3540ed243d31f622a268495d231602d17be4c9512f1ef7e6ad4588ecd"
+      "sha256": "c7739f3923ba573124a023bb5df35cba4deab41bf1d27226c059111b4b130fc2"
     },
     {
       "id": "archer",
       "name": "의용궁병",
       "faction": "군웅",
       "file": "assets/archer.webp",
-      "source": "art-source\\critical-cutins\\v1\\archer\\critical.png",
+      "source": "game/assets/skill-cutins/archer.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -238,14 +238,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 826171,
-      "sha256": "c511fb7b45638d5c445c29ee476f0ffdfd6bd12b7fa12c4846073ca48d51f45b"
+      "sha256": "787fc237bc59ac4726741ded79de08100f888cb783b252e9a8fca1fa73daad0f"
     },
     {
       "id": "tactician",
       "name": "군영참모",
       "faction": "군웅",
       "file": "assets/tactician.webp",
-      "source": "art-source\\critical-cutins\\v1\\tactician\\critical.png",
+      "source": "game/assets/skill-cutins/tactician.webp",
       "width": 1716,
       "height": 917,
       "alphaBounds": [
@@ -256,14 +256,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 1012254,
-      "sha256": "576a1f45f5de28232781433fd77d7568edba8cbba3ea2bc5c7df968f267f3756"
+      "sha256": "401a561aaf67c9ce470488c3483e9765701a7698c8db93dd5049b40335ff401b"
     },
     {
       "id": "simayi",
       "name": "사마의",
       "faction": "위",
       "file": "assets/simayi.webp",
-      "source": "art-source\\critical-cutins\\v1\\simayi\\critical.png",
+      "source": "game/assets/skill-cutins/simayi.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -274,14 +274,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 906597,
-      "sha256": "33969e244212fbf2d10fb42000722f6af75041b95b113d04866d36b4fd629854"
+      "sha256": "3f8c6a92435518ba06c5156fb8be748499b82af7eea9e9d50ce944d66530b8ee"
     },
     {
       "id": "dianwei",
       "name": "전위",
       "faction": "위",
       "file": "assets/dianwei.webp",
-      "source": "art-source\\critical-cutins\\v1\\dianwei\\critical.png",
+      "source": "game/assets/skill-cutins/dianwei.webp",
       "width": 1536,
       "height": 1024,
       "alphaBounds": [
@@ -292,14 +292,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 818797,
-      "sha256": "928897b5ca33d1805b7fd0ca0bad7c9ad4449ac7336cbaf4f72fc9a31153ac00"
+      "sha256": "dbecf56934657a528c037547e1e2e42fefe49e797ba03d464efbe33865f73f92"
     },
     {
       "id": "guojia",
       "name": "곽가",
       "faction": "위",
       "file": "assets/guojia.webp",
-      "source": "art-source\\critical-cutins\\v1\\guojia\\critical.png",
+      "source": "game/assets/skill-cutins/guojia.webp",
       "width": 1582,
       "height": 994,
       "alphaBounds": [
@@ -310,14 +310,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 992294,
-      "sha256": "c3440e55966aa5439cfa95251d210840c53ca5f229e074ef1e5672e929256fcf"
+      "sha256": "4b48f4a375868e8e86564c341e9514bd2bb17c7567d286e46035bf3c26288e7d"
     },
     {
       "id": "xuchu",
       "name": "허저",
       "faction": "위",
       "file": "assets/xuchu.webp",
-      "source": "art-source\\critical-cutins\\v1\\xuchu\\critical.png",
+      "source": "game/assets/skill-cutins/xuchu.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -328,14 +328,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 828301,
-      "sha256": "96b4717530e28fb21fb201947804f4985fb6d76ea8688c250eba906159d3bffe"
+      "sha256": "b4cd61e3c4a6ada516d1de100b87da5196c58526a038c67c0a93894073a81e55"
     },
     {
       "id": "xiahouyuan",
       "name": "하후연",
       "faction": "위",
       "file": "assets/xiahouyuan.webp",
-      "source": "art-source\\critical-cutins\\v1\\xiahouyuan\\critical.png",
+      "source": "game/assets/skill-cutins/xiahouyuan.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -346,14 +346,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 785381,
-      "sha256": "2bd6019ef61d5fa311b9c3e400895d848b1914de1f5ed62d09a88886c0c70e54"
+      "sha256": "e5c6a023ca5c1901ef3008132797efd7299d9c369aea29a3e7a180da51445389"
     },
     {
       "id": "xuhuang",
       "name": "서황",
       "faction": "위",
       "file": "assets/xuhuang.webp",
-      "source": "art-source\\critical-cutins\\v1\\xuhuang\\critical.png",
+      "source": "game/assets/skill-cutins/xuhuang.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -364,14 +364,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 834121,
-      "sha256": "9370aed88ad5dcb3ff4136f98cbc93cb064c1645c77ffe15f6f9b5d26007e339"
+      "sha256": "bebbd35029aa0af2afffa130fa794aaf69a2d79928587994fda8a211d86ec19f"
     },
     {
       "id": "xunyu",
       "name": "순욱",
       "faction": "위",
       "file": "assets/xunyu.webp",
-      "source": "art-source\\critical-cutins\\v1\\xunyu\\critical.png",
+      "source": "game/assets/skill-cutins/xunyu.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -382,14 +382,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 999606,
-      "sha256": "9984f02e3db7ce860b621dfdc9c3e373dc8ac1b00223e4a19cac4c2ba9d1fcba"
+      "sha256": "5fcf2f7ecf4db193b52a2fe0067d2d5604eca50c3a1caf2bf2374308e9d215f0"
     },
     {
       "id": "yuejin",
       "name": "악진",
       "faction": "위",
       "file": "assets/yuejin.webp",
-      "source": "art-source\\critical-cutins\\v1\\yuejin\\critical.png",
+      "source": "game/assets/skill-cutins/yuejin.webp",
       "width": 1570,
       "height": 1001,
       "alphaBounds": [
@@ -400,14 +400,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 856698,
-      "sha256": "660cd608c10e12119aef988279938cc33939c4b132f0f8f3d288200b12769fe7"
+      "sha256": "5c6baf317c0b1287c9e3911eac1ea5fbca6902ce2b6fc9d2b76ea74c84e36818"
     },
     {
       "id": "caohong",
       "name": "조홍",
       "faction": "위",
       "file": "assets/caohong.webp",
-      "source": "art-source\\critical-cutins\\v1\\caohong\\critical.png",
+      "source": "game/assets/skill-cutins/caohong.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -418,14 +418,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 748305,
-      "sha256": "b670b0f68196dfd5b6da3e45ca2948364412169f4a5258021b42b889d3a225b3"
+      "sha256": "9ec63904f6baad4856ed1baee7a9e52722af1a5cb1239399e51e30956a0f3180"
     },
     {
       "id": "machao",
       "name": "마초",
       "faction": "촉",
       "file": "assets/machao.webp",
-      "source": "art-source\\critical-cutins\\v1\\machao\\critical.png",
+      "source": "game/assets/skill-cutins/machao.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -436,14 +436,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 869846,
-      "sha256": "2457f5b0596d88ef159ff1a90edc7e7d296d13d4d769f39bb730c07a74209c02"
+      "sha256": "ed5f1fe6a6652ecc4148b15694cdd999feb21363d90516a65d19fe442d2ebbba"
     },
     {
       "id": "pangtong",
       "name": "방통",
       "faction": "촉",
       "file": "assets/pangtong.webp",
-      "source": "art-source\\critical-cutins\\v1\\pangtong\\critical.png",
+      "source": "game/assets/skill-cutins/pangtong.webp",
       "width": 1716,
       "height": 917,
       "alphaBounds": [
@@ -454,14 +454,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 868343,
-      "sha256": "b8a3dcb8c91317378317d8f008c036b98179d5fb52c1732506b1b71c660f8e30"
+      "sha256": "e1352cf4ef2b60a9ffbd52b82dd687fe32b68289055634a9378f89bd2088544d"
     },
     {
       "id": "jiangwei",
       "name": "강유",
       "faction": "촉",
       "file": "assets/jiangwei.webp",
-      "source": "art-source\\critical-cutins\\v1\\jiangwei\\critical.png",
+      "source": "game/assets/skill-cutins/jiangwei.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -472,14 +472,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 880366,
-      "sha256": "84bb6e5888ff3096aaf928cc0f87c0e7ae884edee7fa0548640dfc09c3031ed9"
+      "sha256": "32a9884af71c4b464eb1e63f22fbc39c8b8df782699918bfbbe2658f294881af"
     },
     {
       "id": "weiyan",
       "name": "위연",
       "faction": "촉",
       "file": "assets/weiyan.webp",
-      "source": "art-source\\critical-cutins\\v1\\weiyan\\critical.png",
+      "source": "game/assets/skill-cutins/weiyan.webp",
       "width": 1716,
       "height": 916,
       "alphaBounds": [
@@ -490,14 +490,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 862046,
-      "sha256": "c41c90441e2f18d8af09dd682d23bd3b16cda501ead38fc0d7faeb5826a4cbc9"
+      "sha256": "6f6687382ad81d26d52f2d1bff6389e301e557f5eb4d5a9223092a5133d6a503"
     },
     {
       "id": "liaohua",
       "name": "요화",
       "faction": "촉",
       "file": "assets/liaohua.webp",
-      "source": "art-source\\critical-cutins\\v1\\liaohua\\critical.png",
+      "source": "game/assets/skill-cutins/liaohua.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -508,14 +508,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 949755,
-      "sha256": "05d639fa5d156071d2f093ffa46936bc65cd48913cba666b1dee3997a560234a"
+      "sha256": "db4894c045c1ab4a5536a3c5be3aa60623b0cd376f59073a4b82edec3a76a178"
     },
     {
       "id": "zhoucang",
       "name": "주창",
       "faction": "촉",
       "file": "assets/zhoucang.webp",
-      "source": "art-source\\critical-cutins\\v1\\zhoucang\\critical.png",
+      "source": "game/assets/skill-cutins/zhoucang.webp",
       "width": 1536,
       "height": 1024,
       "alphaBounds": [
@@ -526,14 +526,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 997725,
-      "sha256": "9ee006e6ac06cf679bfba495aa6dffa8bffa9463f7d4bc15ecaa4d83061ce7ae"
+      "sha256": "e3d5bac22690b4935156811ef4581f1839b6223a3074477a85d768596d1014c1"
     },
     {
       "id": "sunce",
       "name": "손책",
       "faction": "오",
       "file": "assets/sunce.webp",
-      "source": "art-source\\critical-cutins\\v1\\sunce\\critical.png",
+      "source": "game/assets/skill-cutins/sunce.webp",
       "width": 1683,
       "height": 935,
       "alphaBounds": [
@@ -544,14 +544,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 858508,
-      "sha256": "84c150dc416014ecd07b7d67fb5c2430350bf105e83a27100113be344e4bc985"
+      "sha256": "d3c9ce58bee0b0ad449d095baeb10f0dea7a4f90f46c362895b8b23ad5f8b10c"
     },
     {
       "id": "luxun",
       "name": "육손",
       "faction": "오",
       "file": "assets/luxun.webp",
-      "source": "art-source\\critical-cutins\\v1\\luxun\\critical.png",
+      "source": "game/assets/skill-cutins/luxun.webp",
       "width": 1536,
       "height": 1024,
       "alphaBounds": [
@@ -562,14 +562,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 882129,
-      "sha256": "9527d072f2d4ccde5c78f8fecbbafdbe997240dc9cf27b543bc843e3f8ab4003"
+      "sha256": "2b5fa3dcea0e6b404359ab353830619a52b05a31026d060752338676cf064133"
     },
     {
       "id": "sunquan",
       "name": "손권",
       "faction": "오",
       "file": "assets/sunquan.webp",
-      "source": "art-source\\critical-cutins\\v1\\sunquan\\critical.png",
+      "source": "game/assets/skill-cutins/sunquan.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -580,14 +580,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 959735,
-      "sha256": "3fd015e9f1d5e20d724b7631a2e1dc6c5dbf8c6ab037f5ce228438a28a9aadf8"
+      "sha256": "5f357c69ae849108818f2411fe57caa9314a61f4170bd01ea7e524235d2bd1f6"
     },
     {
       "id": "ganning",
       "name": "감녕",
       "faction": "오",
       "file": "assets/ganning.webp",
-      "source": "art-source\\critical-cutins\\v1\\ganning\\critical.png",
+      "source": "game/assets/skill-cutins/ganning.webp",
       "width": 1536,
       "height": 1024,
       "alphaBounds": [
@@ -598,14 +598,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 834942,
-      "sha256": "4fc03eac979586f0ca0bc3e80d33976c1ef96b0443bcd5c21d9dfb644adb462a"
+      "sha256": "9c073f1106aa542911040ca90118f4e9af0cd81331f135445c69598ad6a967f5"
     },
     {
       "id": "taishici",
       "name": "태사자",
       "faction": "오",
       "file": "assets/taishici.webp",
-      "source": "art-source\\critical-cutins\\v1\\taishici\\critical.png",
+      "source": "game/assets/skill-cutins/taishici.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -616,14 +616,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 783941,
-      "sha256": "3d823fd27c197c74b799b128181e2dfb624716fbc2156780a7c46fc05cbbd9ea"
+      "sha256": "6eb92ff61ad9572e9f3bd2adf072ae8707587395ec6202c070e4705fee55ccfc"
     },
     {
       "id": "lumeng",
       "name": "여몽",
       "faction": "오",
       "file": "assets/lumeng.webp",
-      "source": "art-source\\critical-cutins\\v1\\lumeng\\critical.png",
+      "source": "game/assets/skill-cutins/lumeng.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -634,14 +634,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 930377,
-      "sha256": "46e570db0dc5e24d1681178af711f6ec1d0f088659a4a71eba04bb031e9d1aca"
+      "sha256": "893c0de9adffbb77a49183c429ff495e5576c7c8d8da67b45c344249d0ce7749"
     },
     {
       "id": "huanggai",
       "name": "황개",
       "faction": "오",
       "file": "assets/huanggai.webp",
-      "source": "art-source\\critical-cutins\\v1\\huanggai\\critical.png",
+      "source": "game/assets/skill-cutins/huanggai.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -652,14 +652,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 868761,
-      "sha256": "2facb4fb33fa32ee8543ff7ee7a1fb805441d1dcef7fd60250edf9c67d919772"
+      "sha256": "7f8447b617b09c6006fed38147e45a4679336e2dbde1804ab6d938a291d8edca"
     },
     {
       "id": "lusu",
       "name": "노숙",
       "faction": "오",
       "file": "assets/lusu.webp",
-      "source": "art-source\\critical-cutins\\v1\\lusu\\critical.png",
+      "source": "game/assets/skill-cutins/lusu.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -670,14 +670,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 967535,
-      "sha256": "ab38031a79a776b53023fdeb1c77ee6ad7fc9c8170c1d2b6210d945faf9f4985"
+      "sha256": "3476d95208c690eb54770a26b343a51ae59139361608122e121fbc1d252952ea"
     },
     {
       "id": "sunshangxiang",
       "name": "손상향",
       "faction": "오",
       "file": "assets/sunshangxiang.webp",
-      "source": "art-source\\critical-cutins\\v1\\sunshangxiang\\critical.png",
+      "source": "game/assets/skill-cutins/sunshangxiang.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -688,14 +688,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 982941,
-      "sha256": "632d725a5ef84725796bc882f45b1088ebc59b55941156ff248789483ca9ad0a"
+      "sha256": "1c0b62c6757e30dde8229140b04810b2338fcef610f3545cabb49b7cbe4a4f3e"
     },
     {
       "id": "dingfeng",
       "name": "정봉",
       "faction": "오",
       "file": "assets/dingfeng.webp",
-      "source": "art-source\\critical-cutins\\v1\\dingfeng\\critical.png",
+      "source": "game/assets/skill-cutins/dingfeng.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -706,14 +706,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 929696,
-      "sha256": "6013e134f51bd41c819e49ec816be8934e6b31625fe1682fc032b0ca8df244f8"
+      "sha256": "c4167d2c6b02062a899c760ca75288695b961e85d98c7fca276f72ae8a287c23"
     },
     {
       "id": "panzhang",
       "name": "반장",
       "faction": "오",
       "file": "assets/panzhang.webp",
-      "source": "art-source\\critical-cutins\\v1\\panzhang\\critical.png",
+      "source": "game/assets/skill-cutins/panzhang.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -724,14 +724,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 893105,
-      "sha256": "6986e98022043c0a7ae42686f5e058e2aabddbf1f21407c90cf784791a2eeef2"
+      "sha256": "66a310710b8c6b4c90ebdd0756190e9eaa53d01a3108411c3af314178ca4c7e6"
     },
     {
       "id": "zhangjue",
       "name": "장각",
       "faction": "군웅",
       "file": "assets/zhangjue.webp",
-      "source": "art-source\\critical-cutins\\v1\\zhangjue\\critical.png",
+      "source": "game/assets/skill-cutins/zhangjue.webp",
       "width": 1572,
       "height": 1001,
       "alphaBounds": [
@@ -742,14 +742,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 913291,
-      "sha256": "881a31e483905e8e87b30a17b2a059adaca9990a2ae4b02211f134845916fab2"
+      "sha256": "2729d1461231986e41440f09c9e00cae1e51ecbdedc6489f33d9843fdd9ff35c"
     },
     {
       "id": "dongzhuo",
       "name": "동탁",
       "faction": "군웅",
       "file": "assets/dongzhuo.webp",
-      "source": "art-source\\critical-cutins\\v1\\dongzhuo\\critical.png",
+      "source": "game/assets/skill-cutins/dongzhuo.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -760,14 +760,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 877202,
-      "sha256": "4ed3a647a481f573fb5105714bd45cd862d5488b7b65eab80416d148dde75fc0"
+      "sha256": "ea94fbada12cb42f55d6cf7364a25b3b13e0f933671efc569417269225b92953"
     },
     {
       "id": "yuanshao",
       "name": "원소",
       "faction": "군웅",
       "file": "assets/yuanshao.webp",
-      "source": "art-source\\critical-cutins\\v1\\yuanshao\\critical.png",
+      "source": "game/assets/skill-cutins/yuanshao.webp",
       "width": 1536,
       "height": 1024,
       "alphaBounds": [
@@ -778,14 +778,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 880220,
-      "sha256": "fac8de3c63c7a82f2b495dbec022e3a11c6b6edbeeed3040e20d15bfedc725d6"
+      "sha256": "1caeb1c9234dec60b10047440008c114584f1f6e7af8ced865e8eef24cca92c3"
     },
     {
       "id": "huatuo",
       "name": "화타",
       "faction": "군웅",
       "file": "assets/huatuo.webp",
-      "source": "art-source\\critical-cutins\\v1\\huatuo\\critical.png",
+      "source": "game/assets/skill-cutins/huatuo.webp",
       "width": 1536,
       "height": 1024,
       "alphaBounds": [
@@ -796,14 +796,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 877627,
-      "sha256": "8148eec0fa98fa244fdf043f1a720153f73d20cb2965fa39c241622cd846c26a"
+      "sha256": "2681c6a2b70f17257ae25db6d86fe91248ce0e521174f049c1ce35f9e96e94a9"
     },
     {
       "id": "yanliang",
       "name": "안량",
       "faction": "군웅",
       "file": "assets/yanliang.webp",
-      "source": "art-source\\critical-cutins\\v1\\yanliang\\critical.png",
+      "source": "game/assets/skill-cutins/yanliang.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -814,14 +814,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 859272,
-      "sha256": "c19a6220c0ee5fde5cfaeef05b3f8788a262357aab0798f1961084c93db63b50"
+      "sha256": "ab4ed30093ac8206cb030b14d7d17629e6d855c6138913edcdc93d323e028307"
     },
     {
       "id": "wenchou",
       "name": "문추",
       "faction": "군웅",
       "file": "assets/wenchou.webp",
-      "source": "art-source\\critical-cutins\\v1\\wenchou\\critical.png",
+      "source": "game/assets/skill-cutins/wenchou.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -832,14 +832,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 904914,
-      "sha256": "83b1917d3d85be583e72c13ad92711dbd6293fc1a05e3f484700d086001e26be"
+      "sha256": "bd27007cf7bc9986e7b26aeb2382467d9bfaf38d6941faecec8f76f9325a4020"
     },
     {
       "id": "diaochan",
       "name": "초선",
       "faction": "군웅",
       "file": "assets/diaochan.webp",
-      "source": "art-source\\critical-cutins\\v1\\diaochan\\critical.png",
+      "source": "game/assets/skill-cutins/diaochan.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -850,14 +850,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 827459,
-      "sha256": "5b29083d7a4ee982d506a68b4ceca1616df19002904633ae258d391591d38580"
+      "sha256": "bd911097e8886ac62c243dcfd1691e7e1e9e2526c24417284b2cf283961aef3b"
     },
     {
       "id": "huaxiong",
       "name": "화웅",
       "faction": "군웅",
       "file": "assets/huaxiong.webp",
-      "source": "art-source\\critical-cutins\\v1\\huaxiong\\critical.png",
+      "source": "game/assets/skill-cutins/huaxiong.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -868,14 +868,14 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 880165,
-      "sha256": "e004a76c9916706c0cca08f98d4fc9ae484a537e166f51ee39752a28c68269d5"
+      "sha256": "cd41238fd70652194f53c3e38acd34db68e49e53855e8752621a240966d51060"
     },
     {
       "id": "gongsunzan",
       "name": "공손찬",
       "faction": "군웅",
       "file": "assets/gongsunzan.webp",
-      "source": "art-source\\critical-cutins\\v1\\gongsunzan\\critical.png",
+      "source": "game/assets/skill-cutins/gongsunzan.webp",
       "width": 1717,
       "height": 916,
       "alphaBounds": [
@@ -886,7 +886,7 @@
       ],
       "edgeVisible": 0,
       "transparentPixels": 934386,
-      "sha256": "3a013e026123b97279294ada85a5cac84477358330a6e87d2f28dc1258d31add"
+      "sha256": "816ef1aac950e4363f9d04c81454dc7714b2e33cdc3e0fb4e97f1d0d41f46442"
     }
   ]
 }

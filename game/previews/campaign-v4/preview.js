@@ -48,6 +48,6 @@ if(previewChapter>1){
  game.querySelector('.chapter-label span').textContent='황건 진압 · 3 / 3';game.querySelector('.reset-note').textContent='진군 경로에서 전투를 선택하세요 · 군주 Lv.10 예시';
  game.querySelector('.clear-route').setAttribute('d',previewChapter===2?'M172 490 H768 V695 H172':'M172 490 H768 V695 H172 V900 H768');
 }
-const background=new Image();background.src='previews/campaign-v1/map.png';
+const background=new Image();background.src='assets/campaign-v4/map.png';
 await Promise.all([uiComponentsReady,...painting]);await selectStage(selected);
 await Promise.all([background.decode(),...Array.from(document.images,i=>i.decode()),document.fonts.ready]);game.inert=false;game.setAttribute('aria-busy','false');

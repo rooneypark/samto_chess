@@ -4,7 +4,7 @@ button{position:absolute;display:flex;align-items:center;justify-content:center;
 [data-box]{position:absolute;margin:0;padding:0}.wallet,.bottom-nav{display:contents}.wallet button,.bottom-nav button{z-index:25}
 .scroll-heading,.notice{display:flex;align-items:center;justify-content:center;color:#14283a;font-weight:bold}
 .scroll-heading{font-size:5.2cqw}.section-tabs button{font-size:4cqw}
-.headquarters{z-index:0}.environment{position:absolute;inset:1.3cqw;background:url('/game/previews/alliance-v1/headquarters.png') center 28%/cover}
+.headquarters{z-index:0}.environment{position:absolute;inset:1.3cqw;background:url('/game/assets/alliance-v2/headquarters.png') center 28%/cover}
 .panel-frame{position:absolute;inset:0;pointer-events:none}.general-lineup{display:contents}.general-original{position:absolute;object-fit:contain;image-rendering:pixelated;z-index:2;pointer-events:none}
 .guild-stats{display:flex;align-items:center;justify-content:center;gap:3cqw;background:#10263be8;color:#d5e0e9;font-size:2.7cqw;z-index:3}.guild-stats b{color:#ffe4a7}.guild-stats i{height:42%;width:1px;background:#79909c}
 .notice{justify-content:flex-start;gap:2.2cqw;padding-left:5.4cqw;font-size:3cqw;white-space:nowrap}.notice b{color:#8c4129}

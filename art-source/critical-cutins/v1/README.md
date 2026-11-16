@@ -25,3 +25,7 @@ python tools/asset_packs.py verify
 ```
 
 PNG 파일은 기존 저장소 정책대로 `asset-packs/v1/critical-cutins-*`의 무손실 압축 묶음에 보관한다. `tools/asset_packs.py restore`로 복원한 뒤 사용한다. 생성 프롬프트 전체는 manifest와 각 폴더의 텍스트에 포함된다.
+
+## 2026-11-16 변경
+
+최종 컷인은 `game/assets/skill-cutins/<id>.webp`(무손실) 한 벌만 보관한다. 이 폴더의 PNG 원본과 반려 수정본은 삭제했고, 삭제 전에 49장 모두 보이는 픽셀과 알파가 WEBP와 같음을 확인했다. 이 폴더에는 manifest·프롬프트·검증 기록만 남는다.

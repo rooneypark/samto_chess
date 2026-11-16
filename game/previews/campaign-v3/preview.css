@@ -1,7 +1,7 @@
 *{box-sizing:border-box}html,body{margin:0;background:#0c1420}body{display:grid;place-items:center;min-height:100svh;color:#fff0cd;font-family:Georgia,'Batang',serif}
 .game{position:relative;width:min(100vw,941px);aspect-ratio:941/530;container-type:inline-size;background:#192b43;image-rendering:pixelated;overflow:hidden}
 h1{position:absolute;top:4cqw;width:100%;margin:0;text-align:center;font-size:4.3cqw;color:#ffe2a3}.intro{position:absolute;top:10.2cqw;width:100%;margin:0;text-align:center;font-size:2.5cqw;color:#b7c8d9}
-.sample-panel{position:absolute;left:2.125%;right:2.125%;top:28%;height:62%}.map-art{position:absolute;inset:1.3cqw;background:#dac395 url('/game/previews/campaign-v1/map.png') center/cover}.panel-frame{position:absolute;inset:0;pointer-events:none}
+.sample-panel{position:absolute;left:2.125%;right:2.125%;top:28%;height:62%}.map-art{position:absolute;inset:1.3cqw;background:#dac395 url('/game/assets/campaign-v4/map.png') center/cover}.panel-frame{position:absolute;inset:0;pointer-events:none}
 article{position:absolute;top:2cqw;width:26.57%;height:30cqw;text-align:center}article:nth-of-type(1){left:3.55%}article:nth-of-type(2){left:36.63%}article:nth-of-type(3){left:69.7%}
 h2{margin:0;font-size:2.8cqw;line-height:4cqw;color:#263344;background:#f2dfb6ed;white-space:nowrap}
 .sprite-space{position:relative;height:13cqw;display:grid;place-items:center}.sprite-space canvas{width:12.75cqw;height:10.63cqw;image-rendering:pixelated;position:relative;z-index:1}

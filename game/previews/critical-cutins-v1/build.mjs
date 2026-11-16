@@ -11,7 +11,7 @@ if(manifest.entries.length!==heroes.length||heroes.some(h=>!manifest.entries.som
 const assets='game/assets/skill-cutins';fs.mkdirSync(assets,{recursive:true});
 const review=[];
 for(const e of manifest.entries){
- const input=path.join(root,e.file),bytes=fs.readFileSync(input);
+ /* The lossless WEBP is the only stored copy (PNG originals removed 2026-11-16): validate it, do not convert. */const input=`${assets}/${e.id}.webp`,bytes=fs.readFileSync(input);
  const {data,info}=await sharp(bytes).ensureAlpha().raw().toBuffer({resolveWithObject:true});
  let x0=info.width,y0=info.height,x1=-1,y1=-1,transparent=0,visible=0,edgeVisible=0;
  for(let y=0;y<info.height;y++)for(let x=0;x<info.width;x++){
@@ -20,7 +20,7 @@ for(const e of manifest.entries){
  }
  if(!visible||!transparent||edgeVisible)throw Error(`Alpha/edge validation failed: ${e.id}, edge=${edgeVisible}`);
  // Lossless format conversion only. Preserve full canvas and exact visible pixels.
- await sharp(bytes).webp({lossless:true,effort:6}).toFile(`${assets}/${e.id}.webp`);
+ 
  review.push({id:e.id,name:e.name,faction:e.faction,file:`../../assets/skill-cutins/${e.id}.webp`,source:input,width:info.width,height:info.height,alphaBounds:[x0,y0,x1,y1],edgeVisible,transparentPixels:transparent,sha256:crypto.createHash('sha256').update(bytes).digest('hex')});
  fs.writeFileSync(`${root}/${e.id}/prompt.txt`,e.prompt+'\n'+(e.revisions||[]).map(r=>'\nRevision '+r.file+'\n'+r.prompt).join('\n'));
 }

@@ -14,6 +14,6 @@ for(const [id,center,height] of [['1',142,232],['35',798,195]]){
 const toast=document.querySelector('.preview-status');let timer;
 function note(text){clearTimeout(timer);toast.textContent=text;toast.hidden=false;timer=setTimeout(()=>toast.hidden=true,3300);}
 game.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>note(b.dataset.note??'동맹 화면 디자인 시안입니다. 실제 게임 상태는 변경하지 않습니다.')));
-const background=new Image();background.src='previews/alliance-v1/headquarters.png';
+const background=new Image();background.src='assets/alliance-v2/headquarters.png';
 await Promise.all([uiComponentsReady,...painting,background.decode(),...Array.from(document.images,i=>i.decode()),document.fonts.ready]);
 game.inert=false;game.setAttribute('aria-busy','false');
