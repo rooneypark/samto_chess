@@ -7228,8 +7228,8 @@
     {
       "path": "asset-packs/v1/ui-build-reference-v1-001.zip",
       "category": "ui-build-reference",
-      "bytes": 37742420,
-      "sha256": "c828a67980c59ee433632b56d3e4f5c2a13a66ced8d10c5d424c53f9877f93f5",
+      "bytes": 37350262,
+      "sha256": "9edb1acc028057a93ad01301a1c555d0cb05e1e5b9cf5b88b124d8bda9336d9e",
       "files": [
         {
           "path": "art-source/ui-build/v1/battle-sprites/1-back.png",
@@ -7337,6 +7337,41 @@
           "sha256": "9ef732d6ca410772783836541515514b4919c9454dd563a98076c07010211eb2"
         },
         {
+          "path": "design-delivery/v2/05-mockups/approved-runtime/barracks-390.png",
+          "bytes": 386331,
+          "sha256": "89854a4e880bf88430f000f0c130d03b397262cbd2fe7b0c63c9a33b735bddfc"
+        },
+        {
+          "path": "design-delivery/v2/05-mockups/approved-runtime/barracks-941.png",
+          "bytes": 1717693,
+          "sha256": "2979c944a9038f876f872e5397909f5113ec87e3ea73769271cf7ff695a6fc82"
+        },
+        {
+          "path": "design-delivery/v2/05-mockups/approved-runtime/battle-390.png",
+          "bytes": 442510,
+          "sha256": "91cf31d774f62c5c5f1f4ed0e5d3630233b9e8974f14a983be771213493ec16b"
+        },
+        {
+          "path": "design-delivery/v2/05-mockups/approved-runtime/battle-941.png",
+          "bytes": 2038494,
+          "sha256": "b1e9bfd611d977b1fa30bfedd9499aa68c51b933cbb3295373c4ee32ccab5023"
+        },
+        {
+          "path": "design-delivery/v2/05-mockups/approved-runtime/home-390.png",
+          "bytes": 498881,
+          "sha256": "14d8b2d9fa40e91d2860625939e229562df5b7215a89de353cc10a41f39a0fc0"
+        },
+        {
+          "path": "design-delivery/v2/05-mockups/approved-runtime/home-941.png",
+          "bytes": 2322154,
+          "sha256": "02164a4d690e4c864c09400320eee5a17cb3f9c7c64b8adadb269b46771e9f28"
+        },
+        {
+          "path": "design-delivery/v2/05-mockups/approved-runtime/shop-390.png",
+          "bytes": 315824,
+          "sha256": "f8015f1c3db71abf3a66264dc72bcb67747a64a65153242a9016d71a1a52a8b8"
+        },
+        {
           "path": "design-delivery/v2/05-mockups/approved-runtime/shop-941.png",
           "bytes": 1397410,
           "sha256": "bfda61f5787509368c62b3685a2fcb9bdfcc49c7c5236ba78a499915728bddbd"
@@ -7365,7 +7400,15 @@
           "path": "design-delivery/v2/05-mockups/battle-preparation-v1.png",
           "bytes": 2386347,
           "sha256": "457630f07c492508ba1554607026fed767747d34353d68dd5390a57e6585f389"
-        },
+        }
+      ]
+    },
+    {
+      "path": "asset-packs/v1/ui-build-reference-v1-002.zip",
+      "category": "ui-build-reference",
+      "bytes": 23672945,
+      "sha256": "4c66f528da1429a5b80aa94cc93bc401217a455be6cbdea554c0e7155bea99e7",
+      "files": [
         {
           "path": "design-delivery/v2/05-mockups/battle-rank-indicator-v1.png",
           "bytes": 2136963,
@@ -7410,15 +7453,7 @@
           "path": "design-delivery/v2/05-mockups/expedition-v1-mobile.png",
           "bytes": 237919,
           "sha256": "2afb4798e6f197ecd856ccf5d78a3a6a93b67c620add8368b41d208de3fdd251"
-        }
-      ]
-    },
-    {
-      "path": "asset-packs/v1/ui-build-reference-v1-002.zip",
-      "category": "ui-build-reference",
-      "bytes": 15557236,
-      "sha256": "ee47e7866d6566a481f517cec8d9320e18384146d237faa6ed3cf014b26dd8f1",
-      "files": [
+        },
         {
           "path": "design-delivery/v2/05-mockups/expedition-v1.png",
           "bytes": 1004912,

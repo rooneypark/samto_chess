@@ -22,6 +22,8 @@ const assert=require('node:assert/strict');
    if(y<150||y>=1498)continue;
    // Actual player portrait and XP differ from example data.
    if((x>=40&&x<155&&y>=28&&y<128)||(x>=170&&x<300&&y>=80&&y<108))continue;
+   // The mail button's red dot is live data too: drawn only while a reward is waiting.
+   if(x>=101&&x<136&&y>=176&&y<210)continue;
    compared++;const i=(y*941+x)*4;if(a[i]!==b[i]||a[i+1]!==b[i+1]||a[i+2]!==b[i+2])changed++;
   }
   return {compared,changed};

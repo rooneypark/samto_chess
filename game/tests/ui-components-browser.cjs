@@ -38,7 +38,7 @@ async function checkPress(page,button){
  await page.locator('.game[aria-busy=false]').waitFor();
  for(const id of ['gate-profile','gate-gold','gate-diamonds','gate-mail','gate-quests','gate-start','gate-settings','gate-codex','gate-expedition','gate-tower','gate-formation','gate-campaign','gate-depart','nav-shop','nav-barracks','nav-home-selected','nav-alliance','nav-arena'])report.push(await checkPress(page,page.locator('[data-art-button="'+id+'"]')));
  await page.screenshot({path:artifact('ui-components','gate-normal.png')});
- await page.locator('[data-action=barracks]').click();await page.locator('.barracks-v2').waitFor();await page.evaluate(()=>Promise.all([...document.images].map(i=>i.decode().catch(()=>{}))));
+ await page.locator('[role=tab][data-action=barracks]').click();await page.locator('.barracks-v2').waitFor();await page.evaluate(()=>Promise.all([...document.images].map(i=>i.decode().catch(()=>{}))));
  assert.equal(await page.locator('.hero-name').textContent(),'관우');
  for(const id of ['gate-gold','gate-diamonds','barracks-back','barracks-train','barracks-awaken','barracks-formation','barracks-treasure','barracks-skill','barracks-filter-all','barracks-filter-wei','barracks-filter-shu','barracks-filter-wu','barracks-filter-qun','nav-shop','nav-barracks-selected','nav-home','nav-alliance','nav-arena'])report.push(await checkPress(page,page.locator('[data-art-button="'+id+'"]')));
  for(const hero of ['1','xuchu','32','35','diaochan','119']){
@@ -63,7 +63,7 @@ async function checkPress(page,button){
   const image=await page.locator('.hero-stage img').boundingBox(),panel=await page.locator('.hero-stage').boundingBox();assert.ok(image.x>=panel.x-.1&&image.y>=panel.y-.1&&image.y+image.height<=panel.y+panel.height+.1);
   await page.screenshot({path:artifact('ui-components','barracks-'+viewport.width+'.png')});
  }
- await page.setViewportSize({width:941,height:1672});await page.locator('[data-action=home]').click();await page.locator('[data-action=depart]').click();await page.locator('.battle-v2[aria-busy=false]').waitFor();
+ await page.setViewportSize({width:941,height:1672});await page.locator('[role=tab][data-action=home]').click();await page.locator('[data-action=depart]').click();await page.locator('.battle-v2[aria-busy=false]').waitFor();
  for(const id of ['barracks-back','battle-help','battle-capacity','battle-summon','battle-start','battle-bonds']){const el=page.locator('.battle-v2 [data-art-button="'+id+'"]');if(await el.isEnabled())report.push(await checkPress(page,el));}
  await page.screenshot({path:artifact('ui-components','battle-normal.png')});
  fs.writeFileSync(artifact('ui-components','verification.json'),JSON.stringify(report,null,2));assert.deepEqual(errors,[]);
