@@ -53,3 +53,6 @@
 #modal.art-dialog [data-dialog-icon]{image-rendering:pixelated;flex-shrink:0;opacity:1;aspect-ratio:1}
 #modal.art-dialog .game-dialog-empty>[data-dialog-icon]{width:80px;height:80px;margin:0 auto 8px}
 #modal.art-dialog .game-dialog-empty p{margin:8px 0 0}
+
+/* Recruit-source action aligns with the full-width dialog footer. */
+#modal.art-dialog #codex-recruit-shop{display:block;width:100%;box-sizing:border-box;margin-top:2.44cqw}

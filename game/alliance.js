@@ -1,11 +1,12 @@
 import {dialogEmpty,dialogRow,dialogInset,escapeHtml as escape} from './dialog-content.js';
 import {allianceStatus,allianceCommand,guilds,raidStatus,raidRules,allianceShop,allianceBought,attendReward,research,researchCosts,CREATE_COST} from './alliance-state.js';
 import {heroes} from './heroes.js';
+import {designPortrait} from './art.js';
 import {allianceArtwork,renderAllianceArtwork} from './alliance-ui.js';
 import {disposeNineSlices} from './nine-slice.js';
 
 // Member data comes from the save (and from restored backups), so every field is escaped on output.
-const portrait = id => '<img class="guild-avatar" alt="" src="assets/heroes/'+encodeURIComponent(id)+'-portrait.png">';
+const portrait = id => '<img class="guild-avatar" alt="" src="'+(designPortrait(id)??designPortrait('0'))+'">';
 
 export function initAlliance({store,open,toast,navigate}) {
   const root=document.createElement('section');

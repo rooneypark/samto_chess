@@ -1408,8 +1408,8 @@
     {
       "path": "asset-packs/v1/runtime-generals-v1-001.zip",
       "category": "runtime-generals",
-      "bytes": 10974089,
-      "sha256": "653754e2457d3101e2ab5c1515d2da6a64580814ee31576ffdeccf9aae9fed8e",
+      "bytes": 9685171,
+      "sha256": "52b3a5602da851fa77ec373dea6c0c2748525a34e8aef168c04147200e30d2ed",
       "files": [
         {
           "path": "game/assets/generals-v2/1-back.png",
@@ -1507,19 +1507,9 @@
           "sha256": "79e682ed2beb624f61d229dffe1497c4843238bd5bf0fd4883517164b2f7c759"
         },
         {
-          "path": "game/assets/heroes/0-portrait.png",
-          "bytes": 81667,
-          "sha256": "08c27b1c050d113c27800fc8cdc8f64b12a942fd640e6f6e9a66921a486295c2"
-        },
-        {
           "path": "game/assets/heroes/1-idle.png",
           "bytes": 4363,
           "sha256": "15b0ccd46bf1aefcc1f70ac4f6e5de7636d80f53a54a3fda4a23d8f122fd619e"
-        },
-        {
-          "path": "game/assets/heroes/1-portrait.png",
-          "bytes": 89219,
-          "sha256": "b4fdf2afce4f2d2e28853088d9af3c4bdf3b844104eb3f641bd2481f046160ad"
         },
         {
           "path": "game/assets/heroes/119-idle.png",
@@ -1527,19 +1517,9 @@
           "sha256": "b16284bd27499878d93ac15e8146ad230c7bfaa466462832c213c87d4df6b8dd"
         },
         {
-          "path": "game/assets/heroes/119-portrait.png",
-          "bytes": 94089,
-          "sha256": "21ad8e017e0dea244cc1b73f71d1ec1475aa4824f3f65215984e8d4d239292b9"
-        },
-        {
           "path": "game/assets/heroes/15-idle.png",
           "bytes": 3779,
           "sha256": "b574f1b8c251922e391a699a49c201d3a8911dff5920a71a85671921fcf6c2fc"
-        },
-        {
-          "path": "game/assets/heroes/15-portrait.png",
-          "bytes": 103466,
-          "sha256": "351cf237841d6b331a47920ed77e6598bd203bfb7763f95fc5a94b5deb25dec1"
         },
         {
           "path": "game/assets/heroes/16-idle.png",
@@ -1547,19 +1527,9 @@
           "sha256": "4e51bff5158a84e131388682f74ebbf949027276d40c2f12e9ee0db7c7fdeeea"
         },
         {
-          "path": "game/assets/heroes/16-portrait.png",
-          "bytes": 101067,
-          "sha256": "528738e6c817d3004f3c8f43bb45e42d45d440ad0069779848f4ae556ad686c6"
-        },
-        {
           "path": "game/assets/heroes/2-idle.png",
           "bytes": 3801,
           "sha256": "0bfc9f2c9ad487d6f10c2ef6de9a5a0552a2e4a9462239a72d0b5cfadaedfa89"
-        },
-        {
-          "path": "game/assets/heroes/2-portrait.png",
-          "bytes": 99608,
-          "sha256": "eab7f6d80fd384e0a53c822b5235ecb98f5f17561e9995145e0b979bf99ac64c"
         },
         {
           "path": "game/assets/heroes/32-idle.png",
@@ -1567,19 +1537,9 @@
           "sha256": "70608d1c185d3b1089082ea8d32ecca70994d768ea2e8c59a12f8690443d5ddd"
         },
         {
-          "path": "game/assets/heroes/32-portrait.png",
-          "bytes": 82860,
-          "sha256": "5e6430661395aae116c7bd94f955ff133d0f61fc47d6fd4f4d4ce7db7c5adf9c"
-        },
-        {
           "path": "game/assets/heroes/33-idle.png",
           "bytes": 3882,
           "sha256": "04ee320e30d6c190aa74d8c365e733b52eb81a751f053a44d16d55050e9efb95"
-        },
-        {
-          "path": "game/assets/heroes/33-portrait.png",
-          "bytes": 94498,
-          "sha256": "794613255197ae85d9bcf1b47a98e9a768f7a210969c78ca5312b9efc2cb5dc3"
         },
         {
           "path": "game/assets/heroes/34-idle.png",
@@ -1587,19 +1547,9 @@
           "sha256": "e3818a2b67fcc1a314b6ad34fe55bdb39fb6f31d2282a667175922c6d880dadb"
         },
         {
-          "path": "game/assets/heroes/34-portrait.png",
-          "bytes": 101303,
-          "sha256": "2d3d62e2309c077595e3875c0264b672098aa15cea5723d83dfbdfbc8d4a1987"
-        },
-        {
           "path": "game/assets/heroes/35-idle.png",
           "bytes": 4307,
           "sha256": "c9c6800e3b781aaa840c59126a98e5a3e0b5da16bca452947bb952fe088f9b40"
-        },
-        {
-          "path": "game/assets/heroes/35-portrait.png",
-          "bytes": 90390,
-          "sha256": "0906e749cc0732bfc871b63e60582ca269a22e25d268933cb78222cf5e59c3c3"
         },
         {
           "path": "game/assets/heroes/77-idle.png",
@@ -1607,19 +1557,9 @@
           "sha256": "12cdef8347971532c41e955e1498f32e92332e61dc1a8f7d174b260f590de989"
         },
         {
-          "path": "game/assets/heroes/77-portrait.png",
-          "bytes": 95987,
-          "sha256": "ba6cbfdf906516c4acc6b3ff83a3147937166748ef650010973b2a845ff4513f"
-        },
-        {
           "path": "game/assets/heroes/archer-idle.png",
           "bytes": 3635,
           "sha256": "2e9182aca8646bce4d15bcca77de3aa8a1e1e605b76dbe9fa652b9f39cf586e3"
-        },
-        {
-          "path": "game/assets/heroes/archer-portrait.png",
-          "bytes": 90323,
-          "sha256": "69be6ff0fdb1cdaedaa24a59e3520c7aeb11360069c2212848ccf178d55802ef"
         },
         {
           "path": "game/assets/heroes/infantry-idle.png",
@@ -1627,19 +1567,9 @@
           "sha256": "de820e9eaa538115c73b511f77c7770048a261e1d2402f4668a19db5bffb2147"
         },
         {
-          "path": "game/assets/heroes/infantry-portrait.png",
-          "bytes": 83373,
-          "sha256": "7c9744168913b930d295628daaea207153c70b08e3e84be1dcabd7dd7b4fc6c4"
-        },
-        {
           "path": "game/assets/heroes/tactician-idle.png",
           "bytes": 3550,
           "sha256": "477f405700d8e19c18ad84171d13557ae45e9990e9d8db034926b4d82a392d48"
-        },
-        {
-          "path": "game/assets/heroes/tactician-portrait.png",
-          "bytes": 78592,
-          "sha256": "935655e5e68dc237b443283a5b415397f4c64b6c7367b11c712c9119a9bc282c"
         }
       ]
     },
@@ -5914,8 +5844,8 @@
     {
       "path": "asset-packs/v1/runtime-ui-v1-001.zip",
       "category": "runtime-ui",
-      "bytes": 37085558,
-      "sha256": "0c52970351533ca1642f8e2d226b2923055d162c729e1627aeb5d3d92c0d20ca",
+      "bytes": 37727832,
+      "sha256": "caf871852d5650959d64df226759da114c3ba1a68ae24b646c3509a04001108b",
       "files": [
         {
           "path": "game/assets/alliance-v2/headquarters.png",
@@ -6248,66 +6178,6 @@
           "sha256": "7adae60906b82d476bb5d2f4aeefaa11c49d08309e4ffb561e2667a3aa761ca1"
         },
         {
-          "path": "game/assets/design-a/portraits/0.png",
-          "bytes": 7000,
-          "sha256": "d236c58019f68ebeb6bbfb7dd29891260b4d236156f6b344f8c987001f4f59e1"
-        },
-        {
-          "path": "game/assets/design-a/portraits/1.png",
-          "bytes": 7056,
-          "sha256": "93be3dc4d2f96765eb518d07dd6c4c148b1358391d0634526a362be4d008cf1a"
-        },
-        {
-          "path": "game/assets/design-a/portraits/119.png",
-          "bytes": 7843,
-          "sha256": "41105ed33eee6c8ea9431311980839d2f9d706364ebb07047a79f756754dbc4a"
-        },
-        {
-          "path": "game/assets/design-a/portraits/15.png",
-          "bytes": 8138,
-          "sha256": "a0f7ed80277e1d94e5ccd62e1bf209c581872175c82b1e518577054df6da59e1"
-        },
-        {
-          "path": "game/assets/design-a/portraits/16.png",
-          "bytes": 8634,
-          "sha256": "08ef502879cc63b5c32bc0e0326624b4f8d5d617f48733c000cef718514a4196"
-        },
-        {
-          "path": "game/assets/design-a/portraits/2.png",
-          "bytes": 7318,
-          "sha256": "421758ef23b83bbef116b6aa815a46936cd0fd8f71b61488552d11ba4ecb6339"
-        },
-        {
-          "path": "game/assets/design-a/portraits/32.png",
-          "bytes": 7150,
-          "sha256": "c2e95399b47657ab09c356827856003aac0caadbc6de3e4fb4f013541b83178b"
-        },
-        {
-          "path": "game/assets/design-a/portraits/33.png",
-          "bytes": 7230,
-          "sha256": "560c792bc1c941e15936ddb21efdca72e1c809fdba93d8827796e923cf81aab7"
-        },
-        {
-          "path": "game/assets/design-a/portraits/34.png",
-          "bytes": 8180,
-          "sha256": "24a8a66159f92398d4dbf67b224249bc9773c2035683508b7790069916361092"
-        },
-        {
-          "path": "game/assets/design-a/portraits/35.png",
-          "bytes": 7508,
-          "sha256": "d729f424e2bce8183a8223bc9ceb09d093c94c351a1a1c63080a35b27d5dcbaa"
-        },
-        {
-          "path": "game/assets/design-a/portraits/77.png",
-          "bytes": 7119,
-          "sha256": "ccb5a637791e918b78bd03a069e6c513c87867c36d9fe4aa1b85251a1f04b843"
-        },
-        {
-          "path": "game/assets/design-a/portraits/archer.png",
-          "bytes": 6774,
-          "sha256": "d5e55ff30e4989a2c22727e044b9f22aa696f05606bb3d59ce80600a193c23a9"
-        },
-        {
           "path": "game/assets/design-a/portraits/bandit.png",
           "bytes": 7270,
           "sha256": "2cc725b3dc954ed58a884fb03157daf6a4e3128eb7d3c7cd5e691ee4534519ee"
@@ -6323,16 +6193,6 @@
           "sha256": "dc58bae4a4e40871c27ac2e4c60d2c34e20d7b38a0a8eabe9ff38e18ce06353c"
         },
         {
-          "path": "game/assets/design-a/portraits/diaochan.png",
-          "bytes": 7272,
-          "sha256": "49407781ed4652706d19b0ddadc98ea935ecab2004fb08d3a4c4fc1c7f64faf4"
-        },
-        {
-          "path": "game/assets/design-a/portraits/infantry.png",
-          "bytes": 7080,
-          "sha256": "f60e89fa5e1df48d089ee7e0d32faa99b49a18e8dddbc00d63654f06284169aa"
-        },
-        {
           "path": "game/assets/design-a/portraits/raider.png",
           "bytes": 6889,
           "sha256": "9a754407d78930e502d5c2cbce4d1c25e237aca81eec4963b3a799fd38bfff5e"
@@ -6341,11 +6201,6 @@
           "path": "game/assets/design-a/portraits/shield.png",
           "bytes": 7420,
           "sha256": "743bfa0899831f04b92a1d0bff1665f55ff2cd184b16228f2ae42daa02b866ad"
-        },
-        {
-          "path": "game/assets/design-a/portraits/tactician.png",
-          "bytes": 6723,
-          "sha256": "15b59369ef0bf223932efa8c2a31dc50c9a7ab225fbcb9598678db4207800f08"
         },
         {
           "path": "game/assets/design-a/portraits/taoist.png",
@@ -6506,6 +6361,251 @@
           "path": "game/assets/navigation/shop-content.png",
           "bytes": 24038,
           "sha256": "e6c666f78ebe861c8e83bfd542886871d4265121e21cc317da2ed7ea6be89f93"
+        },
+        {
+          "path": "game/assets/portraits-v4/0.png",
+          "bytes": 13505,
+          "sha256": "028229d68ebdd71131160f2de313ecc450ff8654847db7e78fbf3446cf94a0bf"
+        },
+        {
+          "path": "game/assets/portraits-v4/1.png",
+          "bytes": 14514,
+          "sha256": "6ba00d40783c43cb730ec02715a2253c1cd4e788f550c74fcc89b3eb1bbc0a78"
+        },
+        {
+          "path": "game/assets/portraits-v4/119.png",
+          "bytes": 15505,
+          "sha256": "576eb4df11b3b45be86066646d5b15a3c23ec7b16c20198e3564c753cdefa238"
+        },
+        {
+          "path": "game/assets/portraits-v4/15.png",
+          "bytes": 16151,
+          "sha256": "1b302062127e50ec209bf791cca8bf5fb807fbac8fad498d5d03b2547a917cea"
+        },
+        {
+          "path": "game/assets/portraits-v4/16.png",
+          "bytes": 16329,
+          "sha256": "35bf5ef68619bded50c6d00271d4ebce2b9daea10decdf2fec3ef2c44aba79c3"
+        },
+        {
+          "path": "game/assets/portraits-v4/2.png",
+          "bytes": 14720,
+          "sha256": "d4e7d7243610ad2713488291ec267e32c08feb933b5ee6fc3ead47672866f7c1"
+        },
+        {
+          "path": "game/assets/portraits-v4/32.png",
+          "bytes": 14266,
+          "sha256": "8a5c01cafc04463243b009392be47b8e366193d7cfa75785b750f70afaddbe8b"
+        },
+        {
+          "path": "game/assets/portraits-v4/33.png",
+          "bytes": 15978,
+          "sha256": "6ccb00761854c3da6a13ae932efcd61ac20565ed184280b540c2edcbd20bfc9d"
+        },
+        {
+          "path": "game/assets/portraits-v4/34.png",
+          "bytes": 15997,
+          "sha256": "838f90bd5b51b0396228bb2969504d4a458c5c16bec39d42da83c025afdceeb1"
+        },
+        {
+          "path": "game/assets/portraits-v4/35.png",
+          "bytes": 13601,
+          "sha256": "51bb615e8a73f44e073dac85ebe43172e547dbd2fcbef853bbb5764fb269dec4"
+        },
+        {
+          "path": "game/assets/portraits-v4/77.png",
+          "bytes": 15566,
+          "sha256": "1d0526b734a95ee59c65700c15b295622f0ed7a36a50b10d38252122cf14f59d"
+        },
+        {
+          "path": "game/assets/portraits-v4/archer.png",
+          "bytes": 15871,
+          "sha256": "76c0a781a684c7f147f2bf671648029f8bc0d9bdf88fd162dc0bc6c5d4c2ef21"
+        },
+        {
+          "path": "game/assets/portraits-v4/caohong.png",
+          "bytes": 16293,
+          "sha256": "fc4bae507c98e29be604a00105aab55b6942621612b372bd3c303ef0eec25373"
+        },
+        {
+          "path": "game/assets/portraits-v4/dianwei.png",
+          "bytes": 16282,
+          "sha256": "1be1920187d117fb92b9a17bd67e048c14a0ed86a63edf5ac9f7bf9b63841fc4"
+        },
+        {
+          "path": "game/assets/portraits-v4/diaochan.png",
+          "bytes": 18645,
+          "sha256": "d2658ed211822eac6ad40aa333aa7b11c0636459e9227a96273c1b3392073d09"
+        },
+        {
+          "path": "game/assets/portraits-v4/dingfeng.png",
+          "bytes": 14488,
+          "sha256": "fbc3c4f368a5d59aa7e1c6e4d404499ea14af4fda69ec9d9d8449cf3b0746557"
+        },
+        {
+          "path": "game/assets/portraits-v4/dongzhuo.png",
+          "bytes": 15772,
+          "sha256": "0d321596a4bb442ab1cc6518771b5c1eb0860c4bdc24470dd2e464011242bdfd"
+        },
+        {
+          "path": "game/assets/portraits-v4/ganning.png",
+          "bytes": 15811,
+          "sha256": "2523d02d20d6352911605f410501e3f1c8a5b82d5426fd6fd168884c83d66d00"
+        },
+        {
+          "path": "game/assets/portraits-v4/gongsunzan.png",
+          "bytes": 14723,
+          "sha256": "0eccc546087d465bba417fdb6276b6aa054031b9bdea754c7e60c32d56296715"
+        },
+        {
+          "path": "game/assets/portraits-v4/guojia.png",
+          "bytes": 15420,
+          "sha256": "ab76668ef58110021c412053aebe135f59791546b951f615b3f2f0e27e042164"
+        },
+        {
+          "path": "game/assets/portraits-v4/huanggai.png",
+          "bytes": 16323,
+          "sha256": "8d507b61755891c3e4fee67f6ee530c479f7ba3ca3b4ca89fa09120f5edb010b"
+        },
+        {
+          "path": "game/assets/portraits-v4/huatuo.png",
+          "bytes": 13998,
+          "sha256": "bd505769cbc8051ccb8866ae332dc9a962aaae38aa5f6939855fe6aaa5dc0180"
+        },
+        {
+          "path": "game/assets/portraits-v4/huaxiong.png",
+          "bytes": 14559,
+          "sha256": "1e6c6406bc2e7cdef76c501e0115a2c0771fee6a3dbf71583531f991cf3c746b"
+        },
+        {
+          "path": "game/assets/portraits-v4/infantry.png",
+          "bytes": 13492,
+          "sha256": "03f689964660d8e16b1b47af629914297f1b6292dca49c88b819c046f5b779c9"
+        },
+        {
+          "path": "game/assets/portraits-v4/jiangwei.png",
+          "bytes": 16517,
+          "sha256": "02d46664da4c5504179d6ff6069674a91de8950459d9ecda664a3bb45b017eee"
+        },
+        {
+          "path": "game/assets/portraits-v4/liaohua.png",
+          "bytes": 14534,
+          "sha256": "e13b8cd237c2185c61c2143ed23f0f155cd608c8f2939bd5a8f7f65543aa2633"
+        },
+        {
+          "path": "game/assets/portraits-v4/lumeng.png",
+          "bytes": 15578,
+          "sha256": "e5cf311b35ed56799c7ec340e248462b3909c5776519cd35bbeaa05a8058e419"
+        },
+        {
+          "path": "game/assets/portraits-v4/lusu.png",
+          "bytes": 14184,
+          "sha256": "fe3f4ed75986d088eb26041d1f27045bb3c8cd7b632dacbee51a201db77fc690"
+        },
+        {
+          "path": "game/assets/portraits-v4/luxun.png",
+          "bytes": 16763,
+          "sha256": "7776e5723b80c6e95e288e0622bdde96133ea6f718ebad7e98cf8c4b44e52ea0"
+        },
+        {
+          "path": "game/assets/portraits-v4/machao.png",
+          "bytes": 17078,
+          "sha256": "188cf93755634f7df05bd779dfd88c91bc80038e2a9629664f1343f6a3c64258"
+        },
+        {
+          "path": "game/assets/portraits-v4/pangtong.png",
+          "bytes": 15200,
+          "sha256": "ace84e3442703a6253fc3d8aa83739cf366318005449ca22d3a3353fe1e9ac57"
+        },
+        {
+          "path": "game/assets/portraits-v4/panzhang.png",
+          "bytes": 15082,
+          "sha256": "c76c5ce914b5b41d0efa35cb7fa0abf2619f90dafe6a990435cd900a6daf26cd"
+        },
+        {
+          "path": "game/assets/portraits-v4/simayi.png",
+          "bytes": 14578,
+          "sha256": "b962f3d9a69949af886b924e125b35dddd01705889b45d2f918931cc28563676"
+        },
+        {
+          "path": "game/assets/portraits-v4/sunce.png",
+          "bytes": 15157,
+          "sha256": "4198ff6dde6612337f21d9eb959cc28332aaf5b63c4947a9d33fea99ddb436e9"
+        },
+        {
+          "path": "game/assets/portraits-v4/sunquan.png",
+          "bytes": 14132,
+          "sha256": "169f4a48a069437a3dbcfcb029277e5b0c025c2110c3fc54c8800bc9410b4f2e"
+        },
+        {
+          "path": "game/assets/portraits-v4/sunshangxiang.png",
+          "bytes": 15538,
+          "sha256": "e434ce19ed8ddb05486467e770b935faa9004744fc5b8f077a7db674bdce0051"
+        },
+        {
+          "path": "game/assets/portraits-v4/tactician.png",
+          "bytes": 13388,
+          "sha256": "422a6f5f87a8bdd0d547e09624e70c4da6b1d933d2fda8cd5379303760d747b8"
+        },
+        {
+          "path": "game/assets/portraits-v4/taishici.png",
+          "bytes": 14578,
+          "sha256": "06d2e226f1f832e73ade568a3897583c51b85f070d146951013599039216a803"
+        },
+        {
+          "path": "game/assets/portraits-v4/weiyan.png",
+          "bytes": 16536,
+          "sha256": "8a2a6da716f4bbbe2aa3e8e848f39f3956fef593459f81d5ab623a5c034e363b"
+        },
+        {
+          "path": "game/assets/portraits-v4/wenchou.png",
+          "bytes": 16992,
+          "sha256": "75034abd1ce17ea6cd0a6213fbb5fe9e2e016b1b28f6dc0246390325f9ca20a2"
+        },
+        {
+          "path": "game/assets/portraits-v4/xiahouyuan.png",
+          "bytes": 15258,
+          "sha256": "2e688c55e22f6e95b4c667c13c6fbd57cf1b1d43e20b1a4b92383f6b9ede09c6"
+        },
+        {
+          "path": "game/assets/portraits-v4/xuchu.png",
+          "bytes": 13649,
+          "sha256": "a13bc09d17e51dd880b8a92228e10c4759af2ec0765f157b61d0ca2359eb27d7"
+        },
+        {
+          "path": "game/assets/portraits-v4/xuhuang.png",
+          "bytes": 14367,
+          "sha256": "d88ce1f670b8dbe59ba7b3feb6f3537490fa0e3efad689fb0a2a5dbe82e740c4"
+        },
+        {
+          "path": "game/assets/portraits-v4/xunyu.png",
+          "bytes": 15143,
+          "sha256": "f8e794d28b958692ef3a9438348badc50ea220aa82d1dd328e0a35181be98a10"
+        },
+        {
+          "path": "game/assets/portraits-v4/yanliang.png",
+          "bytes": 16300,
+          "sha256": "1c41fe6441e18081bc73ed0709458dcb7c103c1447bd827e70138287f8e9e5be"
+        },
+        {
+          "path": "game/assets/portraits-v4/yuanshao.png",
+          "bytes": 17353,
+          "sha256": "1d61f9569801c5c16d02dd3330d86843c1ad076e251bce153cfdcaeca835140a"
+        },
+        {
+          "path": "game/assets/portraits-v4/yuejin.png",
+          "bytes": 15061,
+          "sha256": "726eb4db4a411c8424ef278738d8c02d40069160a713078ecf31ad6960db5df1"
+        },
+        {
+          "path": "game/assets/portraits-v4/zhangjue.png",
+          "bytes": 13894,
+          "sha256": "e4230ab3f2651e1919ea8ad4109646550ba7e7841368437386c1e83a4efee923"
+        },
+        {
+          "path": "game/assets/portraits-v4/zhoucang.png",
+          "bytes": 13563,
+          "sha256": "054717ac8e96195dde33c70cfac14d3a104955ed9d04f5805ea9ebdf72ccf633"
         },
         {
           "path": "game/assets/shop-v2/coin.png",
@@ -7105,8 +7205,8 @@
     {
       "path": "asset-packs/v1/runtime-ui-v1-003.zip",
       "category": "runtime-ui",
-      "bytes": 12203889,
-      "sha256": "26511652b9cc3f7ee7b0bcb78cd09a2224231b597fce782b6254b1c04991ad9d",
+      "bytes": 20014161,
+      "sha256": "06b0484508e2ddfd731cf5bdec07fbb31d2f0392068729e3a52335d6d1d35a01",
       "files": [
         {
           "path": "game/assets/ui-common/battle-summon.png",
@@ -7185,13 +7285,13 @@
         },
         {
           "path": "game/assets/ui-common/gate-formation-pressed.png",
-          "bytes": 23555,
-          "sha256": "d53397c5309015418ab3e935831b4839a582be4f4251f57d63badbf7f20d861b"
+          "bytes": 15389,
+          "sha256": "88c08e22798899d39ff104057d6e776528a788c34de6a5d83c55ada1064c8990"
         },
         {
           "path": "game/assets/ui-common/gate-formation.png",
-          "bytes": 27220,
-          "sha256": "992eee089c13ae108d6bcfb72ebe21d5dd579672b88f86406fb70920c2caafcb"
+          "bytes": 17939,
+          "sha256": "218be8ffe94ab4541156495577345e9cf5af954c68ed3cdee869d10bab2e3b03"
         },
         {
           "path": "game/assets/ui-common/gate-gold-pressed.png",
@@ -7304,6 +7404,16 @@
           "sha256": "1c4e70f7b3e964434d451894f1ac7269e21d1fb1c8a5e3cf10a066bbfb5ab797"
         },
         {
+          "path": "game/assets/ui-common/gate-title-approved-a.png",
+          "bytes": 830574,
+          "sha256": "fb3e1cdebc0e485822db16cc09832a19c9e15756bdbcb0bf85cfdfe21fd3bab7"
+        },
+        {
+          "path": "game/assets/ui-common/gate-title-premium.png",
+          "bytes": 1702952,
+          "sha256": "c6ae6047926f18f82dbf8a3cce489775dab98f32532a17f60cb3c666b431d987"
+        },
+        {
           "path": "game/assets/ui-common/gate-title-samto.png",
           "bytes": 24961,
           "sha256": "5c323f4a706f3ef6a9146a5e672d6ac041cd0e00b604157978d2ef5c6b7289a4"
@@ -7327,6 +7437,261 @@
           "path": "game/assets/ui-common/header-home-title.png",
           "bytes": 65987,
           "sha256": "c476d0ca09f8c4c75abf514cbce23321c44fb507ae7f17a3d4d407ecedfec1a2"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/alliance.png",
+          "bytes": 58479,
+          "sha256": "05c5f34c9902e94fcdb258b0b19fc075d9af302a7f8ac118046158fae76be634"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/arena.png",
+          "bytes": 111366,
+          "sha256": "99ee7252084f5a47e93c794cfb8f9ffab95a4e324f958fe7e75b423de9b465ee"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/barracks.png",
+          "bytes": 55228,
+          "sha256": "dc830af9e0e4651e5376b6da8946e832377d7a5ef87817af83df3c5c9d6790bb"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/campaign.png",
+          "bytes": 52697,
+          "sha256": "94cc20b8085b1899282b9bf46b43af40b2a4b4ddfe1fdf16cc55ce1370b57067"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/chibi.png",
+          "bytes": 57704,
+          "sha256": "a6c28fc56a6d3600289f7d86b81b5297f8477675257cb4256c027bc4bcd049aa"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/codex.png",
+          "bytes": 106181,
+          "sha256": "7a02d1d300b0f156364b0819bc99f564ee788c0c4db19da68065ca5a997b3e91"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/digit-0.png",
+          "bytes": 20969,
+          "sha256": "56d4316384526cc3dc2029a87b37b7314e6b3d0eec6152d3e3aebe9995ba3d72"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/digit-1.png",
+          "bytes": 21360,
+          "sha256": "96cc93a40bfbfa2875a2ce5b39c71dd34d816253f31a73551504a9be82fb9772"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/digit-2.png",
+          "bytes": 30557,
+          "sha256": "8df6fbd1b6ff6b4b043c4fe09aecbed5475597f6510994acb2bd967febb89bf9"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/digit-3.png",
+          "bytes": 21137,
+          "sha256": "9407fe9f9ed0446ccf401d632398ec54285a1a4c87e2527603509538d2bd8770"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/digit-4.png",
+          "bytes": 17145,
+          "sha256": "7748d2bc165843ac0fc4bf18d459f73235876d7894307e38516ee6c895da3bc7"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/digit-5.png",
+          "bytes": 21846,
+          "sha256": "380b72bcdfe7a9b0fc1356fb14c539f184f5a978e195aaaace55cc9a0797120a"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/digit-6.png",
+          "bytes": 19874,
+          "sha256": "3d8a23c13f784a39416673dd9d6b770a4ded5076557bf91be889c96aa0ebb345"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/digit-7.png",
+          "bytes": 24345,
+          "sha256": "0b23de9c6b9652b8ffee5db01c3c709dac0a3cfaacc28c7fd496e157855bd3c3"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/digit-8.png",
+          "bytes": 31001,
+          "sha256": "c4ccf5e2c67e23e005b413354e41470a44b2e53943bf802d6cd4c8689b20c3c7"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/digit-9.png",
+          "bytes": 29940,
+          "sha256": "bb66080e8592f7aa2ec79183dac2aa88ec7833ff7c5eb127317bde4023a7ccfd"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/exchange.png",
+          "bytes": 115771,
+          "sha256": "605fded2320281a44b11699c810eb72e79cff91e252fa8d0bc06d392772f1f7b"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/expedition.png",
+          "bytes": 115055,
+          "sha256": "be4d774978701c64f0848a2b7e0da3deef7c514014e65391b88997c9621f3ff0"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/floor.png",
+          "bytes": 27229,
+          "sha256": "2dae13b3466b60985d2ac1a4caecef3aafacc52d91eac463facba2007a709ea9"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/formation.png",
+          "bytes": 102194,
+          "sha256": "8da4142a0faddde9042b12e321cb66468cc35db0d87b931dc557bb3331c683bd"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/government.png",
+          "bytes": 53992,
+          "sha256": "5dd0cf7835446bd6de903032eb4e745ab30537e893f211495f794f0a2733b3b7"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/guandu.png",
+          "bytes": 60384,
+          "sha256": "b8ae469ca09a9d5bbc354edcf17c2cd521152ac95e930a29c74c63764c8255d2"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/hard.png",
+          "bytes": 103849,
+          "sha256": "fd0339f46749f27dde57e8a09502293c18691cf6beb24f1044bde22b34b4d62d"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/hulao.png",
+          "bytes": 84416,
+          "sha256": "2ee06d00b1f0900e89a73f168e65abdb20cbe6c576a7cb3dc9a4e41ef2742c4b"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/mail.png",
+          "bytes": 81872,
+          "sha256": "0f460e38bcd7ba6fd749360ebccf73c828a93a7a48e0442ccc85a0cb94a60af6"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/merit.png",
+          "bytes": 108148,
+          "sha256": "3317908275c68a4652b4ce16c99e21f005dc53c9c14b92e6da738c687ccc35ad"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/missions.png",
+          "bytes": 54665,
+          "sha256": "7d0bceaa3e1ba1a1452803bed221e88dc7276b8455c263eaf46562fd4537c544"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/opponent.png",
+          "bytes": 124544,
+          "sha256": "918eb1ed5c85c48a2a38d030c0292892876d32363f4dac5de2a1c83c1f56e01b"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/pickup.png",
+          "bytes": 121496,
+          "sha256": "b06b3e7f3373f7e820cabbf64638fde59e66c2e80aea306df52dcbc2bbc4ceec"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/products.png",
+          "bytes": 115841,
+          "sha256": "e54fc59414226c672a2fccc66699ccaf15f88a95a2992c4cba1c6e83922e2600"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/profile.png",
+          "bytes": 104225,
+          "sha256": "febac151860ba8a787f7bb943fe94e1cfa2caf2150fccb914e1ca35bdc05e71e"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/puyang.png",
+          "bytes": 60641,
+          "sha256": "9c9a6974f2919b3c87f6a40d4db3024977d77d0d4c2b92d1cca59033aa5fe650"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/rates.png",
+          "bytes": 132663,
+          "sha256": "c4c3a3cbe48e51fb2a2778b4e94c8f0c84b7db6965dc2b75d87166c589e9961c"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/record.png",
+          "bytes": 105010,
+          "sha256": "a587423e353d72e8da1957da60d553b187948334a799367976051d637e39b988"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/recruit-result.png",
+          "bytes": 115318,
+          "sha256": "c4ef250570844e85e597457ade194ad94df1f7b123bb8476acbffbb0e968c076"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/results.png",
+          "bytes": 106172,
+          "sha256": "4c57e2268b37518f033cfb49f0146e0a792fe574ec33a3b168ed656af3b1d2db"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/season.png",
+          "bytes": 134595,
+          "sha256": "b502151719c40dfba246d581c584cc12165b09a7467755e0fa75ff76191e597d"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/select.png",
+          "bytes": 118749,
+          "sha256": "d56664a00496915193d64bea93c0b7e77b7cbbb30593e9dff8be58374428a620"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/settings.png",
+          "bytes": 57400,
+          "sha256": "d05b2cbf5fe7e88a4db4e7e222251a3f7315621ab8b225a210b4acc82095322d"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/shop.png",
+          "bytes": 54033,
+          "sha256": "811429bece78ca3308d86fd9a6f0bee29968633e18230861ad6769a84cdaab30"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/sishui.png",
+          "bytes": 75545,
+          "sha256": "eb88edfac1773248d2f63a4d29af949809fcdb337f8356c9b56ea91c1173a2a0"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/start.png",
+          "bytes": 128091,
+          "sha256": "0dabeb87b4a986ba1841954ad0ac7e39e086acd241231d20df5ba5fc15bd10a1"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/strategy.png",
+          "bytes": 116841,
+          "sha256": "12f164bbd2bac7a4ce22a6a247ea323d532cf9869fd0cb27a70e96504b74393c"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/tower.png",
+          "bytes": 85480,
+          "sha256": "70976deb72df6a02641c4622aa790e71fb4fda7a1dabc5ca4aa45bbbff1ff9d1"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/training.png",
+          "bytes": 116581,
+          "sha256": "24ffea4a8432c9d16506eeee41ced1f65be188cf181487a739ef350ade204b46"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/treasure-result.png",
+          "bytes": 109732,
+          "sha256": "de25f239b6d2bb3dbc2691fedfcd819893feca1f37a054180b4e44c18b2bc4ff"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/treasure.png",
+          "bytes": 103213,
+          "sha256": "2c35f89349bafa2c69b1ce9c0c1c7f43fa4c08518ccc2a0598d1aa31b1b0c2ee"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/xiapi.png",
+          "bytes": 72791,
+          "sha256": "76fdb8a8be163c9a3c0a7c33ac7f29603b84581fa76cbb7c53b9e04c070eb060"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/yellow.png",
+          "bytes": 110887,
+          "sha256": "c7a5247ea3dfe14b09085dd7ff6db5f62c88e15563e95ee7870af8c73e914f11"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/yiling.png",
+          "bytes": 52981,
+          "sha256": "b0e9509a48a578ad80a830783b50d4f40a71bb2160b7f1725b330eed94611f8c"
+        },
+        {
+          "path": "game/assets/ui-common/header-title-premium.png",
+          "bytes": 1372708,
+          "sha256": "e5e8940ff32be0c126650e518b7838fcd8dee890b5a1987d0e428e4a4ec7e57e"
         },
         {
           "path": "game/assets/ui-common/header-title.png",
