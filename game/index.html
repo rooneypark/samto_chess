@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#172538">
+  <link rel="icon" href="data:,">
+  <title>삼토체스 · 성문</title>
+  <style>.game[data-booting]{visibility:hidden}</style>
+  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="dialog-buttons.css">
+  <link rel="stylesheet" href="battle.css">
+  <link rel="stylesheet" href="design-a.css">
+  <link rel="stylesheet" href="gate-lobby.css">
+  <link rel="stylesheet" href="battle-ui.css">
+  <link rel="stylesheet" href="barracks-ui.css">
+  <link rel="stylesheet" href="art-controls.css">
+  <link rel="stylesheet" href="ui-shell.css">
+  <link rel="stylesheet" href="shop-ui.css">
+  <link rel="stylesheet" href="alliance-ui.css">
+  <link rel="stylesheet" href="arena-ui.css">
+  <link rel="stylesheet" href="campaign-ui.css">
+  <link rel="stylesheet" href="results-ui.css">
+  <link rel="stylesheet" href="combat-record.css">
+  <link rel="stylesheet" href="missions-ui.css">
+  <link rel="stylesheet" href="mail-ui.css">
+<link rel="stylesheet" href="artwork-screen.css">
+<link rel="stylesheet" href="codex-ui.css">
+<link rel="stylesheet" href="start-ui.css">
+<link rel="stylesheet" href="expedition-ui.css">
+<link rel="stylesheet" href="tower-ui.css">
+<link rel="stylesheet" href="government-ui.css">
+<link rel="stylesheet" href="general-picker.css">
+<link rel="stylesheet" href="treasure-screen.css"><link rel="stylesheet" href="profile-screen.css"><link rel="stylesheet" href="settings-screen.css"><link rel="stylesheet" href="formation-screen.css"><link rel="stylesheet" href="strategy-screen.css"><link rel="stylesheet" href="exchange-screen.css"><link rel="stylesheet" href="s-select-screen.css"><link rel="stylesheet" href="recruit-results-screen.css"><link rel="stylesheet" href="artwork-runtime.css"><link rel="stylesheet" href="rates-screen.css"><link rel="stylesheet" href="products-screen.css"><link rel="stylesheet" href="arena-records-screen.css"><link rel="stylesheet" href="arena-season-screen.css"><link rel="stylesheet" href="dialog-art.css"><link rel="stylesheet" href="toast.css"><link rel="stylesheet" href="event-motion.css">
+</head>
+<body>
+  <div class="game-stack">
+  <div id="toast" class="game-toast" role="status" aria-live="polite" hidden></div>
+  <main class="game" data-booting inert aria-busy="true" aria-label="삼토체스 성문">
+    <div class="castle" aria-hidden="true"></div>
+    <header class="hud">
+      <button class="profile" data-action="profile" aria-label="군주 정보">
+        <img src="assets/heroes/0-portrait.png" alt="">
+        <span>군주 <small>Lv.1</small><span class="xp"><i></i></span></span>
+      </button>
+      <h1>삼토체스</h1>
+      <div class="wallet">
+        <button data-action="wallet" aria-label="보유 골드 12,450"><i class="icon icon-gold"></i><span>12,450</span></button>
+        <button data-action="wallet" aria-label="보유 다이아 320"><i class="icon icon-gem"></i><span>320</span></button>
+      </div>
+    </header>
+    <div class="shortcuts left">
+      <button class="square" data-action="mail"><i class="icon icon-mail"></i><span>우편</span></button>
+      <button class="square" data-action="quests"><i class="icon icon-scroll"></i><span>임무</span></button>
+      <button class="square" data-action="start" aria-label="첫 7일 보상"><i class="icon icon-chest"></i><span>7일</span></button>
+    </div>
+    <div class="shortcuts right">
+      <button class="square" data-action="settings"><i class="icon icon-settings"></i><span>설정</span></button>
+      <button class="square" data-action="codex"><i class="icon icon-helmet"></i><span>도감</span></button>
+      <button class="square" data-action="expedition"><i class="icon icon-banner"></i><span>토벌</span></button>
+      <button class="square" data-action="tower"><i class="icon icon-gate"></i><span>연무탑</span></button>
+    </div>
+    <section class="party" aria-label="출전 장수"></section>
+    <div class="party-toolbar"><span class="rule"></span><span>출전 장수 <strong>6 / 6</strong></span><button class="small skin" data-action="formation">편성</button><span class="rule"></span></div>
+    <div class="campaign skin">황건의 난 · 1전투</div>
+    <div class="departure">
+      <button class="square" data-action="campaign"><i class="icon icon-map"></i><span>전역</span></button>
+      <button class="primary depart" data-action="depart">출정</button>
+    </div>
+    <nav class="bottom-nav" aria-label="주 메뉴">
+      <button class="skin" data-action="shop"><i class="icon icon-shop"></i><span>상점</span></button>
+      <button class="skin" data-action="barracks"><i class="icon icon-helmet"></i><span>병영</span></button>
+      <button class="skin active" data-action="home" aria-current="page"><i class="icon icon-gate"></i><span>성문</span></button>
+      <button class="skin" data-action="alliance"><i class="icon icon-banner"></i><span>동맹</span></button>
+      <button class="skin" data-action="arena"><i class="icon icon-swords"></i><span>군웅대전</span></button>
+    </nav>
+  </main>
+  </div>
+  <dialog id="modal" aria-labelledby="modal-title">
+    <div class="dialog-header"><h2 id="modal-title"></h2><button id="close-modal" aria-label="닫기">×</button></div>
+    <div id="modal-body"></div>
+  </dialog>
+  <script type="module" src="app.js?ui=arena-v2"></script>
+</body>
+</html>

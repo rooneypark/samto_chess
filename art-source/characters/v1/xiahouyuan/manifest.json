@@ -1,0 +1,192 @@
+{
+  "id": "xiahouyuan",
+  "name": "하후연",
+  "faction": "위",
+  "order": 19,
+  "identity": "Xiahou Yuan: hardy middle-aged archer general, short bristly beard, intense alert eyes, low rounded DARK STEEL helmet with cheek flaps, BLUE scarf, practical dark lamellar armor and modest leather bracers. Wooden recurve bow and quiver. Broad normal warrior body, no fur mantle and no eye patch. Distinct from old white-bearded Huang Zhong.",
+  "folder": "xiahouyuan",
+  "identityDesign": "Xiahou Yuan: hardy middle-aged archer general, short bristly beard, intense alert eyes, low rounded DARK STEEL helmet with cheek flaps, BLUE scarf, practical dark lamellar armor and modest leather bracers. Wooden recurve bow and quiver. Broad normal warrior body, no fur mantle and no eye patch. Distinct from old white-bearded Huang Zhong.",
+  "artRevision": "pixel256-v1",
+  "canvas": [
+    256,
+    256
+  ],
+  "foot": [
+    128,
+    224
+  ],
+  "schemaVersion": 2,
+  "status": "ready-for-review",
+  "runtimeApplied": false,
+  "motionComplete": false,
+  "sideFacing": "left",
+  "right": "mirror-side",
+  "directions": {
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "xiahouyuan",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "sourceCanvas": [
+          1254,
+          1254
+        ],
+        "bodyTopVirtual256": 71,
+        "bodyHeightTarget": 128,
+        "sourceFootVirtual256": 228,
+        "sourceToFinalScale": 0.16643809872103538,
+        "wholeImageOffset": [
+          24,
+          38
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          85,
+          83,
+          166,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
+        "weaponContainFit": false,
+        "runtimeApplied": false,
+        "sha256": "3b860e6225a5679b5e9846ca3c8c3878185f85fde70093628502e83f2d42ec3f"
+      }
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "xiahouyuan",
+        "direction": "back",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 83,
+        "bodyHeightTarget": 128,
+        "sourceFootVirtual256": 205,
+        "sourceToFinalScale": 0.21418673360002094,
+        "wholeImageOffset": [
+          -6,
+          9
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          87,
+          78,
+          171,
+          226
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "42395eae229074f00690ed5122a1178387edb9f45f293cff4eb482a7fab3a919"
+      }
+    },
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "xiahouyuan",
+        "direction": "side",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 82,
+        "bodyHeightTarget": 128,
+        "sourceFootVirtual256": 214,
+        "sourceToFinalScale": 0.19796046590304964,
+        "wholeImageOffset": [
+          4,
+          16
+        ],
+        "groundRoundingCorrection": 1,
+        "visibleBounds": [
+          89,
+          81,
+          167,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "17bd4b1352938a0df5d5d4401b4eb1fa906c75a3710162a0191e11e953644ce8"
+      }
+    }
+  },
+  "files": {
+    "front": {
+      "path": "front.png",
+      "sha256": "3b860e6225a5679b5e9846ca3c8c3878185f85fde70093628502e83f2d42ec3f"
+    },
+    "back": {
+      "path": "back.png",
+      "sha256": "42395eae229074f00690ed5122a1178387edb9f45f293cff4eb482a7fab3a919"
+    },
+    "side": {
+      "path": "side.png",
+      "sha256": "17bd4b1352938a0df5d5d4401b4eb1fa906c75a3710162a0191e11e953644ce8"
+    }
+  },
+  "sourceProvider": "built-in image_gen",
+  "provenanceFile": "generation.json",
+  "bodyMetrics": {
+    "shoulderWidth": null,
+    "anatomicalHeight": null,
+    "riderJoints": null
+  },
+  "approval": {
+    "frontApproved": false,
+    "fullSetApproved": false
+  }
+}

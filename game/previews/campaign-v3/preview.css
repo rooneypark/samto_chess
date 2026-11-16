@@ -1,0 +1,10 @@
+*{box-sizing:border-box}html,body{margin:0;background:#0c1420}body{display:grid;place-items:center;min-height:100svh;color:#fff0cd;font-family:Georgia,'Batang',serif}
+.game{position:relative;width:min(100vw,941px);aspect-ratio:941/530;container-type:inline-size;background:#192b43;image-rendering:pixelated;overflow:hidden}
+h1{position:absolute;top:4cqw;width:100%;margin:0;text-align:center;font-size:4.3cqw;color:#ffe2a3}.intro{position:absolute;top:10.2cqw;width:100%;margin:0;text-align:center;font-size:2.5cqw;color:#b7c8d9}
+.sample-panel{position:absolute;left:2.125%;right:2.125%;top:28%;height:62%}.map-art{position:absolute;inset:1.3cqw;background:#dac395 url('/game/previews/campaign-v1/map.png') center/cover}.panel-frame{position:absolute;inset:0;pointer-events:none}
+article{position:absolute;top:2cqw;width:26.57%;height:30cqw;text-align:center}article:nth-of-type(1){left:3.55%}article:nth-of-type(2){left:36.63%}article:nth-of-type(3){left:69.7%}
+h2{margin:0;font-size:2.8cqw;line-height:4cqw;color:#263344;background:#f2dfb6ed;white-space:nowrap}
+.sprite-space{position:relative;height:13cqw;display:grid;place-items:center}.sprite-space canvas{width:12.75cqw;height:10.63cqw;image-rendering:pixelated;position:relative;z-index:1}
+article[aria-current=true] .sprite-space::before{content:'';position:absolute;bottom:1.6cqw;width:13cqw;height:2cqw;border:.3cqw solid #ffe6a1;background:#b0914055;border-radius:50%}
+button{position:relative;width:100%;height:7.44cqw;display:flex;align-items:center;justify-content:center;border:0;padding:0;background:transparent;font:bold 3.1cqw Georgia,'Batang',serif;color:#fff0cd;text-shadow:0 .15cqw #0e1c2d;cursor:pointer;white-space:nowrap}
+article small{display:block;margin-top:1.3cqw;font-size:2.4cqw;color:#273341;background:#f2dfb6ed;line-height:3cqw}.note{position:absolute;bottom:2cqw;width:100%;text-align:center;margin:0;font-size:2.4cqw;color:#b7c8d9}

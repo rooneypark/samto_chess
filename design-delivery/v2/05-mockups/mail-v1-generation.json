@@ -1,0 +1,21 @@
+{
+  "status": "user-approved-runtime-applied",
+  "runtimeApplied": true,
+  "type": "rendered-component-mockup",
+  "generator": "HTML composition using approved shared assets; no new raster generation/crop",
+  "composition": "game/previews/mail-v1/index.html",
+  "screenshot": "mail-v1.png",
+  "mobileScreenshot": "mail-v1-mobile.png",
+  "shell": "game/ui-shell.js + art-controls.js",
+  "frames": "game/nine-slice.js; 28px fixed corners",
+  "spacing": "Body x20..921, footer gap20, helper gaps12, detail action top/bottom gaps20",
+  "data": "Memory-only mail example using existing questDefs, periodBonus and serviceCommand; no player profile access",
+  "qa": "game/previews/mail-v1/qa.json",
+  "runtimeReviewed": false,
+  "runtime": "game/mail.js",
+  "runtimeData": "Actual durable profile mail and existing serviceCommand; partial batch failures stay claimable; confirmed deletion; no test mail injected",
+  "runtimeQA": [
+    "test-artifacts/mail-v1/runtime-qa.json",
+    "test-artifacts/mail-v1/flow-qa.json"
+  ]
+}

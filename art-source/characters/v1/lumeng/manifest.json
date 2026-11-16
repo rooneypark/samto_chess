@@ -1,0 +1,192 @@
+{
+  "id": "lumeng",
+  "name": "여몽",
+  "faction": "오",
+  "order": 35,
+  "identity": "Lu Meng: mature capable commander, broad thoughtful face, neat black moustache and medium squared beard, practical angular SILVER helmet with modest short pale crest. White surcoat/cape over dark iron armor, crimson sash, long spear. WHITE garment should read from far away; not generic red-gold warrior. Sturdy normal infantry.",
+  "folder": "lumeng",
+  "identityDesign": "Lu Meng: mature capable commander, broad thoughtful face, neat black moustache and medium squared beard, practical angular SILVER helmet with modest short pale crest. White surcoat/cape over dark iron armor, crimson sash, long spear. WHITE garment should read from far away; not generic red-gold warrior. Sturdy normal infantry.",
+  "artRevision": "pixel256-v1",
+  "canvas": [
+    256,
+    256
+  ],
+  "foot": [
+    128,
+    224
+  ],
+  "schemaVersion": 2,
+  "status": "ready-for-review",
+  "runtimeApplied": false,
+  "motionComplete": false,
+  "sideFacing": "left",
+  "right": "mirror-side",
+  "directions": {
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "lumeng",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "sourceCanvas": [
+          1254,
+          1254
+        ],
+        "bodyTopVirtual256": 79,
+        "bodyHeightTarget": 126,
+        "sourceFootVirtual256": 232,
+        "sourceToFinalScale": 0.168120836851487,
+        "wholeImageOffset": [
+          23,
+          33
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          79,
+          53,
+          173,
+          226
+        ],
+        "clippedVisiblePixels": 0,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
+        "weaponContainFit": false,
+        "runtimeApplied": false,
+        "sha256": "05eeac2eb1c26ad85404947f0d0e580eca5b9628ad3b66cbbdc174e35bdbb425"
+      }
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "lumeng",
+        "direction": "back",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 97,
+        "bodyHeightTarget": 126,
+        "sourceFootVirtual256": 224,
+        "sourceToFinalScale": 0.20253927589194892,
+        "wholeImageOffset": [
+          1,
+          2
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          83,
+          54,
+          170,
+          226
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "bf3b757920ee6d4487b46225beeda89b196da0ccfc4187fad758835e8fa5aeba"
+      }
+    },
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "lumeng",
+        "direction": "side",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 96,
+        "bodyHeightTarget": 126,
+        "sourceFootVirtual256": 219,
+        "sourceToFinalScale": 0.20912591901038627,
+        "wholeImageOffset": [
+          -3,
+          0
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          78,
+          53,
+          167,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "9d42425c52c32eb158364377807a47666ee1c2d49851458b4a8813e9839b1d61"
+      }
+    }
+  },
+  "files": {
+    "front": {
+      "path": "front.png",
+      "sha256": "05eeac2eb1c26ad85404947f0d0e580eca5b9628ad3b66cbbdc174e35bdbb425"
+    },
+    "back": {
+      "path": "back.png",
+      "sha256": "bf3b757920ee6d4487b46225beeda89b196da0ccfc4187fad758835e8fa5aeba"
+    },
+    "side": {
+      "path": "side.png",
+      "sha256": "9d42425c52c32eb158364377807a47666ee1c2d49851458b4a8813e9839b1d61"
+    }
+  },
+  "sourceProvider": "built-in image_gen",
+  "provenanceFile": "generation.json",
+  "bodyMetrics": {
+    "shoulderWidth": null,
+    "anatomicalHeight": null,
+    "riderJoints": null
+  },
+  "approval": {
+    "frontApproved": false,
+    "fullSetApproved": false
+  }
+}

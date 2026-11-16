@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "implementation": [
+    "game/stage-data.js",
+    "game/battle-data.js",
+    "game/battle-engine.js",
+    "game/battle-run.js",
+    "game/battle.js",
+    "game/battle.css",
+    "game/retention.js"
+  ],
+  "specification": "docs/삼국체스_최종기획결정_개발전달_v1.0.txt",
+  "designs": [
+    "docs/ui/battle-prepare-concept-v1.png",
+    "docs/ui/battle-concept-v1.png"
+  ],
+  "sourceMotion": "reference/chokhan/catalog.json + analysis/motion-manifest.json; MOV/ATK/SPC frames copied without modification into game/assets/battle",
+  "sourceStructure": "reference/castle/local-preview-checkpoint23-restore/reference/castle/castle.js summon/move/merge preparation flow; battle arithmetic uses the new game's specification rather than native Castle damage formulas",
+  "simulation": {
+    "tickMs": 50,
+    "roundSeconds": 90,
+    "seededSummons": true,
+    "saveCheckpointSeconds": 1,
+    "rewardsIdempotent": true,
+    "arena": "local NPC snapshots, not network PvP",
+    "runProfile": "allow-listed copy: heroes(level, star, treasure), order, equipped treasures, strategy, reducedMotion"
+  },
+  "proposalDefaults": {
+    "reason": "Enemy stats and positions, boss tactic, round silver, equipment drops and clear rewards are read at run time from game/stage-data.js (the adopted v0.10 stage-proposal.json). They are not repeated in code.",
+    "source": "game/stage-data.js",
+    "roundSilver": "stage.rounds[].victorySilver (4,5,6,7,8)",
+    "equipmentChoiceRounds": "stage.rounds[].equipmentReward (rounds 2 and 4)",
+    "equipmentChoices": [
+      "sword",
+      "armor",
+      "bow"
+    ],
+    "bossSkill": "stage.bossSkill via the explicit skill registry in battle-data.js",
+    "arena": "battle-data.js arenaRules; each side applies its own strategy (opponent strategy stored in the match snapshot)"
+  },
+  "visuals": {
+    "background": "game/assets/ui/battle-courtyard-v1.png",
+    "generation": "Built-in image_gen; approved preparation image used as style reference",
+    "prompt": "Create production game background asset for the attached approved pixel game UI. Supporting reference only. Output square image 1024x1024, an EMPTY battle courtyard, strict crisp chunky pixel art matching reference blue slate fortress and muted teal stone palette. NO characters, NO text, NO HUD, NO buttons, NO icons, NO grid lines. Large perfectly flat orthographic square stone courtyard fills central 90 percent of image with subtly mottled slate grey stone in upper half and muted teal stone in lower half. Very thin pixel stone walls only at outer 5 percent margin. Two tiny yellow unlettered banners at upper corners. This asset will have a programmatic exact 8x8 grid and real animated game sprites overlaid, so NO perspective, NO props in central 90 percent. Flat pixel textures, limited palette, no gradients, no blur. Match reference pixel density and sober blue stone frame.",
+    "limitations": "Original Chokhan motion frames are preserved; battle timing, targeting, projectiles and effects implement the new game's rules, not a claim of native runtime equivalence. Responsive layout recreates approved composition with real controls and original source sprites.",
+    "alignment": "One shared 8x8 board rectangle; native center pivot +48 source pixels is grounded at cell (0.5,0.70). MOV/SPC 96 and ATK 128 keep identical pixels-to-cell scale; native frames unmodified.",
+    "frames": [
+      "game/assets/ui/battle-panel.svg",
+      "game/assets/ui/battle-teal.svg",
+      "game/assets/ui/battle-slot.svg",
+      "game/assets/ui/battle-gold.svg"
+    ],
+    "timing": "Original frame poses sampled by windup/release/recovery; impact positions recorded at event time. Visual effects and damage numbers use fixed simulation tick ages."
+  },
+  "verification": [
+    "npm test",
+    "npm run verify:assets",
+    "npm run test:browser",
+    "npm run review:battle",
+    "npm run review:mixed"
+  ],
+  "specificationBasis": "docs/reference-v012/통합명세_원문.md; conflicts resolved by the final decision document"
+}

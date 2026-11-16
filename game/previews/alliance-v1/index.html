@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><base href="/game/">
+<title>동맹 본부 · 화면 시안</title><link rel="icon" href="data:,"><link rel="stylesheet" href="art-controls.css"><link rel="stylesheet" href="ui-shell.css"><link rel="stylesheet" href="previews/alliance-v1/preview.css"></head>
+<body><main class="game gate-lobby alliance-concept" aria-label="동맹 본부 디자인 시안" inert aria-busy="true">
+ <button id="barracks-back" aria-label="성문으로 돌아가기"></button>
+ <div class="wallet"><button aria-label="골드 예시 12,450"></button><button aria-label="다이아 예시 320"></button></div>
+ <h1 class="scroll-heading" data-box="22,153,895,90">청운동맹</h1>
+ <nav class="section-tabs" aria-label="동맹 메뉴">
+  <button data-tone="green" data-box="32,264,281,74" aria-current="page" data-note="현재 동맹 본부 화면입니다.">동맹 본부</button>
+  <button data-tone="blue" data-box="330,264,281,74" data-note="동맹원 목록과 공헌 순위를 확인하는 메뉴입니다.">동맹원</button>
+  <button data-tone="blue" data-box="628,264,281,74" data-note="출석·기부·토벌 활동 기록을 확인하는 메뉴입니다.">활동 기록</button>
+ </nav>
+ <section class="headquarters" data-box="20,354,901,410" aria-label="산속 동맹 본부와 관우·제갈량 독립 원화">
+  <div class="environment"></div><div class="panel-frame" data-frame="blue"></div>
+ </section>
+ <div class="general-lineup"></div>
+ <p class="guild-stats" data-box="44,695,853,48"><span>군주 <b>청운</b></span><i></i><span>동맹원 <b>12 / 30</b></span><i></i><span>내 공헌 <b>120</b></span></p>
+ <p class="notice guild-notice" data-box="22,782,895,90"><b>공지</b><span>군량을 모아 함께 토벌을 준비합시다.</span></p>
+ <section class="cooperation" data-box="20,895,901,270" aria-label="공동 토벌 준비">
+  <div class="panel-frame" data-frame="blue"></div>
+ </section>
+ <h2 data-box="54,919,620,45">공동 토벌 준비</h2><span class="period" data-box="725,925,160,35">주간 협력</span>
+ <div class="preparation" data-box="55,984,660,24" role="progressbar" aria-label="토벌 준비도" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"><i></i></div>
+ <b class="percentage" data-box="746,971,136,46">60<span>%</span></b>
+ <p class="helper" data-box="55,1025,790,31">준비도 100% 달성 시 동맹 토벌 개방</p>
+ <div class="cooperation-actions">
+  <button data-tone="green" data-box="52,1079,268,66" data-note="군량 지원: 주 1회, 준비도 +40%p · 공헌 +10. 시안에서는 지급하거나 차감하지 않습니다.">군량 지원</button>
+  <button data-tone="blue" data-box="336,1079,268,66" data-note="군자금 기부: 골드 100 → 공헌 10 · 준비도 +20%p, 하루 3회. 시안에서는 차감하지 않습니다.">군자금 기부</button>
+  <button data-tone="blue" data-box="620,1079,268,66" data-note="동맹 토벌은 준비도 100%에서 열리며, 하루 2회 참여할 수 있습니다.">토벌 정보</button>
+ </div>
+ <div class="activity-buttons">
+  <button data-tone="green" data-box="32,1187,430,130" data-note="동맹 출석: 하루 한 번 골드 50 · 공헌 5. 현재는 디자인 시안입니다."><strong>동맹 출석</strong><small>골드 50 · 공헌 5</small></button>
+  <button data-tone="blue" data-box="480,1187,430,130" data-note="동맹 상점에서 공헌으로 장수 카드와 보물 교환재료를 교환합니다."><strong>동맹 상점</strong><small>공헌으로 보상 교환</small></button>
+  <button data-tone="blue" data-box="32,1337,430,112" data-note="동맹 연구: 둔전 개간 · 행군 훈련. 현재는 디자인 시안입니다."><strong>동맹 연구</strong><small>둔전 개간 · 행군 훈련</small></button>
+  <button data-tone="blue" data-box="480,1337,430,112" data-note="동맹 관리: 공지 편집 · 가입 신청 · 동맹원 관리 화면으로 연결됩니다."><strong>동맹 관리</strong><small>공지 · 가입 신청</small></button>
+ </div>
+ <p class="reset-note" data-box="32,1463,877,26">매일 05:00 출석·기부 갱신 · 주간 협력은 월요일 갱신</p>
+ <nav class="bottom-nav" aria-label="주 메뉴">
+  <button data-action="shop" aria-label="상점"></button><button data-action="barracks" aria-label="병영"></button><button data-action="home" aria-label="성문"></button><button data-action="alliance" aria-label="동맹" aria-current="page"></button><button data-action="arena" aria-label="군웅대전"></button>
+ </nav>
+</main><div class="preview-status" role="status" hidden></div><script type="module" src="previews/alliance-v1/preview.js"></script></body></html>

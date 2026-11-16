@@ -1,0 +1,20 @@
+{
+  "status": "user-approved-runtime-reviewed",
+  "runtimeApplied": true,
+  "type": "rendered-component-mockup",
+  "generator": "HTML composition of existing approved shared components; no image generation",
+  "composition": "game/previews/combat-record-v1/index.html",
+  "screenshot": "battle-record-v1.png",
+  "mobileScreenshot": "battle-record-v1-mobile.png",
+  "characters": "Unmodified independent generals-v2 front sources, full silhouette and 70% standing ratio",
+  "shell": "game/ui-shell.js + art-controls.js",
+  "frames": "game/nine-slice.js, fixed logical corners 28px",
+  "data": "Existing battle engine with in-memory yellow_03 round-5 example; no player store access or settlement",
+  "qa": "game/previews/combat-record-v1/qa.json",
+  "characterScale": "Mounted Guan Yu/Lu Bu 100%; Xu Chu 85%; other standing generals 70%; original aspect ratios and foot anchors preserved",
+  "runtime": "game/combat-record.js",
+  "runtimeQA": "test-artifacts/combat-record-v1/qa.json",
+  "runtimeData": "Current run.battle units including fallen and reinforced units; no payout or engine mutation in record display",
+  "characterScaleApproval": "User confirmed Xu Chu 85%, mounted 100%, other standing originals 70%",
+  "runtimeReviewed": true
+}

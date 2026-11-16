@@ -1,0 +1,192 @@
+{
+  "id": "dongzhuo",
+  "name": "동탁",
+  "faction": "군웅",
+  "order": 42,
+  "identity": "Dong Zhuo: very fat imposing tyrant, huge round belly, thick short neck, broad heavy cheeks and bushy BLACK beard, smug hostile eyes. Low lavish dark-gold crown, rich purple robe and red-black armor stretched over belly, ornate but readable bronze belt. Hold heavy crescent blade. Broadest torso but not tallest; distinct obesity not muscle.",
+  "folder": "dongzhuo",
+  "identityDesign": "Dong Zhuo: very fat imposing tyrant, huge round belly, thick short neck, broad heavy cheeks and bushy BLACK beard, smug hostile eyes. Low lavish dark-gold crown, rich purple robe and red-black armor stretched over belly, ornate but readable bronze belt. Hold heavy crescent blade. Broadest torso but not tallest; distinct obesity not muscle.",
+  "artRevision": "pixel256-v1",
+  "canvas": [
+    256,
+    256
+  ],
+  "foot": [
+    128,
+    224
+  ],
+  "schemaVersion": 2,
+  "status": "ready-for-review",
+  "runtimeApplied": false,
+  "motionComplete": false,
+  "sideFacing": "left",
+  "right": "mirror-side",
+  "directions": {
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "dongzhuo",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "sourceCanvas": [
+          1254,
+          1254
+        ],
+        "bodyTopVirtual256": 53,
+        "bodyHeightTarget": 132,
+        "sourceFootVirtual256": 230,
+        "sourceToFinalScale": 0.15224501932798098,
+        "wholeImageOffset": [
+          33,
+          52
+        ],
+        "groundRoundingCorrection": 1,
+        "visibleBounds": [
+          66,
+          74,
+          189,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
+        "weaponContainFit": false,
+        "runtimeApplied": false,
+        "sha256": "b028d4f5538e3084f788e23d99a24355bd8dda0b1839edd8986a92e9421089bd"
+      }
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "dongzhuo",
+        "direction": "back",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 89,
+        "bodyHeightTarget": 132,
+        "sourceFootVirtual256": 226,
+        "sourceToFinalScale": 0.19669611986169805,
+        "wholeImageOffset": [
+          5,
+          6
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          77,
+          76,
+          185,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "c5a14e88190b98c15e522ccb7b491508c0e07883b8fb5b0321e6edc463394450"
+      }
+    },
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "dongzhuo",
+        "direction": "side",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 91,
+        "bodyHeightTarget": 132,
+        "sourceFootVirtual256": 224,
+        "sourceToFinalScale": 0.20261179263949347,
+        "wholeImageOffset": [
+          1,
+          2
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          76,
+          77,
+          180,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "6224ce8d1d3280457821c76aa767ebcf7b70c6261177214f5011f5beffc0b0da"
+      }
+    }
+  },
+  "files": {
+    "front": {
+      "path": "front.png",
+      "sha256": "b028d4f5538e3084f788e23d99a24355bd8dda0b1839edd8986a92e9421089bd"
+    },
+    "back": {
+      "path": "back.png",
+      "sha256": "c5a14e88190b98c15e522ccb7b491508c0e07883b8fb5b0321e6edc463394450"
+    },
+    "side": {
+      "path": "side.png",
+      "sha256": "6224ce8d1d3280457821c76aa767ebcf7b70c6261177214f5011f5beffc0b0da"
+    }
+  },
+  "sourceProvider": "built-in image_gen",
+  "provenanceFile": "generation.json",
+  "bodyMetrics": {
+    "shoulderWidth": null,
+    "anatomicalHeight": null,
+    "riderJoints": null
+  },
+  "approval": {
+    "frontApproved": false,
+    "fullSetApproved": false
+  }
+}

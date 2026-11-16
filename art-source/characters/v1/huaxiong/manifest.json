@@ -1,0 +1,192 @@
+{
+  "id": "huaxiong",
+  "name": "화웅",
+  "faction": "군웅",
+  "order": 48,
+  "identity": "Hua Xiong: brutal large frontier warrior, dark tan square face, thick bristly black beard, low dark iron helmet with angular cheek guards, heavy IRON/BLACK armor and brown fur edging confined to short shoulder pads, dark plum cape. Hold massive crescent blade. Rough heavier silhouette distinct from Yan Liang and Wen Chou; avoid common gold lions.",
+  "folder": "huaxiong",
+  "identityDesign": "Hua Xiong: brutal large frontier warrior, dark tan square face, thick bristly black beard, low dark iron helmet with angular cheek guards, heavy IRON/BLACK armor and brown fur edging confined to short shoulder pads, dark plum cape. Hold massive crescent blade. Rough heavier silhouette distinct from Yan Liang and Wen Chou; avoid common gold lions.",
+  "artRevision": "pixel256-v1",
+  "canvas": [
+    256,
+    256
+  ],
+  "foot": [
+    128,
+    224
+  ],
+  "schemaVersion": 2,
+  "status": "ready-for-review",
+  "runtimeApplied": false,
+  "motionComplete": false,
+  "sideFacing": "left",
+  "right": "mirror-side",
+  "directions": {
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "huaxiong",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "sourceCanvas": [
+          1254,
+          1254
+        ],
+        "bodyTopVirtual256": 94,
+        "bodyHeightTarget": 131,
+        "sourceFootVirtual256": 233,
+        "sourceToFinalScale": 0.19239727834956916,
+        "wholeImageOffset": [
+          7,
+          4
+        ],
+        "groundRoundingCorrection": 1,
+        "visibleBounds": [
+          75,
+          38,
+          180,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
+        "weaponContainFit": false,
+        "runtimeApplied": false,
+        "sha256": "dc395d03098f507890350a982d04bed8f5b99b717a07725586d070e5168e1aa7"
+      }
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "huaxiong",
+        "direction": "back",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 90,
+        "bodyHeightTarget": 131,
+        "sourceFootVirtual256": 220,
+        "sourceToFinalScale": 0.20571708992761623,
+        "wholeImageOffset": [
+          -1,
+          2
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          81,
+          38,
+          178,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "269e92fae0b50b09dfd64bac0be8995dd2c9cbb285730796c98bd17198f0f929"
+      }
+    },
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "huaxiong",
+        "direction": "side",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 92,
+        "bodyHeightTarget": 131,
+        "sourceFootVirtual256": 221,
+        "sourceToFinalScale": 0.20731179605108616,
+        "wholeImageOffset": [
+          -2,
+          0
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          79,
+          38,
+          166,
+          226
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "bb8f590cb96f843fa52c8429a8f2d71ced3f2acd313d81caabe61a19e429a8de"
+      }
+    }
+  },
+  "files": {
+    "front": {
+      "path": "front.png",
+      "sha256": "dc395d03098f507890350a982d04bed8f5b99b717a07725586d070e5168e1aa7"
+    },
+    "back": {
+      "path": "back.png",
+      "sha256": "269e92fae0b50b09dfd64bac0be8995dd2c9cbb285730796c98bd17198f0f929"
+    },
+    "side": {
+      "path": "side.png",
+      "sha256": "bb8f590cb96f843fa52c8429a8f2d71ced3f2acd313d81caabe61a19e429a8de"
+    }
+  },
+  "sourceProvider": "built-in image_gen",
+  "provenanceFile": "generation.json",
+  "bodyMetrics": {
+    "shoulderWidth": null,
+    "anatomicalHeight": null,
+    "riderJoints": null
+  },
+  "approval": {
+    "frontApproved": false,
+    "fullSetApproved": false
+  }
+}

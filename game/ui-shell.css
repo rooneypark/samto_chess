@@ -1,0 +1,40 @@
+.game:is(.barracks-art,.shop-art,.alliance-art,.arena-art,.campaign-art){width:min(100vw,56.2799043svh);aspect-ratio:941/1672}
+@scope (:is(.game:is(.barracks-art,.shop-art,.alliance-art,.arena-art,.campaign-art):not(.in-battle),.results-v1,.combat-record-v1,.missions-v1,.mail-v1,.codex-runtime,.start-runtime,.expedition-runtime,.tower-runtime,.artwork-runtime)){
+ .hud,.wallet,.bottom-nav{display:contents}
+ .hud>.profile,.hud>h1{display:none}
+ .wallet button,.bottom-nav button{position:absolute;margin:0;padding:0;border:0;border-image:none;background:none;box-shadow:none;filter:none;min-width:0;min-height:0;translate:none;color:transparent;font-size:0;text-shadow:none;z-index:25}
+ .wallet button>*,.bottom-nav button>*{opacity:0;pointer-events:none}
+ .wallet button:active,.bottom-nav button:active{background:none;box-shadow:none}
+}
+/* Approved shop rendering and wallet lettering. */
+.game:is(.shop-art,.alliance-art,.arena-art,.campaign-art){image-rendering:pixelated}
+.game:is(.shop-art,.alliance-art,.arena-art,.campaign-art) .shell-wallet-value{text-shadow:0 .15cqw #0e1c2d}
+/* One 941×150 header and one 941×174 footer for approved artwork screens. */
+.art-header{position:absolute;inset:0;pointer-events:none;z-index:2;background:url('assets/ui-common/header-frame.png') top left/100% 8.9712919% no-repeat;image-rendering:pixelated}
+.art-header-title{position:absolute;display:flex;align-items:center;justify-content:center;background:url('assets/ui-common/header-title.png') 0 0/100% 100%;font:bold 5.6cqw Georgia,'Batang',serif;color:#fff0c9;white-space:nowrap}
+.art-header-title.has-gate-lettering{font-size:0}
+.gate-title-lettering{width:75.64%;height:auto;display:block}
+
+.art-header[data-screen=battle] .art-header-title{font-size:4.7cqw}
+.art-header-content{position:absolute;background-size:100% 100%}
+.art-header-content.battle{background-image:url('assets/ui-common/battle-header-content.png')}
+.art-header-content.barracks{background-color:#1b304a}
+.game:not(.gate-lobby)>.art-header,.game.in-battle>.art-header{display:none}
+.game.gate-lobby .gate-value{z-index:3}
+.game.gate-lobby:not(.in-battle) .profile{z-index:3}
+.game.gate-lobby:not(.in-battle) .profile>img{position:absolute;left:8.8709677%;top:13.3333333%;width:83.0645161%;height:75%;opacity:1;object-fit:cover;object-position:center 20%;border:0;border-radius:0;box-shadow:none}
+.game.gate-lobby .gate-xp::before{content:'';position:absolute;left:-5.084746%;top:-37.5%;width:110.16949%;height:175%;background:url('assets/ui-common/header-xp-frame.png') 0 0/100% 100%;z-index:-1}
+.game.gate-lobby .gate-xp{overflow:visible}
+.game .shell-back,.game .shell-help{z-index:6!important}
+.game .art-control.art-painted{background-image:var(--art-image)!important;background-size:100% 100%!important;background-color:transparent!important}
+:is(.game:is(.gate-lobby,.barracks-art,.shop-art,.alliance-art,.arena-art,.campaign-art):not(.in-battle),.results-v1,.combat-record-v1,.missions-v1,.mail-v1,.codex-runtime,.start-runtime,.expedition-runtime,.tower-runtime,.artwork-runtime) .wallet button{z-index:6}
+:is(.game:is(.gate-lobby,.barracks-art,.shop-art,.alliance-art,.arena-art,.campaign-art):not(.in-battle),.results-v1,.combat-record-v1,.missions-v1,.mail-v1,.codex-runtime,.start-runtime,.expedition-runtime,.tower-runtime,.artwork-runtime) .wallet .shell-wallet-value{position:absolute;left:38.6%;top:10%;width:54.6%;height:70%;display:flex;align-items:center;justify-content:flex-end;opacity:1;color:#fff0c6;font:bold 4cqw Georgia,'Batang',serif;line-height:1;background:url('assets/gate-lobby/dark.png') 0 0/100% 100%;pointer-events:none}
+:is(.game:is(.gate-lobby,.barracks-art,.shop-art,.alliance-art,.arena-art,.campaign-art):not(.in-battle),.results-v1,.combat-record-v1,.missions-v1,.mail-v1,.codex-runtime,.start-runtime,.expedition-runtime,.tower-runtime,.artwork-runtime) .bottom-nav::before{content:'';position:absolute;left:0;top:89.5933014%;width:100%;height:10.4066986%;background:url('assets/ui-common/nav-frame.png') 0 0/100% 100%;z-index:23;pointer-events:none}
+:is(.game:is(.gate-lobby,.barracks-art,.shop-art,.alliance-art,.arena-art,.campaign-art):not(.in-battle),.results-v1,.combat-record-v1,.missions-v1,.mail-v1,.codex-runtime,.start-runtime,.expedition-runtime,.tower-runtime,.artwork-runtime) .bottom-nav button{z-index:25}
+.game:not(.government-art,.treasure-art,.profile-art,.settings-art,.formation-art,.strategy-art,.exchange-art,.s-select-art,.recruit-results-art,.rates-art,.products-art,.merit-shop-art,.arena-records-art,.arena-season-art,.arena-opponents-art):not(.tower-art):not(.expedition-art):not(.start-art):not(.codex-art):not(.mail-art):not(.missions-art):not(.gate-lobby):not(.barracks-art):not(.shop-art):not(.alliance-art):not(.arena-art):not(.campaign-art) .shell-wallet-value{display:none}
+.battle-v2 .battle-title h2{opacity:0;pointer-events:none}
+.battle-v2 .battle-title>span,.battle-v2 .battle-status>span,.battle-v2 .battle-live-count{z-index:4}
+.battle-v2 #battle-header-pause{top:2.2727273%!important;z-index:6}
+.barracks-v2 .hero-roster{grid-auto-rows:21.7cqw;gap:1.1cqw}
+.barracks-v2 .roster-card.unowned div span{font-size:2.8cqw;color:#d9c49c}
+.barracks-v2 .hero-level.hero-unowned{font-size:2.8cqw;color:#e8ce9c}

@@ -1,0 +1,192 @@
+{
+  "id": "yuejin",
+  "name": "악진",
+  "faction": "위",
+  "order": 22,
+  "identity": "Yue Jin: shorter compact sturdy assault warrior, broad determined clean-shaven jaw, low rounded BRONZE helmet, ochre scarf over navy dark iron armor. Hold short sturdy sword. Low broad center of mass, simple boots, no fur collar or extravagant cape. Small but adult muscular, not child.",
+  "folder": "yuejin",
+  "identityDesign": "Yue Jin: shorter compact sturdy assault warrior, broad determined clean-shaven jaw, low rounded BRONZE helmet, ochre scarf over navy dark iron armor. Hold short sturdy sword. Low broad center of mass, simple boots, no fur collar or extravagant cape. Small but adult muscular, not child.",
+  "artRevision": "pixel256-v1",
+  "canvas": [
+    256,
+    256
+  ],
+  "foot": [
+    128,
+    224
+  ],
+  "schemaVersion": 2,
+  "status": "ready-for-review",
+  "runtimeApplied": false,
+  "motionComplete": false,
+  "sideFacing": "left",
+  "right": "mirror-side",
+  "directions": {
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "yuejin",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "sourceCanvas": [
+          1254,
+          1254
+        ],
+        "bodyTopVirtual256": 98,
+        "bodyHeightTarget": 116,
+        "sourceFootVirtual256": 239,
+        "sourceToFinalScale": 0.1679505016571086,
+        "wholeImageOffset": [
+          23,
+          27
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          86,
+          93,
+          166,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
+        "weaponContainFit": false,
+        "runtimeApplied": false,
+        "sha256": "2c793ed62ff77e01b3cf9d8c32aa4e34b7f996931a3d77feeda2ae20dbd76fd8"
+      }
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "yuejin",
+        "direction": "back",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 95,
+        "bodyHeightTarget": 116,
+        "sourceFootVirtual256": 210,
+        "sourceToFinalScale": 0.20592191942306357,
+        "wholeImageOffset": [
+          -1,
+          12
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          91,
+          90,
+          168,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "2482e3b4ec2bd20e0259a72103c2538ea12a6f862bcfdc128d93d76aec7320f4"
+      }
+    },
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "yuejin",
+        "direction": "side",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 95,
+        "bodyHeightTarget": 116,
+        "sourceFootVirtual256": 211,
+        "sourceToFinalScale": 0.20414673046251994,
+        "wholeImageOffset": [
+          0,
+          13
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          100,
+          91,
+          161,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "60d94c07adf72e9fb7cc4f6139ff87e7b94e913ce490516e4c0c83e4d25288cb"
+      }
+    }
+  },
+  "files": {
+    "front": {
+      "path": "front.png",
+      "sha256": "2c793ed62ff77e01b3cf9d8c32aa4e34b7f996931a3d77feeda2ae20dbd76fd8"
+    },
+    "back": {
+      "path": "back.png",
+      "sha256": "2482e3b4ec2bd20e0259a72103c2538ea12a6f862bcfdc128d93d76aec7320f4"
+    },
+    "side": {
+      "path": "side.png",
+      "sha256": "60d94c07adf72e9fb7cc4f6139ff87e7b94e913ce490516e4c0c83e4d25288cb"
+    }
+  },
+  "sourceProvider": "built-in image_gen",
+  "provenanceFile": "generation.json",
+  "bodyMetrics": {
+    "shoulderWidth": null,
+    "anatomicalHeight": null,
+    "riderJoints": null
+  },
+  "approval": {
+    "frontApproved": false,
+    "fullSetApproved": false
+  }
+}

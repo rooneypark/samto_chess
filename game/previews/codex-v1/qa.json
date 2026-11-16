@@ -1,0 +1,426 @@
+{
+  "pressed": [
+    {
+      "tab": "all-normal",
+      "label": "뒤로",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "tab": "all-normal",
+      "label": "골드",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "tab": "all-normal",
+      "label": "다이아",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "tab": "all-normal",
+      "label": "전체",
+      "outside": 0,
+      "frame": 2017,
+      "missed": 0
+    },
+    {
+      "tab": "all-normal",
+      "label": "위",
+      "outside": 0,
+      "frame": 2022,
+      "missed": 0
+    },
+    {
+      "tab": "all-normal",
+      "label": "촉",
+      "outside": 0,
+      "frame": 2022,
+      "missed": 0
+    },
+    {
+      "tab": "all-normal",
+      "label": "오",
+      "outside": 0,
+      "frame": 2022,
+      "missed": 0
+    },
+    {
+      "tab": "all-normal",
+      "label": "군웅",
+      "outside": 0,
+      "frame": 2022,
+      "missed": 0
+    },
+    {
+      "tab": "all-normal",
+      "label": "관우 · 등용 완료",
+      "outside": 0,
+      "frame": 4477,
+      "missed": 0
+    },
+    {
+      "tab": "all-normal",
+      "label": "허저 · 미등용",
+      "outside": 0,
+      "frame": 4488,
+      "missed": 0
+    },
+    {
+      "tab": "all-normal",
+      "label": "조조 · 등용 완료",
+      "outside": 0,
+      "frame": 4488,
+      "missed": 0
+    },
+    {
+      "tab": "all-normal",
+      "label": "제갈량 · 등용 완료",
+      "outside": 0,
+      "frame": 4488,
+      "missed": 0
+    },
+    {
+      "tab": "all-normal",
+      "label": "초선 · 미등용",
+      "outside": 0,
+      "frame": 4488,
+      "missed": 0
+    },
+    {
+      "tab": "all-normal",
+      "label": "여포 · 미등용",
+      "outside": 0,
+      "frame": 4488,
+      "missed": 0
+    },
+    {
+      "tab": "all-normal",
+      "label": "다음",
+      "outside": 0,
+      "frame": 2086,
+      "missed": 0
+    },
+    {
+      "tab": "all-normal",
+      "label": "등용처 보기",
+      "outside": 0,
+      "frame": 5854,
+      "missed": 0
+    },
+    {
+      "tab": "all-normal",
+      "label": "성문으로",
+      "outside": 0,
+      "frame": 3336,
+      "missed": 0
+    },
+    {
+      "tab": "all-normal",
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "all-normal",
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "tab": "all-normal",
+      "label": "성문",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    },
+    {
+      "tab": "all-normal",
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "all-normal",
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "xuchu-selected",
+      "label": "뒤로",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "tab": "xuchu-selected",
+      "label": "골드",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "tab": "xuchu-selected",
+      "label": "다이아",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "tab": "xuchu-selected",
+      "label": "전체",
+      "outside": 0,
+      "frame": 2017,
+      "missed": 0
+    },
+    {
+      "tab": "xuchu-selected",
+      "label": "위",
+      "outside": 0,
+      "frame": 2022,
+      "missed": 0
+    },
+    {
+      "tab": "xuchu-selected",
+      "label": "촉",
+      "outside": 0,
+      "frame": 2022,
+      "missed": 0
+    },
+    {
+      "tab": "xuchu-selected",
+      "label": "오",
+      "outside": 0,
+      "frame": 2022,
+      "missed": 0
+    },
+    {
+      "tab": "xuchu-selected",
+      "label": "군웅",
+      "outside": 0,
+      "frame": 2022,
+      "missed": 0
+    },
+    {
+      "tab": "xuchu-selected",
+      "label": "관우 · 등용 완료",
+      "outside": 0,
+      "frame": 4488,
+      "missed": 0
+    },
+    {
+      "tab": "xuchu-selected",
+      "label": "허저 · 미등용",
+      "outside": 0,
+      "frame": 4477,
+      "missed": 0
+    },
+    {
+      "tab": "xuchu-selected",
+      "label": "조조 · 등용 완료",
+      "outside": 0,
+      "frame": 4488,
+      "missed": 0
+    },
+    {
+      "tab": "xuchu-selected",
+      "label": "제갈량 · 등용 완료",
+      "outside": 0,
+      "frame": 4488,
+      "missed": 0
+    },
+    {
+      "tab": "xuchu-selected",
+      "label": "초선 · 미등용",
+      "outside": 0,
+      "frame": 4488,
+      "missed": 0
+    },
+    {
+      "tab": "xuchu-selected",
+      "label": "여포 · 미등용",
+      "outside": 0,
+      "frame": 4488,
+      "missed": 0
+    },
+    {
+      "tab": "xuchu-selected",
+      "label": "다음",
+      "outside": 0,
+      "frame": 2086,
+      "missed": 0
+    },
+    {
+      "tab": "xuchu-selected",
+      "label": "등용처 보기",
+      "outside": 0,
+      "frame": 5854,
+      "missed": 0
+    },
+    {
+      "tab": "xuchu-selected",
+      "label": "성문으로",
+      "outside": 0,
+      "frame": 3336,
+      "missed": 0
+    },
+    {
+      "tab": "xuchu-selected",
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "xuchu-selected",
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "tab": "xuchu-selected",
+      "label": "성문",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    },
+    {
+      "tab": "xuchu-selected",
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "xuchu-selected",
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    }
+  ],
+  "frames": [
+    {
+      "tone": "blue",
+      "width": 901,
+      "height": 110,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 165,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 289,
+      "height": 204,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 170,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 901,
+      "height": 264,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 901,
+      "height": 106,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 582,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 301,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 901,
+      "height": 110,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 165,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 289,
+      "height": 204,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 170,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 901,
+      "height": 264,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 901,
+      "height": 106,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 582,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 301,
+      "height": 64,
+      "identicalCorners": true
+    }
+  ],
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "states": [],
+  "identicalShellPixels": 224470
+}

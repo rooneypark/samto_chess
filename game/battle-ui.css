@@ -1,0 +1,98 @@
+/* Approved preparation artwork, in its own native coordinate space. */
+.game.in-battle:has(.battle-v2){width:min(100vw,56.2799043svh);aspect-ratio:941/1672}
+@scope (.battle-v2) {
+ :scope.battle-screen{display:block;padding:0;background:url('assets/battle-v2/scene.png') 0 0/100% 100%!important;image-rendering:pixelated}
+ :scope.battle-screen[hidden]{display:none}
+ .battle-heading,.battle-title,.battle-header-tools,.battle-status,.bench-panel,.bench-heading,.battle-bench,.prepare-actions{display:contents}
+ .battle-heading::before,.battle-heading::after,.battle-state{display:none}
+ .battle-title h2,.battle-title>span,.battle-status>span,.battle-live-count,.battle-hint,.bench-heading>span,.battle-equipment,.bench-cell,.battle-bonds,.battle-art-button,.battle-header-tools button{position:absolute;margin:0;min-width:0;min-height:0;box-sizing:border-box}
+ .battle-title h2,.battle-title>span,.battle-status>span,.bench-heading>span,.battle-hint,.battle-bonds{display:flex;align-items:center;justify-content:center;padding:0;border:0;border-image:none;background:none;box-shadow:none;gap:.7cqw;font-family:Georgia,'Batang',serif;font-weight:bold;text-shadow:none;white-space:nowrap;line-height:1.12}
+ .battle-title h2{font-size:5cqw;color:#fff0c9;overflow:hidden;letter-spacing:0}
+ .battle-title h2.long-title{font-size:3.5cqw}
+ .battle-title.battle-title>span{font-size:4cqw;color:#102338;border:0;border-image:none;padding:0;background:url('assets/battle-v2/round-blank.png') center/100% 100%;line-height:1.12;box-shadow:none;outline:0}
+ .battle-title h2{background:url('assets/battle-v2/title-blank.png') center/100% 100%}
+ .battle-title .source-lettering{opacity:0}
+ .battle-status>span{font-size:3.8cqw;color:#fff0c9}
+ .battle-hint{font-size:3.6cqw;color:#102338;overflow:hidden;white-space:normal;z-index:5}
+ .bench-heading>span{font-size:4.3cqw;color:#102338}
+ .battle-bonds{font-size:3.3cqw;color:#102338;cursor:pointer;overflow:hidden;text-overflow:ellipsis;z-index:5}
+ .battle-art-button.battle-art-button{border:0;border-image:none;background:none;box-shadow:none;color:transparent;font-size:0;padding:0;filter:none;text-shadow:none;translate:none;z-index:3}
+ .battle-art-button>*{opacity:0;pointer-events:none}
+ .battle-art-button.battle-art-button:active{translate:none;transform:none}
+ #battle-capacity.battle-art-button{font-size:0;color:transparent;border:0;background:none;padding:0;line-height:1}
+ #battle-bonds{padding:0 5.6%;touch-action:manipulation}
+ #battle-bonds:active{translate:none;transform:none}
+
+ #battle-bonds:focus-visible{outline:2px solid #ffe2a1;outline-offset:-8px}
+ .battle-art-button:disabled{opacity:1}
+ .battle-art-button:focus-visible{outline:2px solid #ffe2a1;outline-offset:-3px}
+ .battle-field{position:absolute;left:12.64612%;top:19.67703%;width:75.02657%;height:43.60048%;padding:0;margin:0;background:none;border:0;z-index:2}
+ .battle-board{width:100%;height:100%;aspect-ratio:auto;isolation:isolate}
+ .battle-grid{border:0;box-shadow:none;z-index:0}
+ .battle-units{z-index:1}
+ .battle-cell.battle-cell{position:relative}
+ .battle-cell.battle-cell:active{translate:none}
+ .battle-cell.tile-selected::after,.battle-cell.tile-mergeable::after{content:'';position:absolute;inset:0;box-sizing:border-box;border:2px solid #8cf6b3;pointer-events:none;clip-path:polygon(0 0,24% 0,24% 7%,7% 7%,7% 24%,0 24%,0 0,100% 0,100% 24%,93% 24%,93% 7%,76% 7%,76% 0,100% 0,100% 100%,76% 100%,76% 93%,93% 93%,93% 76%,100% 76%,100% 100%,0 100%,0 76%,7% 76%,7% 93%,24% 93%,24% 100%,0 100%)}
+ .battle-cell.battle-cell{border:0;box-shadow:none;background:transparent}
+ .battle-cell:hover{box-shadow:inset 0 0 0 1px #eddfa0aa}
+ .battle-cell:focus-visible{outline:2px solid #f4daa1;outline-offset:-2px}
+ .battle-cell.blocked{background:#142335ed!important;box-shadow:inset 0 0 0 2px #b2a38c}
+ .battle-cell.hazard{background:repeating-linear-gradient(45deg,#db573b44 0 2px,transparent 2px 6px);box-shadow:inset 0 0 0 1px #ef8056}
+ .bench-cell.bench-cell{border:0;border-image:none;background:none;padding:0;overflow:visible;z-index:3}
+ .bench-cell.bench-cell:active{translate:none}
+ .battle-equipment{display:flex;gap:1.2cqw;overflow-x:auto;overflow-y:hidden;z-index:3}
+ .battle-equipment button{position:relative;flex:0 0 31.2%;height:100%;padding:0;border:0;background-color:transparent;background-size:100% 100%;font-size:2.5cqw}
+ .battle-equipment small{position:absolute;bottom:7%;right:10%;background:#182c40;color:#fff0cc}
+ .is-preparing .life,.is-preparing .mana{display:none}
+ :scope.is-preparing .life,:scope.is-preparing .mana,:scope.is-preparing .unit-ground{display:none}
+ .unit-rank{top:70%;font-family:Georgia,serif;font-size:2.6cqw;line-height:1;background:#fff0c8;color:#152339;border:1px solid #9f845c;padding:0 .3cqw;text-shadow:none}
+ .enemy .unit-rank{display:none}
+ .bench-cell .unit-rank{top:88%;font-size:2.3cqw}
+ .merge-label{display:none}
+ .battle-piece.selected::after,.battle-piece.mergeable::after{inset:0;box-sizing:border-box;border-color:#8cf6b3}
+ .battle-position .battle-piece.selected::after,.battle-position .battle-piece.mergeable::after{display:none}
+ .bench-cell .battle-piece.selected::after,.bench-cell .battle-piece.mergeable::after{inset:0;box-sizing:border-box;border-color:#8cf6b3}
+ .bench-cell .battle-piece::after{z-index:0}
+ .bench-cell .unit-sprite{z-index:1}
+ .merge-success{top:-10%;font-size:2.4cqw}
+ .unit-gear{top:91%;font-size:1.8cqw}
+ .unit-status{font-size:2cqw}
+ .battle-piece{position:relative}
+ .approved-unit{image-rendering:pixelated;filter:none}
+ :scope.is-fighting::after,:scope.is-result::after{content:'';position:absolute;left:2.3%;right:2.3%;top:65.2%;bottom:7.1%;background:#1a2c42;border:1px solid #8ca2b9;z-index:0;pointer-events:none}
+ .speed-panel,.battle-detail,.battle-auto,.battle-result{position:absolute;left:3.4%;width:93%;margin:0;z-index:4;box-sizing:border-box;border:1.2cqw solid transparent;border-image:url('assets/battle-v2/bench.png') 15 fill/1.2cqw/0 stretch;background:none;color:#fff0cf}
+ .speed-panel{top:66%;height:5%;padding:.3cqw 1cqw;font-size:3.7cqw}
+ .speed-panel .battle-button{height:5.5cqw;font-size:3.3cqw;background:#1a3449;border:1px solid #7d98ac;border-image:none}
+ .speed-panel .speed-active{background:#176957;border-color:#ebcc83}
+ .battle-detail{top:72%;height:12%;padding:1.5cqw;grid-template-columns:14cqw minmax(0,1fr) 26cqw}
+ .combat-portrait{width:14cqw;height:16cqw}
+ .battle-auto{top:85.5%;height:6%;font-size:4.2cqw}
+ .battle-result{top:66%;height:26%;padding:3cqw}
+ .battle-result .battle-controls{display:flex;height:auto;min-height:8cqw;gap:1cqw}
+ .battle-result button{background:#175b56;border:1px solid #d0b878;border-image:none;font-size:3.2cqw;padding:1cqw}
+ .battle-result h3{font-size:7cqw}.battle-result p{font-size:3.2cqw;line-height:1.4}
+ .battle-live-count{font-size:3.1cqw;color:#fff0c9;display:flex;align-items:center;justify-content:center;background:#172c42;z-index:4}
+ .battle-timer{font-size:3.5cqw;background:none;border:0;padding:0}
+ .battle-header-tools #battle-header-pause{color:#fff0c9;background:#1b354b;border:2px solid #cbb47a;font-size:4.8cqw;padding:0;z-index:4}
+ .live-hint{top:63%!important;height:2.2%!important;font-size:2.6cqw;background:#172c42;color:#ffd6a1}
+ .live-hint:empty{display:none}
+ .tutorial-guide{top:7%;font-size:clamp(10px,2.7cqw,15px)}
+}
+
+/* Approved five-diamond merge indicator. */
+.battle-v2 .unit-rank.unit-rank{
+ display:flex;align-items:center;justify-content:center;gap:.32cqw;
+ width:auto;min-width:0;height:1.5cqw;top:78%;padding:0;
+ border:0;background:none;box-shadow:none;font-size:0;
+}
+.battle-v2 .enemy .unit-rank{display:none}
+.battle-v2 .bench-cell .unit-rank.unit-rank{top:84%}
+.battle-v2 .bench-cell .approved-unit{translate:0 -.7cqw}
+.rank-diamond{position:relative;display:block;width:1.2cqw;height:1.5cqw;flex:none;
+ clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%);background:#10283a;}
+.rank-diamond::before{content:'';position:absolute;inset:22%;background:#58726f;clip-path:inherit}
+.rank-diamond.filled{background:#8d591d}
+.rank-diamond.filled::before{inset:12%;background:linear-gradient(135deg,#fff5ab 0 35%,#ffd15c 35% 67%,#d99121 67%);}
+
+.battle-v2:is(.is-fighting,.is-result) .unit-rank.unit-rank{top:70%;height:.9cqw;gap:.25cqw}
+.battle-v2:is(.is-fighting,.is-result) .rank-diamond{width:.75cqw;height:.9cqw}

@@ -1,0 +1,21 @@
+{
+  "status": "approved-runtime-applied",
+  "runtimeApplied": true,
+  "generator": "built-in image_gen: scenery only; HTML composition with approved shared assets",
+  "background": {
+    "file": "game/previews/arena-v1/courtyard.png",
+    "generatedSource": "C:/Users/pms10/.codex/generated_images/01a1d401-218e-7061-acde-752e44e85aca/exec-b3e887b3-53bd-48d9-819f-b9460c7e0ea4.png",
+    "prompt": "Use case: ui-mockup. Asset type: environment-only background plate for a Korean Three Kingdoms pixel-art auto-chess arena opponent-selection screen. Generate wide 3:2 image of an imperial stone tournament courtyard viewed frontally at slight elevated angle: symmetrical distant tiled-roof gate and low balustrades, blue-gray stone dueling platform across foreground, red and muted teal martial banners on the two sides, a few bronze braziers with small warm flames, distant mountains under pale warm sky. Hero sprites will be overlaid later. Keep central 60% and bottom 35% uncluttered flat stone for two opposing full-body heroes. Architecture modest scale and in background; visible banners and braziers fully within margins. Match an established charming 16-bit Three Kingdoms game with chunky crisp dark pixel outlines, hand-placed pixels, limited navy/slate/cream/gold palette, restrained vermilion accents. Strong simple readable shapes at small mobile size, no smooth painting, no gradients. No characters, people, horses, letters, text, UI, panels, logos or watermark. Entire image opaque. This is scenery only; all approved UI and independently drawn heroes will be placed separately."
+  },
+  "composition": "game/previews/arena-v1/index.html",
+  "screenshot": "arena-versus-v1.png",
+  "shell": "game/ui-shell.js + game/art-controls.js",
+  "frames": "game/nine-slice.js: blue/green, 28px corners",
+  "characters": "Unmodified generals-v2 originals; 1 and 119 duel, all six in formation",
+  "qa": "game/previews/arena-v1/qa.json",
+  "state": "Preview examples only; no player save access",
+  "runtime": "game/arena-ui.js",
+  "runtimeAsset": "game/assets/arena-v2/courtyard.png",
+  "runtimeQA": "game/tests/arena-ui-browser.cjs",
+  "runtimeCharacterScale": "User correction: standing figures use 70% of mounted height, with a shared foot baseline. Originals unchanged."
+}

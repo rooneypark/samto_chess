@@ -1,0 +1,60 @@
+/* Shared stone frame, consistent bevels and semantic action hierarchy. */
+#modal .action[data-dialog-role],
+.design-actions button[data-dialog-role] {
+  --button-face:#24445b;
+  --button-light:#7894ad;
+  --button-shadow:#122738;
+  position:relative;
+  box-sizing:border-box;
+  min-height:44px;
+  min-width:0;
+  padding:8px 16px;
+  background:var(--button-face);
+  border:2px solid #102439;
+  border-right-width:1px;
+  border-bottom-width:1px;
+  border-image:none;
+  box-shadow:inset 0 2px var(--button-light),inset 2px 0 var(--button-light),inset 0 -2px var(--button-shadow),inset -1px 0 var(--button-shadow),0 1px #0c1d2b;
+  color:#e2eaf0;
+  font-size:17px;
+  line-height:1.25;
+  text-shadow:0 1px #0a2234;
+  border-radius:0;
+}
+#modal .action[data-dialog-role=primary],
+.design-actions button[data-dialog-role=primary] {
+  --button-face:#146f69;
+  --button-light:#75c6b5;
+  --button-shadow:#0b4546;
+  color:#fff3cf;
+}
+#modal .action[data-dialog-role=danger],
+.design-actions button[data-dialog-role=danger] {
+  --button-face:#594548;
+  --button-light:#a18a85;
+  --button-shadow:#352e38;
+  color:#f3c0a9;
+}
+#modal .modal-actions,
+.design-actions {display:flex;align-items:stretch;gap:10px}
+#modal .modal-actions>.action[data-dialog-role],
+.design-actions>button[data-dialog-role] {flex:1}
+#modal .modal-actions>.action[data-dialog-role=primary],
+.design-actions>button[data-dialog-role=primary] {flex:1.45}
+#modal .action[data-dialog-role]:active:not(:disabled),
+.design-actions button[data-dialog-role]:active:not(:disabled) {
+  translate:none;
+  box-shadow:inset 0 3px var(--button-shadow),inset 2px 0 var(--button-shadow),inset 0 -1px var(--button-light);
+}
+#modal .action[data-dialog-role]:disabled,
+.design-actions button[data-dialog-role]:disabled {
+  --button-face:#293c4b;
+  --button-light:#4d6578;
+  --button-shadow:#1b2b37;
+  color:#8195a4;
+  opacity:1;
+  text-shadow:none;
+}
+@media(max-width:400px){
+  #modal .action[data-dialog-role],.design-actions button[data-dialog-role]{padding:8px 10px;font-size:15px}
+}

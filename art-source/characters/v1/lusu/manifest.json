@@ -1,0 +1,192 @@
+{
+  "id": "lusu",
+  "name": "노숙",
+  "faction": "오",
+  "order": 37,
+  "identity": "Lu Su: middle-aged calm generous diplomat, broader softer face, small dark moustache, substantial but not muscular scholar body. Modest rounded bronze-brown official cap, muted TEAL outer robe with cream inner collar and brown sash, wide sleeves. Hold rolled scroll with both hands. Distinct from thin youthful blue Guo Jia and tall-crowned Xun Yu.",
+  "folder": "lusu",
+  "identityDesign": "Lu Su: middle-aged calm generous diplomat, broader softer face, small dark moustache, substantial but not muscular scholar body. Modest rounded bronze-brown official cap, muted TEAL outer robe with cream inner collar and brown sash, wide sleeves. Hold rolled scroll with both hands. Distinct from thin youthful blue Guo Jia and tall-crowned Xun Yu.",
+  "artRevision": "pixel256-v1",
+  "canvas": [
+    256,
+    256
+  ],
+  "foot": [
+    128,
+    224
+  ],
+  "schemaVersion": 2,
+  "status": "ready-for-review",
+  "runtimeApplied": false,
+  "motionComplete": false,
+  "sideFacing": "left",
+  "right": "mirror-side",
+  "directions": {
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "lusu",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "sourceCanvas": [
+          1254,
+          1254
+        ],
+        "bodyTopVirtual256": 79,
+        "bodyHeightTarget": 122,
+        "sourceFootVirtual256": 230,
+        "sourceToFinalScale": 0.16493974249289692,
+        "wholeImageOffset": [
+          25,
+          38
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          97,
+          100,
+          159,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
+        "weaponContainFit": false,
+        "runtimeApplied": false,
+        "sha256": "40d5e835f2f07c72cbc0af8fd6e21698f01dd1d4bc2f588633e20e66e1d08275"
+      }
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "lusu",
+        "direction": "back",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 82,
+        "bodyHeightTarget": 122,
+        "sourceFootVirtual256": 209,
+        "sourceToFinalScale": 0.1961094576096648,
+        "wholeImageOffset": [
+          5,
+          23
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          99,
+          103,
+          158,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "8563ca8036c2be54f9e9529ec556fe511fca3759849946e8121aafb21c479a35"
+      }
+    },
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "lusu",
+        "direction": "side",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 81,
+        "bodyHeightTarget": 122,
+        "sourceFootVirtual256": 205,
+        "sourceToFinalScale": 0.20085404126151155,
+        "wholeImageOffset": [
+          2,
+          22
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          107,
+          104,
+          147,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "54d85580cb17ae0eb1faf8a8fff434f6d0654d7ca2e61f9038c522d1504fa095"
+      }
+    }
+  },
+  "files": {
+    "front": {
+      "path": "front.png",
+      "sha256": "40d5e835f2f07c72cbc0af8fd6e21698f01dd1d4bc2f588633e20e66e1d08275"
+    },
+    "back": {
+      "path": "back.png",
+      "sha256": "8563ca8036c2be54f9e9529ec556fe511fca3759849946e8121aafb21c479a35"
+    },
+    "side": {
+      "path": "side.png",
+      "sha256": "54d85580cb17ae0eb1faf8a8fff434f6d0654d7ca2e61f9038c522d1504fa095"
+    }
+  },
+  "sourceProvider": "built-in image_gen",
+  "provenanceFile": "generation.json",
+  "bodyMetrics": {
+    "shoulderWidth": null,
+    "anatomicalHeight": null,
+    "riderJoints": null
+  },
+  "approval": {
+    "frontApproved": false,
+    "fullSetApproved": false
+  }
+}

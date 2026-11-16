@@ -1,0 +1,469 @@
+{
+  "pressed": [
+    {
+      "tab": "available",
+      "label": "뒤로",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "골드",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "다이아",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "1일차\n골드 200\n✓ 수령 완료",
+      "outside": 0,
+      "frame": 3444,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "2일차\n훈련권 2\n수령 가능",
+      "outside": 0,
+      "frame": 3433,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "3일차\n무료 다이아 100\n진행 중",
+      "outside": 0,
+      "frame": 3444,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "4일차\n골드 300\n잠금 · 4일차 개방",
+      "outside": 0,
+      "frame": 3444,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "5일차\n무료 다이아 100\n잠금 · 5일차 개방",
+      "outside": 0,
+      "frame": 4128,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "6일차\n보물 재료 10\n잠금 · 6일차 개방",
+      "outside": 0,
+      "frame": 4128,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "7일차\n무료 다이아 200\n잠금 · 7일차 개방",
+      "outside": 0,
+      "frame": 4128,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "임무로 이동",
+      "outside": 0,
+      "frame": 4281,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "보상 받기",
+      "outside": 0,
+      "frame": 4297,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "성문으로",
+      "outside": 0,
+      "frame": 8725,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "성문",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "뒤로",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "골드",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "다이아",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "1일차\n골드 200\n✓ 수령 완료",
+      "outside": 0,
+      "frame": 3433,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "2일차\n훈련권 2\n수령 가능",
+      "outside": 0,
+      "frame": 3444,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "3일차\n무료 다이아 100\n진행 중",
+      "outside": 0,
+      "frame": 3444,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "4일차\n골드 300\n잠금 · 4일차 개방",
+      "outside": 0,
+      "frame": 3444,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "5일차\n무료 다이아 100\n잠금 · 5일차 개방",
+      "outside": 0,
+      "frame": 4128,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "6일차\n보물 재료 10\n잠금 · 6일차 개방",
+      "outside": 0,
+      "frame": 4128,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "7일차\n무료 다이아 200\n잠금 · 7일차 개방",
+      "outside": 0,
+      "frame": 4128,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "임무로 이동",
+      "outside": 0,
+      "frame": 4281,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "성문으로",
+      "outside": 0,
+      "frame": 8725,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "성문",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "뒤로",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "골드",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "다이아",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "1일차\n골드 200\n✓ 수령 완료",
+      "outside": 0,
+      "frame": 3444,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "2일차\n훈련권 2\n수령 가능",
+      "outside": 0,
+      "frame": 3444,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "3일차\n무료 다이아 100\n진행 중",
+      "outside": 0,
+      "frame": 3444,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "4일차\n골드 300\n잠금 · 4일차 개방",
+      "outside": 0,
+      "frame": 3444,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "5일차\n무료 다이아 100\n잠금 · 5일차 개방",
+      "outside": 0,
+      "frame": 4128,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "6일차\n보물 재료 10\n잠금 · 6일차 개방",
+      "outside": 0,
+      "frame": 4128,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "7일차\n무료 다이아 200\n잠금 · 7일차 개방",
+      "outside": 0,
+      "frame": 4117,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "성문으로",
+      "outside": 0,
+      "frame": 8725,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "성문",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    }
+  ],
+  "frames": [
+    {
+      "tone": "blue",
+      "w": 901,
+      "h": 136
+    },
+    {
+      "tone": "blue",
+      "w": 211,
+      "h": 166
+    },
+    {
+      "tone": "blue",
+      "w": 287,
+      "h": 166
+    },
+    {
+      "tone": "blue",
+      "w": 901,
+      "h": 340
+    },
+    {
+      "tone": "blue",
+      "w": 410,
+      "h": 60
+    },
+    {
+      "tone": "blue",
+      "w": 413,
+      "h": 60
+    },
+    {
+      "tone": "blue",
+      "w": 901,
+      "h": 242
+    },
+    {
+      "tone": "blue",
+      "w": 239,
+      "h": 82
+    },
+    {
+      "tone": "blue",
+      "w": 901,
+      "h": 64
+    },
+    {
+      "tone": "green",
+      "w": 901,
+      "h": 136
+    },
+    {
+      "tone": "green",
+      "w": 211,
+      "h": 166
+    },
+    {
+      "tone": "green",
+      "w": 287,
+      "h": 166
+    },
+    {
+      "tone": "green",
+      "w": 901,
+      "h": 340
+    },
+    {
+      "tone": "green",
+      "w": 410,
+      "h": 60
+    },
+    {
+      "tone": "green",
+      "w": 413,
+      "h": 60
+    },
+    {
+      "tone": "green",
+      "w": 901,
+      "h": 242
+    },
+    {
+      "tone": "green",
+      "w": 239,
+      "h": 82
+    },
+    {
+      "tone": "green",
+      "w": 901,
+      "h": 64
+    }
+  ],
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "states": [],
+  "identicalShellPixels": 224470
+}

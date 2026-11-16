@@ -1,0 +1,192 @@
+{
+  "id": "weiyan",
+  "name": "위연",
+  "faction": "촉",
+  "order": 27,
+  "identity": "Wei Yan: fierce mature soldier, red-brown complexion, heavy upturned black brows, sharp eyes and black pointed beard. Dark steel helmet with strong angled brow, orange-red neck scarf, worn bronze/green armor, no full-face fantasy mask. Hold large curved glaive. Aggressive angular silhouette, strong normal infantry.",
+  "folder": "weiyan",
+  "identityDesign": "Wei Yan: fierce mature soldier, red-brown complexion, heavy upturned black brows, sharp eyes and black pointed beard. Dark steel helmet with strong angled brow, orange-red neck scarf, worn bronze/green armor, no full-face fantasy mask. Hold large curved glaive. Aggressive angular silhouette, strong normal infantry.",
+  "artRevision": "pixel256-v1",
+  "canvas": [
+    256,
+    256
+  ],
+  "foot": [
+    128,
+    224
+  ],
+  "schemaVersion": 2,
+  "status": "ready-for-review",
+  "runtimeApplied": false,
+  "motionComplete": false,
+  "sideFacing": "left",
+  "right": "mirror-side",
+  "directions": {
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "weiyan",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "sourceCanvas": [
+          1254,
+          1254
+        ],
+        "bodyTopVirtual256": 88,
+        "bodyHeightTarget": 130,
+        "sourceFootVirtual256": 229,
+        "sourceToFinalScale": 0.18822038978813896,
+        "wholeImageOffset": [
+          10,
+          13
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          76,
+          40,
+          171,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
+        "weaponContainFit": false,
+        "runtimeApplied": false,
+        "sha256": "e73b8e024f8c387af66d4f9a6eba859809f75b17634c219c997a6ee04d419f9e"
+      }
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "weiyan",
+        "direction": "back",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 93,
+        "bodyHeightTarget": 130,
+        "sourceFootVirtual256": 223,
+        "sourceToFinalScale": 0.20414673046251994,
+        "wholeImageOffset": [
+          0,
+          1
+        ],
+        "groundRoundingCorrection": 1,
+        "visibleBounds": [
+          81,
+          40,
+          176,
+          226
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "60289ba1f9e9b4c25086b2e96590f559e454c6c280ebd03ef493e8ab8957f8da"
+      }
+    },
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "weiyan",
+        "direction": "side",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 94,
+        "bodyHeightTarget": 130,
+        "sourceFootVirtual256": 210,
+        "sourceToFinalScale": 0.22878512896661715,
+        "wholeImageOffset": [
+          -15,
+          -11
+        ],
+        "groundRoundingCorrection": -1,
+        "visibleBounds": [
+          80,
+          33,
+          173,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "6ed7f5d01e77c85339ddbdcf13aafe8e0b24da7c64c9e444c03da2b1e58e4aa5"
+      }
+    }
+  },
+  "files": {
+    "front": {
+      "path": "front.png",
+      "sha256": "e73b8e024f8c387af66d4f9a6eba859809f75b17634c219c997a6ee04d419f9e"
+    },
+    "back": {
+      "path": "back.png",
+      "sha256": "60289ba1f9e9b4c25086b2e96590f559e454c6c280ebd03ef493e8ab8957f8da"
+    },
+    "side": {
+      "path": "side.png",
+      "sha256": "6ed7f5d01e77c85339ddbdcf13aafe8e0b24da7c64c9e444c03da2b1e58e4aa5"
+    }
+  },
+  "sourceProvider": "built-in image_gen",
+  "provenanceFile": "generation.json",
+  "bodyMetrics": {
+    "shoulderWidth": null,
+    "anatomicalHeight": null,
+    "riderJoints": null
+  },
+  "approval": {
+    "frontApproved": false,
+    "fullSetApproved": false
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "method": "Independent built-in image_gen redraws, alpha-preserving nearest-neighbor size export. No screenshot cutouts.",
+  "sprites": [
+    {
+      "id": "xuchu-back",
+      "source": "design-delivery/v2/01-characters/battle-redraws/xuchu-back.png",
+      "sourceAlphaBounds": [
+        236,
+        203,
+        781,
+        905
+      ],
+      "visibleSize": [
+        114,
+        126
+      ],
+      "canvas": [
+        160,
+        208
+      ],
+      "foot": [
+        80,
+        200
+      ]
+    },
+    {
+      "id": "1-back",
+      "source": "design-delivery/v2/01-characters/battle-redraws/1-back.png",
+      "sourceAlphaBounds": [
+        180,
+        124,
+        595,
+        1395
+      ],
+      "visibleSize": [
+        90,
+        182
+      ],
+      "canvas": [
+        160,
+        208
+      ],
+      "foot": [
+        80,
+        200
+      ]
+    },
+    {
+      "id": "119-back",
+      "source": "design-delivery/v2/01-characters/battle-redraws/119-back.png",
+      "sourceAlphaBounds": [
+        189,
+        181,
+        653,
+        1181
+      ],
+      "visibleSize": [
+        105,
+        163
+      ],
+      "canvas": [
+        160,
+        208
+      ],
+      "foot": [
+        80,
+        200
+      ]
+    },
+    {
+      "id": "32-back",
+      "source": "design-delivery/v2/01-characters/battle-redraws/32-back.png",
+      "sourceAlphaBounds": [
+        192,
+        261,
+        617,
+        1059
+      ],
+      "visibleSize": [
+        89,
+        139
+      ],
+      "canvas": [
+        160,
+        208
+      ],
+      "foot": [
+        80,
+        200
+      ]
+    },
+    {
+      "id": "35-back",
+      "source": "design-delivery/v2/01-characters/battle-redraws/35-back.png",
+      "sourceAlphaBounds": [
+        215,
+        282,
+        645,
+        1038
+      ],
+      "visibleSize": [
+        90,
+        134
+      ],
+      "canvas": [
+        160,
+        208
+      ],
+      "foot": [
+        80,
+        200
+      ]
+    },
+    {
+      "id": "diaochan-back",
+      "source": "design-delivery/v2/01-characters/battle-redraws/diaochan-back.png",
+      "sourceAlphaBounds": [
+        212,
+        236,
+        546,
+        1135
+      ],
+      "visibleSize": [
+        77,
+        127
+      ],
+      "canvas": [
+        160,
+        208
+      ],
+      "foot": [
+        80,
+        200
+      ]
+    },
+    {
+      "id": "raider-front",
+      "source": "design-delivery/v2/01-characters/battle-redraws/raider-front.png",
+      "sourceAlphaBounds": [
+        300,
+        294,
+        635,
+        635
+      ],
+      "visibleSize": [
+        85,
+        80
+      ],
+      "canvas": [
+        160,
+        208
+      ],
+      "foot": [
+        80,
+        200
+      ]
+    },
+    {
+      "id": "bow-front",
+      "source": "design-delivery/v2/01-characters/battle-redraws/bow-front.png",
+      "sourceAlphaBounds": [
+        257,
+        225,
+        684,
+        814
+      ],
+      "visibleSize": [
+        77,
+        78
+      ],
+      "canvas": [
+        160,
+        208
+      ],
+      "foot": [
+        80,
+        200
+      ]
+    },
+    {
+      "id": "32-front",
+      "source": "design-delivery/v2/01-characters/battle-redraws/32-front.png",
+      "sourceAlphaBounds": [
+        189,
+        363,
+        704,
+        918
+      ],
+      "visibleSize": [
+        78,
+        103
+      ],
+      "canvas": [
+        160,
+        208
+      ],
+      "foot": [
+        80,
+        200
+      ]
+    },
+    {
+      "id": "archer-front",
+      "source": "design-delivery/v2/01-characters/battle-redraws/archer-front.png",
+      "sourceAlphaBounds": [
+        210,
+        282,
+        673,
+        793
+      ],
+      "visibleSize": [
+        79,
+        91
+      ],
+      "canvas": [
+        160,
+        208
+      ],
+      "foot": [
+        80,
+        200
+      ]
+    }
+  ]
+}

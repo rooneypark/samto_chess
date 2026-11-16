@@ -1,0 +1,14 @@
+/* Review-only proposal; injected into an isolated browser, never imported by the game. */
+.battle-v2 .unit-rank.unit-rank{
+ display:flex;align-items:center;justify-content:center;gap:.32cqw;
+ width:auto;min-width:0;height:1.5cqw;top:78%;padding:0;
+ border:0;background:none;box-shadow:none;font-size:0;
+}
+.battle-v2 .enemy .unit-rank{display:none}
+.battle-v2 .bench-cell .unit-rank.unit-rank{top:84%}
+.battle-v2 .bench-cell .approved-unit{translate:0 -.7cqw}
+.rank-diamond{position:relative;display:block;width:1.2cqw;height:1.5cqw;flex:none;
+ clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%);background:#10283a;}
+.rank-diamond::before{content:'';position:absolute;inset:22%;background:#58726f;clip-path:inherit}
+.rank-diamond.filled{background:#8d591d}
+.rank-diamond.filled::before{inset:12%;background:linear-gradient(135deg,#fff5ab 0 35%,#ffd15c 35% 67%,#d99121 67%);}

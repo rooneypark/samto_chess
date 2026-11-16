@@ -1,0 +1,527 @@
+{
+  "checks": "original visible RGB, complete center spans, matching normal/pressed alpha and 72% RGB",
+  "components": [
+    {
+      "id": "gate-profile",
+      "width": 124,
+      "height": 120,
+      "visible": 14095,
+      "transparent": 785,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "gate-gold",
+      "width": 220,
+      "height": 55,
+      "visible": 10647,
+      "transparent": 1453,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "gate-diamonds",
+      "width": 220,
+      "height": 54,
+      "visible": 10727,
+      "transparent": 1153,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "gate-mail",
+      "width": 115,
+      "height": 123,
+      "visible": 12412,
+      "transparent": 1733,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "gate-quests",
+      "width": 115,
+      "height": 125,
+      "visible": 12851,
+      "transparent": 1524,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "gate-start",
+      "width": 115,
+      "height": 124,
+      "visible": 12686,
+      "transparent": 1574,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "gate-settings",
+      "width": 118,
+      "height": 117,
+      "visible": 12273,
+      "transparent": 1533,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "gate-codex",
+      "width": 118,
+      "height": 115,
+      "visible": 11862,
+      "transparent": 1708,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "gate-expedition",
+      "width": 118,
+      "height": 115,
+      "visible": 12254,
+      "transparent": 1316,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "gate-tower",
+      "width": 118,
+      "height": 118,
+      "visible": 12672,
+      "transparent": 1252,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "gate-formation",
+      "width": 160,
+      "height": 61,
+      "visible": 9092,
+      "transparent": 668,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "gate-campaign",
+      "width": 191,
+      "height": 185,
+      "visible": 29789,
+      "transparent": 5546,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "gate-depart",
+      "width": 643,
+      "height": 191,
+      "visible": 107391,
+      "transparent": 15422,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "gate-nav-shop",
+      "width": 178,
+      "height": 144,
+      "visible": 24256,
+      "transparent": 1376,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "gate-nav-barracks",
+      "width": 174,
+      "height": 144,
+      "visible": 23700,
+      "transparent": 1356,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "gate-nav-home",
+      "width": 193,
+      "height": 160,
+      "visible": 29498,
+      "transparent": 1382,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "gate-nav-alliance",
+      "width": 174,
+      "height": 144,
+      "visible": 23719,
+      "transparent": 1337,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "gate-nav-arena",
+      "width": 177,
+      "height": 144,
+      "visible": 24230,
+      "transparent": 1258,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "battle-back",
+      "width": 94,
+      "height": 84,
+      "visible": 6937,
+      "transparent": 959,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "battle-help",
+      "width": 95,
+      "height": 85,
+      "visible": 6604,
+      "transparent": 1471,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "battle-capacity",
+      "width": 89,
+      "height": 74,
+      "visible": 5449,
+      "transparent": 1137,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "battle-sell",
+      "width": 162,
+      "height": 83,
+      "visible": 11571,
+      "transparent": 1875,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "battle-summon",
+      "width": 307,
+      "height": 145,
+      "visible": 41924,
+      "transparent": 2591,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "battle-start",
+      "width": 582,
+      "height": 145,
+      "visible": 81176,
+      "transparent": 3214,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "battle-sword",
+      "width": 119,
+      "height": 83,
+      "visible": 8729,
+      "transparent": 1148,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "battle-armor",
+      "width": 121,
+      "height": 83,
+      "visible": 8781,
+      "transparent": 1262,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "battle-bow",
+      "width": 120,
+      "height": 83,
+      "visible": 8670,
+      "transparent": 1290,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "barracks-back",
+      "width": 98,
+      "height": 98,
+      "visible": 8352,
+      "transparent": 1252,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "barracks-gold",
+      "width": 213,
+      "height": 55,
+      "visible": 11036,
+      "transparent": 679,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "barracks-diamonds",
+      "width": 213,
+      "height": 49,
+      "visible": 8332,
+      "transparent": 2105,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "barracks-train",
+      "width": 311,
+      "height": 94,
+      "visible": 26752,
+      "transparent": 2482,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "barracks-awaken",
+      "width": 277,
+      "height": 94,
+      "visible": 24727,
+      "transparent": 1311,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "barracks-formation",
+      "width": 291,
+      "height": 94,
+      "visible": 25690,
+      "transparent": 1664,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "barracks-treasure",
+      "width": 134,
+      "height": 56,
+      "visible": 7037,
+      "transparent": 467,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "barracks-skill",
+      "width": 420,
+      "height": 77,
+      "visible": 30776,
+      "transparent": 1564,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "barracks-card",
+      "width": 290,
+      "height": 200,
+      "visible": 57642,
+      "transparent": 358,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "barracks-card-selected",
+      "width": 295,
+      "height": 200,
+      "visible": 58642,
+      "transparent": 358,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "barracks-filter-all",
+      "width": 115,
+      "height": 59,
+      "visible": 6263,
+      "transparent": 522,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "barracks-filter-wei",
+      "width": 101,
+      "height": 59,
+      "visible": 4791,
+      "transparent": 1168,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "barracks-filter-shu",
+      "width": 100,
+      "height": 59,
+      "visible": 4763,
+      "transparent": 1137,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "barracks-filter-wu",
+      "width": 96,
+      "height": 59,
+      "visible": 4615,
+      "transparent": 1049,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "barracks-filter-qun",
+      "width": 101,
+      "height": 59,
+      "visible": 4928,
+      "transparent": 1031,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "barracks-nav-shop",
+      "width": 177,
+      "height": 144,
+      "visible": 24122,
+      "transparent": 1366,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "barracks-nav-barracks",
+      "width": 178,
+      "height": 163,
+      "visible": 27754,
+      "transparent": 1260,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "barracks-nav-home",
+      "width": 185,
+      "height": 144,
+      "visible": 24871,
+      "transparent": 1769,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "barracks-nav-alliance",
+      "width": 170,
+      "height": 144,
+      "visible": 23282,
+      "transparent": 1198,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "barracks-nav-arena",
+      "width": 177,
+      "height": 144,
+      "visible": 23876,
+      "transparent": 1612,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "battle-bonds",
+      "width": 895,
+      "height": 90,
+      "visible": 80456,
+      "transparent": 94,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "nav-shop",
+      "width": 178,
+      "height": 144,
+      "visible": 24809,
+      "transparent": 823,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "nav-shop-selected",
+      "width": 178,
+      "height": 144,
+      "visible": 24809,
+      "transparent": 823,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "nav-barracks",
+      "width": 178,
+      "height": 144,
+      "visible": 24809,
+      "transparent": 823,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "nav-barracks-selected",
+      "width": 178,
+      "height": 144,
+      "visible": 24809,
+      "transparent": 823,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "nav-home",
+      "width": 178,
+      "height": 144,
+      "visible": 24809,
+      "transparent": 823,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "nav-home-selected",
+      "width": 178,
+      "height": 144,
+      "visible": 24809,
+      "transparent": 823,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "nav-alliance",
+      "width": 178,
+      "height": 144,
+      "visible": 24809,
+      "transparent": 823,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "nav-alliance-selected",
+      "width": 178,
+      "height": 144,
+      "visible": 24809,
+      "transparent": 823,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "nav-arena",
+      "width": 178,
+      "height": 144,
+      "visible": 24809,
+      "transparent": 823,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    },
+    {
+      "id": "nav-arena-selected",
+      "width": 178,
+      "height": 144,
+      "visible": 24809,
+      "transparent": 823,
+      "sourceRGBChanges": 0,
+      "pressedAlphaChanges": 0
+    }
+  ]
+}

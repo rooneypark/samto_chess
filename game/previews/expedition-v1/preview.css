@@ -1,0 +1,6 @@
+@import url('../../artwork-preview.css');
+.art-header-title{font-size:4.7cqw}.scroll-heading{font-size:4.8cqw}
+.summary-title,.team-title,.return-title{font-size:3.7cqw;z-index:3}.provisions,.summary-copy,.site-page,.reward-copy,.return-copy,.return-reward{display:flex;align-items:center;font-size:2.8cqw;color:#b9cbd7;z-index:3}.provisions{justify-content:flex-end;font-size:3.8cqw;color:#ffe2a2}.site-page{justify-content:center}.site-list,.team-art,.team-labels{display:contents}
+.site-button{font-size:3cqw;justify-content:flex-end;padding-bottom:1.5cqw;gap:.7cqw}.site-button img{position:absolute;left:29%;top:3%;width:42%;height:53%;object-fit:contain;pointer-events:none}.site-button small{font-size:2.3cqw;color:#c4d4dc;font-weight:normal}.site-button strong{font-size:3cqw}.site-prev,.site-next,.change-team,.return-claim,.home-back{font-size:3cqw}.team-name{display:flex;align-items:center;justify-content:center;font-size:2.8cqw;color:#ecd8ac}
+.reward-title{font-size:3.4cqw;z-index:3}.return-copy{font-size:2.6cqw}.return-reward{font-size:2.5cqw}.send{font-size:3.4cqw}button:disabled{color:#9eadc0;opacity:1;filter:none}
+.site-button small{display:flex;align-items:center;justify-content:center;width:92%;height:3.8cqw;font-size:2.2cqw;white-space:nowrap}.team-name{position:absolute;margin:0;z-index:3}

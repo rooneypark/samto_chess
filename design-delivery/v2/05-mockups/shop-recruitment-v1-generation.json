@@ -1,0 +1,23 @@
+{
+  "status": "approved-runtime-applied",
+  "runtimeApplied": true,
+  "generator": "built-in image_gen (environment and empty frame sheets); browser composition of existing character originals and approved shell",
+  "background": {
+    "file": "game/previews/shop-v1/recruitment-hall.png",
+    "generatedSource": "C:/Users/pms10/.codex/generated_images/01a1d401-218e-7061-acde-752e44e85aca/exec-5a8f3af7-d409-4407-8bde-d222364c64e6.png",
+    "prompt": "Use case: ui-mockup supporting environment illustration. Create ONLY a new wide pixel-art background plate for the general recruitment pavilion of a Three Kingdoms mobile auto-chess game. The attached screenshot and clean barracks image are STYLE REFERENCES, NOT edit targets. Match their crisp chunky hand-placed pixel edges, muted navy and slate masonry, warm gold details, understated lantern glow, small charming epic game atmosphere. Scene: frontal symmetrical view into an elegant Chinese recruitment hall opening onto a misty mountain courtyard. Two dark wooden pillars near the outside edges, jade green fabric and restrained gold fittings, warm hanging lanterns at far sides, several rolled bamboo scrolls on small side desks. A low stone dais and broad EMPTY unobstructed floor fill the bottom third for placing three existing full-body character sprites later. Soft pale mist and a dignified distant tiled-roof gate behind center, rich but quiet detail. Composition: landscape 3:2, straight-on game-stage perspective, center 70% and lower floor deliberately clear, architecture frames the sides. No people, no characters, no horses, no weapons, no UI frames, no buttons, no letters, no logos, no numbers. This is a reusable environment background only, not an entire screen. No smooth vector gradients or photorealism, no bloom over outlines. Keep pixel style at the same coarse resolution as the attached game's environmental art. Opaque background."
+  },
+  "frames": {
+    "file": "game/assets/ui-scalable/button-sheet-v1.png",
+    "generatedSource": "C:/Users/pms10/.codex/generated_images/01a1d401-218e-7061-acde-752e44e85aca/exec-bb9be0b5-971d-4e30-8272-58821c78784f.png",
+    "prompt": "Use case: ui-mockup reusable game UI asset design. Create a NEW production-ready transparent sprite sheet with exactly TWO EMPTY horizontal button frames, one above the other. References: image 1 is the approved game's overall visual style; image 2 is the previous blue button (style reference only); image 3 previous green button (style reference only). DO NOT recycle or cut their lettering. Design fresh empty frames specifically for 9-slice resizing. Crisp chunky restrained pixel art, Three Kingdoms Chinese strategy game, navy slate silver-blue neutral frame and emerald gold primary frame. Transparent background, actual alpha, no shadows outside silhouettes. Layout: 1536x1024 canvas, first frame occupies x128..1408 and y120..408, second frame x128..1408 y616..904, ample transparent separation and margins. Both frames have EXACT SAME outer geometry. Button one: deep uniform navy interior, clean silver-blue beveled border. Button two: deep uniform emerald interior, warm gold beveled border. Each has small handsome angular Chinese corner motifs confined ENTIRELY within a 96x96 square at each corner; no corner decoration may extend beyond those squares. All edges between corner squares are perfectly straight parallel horizontal/vertical strips of UNIFORM thickness 16px, constant color segments along their length, seamless when elongated. The center interior should be uniform flat dark navy/emerald, no clouds, gradients, grain, symbols or lighting patterns. Frame corners square with subtle 45-degree chamfers, geometric gold key-like corner accents only inside corner zones. This is a high-quality functional UI sprite sheet, not a screenshot or a concept collage. No words, no letters, no numbers, no icons, no characters, no captions, no checkerboard painted into image. NO glow, NO ornate line extending across center, NO wavy edges. Keep every border completely intact and fully visible inside canvas. The supplied images only establish visual style and palette; the requested output is just two clean empty extensible button frames."
+  },
+  "characters": "Unmodified game/assets/generals-v2/{xuchu,1,32,35,diaochan,119}-front.png",
+  "composition": "game/previews/shop-v1/index.html",
+  "screenshot": "shop-recruitment-v1.png",
+  "qa": "game/previews/shop-v1/qa.json",
+  "runtime": "game/shop-ui.js",
+  "runtimeAssets": "game/assets/shop-v2/",
+  "runtimeQA": "test-artifacts/shop-v2/",
+  "approvedCorrections": "Selected shop tab: retain the complete dark icon outline and cream lettering highlights; normal/pressed alpha remains identical."
+}

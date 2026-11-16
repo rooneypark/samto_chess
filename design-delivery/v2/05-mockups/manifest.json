@@ -1,0 +1,230 @@
+{
+  "version": "v2",
+  "status": "approved-scenes-including-mail",
+  "items": [
+    {
+      "id": "gate-lobby-v1",
+      "file": "gate-lobby-v1.png",
+      "type": "generated-concept-mockup",
+      "generator": "built-in image_gen",
+      "prompt": "gate-lobby-v1-prompt.txt",
+      "characterReference": "../00-style/character-lineup-v2.png",
+      "approved": true,
+      "runtimeApplied": true,
+      "notes": "성문 대기화면과 UI 틀 검토용 합성 시안. 실제 게임 캡처나 분리된 9-slice UI 에셋이 아님. 표시 수치는 예시."
+    },
+    {
+      "id": "battle-preparation-v1",
+      "file": "battle-preparation-v1.png",
+      "type": "generated-concept-mockup",
+      "generator": "built-in image_gen",
+      "prompt": "battle-preparation-v1-prompt.txt",
+      "styleReference": "gate-lobby-v1.png",
+      "approved": true,
+      "runtimeApplied": true,
+      "notes": "전투 준비 화면 시안. 8×8 전투판과 8개 대기칸, 소환·전투 시작 버튼. 수치는 예시이며 실제 게임 캡처가 아님.",
+      "characterImplementation": "Independently redrawn transparent assets in ../01-characters/battle-redraws; original mockup remains the canonical character reference."
+    },
+    {
+      "id": "battle-rank-indicator-v1",
+      "file": "battle-rank-indicator-v1.png",
+      "type": "rendered-game-ui",
+      "approved": true,
+      "runtimeApplied": true,
+      "notes": "Approved five-diamond merge-stage indicator; permanent hero awakening stays separate."
+    },
+    {
+      "id": "barracks-v1",
+      "file": "barracks-v1.png",
+      "type": "generated-concept-mockup",
+      "generator": "built-in image_gen",
+      "prompt": "barracks-v1-prompt.txt",
+      "styleReference": "gate-lobby-v1.png",
+      "characterReference": "../00-style/character-lineup-v2.png",
+      "approved": true,
+      "runtimeApplied": true,
+      "notes": "승인된 병영 UI를 실제 보유 장수·훈련·각성·보물·편성·세력 필터에 연결. 6장수는 독립 정면 원화 사용. 수치와 목록은 정상 저장을 따르며, 원화와 모션은 별도 검수한다."
+    },
+    {
+      "id": "shop-recruitment-v1",
+      "file": "shop-recruitment-v1.png",
+      "type": "rendered-component-mockup",
+      "approved": true,
+      "runtimeApplied": true,
+      "generation": "shop-recruitment-v1-generation.json",
+      "preview": "game/previews/shop-v1/index.html",
+      "notes": "확정 시안을 실제 등용·재화 차감·획득 결과·상품 교환에 연결. 6장수 독립 원화와 공용 상하단 유지. 사용자 지적에 따라 선택된 상점 탭의 글자 밝은 획과 검은 아이콘 윤곽선을 복원. 테스트 재화는 실제 저장에 지급하지 않음.",
+      "runtime": "game/shop-ui.js"
+    },
+    {
+      "id": "alliance-headquarters-v1",
+      "file": "alliance-headquarters-v1.png",
+      "type": "rendered-component-mockup",
+      "approved": true,
+      "runtimeApplied": true,
+      "generation": "alliance-headquarters-v1-generation.json",
+      "preview": "game/previews/alliance-v1/index.html",
+      "notes": "확정 공용 상하단·버튼·나인슬라이스를 유지하고 실제 출석·기부·군량 지원·보상 수령에 연결. 관우·제갈량 독립 원화 그대로 사용. 실제 저장에는 테스트 값을 지급하지 않음.",
+      "runtime": "game/alliance-ui.js"
+    },
+    {
+      "id": "arena-versus-v1",
+      "file": "arena-versus-v1.png",
+      "type": "rendered-component-mockup",
+      "approved": true,
+      "runtimeApplied": true,
+      "generation": "arena-versus-v1-generation.json",
+      "preview": "game/previews/arena-v1/index.html",
+      "notes": "확정 공용 UI와 나인슬라이스를 유지하고 실제 NPC 선택·대전 준비·전투·보상·점수·기록에 연결. 사용자 지적에 따라 보행 원화를 기마 높이의 70%로 보정.",
+      "runtime": "game/arena-ui.js"
+    },
+    {
+      "id": "campaign-landmarks-v3",
+      "file": "campaign-landmarks-v3.png",
+      "type": "rendered-component-mockup",
+      "approved": true,
+      "runtimeApplied": false,
+      "generation": "campaign-landmarks-v3-generation.json",
+      "preview": "game/previews/campaign-v3/index.html",
+      "notes": "사용자 확정한 장별 공용 정상 원화 3종. 같은 장은 같은 그림을 사용하고 이름 프레임 유지."
+    },
+    {
+      "id": "campaign-selection-v4",
+      "file": "campaign-selection-v4.png",
+      "type": "rendered-component-mockup",
+      "approved": true,
+      "runtimeApplied": true,
+      "generation": "campaign-selection-v4-generation.json",
+      "preview": "game/previews/campaign-v4/index.html",
+      "notes": "사용자 확정 시안 적용. 실제 전투 선택·출정·최초/반복 보상·파괴 상태·잠금·어려움과 연결. 공용 상하단과 이름 프레임 유지. 이후 전역·군략·훈련은 천하 평정 목록에서 접근.",
+      "runtime": "game/campaign-ui.js"
+    },
+    {
+      "id": "battle-results-v1",
+      "file": "battle-results-v1.png",
+      "type": "rendered-component-mockup",
+      "approved": true,
+      "runtimeApplied": true,
+      "generation": "battle-results-v1-generation.json",
+      "preview": "game/previews/results-v1/index.html",
+      "notes": "사용자 확정 시안 적용. 전역 중간/최종 승리·패배·재도전 및 군웅대전 결과를 실제 영수증에 연결. 공용 상하단, x=20~921 정렬, 나인슬라이스·pressed와 기존 원화 유지. 실제 구현 사용자 클릭 검수 대기.",
+      "runtime": "game/results-ui.js"
+    },
+    {
+      "id": "combat-record-v1",
+      "file": "battle-record-v1.png",
+      "type": "rendered-component-mockup",
+      "approved": true,
+      "runtimeApplied": true,
+      "generation": "battle-record-v1-generation.json",
+      "preview": "game/previews/combat-record-v1/index.html",
+      "notes": "사용자 확정 시안 실제 적용. 현재 라운드 실제 아군/적군 피해·치유·전법 기록, 6명 페이지, 선택 상세, 전투 일시정지/복귀, 공용 상하단/정렬/pressed 유지. 허저 85% 사용자 최종 확정. 2026-11-14 실제 게임 사용자 클릭 검수 완료·최종 확정.",
+      "runtime": "game/combat-record.js",
+      "runtimeReviewed": true
+    },
+    {
+      "id": "missions-v1",
+      "file": "missions-v1.png",
+      "type": "rendered-component-mockup",
+      "approved": true,
+      "runtimeApplied": true,
+      "generation": "missions-v1-generation.json",
+      "preview": "game/previews/missions-v1/index.html",
+      "notes": "상하 여백 수정본 사용자 확정·실제 적용. 출석/일일/주간/업적/완료 보너스를 실제 저장 거래에 연결. 공용 상하단, 좌우 x=20~921, 하단 20px와 문구 앞뒤 12px, 나인슬라이스/알파 유지. 2026-11-14 실제 사용자 클릭 검수 완료·최종 확정.",
+      "runtimeReviewed": true,
+      "runtime": "game/missions.js"
+    },
+    {
+      "id": "mail-v1",
+      "file": "mail-v1.png",
+      "type": "rendered-component-mockup",
+      "approved": true,
+      "runtimeApplied": true,
+      "generation": "mail-v1-generation.json",
+      "preview": "game/previews/mail-v1/index.html",
+      "notes": "우편함 사용자 확정·실제 적용. 목록/개별·모두 받기/삭제 확인을 기존 서비스 거래에 연결. 공용 상하단·좌우·상하 여백·9슬라이스·alpha 유지. 실제 사용자 클릭 검수 대기.",
+      "runtimeReviewed": false,
+      "runtime": "game/mail.js"
+    },
+    {
+      "id": "portraits-v1",
+      "file": "portraits-v1.png",
+      "type": "rendered-component-mockup",
+      "approved": true,
+      "runtimeApplied": true,
+      "runtimeReviewed": true,
+      "preview": "game/previews/portraits-v1/index.html",
+      "runtime": "game/barracks-ui.js",
+      "notes": "승인된 독립 정면 원화의 투명 초상화를 하단 목록에 적용. 상세 전신과 체격/발/전체 외곽 유지. 공용 general-portraits.js/css 사용."
+    },
+    {
+      "id": "codex-v1",
+      "file": "codex-v1.png",
+      "type": "rendered-component-mockup",
+      "approved": true,
+      "runtimeApplied": true,
+      "preview": "game/previews/codex-v1/index.html",
+      "notes": "전체 장수/미등용 도감 시안. 공용 상하단·투명 초상화·전신·9슬라이스 재사용. 병영은 실제 등용 장수만 표시. 시안은 메모리 예시, 사용자 저장 접근 없음.",
+      "runtimeReviewed": true,
+      "runtime": "game/codex-ui.js"
+    },
+    {
+      "id": "start-v1",
+      "file": "start-v1.png",
+      "type": "rendered-component-mockup",
+      "approved": true,
+      "runtimeApplied": true,
+      "preview": "game/previews/start-v1/index.html",
+      "notes": "시작 7일 임무 시안. 공용 상하단/버튼/나인슬라이스 재사용. 메모리 상태 예시, 실제 저장 접근 없음.",
+      "runtimeReviewed": true,
+      "runtime": "game/start-missions.js"
+    },
+    {
+      "id": "expedition-v1",
+      "file": "expedition-v1.png",
+      "type": "rendered-component-mockup",
+      "approved": true,
+      "runtimeApplied": true,
+      "preview": "game/previews/expedition-v1/index.html",
+      "notes": "토벌 파견 시안. 공용 프레임/버튼/원화 재사용. 메모리 예시, 실제 저장 접근 없음.",
+      "runtimeReviewed": false,
+      "runtime": "game/expedition-ui.js"
+    },
+    {
+      "id": "tower-v1",
+      "file": "tower-v1.png",
+      "type": "rendered-component-mockup",
+      "approved": true,
+      "runtimeApplied": true,
+      "runtimeReviewed": true,
+      "preview": "game/previews/tower-v1/index.html",
+      "notes": "연무탑 시안 사용자 확정·실제 적용. 30층 해금/도전 조건/전투/클리어/최초 보상 연결. 실제 사용자 클릭 검수 대기.",
+      "runtime": "game/tower-ui.js"
+    },
+    {
+      "id": "government-v3",
+      "file": "government-v3.png",
+      "type": "rendered-component-mockup",
+      "approved": false,
+      "runtimeApplied": false,
+      "runtimeReviewed": false,
+      "preview": "game/previews/government-v3/index.html",
+      "notes": "통합 마을 원화 방향 수용 후 클릭 시안. 140×44 작은 이름 버튼, 병영 이름표 주막 가림 수정. 실제 저장 접근 없음."
+    }
+  ],
+  "approvedRuntime": {
+    "date": "2026-11-13",
+    "path": "approved-runtime/",
+    "screens": [
+      "home",
+      "barracks",
+      "shop",
+      "battle"
+    ],
+    "viewports": [
+      941,
+      390
+    ],
+    "status": "user-approved-before-component-refactor"
+  }
+}

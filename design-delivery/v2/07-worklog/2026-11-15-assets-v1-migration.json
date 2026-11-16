@@ -1,0 +1,35 @@
+{
+  "baselineVersion": 1,
+  "reason": "103.58 MiB ZIP exceeded GitHub 100 MiB file limit",
+  "backupLocalRef": "codex/backup-before-assets-v1-20261115",
+  "finalCharacters": 49,
+  "characterPngs": 147,
+  "treasurePngs": 32,
+  "unchangedFinalPngs": 179,
+  "runtimeFilesPreservedByteForByte": 1279,
+  "packedFiles": 1698,
+  "archives": 15,
+  "zipBytes": 296115840,
+  "largestZipBytes": 39181087,
+  "historyPolicy": "replace last unpushed commit only; no published-history rewrite",
+  "tests": {
+    "assetPackUnitTests": 6,
+    "gameUnitTests": 93,
+    "uiAssetVerification": "passed",
+    "battleSourceHashVerification": "14 bindings passed",
+    "freshCheckout": {
+      "restoredAssets": 1698,
+      "hashes": "all matched",
+      "galleryImages": 179,
+      "threeDirectionImages": 147,
+      "guanyuPreview": "passed",
+      "game390px": "passed",
+      "pageErrors": 0,
+      "failedRequests": 0
+    }
+  },
+  "trackedFileCountBefore": 9089,
+  "trackedFileCountAfter": 652,
+  "trackedMiBAfter": 285.99,
+  "trackedMiBBefore": 2115.7
+}

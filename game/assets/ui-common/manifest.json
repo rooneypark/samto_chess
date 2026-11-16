@@ -1,0 +1,878 @@
+{
+  "records": {
+    "gate-profile": {
+      "file": "gate-profile.png",
+      "pressedFile": "gate-profile-pressed.png",
+      "screen": "gate",
+      "box": [
+        35,
+        18,
+        124,
+        120
+      ],
+      "source": "design-delivery/v2/05-mockups/gate-lobby-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "gate-gold": {
+      "file": "gate-gold.png",
+      "pressedFile": "gate-gold-pressed.png",
+      "screen": "gate",
+      "box": [
+        693,
+        20,
+        220,
+        55
+      ],
+      "source": "design-delivery/v2/05-mockups/gate-lobby-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "gate-diamonds": {
+      "file": "gate-diamonds.png",
+      "pressedFile": "gate-diamonds-pressed.png",
+      "screen": "gate",
+      "box": [
+        693,
+        77,
+        220,
+        54
+      ],
+      "source": "design-delivery/v2/05-mockups/gate-lobby-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "gate-mail": {
+      "file": "gate-mail.png",
+      "pressedFile": "gate-mail-pressed.png",
+      "screen": "gate",
+      "box": [
+        20,
+        177,
+        115,
+        123
+      ],
+      "source": "design-delivery/v2/05-mockups/gate-lobby-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "gate-quests": {
+      "file": "gate-quests.png",
+      "pressedFile": "gate-quests-pressed.png",
+      "screen": "gate",
+      "box": [
+        20,
+        305,
+        115,
+        125
+      ],
+      "source": "design-delivery/v2/05-mockups/gate-lobby-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "gate-start": {
+      "file": "gate-start.png",
+      "pressedFile": "gate-start-pressed.png",
+      "screen": "gate",
+      "box": [
+        20,
+        436,
+        115,
+        124
+      ],
+      "source": "design-delivery/v2/05-mockups/gate-lobby-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "gate-settings": {
+      "file": "gate-settings.png",
+      "pressedFile": "gate-settings-pressed.png",
+      "screen": "gate",
+      "box": [
+        807,
+        174,
+        118,
+        117
+      ],
+      "source": "design-delivery/v2/05-mockups/gate-lobby-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "gate-codex": {
+      "file": "gate-codex.png",
+      "pressedFile": "gate-codex-pressed.png",
+      "screen": "gate",
+      "box": [
+        807,
+        293,
+        118,
+        115
+      ],
+      "source": "design-delivery/v2/05-mockups/gate-lobby-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "gate-expedition": {
+      "file": "gate-expedition.png",
+      "pressedFile": "gate-expedition-pressed.png",
+      "screen": "gate",
+      "box": [
+        807,
+        410,
+        118,
+        115
+      ],
+      "source": "design-delivery/v2/05-mockups/gate-lobby-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "gate-tower": {
+      "file": "gate-tower.png",
+      "pressedFile": "gate-tower-pressed.png",
+      "screen": "gate",
+      "box": [
+        807,
+        529,
+        118,
+        118
+      ],
+      "source": "design-delivery/v2/05-mockups/gate-lobby-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "gate-formation": {
+      "file": "gate-formation.png",
+      "pressedFile": "gate-formation-pressed.png",
+      "screen": "gate",
+      "box": [
+        688,
+        1085,
+        160,
+        61
+      ],
+      "source": "design-delivery/v2/05-mockups/gate-lobby-v1.png",
+      "method": "original RGB, exterior parchment flood fill"
+    },
+    "gate-campaign": {
+      "file": "gate-campaign.png",
+      "pressedFile": "gate-campaign-pressed.png",
+      "screen": "gate",
+      "box": [
+        43,
+        1287,
+        191,
+        185
+      ],
+      "source": "design-delivery/v2/05-mockups/gate-lobby-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "gate-depart": {
+      "file": "gate-depart.png",
+      "pressedFile": "gate-depart-pressed.png",
+      "screen": "gate",
+      "box": [
+        245,
+        1283,
+        643,
+        191
+      ],
+      "source": "design-delivery/v2/05-mockups/gate-lobby-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "gate-nav-shop": {
+      "file": "gate-nav-shop.png",
+      "pressedFile": "gate-nav-shop-pressed.png",
+      "screen": "gate",
+      "box": [
+        18,
+        1512,
+        178,
+        144
+      ],
+      "source": "design-delivery/v2/05-mockups/gate-lobby-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "gate-nav-barracks": {
+      "file": "gate-nav-barracks.png",
+      "pressedFile": "gate-nav-barracks-pressed.png",
+      "screen": "gate",
+      "box": [
+        201,
+        1512,
+        174,
+        144
+      ],
+      "source": "design-delivery/v2/05-mockups/gate-lobby-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "gate-nav-home": {
+      "file": "gate-nav-home.png",
+      "pressedFile": "gate-nav-home-pressed.png",
+      "screen": "gate",
+      "box": [
+        375,
+        1499,
+        193,
+        160
+      ],
+      "source": "design-delivery/v2/05-mockups/gate-lobby-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "gate-nav-alliance": {
+      "file": "gate-nav-alliance.png",
+      "pressedFile": "gate-nav-alliance-pressed.png",
+      "screen": "gate",
+      "box": [
+        570,
+        1512,
+        174,
+        144
+      ],
+      "source": "design-delivery/v2/05-mockups/gate-lobby-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "gate-nav-arena": {
+      "file": "gate-nav-arena.png",
+      "pressedFile": "gate-nav-arena-pressed.png",
+      "screen": "gate",
+      "box": [
+        747,
+        1512,
+        177,
+        144
+      ],
+      "source": "design-delivery/v2/05-mockups/gate-lobby-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "battle-back": {
+      "file": "battle-back.png",
+      "pressedFile": "battle-back-pressed.png",
+      "screen": "battle",
+      "box": [
+        39,
+        15,
+        94,
+        84
+      ],
+      "source": "design-delivery/v2/05-mockups/battle-preparation-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "battle-help": {
+      "file": "battle-help.png",
+      "pressedFile": "battle-help-pressed.png",
+      "screen": "battle",
+      "box": [
+        812,
+        14,
+        95,
+        85
+      ],
+      "source": "design-delivery/v2/05-mockups/battle-preparation-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "battle-capacity": {
+      "file": "battle-capacity.png",
+      "pressedFile": "battle-capacity-pressed.png",
+      "screen": "battle",
+      "box": [
+        813,
+        216,
+        89,
+        74
+      ],
+      "source": "design-delivery/v2/05-mockups/battle-preparation-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "battle-sell": {
+      "file": "battle-sell.png",
+      "pressedFile": "battle-sell-pressed.png",
+      "screen": "battle",
+      "box": [
+        348,
+        1163,
+        162,
+        83
+      ],
+      "source": "design-delivery/v2/05-mockups/battle-preparation-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "battle-summon": {
+      "file": "battle-summon.png",
+      "pressedFile": "battle-summon-pressed.png",
+      "screen": "battle",
+      "box": [
+        18,
+        1404,
+        307,
+        145
+      ],
+      "source": "design-delivery/v2/05-mockups/battle-preparation-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "battle-start": {
+      "file": "battle-start.png",
+      "pressedFile": "battle-start-pressed.png",
+      "screen": "battle",
+      "box": [
+        337,
+        1404,
+        582,
+        145
+      ],
+      "source": "design-delivery/v2/05-mockups/battle-preparation-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "battle-sword": {
+      "file": "battle-sword.png",
+      "pressedFile": "battle-sword-pressed.png",
+      "screen": "battle",
+      "box": [
+        531,
+        1163,
+        119,
+        83
+      ],
+      "source": "design-delivery/v2/05-mockups/battle-preparation-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "battle-armor": {
+      "file": "battle-armor.png",
+      "pressedFile": "battle-armor-pressed.png",
+      "screen": "battle",
+      "box": [
+        655,
+        1163,
+        121,
+        83
+      ],
+      "source": "design-delivery/v2/05-mockups/battle-preparation-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "battle-bow": {
+      "file": "battle-bow.png",
+      "pressedFile": "battle-bow-pressed.png",
+      "screen": "battle",
+      "box": [
+        779,
+        1163,
+        120,
+        83
+      ],
+      "source": "design-delivery/v2/05-mockups/battle-preparation-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "barracks-back": {
+      "file": "barracks-back.png",
+      "pressedFile": "barracks-back-pressed.png",
+      "screen": "barracks",
+      "box": [
+        28,
+        17,
+        98,
+        98
+      ],
+      "source": "design-delivery/v2/05-mockups/barracks-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "barracks-gold": {
+      "file": "barracks-gold.png",
+      "pressedFile": "barracks-gold-pressed.png",
+      "screen": "barracks",
+      "box": [
+        699,
+        17,
+        213,
+        55
+      ],
+      "source": "design-delivery/v2/05-mockups/barracks-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "barracks-diamonds": {
+      "file": "barracks-diamonds.png",
+      "pressedFile": "barracks-diamonds-pressed.png",
+      "screen": "barracks",
+      "box": [
+        699,
+        76,
+        213,
+        49
+      ],
+      "source": "design-delivery/v2/05-mockups/barracks-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "barracks-train": {
+      "file": "barracks-train.png",
+      "pressedFile": "barracks-train-pressed.png",
+      "screen": "barracks",
+      "box": [
+        24,
+        794,
+        311,
+        94
+      ],
+      "source": "design-delivery/v2/05-mockups/barracks-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "barracks-awaken": {
+      "file": "barracks-awaken.png",
+      "pressedFile": "barracks-awaken-pressed.png",
+      "screen": "barracks",
+      "box": [
+        346,
+        795,
+        277,
+        94
+      ],
+      "source": "design-delivery/v2/05-mockups/barracks-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "barracks-formation": {
+      "file": "barracks-formation.png",
+      "pressedFile": "barracks-formation-pressed.png",
+      "screen": "barracks",
+      "box": [
+        630,
+        795,
+        291,
+        94
+      ],
+      "source": "design-delivery/v2/05-mockups/barracks-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "barracks-treasure": {
+      "file": "barracks-treasure.png",
+      "pressedFile": "barracks-treasure-pressed.png",
+      "screen": "barracks",
+      "box": [
+        769,
+        695,
+        134,
+        56
+      ],
+      "source": "design-delivery/v2/05-mockups/barracks-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "barracks-skill": {
+      "file": "barracks-skill.png",
+      "pressedFile": "barracks-skill-pressed.png",
+      "screen": "barracks",
+      "box": [
+        488,
+        606,
+        420,
+        77
+      ],
+      "source": "design-delivery/v2/05-mockups/barracks-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "barracks-card": {
+      "file": "barracks-card.png",
+      "pressedFile": "barracks-card-pressed.png",
+      "screen": "barracks",
+      "box": [
+        326,
+        1011,
+        290,
+        200
+      ],
+      "source": "design-delivery/v2/05-mockups/barracks-clean-plate.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "barracks-card-selected": {
+      "file": "barracks-card-selected.png",
+      "pressedFile": "barracks-card-selected-pressed.png",
+      "screen": "barracks",
+      "box": [
+        19,
+        1011,
+        295,
+        200
+      ],
+      "source": "design-delivery/v2/05-mockups/barracks-clean-plate.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "barracks-filter-all": {
+      "file": "barracks-filter-all.png",
+      "pressedFile": "barracks-filter-all-pressed.png",
+      "screen": "barracks",
+      "box": [
+        399,
+        920,
+        115,
+        59
+      ],
+      "source": "design-delivery/v2/05-mockups/barracks-v1.png",
+      "method": "original RGB, exterior parchment flood fill"
+    },
+    "barracks-filter-wei": {
+      "file": "barracks-filter-wei.png",
+      "pressedFile": "barracks-filter-wei-pressed.png",
+      "screen": "barracks",
+      "box": [
+        514,
+        920,
+        101,
+        59
+      ],
+      "source": "design-delivery/v2/05-mockups/barracks-v1.png",
+      "method": "original RGB, exterior parchment flood fill"
+    },
+    "barracks-filter-shu": {
+      "file": "barracks-filter-shu.png",
+      "pressedFile": "barracks-filter-shu-pressed.png",
+      "screen": "barracks",
+      "box": [
+        615,
+        920,
+        100,
+        59
+      ],
+      "source": "design-delivery/v2/05-mockups/barracks-v1.png",
+      "method": "original RGB, exterior parchment flood fill"
+    },
+    "barracks-filter-wu": {
+      "file": "barracks-filter-wu.png",
+      "pressedFile": "barracks-filter-wu-pressed.png",
+      "screen": "barracks",
+      "box": [
+        715,
+        920,
+        96,
+        59
+      ],
+      "source": "design-delivery/v2/05-mockups/barracks-v1.png",
+      "method": "original RGB, exterior parchment flood fill"
+    },
+    "barracks-filter-qun": {
+      "file": "barracks-filter-qun.png",
+      "pressedFile": "barracks-filter-qun-pressed.png",
+      "screen": "barracks",
+      "box": [
+        811,
+        920,
+        101,
+        59
+      ],
+      "source": "design-delivery/v2/05-mockups/barracks-v1.png",
+      "method": "original RGB, exterior parchment flood fill"
+    },
+    "barracks-nav-shop": {
+      "file": "barracks-nav-shop.png",
+      "pressedFile": "barracks-nav-shop-pressed.png",
+      "screen": "barracks",
+      "box": [
+        18,
+        1514,
+        177,
+        144
+      ],
+      "source": "design-delivery/v2/05-mockups/barracks-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "barracks-nav-barracks": {
+      "file": "barracks-nav-barracks.png",
+      "pressedFile": "barracks-nav-barracks-pressed.png",
+      "screen": "barracks",
+      "box": [
+        198,
+        1499,
+        178,
+        163
+      ],
+      "source": "design-delivery/v2/05-mockups/barracks-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "barracks-nav-home": {
+      "file": "barracks-nav-home.png",
+      "pressedFile": "barracks-nav-home-pressed.png",
+      "screen": "barracks",
+      "box": [
+        378,
+        1514,
+        185,
+        144
+      ],
+      "source": "design-delivery/v2/05-mockups/barracks-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "barracks-nav-alliance": {
+      "file": "barracks-nav-alliance.png",
+      "pressedFile": "barracks-nav-alliance-pressed.png",
+      "screen": "barracks",
+      "box": [
+        570,
+        1514,
+        170,
+        144
+      ],
+      "source": "design-delivery/v2/05-mockups/barracks-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "barracks-nav-arena": {
+      "file": "barracks-nav-arena.png",
+      "pressedFile": "barracks-nav-arena-pressed.png",
+      "screen": "barracks",
+      "box": [
+        747,
+        1514,
+        177,
+        144
+      ],
+      "source": "design-delivery/v2/05-mockups/barracks-v1.png",
+      "method": "original RGB, measured frame outline and dark rim"
+    },
+    "battle-bonds": {
+      "file": "battle-bonds.png",
+      "screen": "battle",
+      "box": [
+        22,
+        1564,
+        895,
+        90
+      ],
+      "source": "game/assets/battle-v2/scroll-empty.png",
+      "method": "rolled-scroll source edge",
+      "pressedFile": "battle-bonds-pressed.png"
+    },
+    "nav-shop": {
+      "file": "nav-shop.png",
+      "pressedFile": "nav-shop-pressed.png",
+      "screen": "shared",
+      "box": [
+        18,
+        1512,
+        178,
+        144
+      ],
+      "source": "game/assets/navigation/nav-shop.png",
+      "method": "same shop frame silhouette and original 1:1 content in both states; only frame/background palette changes",
+      "contentFit": {
+        "source": {
+          "left": 38,
+          "top": 18,
+          "width": 101,
+          "height": 107
+        },
+        "left": 38,
+        "top": 18,
+        "width": 101,
+        "height": 107
+      }
+    },
+    "nav-shop-selected": {
+      "file": "nav-shop-selected.png",
+      "pressedFile": "nav-shop-selected-pressed.png",
+      "screen": "shared",
+      "box": [
+        18,
+        1512,
+        178,
+        144
+      ],
+      "source": "game/assets/navigation/nav-shop-selected.png",
+      "method": "same shop frame silhouette and original 1:1 content in both states; only frame/background palette changes",
+      "contentFit": {
+        "source": {
+          "left": 38,
+          "top": 18,
+          "width": 101,
+          "height": 107
+        },
+        "left": 38,
+        "top": 18,
+        "width": 101,
+        "height": 107
+      }
+    },
+    "nav-barracks": {
+      "file": "nav-barracks.png",
+      "pressedFile": "nav-barracks-pressed.png",
+      "screen": "shared",
+      "box": [
+        201,
+        1512,
+        178,
+        144
+      ],
+      "source": "game/assets/navigation/nav-barracks.png",
+      "method": "same shop frame silhouette and original 1:1 content in both states; only frame/background palette changes",
+      "contentFit": {
+        "source": {
+          "left": 51,
+          "top": 10,
+          "width": 84,
+          "height": 116
+        },
+        "left": 51,
+        "top": 16,
+        "width": 84,
+        "height": 116
+      }
+    },
+    "nav-barracks-selected": {
+      "file": "nav-barracks-selected.png",
+      "pressedFile": "nav-barracks-selected-pressed.png",
+      "screen": "shared",
+      "box": [
+        201,
+        1512,
+        178,
+        144
+      ],
+      "source": "game/assets/navigation/nav-barracks-selected.png",
+      "method": "same shop frame silhouette and original 1:1 content in both states; only frame/background palette changes",
+      "contentFit": {
+        "source": {
+          "left": 51,
+          "top": 10,
+          "width": 84,
+          "height": 116
+        },
+        "left": 51,
+        "top": 16,
+        "width": 84,
+        "height": 116
+      }
+    },
+    "nav-home": {
+      "file": "nav-home.png",
+      "pressedFile": "nav-home-pressed.png",
+      "screen": "shared",
+      "box": [
+        384,
+        1512,
+        178,
+        144
+      ],
+      "source": "game/assets/navigation/nav-home.png",
+      "method": "same shop frame silhouette and original 1:1 content in both states; only frame/background palette changes",
+      "contentFit": {
+        "source": {
+          "left": 33,
+          "top": 13,
+          "width": 110,
+          "height": 110
+        },
+        "left": 33,
+        "top": 16,
+        "width": 110,
+        "height": 110
+      }
+    },
+    "nav-home-selected": {
+      "file": "nav-home-selected.png",
+      "pressedFile": "nav-home-selected-pressed.png",
+      "screen": "shared",
+      "box": [
+        384,
+        1512,
+        178,
+        144
+      ],
+      "source": "game/assets/navigation/nav-home-selected.png",
+      "method": "same shop frame silhouette and original 1:1 content in both states; only frame/background palette changes",
+      "contentFit": {
+        "source": {
+          "left": 33,
+          "top": 13,
+          "width": 110,
+          "height": 110
+        },
+        "left": 33,
+        "top": 16,
+        "width": 110,
+        "height": 110
+      }
+    },
+    "nav-alliance": {
+      "file": "nav-alliance.png",
+      "pressedFile": "nav-alliance-pressed.png",
+      "screen": "shared",
+      "box": [
+        567,
+        1512,
+        178,
+        144
+      ],
+      "source": "game/assets/navigation/nav-alliance.png",
+      "method": "same shop frame silhouette and original 1:1 content in both states; only frame/background palette changes",
+      "contentFit": {
+        "source": {
+          "left": 31,
+          "top": 14,
+          "width": 115,
+          "height": 112
+        },
+        "left": 31,
+        "top": 16,
+        "width": 115,
+        "height": 112
+      }
+    },
+    "nav-alliance-selected": {
+      "file": "nav-alliance-selected.png",
+      "pressedFile": "nav-alliance-selected-pressed.png",
+      "screen": "shared",
+      "box": [
+        567,
+        1512,
+        178,
+        144
+      ],
+      "source": "game/assets/navigation/nav-alliance-selected.png",
+      "method": "same shop frame silhouette and original 1:1 content in both states; only frame/background palette changes",
+      "contentFit": {
+        "source": {
+          "left": 31,
+          "top": 14,
+          "width": 115,
+          "height": 112
+        },
+        "left": 31,
+        "top": 16,
+        "width": 115,
+        "height": 112
+      }
+    },
+    "nav-arena": {
+      "file": "nav-arena.png",
+      "pressedFile": "nav-arena-pressed.png",
+      "screen": "shared",
+      "box": [
+        750,
+        1512,
+        178,
+        144
+      ],
+      "source": "game/assets/navigation/nav-arena.png",
+      "method": "same shop frame silhouette and original 1:1 content in both states; only frame/background palette changes",
+      "contentFit": {
+        "source": {
+          "left": 31,
+          "top": 16,
+          "width": 122,
+          "height": 109
+        },
+        "left": 31,
+        "top": 16,
+        "width": 122,
+        "height": 109
+      }
+    },
+    "nav-arena-selected": {
+      "file": "nav-arena-selected.png",
+      "pressedFile": "nav-arena-selected-pressed.png",
+      "screen": "shared",
+      "box": [
+        750,
+        1512,
+        178,
+        144
+      ],
+      "source": "game/assets/navigation/nav-arena-selected.png",
+      "method": "same shop frame silhouette and original 1:1 content in both states; only frame/background palette changes",
+      "contentFit": {
+        "source": {
+          "left": 31,
+          "top": 16,
+          "width": 122,
+          "height": 109
+        },
+        "left": 31,
+        "top": 16,
+        "width": 122,
+        "height": 109
+      }
+    }
+  }
+}

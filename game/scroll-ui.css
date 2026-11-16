@@ -1,0 +1,6 @@
+/* Paper belongs to the shared scroll; text never paints a replacement rectangle. */
+.shared-scroll{background-image:url('assets/ui-common/scroll-paper.png');background-repeat:no-repeat;background-size:100% 100%;border:0;box-shadow:none}
+.shared-scroll :is(span,strong,b,small,label),.scroll-label{background-color:transparent!important;background-image:none!important;box-shadow:none!important}
+.shared-scroll.barracks-scroll-heading{position:absolute;display:flex;align-items:center;justify-content:center;font:bold 5.2cqw Georgia,'Batang',serif;color:#14283a;white-space:nowrap}
+.barracks-owned-scroll{position:absolute;pointer-events:none;z-index:2}
+.barracks-v2 .owned-count{z-index:3}

@@ -1,0 +1,2 @@
+.portrait-viewport{position:absolute;display:block;overflow:hidden;isolation:isolate;pointer-events:none;background:transparent}
+.portrait-viewport img{position:absolute;display:block;max-width:none;max-height:none;object-fit:fill;image-rendering:pixelated;pointer-events:none;transform:none;margin:0}

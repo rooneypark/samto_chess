@@ -1,0 +1,192 @@
+{
+  "id": "panzhang",
+  "name": "반장",
+  "faction": "오",
+  "order": 40,
+  "identity": "Pan Zhang: intimidating mature stocky captor, heavy moustache, close dark headwrap with short red tail, dark bronze chest armor and red-brown cloth skirt. Hold conspicuous coil of tan ROPE and short practical sword at belt. Rough leather shoulders, no fur collar; rope and square jaw are identity.",
+  "folder": "panzhang",
+  "identityDesign": "Pan Zhang: intimidating mature stocky captor, heavy moustache, close dark headwrap with short red tail, dark bronze chest armor and red-brown cloth skirt. Hold conspicuous coil of tan ROPE and short practical sword at belt. Rough leather shoulders, no fur collar; rope and square jaw are identity.",
+  "artRevision": "pixel256-v1",
+  "canvas": [
+    256,
+    256
+  ],
+  "foot": [
+    128,
+    224
+  ],
+  "schemaVersion": 2,
+  "status": "ready-for-review",
+  "runtimeApplied": false,
+  "motionComplete": false,
+  "sideFacing": "left",
+  "right": "mirror-side",
+  "directions": {
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "panzhang",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "sourceCanvas": [
+          1254,
+          1254
+        ],
+        "bodyTopVirtual256": 73,
+        "bodyHeightTarget": 128,
+        "sourceFootVirtual256": 229,
+        "sourceToFinalScale": 0.16750500961027276,
+        "wholeImageOffset": [
+          23,
+          36
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          83,
+          97,
+          168,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
+        "weaponContainFit": false,
+        "runtimeApplied": false,
+        "sha256": "00b33d0529aea3b5118b84020f5cdf3cb8b0bcfc6993f3215e8c5883772af0ab"
+      }
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "panzhang",
+        "direction": "back",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 79,
+        "bodyHeightTarget": 128,
+        "sourceFootVirtual256": 207,
+        "sourceToFinalScale": 0.20414673046251994,
+        "wholeImageOffset": [
+          0,
+          17
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          88,
+          98,
+          169,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "d05c7b687920ee9762203bbb0e3f01b83e509e74d13d3c47ac5720b3795ecbc2"
+      }
+    },
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "panzhang",
+        "direction": "side",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 81,
+        "bodyHeightTarget": 128,
+        "sourceFootVirtual256": 213,
+        "sourceToFinalScale": 0.19796046590304964,
+        "wholeImageOffset": [
+          4,
+          17
+        ],
+        "groundRoundingCorrection": 1,
+        "visibleBounds": [
+          88,
+          98,
+          168,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "d6b459c5e0d5103ec02b165917cf4ec2c00855ef4bdeca30cb31a28e6916e646"
+      }
+    }
+  },
+  "files": {
+    "front": {
+      "path": "front.png",
+      "sha256": "00b33d0529aea3b5118b84020f5cdf3cb8b0bcfc6993f3215e8c5883772af0ab"
+    },
+    "back": {
+      "path": "back.png",
+      "sha256": "d05c7b687920ee9762203bbb0e3f01b83e509e74d13d3c47ac5720b3795ecbc2"
+    },
+    "side": {
+      "path": "side.png",
+      "sha256": "d6b459c5e0d5103ec02b165917cf4ec2c00855ef4bdeca30cb31a28e6916e646"
+    }
+  },
+  "sourceProvider": "built-in image_gen",
+  "provenanceFile": "generation.json",
+  "bodyMetrics": {
+    "shoulderWidth": null,
+    "anatomicalHeight": null,
+    "riderJoints": null
+  },
+  "approval": {
+    "frontApproved": false,
+    "fullSetApproved": false
+  }
+}

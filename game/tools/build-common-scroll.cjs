@@ -1,0 +1,5 @@
+// Export the edited paper while keeping the approved shop border and alpha exact.
+const {sharp,pressedPNG}=require('./ui-cutout.cjs'),fs=require('node:fs/promises'),path=require('node:path');
+(async()=>{const root=path.resolve(__dirname,'../..'),out=path.join(root,'game/assets/ui-common');const original=await sharp(path.join(out,'battle-bonds.png')).ensureAlpha().raw().toBuffer();const paper=await sharp(path.join(root,'design-delivery/v2/06-components/scroll/paper-repair-source.png')).extract({left:0,top:253,width:2172,height:214}).resize(895,90,{kernel:'nearest'}).ensureAlpha().raw().toBuffer();
+for(let y=13;y<76;y++)for(let x=48;x<708;x++){const blend=Math.min(1,(x-48)/8,(708-x)/8,(y-13)/7,(76-y)/7),i=(y*895+x)*4;for(let c=0;c<3;c++)original[i+c]=Math.round(original[i+c]*(1-blend)+paper[i+c]*blend);}
+const png=await sharp(original,{raw:{width:895,height:90,channels:4}}).png().toBuffer();await fs.writeFile(path.join(out,'scroll-paper.png'),png);await fs.writeFile(path.join(out,'scroll-paper-pressed.png'),await pressedPNG(png));console.log('PASS shared scroll export: original 895×90 border and alpha retained');})();

@@ -1,0 +1,28 @@
+@scope (.shop-v2){
+ :scope.shop-screen{inset:0;padding:0;overflow:hidden;z-index:1;background:#1b304a url('assets/gate-lobby/level.png') center/100% 100%!important;image-rendering:pixelated;font-family:Georgia,'Batang',serif}
+ :scope[hidden]{display:none}
+button{position:absolute;box-shadow:none;border-image:none;filter:none;translate:none;display:flex;align-items:center;justify-content:center;flex-direction:column;border:0;margin:0;padding:0;background:transparent;color:#fff0cd;font: bold 4cqw Georgia,'Batang',serif;line-height:1.2;cursor:pointer;text-shadow:0 .15cqw #0e1c2d;min-width:0;min-height:0;z-index:5}
+[data-box]{position:absolute;margin:0;padding:0}
+.scroll-heading,.pity-scroll{display:flex;align-items:center;justify-content:center;color:#14283a;font-weight:bold}
+.scroll-heading{font-size:5.2cqw;z-index:3}.pool-tabs button{font-size:4cqw}
+.recruit-stage{z-index:0}.hall{position:absolute;inset:1.5%;background:url('/game/assets/shop-v2/recruitment-hall.png') center 57%/100% auto;opacity:1}
+.stage-frame{position:absolute;inset:0;pointer-events:none}
+.stage-caption{display:flex;align-items:center;justify-content:center;color:#f9e5b2;font-size:3cqw;font-weight:bold;letter-spacing:.1cqw;text-shadow:0 2px 2px #091626,0 0 10px #091626;z-index:2}
+.general-lineup{display:contents}.general-original{position:absolute;object-fit:contain;image-rendering:pixelated;z-index:3;pointer-events:none}
+.pity-scroll{gap:3cqw;font-size:3.2cqw;z-index:2;white-space:nowrap}.pity-scroll b{color:#8c4129}.pity-scroll i{height:40%;width:1px;background:#a58a5d}
+.odds-note{display:flex;align-items:center;font-size:2.8cqw;color:#bfccdb}.small{font-size:2.7cqw}
+.currencies button{flex-direction:row;gap:1.5cqw;font-size:3.5cqw}.currency-icon{width:5cqw;height:4.4cqw;background:url('/game/assets/shop-v2/coin.png') center/contain no-repeat;display:inline-block;flex-shrink:0}.currency-icon.gem{background-image:url('/game/assets/shop-v2/gem.png')}
+.recruit-action{display:flex;flex-direction:column;gap:1cqw}.recruit-action strong{font-size:4.8cqw}.recruit-action span{font-size:3cqw;color:#e6d5ae}
+.guarantee{display:flex;align-items:center;justify-content:center;gap:1cqw;font-size:2.8cqw;color:#becbdd}.guarantee b{color:#f5d48e}
+.utility-buttons strong{font-size:3.5cqw}.utility-buttons small{font-size:2.3cqw;font-weight:normal;color:#bbcad9;margin-top:.9cqw}
+
+ .recruit-action:disabled{opacity:1;filter:none}
+ .treasure-display{display:flex;align-items:center;justify-content:space-between}
+ .treasure-display .icon{width:16cqw;height:16cqw}.treasure-display .icon-chest{width:22cqw;height:22cqw}
+ #pending-result{font-size:2.4cqw;z-index:7}
+}
+
+.shop-v2 .hall[data-recruit-art]{background-size:cover;background-position:center}
+.shop-v2 .hall[data-recruit-art=hero]{background-image:url('assets/shop-v2/recruit-hall-v3.png')}
+.shop-v2 .hall[data-recruit-art=pickup]{background-image:url('assets/shop-v2/pickup-hall-v3.png')}
+.shop-v2 .hall[data-recruit-art=treasure]{background-image:url('assets/shop-v2/treasure-hall-v3.png')}

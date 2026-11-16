@@ -1,0 +1,192 @@
+{
+  "id": "simayi",
+  "name": "사마의",
+  "faction": "위",
+  "order": 15,
+  "identity": "Sima Yi: severe elderly-thin strategist, long narrow face, hooded sharp eyes, slim moustache and long narrow gray-black beard. Tall angular BLACK official crown, high pale inner collar and enveloping black/navy robe with restrained purple trim. Hold compact dark-gray feather fan low. Outline must differ from Zhuge Liang's white loose robe and rounded blue cap.",
+  "folder": "simayi",
+  "identityDesign": "Sima Yi: severe elderly-thin strategist, long narrow face, hooded sharp eyes, slim moustache and long narrow gray-black beard. Tall angular BLACK official crown, high pale inner collar and enveloping black/navy robe with restrained purple trim. Hold compact dark-gray feather fan low. Outline must differ from Zhuge Liang's white loose robe and rounded blue cap.",
+  "artRevision": "pixel256-v1",
+  "canvas": [
+    256,
+    256
+  ],
+  "foot": [
+    128,
+    224
+  ],
+  "schemaVersion": 2,
+  "status": "ready-for-review",
+  "runtimeApplied": false,
+  "motionComplete": false,
+  "sideFacing": "left",
+  "right": "mirror-side",
+  "directions": {
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "simayi",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "sourceCanvas": [
+          1254,
+          1254
+        ],
+        "bodyTopVirtual256": 56,
+        "bodyHeightTarget": 124,
+        "sourceFootVirtual256": 233,
+        "sourceToFinalScale": 0.1430180484596185,
+        "wholeImageOffset": [
+          38,
+          61
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          97,
+          100,
+          157,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
+        "weaponContainFit": false,
+        "runtimeApplied": false,
+        "sha256": "e361ffb5673d18f054bb3bbfa54ee54229dc3ae6807d626fe55ac8fe4707dd2f"
+      }
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "simayi",
+        "direction": "back",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 83,
+        "bodyHeightTarget": 124,
+        "sourceFootVirtual256": 208,
+        "sourceToFinalScale": 0.20251355661881978,
+        "wholeImageOffset": [
+          1,
+          18
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          98,
+          102,
+          158,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "7efaf7b4d8e8c720fea5384bbd6b28381e15ac2cf8b738db2d5d4708996b24d5"
+      }
+    },
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "simayi",
+        "direction": "side",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 88,
+        "bodyHeightTarget": 124,
+        "sourceFootVirtual256": 207,
+        "sourceToFinalScale": 0.21272432417943254,
+        "wholeImageOffset": [
+          -5,
+          8
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          106,
+          102,
+          152,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "5c64d6d5f4b2d5136ec5c595df1f3a5c2e7d9e57347bcb294e97195e64e61bc7"
+      }
+    }
+  },
+  "files": {
+    "front": {
+      "path": "front.png",
+      "sha256": "e361ffb5673d18f054bb3bbfa54ee54229dc3ae6807d626fe55ac8fe4707dd2f"
+    },
+    "back": {
+      "path": "back.png",
+      "sha256": "7efaf7b4d8e8c720fea5384bbd6b28381e15ac2cf8b738db2d5d4708996b24d5"
+    },
+    "side": {
+      "path": "side.png",
+      "sha256": "5c64d6d5f4b2d5136ec5c595df1f3a5c2e7d9e57347bcb294e97195e64e61bc7"
+    }
+  },
+  "sourceProvider": "built-in image_gen",
+  "provenanceFile": "generation.json",
+  "bodyMetrics": {
+    "shoulderWidth": null,
+    "anatomicalHeight": null,
+    "riderJoints": null
+  },
+  "approval": {
+    "frontApproved": false,
+    "fullSetApproved": false
+  }
+}

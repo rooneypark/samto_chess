@@ -1,0 +1,213 @@
+{
+  "pressed": [
+    {
+      "label": "성문으로 돌아가기",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "label": "골드 예시 12,450",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "label": "다이아 예시 320",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "label": "동맹 본부",
+      "outside": 0,
+      "frame": 3235,
+      "missed": 0
+    },
+    {
+      "label": "동맹원",
+      "outside": 0,
+      "frame": 3246,
+      "missed": 0
+    },
+    {
+      "label": "활동 기록",
+      "outside": 0,
+      "frame": 3246,
+      "missed": 0
+    },
+    {
+      "label": "군량 지원",
+      "outside": 0,
+      "frame": 3046,
+      "missed": 0
+    },
+    {
+      "label": "군자금 기부",
+      "outside": 0,
+      "frame": 3057,
+      "missed": 0
+    },
+    {
+      "label": "토벌 정보",
+      "outside": 0,
+      "frame": 3057,
+      "missed": 0
+    },
+    {
+      "label": "동맹 출석\n골드 50 · 공헌 5",
+      "outside": 0,
+      "frame": 5080,
+      "missed": 0
+    },
+    {
+      "label": "동맹 상점\n공헌으로 보상 교환",
+      "outside": 0,
+      "frame": 5091,
+      "missed": 0
+    },
+    {
+      "label": "동맹 연구\n둔전 개간 · 행군 훈련",
+      "outside": 0,
+      "frame": 4929,
+      "missed": 0
+    },
+    {
+      "label": "동맹 관리\n공지 · 가입 신청",
+      "outside": 0,
+      "frame": 4929,
+      "missed": 0
+    },
+    {
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "label": "성문",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    },
+    {
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    }
+  ],
+  "frames": [
+    {
+      "tone": "blue",
+      "width": 281,
+      "height": 74,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 901,
+      "height": 410,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 901,
+      "height": 270,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 268,
+      "height": 66,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 430,
+      "height": 130,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 430,
+      "height": 112,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 600,
+      "height": 360,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 281,
+      "height": 74,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 901,
+      "height": 410,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 901,
+      "height": 270,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 268,
+      "height": 66,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 430,
+      "height": 130,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 430,
+      "height": 112,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 600,
+      "height": 360,
+      "identicalCorners": true
+    }
+  ],
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "identicalShellPixels": 224470
+}

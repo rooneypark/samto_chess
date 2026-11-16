@@ -1,0 +1,27 @@
+{
+  "status": "user-approved-runtime-reviewed",
+  "runtimeApplied": true,
+  "type": "rendered-component-mockup",
+  "generator": "HTML composition of approved shared components; no new raster generation or crop",
+  "composition": "game/previews/missions-v1/index.html",
+  "screenshot": "missions-v1.png",
+  "mobileScreenshot": "missions-v1-mobile.png",
+  "shell": "game/ui-shell.js + art-controls.js",
+  "frames": "game/nine-slice.js; fixed logical 28px corners",
+  "assets": [
+    "game/assets/shop-v2/coin.png",
+    "game/assets/shop-v2/gem.png",
+    "game/assets/ui-common/",
+    "game/assets/ui-scalable/"
+  ],
+  "data": "Existing services.js definitions and commands applied to a memory-only example; no player save access",
+  "qa": "game/previews/missions-v1/qa.json",
+  "runtimeReviewed": true,
+  "runtime": "game/missions.js",
+  "runtimeData": "Actual durable store; serviceCommand for attendance, quests, achievements and period bonuses; no fixture injection",
+  "runtimeQA": [
+    "test-artifacts/missions-v1/runtime-qa.json",
+    "test-artifacts/missions-v1/flow-qa.json"
+  ],
+  "spacing": "Body x=20..921; footer clearance 20px; helper text gaps 12px in 941x1672 coordinates"
+}

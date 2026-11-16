@@ -1,0 +1,15 @@
+{
+  "version": "v2",
+  "status": "draft",
+  "stage": "body-comparison-concept",
+  "file": "character-lineup-v2.png",
+  "generator": "built-in image_gen",
+  "approved": false,
+  "charactersLeftToRight": ["허저", "관우", "조조", "제갈량", "초선", "여포", "황건군"],
+  "notes": [
+    "기존 A안은 확정안이 아닌 참고 초안으로 취급한다.",
+    "체격과 인물별 실루엣을 검토하는 확대 콘셉트 이미지다.",
+    "96×96 개별 프레임, 발 기준점, 체격별 픽셀 치수, 색 수 및 이진 알파 규격은 아직 검증하지 않았다.",
+    "게임에 적용하지 않았다. 실제 스프라이트 납품본이 아니다."
+  ]
+}

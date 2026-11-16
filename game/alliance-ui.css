@@ -1,0 +1,25 @@
+@scope (.alliance-v2){
+ :scope.alliance-screen{inset:0;padding:0;overflow:hidden;z-index:1;background:#1b304a url("assets/gate-lobby/level.png") center/100% 100%!important;image-rendering:pixelated;font-family:Georgia,"Batang",serif;color:#fff0cd}
+ :scope[hidden]{display:none}
+button{position:absolute;box-shadow:none;border-image:none;filter:none;translate:none;display:flex;align-items:center;justify-content:center;flex-direction:column;border:0;margin:0;padding:0;background:transparent;color:#fff0cd;font:bold 4cqw Georgia,'Batang',serif;line-height:1.2;cursor:pointer;text-shadow:0 .15cqw #0e1c2d;min-width:0;min-height:0;z-index:5}
+[data-box]{position:absolute;margin:0;padding:0}
+.scroll-heading,.notice{display:flex;align-items:center;justify-content:center;border:0;color:#14283a;font-weight:bold}
+.scroll-heading{font-size:5.2cqw}.section-tabs button{font-size:4cqw}
+.headquarters{z-index:0}.environment{position:absolute;inset:1.3cqw;background:url('/game/assets/alliance-v2/headquarters.png') center 28%/cover}
+.panel-frame{position:absolute;inset:0;pointer-events:none}.general-lineup{display:contents}.general-original{position:absolute;object-fit:contain;image-rendering:pixelated;z-index:2;pointer-events:none}
+.guild-stats{display:flex;align-items:center;justify-content:center;gap:3cqw;background:#10263be8;color:#d5e0e9;font-size:2.7cqw;z-index:3}.guild-stats b{color:#ffe4a7}.guild-stats i{height:42%;width:1px;background:#79909c}
+.notice{justify-content:flex-start;gap:2.2cqw;padding-left:5.4cqw;font-size:3cqw;white-space:nowrap}.notice b{color:#8c4129}
+h2{display:flex;align-items:center;color:#f9e4b6;font-size:4.1cqw}.period{display:flex;align-items:center;justify-content:flex-end;color:#bbc9db;font-size:2.5cqw}
+.preparation{border:.32cqw solid #516c7b;background:#0c2030;box-shadow:inset 0 2px #080f1b}.preparation i{display:block;width:60%;height:100%;background:#46b899;border-top:.32cqw solid #91e0b5;border-bottom:.32cqw solid #1a6b62}
+.percentage{display:flex;align-items:center;justify-content:flex-end;font-size:4.3cqw;color:#a3e3b6;gap:.2cqw}.percentage span{font-size:2.8cqw}.helper{font-size:2.6cqw;color:#bccbdc;display:flex;align-items:center}
+.cooperation-actions button{font-size:3.2cqw}.activity-buttons strong{font-size:4cqw}.activity-buttons small{font-size:2.5cqw;font-weight:normal;color:#bbcad9;margin-top:1cqw}
+.reset-note{font-size:2.2cqw;text-align:center;color:#a6b8c9}
+
+ .notice.guild-notice{margin:0;line-height:normal;border:0;min-height:0;padding:0 4.2cqw 0 5.4cqw}
+ .notice[hidden]{display:none}
+ .notice.long{line-height:1.1;font-size:2.4cqw;white-space:normal}.notice span{overflow-wrap:anywhere}.notice b{flex-shrink:0}
+ .guild-stats span{min-width:0;white-space:nowrap}.guild-stats b{display:inline-block;max-width:17cqw;overflow:hidden;text-overflow:ellipsis;vertical-align:bottom}
+ .scroll-heading{font-weight:bold;line-height:normal}
+ .activity-buttons button:disabled{opacity:1;filter:none}
+ .headquarters .environment{opacity:1}
+}

@@ -1,0 +1,775 @@
+{
+  "count": 32,
+  "runtimeApplied": false,
+  "items": [
+    {
+      "catalogId": "tr-001",
+      "name": "의천검",
+      "category": "weapon",
+      "file": "tr-001.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        26,
+        16,
+        230,
+        240
+      ],
+      "minimumMargin": 16,
+      "sha256": "dabf69e61f1a9b78dcfc6e24ca6f8d6ae258c04db9332b8ac67819e37bd480d6",
+      "status": "user-approved-style-reference",
+      "order": 1,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-001.png"
+      }
+    },
+    {
+      "catalogId": "tr-002",
+      "name": "청공검",
+      "category": "weapon",
+      "file": "tr-002.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        31,
+        18,
+        225,
+        238
+      ],
+      "minimumMargin": 18,
+      "sha256": "b81dc1e9ca0e66272406dacdca6a83fc2c09b3b8916925e8d4f627cbdfd7afab",
+      "status": "awaiting-user-review",
+      "order": 2,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-002.png"
+      }
+    },
+    {
+      "catalogId": "tr-003",
+      "name": "청룡언월도",
+      "category": "weapon",
+      "file": "tr-003.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        26,
+        18,
+        230,
+        238
+      ],
+      "minimumMargin": 18,
+      "sha256": "1975faac6a9b60860186bae82a25be8d55ea07740d602dfd70a49a8785465ecf",
+      "status": "awaiting-user-review",
+      "order": 3,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-003.png"
+      }
+    },
+    {
+      "catalogId": "tr-004",
+      "name": "장팔사모",
+      "category": "weapon",
+      "file": "tr-004.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        21,
+        18,
+        236,
+        238
+      ],
+      "minimumMargin": 18,
+      "sha256": "5d39e398950945a72b881c81e7d35651c001c31e188eca50f499eaaada2418a8",
+      "status": "awaiting-user-review",
+      "order": 4,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-004.png"
+      }
+    },
+    {
+      "catalogId": "tr-005",
+      "name": "방천화극",
+      "category": "weapon",
+      "file": "tr-005.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        26,
+        18,
+        231,
+        238
+      ],
+      "minimumMargin": 18,
+      "sha256": "c9ad4d051405bf78b855fab306b48063482825436c4d33412278faf3650303b1",
+      "status": "awaiting-user-review",
+      "order": 5,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-005.png"
+      }
+    },
+    {
+      "catalogId": "tr-006",
+      "name": "자웅일대검",
+      "category": "weapon",
+      "file": "tr-006.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        50,
+        39,
+        221,
+        232
+      ],
+      "minimumMargin": 24,
+      "sha256": "330f46c3ed66bf2689b795cb50e9a8d0b8f974fcfadb4f36c1b924fdb597ce25",
+      "status": "awaiting-user-review",
+      "order": 6,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-006.png"
+      }
+    },
+    {
+      "catalogId": "tr-007",
+      "name": "고정도",
+      "category": "weapon",
+      "file": "tr-007.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        28,
+        18,
+        228,
+        238
+      ],
+      "minimumMargin": 18,
+      "sha256": "a40360859bdd236c8492b3d7e9eccde7d1dd8eb95130e573b0b23f8ad4ccc87c",
+      "status": "awaiting-user-review",
+      "order": 7,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-007.png"
+      }
+    },
+    {
+      "catalogId": "tr-008",
+      "name": "칠성보도",
+      "category": "weapon",
+      "file": "tr-008.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        48,
+        48,
+        208,
+        239
+      ],
+      "minimumMargin": 17,
+      "sha256": "b563130aed513e8e329638f7daf81d370b16142c08879356ca1939046c013f8a",
+      "status": "awaiting-user-review",
+      "order": 8,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-008.png"
+      }
+    },
+    {
+      "catalogId": "tr-011",
+      "name": "쌍철극",
+      "category": "weapon",
+      "file": "tr-011.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        18,
+        27,
+        239,
+        230
+      ],
+      "minimumMargin": 17,
+      "sha256": "3d89c0aacd4d35a6e10f77d074b8f0ab34ba7474612126819c66c6a02f106ca7",
+      "status": "awaiting-user-review",
+      "order": 9,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-011.png"
+      }
+    },
+    {
+      "catalogId": "tr-016",
+      "name": "이광궁",
+      "category": "weapon",
+      "file": "tr-016.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        32,
+        18,
+        225,
+        238
+      ],
+      "minimumMargin": 18,
+      "sha256": "c021a6e7e5a9b00623b51ce6de0d54135327e5b7e9c0e0aaf85a21746b3bd586",
+      "status": "awaiting-user-review",
+      "order": 10,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-016.png"
+      }
+    },
+    {
+      "catalogId": "tr-018",
+      "name": "여포궁",
+      "category": "weapon",
+      "file": "tr-018.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        26,
+        18,
+        229,
+        238
+      ],
+      "minimumMargin": 18,
+      "sha256": "7ab0d1760355ab697b8508a038bbf55a37aaeeb9535e6e059989faef9b551958",
+      "status": "awaiting-user-review",
+      "order": 11,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-018.png"
+      }
+    },
+    {
+      "catalogId": "tr-032",
+      "name": "적토마",
+      "category": "horse",
+      "file": "tr-032.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        20,
+        18,
+        236,
+        238
+      ],
+      "minimumMargin": 18,
+      "sha256": "4ee7def90f20e0a142143c921c9a31043eb74ce520d9ad20802abf0a8406a8f5",
+      "status": "awaiting-user-review",
+      "order": 12,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-032.png"
+      }
+    },
+    {
+      "catalogId": "tr-033",
+      "name": "적로",
+      "category": "horse",
+      "file": "tr-033.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        30,
+        18,
+        227,
+        238
+      ],
+      "minimumMargin": 18,
+      "sha256": "faf28f0e098d99ea010c92db9778d722e370933328fb775a43c545891115b75b",
+      "status": "awaiting-user-review",
+      "order": 13,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-033.png"
+      }
+    },
+    {
+      "catalogId": "tr-034",
+      "name": "절영",
+      "category": "horse",
+      "file": "tr-034.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        29,
+        18,
+        228,
+        238
+      ],
+      "minimumMargin": 18,
+      "sha256": "d2d1b8fcfe3988cb8cbbc5b359701c2d71331b9920f811f3066f0ee2caf3cf66",
+      "status": "awaiting-user-review",
+      "order": 14,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-034.png"
+      }
+    },
+    {
+      "catalogId": "tr-035",
+      "name": "조황비전",
+      "category": "horse",
+      "file": "tr-035.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        28,
+        18,
+        228,
+        238
+      ],
+      "minimumMargin": 18,
+      "sha256": "da07f27557d55e76c8514093368e5d5aa855fc0e1d9268a100acbbbba797d9e2",
+      "status": "awaiting-user-review",
+      "order": 15,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-035.png"
+      }
+    },
+    {
+      "catalogId": "tr-042",
+      "name": "손자병법",
+      "category": "book",
+      "file": "tr-042.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        18,
+        24,
+        239,
+        232
+      ],
+      "minimumMargin": 17,
+      "sha256": "46d5b9608b2b72a153790b2a03bba477740bb8b53795a2ae5b0ab089860f46e1",
+      "status": "awaiting-user-review",
+      "order": 16,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-042.png"
+      }
+    },
+    {
+      "catalogId": "tr-043",
+      "name": "육도",
+      "category": "book",
+      "file": "tr-043.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        18,
+        31,
+        238,
+        224
+      ],
+      "minimumMargin": 18,
+      "sha256": "8e08e381fa2f767bb21598546e6afe1797b5cfcf3ff0738327b3a3b412891cf8",
+      "status": "awaiting-user-review",
+      "order": 17,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-043.png"
+      }
+    },
+    {
+      "catalogId": "tr-044",
+      "name": "삼략",
+      "category": "book",
+      "file": "tr-044.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        18,
+        44,
+        238,
+        213
+      ],
+      "minimumMargin": 18,
+      "sha256": "fe43b28304aa6e84b1487bd86a01620b24f21945352882ace3e8438466a06abc",
+      "status": "awaiting-user-review",
+      "order": 18,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-044.png"
+      }
+    },
+    {
+      "catalogId": "tr-045",
+      "name": "맹덕신서",
+      "category": "book",
+      "file": "tr-045.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        18,
+        42,
+        238,
+        214
+      ],
+      "minimumMargin": 18,
+      "sha256": "88c4779fcc1bb1e2c9e584994e74129b157558b3d8b15ac9c23b54d0c7b6298c",
+      "status": "awaiting-user-review",
+      "order": 19,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-045.png"
+      }
+    },
+    {
+      "catalogId": "tr-046",
+      "name": "청낭서",
+      "category": "book",
+      "file": "tr-046.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        18,
+        39,
+        238,
+        217
+      ],
+      "minimumMargin": 18,
+      "sha256": "b2e302988c42241c82e91bcc7a49f4d7fa1d2323103dd514a04846a7f94999be",
+      "status": "awaiting-user-review",
+      "order": 20,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-046.png"
+      }
+    },
+    {
+      "catalogId": "tr-047",
+      "name": "태평요술서",
+      "category": "book",
+      "file": "tr-047.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        18,
+        27,
+        238,
+        229
+      ],
+      "minimumMargin": 18,
+      "sha256": "aca8822482dda0798a0ac7004da14a3197bc37016b6512fd2dbcb3db307d3b9e",
+      "status": "awaiting-user-review",
+      "order": 21,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-047.png"
+      }
+    },
+    {
+      "catalogId": "tr-048",
+      "name": "둔갑천서",
+      "category": "book",
+      "file": "tr-048.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        20,
+        18,
+        236,
+        238
+      ],
+      "minimumMargin": 18,
+      "sha256": "fa651bc9140492c5af04a4eaf66cddd824d0fb7e3d09cd66e60527307e1abbcb",
+      "status": "awaiting-user-review",
+      "order": 22,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-048.png"
+      }
+    },
+    {
+      "catalogId": "tr-049",
+      "name": "태평청령서",
+      "category": "book",
+      "file": "tr-049.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        18,
+        30,
+        237,
+        226
+      ],
+      "minimumMargin": 18,
+      "sha256": "3e52e34c4960843794d647a12fef2e02de069cf5dd89574425754fd440fd368f",
+      "status": "awaiting-user-review",
+      "order": 23,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-049.png"
+      }
+    },
+    {
+      "catalogId": "tr-071",
+      "name": "황금갑옷",
+      "category": "armor",
+      "file": "tr-071.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        35,
+        18,
+        221,
+        238
+      ],
+      "minimumMargin": 18,
+      "sha256": "eb9947cb1764b3b79d518f555ebc42536dcb687a6f1eda423452e29b10908653",
+      "status": "awaiting-user-review",
+      "order": 24,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-071.png"
+      }
+    },
+    {
+      "catalogId": "tr-074",
+      "name": "용린갑옷",
+      "category": "armor",
+      "file": "tr-074.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        23,
+        18,
+        232,
+        238
+      ],
+      "minimumMargin": 18,
+      "sha256": "5fc92b86ddd072467b70ad44e93c5ae80278b9f2edd4a4193b9b3c26eeba6a9f",
+      "status": "awaiting-user-review",
+      "order": 25,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-074.png"
+      }
+    },
+    {
+      "catalogId": "tr-082",
+      "name": "제갈건",
+      "category": "armor",
+      "file": "tr-082.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        36,
+        18,
+        220,
+        238
+      ],
+      "minimumMargin": 18,
+      "sha256": "9f80cf63edd050bca8fb58d3a210f3dfc3f933c7658d63e51a0464ad031aeb18",
+      "status": "awaiting-user-review",
+      "order": 26,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-082.png"
+      }
+    },
+    {
+      "catalogId": "tr-083",
+      "name": "옥새",
+      "category": "object",
+      "file": "tr-083.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        45,
+        18,
+        212,
+        238
+      ],
+      "minimumMargin": 18,
+      "sha256": "67b8ecb0c79702e1645e74dd7e8037d1f27fb734dba70f2d6c179da59e5d7eeb",
+      "status": "awaiting-user-review",
+      "order": 27,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-083.png"
+      }
+    },
+    {
+      "catalogId": "tr-085",
+      "name": "백우선",
+      "category": "object",
+      "file": "tr-085.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        30,
+        18,
+        226,
+        238
+      ],
+      "minimumMargin": 18,
+      "sha256": "1c40f913ae79b2f08f86d0a9c18ccd5281fe1cda7dcb60925c44a71850927b06",
+      "status": "awaiting-user-review",
+      "order": 28,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-085.png"
+      }
+    },
+    {
+      "catalogId": "tr-088",
+      "name": "청룡보옥",
+      "category": "jewel",
+      "file": "tr-088.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        42,
+        18,
+        214,
+        238
+      ],
+      "minimumMargin": 18,
+      "sha256": "d0761dd5e1fbdfc61c1adf8e010d4bcb6d8bf67e7a83f40a79951c8067e8547d",
+      "status": "awaiting-user-review",
+      "order": 29,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-088.png"
+      }
+    },
+    {
+      "catalogId": "tr-089",
+      "name": "주작보옥",
+      "category": "jewel",
+      "file": "tr-089.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        18,
+        27,
+        239,
+        230
+      ],
+      "minimumMargin": 17,
+      "sha256": "a85ea3aa92358b5a41d8eb1506cbe70d1c1d6fee2e57e57c859a8ccacec591b5",
+      "status": "awaiting-user-review",
+      "order": 30,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-089.png"
+      }
+    },
+    {
+      "catalogId": "tr-090",
+      "name": "백호보옥",
+      "category": "jewel",
+      "file": "tr-090.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        25,
+        18,
+        231,
+        238
+      ],
+      "minimumMargin": 18,
+      "sha256": "d192c400236c3659a2b2c0ab50a3dae8e28e8b7d51d28cc3833f6ce8f1f5c23d",
+      "status": "awaiting-user-review",
+      "order": 31,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-090.png"
+      }
+    },
+    {
+      "catalogId": "tr-091",
+      "name": "현무보옥",
+      "category": "jewel",
+      "file": "tr-091.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "visibleBounds": [
+        31,
+        18,
+        226,
+        238
+      ],
+      "minimumMargin": 18,
+      "sha256": "5604623ab0d20038a3b806d6a5d61bf6bb66323f07f2f8c7c7a93980804f2e92",
+      "status": "awaiting-user-review",
+      "order": 32,
+      "provenance": {
+        "gitCommit": "82b4e0a9f4b2a958cb3dc80e575ec84d51e1544c",
+        "previousPath": "design-delivery/v2/02-treasures/originals-v2/tr-091.png"
+      }
+    }
+  ],
+  "baselineVersion": 1
+}

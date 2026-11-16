@@ -1,0 +1,192 @@
+{
+  "id": "diaochan",
+  "name": "초선",
+  "faction": "군웅",
+  "order": 47,
+  "identity": "Diao Chan: graceful young dancer, gentle almond-like square-pixel eyes, black hair in elegant double-loop updo with GOLD FLOWER ornaments, pink and soft ivory long flowing dress, plum waist sash and delicate ribbon. Hold small white hand fan. Slim adult feminine body, no armor, no exaggerated proportions.",
+  "folder": "diaochan",
+  "identityDesign": "Diao Chan: graceful young dancer, gentle almond-like square-pixel eyes, black hair in elegant double-loop updo with GOLD FLOWER ornaments, pink and soft ivory long flowing dress, plum waist sash and delicate ribbon. Hold small white hand fan. Slim adult feminine body, no armor, no exaggerated proportions.",
+  "artRevision": "pixel256-v1",
+  "canvas": [
+    256,
+    256
+  ],
+  "foot": [
+    128,
+    224
+  ],
+  "schemaVersion": 2,
+  "status": "ready-for-review",
+  "runtimeApplied": false,
+  "motionComplete": false,
+  "sideFacing": "left",
+  "right": "mirror-side",
+  "directions": {
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "diaochan",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "sourceCanvas": [
+          1254,
+          1254
+        ],
+        "bodyTopVirtual256": 68,
+        "bodyHeightTarget": 122,
+        "sourceFootVirtual256": 232,
+        "sourceToFinalScale": 0.15186525070992338,
+        "wholeImageOffset": [
+          33,
+          51
+        ],
+        "groundRoundingCorrection": 1,
+        "visibleBounds": [
+          97,
+          103,
+          156,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
+        "weaponContainFit": false,
+        "runtimeApplied": false,
+        "sha256": "decd591b0656bf464f8f934ba338cc763eeaa75c3b35142141c6eef8e94d3e48"
+      }
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "diaochan",
+        "direction": "back",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 86,
+        "bodyHeightTarget": 122,
+        "sourceFootVirtual256": 206,
+        "sourceToFinalScale": 0.2075491759702286,
+        "wholeImageOffset": [
+          -2,
+          15
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          98,
+          104,
+          158,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "c5546b677c32163b3d9029e2574583f7e0d15c81f13760d63c3377688a316d6a"
+      }
+    },
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "diaochan",
+        "direction": "side",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 87,
+        "bodyHeightTarget": 122,
+        "sourceFootVirtual256": 208,
+        "sourceToFinalScale": 0.20583389352419365,
+        "wholeImageOffset": [
+          -1,
+          14
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          104,
+          103,
+          148,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "c45cfbb65cfa6ea59b94d0b077397ff2c4a018aed748e7b401391c0b0aeb4236"
+      }
+    }
+  },
+  "files": {
+    "front": {
+      "path": "front.png",
+      "sha256": "decd591b0656bf464f8f934ba338cc763eeaa75c3b35142141c6eef8e94d3e48"
+    },
+    "back": {
+      "path": "back.png",
+      "sha256": "c5546b677c32163b3d9029e2574583f7e0d15c81f13760d63c3377688a316d6a"
+    },
+    "side": {
+      "path": "side.png",
+      "sha256": "c45cfbb65cfa6ea59b94d0b077397ff2c4a018aed748e7b401391c0b0aeb4236"
+    }
+  },
+  "sourceProvider": "built-in image_gen",
+  "provenanceFile": "generation.json",
+  "bodyMetrics": {
+    "shoulderWidth": null,
+    "anatomicalHeight": null,
+    "riderJoints": null
+  },
+  "approval": {
+    "frontApproved": false,
+    "fullSetApproved": false
+  }
+}

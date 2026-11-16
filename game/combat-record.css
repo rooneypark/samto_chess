@@ -1,0 +1,44 @@
+.game:has(>.combat-record-v1:not([hidden])){width:min(100vw,56.2799043svh);aspect-ratio:941/1672}
+.game:has(>.combat-record-v1:not([hidden]))>.hud,.game:has(>.combat-record-v1:not([hidden]))>.bottom-nav{display:none}
+@scope (.combat-record-v1){
+ :scope{position:absolute;inset:0;z-index:60;overflow:hidden;line-height:normal;font-family:Georgia,"Batang",serif;color:#fff0cd;background:#1b304a url('assets/gate-lobby/level.png') center/100% 100%;image-rendering:pixelated}
+ :scope[hidden],[hidden]{display:none!important}
+button{position:absolute;box-shadow:none;border-image:none;filter:none;translate:none;display:flex;align-items:center;justify-content:center;flex-direction:column;border:0;margin:0;padding:0;background:transparent;color:#fff0cd;font:bold 4cqw Georgia,'Batang',serif;line-height:1.2;cursor:pointer;text-shadow:0 .15cqw #0e1c2d;min-width:0;min-height:0;z-index:5}
+[data-box]{position:absolute;margin:0;padding:0}
+.scroll-heading{display:flex;align-items:center;justify-content:center;border:0;color:#14283a;font-weight:bold}
+.scroll-heading{font-size:5.2cqw}.section-tabs button{font-size:4cqw}
+.environment{position:absolute;inset:1.3cqw;background:url('/game/assets/arena-v2/courtyard.png') center 70%/cover}
+.panel-frame{position:absolute;inset:0;pointer-events:none}.general-original{position:absolute;object-fit:contain;image-rendering:pixelated;z-index:2;pointer-events:none}
+h2{display:flex;align-items:center;color:#f9e4b6;font-size:4.1cqw}
+.reset-note{font-size:2.2cqw;text-align:center;color:#a6b8c9}
+.scroll-heading{line-height:normal;font-weight:bold}
+.art-header-title{font-size:4.7cqw}
+.outcome{display:flex;align-items:center;justify-content:center;color:#ffe4a4;font-size:7cqw;text-shadow:.25cqw .25cqw #473d28;z-index:3}
+.summary-title{font-size:4cqw;z-index:3}.summary-copy{font-size:2.8cqw;display:flex;align-items:center;color:#b8cbd8;z-index:3}
+.side-tabs button{flex-direction:row;gap:1.8cqw;font-size:3.9cqw}.side-tabs small{font-size:2.8cqw;color:#c3d8d1;font-weight:normal}.metric-tabs button{font-size:3.3cqw}
+.roster-heading{font-size:3.3cqw;z-index:3}.metric-heading{display:flex;justify-content:flex-end;align-items:center;font-size:2.6cqw;color:#b4c9d8;z-index:3}
+.record-rows{display:contents}.unit-record{z-index:4}.unit-record .row-art{position:absolute;inset:0;pointer-events:none}
+.row-name,.row-affiliation,.row-number,.row-share,.row-value,.record-bar{position:absolute;z-index:2;pointer-events:none}
+.row-number{left:1.4%;top:35%;font-size:2.5cqw;color:#a2b7c8;font-weight:normal}
+.row-name{left:17.7%;top:12%;width:29%;height:43%;text-align:left;display:flex;align-items:center;font-size:3.7cqw;white-space:nowrap}
+.row-name.long-name{font-size:2.8cqw}.row-affiliation{left:17.7%;top:59%;width:28%;text-align:left;font-size:2.45cqw;font-weight:normal;color:#a9bfcd}
+.row-value{left:46%;top:13%;text-align:left;color:#ffe4ad;font-size:3.9cqw}
+.row-share{right:3.3%;top:20%;color:#b8cece;font-size:2.7cqw;font-weight:normal}
+.record-bar{left:46%;top:65%;width:50.7%;height:17%;border:.2cqw solid #55717d;background:#0c1c2d;box-shadow:inset 0 .2cqw #07131f}
+.record-bar i{display:block;height:100%;background:#80b9ad;border-top:.2cqw solid #b4d9bc;border-bottom:.2cqw solid #426b66}
+.unit-record[aria-pressed=true] .record-bar i{background:#d6b96d;border-top-color:#ffe3a0;border-bottom-color:#8b7647}
+.row-art .general-original{z-index:2;pointer-events:none}
+.selection-detail{display:flex;align-items:center;justify-content:center;font-size:2.6cqw;color:#d3dfdf;z-index:3;white-space:nowrap}
+.result-back{font-size:4.4cqw}.home-back{font-size:3.8cqw}
+
+ button:active{translate:none}
+ .wallet,.bottom-nav{display:contents}
+ .wallet .shell-wallet-value{text-shadow:0 .15cqw #0e1c2d}
+ .outcome.long-outcome{font-size:4.8cqw}
+ .outcome[data-outcome=loss]{color:#e4bac0}.outcome[data-outcome=draw]{color:#cfdae5}
+ .record-pagination{display:contents}.record-pagination button{font-size:4cqw}
+ .page-number{display:flex;align-items:center;justify-content:center;font-size:2.6cqw;color:#c4d3da;z-index:4}
+ .record-empty{display:flex;align-items:center;justify-content:center;font-size:3.6cqw;color:#b9cbd8;z-index:3}
+ .selection-detail.long-detail{font-size:2.15cqw}
+ .row-value.long-value{font-size:3.1cqw}
+}

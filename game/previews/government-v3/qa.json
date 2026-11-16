@@ -1,0 +1,533 @@
+{
+  "pressed": [
+    {
+      "tab": "farm",
+      "label": "뒤로",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "tab": "farm",
+      "label": "골드",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "tab": "farm",
+      "label": "다이아",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "tab": "farm",
+      "label": "농지 Lv.3 · 수령 가능",
+      "outside": 0,
+      "frame": 878,
+      "missed": 0
+    },
+    {
+      "tab": "farm",
+      "label": "병영 Lv.2 · 수령 완료",
+      "outside": 0,
+      "frame": 882,
+      "missed": 0
+    },
+    {
+      "tab": "farm",
+      "label": "대장간 Lv.3 · 수령 가능",
+      "outside": 0,
+      "frame": 882,
+      "missed": 0
+    },
+    {
+      "tab": "farm",
+      "label": "장터 Lv.2 · 교환 가능",
+      "outside": 0,
+      "frame": 882,
+      "missed": 0
+    },
+    {
+      "tab": "farm",
+      "label": "생산물 수령",
+      "outside": 0,
+      "frame": 4331,
+      "missed": 0
+    },
+    {
+      "tab": "farm",
+      "label": "강화 · 700 골드",
+      "outside": 0,
+      "frame": 4341,
+      "missed": 0
+    },
+    {
+      "tab": "farm",
+      "label": "시안 상태 초기화",
+      "outside": 0,
+      "frame": 5869,
+      "missed": 0
+    },
+    {
+      "tab": "farm",
+      "label": "성문으로",
+      "outside": 0,
+      "frame": 3342,
+      "missed": 0
+    },
+    {
+      "tab": "farm",
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "farm",
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "tab": "farm",
+      "label": "성문",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    },
+    {
+      "tab": "farm",
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "farm",
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "barracks",
+      "label": "뒤로",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "tab": "barracks",
+      "label": "골드",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "tab": "barracks",
+      "label": "다이아",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "tab": "barracks",
+      "label": "농지 Lv.3 · 수령 가능",
+      "outside": 0,
+      "frame": 882,
+      "missed": 0
+    },
+    {
+      "tab": "barracks",
+      "label": "병영 Lv.2 · 수령 완료",
+      "outside": 0,
+      "frame": 878,
+      "missed": 0
+    },
+    {
+      "tab": "barracks",
+      "label": "대장간 Lv.3 · 수령 가능",
+      "outside": 0,
+      "frame": 882,
+      "missed": 0
+    },
+    {
+      "tab": "barracks",
+      "label": "장터 Lv.2 · 교환 가능",
+      "outside": 0,
+      "frame": 882,
+      "missed": 0
+    },
+    {
+      "tab": "barracks",
+      "label": "강화 · 300 골드",
+      "outside": 0,
+      "frame": 4341,
+      "missed": 0
+    },
+    {
+      "tab": "barracks",
+      "label": "시안 상태 초기화",
+      "outside": 0,
+      "frame": 5869,
+      "missed": 0
+    },
+    {
+      "tab": "barracks",
+      "label": "성문으로",
+      "outside": 0,
+      "frame": 3342,
+      "missed": 0
+    },
+    {
+      "tab": "barracks",
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "barracks",
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "tab": "barracks",
+      "label": "성문",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    },
+    {
+      "tab": "barracks",
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "barracks",
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "forge",
+      "label": "뒤로",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "tab": "forge",
+      "label": "골드",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "tab": "forge",
+      "label": "다이아",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "tab": "forge",
+      "label": "농지 Lv.3 · 수령 가능",
+      "outside": 0,
+      "frame": 882,
+      "missed": 0
+    },
+    {
+      "tab": "forge",
+      "label": "병영 Lv.2 · 수령 완료",
+      "outside": 0,
+      "frame": 882,
+      "missed": 0
+    },
+    {
+      "tab": "forge",
+      "label": "대장간 Lv.3 · 수령 가능",
+      "outside": 0,
+      "frame": 878,
+      "missed": 0
+    },
+    {
+      "tab": "forge",
+      "label": "장터 Lv.2 · 교환 가능",
+      "outside": 0,
+      "frame": 882,
+      "missed": 0
+    },
+    {
+      "tab": "forge",
+      "label": "생산물 수령",
+      "outside": 0,
+      "frame": 4331,
+      "missed": 0
+    },
+    {
+      "tab": "forge",
+      "label": "강화 · 700 골드",
+      "outside": 0,
+      "frame": 4341,
+      "missed": 0
+    },
+    {
+      "tab": "forge",
+      "label": "시안 상태 초기화",
+      "outside": 0,
+      "frame": 5869,
+      "missed": 0
+    },
+    {
+      "tab": "forge",
+      "label": "성문으로",
+      "outside": 0,
+      "frame": 3342,
+      "missed": 0
+    },
+    {
+      "tab": "forge",
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "forge",
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "tab": "forge",
+      "label": "성문",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    },
+    {
+      "tab": "forge",
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "forge",
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "market",
+      "label": "뒤로",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "tab": "market",
+      "label": "골드",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "tab": "market",
+      "label": "다이아",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "tab": "market",
+      "label": "농지 Lv.3 · 수령 가능",
+      "outside": 0,
+      "frame": 882,
+      "missed": 0
+    },
+    {
+      "tab": "market",
+      "label": "병영 Lv.2 · 수령 완료",
+      "outside": 0,
+      "frame": 882,
+      "missed": 0
+    },
+    {
+      "tab": "market",
+      "label": "대장간 Lv.3 · 수령 가능",
+      "outside": 0,
+      "frame": 882,
+      "missed": 0
+    },
+    {
+      "tab": "market",
+      "label": "장터 Lv.2 · 교환 가능",
+      "outside": 0,
+      "frame": 878,
+      "missed": 0
+    },
+    {
+      "tab": "market",
+      "label": "교환 상점",
+      "outside": 0,
+      "frame": 4331,
+      "missed": 0
+    },
+    {
+      "tab": "market",
+      "label": "강화 · 300 골드",
+      "outside": 0,
+      "frame": 4341,
+      "missed": 0
+    },
+    {
+      "tab": "market",
+      "label": "시안 상태 초기화",
+      "outside": 0,
+      "frame": 5869,
+      "missed": 0
+    },
+    {
+      "tab": "market",
+      "label": "성문으로",
+      "outside": 0,
+      "frame": 3342,
+      "missed": 0
+    },
+    {
+      "tab": "market",
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "market",
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "tab": "market",
+      "label": "성문",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    },
+    {
+      "tab": "market",
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "market",
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    }
+  ],
+  "frames": [
+    {
+      "tone": "blue",
+      "w": 901,
+      "h": 120
+    },
+    {
+      "tone": "blue",
+      "w": 901,
+      "h": 500
+    },
+    {
+      "tone": "blue",
+      "w": 901,
+      "h": 470
+    },
+    {
+      "tone": "blue",
+      "w": 411,
+      "h": 64
+    },
+    {
+      "tone": "blue",
+      "w": 412,
+      "h": 64
+    },
+    {
+      "tone": "blue",
+      "w": 582,
+      "h": 64
+    },
+    {
+      "tone": "blue",
+      "w": 170,
+      "h": 64
+    },
+    {
+      "tone": "green",
+      "w": 901,
+      "h": 120
+    },
+    {
+      "tone": "green",
+      "w": 901,
+      "h": 500
+    },
+    {
+      "tone": "green",
+      "w": 901,
+      "h": 470
+    },
+    {
+      "tone": "green",
+      "w": 411,
+      "h": 64
+    },
+    {
+      "tone": "green",
+      "w": 412,
+      "h": 64
+    },
+    {
+      "tone": "green",
+      "w": 582,
+      "h": 64
+    },
+    {
+      "tone": "green",
+      "w": 170,
+      "h": 64
+    }
+  ],
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "states": [],
+  "identicalShellPixels": 224470
+}

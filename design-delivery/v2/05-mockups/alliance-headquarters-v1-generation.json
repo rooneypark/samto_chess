@@ -1,0 +1,20 @@
+{
+  "status": "approved-runtime-applied",
+  "runtimeApplied": true,
+  "generator": "built-in image_gen background; composition using approved shared components",
+  "background": {
+    "file": "game/previews/alliance-v1/headquarters.png",
+    "generatedSource": "C:/Users/pms10/.codex/generated_images/01a1d401-218e-7061-acde-752e44e85aca/exec-490c12cf-1fe5-4086-b5fe-a48989403655.png",
+    "prompt": "Use case: ui-mockup. Asset type: environment-only background plate for a Korean Three Kingdoms pixel-art auto-chess mobile game's Alliance headquarters. Draw a wide 3:2 pixel-art view of a welcoming fortified mountain military camp: centered jade-green command pavilion with dark blue Chinese tiled roof, two tall emerald banners with gold edging, wooden palisades and watchtowers at sides, misty layered blue mountains, warm small lantern accents, stone courtyard and a low wooden strategy table at the bottom. Frontal slightly elevated game-stage view. Architecture occupies the middle half; leave the top 15% mostly pale blue sky, the bottom 20% an uncluttered stone forecourt so existing separately drawn character sprites can be placed there later. Keep important banner poles and rooftops away from the extreme side edges. Match chunky, low-resolution, hand-placed pixel-art edges: navy/slate walls, muted green cloth, restrained cream/gold highlights, charming epic miniature strategy-game atmosphere. Strong readable big shapes at phone size, crisp dark outlines, limited palette, no smooth painted detail. Opaque scene only. No characters, no soldiers, no UI, no frames, no buttons, no lettering, no flags with text, no logos, no watermark. Do not draw any interface elements; the approved game UI will be composited separately."
+  },
+  "composition": "game/previews/alliance-v1/index.html",
+  "screenshot": "alliance-headquarters-v1.png",
+  "shell": "game/ui-shell.js + game/art-controls.js; original common assets",
+  "frames": "game/nine-slice.js: blue/green, 28px fixed corners",
+  "characters": "Unmodified generals-v2/1-front.png and 35-front.png",
+  "qa": "game/previews/alliance-v1/qa.json",
+  "state": "Approved preview retains example values; runtime uses real profile data and existing allianceCommand transactions without test grants.",
+  "runtime": "game/alliance-ui.js",
+  "runtimeAsset": "game/assets/alliance-v2/headquarters.png",
+  "runtimeQA": "game/tests/alliance-ui-browser.cjs"
+}

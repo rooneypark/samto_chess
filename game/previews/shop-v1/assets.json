@@ -1,0 +1,20 @@
+{
+  "nav-shop-selected": {
+    "source": "assets/ui-common/nav-shop-selected.png",
+    "width": 178,
+    "height": 144,
+    "method": "exact shared selected tab; built by build-navigation.cjs"
+  },
+  "coin": {
+    "source": "assets/ui-common/gate-gold.png",
+    "width": 64,
+    "height": 55,
+    "method": "original currency icon colors and adjacent one-pixel outline"
+  },
+  "gem": {
+    "source": "assets/ui-common/gate-diamonds.png",
+    "width": 64,
+    "height": 54,
+    "method": "original currency icon colors and adjacent one-pixel outline"
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "pressed": [
+    {
+      "tab": "ready",
+      "label": "뒤로",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "tab": "ready",
+      "label": "골드",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "tab": "ready",
+      "label": "다이아",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "tab": "ready",
+      "label": "황건 잔당 소탕\n필요 전투력 250",
+      "outside": 0,
+      "frame": 4279,
+      "missed": 0
+    },
+    {
+      "tab": "ready",
+      "label": "사수관 순찰\n잠금 · 전역 클리어 필요",
+      "outside": 0,
+      "frame": 4290,
+      "missed": 0
+    },
+    {
+      "tab": "ready",
+      "label": "호뢰관 정찰\n잠금 · 전역 클리어 필요",
+      "outside": 0,
+      "frame": 4290,
+      "missed": 0
+    },
+    {
+      "tab": "ready",
+      "label": "다음",
+      "outside": 0,
+      "frame": 2086,
+      "missed": 0
+    },
+    {
+      "tab": "ready",
+      "label": "편성 변경",
+      "outside": 0,
+      "frame": 2778,
+      "missed": 0
+    },
+    {
+      "tab": "ready",
+      "label": "보상 받기",
+      "outside": 0,
+      "frame": 2731,
+      "missed": 0
+    },
+    {
+      "tab": "ready",
+      "label": "파견 시작 · 군량 20",
+      "outside": 0,
+      "frame": 5854,
+      "missed": 0
+    },
+    {
+      "tab": "ready",
+      "label": "성문으로",
+      "outside": 0,
+      "frame": 3336,
+      "missed": 0
+    },
+    {
+      "tab": "ready",
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "ready",
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "tab": "ready",
+      "label": "성문",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    },
+    {
+      "tab": "ready",
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "ready",
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "뒤로",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "골드",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "다이아",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "황건 잔당 소탕\n필요 전투력 250",
+      "outside": 0,
+      "frame": 4290,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "사수관 순찰\n잠금 · 전역 클리어 필요",
+      "outside": 0,
+      "frame": 4279,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "호뢰관 정찰\n잠금 · 전역 클리어 필요",
+      "outside": 0,
+      "frame": 4290,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "다음",
+      "outside": 0,
+      "frame": 2086,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "편성 변경",
+      "outside": 0,
+      "frame": 2778,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "보상 받기",
+      "outside": 0,
+      "frame": 2731,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "성문으로",
+      "outside": 0,
+      "frame": 3336,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "성문",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    }
+  ],
+  "frames": [
+    {
+      "tone": "blue",
+      "w": 901,
+      "h": 136
+    },
+    {
+      "tone": "blue",
+      "w": 289,
+      "h": 182
+    },
+    {
+      "tone": "blue",
+      "w": 170,
+      "h": 64
+    },
+    {
+      "tone": "blue",
+      "w": 901,
+      "h": 320
+    },
+    {
+      "tone": "blue",
+      "w": 239,
+      "h": 64
+    },
+    {
+      "tone": "blue",
+      "w": 901,
+      "h": 128
+    },
+    {
+      "tone": "blue",
+      "w": 901,
+      "h": 200
+    },
+    {
+      "tone": "blue",
+      "w": 239,
+      "h": 60
+    },
+    {
+      "tone": "blue",
+      "w": 582,
+      "h": 64
+    },
+    {
+      "tone": "blue",
+      "w": 301,
+      "h": 64
+    },
+    {
+      "tone": "green",
+      "w": 901,
+      "h": 136
+    },
+    {
+      "tone": "green",
+      "w": 289,
+      "h": 182
+    },
+    {
+      "tone": "green",
+      "w": 170,
+      "h": 64
+    },
+    {
+      "tone": "green",
+      "w": 901,
+      "h": 320
+    },
+    {
+      "tone": "green",
+      "w": 239,
+      "h": 64
+    },
+    {
+      "tone": "green",
+      "w": 901,
+      "h": 128
+    },
+    {
+      "tone": "green",
+      "w": 901,
+      "h": 200
+    },
+    {
+      "tone": "green",
+      "w": 239,
+      "h": 60
+    },
+    {
+      "tone": "green",
+      "w": 582,
+      "h": 64
+    },
+    {
+      "tone": "green",
+      "w": 301,
+      "h": 64
+    }
+  ],
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "states": [],
+  "identicalShellPixels": 224470
+}

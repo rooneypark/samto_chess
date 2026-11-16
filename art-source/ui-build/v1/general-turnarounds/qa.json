@@ -1,0 +1,144 @@
+{
+  "status": "silhouette-and-alpha-preview-checked",
+  "runtimeApplied": false,
+  "sheets": [
+    {
+      "name": "관우",
+      "file": "guan-yu-turnaround.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alphaThreshold": 8,
+      "bounds": [
+        90,
+        70,
+        1400,
+        827
+      ],
+      "margins": [
+        90,
+        70,
+        46,
+        127
+      ],
+      "edgePixels": 0,
+      "fullyTransparentPixels": 894732
+    },
+    {
+      "name": "허저",
+      "file": "xu-chu-turnaround.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alphaThreshold": 8,
+      "bounds": [
+        44,
+        190,
+        1419,
+        639
+      ],
+      "margins": [
+        44,
+        190,
+        73,
+        195
+      ],
+      "edgePixels": 0,
+      "fullyTransparentPixels": 985753
+    },
+    {
+      "name": "조조",
+      "file": "cao-cao-turnaround.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alphaThreshold": 8,
+      "bounds": [
+        58,
+        135,
+        1415,
+        755
+      ],
+      "margins": [
+        58,
+        135,
+        63,
+        134
+      ],
+      "edgePixels": 0,
+      "fullyTransparentPixels": 910019
+    },
+    {
+      "name": "제갈량",
+      "file": "zhuge-liang-turnaround.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alphaThreshold": 8,
+      "bounds": [
+        108,
+        127,
+        1339,
+        777
+      ],
+      "margins": [
+        108,
+        127,
+        89,
+        120
+      ],
+      "edgePixels": 0,
+      "fullyTransparentPixels": 929969
+    },
+    {
+      "name": "초선",
+      "file": "diao-chan-turnaround.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alphaThreshold": 8,
+      "bounds": [
+        108,
+        125,
+        1335,
+        720
+      ],
+      "margins": [
+        108,
+        125,
+        93,
+        179
+      ],
+      "edgePixels": 0,
+      "fullyTransparentPixels": 1004140
+    },
+    {
+      "name": "여포",
+      "file": "lu-bu-turnaround.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alphaThreshold": 8,
+      "bounds": [
+        63,
+        96,
+        1401,
+        752
+      ],
+      "margins": [
+        63,
+        96,
+        72,
+        176
+      ],
+      "edgePixels": 0,
+      "fullyTransparentPixels": 944594
+    }
+  ]
+}

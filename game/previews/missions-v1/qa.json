@@ -1,0 +1,424 @@
+{
+  "pressed": [
+    {
+      "tab": "day",
+      "label": "뒤로",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "tab": "day",
+      "label": "골드",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "tab": "day",
+      "label": "다이아",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "tab": "day",
+      "label": "출석 받기",
+      "outside": 0,
+      "frame": 2875,
+      "missed": 0
+    },
+    {
+      "tab": "day",
+      "label": "일일 임무",
+      "outside": 0,
+      "frame": 3307,
+      "missed": 0
+    },
+    {
+      "tab": "day",
+      "label": "주간 임무",
+      "outside": 0,
+      "frame": 3318,
+      "missed": 0
+    },
+    {
+      "tab": "day",
+      "label": "업적",
+      "outside": 0,
+      "frame": 3318,
+      "missed": 0
+    },
+    {
+      "tab": "day",
+      "label": "보상 받기",
+      "outside": 0,
+      "frame": 2857,
+      "missed": 0
+    },
+    {
+      "tab": "day",
+      "label": "성문으로",
+      "outside": 0,
+      "frame": 8725,
+      "missed": 0
+    },
+    {
+      "tab": "day",
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "day",
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "tab": "day",
+      "label": "성문",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    },
+    {
+      "tab": "day",
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "day",
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "week",
+      "label": "뒤로",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "tab": "week",
+      "label": "골드",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "tab": "week",
+      "label": "다이아",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "tab": "week",
+      "label": "출석 받기",
+      "outside": 0,
+      "frame": 2875,
+      "missed": 0
+    },
+    {
+      "tab": "week",
+      "label": "일일 임무",
+      "outside": 0,
+      "frame": 3318,
+      "missed": 0
+    },
+    {
+      "tab": "week",
+      "label": "주간 임무",
+      "outside": 0,
+      "frame": 3307,
+      "missed": 0
+    },
+    {
+      "tab": "week",
+      "label": "업적",
+      "outside": 0,
+      "frame": 3318,
+      "missed": 0
+    },
+    {
+      "tab": "week",
+      "label": "보상 받기",
+      "outside": 0,
+      "frame": 2857,
+      "missed": 0
+    },
+    {
+      "tab": "week",
+      "label": "보상 받기",
+      "outside": 0,
+      "frame": 2857,
+      "missed": 0
+    },
+    {
+      "tab": "week",
+      "label": "성문으로",
+      "outside": 0,
+      "frame": 8725,
+      "missed": 0
+    },
+    {
+      "tab": "week",
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "week",
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "tab": "week",
+      "label": "성문",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    },
+    {
+      "tab": "week",
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "week",
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "achievement",
+      "label": "뒤로",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "tab": "achievement",
+      "label": "골드",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "tab": "achievement",
+      "label": "다이아",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "tab": "achievement",
+      "label": "출석 받기",
+      "outside": 0,
+      "frame": 2875,
+      "missed": 0
+    },
+    {
+      "tab": "achievement",
+      "label": "일일 임무",
+      "outside": 0,
+      "frame": 3318,
+      "missed": 0
+    },
+    {
+      "tab": "achievement",
+      "label": "주간 임무",
+      "outside": 0,
+      "frame": 3318,
+      "missed": 0
+    },
+    {
+      "tab": "achievement",
+      "label": "업적",
+      "outside": 0,
+      "frame": 3307,
+      "missed": 0
+    },
+    {
+      "tab": "achievement",
+      "label": "보상 받기",
+      "outside": 0,
+      "frame": 2857,
+      "missed": 0
+    },
+    {
+      "tab": "achievement",
+      "label": "성문으로",
+      "outside": 0,
+      "frame": 8725,
+      "missed": 0
+    },
+    {
+      "tab": "achievement",
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "achievement",
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "tab": "achievement",
+      "label": "성문",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    },
+    {
+      "tab": "achievement",
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "achievement",
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    }
+  ],
+  "frames": [
+    {
+      "tone": "blue",
+      "width": 901,
+      "height": 254,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 120,
+      "height": 110,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 289,
+      "height": 74,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 901,
+      "height": 116,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 901,
+      "height": 90,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 901,
+      "height": 146,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 239,
+      "height": 74,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 901,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 901,
+      "height": 254,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 120,
+      "height": 110,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 289,
+      "height": 74,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 901,
+      "height": 116,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 901,
+      "height": 90,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 901,
+      "height": 146,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 239,
+      "height": 74,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 901,
+      "height": 64,
+      "identicalCorners": true
+    }
+  ],
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "states": [
+    "day",
+    "week",
+    "achievement"
+  ],
+  "identicalShellPixels": 224470,
+  "memoryOnlyClaims": true
+}

@@ -1,0 +1,171 @@
+{
+  "pressed": [
+    {
+      "label": "전역 선택으로 돌아가기",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "label": "골드 예시 12,450",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "label": "다이아 예시 320",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "label": "전투 기록",
+      "outside": 0,
+      "frame": 8862,
+      "missed": 0
+    },
+    {
+      "label": "전역으로",
+      "outside": 0,
+      "frame": 6340,
+      "missed": 0
+    },
+    {
+      "label": "성문으로",
+      "outside": 0,
+      "frame": 3822,
+      "missed": 0
+    },
+    {
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "label": "성문",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    },
+    {
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    }
+  ],
+  "frames": [
+    {
+      "tone": "blue",
+      "width": 281,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 901,
+      "height": 518,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 901,
+      "height": 254,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 240,
+      "height": 140,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 901,
+      "height": 130,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 901,
+      "height": 78,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 582,
+      "height": 118,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 281,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 901,
+      "height": 518,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 901,
+      "height": 254,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 240,
+      "height": 140,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 901,
+      "height": 130,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 901,
+      "height": 78,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 582,
+      "height": 118,
+      "identicalCorners": true
+    }
+  ],
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "identicalShellPixels": 224470
+}

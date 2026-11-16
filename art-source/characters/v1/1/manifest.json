@@ -1,0 +1,192 @@
+{
+  "id": "1",
+  "name": "관우",
+  "faction": "촉",
+  "order": 1,
+  "identity": "Guan Yu: majestic mature red-brown face, very long straight black beard, green folded headcloth, green robe over muted gold/steel armor, broad composed eyes. Mounted on existing chestnut horse, hold complete Green Dragon crescent glaive. Preserve iconic green silhouette, no helmet or giant gold horse mask.",
+  "folder": "1",
+  "identityDesign": "Guan Yu: majestic mature red-brown face, very long straight black beard, green folded headcloth, green robe over muted gold/steel armor, broad composed eyes. Mounted on existing chestnut horse, hold complete Green Dragon crescent glaive. Preserve iconic green silhouette, no helmet or giant gold horse mask.",
+  "artRevision": "pixel256-v1",
+  "canvas": [
+    256,
+    256
+  ],
+  "foot": [
+    128,
+    224
+  ],
+  "schemaVersion": 2,
+  "status": "ready-for-review",
+  "runtimeApplied": false,
+  "motionComplete": false,
+  "sideFacing": "left",
+  "right": "mirror-side",
+  "directions": {
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "1",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "sourceCanvas": [
+          1254,
+          1254
+        ],
+        "bodyTopVirtual256": 57,
+        "bodyHeightTarget": 160,
+        "sourceFootVirtual256": 235,
+        "sourceToFinalScale": 0.18350267906743364,
+        "wholeImageOffset": [
+          13,
+          13
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          77,
+          35,
+          171,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
+        "weaponContainFit": false,
+        "runtimeApplied": false,
+        "sha256": "8d60ff9dd57f05d69af2e11675418922f3c062535ee7e8c29c3e524025f2328f"
+      }
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "1",
+        "direction": "back",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 61,
+        "bodyHeightTarget": 160,
+        "sourceFootVirtual256": 220,
+        "sourceToFinalScale": 0.20543067216354208,
+        "wholeImageOffset": [
+          -1,
+          3
+        ],
+        "groundRoundingCorrection": -1,
+        "visibleBounds": [
+          84,
+          37,
+          176,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "2d43e7d4e592302a88fed0af8ce4637469d9f2b45d64dd5248c3446b51ef704f"
+      }
+    },
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "1",
+        "direction": "side",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 61,
+        "bodyHeightTarget": 160,
+        "sourceFootVirtual256": 220,
+        "sourceToFinalScale": 0.20543067216354208,
+        "wholeImageOffset": [
+          -1,
+          3
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          65,
+          38,
+          183,
+          226
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "58211f1ece39a765ecc22d90f20c490355721984e473f8c8b25f890c6e390299"
+      }
+    }
+  },
+  "files": {
+    "front": {
+      "path": "front.png",
+      "sha256": "8d60ff9dd57f05d69af2e11675418922f3c062535ee7e8c29c3e524025f2328f"
+    },
+    "back": {
+      "path": "back.png",
+      "sha256": "2d43e7d4e592302a88fed0af8ce4637469d9f2b45d64dd5248c3446b51ef704f"
+    },
+    "side": {
+      "path": "side.png",
+      "sha256": "58211f1ece39a765ecc22d90f20c490355721984e473f8c8b25f890c6e390299"
+    }
+  },
+  "sourceProvider": "built-in image_gen",
+  "provenanceFile": "generation.json",
+  "bodyMetrics": {
+    "shoulderWidth": null,
+    "anatomicalHeight": null,
+    "riderJoints": null
+  },
+  "approval": {
+    "frontApproved": false,
+    "fullSetApproved": false
+  }
+}

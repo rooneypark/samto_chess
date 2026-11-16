@@ -1,0 +1,192 @@
+{
+  "id": "tactician",
+  "name": "군영참모",
+  "faction": "군웅",
+  "order": 14,
+  "identity": "Camp adviser: ordinary middle-aged scholar, SMALL plain charcoal square cloth cap, pale gray-lilac robe with brown narrow belt, modest short moustache. Hold bundled bamboo slips visibly with both hands. Slender ordinary body, no tall ornate court crown or feathers; subordinate support unit.",
+  "folder": "tactician",
+  "identityDesign": "Camp adviser: ordinary middle-aged scholar, SMALL plain charcoal square cloth cap, pale gray-lilac robe with brown narrow belt, modest short moustache. Hold bundled bamboo slips visibly with both hands. Slender ordinary body, no tall ornate court crown or feathers; subordinate support unit.",
+  "artRevision": "pixel256-v1",
+  "canvas": [
+    256,
+    256
+  ],
+  "foot": [
+    128,
+    224
+  ],
+  "schemaVersion": 2,
+  "status": "ready-for-review",
+  "runtimeApplied": false,
+  "motionComplete": false,
+  "sideFacing": "left",
+  "right": "mirror-side",
+  "directions": {
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "tactician",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "sourceCanvas": [
+          1254,
+          1254
+        ],
+        "bodyTopVirtual256": 87,
+        "bodyHeightTarget": 118,
+        "sourceFootVirtual256": 227,
+        "sourceToFinalScale": 0.1720665299612668,
+        "wholeImageOffset": [
+          20,
+          33
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          100,
+          107,
+          156,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
+        "weaponContainFit": false,
+        "runtimeApplied": false,
+        "sha256": "8647a0cd47ba81abfc7b0a098119db63c21226c0ec822099bf7d27a615867746"
+      }
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "tactician",
+        "direction": "back",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 90,
+        "bodyHeightTarget": 118,
+        "sourceFootVirtual256": 209,
+        "sourceToFinalScale": 0.20243121171913742,
+        "wholeImageOffset": [
+          1,
+          17
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          103,
+          108,
+          158,
+          226
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "c4adb5c1e4ada30a4ad4d6d429054883bff081d607f7e6824ab6f4008f7a8db9"
+      }
+    },
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "tactician",
+        "direction": "side",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 99,
+        "bodyHeightTarget": 118,
+        "sourceFootVirtual256": 216,
+        "sourceToFinalScale": 0.20589157431262695,
+        "wholeImageOffset": [
+          -1,
+          6
+        ],
+        "groundRoundingCorrection": 1,
+        "visibleBounds": [
+          106,
+          108,
+          152,
+          226
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "6eaaebea45df781bac77a3f7efcd3f75c66e7d5b2ce1c88a880afc4ec7149618"
+      }
+    }
+  },
+  "files": {
+    "front": {
+      "path": "front.png",
+      "sha256": "8647a0cd47ba81abfc7b0a098119db63c21226c0ec822099bf7d27a615867746"
+    },
+    "back": {
+      "path": "back.png",
+      "sha256": "c4adb5c1e4ada30a4ad4d6d429054883bff081d607f7e6824ab6f4008f7a8db9"
+    },
+    "side": {
+      "path": "side.png",
+      "sha256": "6eaaebea45df781bac77a3f7efcd3f75c66e7d5b2ce1c88a880afc4ec7149618"
+    }
+  },
+  "sourceProvider": "built-in image_gen",
+  "provenanceFile": "generation.json",
+  "bodyMetrics": {
+    "shoulderWidth": null,
+    "anatomicalHeight": null,
+    "riderJoints": null
+  },
+  "approval": {
+    "frontApproved": false,
+    "fullSetApproved": false
+  }
+}

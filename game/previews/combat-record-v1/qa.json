@@ -1,0 +1,266 @@
+{
+  "pressed": [
+    {
+      "label": "결과 화면 시안으로 돌아가기",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "label": "골드 예시 12,450",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "label": "다이아 예시 320",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "label": "아군\n6명",
+      "outside": 0,
+      "frame": 4675,
+      "missed": 0
+    },
+    {
+      "label": "적군\n6명",
+      "outside": 0,
+      "frame": 4695,
+      "missed": 0
+    },
+    {
+      "label": "피해량",
+      "outside": 0,
+      "frame": 3217,
+      "missed": 0
+    },
+    {
+      "label": "치유량",
+      "outside": 0,
+      "frame": 3228,
+      "missed": 0
+    },
+    {
+      "label": "전법 횟수",
+      "outside": 0,
+      "frame": 3228,
+      "missed": 0
+    },
+    {
+      "label": "여포 · 피해량 2,171",
+      "outside": 0,
+      "frame": 8671,
+      "missed": 0
+    },
+    {
+      "label": "제갈량 · 피해량 1,566",
+      "outside": 0,
+      "frame": 8682,
+      "missed": 0
+    },
+    {
+      "label": "조조 · 피해량 1,140",
+      "outside": 0,
+      "frame": 8682,
+      "missed": 0
+    },
+    {
+      "label": "관우 · 피해량 1,121",
+      "outside": 0,
+      "frame": 8682,
+      "missed": 0
+    },
+    {
+      "label": "초선 · 피해량 659",
+      "outside": 0,
+      "frame": 8682,
+      "missed": 0
+    },
+    {
+      "label": "허저 · 피해량 466",
+      "outside": 0,
+      "frame": 8682,
+      "missed": 0
+    },
+    {
+      "label": "결과로 돌아가기",
+      "outside": 0,
+      "frame": 6034,
+      "missed": 0
+    },
+    {
+      "label": "성문으로",
+      "outside": 0,
+      "frame": 3516,
+      "missed": 0
+    },
+    {
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "label": "성문",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    },
+    {
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    }
+  ],
+  "frames": [
+    {
+      "tone": "blue",
+      "width": 901,
+      "height": 142,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 441,
+      "height": 74,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 289,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 901,
+      "height": 704,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 861,
+      "height": 98,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 901,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 582,
+      "height": 84,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 901,
+      "height": 142,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 441,
+      "height": 74,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 289,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 901,
+      "height": 704,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 861,
+      "height": 98,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 901,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 582,
+      "height": 84,
+      "identicalCorners": true
+    }
+  ],
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "states": [
+    {
+      "metric": "healing",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "metric": "casts",
+      "values": [
+        "1회",
+        "1회",
+        "1회",
+        "1회",
+        "0회",
+        "0회"
+      ]
+    },
+    {
+      "metric": "damage",
+      "values": [
+        "2,171",
+        "1,566",
+        "1,140",
+        "1,121",
+        "659",
+        "466"
+      ]
+    }
+  ],
+  "identicalShellPixels": 224470
+}

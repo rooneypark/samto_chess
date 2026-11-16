@@ -1,0 +1,568 @@
+{
+  "pressed": [
+    {
+      "tab": "available",
+      "label": "뒤로",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "골드",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "다이아",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "1~10층",
+      "outside": 0,
+      "frame": 3217,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "11~20층",
+      "outside": 0,
+      "frame": 3228,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "21~30층",
+      "outside": 0,
+      "frame": 3228,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "1층 · 클리어",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "2층 · 클리어",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "3층 · 클리어",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "4층 · 도전 가능",
+      "outside": 0,
+      "frame": 4441,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "5층 · 잠금",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "6층 · 잠금",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "7층 · 잠금",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "8층 · 잠금",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "9층 · 잠금",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "10층 · 잠금",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "4층 도전 시작",
+      "outside": 0,
+      "frame": 5854,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "성문으로",
+      "outside": 0,
+      "frame": 3336,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "성문",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "cleared",
+      "label": "뒤로",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "tab": "cleared",
+      "label": "골드",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "tab": "cleared",
+      "label": "다이아",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "tab": "cleared",
+      "label": "1~10층",
+      "outside": 0,
+      "frame": 3217,
+      "missed": 0
+    },
+    {
+      "tab": "cleared",
+      "label": "11~20층",
+      "outside": 0,
+      "frame": 3228,
+      "missed": 0
+    },
+    {
+      "tab": "cleared",
+      "label": "21~30층",
+      "outside": 0,
+      "frame": 3228,
+      "missed": 0
+    },
+    {
+      "tab": "cleared",
+      "label": "1층 · 클리어",
+      "outside": 0,
+      "frame": 4441,
+      "missed": 0
+    },
+    {
+      "tab": "cleared",
+      "label": "2층 · 클리어",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "cleared",
+      "label": "3층 · 클리어",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "cleared",
+      "label": "4층 · 도전 가능",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "cleared",
+      "label": "5층 · 잠금",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "cleared",
+      "label": "6층 · 잠금",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "cleared",
+      "label": "7층 · 잠금",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "cleared",
+      "label": "8층 · 잠금",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "cleared",
+      "label": "9층 · 잠금",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "cleared",
+      "label": "10층 · 잠금",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "cleared",
+      "label": "1층 재도전",
+      "outside": 0,
+      "frame": 5854,
+      "missed": 0
+    },
+    {
+      "tab": "cleared",
+      "label": "성문으로",
+      "outside": 0,
+      "frame": 3336,
+      "missed": 0
+    },
+    {
+      "tab": "cleared",
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "cleared",
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "tab": "cleared",
+      "label": "성문",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    },
+    {
+      "tab": "cleared",
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "cleared",
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "뒤로",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "골드",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "다이아",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "1~10층",
+      "outside": 0,
+      "frame": 3228,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "11~20층",
+      "outside": 0,
+      "frame": 3228,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "21~30층",
+      "outside": 0,
+      "frame": 3217,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "21층 · 잠금",
+      "outside": 0,
+      "frame": 4441,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "22층 · 잠금",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "23층 · 잠금",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "24층 · 잠금",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "25층 · 잠금",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "26층 · 잠금",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "27층 · 잠금",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "28층 · 잠금",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "29층 · 잠금",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "30층 · 잠금",
+      "outside": 0,
+      "frame": 4452,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "성문으로",
+      "outside": 0,
+      "frame": 3336,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "성문",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "locked",
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    }
+  ],
+  "frames": [
+    {
+      "tone": "blue",
+      "w": 901,
+      "h": 110
+    },
+    {
+      "tone": "blue",
+      "w": 289,
+      "h": 64
+    },
+    {
+      "tone": "blue",
+      "w": 901,
+      "h": 560
+    },
+    {
+      "tone": "blue",
+      "w": 401,
+      "h": 88
+    },
+    {
+      "tone": "blue",
+      "w": 901,
+      "h": 336
+    },
+    {
+      "tone": "blue",
+      "w": 582,
+      "h": 64
+    },
+    {
+      "tone": "blue",
+      "w": 301,
+      "h": 64
+    },
+    {
+      "tone": "green",
+      "w": 901,
+      "h": 110
+    },
+    {
+      "tone": "green",
+      "w": 289,
+      "h": 64
+    },
+    {
+      "tone": "green",
+      "w": 901,
+      "h": 560
+    },
+    {
+      "tone": "green",
+      "w": 401,
+      "h": 88
+    },
+    {
+      "tone": "green",
+      "w": 901,
+      "h": 336
+    },
+    {
+      "tone": "green",
+      "w": 582,
+      "h": 64
+    },
+    {
+      "tone": "green",
+      "w": 301,
+      "h": 64
+    }
+  ],
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "states": [],
+  "identicalShellPixels": 224470
+}

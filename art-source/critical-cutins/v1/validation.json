@@ -1,0 +1,892 @@
+{
+  "count": 49,
+  "checks": [
+    "roster coverage",
+    "RGBA transparency",
+    "no visible edge clipping at alpha>16"
+  ],
+  "entries": [
+    {
+      "id": "1",
+      "name": "관우",
+      "faction": "촉",
+      "file": "assets/1.webp",
+      "source": "art-source\\critical-cutins\\v1\\1\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        26,
+        44,
+        1659,
+        895
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 881950,
+      "sha256": "61b619ab6e5492814bf31745947ad6aa46c9166aef947a518dc7136b25e7548f"
+    },
+    {
+      "id": "2",
+      "name": "장비",
+      "faction": "촉",
+      "file": "assets/2.webp",
+      "source": "art-source\\critical-cutins\\v1\\2\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        48,
+        53,
+        1572,
+        884
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 887991,
+      "sha256": "3de61a1cc7a594a8a3437512f1a3ca1355aa622d02fe430a4df239af28b9e8b9"
+    },
+    {
+      "id": "15",
+      "name": "조운",
+      "faction": "촉",
+      "file": "assets/15.webp",
+      "source": "art-source\\critical-cutins\\v1\\15\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        69,
+        46,
+        1650,
+        876
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 900057,
+      "sha256": "b38438657163a836c7158560a9466d349ca35a71585e18ef657afda9ae7f3321"
+    },
+    {
+      "id": "16",
+      "name": "황충",
+      "faction": "촉",
+      "file": "assets/16.webp",
+      "source": "art-source\\critical-cutins\\v1\\16\\critical.png",
+      "width": 1672,
+      "height": 941,
+      "alphaBounds": [
+        135,
+        26,
+        1562,
+        924
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 837620,
+      "sha256": "44c7687c180ba2ef257539653cc874d5de29c05c1749db9119aed22cd6f07cbb"
+    },
+    {
+      "id": "35",
+      "name": "제갈량",
+      "faction": "촉",
+      "file": "assets/35.webp",
+      "source": "art-source\\critical-cutins\\v1\\35\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        99,
+        45,
+        1658,
+        886
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 869086,
+      "sha256": "0379a704f8f5034331bc0f342456c88a9a7d854eb45ce1ebad0fec777561c290"
+    },
+    {
+      "id": "0",
+      "name": "유비",
+      "faction": "촉",
+      "file": "assets/0.webp",
+      "source": "art-source\\critical-cutins\\v1\\0\\critical-v3.png",
+      "width": 1536,
+      "height": 1024,
+      "alphaBounds": [
+        126,
+        35,
+        1377,
+        1011
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 867637,
+      "sha256": "a3cbe303acc5151271c939a70332dfab7199fb507cf11615faf3d96274466920"
+    },
+    {
+      "id": "32",
+      "name": "조조",
+      "faction": "위",
+      "file": "assets/32.webp",
+      "source": "art-source\\critical-cutins\\v1\\32\\critical-v2.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        151,
+        19,
+        1565,
+        895
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 871248,
+      "sha256": "44d6c1023268da813babe180c46669577018d7dee619c2088fb43b5937c81227"
+    },
+    {
+      "id": "33",
+      "name": "하후돈",
+      "faction": "위",
+      "file": "assets/33.webp",
+      "source": "art-source\\critical-cutins\\v1\\33\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        82,
+        49,
+        1572,
+        881
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 859763,
+      "sha256": "c81d16489c2bb98e3e8cf8928152aebfd34153c228c060f8a51535f6cc20f359"
+    },
+    {
+      "id": "34",
+      "name": "장료",
+      "faction": "위",
+      "file": "assets/34.webp",
+      "source": "art-source\\critical-cutins\\v1\\34\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        86,
+        54,
+        1568,
+        884
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 905800,
+      "sha256": "585eafe7895141de1777197de281a3d9e63bce253a5ab7926006ee7a019bf559"
+    },
+    {
+      "id": "77",
+      "name": "주유",
+      "faction": "오",
+      "file": "assets/77.webp",
+      "source": "art-source\\critical-cutins\\v1\\77\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        45,
+        53,
+        1671,
+        890
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 944035,
+      "sha256": "e93e485217fa0d37feb2737c89efb25fef2b4c61fe0cd22ebf5dc25b1f4fc525"
+    },
+    {
+      "id": "119",
+      "name": "여포",
+      "faction": "군웅",
+      "file": "assets/119.webp",
+      "source": "art-source\\critical-cutins\\v1\\119\\critical-v2.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        57,
+        29,
+        1587,
+        893
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 832184,
+      "sha256": "67f13abce2908aa6c674b38586fd7447fffd39ad0d4dc280b2a6090b89a5e40d"
+    },
+    {
+      "id": "infantry",
+      "name": "의용보병",
+      "faction": "군웅",
+      "file": "assets/infantry.webp",
+      "source": "art-source\\critical-cutins\\v1\\infantry\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        89,
+        58,
+        1509,
+        892
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 919468,
+      "sha256": "26ed7cf3540ed243d31f622a268495d231602d17be4c9512f1ef7e6ad4588ecd"
+    },
+    {
+      "id": "archer",
+      "name": "의용궁병",
+      "faction": "군웅",
+      "file": "assets/archer.webp",
+      "source": "art-source\\critical-cutins\\v1\\archer\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        149,
+        15,
+        1626,
+        903
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 826171,
+      "sha256": "c511fb7b45638d5c445c29ee476f0ffdfd6bd12b7fa12c4846073ca48d51f45b"
+    },
+    {
+      "id": "tactician",
+      "name": "군영참모",
+      "faction": "군웅",
+      "file": "assets/tactician.webp",
+      "source": "art-source\\critical-cutins\\v1\\tactician\\critical.png",
+      "width": 1716,
+      "height": 917,
+      "alphaBounds": [
+        272,
+        36,
+        1441,
+        899
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 1012254,
+      "sha256": "576a1f45f5de28232781433fd77d7568edba8cbba3ea2bc5c7df968f267f3756"
+    },
+    {
+      "id": "simayi",
+      "name": "사마의",
+      "faction": "위",
+      "file": "assets/simayi.webp",
+      "source": "art-source\\critical-cutins\\v1\\simayi\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        143,
+        36,
+        1630,
+        889
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 906597,
+      "sha256": "33969e244212fbf2d10fb42000722f6af75041b95b113d04866d36b4fd629854"
+    },
+    {
+      "id": "dianwei",
+      "name": "전위",
+      "faction": "위",
+      "file": "assets/dianwei.webp",
+      "source": "art-source\\critical-cutins\\v1\\dianwei\\critical.png",
+      "width": 1536,
+      "height": 1024,
+      "alphaBounds": [
+        70,
+        16,
+        1482,
+        1007
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 818797,
+      "sha256": "928897b5ca33d1805b7fd0ca0bad7c9ad4449ac7336cbaf4f72fc9a31153ac00"
+    },
+    {
+      "id": "guojia",
+      "name": "곽가",
+      "faction": "위",
+      "file": "assets/guojia.webp",
+      "source": "art-source\\critical-cutins\\v1\\guojia\\critical.png",
+      "width": 1582,
+      "height": 994,
+      "alphaBounds": [
+        233,
+        54,
+        1305,
+        964
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 992294,
+      "sha256": "c3440e55966aa5439cfa95251d210840c53ca5f229e074ef1e5672e929256fcf"
+    },
+    {
+      "id": "xuchu",
+      "name": "허저",
+      "faction": "위",
+      "file": "assets/xuchu.webp",
+      "source": "art-source\\critical-cutins\\v1\\xuchu\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        69,
+        31,
+        1535,
+        896
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 828301,
+      "sha256": "96b4717530e28fb21fb201947804f4985fb6d76ea8688c250eba906159d3bffe"
+    },
+    {
+      "id": "xiahouyuan",
+      "name": "하후연",
+      "faction": "위",
+      "file": "assets/xiahouyuan.webp",
+      "source": "art-source\\critical-cutins\\v1\\xiahouyuan\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        86,
+        26,
+        1637,
+        911
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 785381,
+      "sha256": "2bd6019ef61d5fa311b9c3e400895d848b1914de1f5ed62d09a88886c0c70e54"
+    },
+    {
+      "id": "xuhuang",
+      "name": "서황",
+      "faction": "위",
+      "file": "assets/xuhuang.webp",
+      "source": "art-source\\critical-cutins\\v1\\xuhuang\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        59,
+        28,
+        1572,
+        901
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 834121,
+      "sha256": "9370aed88ad5dcb3ff4136f98cbc93cb064c1645c77ffe15f6f9b5d26007e339"
+    },
+    {
+      "id": "xunyu",
+      "name": "순욱",
+      "faction": "위",
+      "file": "assets/xunyu.webp",
+      "source": "art-source\\critical-cutins\\v1\\xunyu\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        235,
+        50,
+        1471,
+        900
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 999606,
+      "sha256": "9984f02e3db7ce860b621dfdc9c3e373dc8ac1b00223e4a19cac4c2ba9d1fcba"
+    },
+    {
+      "id": "yuejin",
+      "name": "악진",
+      "faction": "위",
+      "file": "assets/yuejin.webp",
+      "source": "art-source\\critical-cutins\\v1\\yuejin\\critical.png",
+      "width": 1570,
+      "height": 1001,
+      "alphaBounds": [
+        174,
+        37,
+        1431,
+        960
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 856698,
+      "sha256": "660cd608c10e12119aef988279938cc33939c4b132f0f8f3d288200b12769fe7"
+    },
+    {
+      "id": "caohong",
+      "name": "조홍",
+      "faction": "위",
+      "file": "assets/caohong.webp",
+      "source": "art-source\\critical-cutins\\v1\\caohong\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        100,
+        62,
+        1635,
+        889
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 748305,
+      "sha256": "b670b0f68196dfd5b6da3e45ca2948364412169f4a5258021b42b889d3a225b3"
+    },
+    {
+      "id": "machao",
+      "name": "마초",
+      "faction": "촉",
+      "file": "assets/machao.webp",
+      "source": "art-source\\critical-cutins\\v1\\machao\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        42,
+        16,
+        1673,
+        883
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 869846,
+      "sha256": "2457f5b0596d88ef159ff1a90edc7e7d296d13d4d769f39bb730c07a74209c02"
+    },
+    {
+      "id": "pangtong",
+      "name": "방통",
+      "faction": "촉",
+      "file": "assets/pangtong.webp",
+      "source": "art-source\\critical-cutins\\v1\\pangtong\\critical.png",
+      "width": 1716,
+      "height": 917,
+      "alphaBounds": [
+        137,
+        28,
+        1595,
+        892
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 868343,
+      "sha256": "b8a3dcb8c91317378317d8f008c036b98179d5fb52c1732506b1b71c660f8e30"
+    },
+    {
+      "id": "jiangwei",
+      "name": "강유",
+      "faction": "촉",
+      "file": "assets/jiangwei.webp",
+      "source": "art-source\\critical-cutins\\v1\\jiangwei\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        61,
+        26,
+        1512,
+        903
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 880366,
+      "sha256": "84bb6e5888ff3096aaf928cc0f87c0e7ae884edee7fa0548640dfc09c3031ed9"
+    },
+    {
+      "id": "weiyan",
+      "name": "위연",
+      "faction": "촉",
+      "file": "assets/weiyan.webp",
+      "source": "art-source\\critical-cutins\\v1\\weiyan\\critical.png",
+      "width": 1716,
+      "height": 916,
+      "alphaBounds": [
+        67,
+        29,
+        1554,
+        895
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 862046,
+      "sha256": "c41c90441e2f18d8af09dd682d23bd3b16cda501ead38fc0d7faeb5826a4cbc9"
+    },
+    {
+      "id": "liaohua",
+      "name": "요화",
+      "faction": "촉",
+      "file": "assets/liaohua.webp",
+      "source": "art-source\\critical-cutins\\v1\\liaohua\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        237,
+        22,
+        1444,
+        893
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 949755,
+      "sha256": "05d639fa5d156071d2f093ffa46936bc65cd48913cba666b1dee3997a560234a"
+    },
+    {
+      "id": "zhoucang",
+      "name": "주창",
+      "faction": "촉",
+      "file": "assets/zhoucang.webp",
+      "source": "art-source\\critical-cutins\\v1\\zhoucang\\critical.png",
+      "width": 1536,
+      "height": 1024,
+      "alphaBounds": [
+        179,
+        34,
+        1227,
+        1003
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 997725,
+      "sha256": "9ee006e6ac06cf679bfba495aa6dffa8bffa9463f7d4bc15ecaa4d83061ce7ae"
+    },
+    {
+      "id": "sunce",
+      "name": "손책",
+      "faction": "오",
+      "file": "assets/sunce.webp",
+      "source": "art-source\\critical-cutins\\v1\\sunce\\critical.png",
+      "width": 1683,
+      "height": 935,
+      "alphaBounds": [
+        132,
+        30,
+        1551,
+        920
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 858508,
+      "sha256": "84c150dc416014ecd07b7d67fb5c2430350bf105e83a27100113be344e4bc985"
+    },
+    {
+      "id": "luxun",
+      "name": "육손",
+      "faction": "오",
+      "file": "assets/luxun.webp",
+      "source": "art-source\\critical-cutins\\v1\\luxun\\critical.png",
+      "width": 1536,
+      "height": 1024,
+      "alphaBounds": [
+        138,
+        66,
+        1418,
+        995
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 882129,
+      "sha256": "9527d072f2d4ccde5c78f8fecbbafdbe997240dc9cf27b543bc843e3f8ab4003"
+    },
+    {
+      "id": "sunquan",
+      "name": "손권",
+      "faction": "오",
+      "file": "assets/sunquan.webp",
+      "source": "art-source\\critical-cutins\\v1\\sunquan\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        101,
+        49,
+        1659,
+        892
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 959735,
+      "sha256": "3fd015e9f1d5e20d724b7631a2e1dc6c5dbf8c6ab037f5ce228438a28a9aadf8"
+    },
+    {
+      "id": "ganning",
+      "name": "감녕",
+      "faction": "오",
+      "file": "assets/ganning.webp",
+      "source": "art-source\\critical-cutins\\v1\\ganning\\critical.png",
+      "width": 1536,
+      "height": 1024,
+      "alphaBounds": [
+        78,
+        19,
+        1395,
+        1016
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 834942,
+      "sha256": "4fc03eac979586f0ca0bc3e80d33976c1ef96b0443bcd5c21d9dfb644adb462a"
+    },
+    {
+      "id": "taishici",
+      "name": "태사자",
+      "faction": "오",
+      "file": "assets/taishici.webp",
+      "source": "art-source\\critical-cutins\\v1\\taishici\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        96,
+        24,
+        1652,
+        909
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 783941,
+      "sha256": "3d823fd27c197c74b799b128181e2dfb624716fbc2156780a7c46fc05cbbd9ea"
+    },
+    {
+      "id": "lumeng",
+      "name": "여몽",
+      "faction": "오",
+      "file": "assets/lumeng.webp",
+      "source": "art-source\\critical-cutins\\v1\\lumeng\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        30,
+        41,
+        1645,
+        893
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 930377,
+      "sha256": "46e570db0dc5e24d1681178af711f6ec1d0f088659a4a71eba04bb031e9d1aca"
+    },
+    {
+      "id": "huanggai",
+      "name": "황개",
+      "faction": "오",
+      "file": "assets/huanggai.webp",
+      "source": "art-source\\critical-cutins\\v1\\huanggai\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        73,
+        45,
+        1526,
+        903
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 868761,
+      "sha256": "2facb4fb33fa32ee8543ff7ee7a1fb805441d1dcef7fd60250edf9c67d919772"
+    },
+    {
+      "id": "lusu",
+      "name": "노숙",
+      "faction": "오",
+      "file": "assets/lusu.webp",
+      "source": "art-source\\critical-cutins\\v1\\lusu\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        190,
+        37,
+        1564,
+        890
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 967535,
+      "sha256": "ab38031a79a776b53023fdeb1c77ee6ad7fc9c8170c1d2b6210d945faf9f4985"
+    },
+    {
+      "id": "sunshangxiang",
+      "name": "손상향",
+      "faction": "오",
+      "file": "assets/sunshangxiang.webp",
+      "source": "art-source\\critical-cutins\\v1\\sunshangxiang\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        329,
+        15,
+        1492,
+        905
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 982941,
+      "sha256": "632d725a5ef84725796bc882f45b1088ebc59b55941156ff248789483ca9ad0a"
+    },
+    {
+      "id": "dingfeng",
+      "name": "정봉",
+      "faction": "오",
+      "file": "assets/dingfeng.webp",
+      "source": "art-source\\critical-cutins\\v1\\dingfeng\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        183,
+        40,
+        1523,
+        895
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 929696,
+      "sha256": "6013e134f51bd41c819e49ec816be8934e6b31625fe1682fc032b0ca8df244f8"
+    },
+    {
+      "id": "panzhang",
+      "name": "반장",
+      "faction": "오",
+      "file": "assets/panzhang.webp",
+      "source": "art-source\\critical-cutins\\v1\\panzhang\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        212,
+        21,
+        1483,
+        909
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 893105,
+      "sha256": "6986e98022043c0a7ae42686f5e058e2aabddbf1f21407c90cf784791a2eeef2"
+    },
+    {
+      "id": "zhangjue",
+      "name": "장각",
+      "faction": "군웅",
+      "file": "assets/zhangjue.webp",
+      "source": "art-source\\critical-cutins\\v1\\zhangjue\\critical.png",
+      "width": 1572,
+      "height": 1001,
+      "alphaBounds": [
+        169,
+        46,
+        1421,
+        977
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 913291,
+      "sha256": "881a31e483905e8e87b30a17b2a059adaca9990a2ae4b02211f134845916fab2"
+    },
+    {
+      "id": "dongzhuo",
+      "name": "동탁",
+      "faction": "군웅",
+      "file": "assets/dongzhuo.webp",
+      "source": "art-source\\critical-cutins\\v1\\dongzhuo\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        167,
+        28,
+        1478,
+        893
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 877202,
+      "sha256": "4ed3a647a481f573fb5105714bd45cd862d5488b7b65eab80416d148dde75fc0"
+    },
+    {
+      "id": "yuanshao",
+      "name": "원소",
+      "faction": "군웅",
+      "file": "assets/yuanshao.webp",
+      "source": "art-source\\critical-cutins\\v1\\yuanshao\\critical.png",
+      "width": 1536,
+      "height": 1024,
+      "alphaBounds": [
+        144,
+        48,
+        1350,
+        981
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 880220,
+      "sha256": "fac8de3c63c7a82f2b495dbec022e3a11c6b6edbeeed3040e20d15bfedc725d6"
+    },
+    {
+      "id": "huatuo",
+      "name": "화타",
+      "faction": "군웅",
+      "file": "assets/huatuo.webp",
+      "source": "art-source\\critical-cutins\\v1\\huatuo\\critical.png",
+      "width": 1536,
+      "height": 1024,
+      "alphaBounds": [
+        143,
+        50,
+        1395,
+        992
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 877627,
+      "sha256": "8148eec0fa98fa244fdf043f1a720153f73d20cb2965fa39c241622cd846c26a"
+    },
+    {
+      "id": "yanliang",
+      "name": "안량",
+      "faction": "군웅",
+      "file": "assets/yanliang.webp",
+      "source": "art-source\\critical-cutins\\v1\\yanliang\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        91,
+        57,
+        1526,
+        890
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 859272,
+      "sha256": "c19a6220c0ee5fde5cfaeef05b3f8788a262357aab0798f1961084c93db63b50"
+    },
+    {
+      "id": "wenchou",
+      "name": "문추",
+      "faction": "군웅",
+      "file": "assets/wenchou.webp",
+      "source": "art-source\\critical-cutins\\v1\\wenchou\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        52,
+        57,
+        1666,
+        884
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 904914,
+      "sha256": "83b1917d3d85be583e72c13ad92711dbd6293fc1a05e3f484700d086001e26be"
+    },
+    {
+      "id": "diaochan",
+      "name": "초선",
+      "faction": "군웅",
+      "file": "assets/diaochan.webp",
+      "source": "art-source\\critical-cutins\\v1\\diaochan\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        110,
+        28,
+        1628,
+        910
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 827459,
+      "sha256": "5b29083d7a4ee982d506a68b4ceca1616df19002904633ae258d391591d38580"
+    },
+    {
+      "id": "huaxiong",
+      "name": "화웅",
+      "faction": "군웅",
+      "file": "assets/huaxiong.webp",
+      "source": "art-source\\critical-cutins\\v1\\huaxiong\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        92,
+        54,
+        1601,
+        893
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 880165,
+      "sha256": "e004a76c9916706c0cca08f98d4fc9ae484a537e166f51ee39752a28c68269d5"
+    },
+    {
+      "id": "gongsunzan",
+      "name": "공손찬",
+      "faction": "군웅",
+      "file": "assets/gongsunzan.webp",
+      "source": "art-source\\critical-cutins\\v1\\gongsunzan\\critical.png",
+      "width": 1717,
+      "height": 916,
+      "alphaBounds": [
+        91,
+        34,
+        1678,
+        896
+      ],
+      "edgeVisible": 0,
+      "transparentPixels": 934386,
+      "sha256": "3a013e026123b97279294ada85a5cac84477358330a6e87d2f28dc1258d31add"
+    }
+  ]
+}

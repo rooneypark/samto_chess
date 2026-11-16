@@ -1,0 +1,55 @@
+#modal.art-dialog{
+  width:min(87.25vw,49.1svh,560px);
+  max-height:88svh;
+  padding:0;
+  border:0;
+  border-image:none;
+  background-color:transparent;
+  box-shadow:none;
+  container-type:inline-size;
+  color:#d4e0e8;
+}
+#modal.art-dialog::backdrop{background:#060d17b8}
+#modal.art-dialog .dialog-header{
+  margin:0;
+  padding:5.1cqw 4.87cqw 0;
+  background:transparent;
+  border:0;
+  position:relative;
+}
+#modal.art-dialog .dialog-header>.icon{display:none}
+#modal.art-dialog #modal-title{font-size:clamp(16px,5.73cqw,26px);color:#fff0cd}
+#modal.art-dialog #modal-body{padding:3.65cqw 4.87cqw 6.09cqw;font-size:clamp(12px,4.1cqw,18px);line-height:1.5}
+#modal.art-dialog .game-dialog-inset{border:0;background-color:transparent;padding:3.4cqw}
+#modal.art-dialog .dialog-message{padding:0;background:none;border:0;margin:0 0 4.87cqw;white-space:pre-line}
+#modal.art-dialog .modal-actions{gap:2.44cqw;margin-top:4.87cqw}
+#modal.art-dialog button.action[data-dialog-role]{
+  position:relative;
+  border:0;
+  border-image:none;
+  background-color:transparent;
+  box-shadow:none;
+  translate:none;
+  min-height:max(36px,9.74cqw);
+  padding:.8em 1em;
+  color:#fff0cd;
+  font-size:inherit;
+  line-height:1.25;
+}
+#modal.art-dialog button.action[data-dialog-role=danger]{color:#ffc3ae}
+#modal.art-dialog .modal-actions>button.action[data-dialog-role]{flex:1 1 0}
+#modal.art-dialog button.action[data-dialog-role]:active:not(:disabled){box-shadow:none}
+
+#modal.art-dialog :is(.guild-modal-row,.treasure-card,.result-card,.product-row,.rate-list section,.selection-card){border:0;background-color:transparent;box-shadow:none}
+#modal.art-dialog .selection-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+#modal.art-dialog .selection-card{position:relative;min-width:0;overflow-wrap:anywhere}
+#modal.art-dialog .selection-card img{max-width:100%}
+#modal.art-dialog .recruit-dialog-art{position:relative;isolation:isolate;overflow:hidden;aspect-ratio:3/1;display:flex;align-items:flex-end;justify-content:center;padding:0 12px 10px;background:#132339;border:1px solid #8b9cb4;box-sizing:border-box}
+#modal.art-dialog .recruit-dialog-art img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;image-rendering:pixelated;z-index:-1}
+#modal.art-dialog .recruit-dialog-art[data-recruit-art=hero]{aspect-ratio:3.9/1;justify-content:flex-end;padding-bottom:4px}
+#modal.art-dialog .recruit-dialog-art[data-recruit-art=hero] img{object-position:center top}
+#modal.art-dialog .recruit-dialog-art strong{color:#fff0cd;font-size:clamp(18px,5cqw,24px);text-shadow:2px 2px #081322,-1px -1px #081322;line-height:1.3}
+#modal.art-dialog .dialog-art-panel{border:0;background-color:transparent;margin-bottom:12px;padding:20px 16px}
+#modal.art-dialog [data-dialog-icon]{image-rendering:pixelated;flex-shrink:0;opacity:1;aspect-ratio:1}
+#modal.art-dialog .game-dialog-empty>[data-dialog-icon]{width:80px;height:80px;margin:0 auto 8px}
+#modal.art-dialog .game-dialog-empty p{margin:8px 0 0}

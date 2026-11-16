@@ -1,0 +1,18 @@
+{
+  "status": "user-approved-runtime-applied",
+  "runtimeApplied": true,
+  "type": "rendered-component-mockup",
+  "generator": "HTML composition using existing approved assets; no new image generation",
+  "composition": "game/previews/results-v1/index.html",
+  "screenshot": "battle-results-v1.png",
+  "background": "game/assets/arena-v2/courtyard.png",
+  "characters": "Unmodified generals-v2 front originals; character-scale.js mounted/standing proportions",
+  "landmark": "Approved campaign-v4 Sishui wall via campaign-landmarks.js",
+  "shell": "game/ui-shell.js + game/art-controls.js",
+  "frames": "game/nine-slice.js: 28px fixed corners",
+  "qa": "game/previews/results-v1/qa.json",
+  "state": "Example final victory at yellow_03; rewards read from stages.js, no save access",
+  "runtime": "game/results-ui.js",
+  "runtimeQA": "test-artifacts/results-v1/qa.json",
+  "characterScale": "Mounted Guan Yu/Lu Bu 100%; Xu Chu 85%; other standing generals 70%; original aspect ratios and foot anchors preserved"
+}

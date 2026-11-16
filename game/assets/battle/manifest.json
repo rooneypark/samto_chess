@@ -1,0 +1,5087 @@
+{
+  "version": "2026-11-13.1",
+  "bindings": [
+    {
+      "heroId": "1",
+      "sourceHero": 1,
+      "sourceUnit": 142,
+      "mappingStatus": "STATIC_VERIFIED",
+      "evidence": "HeroData.numSAnim or HeroData.numTeam -> TeamData.numSAnim",
+      "sourceTableHash": "538ecd73c716150275c34f740496def7c85626f1ac2a2470c4f05878237e23c8",
+      "rightsStatus": "REVIEW_REQUIRED",
+      "frames": [
+        {
+          "name": "ATK-1",
+          "file": "game/assets/battle/unit142/ATK-1.png",
+          "source": "media/unitanim/unit142/ATK-1.png",
+          "sha256": "d1abf31d20b1a98ecc0139257c02b2d609e2246a9638e4b64975d40a457d3c23",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-2",
+          "file": "game/assets/battle/unit142/ATK-2.png",
+          "source": "media/unitanim/unit142/ATK-2.png",
+          "sha256": "cc58b489b32a8070aeca33462b0037423975b7eb172bf1e11a3af79eeec7eafe",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-3",
+          "file": "game/assets/battle/unit142/ATK-3.png",
+          "source": "media/unitanim/unit142/ATK-3.png",
+          "sha256": "4926e3a85925c3f912666844f66c0aed8d33d166e84c108c1893d32c6410776a",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-4",
+          "file": "game/assets/battle/unit142/ATK-4.png",
+          "source": "media/unitanim/unit142/ATK-4.png",
+          "sha256": "a307f88fbffbb4d37ba09d00e68afee30cff94d72ca4865c9be79b2ef1edb6c5",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-5",
+          "file": "game/assets/battle/unit142/ATK-5.png",
+          "source": "media/unitanim/unit142/ATK-5.png",
+          "sha256": "dfefb4dff80f0e91e4f044601cd6a952dbaeed4e6415816cdab452523b3ec627",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-6",
+          "file": "game/assets/battle/unit142/ATK-6.png",
+          "source": "media/unitanim/unit142/ATK-6.png",
+          "sha256": "d8a7a346be3fb3b9003fd13d73e50c84ec132dfe02c4b98a6ecde8a26cb3f54f",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-7",
+          "file": "game/assets/battle/unit142/ATK-7.png",
+          "source": "media/unitanim/unit142/ATK-7.png",
+          "sha256": "ea027d7c65baa126b10bf3f8e111fe3e5ecff6c1d0e888a41f374ce900af4b23",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-8",
+          "file": "game/assets/battle/unit142/ATK-8.png",
+          "source": "media/unitanim/unit142/ATK-8.png",
+          "sha256": "a1211b88fb514cfa940e1c4bb197bd9d55b0e45fbdfdb468c695637f1e3b65b1",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-9",
+          "file": "game/assets/battle/unit142/ATK-9.png",
+          "source": "media/unitanim/unit142/ATK-9.png",
+          "sha256": "ef5d4dcd78ea6c408ef74cce232baab80d02c5ba93d319640119703596ee8c23",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-10",
+          "file": "game/assets/battle/unit142/ATK-10.png",
+          "source": "media/unitanim/unit142/ATK-10.png",
+          "sha256": "6c4440ac782794ac0066834fc549352ef9122173b9e7cd2bb18c29924e6b3e5d",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-11",
+          "file": "game/assets/battle/unit142/ATK-11.png",
+          "source": "media/unitanim/unit142/ATK-11.png",
+          "sha256": "3c4b85f730dafc9af698b8a5dbc64a6d28992a049b15bddee8efcbfe117024a1",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-12",
+          "file": "game/assets/battle/unit142/ATK-12.png",
+          "source": "media/unitanim/unit142/ATK-12.png",
+          "sha256": "e63994d1de57d5ada25530e6c37086fb2f6a453f4e7145e3dc180938b34f3f1a",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-1",
+          "file": "game/assets/battle/unit142/MOV-1.png",
+          "source": "media/unitanim/unit142/MOV-1.png",
+          "sha256": "87b7fea38ab7f3a6cda9d5a6b4c5f4dbd6c6354a1a1d4b1b3b67a3893cafea04",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-2",
+          "file": "game/assets/battle/unit142/MOV-2.png",
+          "source": "media/unitanim/unit142/MOV-2.png",
+          "sha256": "457005c27e23024fb19f1123534e2d6e3b1247396dbd0296e7fae6d58118dd52",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-3",
+          "file": "game/assets/battle/unit142/MOV-3.png",
+          "source": "media/unitanim/unit142/MOV-3.png",
+          "sha256": "bcbb0e0de7e31df1028ad41d8742c455a25164baba6b9dd18a1fb30909b66834",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-4",
+          "file": "game/assets/battle/unit142/MOV-4.png",
+          "source": "media/unitanim/unit142/MOV-4.png",
+          "sha256": "d67c3e35e2bccb0626db7b24578816ff6bf28269cd876ff3ae2fa98fc0ea87b3",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-5",
+          "file": "game/assets/battle/unit142/MOV-5.png",
+          "source": "media/unitanim/unit142/MOV-5.png",
+          "sha256": "95d0932f94d5cfa668916bd98d1c2f1640ed07690d3372dd3e603071d79af78c",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-6",
+          "file": "game/assets/battle/unit142/MOV-6.png",
+          "source": "media/unitanim/unit142/MOV-6.png",
+          "sha256": "793e24e35b92569d4b17f278d47f50ad799f656a7e89f93493a2c8e7e19b5f8f",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-7",
+          "file": "game/assets/battle/unit142/MOV-7.png",
+          "source": "media/unitanim/unit142/MOV-7.png",
+          "sha256": "15b0ccd46bf1aefcc1f70ac4f6e5de7636d80f53a54a3fda4a23d8f122fd619e",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-8",
+          "file": "game/assets/battle/unit142/MOV-8.png",
+          "source": "media/unitanim/unit142/MOV-8.png",
+          "sha256": "44ae5baf74601f3c4c724e6b96be87f6180a0c4a982baa78c70fbd7005f74898",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-9",
+          "file": "game/assets/battle/unit142/MOV-9.png",
+          "source": "media/unitanim/unit142/MOV-9.png",
+          "sha256": "b66516c2e8803beedacf2fa8fac0d13de60f8fc5cb8d065f4e9323c1c0a88633",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-10",
+          "file": "game/assets/battle/unit142/MOV-10.png",
+          "source": "media/unitanim/unit142/MOV-10.png",
+          "sha256": "04954e4acbc8fdaa37f44450867a669a796cc5153553453f141250802f39e7de",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-11",
+          "file": "game/assets/battle/unit142/MOV-11.png",
+          "source": "media/unitanim/unit142/MOV-11.png",
+          "sha256": "3811149eb2fe3f81347b36b69a3b0dbf623b84126ef1d8ba34bb5b24f95810df",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-1",
+          "file": "game/assets/battle/unit142/SPC-1.png",
+          "source": "media/unitanim/unit142/SPC-1.png",
+          "sha256": "1b44fb3e90a269598be75f610283ff5860ab8dbbde66b4b764eed7624284e7e4",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-2",
+          "file": "game/assets/battle/unit142/SPC-2.png",
+          "source": "media/unitanim/unit142/SPC-2.png",
+          "sha256": "eea149bf8aa23445d2cc76bafd4aff558b713bbfa7bd1e39b96cadc992f8ab0f",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-3",
+          "file": "game/assets/battle/unit142/SPC-3.png",
+          "source": "media/unitanim/unit142/SPC-3.png",
+          "sha256": "e6bfe7fff77b89e9fd479e6d78cdbc1b6f64f64d3a6095e47b3b71416864a1a7",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-4",
+          "file": "game/assets/battle/unit142/SPC-4.png",
+          "source": "media/unitanim/unit142/SPC-4.png",
+          "sha256": "152ee2510ca9d52013a7bed1e31e20ee98d123d716b822e2f2d5d232ddb5b980",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-5",
+          "file": "game/assets/battle/unit142/SPC-5.png",
+          "source": "media/unitanim/unit142/SPC-5.png",
+          "sha256": "305f191f67c72e826337691beacfaddd3776f5586b6298a0da6d2e3b4ccc8dd8",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        }
+      ],
+      "footAnchor": {
+        "x": 0.5,
+        "y": 0.7
+      },
+      "releaseMarks": {
+        "origin": "NEW_GAME_PROPOSAL",
+        "basicWindupRatio": 0.35
+      },
+      "states": {
+        "idle": "MOV",
+        "move": "MOV",
+        "attack": "ATK",
+        "cast": "SPC",
+        "hit": "NO_DEDICATED_CLIP",
+        "death": "PRESENTATION_FADE_ONLY"
+      }
+    },
+    {
+      "heroId": "2",
+      "sourceHero": 2,
+      "sourceUnit": 145,
+      "mappingStatus": "STATIC_VERIFIED",
+      "evidence": "HeroData.numSAnim or HeroData.numTeam -> TeamData.numSAnim",
+      "sourceTableHash": "538ecd73c716150275c34f740496def7c85626f1ac2a2470c4f05878237e23c8",
+      "rightsStatus": "REVIEW_REQUIRED",
+      "frames": [
+        {
+          "name": "ATK-1",
+          "file": "game/assets/battle/unit145/ATK-1.png",
+          "source": "media/unitanim/unit145/ATK-1.png",
+          "sha256": "7b467686a5f30a369424b1fe134dc7c3321462338299307bd8dd60ee1e6b06c5",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-2",
+          "file": "game/assets/battle/unit145/ATK-2.png",
+          "source": "media/unitanim/unit145/ATK-2.png",
+          "sha256": "463b1aaee9bb1bcebeee8d546fc492fd92beeecb8c874ccacdb63bc5781a4e1b",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-3",
+          "file": "game/assets/battle/unit145/ATK-3.png",
+          "source": "media/unitanim/unit145/ATK-3.png",
+          "sha256": "82147cc4e7d466160e4a8630cf6fc3d4c9da27c04d9a47a86d1a0bba9dbb9d1f",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-4",
+          "file": "game/assets/battle/unit145/ATK-4.png",
+          "source": "media/unitanim/unit145/ATK-4.png",
+          "sha256": "5e2986ef7f273b20790646d8269b2d5ca7fcb1eb4c8a6e5d6dc21912571a2805",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-5",
+          "file": "game/assets/battle/unit145/ATK-5.png",
+          "source": "media/unitanim/unit145/ATK-5.png",
+          "sha256": "9edf9dfb6ed30e8b005f19171fe51930007eefc668d9b93cfc0d38939cdb3a51",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-6",
+          "file": "game/assets/battle/unit145/ATK-6.png",
+          "source": "media/unitanim/unit145/ATK-6.png",
+          "sha256": "eaa7a079b99e8efdc1b321d46ae33ebbf0578fb3adb410ca09b9a67fdf36f2ec",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-7",
+          "file": "game/assets/battle/unit145/ATK-7.png",
+          "source": "media/unitanim/unit145/ATK-7.png",
+          "sha256": "983c48b84658e71ffa0605d887b749382afe42b98613b7ad5397e427fa4dff4b",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-8",
+          "file": "game/assets/battle/unit145/ATK-8.png",
+          "source": "media/unitanim/unit145/ATK-8.png",
+          "sha256": "250e8a8f2be9098e7eaf048c3c7798ae9597d6c15e26bc4ee2d1e2022fb8cca6",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-9",
+          "file": "game/assets/battle/unit145/ATK-9.png",
+          "source": "media/unitanim/unit145/ATK-9.png",
+          "sha256": "58bed4cc7be700b7f301c9dd3a2d6eff56d223a5dc500bddd9566631778290b3",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-10",
+          "file": "game/assets/battle/unit145/ATK-10.png",
+          "source": "media/unitanim/unit145/ATK-10.png",
+          "sha256": "5ee62c76a55d9bceb66c6947549fd1248cd72d93d19456a1faed4aa87b0638d8",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-11",
+          "file": "game/assets/battle/unit145/ATK-11.png",
+          "source": "media/unitanim/unit145/ATK-11.png",
+          "sha256": "9d214e338dae12252a4fada90e85f06b4b8513ee8227c56a8728e9cd089722b8",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-12",
+          "file": "game/assets/battle/unit145/ATK-12.png",
+          "source": "media/unitanim/unit145/ATK-12.png",
+          "sha256": "666f8579f81197bafa0b2675880124c866639ed5b0709a4ac9b5ea9f3bcc9991",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-1",
+          "file": "game/assets/battle/unit145/MOV-1.png",
+          "source": "media/unitanim/unit145/MOV-1.png",
+          "sha256": "355f8347dfaa7fd418a405b40a39e2612eda21ffdd54ecad49d8412ea93dd4d8",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-2",
+          "file": "game/assets/battle/unit145/MOV-2.png",
+          "source": "media/unitanim/unit145/MOV-2.png",
+          "sha256": "2e33b2650222d62377282b21f6d98c88a805b8663a6aba4e8df7f0288c09006e",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-3",
+          "file": "game/assets/battle/unit145/MOV-3.png",
+          "source": "media/unitanim/unit145/MOV-3.png",
+          "sha256": "03644ee64465cb17b6465a649334166cff05ee367eba6984296be99fc3c0ef67",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-4",
+          "file": "game/assets/battle/unit145/MOV-4.png",
+          "source": "media/unitanim/unit145/MOV-4.png",
+          "sha256": "62a5d99d5f87c7a97ff4c6963c8877a5ae56e328556222533edc954626f09907",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-5",
+          "file": "game/assets/battle/unit145/MOV-5.png",
+          "source": "media/unitanim/unit145/MOV-5.png",
+          "sha256": "c1dd3a0a4a8dca4b061e3ae9da82a82ae19c79d8df95d2aba63499c959a7d668",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-6",
+          "file": "game/assets/battle/unit145/MOV-6.png",
+          "source": "media/unitanim/unit145/MOV-6.png",
+          "sha256": "995bc633d975199dccea1fbb553ccc3060fd6bedce621112a7e8689efd7b419a",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-7",
+          "file": "game/assets/battle/unit145/MOV-7.png",
+          "source": "media/unitanim/unit145/MOV-7.png",
+          "sha256": "0bfc9f2c9ad487d6f10c2ef6de9a5a0552a2e4a9462239a72d0b5cfadaedfa89",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-8",
+          "file": "game/assets/battle/unit145/MOV-8.png",
+          "source": "media/unitanim/unit145/MOV-8.png",
+          "sha256": "2eb135e8b9e8e0dad0ec9b75e1ed0e836b11b3f5cc9b04baed94e05b2b6fe7fe",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-9",
+          "file": "game/assets/battle/unit145/MOV-9.png",
+          "source": "media/unitanim/unit145/MOV-9.png",
+          "sha256": "eb98051c0cdcc18976907b141995856228e74c7cc5a8f1dfa505bf0d9304ce23",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-10",
+          "file": "game/assets/battle/unit145/MOV-10.png",
+          "source": "media/unitanim/unit145/MOV-10.png",
+          "sha256": "07d8aa16bfab71c42593b2ab2946271fcc085955b291c267d2a17427b907d21f",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-11",
+          "file": "game/assets/battle/unit145/MOV-11.png",
+          "source": "media/unitanim/unit145/MOV-11.png",
+          "sha256": "cdf4df775b3dd1f2710b96c757e2478689f8583286f63694c06ae27255b6a5b6",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-1",
+          "file": "game/assets/battle/unit145/SPC-1.png",
+          "source": "media/unitanim/unit145/SPC-1.png",
+          "sha256": "36717ca15ed3170e542ca7bf7597d644a7769c9ad780530dd8e0eba67f23fb2f",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-2",
+          "file": "game/assets/battle/unit145/SPC-2.png",
+          "source": "media/unitanim/unit145/SPC-2.png",
+          "sha256": "839053495912b506a559189e6c26991368d1401dd87f9f34c0742ccfcadf9c46",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-3",
+          "file": "game/assets/battle/unit145/SPC-3.png",
+          "source": "media/unitanim/unit145/SPC-3.png",
+          "sha256": "c07535700aa14e55cabd473958eaa5ffda58f57f7153e2dfbb00eec1f4987e43",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-4",
+          "file": "game/assets/battle/unit145/SPC-4.png",
+          "source": "media/unitanim/unit145/SPC-4.png",
+          "sha256": "5f8b79ccea61be1f8ab23e8e950be9cb0000cbe4c06de48d1b5d03fd90477170",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-5",
+          "file": "game/assets/battle/unit145/SPC-5.png",
+          "source": "media/unitanim/unit145/SPC-5.png",
+          "sha256": "b1768664a48ed80e7ad389aa18538031b46bd1de5b1dcee59ce38fd3f6b61f36",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        }
+      ],
+      "footAnchor": {
+        "x": 0.5,
+        "y": 0.7
+      },
+      "releaseMarks": {
+        "origin": "NEW_GAME_PROPOSAL",
+        "basicWindupRatio": 0.35
+      },
+      "states": {
+        "idle": "MOV",
+        "move": "MOV",
+        "attack": "ATK",
+        "cast": "SPC",
+        "hit": "NO_DEDICATED_CLIP",
+        "death": "PRESENTATION_FADE_ONLY"
+      }
+    },
+    {
+      "heroId": "15",
+      "sourceHero": 15,
+      "sourceUnit": 148,
+      "mappingStatus": "STATIC_VERIFIED",
+      "evidence": "HeroData.numSAnim or HeroData.numTeam -> TeamData.numSAnim",
+      "sourceTableHash": "538ecd73c716150275c34f740496def7c85626f1ac2a2470c4f05878237e23c8",
+      "rightsStatus": "REVIEW_REQUIRED",
+      "frames": [
+        {
+          "name": "ATK-1",
+          "file": "game/assets/battle/unit148/ATK-1.png",
+          "source": "media/unitanim/unit148/ATK-1.png",
+          "sha256": "88d471d3f4669811128c1b24e460e61ce9b58772e12695223e4714333214c2d5",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-2",
+          "file": "game/assets/battle/unit148/ATK-2.png",
+          "source": "media/unitanim/unit148/ATK-2.png",
+          "sha256": "5e45e60e7cb87317e39a47e069d3dedc9d02a4aa0b8be646c4d4c92ac219e0e5",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-3",
+          "file": "game/assets/battle/unit148/ATK-3.png",
+          "source": "media/unitanim/unit148/ATK-3.png",
+          "sha256": "a59953acb7725879d3cc455d117a52f062db2e5990c6aa9293ff15a8eb13921b",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-4",
+          "file": "game/assets/battle/unit148/ATK-4.png",
+          "source": "media/unitanim/unit148/ATK-4.png",
+          "sha256": "47cb6b0cd2d6cf16fbdcf647548095b715332daadb830c602b34d5dc0f1350f1",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-5",
+          "file": "game/assets/battle/unit148/ATK-5.png",
+          "source": "media/unitanim/unit148/ATK-5.png",
+          "sha256": "1b8a0cc0ebcc5a91d79fff26665ba916d0b5175118cafd911a2c4f982a42263e",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-6",
+          "file": "game/assets/battle/unit148/ATK-6.png",
+          "source": "media/unitanim/unit148/ATK-6.png",
+          "sha256": "445896264f71df1e19442f0e256daaafb8945ab7ef68793e9fb150a5b5773f2d",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-7",
+          "file": "game/assets/battle/unit148/ATK-7.png",
+          "source": "media/unitanim/unit148/ATK-7.png",
+          "sha256": "23c18c8f40f5b057e2ebfb1b1a16dc9f79b9928f4c63768b59e75ec045415440",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-8",
+          "file": "game/assets/battle/unit148/ATK-8.png",
+          "source": "media/unitanim/unit148/ATK-8.png",
+          "sha256": "b0205be7dc5155d67eea2e7d6fed981511514fcce0859d5954c81cded37d71af",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-9",
+          "file": "game/assets/battle/unit148/ATK-9.png",
+          "source": "media/unitanim/unit148/ATK-9.png",
+          "sha256": "9e1e4c527ccc2be8c96a24073d36f827261b16810e6fafa821cc1d6af44bf17d",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-10",
+          "file": "game/assets/battle/unit148/ATK-10.png",
+          "source": "media/unitanim/unit148/ATK-10.png",
+          "sha256": "4da33d8f23ee6f69ce3c772729e226f1ec4566035ad36f91f09477b6b666813a",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-11",
+          "file": "game/assets/battle/unit148/ATK-11.png",
+          "source": "media/unitanim/unit148/ATK-11.png",
+          "sha256": "84057e3d6fff24f5749d2f611c43efcba034831ffe7837b525c3a17135835cbe",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-12",
+          "file": "game/assets/battle/unit148/ATK-12.png",
+          "source": "media/unitanim/unit148/ATK-12.png",
+          "sha256": "47cd7362016e04b25377a8c111133799c1884a825ce294d9f34291740761ba3e",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-1",
+          "file": "game/assets/battle/unit148/MOV-1.png",
+          "source": "media/unitanim/unit148/MOV-1.png",
+          "sha256": "2730853a4a7a37b61796d07edf812737505851d21bb08d72de39688ba78b5421",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-2",
+          "file": "game/assets/battle/unit148/MOV-2.png",
+          "source": "media/unitanim/unit148/MOV-2.png",
+          "sha256": "e6b9a1103a5688699428b9da0614923930af44ff6d9d572e5557a12da003d16d",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-3",
+          "file": "game/assets/battle/unit148/MOV-3.png",
+          "source": "media/unitanim/unit148/MOV-3.png",
+          "sha256": "5a03de864a57cdee48caa2bf8ba55cfbe6793e9e51c6734b5ab189df2241eac5",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-4",
+          "file": "game/assets/battle/unit148/MOV-4.png",
+          "source": "media/unitanim/unit148/MOV-4.png",
+          "sha256": "142311911c59994302330b46a36aae681ff89eff631f805a0a38201fb8f4dd20",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-5",
+          "file": "game/assets/battle/unit148/MOV-5.png",
+          "source": "media/unitanim/unit148/MOV-5.png",
+          "sha256": "4138ea378d0802cc184af26ec382d5d166145f4a9bbde19630046c6ab71983d8",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-6",
+          "file": "game/assets/battle/unit148/MOV-6.png",
+          "source": "media/unitanim/unit148/MOV-6.png",
+          "sha256": "9ff73bf2c0be87675ce791a6f0b99fb38a68e35d7ceee5fde2d73b93ad025411",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-7",
+          "file": "game/assets/battle/unit148/MOV-7.png",
+          "source": "media/unitanim/unit148/MOV-7.png",
+          "sha256": "b574f1b8c251922e391a699a49c201d3a8911dff5920a71a85671921fcf6c2fc",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-8",
+          "file": "game/assets/battle/unit148/MOV-8.png",
+          "source": "media/unitanim/unit148/MOV-8.png",
+          "sha256": "dbd5acc13f5004c305ed9090a003a38036a5ae952ab3cbf97de666f2f9c4aadc",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-9",
+          "file": "game/assets/battle/unit148/MOV-9.png",
+          "source": "media/unitanim/unit148/MOV-9.png",
+          "sha256": "0f928ff04446bcf0156d7541e866fc3362394e1d9a57c5076eb06b4342b44ff1",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-10",
+          "file": "game/assets/battle/unit148/MOV-10.png",
+          "source": "media/unitanim/unit148/MOV-10.png",
+          "sha256": "18408140dedd2aa34b051adfdf823e4c9f5a855a8720a59ec2fd93627e205dda",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-11",
+          "file": "game/assets/battle/unit148/MOV-11.png",
+          "source": "media/unitanim/unit148/MOV-11.png",
+          "sha256": "d91a84e2d33f31107d3c2979c28cb59d68fb04212416ce58fd888e97addc58ac",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-1",
+          "file": "game/assets/battle/unit148/SPC-1.png",
+          "source": "media/unitanim/unit148/SPC-1.png",
+          "sha256": "846901cd29fd6c3cd11be29edfb32bbf22423c900edfba542681817c8e19a22c",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-2",
+          "file": "game/assets/battle/unit148/SPC-2.png",
+          "source": "media/unitanim/unit148/SPC-2.png",
+          "sha256": "4914b6b2801cfec684dd8ee5a747bb35e01a09776d66fee9fcc8f3556b90591c",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-3",
+          "file": "game/assets/battle/unit148/SPC-3.png",
+          "source": "media/unitanim/unit148/SPC-3.png",
+          "sha256": "9ac9b0618789d5a262ee5a23709dec2a6a2d13fa08ad9e4c655c68dfade9d6c6",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-4",
+          "file": "game/assets/battle/unit148/SPC-4.png",
+          "source": "media/unitanim/unit148/SPC-4.png",
+          "sha256": "9741f2c2fb7fdcb4778520b55042bb46748a814beaa639d97095f0100d911b39",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-5",
+          "file": "game/assets/battle/unit148/SPC-5.png",
+          "source": "media/unitanim/unit148/SPC-5.png",
+          "sha256": "ac2c40ff114ef2273cdb36994a5f47da12adf710dc0475c8dde7982fbe9959fa",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        }
+      ],
+      "footAnchor": {
+        "x": 0.5,
+        "y": 0.7
+      },
+      "releaseMarks": {
+        "origin": "NEW_GAME_PROPOSAL",
+        "basicWindupRatio": 0.35
+      },
+      "states": {
+        "idle": "MOV",
+        "move": "MOV",
+        "attack": "ATK",
+        "cast": "SPC",
+        "hit": "NO_DEDICATED_CLIP",
+        "death": "PRESENTATION_FADE_ONLY"
+      }
+    },
+    {
+      "heroId": "16",
+      "sourceHero": 16,
+      "sourceUnit": 209,
+      "mappingStatus": "STATIC_VERIFIED",
+      "evidence": "HeroData.numSAnim or HeroData.numTeam -> TeamData.numSAnim",
+      "sourceTableHash": "538ecd73c716150275c34f740496def7c85626f1ac2a2470c4f05878237e23c8",
+      "rightsStatus": "REVIEW_REQUIRED",
+      "frames": [
+        {
+          "name": "ATK-1",
+          "file": "game/assets/battle/unit209/ATK-1.png",
+          "source": "media/unitanim/unit209/ATK-1.png",
+          "sha256": "fa2ee8b45bdeb6e279a3723278dff0e42959e4bd9c7598188456d00d6586d19a",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-2",
+          "file": "game/assets/battle/unit209/ATK-2.png",
+          "source": "media/unitanim/unit209/ATK-2.png",
+          "sha256": "f2ad86d1b5e6bd277a047245ac1d0ce88e015d3046991bd7734bc26fa360cf77",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-3",
+          "file": "game/assets/battle/unit209/ATK-3.png",
+          "source": "media/unitanim/unit209/ATK-3.png",
+          "sha256": "1f4bca1ebc0657a6dca1fcc6c6f7f75e24358f154b94fef315ce4d22041ec7c7",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-4",
+          "file": "game/assets/battle/unit209/ATK-4.png",
+          "source": "media/unitanim/unit209/ATK-4.png",
+          "sha256": "8e528aa81b199148040ed8cb6d077b80f685ea6a4ab36a6ff2b3d50a338f30d6",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-5",
+          "file": "game/assets/battle/unit209/ATK-5.png",
+          "source": "media/unitanim/unit209/ATK-5.png",
+          "sha256": "126acca22e06987b1d55350546a175f1514da63b9b631f8780e9a70e7d0acfad",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-6",
+          "file": "game/assets/battle/unit209/ATK-6.png",
+          "source": "media/unitanim/unit209/ATK-6.png",
+          "sha256": "268a0dac61ebcb7fe0401c61a0f89efa5c43ce2151b14cd091186e40a2ae4d70",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-7",
+          "file": "game/assets/battle/unit209/ATK-7.png",
+          "source": "media/unitanim/unit209/ATK-7.png",
+          "sha256": "de49dba57c6c92f909c67e78da763df74264f475e6880e865b3f9e8373b85ec1",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-8",
+          "file": "game/assets/battle/unit209/ATK-8.png",
+          "source": "media/unitanim/unit209/ATK-8.png",
+          "sha256": "8280e5940c82b11479cc8c846b78a18b69491b2b4d0b695313fe582de1e5020b",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-9",
+          "file": "game/assets/battle/unit209/ATK-9.png",
+          "source": "media/unitanim/unit209/ATK-9.png",
+          "sha256": "1be173c73a22d4f1d104c3cf868c1e4e0316bb4fa90eec933fd93fd76dcac181",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-10",
+          "file": "game/assets/battle/unit209/ATK-10.png",
+          "source": "media/unitanim/unit209/ATK-10.png",
+          "sha256": "42ce8a7cab8aa8a676f4bea150ab3ae73f015b0927a5488261cb31ebd45718d9",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-11",
+          "file": "game/assets/battle/unit209/ATK-11.png",
+          "source": "media/unitanim/unit209/ATK-11.png",
+          "sha256": "a34344363358bf4f0bc34225eab95f3ce0bee6ea4341dfdc1eff6d4f805e1646",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-12",
+          "file": "game/assets/battle/unit209/ATK-12.png",
+          "source": "media/unitanim/unit209/ATK-12.png",
+          "sha256": "42082f227201fc9909b2fb7726bb7540534654ce031c2fcf0721513303345fa6",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-1",
+          "file": "game/assets/battle/unit209/MOV-1.png",
+          "source": "media/unitanim/unit209/MOV-1.png",
+          "sha256": "7686b1f07a23a61aa60d37f150ca67a5cd779d7166a38f05f27416a3f0d39a45",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-2",
+          "file": "game/assets/battle/unit209/MOV-2.png",
+          "source": "media/unitanim/unit209/MOV-2.png",
+          "sha256": "3fc19b0b8f9188fa1d99bc530d0caa4a275f09a648cd7c805beb2e612fe83637",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-3",
+          "file": "game/assets/battle/unit209/MOV-3.png",
+          "source": "media/unitanim/unit209/MOV-3.png",
+          "sha256": "44e9bebb780b8d4d7f2ed1b3ad79eed52ee4598c7a1083a873a05721b3b2125f",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-4",
+          "file": "game/assets/battle/unit209/MOV-4.png",
+          "source": "media/unitanim/unit209/MOV-4.png",
+          "sha256": "58d6d2f1304cc084bc722b20e1eb2d5c264c4345c4f771c2c74acb41d7d2833b",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-5",
+          "file": "game/assets/battle/unit209/MOV-5.png",
+          "source": "media/unitanim/unit209/MOV-5.png",
+          "sha256": "3f3c635d590d18c6de667faa5d0c0ee1db33efde997d0e79d809d0fb54dd2b54",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-6",
+          "file": "game/assets/battle/unit209/MOV-6.png",
+          "source": "media/unitanim/unit209/MOV-6.png",
+          "sha256": "5e6e532cf254591caaa599250cf6381c2e08bc32d14cb7df8806739cd555ca9b",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-7",
+          "file": "game/assets/battle/unit209/MOV-7.png",
+          "source": "media/unitanim/unit209/MOV-7.png",
+          "sha256": "4e51bff5158a84e131388682f74ebbf949027276d40c2f12e9ee0db7c7fdeeea",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-8",
+          "file": "game/assets/battle/unit209/MOV-8.png",
+          "source": "media/unitanim/unit209/MOV-8.png",
+          "sha256": "acc5df5506afcceb6ff96fb9220c4d9af959e75b939afeed6748cf6c3ea99f6d",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-9",
+          "file": "game/assets/battle/unit209/MOV-9.png",
+          "source": "media/unitanim/unit209/MOV-9.png",
+          "sha256": "e6d2c01741996c796d6092bbc10afa91c1b87bc1183bc2124fcf22157e532ec6",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-10",
+          "file": "game/assets/battle/unit209/MOV-10.png",
+          "source": "media/unitanim/unit209/MOV-10.png",
+          "sha256": "7a3e71cc2a4f3feef97376a1980e8efb61337c9363224ac3f790ed500a52d391",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-11",
+          "file": "game/assets/battle/unit209/MOV-11.png",
+          "source": "media/unitanim/unit209/MOV-11.png",
+          "sha256": "cd71fa80d853c986cc8a347b105e964821663f82f80fd256da68b6196985c332",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-1",
+          "file": "game/assets/battle/unit209/SPC-1.png",
+          "source": "media/unitanim/unit209/SPC-1.png",
+          "sha256": "2334cc399975dfa54248753370d9709bc79a2628e9efa70365986575cc9d838b",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-2",
+          "file": "game/assets/battle/unit209/SPC-2.png",
+          "source": "media/unitanim/unit209/SPC-2.png",
+          "sha256": "6cd84e5362b2109d1edb0b6b525d01449b566b127e8f83474d24d625431f80e1",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-3",
+          "file": "game/assets/battle/unit209/SPC-3.png",
+          "source": "media/unitanim/unit209/SPC-3.png",
+          "sha256": "c23d904c4cf3645dda50ff970445531b39dddf23f87fae88b1c4ca2e5d7ea67b",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-4",
+          "file": "game/assets/battle/unit209/SPC-4.png",
+          "source": "media/unitanim/unit209/SPC-4.png",
+          "sha256": "f40809c36d15cbf8313f481e6e6a1edfa983783001d9866ed8395710a1b09fbc",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-5",
+          "file": "game/assets/battle/unit209/SPC-5.png",
+          "source": "media/unitanim/unit209/SPC-5.png",
+          "sha256": "0dd80f5b9bebfce23c9eb0976515c983ce431d4ceba16c86b5bfb78c774cb4c0",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        }
+      ],
+      "footAnchor": {
+        "x": 0.5,
+        "y": 0.7
+      },
+      "releaseMarks": {
+        "origin": "NEW_GAME_PROPOSAL",
+        "basicWindupRatio": 0.35
+      },
+      "states": {
+        "idle": "MOV",
+        "move": "MOV",
+        "attack": "ATK",
+        "cast": "SPC",
+        "hit": "NO_DEDICATED_CLIP",
+        "death": "PRESENTATION_FADE_ONLY"
+      }
+    },
+    {
+      "heroId": "35",
+      "sourceHero": 35,
+      "sourceUnit": 215,
+      "mappingStatus": "STATIC_VERIFIED",
+      "evidence": "HeroData.numSAnim or HeroData.numTeam -> TeamData.numSAnim",
+      "sourceTableHash": "538ecd73c716150275c34f740496def7c85626f1ac2a2470c4f05878237e23c8",
+      "rightsStatus": "REVIEW_REQUIRED",
+      "frames": [
+        {
+          "name": "ATK-1",
+          "file": "game/assets/battle/unit215/ATK-1.png",
+          "source": "media/unitanim/unit215/ATK-1.png",
+          "sha256": "6f469a733f8745333243f3e571a7831afaed47d3ab3bdf36ce0ee7811679f77f",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-2",
+          "file": "game/assets/battle/unit215/ATK-2.png",
+          "source": "media/unitanim/unit215/ATK-2.png",
+          "sha256": "26f19a59aed9981c1098af365bd7f4965cea86cdd688d581135ce338ca3e0f14",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-3",
+          "file": "game/assets/battle/unit215/ATK-3.png",
+          "source": "media/unitanim/unit215/ATK-3.png",
+          "sha256": "ef62e95470d614172821fe58e39bc52e343479f655bb806b38b5377b3bebb82b",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-4",
+          "file": "game/assets/battle/unit215/ATK-4.png",
+          "source": "media/unitanim/unit215/ATK-4.png",
+          "sha256": "c20060a3a4919c74128d7d204e4db649f100cf16916602d7a26f8656eaf47eec",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-5",
+          "file": "game/assets/battle/unit215/ATK-5.png",
+          "source": "media/unitanim/unit215/ATK-5.png",
+          "sha256": "bbc3f4addb95923371c025ba0c88cfc17c1f90ff9236fc1d4626c7066d071d4c",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-6",
+          "file": "game/assets/battle/unit215/ATK-6.png",
+          "source": "media/unitanim/unit215/ATK-6.png",
+          "sha256": "d4646b4e41cd8667f6376349056b1137fae966303a3c23d0614f070b03da5f7d",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-7",
+          "file": "game/assets/battle/unit215/ATK-7.png",
+          "source": "media/unitanim/unit215/ATK-7.png",
+          "sha256": "591c37538950b4e589915eda7c232f2f84cb7d9c4d1fa19dc6916bbaad6005d6",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-8",
+          "file": "game/assets/battle/unit215/ATK-8.png",
+          "source": "media/unitanim/unit215/ATK-8.png",
+          "sha256": "667dfaef26d477492476220063001aaec1fb6722ec62705f20ebe66eac8849cb",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-9",
+          "file": "game/assets/battle/unit215/ATK-9.png",
+          "source": "media/unitanim/unit215/ATK-9.png",
+          "sha256": "b3c17339ce14a743555e2b870baca9c27704173651f362d20490b24b1518b26f",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-10",
+          "file": "game/assets/battle/unit215/ATK-10.png",
+          "source": "media/unitanim/unit215/ATK-10.png",
+          "sha256": "36044d2e25c9d600bfc9012e021abebfed0c562fede31dccc6f97664c2dcea61",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-11",
+          "file": "game/assets/battle/unit215/ATK-11.png",
+          "source": "media/unitanim/unit215/ATK-11.png",
+          "sha256": "8ddff1cb6337a795e94d777c9fdad79e3e737376cbea0b4eef1983bbc0e96a18",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-12",
+          "file": "game/assets/battle/unit215/ATK-12.png",
+          "source": "media/unitanim/unit215/ATK-12.png",
+          "sha256": "3b96cccd015ae7fe7185f987229dfefa7945d72462c178c946056561a4fb91c7",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-1",
+          "file": "game/assets/battle/unit215/MOV-1.png",
+          "source": "media/unitanim/unit215/MOV-1.png",
+          "sha256": "dc37fe12625c47e87f6e21fcd95d3dcdab33ba258b07de4b6772dfa377fd6f0a",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-2",
+          "file": "game/assets/battle/unit215/MOV-2.png",
+          "source": "media/unitanim/unit215/MOV-2.png",
+          "sha256": "c50187090167f4b6f1e7a25c196cf4340580b14dc0bad2f18e72da24eb52fab5",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-3",
+          "file": "game/assets/battle/unit215/MOV-3.png",
+          "source": "media/unitanim/unit215/MOV-3.png",
+          "sha256": "cd3ffc7c1ec8cd00d3462d289a1442a9badedc7ca0807e52f141ae21233cbd23",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-4",
+          "file": "game/assets/battle/unit215/MOV-4.png",
+          "source": "media/unitanim/unit215/MOV-4.png",
+          "sha256": "d697d5a744215a592d73b830a7e2b91206ce47fb5015f8c248960463413a8345",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-5",
+          "file": "game/assets/battle/unit215/MOV-5.png",
+          "source": "media/unitanim/unit215/MOV-5.png",
+          "sha256": "ba53357ce979c3345bbe51be04f648574233931d7f5b37d415586b9165da7eb1",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-6",
+          "file": "game/assets/battle/unit215/MOV-6.png",
+          "source": "media/unitanim/unit215/MOV-6.png",
+          "sha256": "362133fc0558dbdb7596cbc2388005c3577fe2dc09df6f58c6004cdc8a597182",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-7",
+          "file": "game/assets/battle/unit215/MOV-7.png",
+          "source": "media/unitanim/unit215/MOV-7.png",
+          "sha256": "c9c6800e3b781aaa840c59126a98e5a3e0b5da16bca452947bb952fe088f9b40",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-8",
+          "file": "game/assets/battle/unit215/MOV-8.png",
+          "source": "media/unitanim/unit215/MOV-8.png",
+          "sha256": "f6bcdd288f1582fa83568f49ebb9eb8e3c86e2e664f51929ada1d8bda0204181",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-9",
+          "file": "game/assets/battle/unit215/MOV-9.png",
+          "source": "media/unitanim/unit215/MOV-9.png",
+          "sha256": "646ea006808c167b8bcf2aeca2dcaed73e6018feed46abb1f2f7e24a9299f706",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-10",
+          "file": "game/assets/battle/unit215/MOV-10.png",
+          "source": "media/unitanim/unit215/MOV-10.png",
+          "sha256": "80f0011873091941b74087c9bf586c3551dd8db9b9902beabe6c73d405b2633f",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-11",
+          "file": "game/assets/battle/unit215/MOV-11.png",
+          "source": "media/unitanim/unit215/MOV-11.png",
+          "sha256": "2950e85f3280ea429ef3aa5e1623a5f14e21f6280c74fbb2199c72e934b2ff1d",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-1",
+          "file": "game/assets/battle/unit215/SPC-1.png",
+          "source": "media/unitanim/unit215/SPC-1.png",
+          "sha256": "4df014c69d305e7c9da74acdbd729350c4454f972ad39971ddf1ad2e001c4919",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-2",
+          "file": "game/assets/battle/unit215/SPC-2.png",
+          "source": "media/unitanim/unit215/SPC-2.png",
+          "sha256": "872e49e2f1b2eea4f67a0faa74db500a8c6fc2f3d657acbbfb40e868d75e8d10",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-3",
+          "file": "game/assets/battle/unit215/SPC-3.png",
+          "source": "media/unitanim/unit215/SPC-3.png",
+          "sha256": "b36ccd772138fbb1c9166e53c68b2c53c1d3b8b1e153e6235570fb00efcce210",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-4",
+          "file": "game/assets/battle/unit215/SPC-4.png",
+          "source": "media/unitanim/unit215/SPC-4.png",
+          "sha256": "5f3070398b67a0577996598e189f2a46c4c94f34ea69190d8c6725c16d23a19a",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-5",
+          "file": "game/assets/battle/unit215/SPC-5.png",
+          "source": "media/unitanim/unit215/SPC-5.png",
+          "sha256": "b2459545b2589a3a163690036513c1bbafac215ad2aec4bd256bf96e1c7902a2",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        }
+      ],
+      "footAnchor": {
+        "x": 0.5,
+        "y": 0.7
+      },
+      "releaseMarks": {
+        "origin": "NEW_GAME_PROPOSAL",
+        "basicWindupRatio": 0.35
+      },
+      "states": {
+        "idle": "MOV",
+        "move": "MOV",
+        "attack": "ATK",
+        "cast": "SPC",
+        "hit": "NO_DEDICATED_CLIP",
+        "death": "PRESENTATION_FADE_ONLY"
+      }
+    },
+    {
+      "heroId": "0",
+      "sourceHero": 0,
+      "sourceUnit": 139,
+      "mappingStatus": "STATIC_VERIFIED",
+      "evidence": "HeroData.numSAnim or HeroData.numTeam -> TeamData.numSAnim",
+      "sourceTableHash": "538ecd73c716150275c34f740496def7c85626f1ac2a2470c4f05878237e23c8",
+      "rightsStatus": "REVIEW_REQUIRED",
+      "frames": [
+        {
+          "name": "ATK-1",
+          "file": "game/assets/battle/unit139/ATK-1.png",
+          "source": "media/unitanim/unit139/ATK-1.png",
+          "sha256": "98706267a27ddd159a05b1c36d684595de27239d06a3c90d06c0c58416594999",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-2",
+          "file": "game/assets/battle/unit139/ATK-2.png",
+          "source": "media/unitanim/unit139/ATK-2.png",
+          "sha256": "beda76f4d518c14fb4f88184c91c8d92e78b5b6fc789e4a660aeb5d60ec44b89",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-3",
+          "file": "game/assets/battle/unit139/ATK-3.png",
+          "source": "media/unitanim/unit139/ATK-3.png",
+          "sha256": "9e964efd6a4e164fc175093d6305cbab600484dc1bc1cf1f0f0c3ff0b9b423df",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-4",
+          "file": "game/assets/battle/unit139/ATK-4.png",
+          "source": "media/unitanim/unit139/ATK-4.png",
+          "sha256": "e5dd3e499e7c4cf3f7e3935cb5ca56a85bb9d9a0bc6ada5c9abf4b917a353443",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-5",
+          "file": "game/assets/battle/unit139/ATK-5.png",
+          "source": "media/unitanim/unit139/ATK-5.png",
+          "sha256": "e055b343d732602d6d3abd1ac71fa5243ccabdfc046bb62615ad75215f066cb5",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-6",
+          "file": "game/assets/battle/unit139/ATK-6.png",
+          "source": "media/unitanim/unit139/ATK-6.png",
+          "sha256": "c70142c0ea03a31f370012ca6448646b4a8ef177e4eb9c63acad119ba4ea02a4",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-7",
+          "file": "game/assets/battle/unit139/ATK-7.png",
+          "source": "media/unitanim/unit139/ATK-7.png",
+          "sha256": "ab14c51b4f507b64ca8b4add448a9705b0272e3af69d363a7273b09dd1a80c3a",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-8",
+          "file": "game/assets/battle/unit139/ATK-8.png",
+          "source": "media/unitanim/unit139/ATK-8.png",
+          "sha256": "4f1190ff2ddcb5d47509464b83d1848db93e982d21de084466e4afcf2d23e736",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-9",
+          "file": "game/assets/battle/unit139/ATK-9.png",
+          "source": "media/unitanim/unit139/ATK-9.png",
+          "sha256": "05cab36997f60d79d66f6e12234ea76901e7ac40ef532587f595578ef54933e5",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-10",
+          "file": "game/assets/battle/unit139/ATK-10.png",
+          "source": "media/unitanim/unit139/ATK-10.png",
+          "sha256": "9651683a51ae298e8e359b117fe8dded5f25cc4c73126b502a89296be1e692d2",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-11",
+          "file": "game/assets/battle/unit139/ATK-11.png",
+          "source": "media/unitanim/unit139/ATK-11.png",
+          "sha256": "a3839cbe78d963388007357c8f5bd9e9287ab515070036575230efb99f5de02e",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-12",
+          "file": "game/assets/battle/unit139/ATK-12.png",
+          "source": "media/unitanim/unit139/ATK-12.png",
+          "sha256": "40be1065810665316e096e36d05f1eb8c6a3dd45844165799bd6ece195ce6732",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-1",
+          "file": "game/assets/battle/unit139/MOV-1.png",
+          "source": "media/unitanim/unit139/MOV-1.png",
+          "sha256": "d6bd8bbcb05250ca59f6ab1e44692c2356a42616b1493f7994858d22f1091ef0",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-2",
+          "file": "game/assets/battle/unit139/MOV-2.png",
+          "source": "media/unitanim/unit139/MOV-2.png",
+          "sha256": "f29f1ef23590804fd18e57ea67784d02c4f6cfe221bbcc03c7eac4c8536997bd",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-3",
+          "file": "game/assets/battle/unit139/MOV-3.png",
+          "source": "media/unitanim/unit139/MOV-3.png",
+          "sha256": "2fd5c833eb8d14e991746c1eb236d9007ca106acd9dfd2a9d70bbdcd00cc4f11",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-4",
+          "file": "game/assets/battle/unit139/MOV-4.png",
+          "source": "media/unitanim/unit139/MOV-4.png",
+          "sha256": "51ab0fdd47971b1e2b4ff3cb533cbe4e95124e36bd277ea553e30f0861af1d03",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-5",
+          "file": "game/assets/battle/unit139/MOV-5.png",
+          "source": "media/unitanim/unit139/MOV-5.png",
+          "sha256": "72b01b7d6a2f061352b200dc3bef851d3eb8e3588801e0160f50cac3a2d53180",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-6",
+          "file": "game/assets/battle/unit139/MOV-6.png",
+          "source": "media/unitanim/unit139/MOV-6.png",
+          "sha256": "945b30ce5718381f90cabba8f2ab980f373af44465547e5e6536eeb717188c6a",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-7",
+          "file": "game/assets/battle/unit139/MOV-7.png",
+          "source": "media/unitanim/unit139/MOV-7.png",
+          "sha256": "79e682ed2beb624f61d229dffe1497c4843238bd5bf0fd4883517164b2f7c759",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-8",
+          "file": "game/assets/battle/unit139/MOV-8.png",
+          "source": "media/unitanim/unit139/MOV-8.png",
+          "sha256": "f75cc0e14a531acdf7a8386aca7b14a5e99af4d5980a288b8e381aa43b546a19",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-9",
+          "file": "game/assets/battle/unit139/MOV-9.png",
+          "source": "media/unitanim/unit139/MOV-9.png",
+          "sha256": "7f4aa59cac3683edf9f85672c1c6b1a188268b135857874e9cb22a5ce2797a60",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-10",
+          "file": "game/assets/battle/unit139/MOV-10.png",
+          "source": "media/unitanim/unit139/MOV-10.png",
+          "sha256": "3657b0fab945906bea5149f4ee4d0c8e5327f57d991b9677215d684d94186b4a",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-11",
+          "file": "game/assets/battle/unit139/MOV-11.png",
+          "source": "media/unitanim/unit139/MOV-11.png",
+          "sha256": "8b88e774c68464489f9f7157772d5a875b3b1e06dfc4456253b59fc4f66e1816",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-1",
+          "file": "game/assets/battle/unit139/SPC-1.png",
+          "source": "media/unitanim/unit139/SPC-1.png",
+          "sha256": "f2166e3816e92072abfa7dd6e0cd9217f6ec7c82fbac86bc293c5bd6c43fa382",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-2",
+          "file": "game/assets/battle/unit139/SPC-2.png",
+          "source": "media/unitanim/unit139/SPC-2.png",
+          "sha256": "b1c6942ec141849b91b52b2cc8aa0dd6e9ed4060a590e89a0e5ded9c21bc7805",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-3",
+          "file": "game/assets/battle/unit139/SPC-3.png",
+          "source": "media/unitanim/unit139/SPC-3.png",
+          "sha256": "46aa2298e35c60e7b908dada9f200d10512bb71dafeb0cdb7866e3195ff774d5",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-4",
+          "file": "game/assets/battle/unit139/SPC-4.png",
+          "source": "media/unitanim/unit139/SPC-4.png",
+          "sha256": "281790b179abe4b1b1a752756548b2f09fefca9cf3fe0e9b131cce46d3d724c7",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-5",
+          "file": "game/assets/battle/unit139/SPC-5.png",
+          "source": "media/unitanim/unit139/SPC-5.png",
+          "sha256": "eeccb2622ff6836a7f2db1af96396c57309fdf38724c364833e75b7c987a3b17",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        }
+      ],
+      "footAnchor": {
+        "x": 0.5,
+        "y": 0.7
+      },
+      "releaseMarks": {
+        "origin": "NEW_GAME_PROPOSAL",
+        "basicWindupRatio": 0.35
+      },
+      "states": {
+        "idle": "MOV",
+        "move": "MOV",
+        "attack": "ATK",
+        "cast": "SPC",
+        "hit": "NO_DEDICATED_CLIP",
+        "death": "PRESENTATION_FADE_ONLY"
+      }
+    },
+    {
+      "heroId": "32",
+      "sourceHero": 32,
+      "sourceUnit": 154,
+      "mappingStatus": "STATIC_VERIFIED",
+      "evidence": "HeroData.numSAnim or HeroData.numTeam -> TeamData.numSAnim",
+      "sourceTableHash": "538ecd73c716150275c34f740496def7c85626f1ac2a2470c4f05878237e23c8",
+      "rightsStatus": "REVIEW_REQUIRED",
+      "frames": [
+        {
+          "name": "ATK-1",
+          "file": "game/assets/battle/unit154/ATK-1.png",
+          "source": "media/unitanim/unit154/ATK-1.png",
+          "sha256": "05bc3e98b3353820748a95c858ec5ceaabfdb62aad531c36271aee164be14079",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-2",
+          "file": "game/assets/battle/unit154/ATK-2.png",
+          "source": "media/unitanim/unit154/ATK-2.png",
+          "sha256": "da20ed4dd8121cb6d88f7e6c0a10fc39be36888becb77d5441828b885ecfcdaa",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-3",
+          "file": "game/assets/battle/unit154/ATK-3.png",
+          "source": "media/unitanim/unit154/ATK-3.png",
+          "sha256": "34bf6139fb9f49771f564a6a2e2d377c9b690492723ca9302cefa81ee2432ca9",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-4",
+          "file": "game/assets/battle/unit154/ATK-4.png",
+          "source": "media/unitanim/unit154/ATK-4.png",
+          "sha256": "f8024add6291db3083a51058a80c4b22eafab5530074183de6717643062017df",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-5",
+          "file": "game/assets/battle/unit154/ATK-5.png",
+          "source": "media/unitanim/unit154/ATK-5.png",
+          "sha256": "6d0437196b6c70fad0592f5e4a6f78def1e8679123bd0ce850621e906f71f085",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-6",
+          "file": "game/assets/battle/unit154/ATK-6.png",
+          "source": "media/unitanim/unit154/ATK-6.png",
+          "sha256": "8a1d49cd8c34ef4590cf3708cd0fb8331e622f9736ade3267435cd8437468df2",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-7",
+          "file": "game/assets/battle/unit154/ATK-7.png",
+          "source": "media/unitanim/unit154/ATK-7.png",
+          "sha256": "38394797c911c106d3090c043a9255a634a2ad517b3f6c748231e4750959ad5c",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-8",
+          "file": "game/assets/battle/unit154/ATK-8.png",
+          "source": "media/unitanim/unit154/ATK-8.png",
+          "sha256": "7926ad5360e55f8bd1e0efefd846089e78da37923b45cb8826380a74e3be3e09",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-9",
+          "file": "game/assets/battle/unit154/ATK-9.png",
+          "source": "media/unitanim/unit154/ATK-9.png",
+          "sha256": "201e3910fabb5ba98a62b7f0c21609fdc5cce717d9a6c26e34b992d1ca37749b",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-10",
+          "file": "game/assets/battle/unit154/ATK-10.png",
+          "source": "media/unitanim/unit154/ATK-10.png",
+          "sha256": "e785f66aa501ae0d466a74976c1a04cea62408a4147e91c8390e166447bcae90",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-11",
+          "file": "game/assets/battle/unit154/ATK-11.png",
+          "source": "media/unitanim/unit154/ATK-11.png",
+          "sha256": "cf777f3adba795bbea6d579868048b0a0fca1e254299a1453c3f5f35a5b81d72",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-12",
+          "file": "game/assets/battle/unit154/ATK-12.png",
+          "source": "media/unitanim/unit154/ATK-12.png",
+          "sha256": "ebde38c0cccebd2b57b5b351d3cdc142f5a004963d0316aa0780dca63aecbc8c",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-1",
+          "file": "game/assets/battle/unit154/MOV-1.png",
+          "source": "media/unitanim/unit154/MOV-1.png",
+          "sha256": "ba5acebee89d11cf301f670238afc8eedd7b042e251215e8dc165c67965a632a",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-2",
+          "file": "game/assets/battle/unit154/MOV-2.png",
+          "source": "media/unitanim/unit154/MOV-2.png",
+          "sha256": "3b35fdff36a82dd2f392e50a747c403059012e5a2b50ba90a5a460f7626c42b6",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-3",
+          "file": "game/assets/battle/unit154/MOV-3.png",
+          "source": "media/unitanim/unit154/MOV-3.png",
+          "sha256": "f2418babde9f0e826850d70498cd6c6c2674e64d93fd447d95abca329d221983",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-4",
+          "file": "game/assets/battle/unit154/MOV-4.png",
+          "source": "media/unitanim/unit154/MOV-4.png",
+          "sha256": "6ecd5c2214c4a3ad0e9846bd04d6fe4501c2b3b3a34b0e2f06fdea8fd18ac969",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-5",
+          "file": "game/assets/battle/unit154/MOV-5.png",
+          "source": "media/unitanim/unit154/MOV-5.png",
+          "sha256": "5da07a44f7d38097d49f1ef480892951f43b9205740bd859578b18057799df3a",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-6",
+          "file": "game/assets/battle/unit154/MOV-6.png",
+          "source": "media/unitanim/unit154/MOV-6.png",
+          "sha256": "3b8bce4cfda94b15a49628ba64be35c8b46e71d073a891c0c83b4d2be912c80c",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-7",
+          "file": "game/assets/battle/unit154/MOV-7.png",
+          "source": "media/unitanim/unit154/MOV-7.png",
+          "sha256": "70608d1c185d3b1089082ea8d32ecca70994d768ea2e8c59a12f8690443d5ddd",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-8",
+          "file": "game/assets/battle/unit154/MOV-8.png",
+          "source": "media/unitanim/unit154/MOV-8.png",
+          "sha256": "75a283b5456859c6334621b987158dc81889b3303a2f022599ad7853ae292b8d",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-9",
+          "file": "game/assets/battle/unit154/MOV-9.png",
+          "source": "media/unitanim/unit154/MOV-9.png",
+          "sha256": "ba58e6559c7582ad11fb7eacef915bc74e1c825419936a5fd9737125d1206e0b",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-10",
+          "file": "game/assets/battle/unit154/MOV-10.png",
+          "source": "media/unitanim/unit154/MOV-10.png",
+          "sha256": "ca1a13d80e4071f749d8bf53ce97b4eb0c8a15980df131b558d50d19b3492a65",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-11",
+          "file": "game/assets/battle/unit154/MOV-11.png",
+          "source": "media/unitanim/unit154/MOV-11.png",
+          "sha256": "2e76724ab79a1b6baec8ea83e4e203240065fa2e3c55bbbbe81548df486d771d",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-1",
+          "file": "game/assets/battle/unit154/SPC-1.png",
+          "source": "media/unitanim/unit154/SPC-1.png",
+          "sha256": "12890e92cb96c6a73d70f90618d6bcd6d91fc1505c1a18d454133bb7cc6ee1e5",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-2",
+          "file": "game/assets/battle/unit154/SPC-2.png",
+          "source": "media/unitanim/unit154/SPC-2.png",
+          "sha256": "c7b078f0812b649ab0f08fccbf2ebc66eb1af33c53f91369a685aab208189fb0",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-3",
+          "file": "game/assets/battle/unit154/SPC-3.png",
+          "source": "media/unitanim/unit154/SPC-3.png",
+          "sha256": "28e8ce726d69edfd5fa1ad673815f3244f6ba874bcde7b4c8a8e33d095ede9b1",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-4",
+          "file": "game/assets/battle/unit154/SPC-4.png",
+          "source": "media/unitanim/unit154/SPC-4.png",
+          "sha256": "3f0d861fe70fa28dc8b1cf7a2e2884833300d3ee4fa5c2731dee23939fee3f6f",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-5",
+          "file": "game/assets/battle/unit154/SPC-5.png",
+          "source": "media/unitanim/unit154/SPC-5.png",
+          "sha256": "ca9590daddf713210de91df7b63975a0fca1961f95d44150ceecd99bdd782acd",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        }
+      ],
+      "footAnchor": {
+        "x": 0.5,
+        "y": 0.7
+      },
+      "releaseMarks": {
+        "origin": "NEW_GAME_PROPOSAL",
+        "basicWindupRatio": 0.35
+      },
+      "states": {
+        "idle": "MOV",
+        "move": "MOV",
+        "attack": "ATK",
+        "cast": "SPC",
+        "hit": "NO_DEDICATED_CLIP",
+        "death": "PRESENTATION_FADE_ONLY"
+      }
+    },
+    {
+      "heroId": "33",
+      "sourceHero": 33,
+      "sourceUnit": 244,
+      "mappingStatus": "STATIC_VERIFIED",
+      "evidence": "HeroData.numSAnim or HeroData.numTeam -> TeamData.numSAnim",
+      "sourceTableHash": "538ecd73c716150275c34f740496def7c85626f1ac2a2470c4f05878237e23c8",
+      "rightsStatus": "REVIEW_REQUIRED",
+      "frames": [
+        {
+          "name": "ATK-1",
+          "file": "game/assets/battle/unit244/ATK-1.png",
+          "source": "media/unitanim/unit244/ATK-1.png",
+          "sha256": "6289d5737cb14b820243317bb6e416e65215c268b7880f02b8b9c006a854ed81",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-2",
+          "file": "game/assets/battle/unit244/ATK-2.png",
+          "source": "media/unitanim/unit244/ATK-2.png",
+          "sha256": "6477768bdebca004e1604d2f44a78e0c1bd3623047dd7fea45c55a4162531728",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-3",
+          "file": "game/assets/battle/unit244/ATK-3.png",
+          "source": "media/unitanim/unit244/ATK-3.png",
+          "sha256": "f9c0985994bc86e289daa324aec1f75a0283d5f5ff9c0301540b3c7756968861",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-4",
+          "file": "game/assets/battle/unit244/ATK-4.png",
+          "source": "media/unitanim/unit244/ATK-4.png",
+          "sha256": "bd547b27d92dc05445b334d984548d0d86b16f1a32ad5db76d2e9327832632fb",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-5",
+          "file": "game/assets/battle/unit244/ATK-5.png",
+          "source": "media/unitanim/unit244/ATK-5.png",
+          "sha256": "a0733691006dd27f662f1b483d86bc540f8318b2cb7f78868cdd38a715052424",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-6",
+          "file": "game/assets/battle/unit244/ATK-6.png",
+          "source": "media/unitanim/unit244/ATK-6.png",
+          "sha256": "4e7efacc270325bb732ba5022b43778d520aa53b4bf8dfcbb3ec9055b9c2393c",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-7",
+          "file": "game/assets/battle/unit244/ATK-7.png",
+          "source": "media/unitanim/unit244/ATK-7.png",
+          "sha256": "f6f55f8ebb70e754bc8b76f26846be26c6118faf11640966ebfc843c3462b78a",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-8",
+          "file": "game/assets/battle/unit244/ATK-8.png",
+          "source": "media/unitanim/unit244/ATK-8.png",
+          "sha256": "569aae97e27962a99147638756a4ae929124b2b03cf764466cb964ca157ba823",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-9",
+          "file": "game/assets/battle/unit244/ATK-9.png",
+          "source": "media/unitanim/unit244/ATK-9.png",
+          "sha256": "87332c0bdd4398733cc2a80da8a7a9db0775a7bfec33ab9b57c5e45bb588e411",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-10",
+          "file": "game/assets/battle/unit244/ATK-10.png",
+          "source": "media/unitanim/unit244/ATK-10.png",
+          "sha256": "7f52b1c2eac2c1ab862c04c139d80d74cad1045f5a66dee0ca341835621b02fb",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-11",
+          "file": "game/assets/battle/unit244/ATK-11.png",
+          "source": "media/unitanim/unit244/ATK-11.png",
+          "sha256": "5f934e89f67569e2c46753abae81fb51aab49a9f89f123478b64d1594ee72972",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-12",
+          "file": "game/assets/battle/unit244/ATK-12.png",
+          "source": "media/unitanim/unit244/ATK-12.png",
+          "sha256": "309984fc3d398f311e6785eb3fdbfc2844543cb2844123015cd49a9c2141230e",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-1",
+          "file": "game/assets/battle/unit244/MOV-1.png",
+          "source": "media/unitanim/unit244/MOV-1.png",
+          "sha256": "b92aaabdfe05ad207fecaf96e20b716b3e944b5a5f44c53b59c01631bc7908b0",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-2",
+          "file": "game/assets/battle/unit244/MOV-2.png",
+          "source": "media/unitanim/unit244/MOV-2.png",
+          "sha256": "38ac05da3bf83b8d64bc09e160416ee1b8904f5489115abdc553c7e11192b2ec",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-3",
+          "file": "game/assets/battle/unit244/MOV-3.png",
+          "source": "media/unitanim/unit244/MOV-3.png",
+          "sha256": "6259a40b708d687a63b3f03218788385fa6a602e10c4663b3be5e1715c9db7ea",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-4",
+          "file": "game/assets/battle/unit244/MOV-4.png",
+          "source": "media/unitanim/unit244/MOV-4.png",
+          "sha256": "3d981218c7f9656f8c1929c834d8ba93982bd798768ffbb59ece8a6e3de16c0d",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-5",
+          "file": "game/assets/battle/unit244/MOV-5.png",
+          "source": "media/unitanim/unit244/MOV-5.png",
+          "sha256": "0af758e2f363cbc30e8cb9aa1382498bc2c84e68327589b782565738a6625666",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-6",
+          "file": "game/assets/battle/unit244/MOV-6.png",
+          "source": "media/unitanim/unit244/MOV-6.png",
+          "sha256": "14e4d099103464c243e0e6c1dd3666436d62308df50174baec94afd1cd8fd69c",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-7",
+          "file": "game/assets/battle/unit244/MOV-7.png",
+          "source": "media/unitanim/unit244/MOV-7.png",
+          "sha256": "04ee320e30d6c190aa74d8c365e733b52eb81a751f053a44d16d55050e9efb95",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-8",
+          "file": "game/assets/battle/unit244/MOV-8.png",
+          "source": "media/unitanim/unit244/MOV-8.png",
+          "sha256": "970917889bfd8dbf9e431d66bf4e61a102296469bc2338da91ca16c878cd0881",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-9",
+          "file": "game/assets/battle/unit244/MOV-9.png",
+          "source": "media/unitanim/unit244/MOV-9.png",
+          "sha256": "afaa9f3072278cf28aa82b2eb364762126c2e949a18e032ce923ed3e2245bba9",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-10",
+          "file": "game/assets/battle/unit244/MOV-10.png",
+          "source": "media/unitanim/unit244/MOV-10.png",
+          "sha256": "57d1ed9e71ddad0a22456d298f12f3d85b06a1a666acd4dec515f67ab83b86dc",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-11",
+          "file": "game/assets/battle/unit244/MOV-11.png",
+          "source": "media/unitanim/unit244/MOV-11.png",
+          "sha256": "f99532f760f10a03e1657a6342355eebc9b0da93a2c8aa8a571ba1ce00c322e5",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-1",
+          "file": "game/assets/battle/unit244/SPC-1.png",
+          "source": "media/unitanim/unit244/SPC-1.png",
+          "sha256": "4145d9813fa35ec0a3282b9a7835e070a8a3c23f0b4d74ac07e004f03e5096f2",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-2",
+          "file": "game/assets/battle/unit244/SPC-2.png",
+          "source": "media/unitanim/unit244/SPC-2.png",
+          "sha256": "5409df346ca14ac24e62600dbc58bf14e1a21164ec68621dcec243417919980c",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-3",
+          "file": "game/assets/battle/unit244/SPC-3.png",
+          "source": "media/unitanim/unit244/SPC-3.png",
+          "sha256": "a96a854f37e9d421d2db20e66ad6ca103e33916b8d8d85b4e57dcd23716ec893",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-4",
+          "file": "game/assets/battle/unit244/SPC-4.png",
+          "source": "media/unitanim/unit244/SPC-4.png",
+          "sha256": "b1bb9180657f88619f66aea56ad5bebf856a24fe9c7b081567665a8dabe527fc",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-5",
+          "file": "game/assets/battle/unit244/SPC-5.png",
+          "source": "media/unitanim/unit244/SPC-5.png",
+          "sha256": "9d87768958921540056f7470a2deacb813da78497d25396e9637264f627d85f1",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        }
+      ],
+      "footAnchor": {
+        "x": 0.5,
+        "y": 0.7
+      },
+      "releaseMarks": {
+        "origin": "NEW_GAME_PROPOSAL",
+        "basicWindupRatio": 0.35
+      },
+      "states": {
+        "idle": "MOV",
+        "move": "MOV",
+        "attack": "ATK",
+        "cast": "SPC",
+        "hit": "NO_DEDICATED_CLIP",
+        "death": "PRESENTATION_FADE_ONLY"
+      }
+    },
+    {
+      "heroId": "34",
+      "sourceHero": 34,
+      "sourceUnit": 158,
+      "mappingStatus": "STATIC_VERIFIED",
+      "evidence": "HeroData.numSAnim or HeroData.numTeam -> TeamData.numSAnim",
+      "sourceTableHash": "538ecd73c716150275c34f740496def7c85626f1ac2a2470c4f05878237e23c8",
+      "rightsStatus": "REVIEW_REQUIRED",
+      "frames": [
+        {
+          "name": "ATK-1",
+          "file": "game/assets/battle/unit158/ATK-1.png",
+          "source": "media/unitanim/unit158/ATK-1.png",
+          "sha256": "5a2802147ef523886434210f58f73fc6c657d7a614cc50354aff381538a2ddee",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-2",
+          "file": "game/assets/battle/unit158/ATK-2.png",
+          "source": "media/unitanim/unit158/ATK-2.png",
+          "sha256": "074f491edcb4c1dd3aed5addce6a8a3362499300d778dfd29e6ecbac077db163",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-3",
+          "file": "game/assets/battle/unit158/ATK-3.png",
+          "source": "media/unitanim/unit158/ATK-3.png",
+          "sha256": "f8d872cea08b9ac9b6cce56a35754f2dc89ed8b764a65f79ffdafb1ebba7c6b5",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-4",
+          "file": "game/assets/battle/unit158/ATK-4.png",
+          "source": "media/unitanim/unit158/ATK-4.png",
+          "sha256": "fca6a5d9ccc7342e855d55e622b2da1e9d978ef3417773d0946bb713233ac0fb",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-5",
+          "file": "game/assets/battle/unit158/ATK-5.png",
+          "source": "media/unitanim/unit158/ATK-5.png",
+          "sha256": "f5ae73f945e41113034569b7b275bb83f2f9156af0d47967d5006a5d42dc7e06",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-6",
+          "file": "game/assets/battle/unit158/ATK-6.png",
+          "source": "media/unitanim/unit158/ATK-6.png",
+          "sha256": "8699bbadff20ce53c3fd7ca1e9934155e56808bab48d20777b245f28cd096cc9",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-7",
+          "file": "game/assets/battle/unit158/ATK-7.png",
+          "source": "media/unitanim/unit158/ATK-7.png",
+          "sha256": "7f6dfba32cbe31cd32c7f0e36a73df9a05404521f2294c13f50033a5d344f61e",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-8",
+          "file": "game/assets/battle/unit158/ATK-8.png",
+          "source": "media/unitanim/unit158/ATK-8.png",
+          "sha256": "e383cb8fff46b4add017cc4efdc91cc374442160c48e26af60d5ca2f73494a8c",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-9",
+          "file": "game/assets/battle/unit158/ATK-9.png",
+          "source": "media/unitanim/unit158/ATK-9.png",
+          "sha256": "cdd635f8d7bc158c8dd21ee47f2445f1a77e1b9e5e0c038baf672e6fc5a0bcbd",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-10",
+          "file": "game/assets/battle/unit158/ATK-10.png",
+          "source": "media/unitanim/unit158/ATK-10.png",
+          "sha256": "29ec2060ebdabd066884859c8147976adffb2ef861f02748511ff24be71d189b",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-11",
+          "file": "game/assets/battle/unit158/ATK-11.png",
+          "source": "media/unitanim/unit158/ATK-11.png",
+          "sha256": "babeab5547061963d8d76fa7e6e76f280084dd292ae2112973071f77848283d3",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-12",
+          "file": "game/assets/battle/unit158/ATK-12.png",
+          "source": "media/unitanim/unit158/ATK-12.png",
+          "sha256": "ee95a6f710a074c2af12009fd137871a86857b1e8c7b3403aaba358bc9410105",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-1",
+          "file": "game/assets/battle/unit158/MOV-1.png",
+          "source": "media/unitanim/unit158/MOV-1.png",
+          "sha256": "c3c30413b0e71a272094c35553933f701116617d5972b5ce6595187691b728c4",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-2",
+          "file": "game/assets/battle/unit158/MOV-2.png",
+          "source": "media/unitanim/unit158/MOV-2.png",
+          "sha256": "bacb4c8b43e26a0b93b966cbc2337e81321e71d7b7cb115c7086d1223ce3eea4",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-3",
+          "file": "game/assets/battle/unit158/MOV-3.png",
+          "source": "media/unitanim/unit158/MOV-3.png",
+          "sha256": "525953890e3bbe1238fe898a81b6720bc17bbe801379ad26d96595876cf6ed6f",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-4",
+          "file": "game/assets/battle/unit158/MOV-4.png",
+          "source": "media/unitanim/unit158/MOV-4.png",
+          "sha256": "0455daa677694b890b33341b36af1a392e59a8950785bff7a2e79251365fa01d",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-5",
+          "file": "game/assets/battle/unit158/MOV-5.png",
+          "source": "media/unitanim/unit158/MOV-5.png",
+          "sha256": "ebdbc3176153ef7fcaa4be9e2c6e3e92321d01602fa123311b0ad0b4c8e5f6b3",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-6",
+          "file": "game/assets/battle/unit158/MOV-6.png",
+          "source": "media/unitanim/unit158/MOV-6.png",
+          "sha256": "7846132512fd9400deace1302a6d2e6e8ee0d28d2bf99882cfe665039b017bfd",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-7",
+          "file": "game/assets/battle/unit158/MOV-7.png",
+          "source": "media/unitanim/unit158/MOV-7.png",
+          "sha256": "e3818a2b67fcc1a314b6ad34fe55bdb39fb6f31d2282a667175922c6d880dadb",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-8",
+          "file": "game/assets/battle/unit158/MOV-8.png",
+          "source": "media/unitanim/unit158/MOV-8.png",
+          "sha256": "d35878c50c8c0586ea2fe7c9c7c0a6463fe09e2c1ca29bf2e0f06837af670239",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-9",
+          "file": "game/assets/battle/unit158/MOV-9.png",
+          "source": "media/unitanim/unit158/MOV-9.png",
+          "sha256": "6d84128dc560759fb760f62455d5e091a29d8c9a276437beb1af8a075e9bf22d",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-10",
+          "file": "game/assets/battle/unit158/MOV-10.png",
+          "source": "media/unitanim/unit158/MOV-10.png",
+          "sha256": "ea7640a2b05bbf02123a44ff0ea7a54aa54c6f37d1fa31a55c63a94795bd6167",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-11",
+          "file": "game/assets/battle/unit158/MOV-11.png",
+          "source": "media/unitanim/unit158/MOV-11.png",
+          "sha256": "6c50a6dce7e40b7238b5fa997193859f00fc9373b5b8d6d4e38766f2cad89c64",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-1",
+          "file": "game/assets/battle/unit158/SPC-1.png",
+          "source": "media/unitanim/unit158/SPC-1.png",
+          "sha256": "345d71ae1c0458a9b7ccbd84821939fd664221a3f8560c5c561307b2e7d60a88",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-2",
+          "file": "game/assets/battle/unit158/SPC-2.png",
+          "source": "media/unitanim/unit158/SPC-2.png",
+          "sha256": "5cf161c5f4fbf20139c5742cf7c680e8a699222db2ab5dd9a2d80532cb580122",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-3",
+          "file": "game/assets/battle/unit158/SPC-3.png",
+          "source": "media/unitanim/unit158/SPC-3.png",
+          "sha256": "ce22262c4964c2285d23cfc0a3df14bebc07262c11e7c81d1f74a616ae738a5d",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-4",
+          "file": "game/assets/battle/unit158/SPC-4.png",
+          "source": "media/unitanim/unit158/SPC-4.png",
+          "sha256": "0710b2f3a7143104846b913f958fad3b67af267c855bf19f5629cb12ef708ca9",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-5",
+          "file": "game/assets/battle/unit158/SPC-5.png",
+          "source": "media/unitanim/unit158/SPC-5.png",
+          "sha256": "ed6dcee0e50019f1eeba3ca7d0efc5b9ab2b02c56933d15965b0e75189fe4f68",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        }
+      ],
+      "footAnchor": {
+        "x": 0.5,
+        "y": 0.7
+      },
+      "releaseMarks": {
+        "origin": "NEW_GAME_PROPOSAL",
+        "basicWindupRatio": 0.35
+      },
+      "states": {
+        "idle": "MOV",
+        "move": "MOV",
+        "attack": "ATK",
+        "cast": "SPC",
+        "hit": "NO_DEDICATED_CLIP",
+        "death": "PRESENTATION_FADE_ONLY"
+      }
+    },
+    {
+      "heroId": "77",
+      "sourceHero": 77,
+      "sourceUnit": 176,
+      "mappingStatus": "STATIC_VERIFIED",
+      "evidence": "HeroData.numSAnim or HeroData.numTeam -> TeamData.numSAnim",
+      "sourceTableHash": "538ecd73c716150275c34f740496def7c85626f1ac2a2470c4f05878237e23c8",
+      "rightsStatus": "REVIEW_REQUIRED",
+      "frames": [
+        {
+          "name": "ATK-1",
+          "file": "game/assets/battle/unit176/ATK-1.png",
+          "source": "media/unitanim/unit176/ATK-1.png",
+          "sha256": "2f2d014b9377d027b6a8d4af10c5076f16e306ea49327cfe7aea4dc4c32161bc",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-2",
+          "file": "game/assets/battle/unit176/ATK-2.png",
+          "source": "media/unitanim/unit176/ATK-2.png",
+          "sha256": "5d61e97057e1b30989341893641d43cbb36876737ac73e2b135e365dda19aa8a",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-3",
+          "file": "game/assets/battle/unit176/ATK-3.png",
+          "source": "media/unitanim/unit176/ATK-3.png",
+          "sha256": "7bc2db4481ea76802c5a59ed32c16698e2c805566849e851f3c9d8828d2e40f5",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-4",
+          "file": "game/assets/battle/unit176/ATK-4.png",
+          "source": "media/unitanim/unit176/ATK-4.png",
+          "sha256": "637d783eab799c6a5ab7d1cdd4bc7f2fa2c3d62cf21eb3787cf54567274c65bd",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-5",
+          "file": "game/assets/battle/unit176/ATK-5.png",
+          "source": "media/unitanim/unit176/ATK-5.png",
+          "sha256": "faaf65297674b8a4c18c611603e04c2206f1b5f69bfa4cc5fc0565d4067bb13b",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-6",
+          "file": "game/assets/battle/unit176/ATK-6.png",
+          "source": "media/unitanim/unit176/ATK-6.png",
+          "sha256": "478572a30184d099d072deca7beca51dfb9df0ddfe460f67d0dd56c904a3fd63",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-7",
+          "file": "game/assets/battle/unit176/ATK-7.png",
+          "source": "media/unitanim/unit176/ATK-7.png",
+          "sha256": "87fa8621ffb60c865d1b38762b71c898f1aa45c54910b00df3fd8f6b2a62ab4d",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-8",
+          "file": "game/assets/battle/unit176/ATK-8.png",
+          "source": "media/unitanim/unit176/ATK-8.png",
+          "sha256": "a78a44970f8adfd54beee2aa41ab454587eaaacbb766a7acc2ccc3d2bd5468e2",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-9",
+          "file": "game/assets/battle/unit176/ATK-9.png",
+          "source": "media/unitanim/unit176/ATK-9.png",
+          "sha256": "fd243d6b0757b34b500634c84bb92f50253e0f633a4a7fff2a27b45d4bee6f6e",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-10",
+          "file": "game/assets/battle/unit176/ATK-10.png",
+          "source": "media/unitanim/unit176/ATK-10.png",
+          "sha256": "3db549cb03183030033f165dcc4713a7f5a59fe10c20d25ad1b1c50884a7a481",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-11",
+          "file": "game/assets/battle/unit176/ATK-11.png",
+          "source": "media/unitanim/unit176/ATK-11.png",
+          "sha256": "a66853ab4e440cb94d318d6c76d611f1f6aafe1d1714b8eea0d297e7fbceaa21",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-12",
+          "file": "game/assets/battle/unit176/ATK-12.png",
+          "source": "media/unitanim/unit176/ATK-12.png",
+          "sha256": "abb211e5ea3cb331764ad6922820c5b64f9b01c2f227b511d82fc05e09bede2d",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-1",
+          "file": "game/assets/battle/unit176/MOV-1.png",
+          "source": "media/unitanim/unit176/MOV-1.png",
+          "sha256": "ccdae933d5ff7bee35884a314493d462982ff6d588d2fcda75f03f3632035dff",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-2",
+          "file": "game/assets/battle/unit176/MOV-2.png",
+          "source": "media/unitanim/unit176/MOV-2.png",
+          "sha256": "35eba05dd4a67521c10f771d8303208d34025a787f135d59c69d485c54f10c5a",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-3",
+          "file": "game/assets/battle/unit176/MOV-3.png",
+          "source": "media/unitanim/unit176/MOV-3.png",
+          "sha256": "e4caaa9801f4d4182a7af4fa293918e1d008e85e57ac6294ede97f620774cc30",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-4",
+          "file": "game/assets/battle/unit176/MOV-4.png",
+          "source": "media/unitanim/unit176/MOV-4.png",
+          "sha256": "2c1a62022e06528f84f05c0017877fc80061b9a8176159c94fa649ed4d665c9a",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-5",
+          "file": "game/assets/battle/unit176/MOV-5.png",
+          "source": "media/unitanim/unit176/MOV-5.png",
+          "sha256": "971223342d3dc8ad1653d241263122cbe68bf78a9bc5d57798ad294bf6f6eaa0",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-6",
+          "file": "game/assets/battle/unit176/MOV-6.png",
+          "source": "media/unitanim/unit176/MOV-6.png",
+          "sha256": "0543ddab272be367cd23342e6af7d9cfcfea4d8b88ae1127afa0308dd15aa781",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-7",
+          "file": "game/assets/battle/unit176/MOV-7.png",
+          "source": "media/unitanim/unit176/MOV-7.png",
+          "sha256": "12cdef8347971532c41e955e1498f32e92332e61dc1a8f7d174b260f590de989",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-8",
+          "file": "game/assets/battle/unit176/MOV-8.png",
+          "source": "media/unitanim/unit176/MOV-8.png",
+          "sha256": "cb0042fde0e3c2f5bdd10ba3bc0f16de86085a60b41f79aa871d5c71fa9cf8d2",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-9",
+          "file": "game/assets/battle/unit176/MOV-9.png",
+          "source": "media/unitanim/unit176/MOV-9.png",
+          "sha256": "da0df6a33e6d067c336cb84ac3e2b28fc0187ada69714d17a54d03ceb8f007d6",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-10",
+          "file": "game/assets/battle/unit176/MOV-10.png",
+          "source": "media/unitanim/unit176/MOV-10.png",
+          "sha256": "8e8e00e5f5edd168f444fca87c413daef3a47aa66caff473ab03406ee87011b5",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-11",
+          "file": "game/assets/battle/unit176/MOV-11.png",
+          "source": "media/unitanim/unit176/MOV-11.png",
+          "sha256": "1f77eb4ef203f75109a462acde7ebbb95d4cf48324ec167a82350998dec3678a",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-1",
+          "file": "game/assets/battle/unit176/SPC-1.png",
+          "source": "media/unitanim/unit176/SPC-1.png",
+          "sha256": "f99eb98309286bfebb2b4e2263f4503d320ac9a19303426d39b349ce01d79145",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-2",
+          "file": "game/assets/battle/unit176/SPC-2.png",
+          "source": "media/unitanim/unit176/SPC-2.png",
+          "sha256": "4b83f0c8b1839ed36b349173e8e1f4a6d9ede2a23a9a67872394efd1f8b5fcf1",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-3",
+          "file": "game/assets/battle/unit176/SPC-3.png",
+          "source": "media/unitanim/unit176/SPC-3.png",
+          "sha256": "14998ffd4aafbfe522f9981a399aa07e55f026ff604b14aa854fc6f6a5975822",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-4",
+          "file": "game/assets/battle/unit176/SPC-4.png",
+          "source": "media/unitanim/unit176/SPC-4.png",
+          "sha256": "718592326511ae0094e1166dd201d50977ba0f7ff518ad24e6be44f12cea59e8",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-5",
+          "file": "game/assets/battle/unit176/SPC-5.png",
+          "source": "media/unitanim/unit176/SPC-5.png",
+          "sha256": "7514b3cedef7e485f9d461718455eb79d6e383cf7a73f635371fa5c26945dbe8",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        }
+      ],
+      "footAnchor": {
+        "x": 0.5,
+        "y": 0.7
+      },
+      "releaseMarks": {
+        "origin": "NEW_GAME_PROPOSAL",
+        "basicWindupRatio": 0.35
+      },
+      "states": {
+        "idle": "MOV",
+        "move": "MOV",
+        "attack": "ATK",
+        "cast": "SPC",
+        "hit": "NO_DEDICATED_CLIP",
+        "death": "PRESENTATION_FADE_ONLY"
+      }
+    },
+    {
+      "heroId": "119",
+      "sourceHero": 119,
+      "sourceUnit": 163,
+      "mappingStatus": "STATIC_VERIFIED",
+      "evidence": "HeroData.numSAnim or HeroData.numTeam -> TeamData.numSAnim",
+      "sourceTableHash": "538ecd73c716150275c34f740496def7c85626f1ac2a2470c4f05878237e23c8",
+      "rightsStatus": "REVIEW_REQUIRED",
+      "frames": [
+        {
+          "name": "ATK-1",
+          "file": "game/assets/battle/unit163/ATK-1.png",
+          "source": "media/unitanim/unit163/ATK-1.png",
+          "sha256": "6df2cbdb0fa882ec2c161f2156f2e0d5603b5192680a9a4ae5722ffdb25ba234",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-2",
+          "file": "game/assets/battle/unit163/ATK-2.png",
+          "source": "media/unitanim/unit163/ATK-2.png",
+          "sha256": "68bdabc07db90a5305933ffcb2dbb5c7ac258c632dca7fe8da72f1262de5f366",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-3",
+          "file": "game/assets/battle/unit163/ATK-3.png",
+          "source": "media/unitanim/unit163/ATK-3.png",
+          "sha256": "dc347e17b81e1547542f242fb96258c5c962a2f37843066e693e0d7f28227b97",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-4",
+          "file": "game/assets/battle/unit163/ATK-4.png",
+          "source": "media/unitanim/unit163/ATK-4.png",
+          "sha256": "c13f68f9fb9320f7be87883a4d68b1877d72fbcc311ffa68c8ad2117cb02f070",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-5",
+          "file": "game/assets/battle/unit163/ATK-5.png",
+          "source": "media/unitanim/unit163/ATK-5.png",
+          "sha256": "23b87c51c90bdf96cecdea31aabd0a3de11194d9e2f0683bbbe7486d4a2669ac",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-6",
+          "file": "game/assets/battle/unit163/ATK-6.png",
+          "source": "media/unitanim/unit163/ATK-6.png",
+          "sha256": "4fab6bdbacfdf76ebb72858f9ae29bbbd7d89d23874be10af8ce6dc15ad71635",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-7",
+          "file": "game/assets/battle/unit163/ATK-7.png",
+          "source": "media/unitanim/unit163/ATK-7.png",
+          "sha256": "c065fac007a0d4d4a6354ca5d54a792911df64ae732f2dca01855b13c2b4c97b",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-8",
+          "file": "game/assets/battle/unit163/ATK-8.png",
+          "source": "media/unitanim/unit163/ATK-8.png",
+          "sha256": "d496c3bc9a6228306fa03955de24552e1015e1a4db83394bbba6f96a62190dcd",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-9",
+          "file": "game/assets/battle/unit163/ATK-9.png",
+          "source": "media/unitanim/unit163/ATK-9.png",
+          "sha256": "3bc13deeabbdd744b6d32863ff683d6786476ebc43c86ceb0704db2dadf4f4ec",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-10",
+          "file": "game/assets/battle/unit163/ATK-10.png",
+          "source": "media/unitanim/unit163/ATK-10.png",
+          "sha256": "3898bf381933ebfa4ec171f04fd832b6b0fa1046a13c5adf673c5970717a082d",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-11",
+          "file": "game/assets/battle/unit163/ATK-11.png",
+          "source": "media/unitanim/unit163/ATK-11.png",
+          "sha256": "fb0d4c73c7292adefb3fc2da42a284c897758d81278ee0ecd6cac25773a86af0",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-12",
+          "file": "game/assets/battle/unit163/ATK-12.png",
+          "source": "media/unitanim/unit163/ATK-12.png",
+          "sha256": "2aa3d6b8d5e3541be45728f71e0c02c92632126b39b90c193e15d98d85e8dbbc",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-1",
+          "file": "game/assets/battle/unit163/MOV-1.png",
+          "source": "media/unitanim/unit163/MOV-1.png",
+          "sha256": "7c83640044169fde668dc5d7001811d94d6defb744a55a2900b0a4c5d415569b",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-2",
+          "file": "game/assets/battle/unit163/MOV-2.png",
+          "source": "media/unitanim/unit163/MOV-2.png",
+          "sha256": "4762d86ac30499801eb8d84dbb01614efdf74d03aa5fb06426dcdde9fd7da2ee",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-3",
+          "file": "game/assets/battle/unit163/MOV-3.png",
+          "source": "media/unitanim/unit163/MOV-3.png",
+          "sha256": "87d0e1073cd30d3089c3d192a86ec24e713d23b4f722593354a68ca5b0362c01",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-4",
+          "file": "game/assets/battle/unit163/MOV-4.png",
+          "source": "media/unitanim/unit163/MOV-4.png",
+          "sha256": "f2b74fe53bcaa6ac696865f831970940c9fd7fa2383e59900aed836de7c9e7aa",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-5",
+          "file": "game/assets/battle/unit163/MOV-5.png",
+          "source": "media/unitanim/unit163/MOV-5.png",
+          "sha256": "93fe75d048f982b24ee1e687832fbb87dc2c52b0ba6b2e7983ac6b50c29d410f",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-6",
+          "file": "game/assets/battle/unit163/MOV-6.png",
+          "source": "media/unitanim/unit163/MOV-6.png",
+          "sha256": "9045d77e320a398db03222bf74f73638e8a568eac1b07bda0fe14588501b1ccc",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-7",
+          "file": "game/assets/battle/unit163/MOV-7.png",
+          "source": "media/unitanim/unit163/MOV-7.png",
+          "sha256": "b16284bd27499878d93ac15e8146ad230c7bfaa466462832c213c87d4df6b8dd",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-8",
+          "file": "game/assets/battle/unit163/MOV-8.png",
+          "source": "media/unitanim/unit163/MOV-8.png",
+          "sha256": "4abfb521dac5e02b81fa44b46b4651e35de9d02c894a99bb0c2e96859394bd28",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-9",
+          "file": "game/assets/battle/unit163/MOV-9.png",
+          "source": "media/unitanim/unit163/MOV-9.png",
+          "sha256": "76342276832e35ce3081b115c273d2f8f972fe375bbca4868d42212794be6cd3",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-10",
+          "file": "game/assets/battle/unit163/MOV-10.png",
+          "source": "media/unitanim/unit163/MOV-10.png",
+          "sha256": "e8dd93f0ee0ba8a37f17b62ede20a680f1b505c4e7c1b56d40f09fed0efa8492",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-11",
+          "file": "game/assets/battle/unit163/MOV-11.png",
+          "source": "media/unitanim/unit163/MOV-11.png",
+          "sha256": "a34b2ced6ccabfe2f25d11b24f11a040939cc46db2a09b3bb84e530625201b37",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-1",
+          "file": "game/assets/battle/unit163/SPC-1.png",
+          "source": "media/unitanim/unit163/SPC-1.png",
+          "sha256": "7db219ecb8d451d6909d98540ce81cfb5c22c17685539084b02dccda1f30275d",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-2",
+          "file": "game/assets/battle/unit163/SPC-2.png",
+          "source": "media/unitanim/unit163/SPC-2.png",
+          "sha256": "b974af4e3d6aa15658547d7f056dfba2469498be2eefde3b934b4e90736d6e28",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-3",
+          "file": "game/assets/battle/unit163/SPC-3.png",
+          "source": "media/unitanim/unit163/SPC-3.png",
+          "sha256": "288dcfcdfbbdfe349b935a104849a278b77bbb230be9dd648740d9503ac7335a",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-4",
+          "file": "game/assets/battle/unit163/SPC-4.png",
+          "source": "media/unitanim/unit163/SPC-4.png",
+          "sha256": "a7890f9415f4f83acd3d326821b83725f032b431b841c6a52c7365ca71514f9b",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-5",
+          "file": "game/assets/battle/unit163/SPC-5.png",
+          "source": "media/unitanim/unit163/SPC-5.png",
+          "sha256": "3516951f4b72c60a749e9ad83dae04b1ccc317548a5d97b4da0750f7199cf52f",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        }
+      ],
+      "footAnchor": {
+        "x": 0.5,
+        "y": 0.7
+      },
+      "releaseMarks": {
+        "origin": "NEW_GAME_PROPOSAL",
+        "basicWindupRatio": 0.35
+      },
+      "states": {
+        "idle": "MOV",
+        "move": "MOV",
+        "attack": "ATK",
+        "cast": "SPC",
+        "hit": "NO_DEDICATED_CLIP",
+        "death": "PRESENTATION_FADE_ONLY"
+      }
+    },
+    {
+      "heroId": "infantry",
+      "sourceHero": 210,
+      "sourceUnit": 0,
+      "mappingStatus": "STATIC_VERIFIED",
+      "evidence": "HeroData.numSAnim or HeroData.numTeam -> TeamData.numSAnim",
+      "sourceTableHash": "538ecd73c716150275c34f740496def7c85626f1ac2a2470c4f05878237e23c8",
+      "rightsStatus": "REVIEW_REQUIRED",
+      "frames": [
+        {
+          "name": "ATK-1",
+          "file": "game/assets/battle/unit0/ATK-1.png",
+          "source": "media/unitanim/unit0/ATK-1.png",
+          "sha256": "1b0a556b9795d05732ff40b4824d810bb4745f20f7702f590141e1e0c1f37b6a",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-2",
+          "file": "game/assets/battle/unit0/ATK-2.png",
+          "source": "media/unitanim/unit0/ATK-2.png",
+          "sha256": "69b78434fdf4018946d29d446651f78cb29cc85b88db6ce907f7ac976f50b198",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-3",
+          "file": "game/assets/battle/unit0/ATK-3.png",
+          "source": "media/unitanim/unit0/ATK-3.png",
+          "sha256": "2a77fb08e5565f80bae8630bb8b391461a0a45580ae9b04cc42dee7127b19f72",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-4",
+          "file": "game/assets/battle/unit0/ATK-4.png",
+          "source": "media/unitanim/unit0/ATK-4.png",
+          "sha256": "5371c4f93601cb7ad1d90b328d2823390d7c855a886739ce83b18ae38f004967",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-5",
+          "file": "game/assets/battle/unit0/ATK-5.png",
+          "source": "media/unitanim/unit0/ATK-5.png",
+          "sha256": "582e103b41b470ea1313adf4daf24376e8be0e10adf89d45abc157a96ac4302f",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-6",
+          "file": "game/assets/battle/unit0/ATK-6.png",
+          "source": "media/unitanim/unit0/ATK-6.png",
+          "sha256": "1c2088b8537500ea31df55fbbccffcb6987b0284f625be1ee1cc29933a557242",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-7",
+          "file": "game/assets/battle/unit0/ATK-7.png",
+          "source": "media/unitanim/unit0/ATK-7.png",
+          "sha256": "19e0f4307245ae8c4afe7b49b25b372ee16c084b08b0cacbcb0b0779e7e2be69",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-8",
+          "file": "game/assets/battle/unit0/ATK-8.png",
+          "source": "media/unitanim/unit0/ATK-8.png",
+          "sha256": "ac5d23d0bffae13664fb96c6aeae7587507cf627e9fd98e65895643fdf563ed6",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-9",
+          "file": "game/assets/battle/unit0/ATK-9.png",
+          "source": "media/unitanim/unit0/ATK-9.png",
+          "sha256": "80875b814958d174cf41063a1bc33619f4c7a917b138f7d2c076c83293a99e3d",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-10",
+          "file": "game/assets/battle/unit0/ATK-10.png",
+          "source": "media/unitanim/unit0/ATK-10.png",
+          "sha256": "e57a36b02efd70b0950f2b42cef1cb3ee814a68040b1efe251514d1223f49ecf",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-11",
+          "file": "game/assets/battle/unit0/ATK-11.png",
+          "source": "media/unitanim/unit0/ATK-11.png",
+          "sha256": "8890358318eb7e9f250ebbcb094eb73531bcef2d68ff1bdab87ef026300e15d0",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-12",
+          "file": "game/assets/battle/unit0/ATK-12.png",
+          "source": "media/unitanim/unit0/ATK-12.png",
+          "sha256": "d887499193bc969e61bb59dfaace67c08e9087504da6a8256709e5a3e12cb441",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-1",
+          "file": "game/assets/battle/unit0/MOV-1.png",
+          "source": "media/unitanim/unit0/MOV-1.png",
+          "sha256": "0e2c8164becdc42079612d25d513418b511c049821589021e33b2fdecf490412",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-2",
+          "file": "game/assets/battle/unit0/MOV-2.png",
+          "source": "media/unitanim/unit0/MOV-2.png",
+          "sha256": "734691caf8f5a66a9e99a65ed75ee5f1587387404f6fb395e98eea2a781f934a",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-3",
+          "file": "game/assets/battle/unit0/MOV-3.png",
+          "source": "media/unitanim/unit0/MOV-3.png",
+          "sha256": "01cfc4d3c28ae6bf8517a81fa71069568972c3c2712ed3098eec50cac8f8a60d",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-4",
+          "file": "game/assets/battle/unit0/MOV-4.png",
+          "source": "media/unitanim/unit0/MOV-4.png",
+          "sha256": "5d732afd125fc9c67b8112c6e23704f1d797e743e2de32f1f2a4c4bf56471c28",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-5",
+          "file": "game/assets/battle/unit0/MOV-5.png",
+          "source": "media/unitanim/unit0/MOV-5.png",
+          "sha256": "280848e547c88b72ecb240f4871cb3dd95c099c1908a8c9bf3c56cb3e55cbfec",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-6",
+          "file": "game/assets/battle/unit0/MOV-6.png",
+          "source": "media/unitanim/unit0/MOV-6.png",
+          "sha256": "da4e7a89b92e4ed6b7d0f0bf8a759875a3a847203e574420102b397435ee88e3",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-7",
+          "file": "game/assets/battle/unit0/MOV-7.png",
+          "source": "media/unitanim/unit0/MOV-7.png",
+          "sha256": "de820e9eaa538115c73b511f77c7770048a261e1d2402f4668a19db5bffb2147",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-8",
+          "file": "game/assets/battle/unit0/MOV-8.png",
+          "source": "media/unitanim/unit0/MOV-8.png",
+          "sha256": "c6412360b0277d4dac7d37557d905c15f58e190012b9d3af0b9e713ad51e1062",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-9",
+          "file": "game/assets/battle/unit0/MOV-9.png",
+          "source": "media/unitanim/unit0/MOV-9.png",
+          "sha256": "b4b9b2edb02859e47f0affa72f510b5973889d764dedb7ae756491e805e97fb6",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-10",
+          "file": "game/assets/battle/unit0/MOV-10.png",
+          "source": "media/unitanim/unit0/MOV-10.png",
+          "sha256": "60a375ccb1f8dd78733f8f3b7ae92697bdd93a3f434b8d9c3ba119ce7877ccee",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-11",
+          "file": "game/assets/battle/unit0/MOV-11.png",
+          "source": "media/unitanim/unit0/MOV-11.png",
+          "sha256": "14eac43e7c404b6dd7e6348048591b6ddff8fc30add6f81bc47f14e962c7e48c",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-1",
+          "file": "game/assets/battle/unit0/SPC-1.png",
+          "source": "media/unitanim/unit0/SPC-1.png",
+          "sha256": "bcb87ec1d5943bdaf534f1454ac92935443845b51203c42868157f8cfdf15cad",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-2",
+          "file": "game/assets/battle/unit0/SPC-2.png",
+          "source": "media/unitanim/unit0/SPC-2.png",
+          "sha256": "7dbe4ccf2047d226b96d64d62e28a8438d58de80ebf31370d074282766c5db0f",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-3",
+          "file": "game/assets/battle/unit0/SPC-3.png",
+          "source": "media/unitanim/unit0/SPC-3.png",
+          "sha256": "86703f5558f115a51fe1e661a40a793cda4a60716ea9dfeb5091f78caee75ef3",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-4",
+          "file": "game/assets/battle/unit0/SPC-4.png",
+          "source": "media/unitanim/unit0/SPC-4.png",
+          "sha256": "90b614e7abd2b53712508f863f6cb8190e1b7000c0f12aa46f70f44f53b60b41",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-5",
+          "file": "game/assets/battle/unit0/SPC-5.png",
+          "source": "media/unitanim/unit0/SPC-5.png",
+          "sha256": "7576ebd01ebed11e9ccc92079bf208fd53a2cdd5120892dff4de9d0be9034243",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        }
+      ],
+      "footAnchor": {
+        "x": 0.5,
+        "y": 0.7
+      },
+      "releaseMarks": {
+        "origin": "NEW_GAME_PROPOSAL",
+        "basicWindupRatio": 0.35
+      },
+      "states": {
+        "idle": "MOV",
+        "move": "MOV",
+        "attack": "ATK",
+        "cast": "SPC",
+        "hit": "NO_DEDICATED_CLIP",
+        "death": "PRESENTATION_FADE_ONLY"
+      }
+    },
+    {
+      "heroId": "archer",
+      "sourceHero": 234,
+      "sourceUnit": 18,
+      "mappingStatus": "STATIC_VERIFIED",
+      "evidence": "HeroData.numSAnim or HeroData.numTeam -> TeamData.numSAnim",
+      "sourceTableHash": "538ecd73c716150275c34f740496def7c85626f1ac2a2470c4f05878237e23c8",
+      "rightsStatus": "REVIEW_REQUIRED",
+      "frames": [
+        {
+          "name": "ATK-1",
+          "file": "game/assets/battle/unit18/ATK-1.png",
+          "source": "media/unitanim/unit18/ATK-1.png",
+          "sha256": "7c5234fc4314232daee4dfa000f6e9779a297f150ef0f5f70fb627027a90d8e5",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-2",
+          "file": "game/assets/battle/unit18/ATK-2.png",
+          "source": "media/unitanim/unit18/ATK-2.png",
+          "sha256": "ae4bebc6de5bc6c18e8900bb15e6292a3e54b0a1adf2f80dd2843a6bdcb481e6",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-3",
+          "file": "game/assets/battle/unit18/ATK-3.png",
+          "source": "media/unitanim/unit18/ATK-3.png",
+          "sha256": "56c220f98f3830ea7af210d7aa16ecebcb77adcbfd4c4b82f117299313232057",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-4",
+          "file": "game/assets/battle/unit18/ATK-4.png",
+          "source": "media/unitanim/unit18/ATK-4.png",
+          "sha256": "c155ee3e73982f366b2951d0670af1fa4acd34f961e4b826717d125ab02a6ecb",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-5",
+          "file": "game/assets/battle/unit18/ATK-5.png",
+          "source": "media/unitanim/unit18/ATK-5.png",
+          "sha256": "285793e835900a92b06c94f467479943ee13d9d864b73eb5960a80331bf03123",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-6",
+          "file": "game/assets/battle/unit18/ATK-6.png",
+          "source": "media/unitanim/unit18/ATK-6.png",
+          "sha256": "bbfc2858cfc782ba876fcd5d85f52cb8caa32e16b8335fde16df120ff1165d67",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-7",
+          "file": "game/assets/battle/unit18/ATK-7.png",
+          "source": "media/unitanim/unit18/ATK-7.png",
+          "sha256": "85daed7b88c7f4dab1da1c08f6c1bf8476a3f69edb71e5333525698b65198761",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-8",
+          "file": "game/assets/battle/unit18/ATK-8.png",
+          "source": "media/unitanim/unit18/ATK-8.png",
+          "sha256": "10113f4aea221e925dab9db16dd7a0625bed9524746e7bdcdee6ac6d245501dc",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-9",
+          "file": "game/assets/battle/unit18/ATK-9.png",
+          "source": "media/unitanim/unit18/ATK-9.png",
+          "sha256": "0b695541b44a0e62566ec1c0cb09504f411f4dd4159fa104aa4f384ea601147d",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-10",
+          "file": "game/assets/battle/unit18/ATK-10.png",
+          "source": "media/unitanim/unit18/ATK-10.png",
+          "sha256": "096c369cafb37bb89eced8dde86e7a5b6aa740abede1284db2f2b27d5ea5b92d",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-11",
+          "file": "game/assets/battle/unit18/ATK-11.png",
+          "source": "media/unitanim/unit18/ATK-11.png",
+          "sha256": "f315edb69e91fcef722115356a334a0974a2a121091dfdd233f4fc9e18a4e191",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-12",
+          "file": "game/assets/battle/unit18/ATK-12.png",
+          "source": "media/unitanim/unit18/ATK-12.png",
+          "sha256": "32c344f314a6c2bda3dbe019573d15c09035fe5040064af15b7613c9aa479eb3",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-1",
+          "file": "game/assets/battle/unit18/MOV-1.png",
+          "source": "media/unitanim/unit18/MOV-1.png",
+          "sha256": "433a70102ac9741fd1467a1426d0f37559a7bc6ed42027544a3929be3b96add6",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-2",
+          "file": "game/assets/battle/unit18/MOV-2.png",
+          "source": "media/unitanim/unit18/MOV-2.png",
+          "sha256": "ef2106af427f305a75fa4ab7ffb1c43554fecc86a9194c9be5c5dcc573aa9a79",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-3",
+          "file": "game/assets/battle/unit18/MOV-3.png",
+          "source": "media/unitanim/unit18/MOV-3.png",
+          "sha256": "9fd2bda56f3302bb743786209271ab6de276d6b53c00c092772193924243526b",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-4",
+          "file": "game/assets/battle/unit18/MOV-4.png",
+          "source": "media/unitanim/unit18/MOV-4.png",
+          "sha256": "5e63945cef6612ae057f790ee83f8b75f5df699dadd869b6274fec4f90e8839a",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-5",
+          "file": "game/assets/battle/unit18/MOV-5.png",
+          "source": "media/unitanim/unit18/MOV-5.png",
+          "sha256": "fce28d2e9e2b9b932866f0d04f94a89c17685cf486a20764215b9e6ba65c8b6a",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-6",
+          "file": "game/assets/battle/unit18/MOV-6.png",
+          "source": "media/unitanim/unit18/MOV-6.png",
+          "sha256": "b17d76c0efabff3f85121c7da92bde108675ae96fcbeadea701d3dc400f8f266",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-7",
+          "file": "game/assets/battle/unit18/MOV-7.png",
+          "source": "media/unitanim/unit18/MOV-7.png",
+          "sha256": "2e9182aca8646bce4d15bcca77de3aa8a1e1e605b76dbe9fa652b9f39cf586e3",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-8",
+          "file": "game/assets/battle/unit18/MOV-8.png",
+          "source": "media/unitanim/unit18/MOV-8.png",
+          "sha256": "c324e3b2d0936431bc7340d2c5fe9f6c6f13a645c4005b2b9392097165056b81",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-9",
+          "file": "game/assets/battle/unit18/MOV-9.png",
+          "source": "media/unitanim/unit18/MOV-9.png",
+          "sha256": "ba9064237902767c3a07d75b3e3d27a02704eb44b33e4e1005c9f8ce691f60fb",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-10",
+          "file": "game/assets/battle/unit18/MOV-10.png",
+          "source": "media/unitanim/unit18/MOV-10.png",
+          "sha256": "a995b441aab526d7a1e48d9bf8de4818b000da651fb8b3e8f323a88d626f3791",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-11",
+          "file": "game/assets/battle/unit18/MOV-11.png",
+          "source": "media/unitanim/unit18/MOV-11.png",
+          "sha256": "c79a681b9ae04c67608ff9c075ce394ec40dcaa39595899693904acde10e088f",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-1",
+          "file": "game/assets/battle/unit18/SPC-1.png",
+          "source": "media/unitanim/unit18/SPC-1.png",
+          "sha256": "c96022a458c56e0902d371920d300da0a8c57e20ea750ea0ba5de24ec43d5ac8",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-2",
+          "file": "game/assets/battle/unit18/SPC-2.png",
+          "source": "media/unitanim/unit18/SPC-2.png",
+          "sha256": "efe90b62476444166f2e113dd4d586926ca9e6ae48f156f234153edfce1f39c3",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-3",
+          "file": "game/assets/battle/unit18/SPC-3.png",
+          "source": "media/unitanim/unit18/SPC-3.png",
+          "sha256": "7b6288e48634f3beb75a30cbd93e226df36c460efee0d98060d5eb8eab43711b",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-4",
+          "file": "game/assets/battle/unit18/SPC-4.png",
+          "source": "media/unitanim/unit18/SPC-4.png",
+          "sha256": "95b0dae47c77bfc4b5c25db55d73fcb38ba4713f146c84945b844d59f338f111",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-5",
+          "file": "game/assets/battle/unit18/SPC-5.png",
+          "source": "media/unitanim/unit18/SPC-5.png",
+          "sha256": "649b905e15cdb2fc7cf5148c4d2d20c218f6581b439b951c30a32cf163584902",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        }
+      ],
+      "footAnchor": {
+        "x": 0.5,
+        "y": 0.7
+      },
+      "releaseMarks": {
+        "origin": "NEW_GAME_PROPOSAL",
+        "basicWindupRatio": 0.35
+      },
+      "states": {
+        "idle": "MOV",
+        "move": "MOV",
+        "attack": "ATK",
+        "cast": "SPC",
+        "hit": "NO_DEDICATED_CLIP",
+        "death": "PRESENTATION_FADE_ONLY"
+      }
+    },
+    {
+      "heroId": "tactician",
+      "sourceHero": 334,
+      "sourceUnit": 63,
+      "mappingStatus": "STATIC_VERIFIED",
+      "evidence": "HeroData.numSAnim or HeroData.numTeam -> TeamData.numSAnim",
+      "sourceTableHash": "538ecd73c716150275c34f740496def7c85626f1ac2a2470c4f05878237e23c8",
+      "rightsStatus": "REVIEW_REQUIRED",
+      "frames": [
+        {
+          "name": "ATK-1",
+          "file": "game/assets/battle/unit63/ATK-1.png",
+          "source": "media/unitanim/unit63/ATK-1.png",
+          "sha256": "fa61177ba0743c38e47ede2c67caad86bda7ccc6962693d64e5d365262bf0f63",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-2",
+          "file": "game/assets/battle/unit63/ATK-2.png",
+          "source": "media/unitanim/unit63/ATK-2.png",
+          "sha256": "8c0ddc46245bd8fb3a40d747ae7ac2da74355cfae6014fb866e89f88860a9293",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-3",
+          "file": "game/assets/battle/unit63/ATK-3.png",
+          "source": "media/unitanim/unit63/ATK-3.png",
+          "sha256": "f2fef7f63448efc9b6f0b2cbc18b5b405c537b05078b65d425dfdbfd6ab12bbe",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-4",
+          "file": "game/assets/battle/unit63/ATK-4.png",
+          "source": "media/unitanim/unit63/ATK-4.png",
+          "sha256": "426b0fa93697fc6a44f791149772cc7d38023633cbf429d21b0e2654fe60b099",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-5",
+          "file": "game/assets/battle/unit63/ATK-5.png",
+          "source": "media/unitanim/unit63/ATK-5.png",
+          "sha256": "7ff3b686a33c3c0d6ea06f3298b4470e2c01e3c7fb9a8ef984ab76d9f182be37",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-6",
+          "file": "game/assets/battle/unit63/ATK-6.png",
+          "source": "media/unitanim/unit63/ATK-6.png",
+          "sha256": "84ef36a5f91fb0f13f266433c41fa1c80f7ac5cf971cce9c0396975f8e9cf94a",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-7",
+          "file": "game/assets/battle/unit63/ATK-7.png",
+          "source": "media/unitanim/unit63/ATK-7.png",
+          "sha256": "481255009ec7889eb09e871d84b04f380dae3ec7df16a07b9baad8d42868d0eb",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-8",
+          "file": "game/assets/battle/unit63/ATK-8.png",
+          "source": "media/unitanim/unit63/ATK-8.png",
+          "sha256": "67c337f5581576701873f050f0f4e5fbf3d8f15ec49395d10321d99019e50471",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-9",
+          "file": "game/assets/battle/unit63/ATK-9.png",
+          "source": "media/unitanim/unit63/ATK-9.png",
+          "sha256": "eb3c022496cc6a9b0bbfc63b4330bbe8ec5b4e36d0d07d9d44180f29bdaaea38",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-10",
+          "file": "game/assets/battle/unit63/ATK-10.png",
+          "source": "media/unitanim/unit63/ATK-10.png",
+          "sha256": "32014a5568c161542951f77a6b9c7947e743ef596f2916a16e1a9d612a8fc4cd",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-11",
+          "file": "game/assets/battle/unit63/ATK-11.png",
+          "source": "media/unitanim/unit63/ATK-11.png",
+          "sha256": "15cefa0d484adeb3e532e2913fab244240f1ab42e06b08b67800c275eaf10a27",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ATK-12",
+          "file": "game/assets/battle/unit63/ATK-12.png",
+          "source": "media/unitanim/unit63/ATK-12.png",
+          "sha256": "06005ae2f823ea23075733c68add1eded586b5118b2ea8e590d986d51a451516",
+          "width": 128,
+          "height": 128,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-1",
+          "file": "game/assets/battle/unit63/MOV-1.png",
+          "source": "media/unitanim/unit63/MOV-1.png",
+          "sha256": "a3001d1b0cfc87b583dfe30199770373b0b101838d8bd495a007ce1a33dc8d61",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-2",
+          "file": "game/assets/battle/unit63/MOV-2.png",
+          "source": "media/unitanim/unit63/MOV-2.png",
+          "sha256": "80edbb3e18489f1c79de93cc00f70f454b140987bdecfee2c082e744c8f83307",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-3",
+          "file": "game/assets/battle/unit63/MOV-3.png",
+          "source": "media/unitanim/unit63/MOV-3.png",
+          "sha256": "28514777eb207f59d9cb123802670deea17a7086d33b36f5e0ffcb8161d8eff1",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-4",
+          "file": "game/assets/battle/unit63/MOV-4.png",
+          "source": "media/unitanim/unit63/MOV-4.png",
+          "sha256": "65918f29db84e677a7b0e64bf9acb7d2182b072d7b3b55f7cd09e65dac2e3822",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-5",
+          "file": "game/assets/battle/unit63/MOV-5.png",
+          "source": "media/unitanim/unit63/MOV-5.png",
+          "sha256": "364dd348f07c2fd983e309fe590291b4509ccfcb0dc2e3a244e46b6c652a3493",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-6",
+          "file": "game/assets/battle/unit63/MOV-6.png",
+          "source": "media/unitanim/unit63/MOV-6.png",
+          "sha256": "8cdc402547576f4c487f77536a1ac9c572a01c59006a5f6b8eaeb0a678c4a5be",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-7",
+          "file": "game/assets/battle/unit63/MOV-7.png",
+          "source": "media/unitanim/unit63/MOV-7.png",
+          "sha256": "477f405700d8e19c18ad84171d13557ae45e9990e9d8db034926b4d82a392d48",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-8",
+          "file": "game/assets/battle/unit63/MOV-8.png",
+          "source": "media/unitanim/unit63/MOV-8.png",
+          "sha256": "adf2fc280972c2cdd167e8a9a2b547372f6630ea6b18a7f553975d556607947c",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-9",
+          "file": "game/assets/battle/unit63/MOV-9.png",
+          "source": "media/unitanim/unit63/MOV-9.png",
+          "sha256": "2744b880ba046807aa9c0c241e1a883b4c1dd3edd1bbe8251b93f40dbb219a51",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-10",
+          "file": "game/assets/battle/unit63/MOV-10.png",
+          "source": "media/unitanim/unit63/MOV-10.png",
+          "sha256": "5da69b06c1cfd3b1fa18d26c1cc60ab81426a8f25d25878bbb7eddaec5b3ae57",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "MOV-11",
+          "file": "game/assets/battle/unit63/MOV-11.png",
+          "source": "media/unitanim/unit63/MOV-11.png",
+          "sha256": "e7bf667a79c6c8f104313de6e2cd1923bf84f6bc6fe75c35af29788a8f4e9c68",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-1",
+          "file": "game/assets/battle/unit63/SPC-1.png",
+          "source": "media/unitanim/unit63/SPC-1.png",
+          "sha256": "3e3107c935b9d49286835c52ec878753fd7959ae80351d3e5d4a14056db58ec2",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-2",
+          "file": "game/assets/battle/unit63/SPC-2.png",
+          "source": "media/unitanim/unit63/SPC-2.png",
+          "sha256": "66280cfa02b91a3d0f0612ca21c5e04b0be2c6e4becb6337629c3184a587f89a",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-3",
+          "file": "game/assets/battle/unit63/SPC-3.png",
+          "source": "media/unitanim/unit63/SPC-3.png",
+          "sha256": "c7a42f4516b0193bcbf098efeb61f9f1cf8bdc20afc60c3bcac3baa16ae08674",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-4",
+          "file": "game/assets/battle/unit63/SPC-4.png",
+          "source": "media/unitanim/unit63/SPC-4.png",
+          "sha256": "e1e8e23f7778dab6d00e8521db45de7d0bc644f280e068198a3f42a333908656",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "SPC-5",
+          "file": "game/assets/battle/unit63/SPC-5.png",
+          "source": "media/unitanim/unit63/SPC-5.png",
+          "sha256": "37a47d857b6dc64b0be8749d2403f6a8907c3c111a2099db4eca81f87188ad8e",
+          "width": 96,
+          "height": 96,
+          "pivot": [
+            0.5,
+            0.5
+          ]
+        }
+      ],
+      "footAnchor": {
+        "x": 0.5,
+        "y": 0.7
+      },
+      "releaseMarks": {
+        "origin": "NEW_GAME_PROPOSAL",
+        "basicWindupRatio": 0.35
+      },
+      "states": {
+        "idle": "MOV",
+        "move": "MOV",
+        "attack": "ATK",
+        "cast": "SPC",
+        "hit": "NO_DEDICATED_CLIP",
+        "death": "PRESENTATION_FADE_ONLY"
+      }
+    }
+  ]
+}

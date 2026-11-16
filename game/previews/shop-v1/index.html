@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><base href="/game/">
+<title>상점 · 장수 등용 시안</title><link rel="icon" href="data:,"><link rel="stylesheet" href="art-controls.css"><link rel="stylesheet" href="ui-shell.css"><link rel="stylesheet" href="previews/shop-v1/preview.css"></head>
+<body><main class="game gate-lobby shop-concept" aria-label="상점 장수 등용 디자인 시안">
+ <button id="barracks-back" aria-label="뒤로가기"></button>
+ <div class="wallet"><button aria-label="골드 예시 12,450"></button><button aria-label="다이아 예시 320"></button></div>
+ <div class="scroll-heading" data-box="22,153,895,90">장수 등용</div>
+ <nav class="pool-tabs" aria-label="모집 종류">
+  <button data-skin="tab-green" data-box="32,264,281,74" aria-current="page">장수 등용</button>
+  <button data-skin="tab-blue" data-box="330,264,281,74">픽업 등용</button>
+  <button data-skin="tab-blue" data-box="628,264,281,74">보물 모집</button>
+ </nav>
+ <section class="recruit-stage" data-box="20,354,901,488" aria-label="관우 허저 조조 제갈량 초선 여포 기존 원화">
+  <div class="hall"></div><div class="stage-frame"></div>
+ </section>
+ <div class="stage-caption" data-box="120,379,701,42">위 · 촉 · 오 · 군웅, 모든 세력의 장수</div>
+ <div class="general-lineup"></div>
+ <div class="pity-scroll" data-box="22,861,895,90"><span>A 이상 보장까지 <b>30회</b></span><i></i><span>S 보장까지 <b>100회</b></span></div>
+ <p class="odds-note" data-box="41,967,600,40">골드·다이아 동일 확률 · 장수 49종</p>
+ <button class="small" data-skin="small" data-box="721,956,180,60">확률 정보</button>
+ <div class="currencies" role="group" aria-label="등용 재화">
+  <button data-skin="currency-green" data-currency="gold" data-box="36,1038,425,72" aria-pressed="true"><i class="currency-icon gold"></i>골드 등용</button>
+  <button data-skin="currency-blue" data-currency="diamonds" data-box="480,1038,425,72" aria-pressed="false"><i class="currency-icon gem"></i>다이아 등용</button>
+ </div>
+ <button class="recruit-action" data-skin="button-blue" data-box="36,1135,350,138" data-count="1"><strong>1회 등용</strong><span>300 골드</span></button>
+ <button class="recruit-action" data-skin="button-green" data-box="405,1135,500,138" data-count="10"><strong>10회 등용</strong><span>3,000 골드</span></button>
+ <p class="guarantee" data-box="70,1287,801,43">10회 등용 시 <b>B등급 이상 1명 확정</b></p>
+ <div class="utility-buttons">
+  <button data-skin="utility" data-box="32,1351,281,108"><strong>상품 교환</strong><small>재료 · 선택상자</small></button>
+  <button data-skin="utility" data-box="330,1351,281,108"><strong>S 장수 선택</strong><small>선택 조각 60개</small></button>
+  <button data-skin="utility" data-box="628,1351,281,108"><strong>상품</strong><small>다이아 · 보급</small></button>
+ </div>
+ <nav class="bottom-nav" aria-label="주 메뉴">
+  <button data-action="shop" aria-label="상점" aria-current="page"></button><button data-action="barracks" aria-label="병영"></button><button data-action="home" aria-label="성문"></button><button data-action="alliance" aria-label="동맹"></button><button data-action="arena" aria-label="군웅대전"></button>
+ </nav>
+</main><div class="preview-status" role="status" hidden></div>
+<script type="module" src="previews/shop-v1/preview.js"></script></body></html>

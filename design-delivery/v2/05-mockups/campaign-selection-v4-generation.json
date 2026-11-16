@@ -1,0 +1,35 @@
+{
+  "status": "approved-runtime-applied",
+  "runtimeApplied": true,
+  "approvedOriginals": "game/previews/campaign-v3/assets/",
+  "generator": "built-in image_gen; approved originals reused unchanged, 3 ruined variants edited from them",
+  "ruinedAssets": [
+    {
+      "name": "yellow-camp",
+      "prompt": "Use case: precise-object-edit. Edit target: the supplied approved very simple tiny pixel-art building sprite. Create its CLEARED / DESTROYED game state. Collapse the thatched hut roof into a clearly broken low jagged shape, break the middle wooden palisade, and tilt the broken yellow flagpole. Keep recognizable ochre/yellow wood camp colors. Preserve the exact simple chunky pixel-art style, thick dark navy outlines, extremely low detail, broad flat color blocks, same palette, same front-view angle and same ground baseline and width as reference. This is a small 48x40 logical pixel map icon; do not add detail. Destruction must be obvious through collapsed geometry, not only darkening. Stay inside original building footprint; no new scenery, people, vegetation, fire, smoke, textures or effects. Original standing sprite is approved, so keep its architectural identity. The ruined object should naturally be shorter than standing one. Transparent background with full clear margins. No text or UI or checkerboard. Keep ALL broken pieces and flag fully inside frame.",
+      "source": "C:\\Users\\pms10\\.codex\\generated_images\\01a1d401-218e-7061-acde-752e44e85aca\\exec-ea12d79f-14f6-403a-b0cd-838c11509b63.png"
+    },
+    {
+      "name": "sishui-wall",
+      "prompt": "Use case: precise-object-edit. Edit target: the supplied approved very simple tiny pixel-art building sprite. Create its CLEARED / DESTROYED game state. Make a wide broken opening in the middle of the squat stone wall with two or three large fallen stone blocks at its base; snap the tiny red flagpole. Preserve the same blue-gray crenellations on the remaining short sides. Preserve the exact simple chunky pixel-art style, thick dark navy outlines, extremely low detail, broad flat color blocks, same palette, same front-view angle and same ground baseline and width as reference. This is a small 48x40 logical pixel map icon; do not add detail. Destruction must be obvious through collapsed geometry, not only darkening. Stay inside original building footprint; no new scenery, people, vegetation, fire, smoke, textures or effects. Original standing sprite is approved, so keep its architectural identity. The ruined object should naturally be shorter than standing one. Transparent background with full clear margins. No text or UI or checkerboard. Keep ALL broken pieces and flag fully inside frame.",
+      "source": "C:\\Users\\pms10\\.codex\\generated_images\\01a1d401-218e-7061-acde-752e44e85aca\\exec-e111477a-a3d2-4d13-9d9e-212b87015fe2.png"
+    },
+    {
+      "name": "hulao-gate",
+      "prompt": "Use case: precise-object-edit. Edit target: the supplied approved very simple tiny pixel-art building sprite. Create its CLEARED / DESTROYED game state. Collapse the upper roof pavilion into a low broken roof section, make a large jagged break in the stone gate, with two or three simple fallen blocks at base and a tilted short red flag. Keep recognizable gate silhouette. Preserve the exact simple chunky pixel-art style, thick dark navy outlines, extremely low detail, broad flat color blocks, same palette, same front-view angle and same ground baseline and width as reference. This is a small 48x40 logical pixel map icon; do not add detail. Destruction must be obvious through collapsed geometry, not only darkening. Stay inside original building footprint; no new scenery, people, vegetation, fire, smoke, textures or effects. Original standing sprite is approved, so keep its architectural identity. The ruined object should naturally be shorter than standing one. Transparent background with full clear margins. No text or UI or checkerboard. Keep ALL broken pieces and flag fully inside frame.",
+      "source": "C:\\Users\\pms10\\.codex\\generated_images\\01a1d401-218e-7061-acde-752e44e85aca\\exec-4449a5fd-ef10-4805-9188-1e7c2e19c9dc.png"
+    }
+  ],
+  "composition": "game/previews/campaign-v4/index.html",
+  "screenshot": "campaign-selection-v4.png",
+  "shell": "game/ui-shell.js + game/art-controls.js",
+  "frames": "game/nine-slice.js; 28px fixed corners",
+  "qa": "game/previews/campaign-v4/qa.json",
+  "state": "Standalone fixtures only, no player save access. chapter=2/3 shows later cleared states.",
+  "runtime": "game/campaign-ui.js",
+  "runtimeAssets": "game/assets/campaign-v4/",
+  "runtimeQA": [
+    "game/tests/campaign-ui-browser.cjs",
+    "game/tests/campaign-flow-browser.cjs"
+  ]
+}

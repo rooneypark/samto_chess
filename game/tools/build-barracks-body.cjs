@@ -1,0 +1,8 @@
+// Refit the existing background only. No character sprite is resampled here.
+const {sharp,frameCutout}=require('./ui-cutout.cjs'),path=require('node:path');
+(async()=>{const {contentBounds,barracksBodySource}=await import('../side-layout.js');const root=path.resolve(__dirname,'../..'),dir=path.join(root,'game/assets/barracks-v2'),src=path.join(dir,'scene.png');
+const raw=await frameCutout(src,[0,250,941,532],{rim:2,tone:'both'}),panel=await sharp(raw).extract({left:barracksBodySource.left,top:0,width:barracksBodySource.width,height:532}).png().toBuffer();
+async function slice(input,sw,sh,w,h,c){const parts=[],sx=[0,c,sw-c,sw],sy=[0,c,sh-c,sh],dx=[0,c,w-c,w],dy=[0,c,h-c,h];for(let row=0;row<3;row++)for(let col=0;col<3;col++){const crop=await sharp(input).extract({left:sx[col],top:sy[row],width:sx[col+1]-sx[col],height:sy[row+1]-sy[row]}).resize(dx[col+1]-dx[col],dy[row+1]-dy[row],{kernel:'nearest'}).png().toBuffer();parts.push({input:crop,left:dx[col],top:dy[row]});}return sharp({create:{width:w,height:h,channels:4,background:'#00000000'}}).composite(parts).png().toBuffer();}
+const resized=await slice(panel,barracksBodySource.width,532,contentBounds.width,532,40);await sharp(panel).png().toFile(path.join(dir,'detail-source.png'));await sharp(resized).png().toFile(path.join(dir,'detail-body.png'));
+const trainSource=path.join(root,'game/assets/ui-common/barracks-train.png'),train=await slice(trainSource,311,94,315,94,32);await sharp(train).png().toFile(path.join(dir,'train-body.png'));
+console.log('PASS barracks body: shop side bounds, 40px panel and 32px button corners preserved');})();

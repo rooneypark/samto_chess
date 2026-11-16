@@ -1,0 +1,204 @@
+{
+  "id": "zhangjue",
+  "name": "장각",
+  "faction": "군웅",
+  "order": 41,
+  "identity": "Yellow Turban mystic with a yellow brow band, controlled long dark hair and beard, simple ochre and brown robes, cream sash, and one crook staff with a single yellow cloth.",
+  "folder": "zhangjue",
+  "identityDesign": "Yellow Turban mystic with a yellow brow band, controlled long dark hair and beard, simple ochre and brown robes, cream sash, and one crook staff with a single yellow cloth.",
+  "artRevision": "pixel256-v1",
+  "canvas": [
+    256,
+    256
+  ],
+  "foot": [
+    128,
+    224
+  ],
+  "schemaVersion": 2,
+  "status": "ready-for-review",
+  "runtimeApplied": false,
+  "motionComplete": false,
+  "sideFacing": "left",
+  "right": "mirror-side",
+  "directions": {
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "zhangjue",
+        "direction": "front",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "sourceCanvas": [
+          1254,
+          1254
+        ],
+        "bodyTopVirtual256": 99,
+        "sourceFootVirtual256": 234,
+        "bodyHeightTarget": 124,
+        "sourceToFinalScale": 0.18899521531100477,
+        "wholeImageOffset": [
+          10,
+          8
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          86,
+          79,
+          164,
+          224
+        ],
+        "clippedVisiblePixels": 0,
+        "bodyAnchorMethod": "Visually inspected crown/head and soles in locked turnaround; nearest-neighbor scale and translate; weapon and ribbon excluded from body target.",
+        "weaponContainFit": false,
+        "runtimeApplied": false,
+        "sha256": "cb8a009c3bf6c67f848ba3dcbcd09dd4123e0403a491b69d15fb597f6c9fcf77",
+        "sourceSha256": "cb01575197dda4427e5d91d9d27597509a939be80230128ab405b71afaa8538f"
+      }
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "zhangjue",
+        "direction": "back",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "sourceCanvas": [
+          1254,
+          1254
+        ],
+        "bodyTopVirtual256": 99,
+        "sourceFootVirtual256": 234,
+        "bodyHeightTarget": 124,
+        "sourceToFinalScale": 0.18819776714513556,
+        "wholeImageOffset": [
+          13,
+          9
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          96,
+          79,
+          171,
+          224
+        ],
+        "clippedVisiblePixels": 0,
+        "bodyAnchorMethod": "Visually inspected crown/head and soles in locked turnaround; nearest-neighbor scale and translate; weapon and ribbon excluded from body target.",
+        "weaponContainFit": false,
+        "runtimeApplied": false,
+        "sha256": "c080c7c99864734be62556e70e49da030946d5f66d0c45e8aff70380047853c3",
+        "sourceSha256": "a5c6c1ce5fc1e436642cef6acea39f9ccabe66123f81f83fb522e09a3a1393dd"
+      }
+    },
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "zhangjue",
+        "direction": "side",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "sourceCanvas": [
+          1254,
+          1254
+        ],
+        "bodyTopVirtual256": 98,
+        "sourceFootVirtual256": 234,
+        "bodyHeightTarget": 124,
+        "sourceToFinalScale": 0.18740031897926634,
+        "wholeImageOffset": [
+          11,
+          9
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          88,
+          79,
+          155,
+          224
+        ],
+        "clippedVisiblePixels": 0,
+        "bodyAnchorMethod": "Visually inspected crown/head and soles in locked turnaround; nearest-neighbor scale and translate; weapon and ribbon excluded from body target.",
+        "weaponContainFit": false,
+        "runtimeApplied": false,
+        "sha256": "52b627b749ca9eb77280c3ebc83d25783581b681eea464f93e005d617648e388",
+        "sourceSha256": "214b66c61303ff87732fd9b5e6d1b344e1457f73b955a8c8f7b4f43185515f8f"
+      }
+    }
+  },
+  "files": {
+    "front": {
+      "path": "front.png",
+      "sha256": "cb8a009c3bf6c67f848ba3dcbcd09dd4123e0403a491b69d15fb597f6c9fcf77"
+    },
+    "back": {
+      "path": "back.png",
+      "sha256": "c080c7c99864734be62556e70e49da030946d5f66d0c45e8aff70380047853c3"
+    },
+    "side": {
+      "path": "side.png",
+      "sha256": "52b627b749ca9eb77280c3ebc83d25783581b681eea464f93e005d617648e388"
+    }
+  },
+  "sourceProvider": "built-in image_gen",
+  "provenanceFile": "generation.json",
+  "bodyMetrics": {
+    "shoulderWidth": null,
+    "anatomicalHeight": null,
+    "riderJoints": null
+  },
+  "approval": {
+    "frontApproved": true,
+    "fullSetApproved": false
+  }
+}

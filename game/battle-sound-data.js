@@ -1,0 +1,1 @@
+export const effectSounds={"Meff0": "se0.wav", "Meff1": "se0.wav", "Meff2": "se2.wav", "Meff3": "se3.wav", "Meff4": "se4.wav", "Meff5": "se5.wav", "Meff6": "se6.wav", "Meff7": "se7.wav", "Meff8": "se8.wav", "Meff9": "se25.wav", "Meff10": "se26.wav", "Meff15": "se28.wav", "Meff16": "se28.wav", "Meff20": "se28.wav", "Meff23": "se22.wav", "Meff34": "se18.wav"};

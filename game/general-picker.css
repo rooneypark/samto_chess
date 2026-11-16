@@ -1,0 +1,6 @@
+@import url('./general-portraits.css');
+.general-picker{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+#modal .general-picker-card{display:flex;flex-direction:column;align-items:center;gap:7px;padding:10px 4px;font-size:14px;min-width:0}
+.general-picker-art{position:relative;width:48px;height:60px;display:block;pointer-events:none}
+.general-picker-art .portrait-viewport{inset:0}.general-picker-art>img{width:100%;height:100%;object-fit:contain}
+.general-picker-summary{font-size:15px;line-height:1.6}

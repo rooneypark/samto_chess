@@ -1,0 +1,306 @@
+{
+  "pressed": [
+    {
+      "label": "성문으로 돌아가기",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "label": "골드 예시 12,450",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "label": "다이아 예시 320",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "label": "황건의 난\n2 / 3",
+      "outside": 0,
+      "frame": 4576,
+      "missed": 0
+    },
+    {
+      "label": "반동탁연합\n0 / 6",
+      "outside": 0,
+      "frame": 4587,
+      "missed": 0
+    },
+    {
+      "label": "황건 토벌 전투지 · 클리어",
+      "outside": 0,
+      "frame": 1287,
+      "missed": 0
+    },
+    {
+      "label": "황건 토벌 · 클리어",
+      "outside": 0,
+      "frame": 2787,
+      "missed": 0
+    },
+    {
+      "label": "황건 잔당 소탕 전투지 · 클리어",
+      "outside": 0,
+      "frame": 1287,
+      "missed": 0
+    },
+    {
+      "label": "황건 잔당 소탕 · 클리어",
+      "outside": 0,
+      "frame": 2787,
+      "missed": 0
+    },
+    {
+      "label": "광종 결전 전투지 · 도전 가능",
+      "outside": 0,
+      "frame": 2271,
+      "missed": 0
+    },
+    {
+      "label": "광종 결전 · 도전 가능",
+      "outside": 0,
+      "frame": 2776,
+      "missed": 0
+    },
+    {
+      "label": "사수관 접근 전투지 · 잠김",
+      "outside": 0,
+      "frame": 2069,
+      "missed": 0
+    },
+    {
+      "label": "사수관 접근 · 잠김",
+      "outside": 0,
+      "frame": 2787,
+      "missed": 0
+    },
+    {
+      "label": "관문 돌파 전투지 · 잠김",
+      "outside": 0,
+      "frame": 2069,
+      "missed": 0
+    },
+    {
+      "label": "관문 돌파 · 잠김",
+      "outside": 0,
+      "frame": 2787,
+      "missed": 0
+    },
+    {
+      "label": "화웅 토벌 전투지 · 잠김",
+      "outside": 0,
+      "frame": 2069,
+      "missed": 0
+    },
+    {
+      "label": "화웅 토벌 · 잠김",
+      "outside": 0,
+      "frame": 2787,
+      "missed": 0
+    },
+    {
+      "label": "호뢰관 전초 전투지 · 잠김",
+      "outside": 0,
+      "frame": 2443,
+      "missed": 0
+    },
+    {
+      "label": "호뢰관 전초 · 잠김",
+      "outside": 0,
+      "frame": 2787,
+      "missed": 0
+    },
+    {
+      "label": "철기 격파 전투지 · 잠김",
+      "outside": 0,
+      "frame": 2443,
+      "missed": 0
+    },
+    {
+      "label": "철기 격파 · 잠김",
+      "outside": 0,
+      "frame": 2787,
+      "missed": 0
+    },
+    {
+      "label": "삼영전여포 전투지 · 잠김",
+      "outside": 0,
+      "frame": 2443,
+      "missed": 0
+    },
+    {
+      "label": "삼영전여포 · 잠김",
+      "outside": 0,
+      "frame": 2787,
+      "missed": 0
+    },
+    {
+      "label": "일반\n어려움 · 잠김",
+      "outside": 0,
+      "frame": 3885,
+      "missed": 0
+    },
+    {
+      "label": "출정 준비\n도전 비용 없음",
+      "outside": 0,
+      "frame": 6394,
+      "missed": 0
+    },
+    {
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "label": "성문",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    },
+    {
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    }
+  ],
+  "frames": [
+    {
+      "tone": "blue",
+      "width": 430,
+      "height": 74,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 901,
+      "height": 650,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 901,
+      "height": 264,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 240,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 430,
+      "height": 88,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 570,
+      "height": 136,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 290,
+      "height": 136,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 430,
+      "height": 74,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 901,
+      "height": 650,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 901,
+      "height": 264,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 240,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 430,
+      "height": 88,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 570,
+      "height": 136,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 290,
+      "height": 136,
+      "identicalCorners": true
+    }
+  ],
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "identicalShellPixels": 224470,
+  "selectionChecks": [
+    "locked conditions and rewards",
+    "chapter selected",
+    "clear claimed reward",
+    "final bonus",
+    "chapter return"
+  ],
+  "additionalVerified": {
+    "approvedThreeStandingSpritesPixelIdentical": true,
+    "chapterFixtures": [
+      1,
+      2,
+      3
+    ],
+    "clearedSpritesPerFixture": [
+      2,
+      5,
+      8
+    ],
+    "selectionPreservesSpriteArtworkAndGeometry": true
+  }
+}

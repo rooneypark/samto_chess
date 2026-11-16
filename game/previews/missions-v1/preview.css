@@ -1,0 +1,17 @@
+@import url('../alliance-v1/preview.css');
+.art-header-title{font-size:4.7cqw}.scroll-heading{font-size:4.8cqw}
+.attendance-title{font-size:3.8cqw;z-index:3}.attendance-copy{display:flex;align-items:center;color:#b5cad3;font-size:2.8cqw;z-index:3}
+.attendance-claim{font-size:3.3cqw}.attendance-days,.mission-rows{display:contents}
+.day{position:absolute;display:flex;flex-direction:column;align-items:center;justify-content:space-evenly;z-index:2;font-size:2.3cqw;color:#c2cfdd}
+.day>*:not(.panel-frame){z-index:2}.day b{color:#ffe4a5;font-size:2.5cqw}.day small{font-size:2.1cqw}.day.today small,.day.done small{color:#a2dfbb}
+.day-reward{display:flex;align-items:center;gap:.5cqw;height:3.1cqw}.day img{object-fit:contain;width:2.7cqw;height:2.7cqw}.ticket{font-size:2.2cqw}
+.section-tabs button{font-size:3.6cqw}.list-title{font-size:3.2cqw}.reset-time{display:flex;align-items:center;justify-content:flex-end;font-size:2.5cqw;color:#aebdcd}
+.mission{position:absolute;z-index:2}.mission h3,.mission p{position:absolute;margin:0;z-index:2}.mission h3{left:3.4%;top:13%;font-size:3.7cqw;font-weight:bold;color:#ffe7b9}
+.mission .reward{left:3.4%;top:53%;display:flex;align-items:center;gap:1cqw;height:36%;font-size:2.7cqw;color:#c9d5df}
+.reward img,.bonus-rewards img{width:3cqw;height:3cqw;object-fit:contain}.mission .progress-label{left:43%;top:20%;width:24%;text-align:right;color:#bdcdd5;font-size:2.5cqw}
+.mission .progress-bar{position:absolute;left:43%;top:59%;width:24%;height:12%;border:.21cqw solid #506e7c;background:#0b1c2c;z-index:2}
+.progress-bar i{display:block;height:100%;background:#6fae9c;border-top:.21cqw solid #b4dfb5}.mission.complete .progress-bar i{background:#d8bc6d;border-top-color:#ffe2a1}
+.mission button{left:70.2%;top:20%;width:26.4%;height:60%;font-size:3.1cqw}.mission button:disabled,.bonus-claim:disabled,.attendance-claim:disabled{color:#9eb1c5;cursor:default;filter:none;opacity:1}
+.bonus-title{font-size:3.5cqw;z-index:3}.bonus-rewards{display:flex;align-items:center;gap:1cqw;font-size:3.3cqw;color:#ffe0a0;z-index:3}.bonus-rewards .reward-space{width:2cqw}.bonus-copy{font-size:2.5cqw;color:#b1c5d2;z-index:3;display:flex;align-items:center}.bonus-claim{font-size:3cqw}
+.mail-note{text-align:center;display:flex;justify-content:center;align-items:center;font-size:2.25cqw;color:#9db0c4}.home-back{font-size:3.4cqw}
+.achievement-description{font-size:2.7cqw;color:#c4d1db;line-height:1.6}.mission.achievement h3{font-size:3.5cqw}.mission.achievement .reward{font-size:2.5cqw}

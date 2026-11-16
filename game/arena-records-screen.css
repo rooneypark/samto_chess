@@ -1,0 +1,9 @@
+@scope (.arena-records-runtime){
+.record-summary{font-size:3.3cqw;color:#ffe0a1}
+.record-list{overflow:auto;scrollbar-width:thin}
+.record-row{display:grid;grid-template-columns:1fr auto;align-items:center;gap:2cqw;min-height:11cqw;padding:1.5cqw 2cqw;border-bottom:1px solid #526b83;font-size:3.2cqw}
+.record-row small{display:block;color:#bcd0df;font-size:2.6cqw;margin-top:.6cqw}
+.record-row.mine{color:#ffe0a1;background:#214c42}
+.record-row .win{color:#a6dfbd}.record-row .loss{color:#f2b0a8}
+.art-header-title{font-size:4.5cqw}.pool-tab,.home-back{font-size:3.3cqw!important}.hint{font-size:2.6cqw;text-align:center;color:#b9cddd}
+}

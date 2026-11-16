@@ -1,0 +1,7 @@
+import {artworkScreenTemplate} from './artwork-screen-template.js';
+const panel=(box)=>`<section data-box="${box}"><div class="panel-frame" data-frame="blue"></div></section>`;
+export const treasureTemplate=artworkScreenTemplate(`<div class="tabs"><button data-filter="all" data-box="20,264,289,64" data-tone="green">전체 보물</button><button data-filter="equipped" data-box="326,264,289,64" data-tone="blue">장착 중</button><button data-filter="free" data-box="632,264,289,64" data-tone="blue">미장착</button></div>
+${panel('20,348,901,420')}<h2 data-box="50,370,660,40">보유 보물 <span class="count"></span></h2><p class="caption" data-box="700,370,191,40">종류별 보기</p><div class="items"></div>
+${panel('20,788,901,312')}<i class="symbol detail-icon" data-box="60,825,165,165"></i><h2 class="title" data-box="255,810,625,48"></h2><p class="stars" data-box="255,871,400,42"></p><p class="caption effect gold" data-box="255,925,620,40"></p><div class="owner" data-box="60,1000,560,82"></div><button class="action-button equip" data-tone="blue" data-box="645,1014,246,60">장수 변경</button>
+${panel('20,1120,901,270')}<h2 data-box="50,1142,400,40">보물 강화</h2><p class="caption next gold" data-box="450,1142,440,40"></p><p class="material" data-box="50,1201,841,68"></p><p class="caption cost gold" data-box="50,1280,841,34"></p><p class="note" data-box="50,1330,841,40">장착·잠금·즐겨찾기 보물은 강화 재료에서 제외</p>
+<button class="action-button enhance" data-tone="green" data-box="20,1410,583,68">강화 확인</button><button class="action-button home-back" data-tone="blue" data-box="621,1410,300,68">병영으로</button>`);

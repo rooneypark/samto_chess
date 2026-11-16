@@ -1,0 +1,192 @@
+{
+  "id": "xunyu",
+  "name": "순욱",
+  "faction": "위",
+  "order": 21,
+  "identity": "Xun Yu: refined composed mature court adviser, neat small moustache, upright posture. Distinctive TALL RECTANGULAR gold-trimmed dark court crown, ivory outer robe, dark blue inner panel with subtle jade accent. Hold narrow ceremonial tablet upright in both hands. Elegant slender adult, no fan or armor or shared generic square scholar cap.",
+  "folder": "xunyu",
+  "identityDesign": "Xun Yu: refined composed mature court adviser, neat small moustache, upright posture. Distinctive TALL RECTANGULAR gold-trimmed dark court crown, ivory outer robe, dark blue inner panel with subtle jade accent. Hold narrow ceremonial tablet upright in both hands. Elegant slender adult, no fan or armor or shared generic square scholar cap.",
+  "artRevision": "pixel256-v1",
+  "canvas": [
+    256,
+    256
+  ],
+  "foot": [
+    128,
+    224
+  ],
+  "schemaVersion": 2,
+  "status": "ready-for-review",
+  "runtimeApplied": false,
+  "motionComplete": false,
+  "sideFacing": "left",
+  "right": "mirror-side",
+  "directions": {
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "xunyu",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "sourceCanvas": [
+          1254,
+          1254
+        ],
+        "bodyTopVirtual256": 63,
+        "bodyHeightTarget": 128,
+        "sourceFootVirtual256": 228,
+        "sourceToFinalScale": 0.1583683727224397,
+        "wholeImageOffset": [
+          29,
+          47
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          104,
+          97,
+          153,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
+        "weaponContainFit": false,
+        "runtimeApplied": false,
+        "sha256": "ced8d2d2e6da1ebba50606d108ec07dc49cd7a4a5da9bddb7a03cb88707afb62"
+      }
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "xunyu",
+        "direction": "back",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 85,
+        "bodyHeightTarget": 128,
+        "sourceFootVirtual256": 212,
+        "sourceToFinalScale": 0.20575418503309095,
+        "wholeImageOffset": [
+          -1,
+          10
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          106,
+          98,
+          154,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "83056aa71e6f050bda94927766a269d4ed205030a7496556c05ff7930b39f794"
+      }
+    },
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "xunyu",
+        "direction": "side",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 81,
+        "bodyHeightTarget": 128,
+        "sourceFootVirtual256": 210,
+        "sourceToFinalScale": 0.20256419766823683,
+        "wholeImageOffset": [
+          1,
+          16
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          110,
+          98,
+          147,
+          226
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "2a46add65d396aaac0b73f19af0c22b665a01300fe8e166eb29848e287dea03a"
+      }
+    }
+  },
+  "files": {
+    "front": {
+      "path": "front.png",
+      "sha256": "ced8d2d2e6da1ebba50606d108ec07dc49cd7a4a5da9bddb7a03cb88707afb62"
+    },
+    "back": {
+      "path": "back.png",
+      "sha256": "83056aa71e6f050bda94927766a269d4ed205030a7496556c05ff7930b39f794"
+    },
+    "side": {
+      "path": "side.png",
+      "sha256": "2a46add65d396aaac0b73f19af0c22b665a01300fe8e166eb29848e287dea03a"
+    }
+  },
+  "sourceProvider": "built-in image_gen",
+  "provenanceFile": "generation.json",
+  "bodyMetrics": {
+    "shoulderWidth": null,
+    "anatomicalHeight": null,
+    "riderJoints": null
+  },
+  "approval": {
+    "frontApproved": false,
+    "fullSetApproved": false
+  }
+}

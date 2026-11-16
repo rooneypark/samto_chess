@@ -1,0 +1,480 @@
+{
+  "pressed": [
+    {
+      "tab": "all",
+      "label": "뒤로",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "tab": "all",
+      "label": "골드",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "tab": "all",
+      "label": "다이아",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "tab": "all",
+      "label": "전체\n4",
+      "outside": 0,
+      "frame": 3307,
+      "missed": 0
+    },
+    {
+      "tab": "all",
+      "label": "미수령\n2",
+      "outside": 0,
+      "frame": 3318,
+      "missed": 0
+    },
+    {
+      "tab": "all",
+      "label": "수령 완료\n1",
+      "outside": 0,
+      "frame": 3318,
+      "missed": 0
+    },
+    {
+      "tab": "all",
+      "label": "임무 완료 보너스 · 수령 가능",
+      "outside": 0,
+      "frame": 9409,
+      "missed": 0
+    },
+    {
+      "tab": "all",
+      "label": "출정 완료 미수령 보상 · 수령 가능",
+      "outside": 0,
+      "frame": 9420,
+      "missed": 0
+    },
+    {
+      "tab": "all",
+      "label": "장수 합성 미수령 보상 · 수령 완료",
+      "outside": 0,
+      "frame": 9420,
+      "missed": 0
+    },
+    {
+      "tab": "all",
+      "label": "다음 우편 페이지",
+      "outside": 0,
+      "frame": 2086,
+      "missed": 0
+    },
+    {
+      "tab": "all",
+      "label": "우편 삭제",
+      "outside": 0,
+      "frame": 3021,
+      "missed": 0
+    },
+    {
+      "tab": "all",
+      "label": "보상 받기",
+      "outside": 0,
+      "frame": 3055,
+      "missed": 0
+    },
+    {
+      "tab": "all",
+      "label": "보상 모두 받기",
+      "outside": 0,
+      "frame": 5854,
+      "missed": 0
+    },
+    {
+      "tab": "all",
+      "label": "성문으로",
+      "outside": 0,
+      "frame": 3336,
+      "missed": 0
+    },
+    {
+      "tab": "all",
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "all",
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "tab": "all",
+      "label": "성문",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    },
+    {
+      "tab": "all",
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "all",
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "뒤로",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "골드",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "다이아",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "전체\n4",
+      "outside": 0,
+      "frame": 3318,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "미수령\n2",
+      "outside": 0,
+      "frame": 3307,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "수령 완료\n1",
+      "outside": 0,
+      "frame": 3318,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "임무 완료 보너스 · 수령 가능",
+      "outside": 0,
+      "frame": 9409,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "출정 완료 미수령 보상 · 수령 가능",
+      "outside": 0,
+      "frame": 9420,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "우편 삭제",
+      "outside": 0,
+      "frame": 3021,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "보상 받기",
+      "outside": 0,
+      "frame": 3055,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "보상 모두 받기",
+      "outside": 0,
+      "frame": 5854,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "성문으로",
+      "outside": 0,
+      "frame": 3336,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "성문",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "available",
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "뒤로",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "골드",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "다이아",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "전체\n4",
+      "outside": 0,
+      "frame": 3318,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "미수령\n2",
+      "outside": 0,
+      "frame": 3318,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "수령 완료\n1",
+      "outside": 0,
+      "frame": 3307,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "장수 합성 미수령 보상 · 수령 완료",
+      "outside": 0,
+      "frame": 9409,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "우편 삭제",
+      "outside": 0,
+      "frame": 3021,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "보상 모두 받기",
+      "outside": 0,
+      "frame": 5854,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "성문으로",
+      "outside": 0,
+      "frame": 3336,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "성문",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "tab": "claimed",
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    }
+  ],
+  "frames": [
+    {
+      "tone": "blue",
+      "width": 901,
+      "height": 146,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 289,
+      "height": 74,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 901,
+      "height": 140,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 170,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 901,
+      "height": 276,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 266,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 271,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 582,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 901,
+      "height": 146,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 289,
+      "height": 74,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 901,
+      "height": 140,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 170,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 901,
+      "height": 276,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 266,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 271,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 582,
+      "height": 64,
+      "identicalCorners": true
+    }
+  ],
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "states": [
+    "all",
+    "available",
+    "claimed"
+  ],
+  "identicalShellPixels": 224470,
+  "memoryOnlyClaims": true
+}

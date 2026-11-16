@@ -1,0 +1,25 @@
+@scope (.campaign-v4){
+:scope{position:absolute;inset:0;padding:0;overflow:hidden;z-index:1;background:#1b304a url("assets/gate-lobby/level.png") center/100% 100%;image-rendering:pixelated;font-family:Georgia,"Batang",serif;color:#fff0cd}
+:scope[hidden]{display:none}
+button{position:absolute;box-shadow:none;border-image:none;filter:none;translate:none;display:flex;align-items:center;justify-content:center;flex-direction:column;border:0;margin:0;padding:0;background:transparent;color:#fff0cd;font:bold 4cqw Georgia,'Batang',serif;line-height:1.2;cursor:pointer;text-shadow:0 .15cqw #0e1c2d;min-width:0;min-height:0;z-index:5}
+[data-box]{position:absolute;margin:0;padding:0}
+.scroll-heading{display:flex;align-items:center;justify-content:center;border:0;color:#14283a;font-weight:bold}
+.scroll-heading{font-size:5.2cqw}.section-tabs button{font-size:4cqw}
+
+.panel-frame{position:absolute;inset:0;pointer-events:none}h2{display:flex;align-items:center;color:#f9e4b6;font-size:4.1cqw}.reset-note{font-size:2.2cqw;text-align:center;color:#a6b8c9}
+.section-tabs button{flex-direction:row;gap:2cqw;font-size:3.9cqw}.section-tabs small{font-size:2.6cqw;color:#d6c9a8}
+.map-art{position:absolute;inset:1.3cqw;background:url('/game/assets/campaign-v4/map.png') center/cover;image-rendering:pixelated}.route-lines{pointer-events:none;z-index:1}.route-lines path{fill:none;stroke-linejoin:round;stroke-width:7}.future-route{stroke:#8b7957;stroke-dasharray:10 8}.route-lines .clear-route{stroke:#27634c;stroke-width:8}.route-lines .arrows{stroke:#5d4b2d;stroke-width:4}
+.chapter-label{display:flex;align-items:center;gap:1.6cqw;color:#50432c;font-size:2.4cqw;z-index:2;text-shadow:0 1px #f8e7bc;background:linear-gradient(90deg,#f4dfb5f5 70%,#f4dfb500);padding-left:1cqw}.chapter-label b{font-size:3.7cqw;color:#34392f}.chapter-label span{font-size:2.5cqw;margin-left:1cqw}
+.stage-node{gap:.7cqw;font-size:3.15cqw;white-space:nowrap}.stage-node small{font-size:2.4cqw;color:#afdfbe}.stage-node[data-status=locked] small{color:#bcc8d4}.stage-node[data-status=locked]{color:#c6cfdb}.stage-node[aria-pressed=true]{color:#ffedb1}.stage-node[aria-pressed=true] small{color:#ffe3a0}.map-legend{display:flex;align-items:center;justify-content:center;gap:3cqw;color:#463c2b;background:#f1dfb5d9;z-index:2;font-size:2.5cqw}
+#campaign-stage-title{font-size:4cqw}.rounds{display:flex;align-items:center;justify-content:flex-end;color:#b4c8d7;font-size:2.8cqw}#stage-condition{font-size:2.8cqw;color:#acd8bc;display:flex;align-items:center}#stage-condition.locked{color:#e9bc8a}.reward-row,.repeat-row{display:flex;align-items:center;justify-content:space-between;font-size:2.8cqw;color:#bed0df}.reward-row{border-top:1px solid #506176;padding-top:1.1cqw}.reward-row strong{font-size:3.4cqw;color:#ffe1a0;display:flex;align-items:center;gap:1cqw}.reward-row img{height:3.8cqw;width:auto;image-rendering:pixelated}.reward-row img.gem{margin-left:2.4cqw}.repeat-row{font-size:2.5cqw}.repeat-row span:first-child{color:#e2cea5}
+.difficulty strong{font-size:4.2cqw}.difficulty small{font-size:2.6cqw;color:#afc0d1;margin-top:1cqw}#campaign-depart strong{font-size:5.6cqw}#campaign-depart small{font-size:2.7cqw;color:#c5dac7;margin-top:1cqw}#campaign-depart:disabled{cursor:default;color:#bfcbd6}#campaign-depart:disabled small{color:#a8b7c7}
+.stage-card{position:absolute;z-index:5}.stage-card button{position:absolute}
+.stage-card .stage-node{left:0;top:60%;width:100%;height:40%;font-size:2.95cqw;line-height:1.2;gap:0;color:#fff0cd}
+.landmark-art{left:25%;top:0;width:50%;height:62.5%;background-repeat:no-repeat;background-size:100% 100%;image-rendering:pixelated}
+.stage-card[data-selected=true]::before{content:'';position:absolute;left:23%;top:49%;width:54%;height:10%;border:.3cqw solid #ffe6a1;background:#b0914055;border-radius:50%;pointer-events:none}
+.lock-badge{position:absolute;left:70%;top:35%;width:2.8cqw;height:3.3cqw;pointer-events:none;z-index:7}
+.stage-card .stage-node[aria-pressed=true]{color:#fff0cd}
+.chapter-label{font-size:2.3cqw}.chapter-label b{font-size:3.5cqw}
+
+:scope .scroll-heading{font-size:5.2cqw;line-height:normal;color:#14283a;font-weight:bold;flex-direction:row;z-index:3;text-shadow:none} .stage-card{border:0;padding:0;background:none;text-align:initial;border-radius:0;box-shadow:none;display:block;margin:0} .chapter-label{line-height:normal} p{line-height:normal} .stage-card button.landmark-art{background-color:transparent} .stage-card button.stage-node{white-space:nowrap} .reward-row strong{font-weight:bold} .rounds{font-weight:normal}
+}

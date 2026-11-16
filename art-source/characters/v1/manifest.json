@@ -1,0 +1,904 @@
+{
+  "schemaVersion": 2,
+  "baselineVersion": 1,
+  "artRevision": "pixel256-v1",
+  "count": 49,
+  "images": 147,
+  "canvas": [
+    256,
+    256
+  ],
+  "foot": [
+    128,
+    224
+  ],
+  "sideFacing": "left",
+  "right": "mirror-side",
+  "runtimeApplied": false,
+  "motionComplete": false,
+  "reviewStatus": "ready-for-review",
+  "entries": [
+    {
+      "id": "1",
+      "name": "관우",
+      "faction": "촉",
+      "order": 1,
+      "identity": "Guan Yu: majestic mature red-brown face, very long straight black beard, green folded headcloth, green robe over muted gold/steel armor, broad composed eyes. Mounted on existing chestnut horse, hold complete Green Dragon crescent glaive. Preserve iconic green silhouette, no helmet or giant gold horse mask.",
+      "folder": "1",
+      "identityDesign": "Guan Yu: majestic mature red-brown face, very long straight black beard, green folded headcloth, green robe over muted gold/steel armor, broad composed eyes. Mounted on existing chestnut horse, hold complete Green Dragon crescent glaive. Preserve iconic green silhouette, no helmet or giant gold horse mask.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "2",
+      "name": "장비",
+      "faction": "촉",
+      "order": 2,
+      "identity": "Zhang Fei: broad powerful stocky infantry, round fierce tiger eyes, massive flared BLACK beard, red headband tied around black hair bun, thick exposed forearms, black/red lamellar armor, simple bronze shoulders. Hold long wavy serpentine spear. No fur collar, no silver helmet, no horse. Thick torso similar strength class as Xu Chu, not a giant.",
+      "folder": "2",
+      "identityDesign": "Zhang Fei: broad powerful stocky infantry, round fierce tiger eyes, massive flared BLACK beard, red headband tied around black hair bun, thick exposed forearms, black/red lamellar armor, simple bronze shoulders. Hold long wavy serpentine spear. No fur collar, no silver helmet, no horse. Thick torso similar strength class as Xu Chu, not a giant.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "15",
+      "name": "조운",
+      "faction": "촉",
+      "order": 3,
+      "identity": "Zhao Yun: silver helmet with white plume, silver armor, blue scarf, white cape, spear, white horse; approved front",
+      "folder": "15",
+      "identityDesign": "Zhao Yun: silver helmet with white plume, silver armor, blue scarf, white cape, spear, white horse; approved front",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "16",
+      "name": "황충",
+      "faction": "촉",
+      "order": 4,
+      "identity": "Huang Zhong: aged veteran archer, long WHITE beard and white eyebrows, compact bronze/gold military helmet with modest red tassel, weathered face, green shoulder cloak over bronze lamellar armor. Bow in hand, arrow quiver over shoulder. Older stocky normal warrior, full boots. Distinct from bare-chested Huang Gai.",
+      "folder": "16",
+      "identityDesign": "Huang Zhong: aged veteran archer, long WHITE beard and white eyebrows, compact bronze/gold military helmet with modest red tassel, weathered face, green shoulder cloak over bronze lamellar armor. Bow in hand, arrow quiver over shoulder. Older stocky normal warrior, full boots. Distinct from bare-chested Huang Gai.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "35",
+      "name": "제갈량",
+      "faction": "촉",
+      "order": 5,
+      "identity": "Zhuge Liang: slender mature scholar, tall but modest navy-blue folded scholar cap, thin long black moustache and narrow pointed beard, calm intelligent eyes, ivory robe with muted jade/green trim. Hold WHITE feather fan at chest. Small plain jade belt, flowing long sleeves. No gold warrior shoulders, not oversized cap.",
+      "folder": "35",
+      "identityDesign": "Zhuge Liang: slender mature scholar, tall but modest navy-blue folded scholar cap, thin long black moustache and narrow pointed beard, calm intelligent eyes, ivory robe with muted jade/green trim. Hold WHITE feather fan at chest. Small plain jade belt, flowing long sleeves. No gold warrior shoulders, not oversized cap.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "0",
+      "name": "유비",
+      "faction": "촉",
+      "order": 6,
+      "identity": "Liu Bei: compassionate mature lord, long earlobes, gentle brows, small neat moustache and pointed beard, low restrained gold head ornament. Green and ivory long robe over modest light armor, green cape. Hold TWO distinct swords, each hand gripping its own hilt correctly. Average warrior body, less bulky than Zhang Fei or Xu Chu.",
+      "folder": "0",
+      "identityDesign": "Liu Bei: compassionate mature lord, long earlobes, gentle brows, small neat moustache and pointed beard, low restrained gold head ornament. Green and ivory long robe over modest light armor, green cape. Hold TWO distinct swords, each hand gripping its own hilt correctly. Average warrior body, less bulky than Zhang Fei or Xu Chu.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "32",
+      "name": "조조",
+      "faction": "위",
+      "order": 7,
+      "identity": "Cao Cao: mature ambitious lord with broad authoritative brow, sharp eyes, neat moustache and divided pointed beard. Low gold crown on black hair, dark navy and black gold-trimmed court armor, deep red shoulder cape, dignified layered tabard. Hold ONE straight sword by its hilt, other hand empty. Average body, not giant.",
+      "folder": "32",
+      "identityDesign": "Cao Cao: mature ambitious lord with broad authoritative brow, sharp eyes, neat moustache and divided pointed beard. Low gold crown on black hair, dark navy and black gold-trimmed court armor, deep red shoulder cape, dignified layered tabard. Hold ONE straight sword by its hilt, other hand empty. Average body, not giant.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "33",
+      "name": "하후돈",
+      "faction": "위",
+      "order": 8,
+      "identity": "Xiahou Dun: rugged muscular veteran, distinctive BLACK EYEPATCH on one eye, angular brow, short coarse black beard. Angular bronze/gold military helmet framing the face, dark blue steel armor, blue shoulder scarf. Full long spear. Remove generic fur collar and topknot silhouette, preserve one-eye identity. On foot.",
+      "folder": "33",
+      "identityDesign": "Xiahou Dun: rugged muscular veteran, distinctive BLACK EYEPATCH on one eye, angular brow, short coarse black beard. Angular bronze/gold military helmet framing the face, dark blue steel armor, blue shoulder scarf. Full long spear. Remove generic fur collar and topknot silhouette, preserve one-eye identity. On foot.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "34",
+      "name": "장료",
+      "faction": "위",
+      "order": 9,
+      "identity": "Zhang Liao: mature disciplined cavalry commander, pronounced straight moustache and neat tapered black beard, stern narrow eyes. Angular RIDGED BRONZE military helmet with rust-red center crest/plate and small dark plume, violet neck scarf, bronze and dark steel plate armor, restrained navy cape. NO white fur collar and NO loose topknot. Mounted on existing gray horse holding long crescent glaive. Clearly distinct from Xiahou Dun and silver Zhao Yun.",
+      "folder": "34",
+      "identityDesign": "Zhang Liao: mature disciplined cavalry commander, pronounced straight moustache and neat tapered black beard, stern narrow eyes. Angular RIDGED BRONZE military helmet with rust-red center crest/plate and small dark plume, violet neck scarf, bronze and dark steel plate armor, restrained navy cape. NO white fur collar and NO loose topknot. Mounted on existing gray horse holding long crescent glaive. Clearly distinct from Xiahou Dun and silver Zhao Yun.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "77",
+      "name": "주유",
+      "faction": "오",
+      "order": 10,
+      "identity": "Zhou Yu: youthful elegant clean-shaven commander, long dark hair behind shoulders with small red-gold hair binding, composed handsome square-pixel face. White/ivory broad shoulder cape, deep crimson inner robe and narrow dark armor at chest, restrained gold trim. Hold elegant straight commander sword by hilt. Slender normal warrior, not bulky fur-collared soldier.",
+      "folder": "77",
+      "identityDesign": "Zhou Yu: youthful elegant clean-shaven commander, long dark hair behind shoulders with small red-gold hair binding, composed handsome square-pixel face. White/ivory broad shoulder cape, deep crimson inner robe and narrow dark armor at chest, restrained gold trim. Hold elegant straight commander sword by hilt. Slender normal warrior, not bulky fur-collared soldier.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "119",
+      "name": "여포",
+      "faction": "군웅",
+      "order": 11,
+      "identity": "Lu Bu: imposing athletic cavalry warlord, proud clean-shaven angular face, small gold crown with TWO long curved crimson pheasant feathers. Black and gold armor, deep red cape, complete two-sided crescent halberd Fangtian Huaji. Existing chestnut/red-brown horse. Keep recognizable two-feather silhouette, no large common fur collar.",
+      "folder": "119",
+      "identityDesign": "Lu Bu: imposing athletic cavalry warlord, proud clean-shaven angular face, small gold crown with TWO long curved crimson pheasant feathers. Black and gold armor, deep red cape, complete two-sided crescent halberd Fangtian Huaji. Existing chestnut/red-brown horse. Keep recognizable two-feather silhouette, no large common fur collar.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "infantry",
+      "name": "의용보병",
+      "faction": "군웅",
+      "order": 12,
+      "identity": "Volunteer infantry: ordinary rank-and-file sturdy adult, simple dark cloth cap or plain leather helmet, modest short moustache. Muted brown/gray leather and plain iron lamellar vest, subdued plum sash. Hold a straight spear and SIMPLE WOODEN shield with metal rim, not gilded royal lion shield. Visually less ornate than named generals.",
+      "folder": "infantry",
+      "identityDesign": "Volunteer infantry: ordinary rank-and-file sturdy adult, simple dark cloth cap or plain leather helmet, modest short moustache. Muted brown/gray leather and plain iron lamellar vest, subdued plum sash. Hold a straight spear and SIMPLE WOODEN shield with metal rim, not gilded royal lion shield. Visually less ornate than named generals.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "archer",
+      "name": "의용궁병",
+      "faction": "군웅",
+      "order": 13,
+      "identity": "Volunteer archer: ordinary adult foot soldier, broad woven STRAW HAT, plain tan/brown cloth tunic with modest iron chest vest, muted red sash. Simple wooden bow and arrow quiver. Slim average rank-and-file body, few ornaments, no gold noble shoulders or giant beard.",
+      "folder": "archer",
+      "identityDesign": "Volunteer archer: ordinary adult foot soldier, broad woven STRAW HAT, plain tan/brown cloth tunic with modest iron chest vest, muted red sash. Simple wooden bow and arrow quiver. Slim average rank-and-file body, few ornaments, no gold noble shoulders or giant beard.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "tactician",
+      "name": "군영참모",
+      "faction": "군웅",
+      "order": 14,
+      "identity": "Camp adviser: ordinary middle-aged scholar, SMALL plain charcoal square cloth cap, pale gray-lilac robe with brown narrow belt, modest short moustache. Hold bundled bamboo slips visibly with both hands. Slender ordinary body, no tall ornate court crown or feathers; subordinate support unit.",
+      "folder": "tactician",
+      "identityDesign": "Camp adviser: ordinary middle-aged scholar, SMALL plain charcoal square cloth cap, pale gray-lilac robe with brown narrow belt, modest short moustache. Hold bundled bamboo slips visibly with both hands. Slender ordinary body, no tall ornate court crown or feathers; subordinate support unit.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "simayi",
+      "name": "사마의",
+      "faction": "위",
+      "order": 15,
+      "identity": "Sima Yi: severe elderly-thin strategist, long narrow face, hooded sharp eyes, slim moustache and long narrow gray-black beard. Tall angular BLACK official crown, high pale inner collar and enveloping black/navy robe with restrained purple trim. Hold compact dark-gray feather fan low. Outline must differ from Zhuge Liang's white loose robe and rounded blue cap.",
+      "folder": "simayi",
+      "identityDesign": "Sima Yi: severe elderly-thin strategist, long narrow face, hooded sharp eyes, slim moustache and long narrow gray-black beard. Tall angular BLACK official crown, high pale inner collar and enveloping black/navy robe with restrained purple trim. Hold compact dark-gray feather fan low. Outline must differ from Zhuge Liang's white loose robe and rounded blue cap.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "dianwei",
+      "name": "전위",
+      "faction": "위",
+      "order": 16,
+      "identity": "Dian Wei: extremely muscular stocky bodyguard but same tallness class as Xu Chu, thick neck, broad square jaw, dark coarse sideburns and short bristly beard, black tied hair with simple headband. Dark iron chest armor, leather straps, thick exposed upper arms, blue-black sash. TWO heavy short iron ji halberds with side blades, one per hand. No shiny gold default shoulder lions.",
+      "folder": "dianwei",
+      "identityDesign": "Dian Wei: extremely muscular stocky bodyguard but same tallness class as Xu Chu, thick neck, broad square jaw, dark coarse sideburns and short bristly beard, black tied hair with simple headband. Dark iron chest armor, leather straps, thick exposed upper arms, blue-black sash. TWO heavy short iron ji halberds with side blades, one per hand. No shiny gold default shoulder lions.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "guojia",
+      "name": "곽가",
+      "faction": "위",
+      "order": 17,
+      "identity": "Guo Jia: young slender clean-shaven strategist, pale warm skin, relaxed clever narrow eyes. Long dark hair tied loosely without tall official hat, blue-gray scholar robe with indigo collar and subtle bronze trim, soft draped sleeves. Hold bamboo slips. Physically fine-boned adult, not child, distinct from mature crowned Xun Yu.",
+      "folder": "guojia",
+      "identityDesign": "Guo Jia: young slender clean-shaven strategist, pale warm skin, relaxed clever narrow eyes. Long dark hair tied loosely without tall official hat, blue-gray scholar robe with indigo collar and subtle bronze trim, soft draped sleeves. Hold bamboo slips. Physically fine-boned adult, not child, distinct from mature crowned Xun Yu.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "xuchu",
+      "name": "허저",
+      "faction": "위",
+      "order": 18,
+      "identity": "Xu Chu: very broad muscular stocky bodyguard, big forearms and rounded solid torso, fierce square eyes, broad black moustache and short full black beard, dark hair bun bound blue/gold. Preserve our recognizable NAVY armor, WHITE FUR shoulder collar, gold trim and lion belt, heavy spiked IRON MACE held upright. Keep bulky but not taller than cavalry. This established fur collar is his specific signature, not repeated on everyone.",
+      "folder": "xuchu",
+      "identityDesign": "Xu Chu: very broad muscular stocky bodyguard, big forearms and rounded solid torso, fierce square eyes, broad black moustache and short full black beard, dark hair bun bound blue/gold. Preserve our recognizable NAVY armor, WHITE FUR shoulder collar, gold trim and lion belt, heavy spiked IRON MACE held upright. Keep bulky but not taller than cavalry. This established fur collar is his specific signature, not repeated on everyone.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "xiahouyuan",
+      "name": "하후연",
+      "faction": "위",
+      "order": 19,
+      "identity": "Xiahou Yuan: hardy middle-aged archer general, short bristly beard, intense alert eyes, low rounded DARK STEEL helmet with cheek flaps, BLUE scarf, practical dark lamellar armor and modest leather bracers. Wooden recurve bow and quiver. Broad normal warrior body, no fur mantle and no eye patch. Distinct from old white-bearded Huang Zhong.",
+      "folder": "xiahouyuan",
+      "identityDesign": "Xiahou Yuan: hardy middle-aged archer general, short bristly beard, intense alert eyes, low rounded DARK STEEL helmet with cheek flaps, BLUE scarf, practical dark lamellar armor and modest leather bracers. Wooden recurve bow and quiver. Broad normal warrior body, no fur mantle and no eye patch. Distinct from old white-bearded Huang Zhong.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "xuhuang",
+      "name": "서황",
+      "faction": "위",
+      "order": 20,
+      "identity": "Xu Huang: resolute mature warrior with squarish face, long dark moustache and angular goatee. Distinctive PLUM/PURPLE WRAPPED HEADSCARF covering crown and tied behind, no common topknot. Heavy black-iron armor with muted bronze edges, broad layered shoulders, short plum cape. Hold LARGE SINGLE AXE, entire curved blade visible. Stout strong infantry.",
+      "folder": "xuhuang",
+      "identityDesign": "Xu Huang: resolute mature warrior with squarish face, long dark moustache and angular goatee. Distinctive PLUM/PURPLE WRAPPED HEADSCARF covering crown and tied behind, no common topknot. Heavy black-iron armor with muted bronze edges, broad layered shoulders, short plum cape. Hold LARGE SINGLE AXE, entire curved blade visible. Stout strong infantry.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "xunyu",
+      "name": "순욱",
+      "faction": "위",
+      "order": 21,
+      "identity": "Xun Yu: refined composed mature court adviser, neat small moustache, upright posture. Distinctive TALL RECTANGULAR gold-trimmed dark court crown, ivory outer robe, dark blue inner panel with subtle jade accent. Hold narrow ceremonial tablet upright in both hands. Elegant slender adult, no fan or armor or shared generic square scholar cap.",
+      "folder": "xunyu",
+      "identityDesign": "Xun Yu: refined composed mature court adviser, neat small moustache, upright posture. Distinctive TALL RECTANGULAR gold-trimmed dark court crown, ivory outer robe, dark blue inner panel with subtle jade accent. Hold narrow ceremonial tablet upright in both hands. Elegant slender adult, no fan or armor or shared generic square scholar cap.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "yuejin",
+      "name": "악진",
+      "faction": "위",
+      "order": 22,
+      "identity": "Yue Jin: shorter compact sturdy assault warrior, broad determined clean-shaven jaw, low rounded BRONZE helmet, ochre scarf over navy dark iron armor. Hold short sturdy sword. Low broad center of mass, simple boots, no fur collar or extravagant cape. Small but adult muscular, not child.",
+      "folder": "yuejin",
+      "identityDesign": "Yue Jin: shorter compact sturdy assault warrior, broad determined clean-shaven jaw, low rounded BRONZE helmet, ochre scarf over navy dark iron armor. Hold short sturdy sword. Low broad center of mass, simple boots, no fur collar or extravagant cape. Small but adult muscular, not child.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "caohong",
+      "name": "조홍",
+      "faction": "위",
+      "order": 23,
+      "identity": "Cao Hong: stout mature defensive guard, broad dependable face, small moustache, dark hair under low plain blue-steel helmet. Heavy navy armor with bronze trim, leather shoulder straps, gold-brown shield boss. Hold full large rectangular/rounded defensive shield and spear. More armored than generic infantry, no fur collar; grounded guarded stance.",
+      "folder": "caohong",
+      "identityDesign": "Cao Hong: stout mature defensive guard, broad dependable face, small moustache, dark hair under low plain blue-steel helmet. Heavy navy armor with bronze trim, leather shoulder straps, gold-brown shield boss. Hold full large rectangular/rounded defensive shield and spear. More armored than generic infantry, no fur collar; grounded guarded stance.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "machao",
+      "name": "마초",
+      "faction": "촉",
+      "order": 24,
+      "identity": "Ma Chao: youthful fierce frontier cavalry hero, clean-shaven angular face, sharp eyes. VERY DISTINCT SILVER LION/BEAST-FACED helmet with sculpted brow and swept side wings, compact white mane plume, thick WHITE FUR collar, silver armor with charcoal etched large panels and teal-green undercloth, pale cape. Mounted on existing WHITE horse holding long silver spear. Broader fiercer shoulders than Zhao Yun but same cavalry scale. Lion brow and fur must differentiate him from Zhao Yun's smooth silver helmet and cloth scarf. No white face mask.",
+      "folder": "machao",
+      "identityDesign": "Ma Chao: youthful fierce frontier cavalry hero, clean-shaven angular face, sharp eyes. VERY DISTINCT SILVER LION/BEAST-FACED helmet with sculpted brow and swept side wings, compact white mane plume, thick WHITE FUR collar, silver armor with charcoal etched large panels and teal-green undercloth, pale cape. Mounted on existing WHITE horse holding long silver spear. Broader fiercer shoulders than Zhao Yun but same cavalry scale. Lion brow and fur must differentiate him from Zhao Yun's smooth silver helmet and cloth scarf. No white face mask.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "pangtong",
+      "name": "방통",
+      "faction": "촉",
+      "order": 25,
+      "identity": "Rustic strategist with a neat brown cloth hat, short beard, ochre and olive layered scholar robe, pale inner sleeves, and a tied bundle of bamboo slips instead of a staff.",
+      "folder": "pangtong",
+      "identityDesign": "Rustic strategist with a neat brown cloth hat, short beard, ochre and olive layered scholar robe, pale inner sleeves, and a tied bundle of bamboo slips instead of a staff.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "jiangwei",
+      "name": "강유",
+      "faction": "촉",
+      "order": 26,
+      "identity": "Jiang Wei: young intelligent military scholar, clean-shaven focused face, dark hair with modest flat gold-green forehead band, trailing green scarf, light steel lamellar chest armor and ivory-green long split tunic. Hold long spear. Slender athletic infantry with neat waist and shoulders, no giant golden plates or fur.",
+      "folder": "jiangwei",
+      "identityDesign": "Jiang Wei: young intelligent military scholar, clean-shaven focused face, dark hair with modest flat gold-green forehead band, trailing green scarf, light steel lamellar chest armor and ivory-green long split tunic. Hold long spear. Slender athletic infantry with neat waist and shoulders, no giant golden plates or fur.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "weiyan",
+      "name": "위연",
+      "faction": "촉",
+      "order": 27,
+      "identity": "Wei Yan: fierce mature soldier, red-brown complexion, heavy upturned black brows, sharp eyes and black pointed beard. Dark steel helmet with strong angled brow, orange-red neck scarf, worn bronze/green armor, no full-face fantasy mask. Hold large curved glaive. Aggressive angular silhouette, strong normal infantry.",
+      "folder": "weiyan",
+      "identityDesign": "Wei Yan: fierce mature soldier, red-brown complexion, heavy upturned black brows, sharp eyes and black pointed beard. Dark steel helmet with strong angled brow, orange-red neck scarf, worn bronze/green armor, no full-face fantasy mask. Hold large curved glaive. Aggressive angular silhouette, strong normal infantry.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "liaohua",
+      "name": "요화",
+      "faction": "촉",
+      "order": 28,
+      "identity": "Liao Hua: weathered older veteran, gray at temples and short salt-and-pepper beard, simple dark green headwrap, plain green-brown layered armor with cloth cloak. Hold practical sword. Upright resilient older soldier, adult normal build, understated equipment, no ornate gold crown.",
+      "folder": "liaohua",
+      "identityDesign": "Liao Hua: weathered older veteran, gray at temples and short salt-and-pepper beard, simple dark green headwrap, plain green-brown layered armor with cloth cloak. Hold practical sword. Upright resilient older soldier, adult normal build, understated equipment, no ornate gold crown.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "zhoucang",
+      "name": "주창",
+      "faction": "촉",
+      "order": 29,
+      "identity": "Zhou Cang: rough rugged sturdy retainer, dark tanned face, broad unruly black beard, thick brows. Low brown cloth cap/headwrap, dark green rolled sleeves over practical bronze chest armor, coarse leather belt and exposed forearms. Hold large curved blade. Wild retainer silhouette unlike noble Guan Yu, no huge gold epaulets.",
+      "folder": "zhoucang",
+      "identityDesign": "Zhou Cang: rough rugged sturdy retainer, dark tanned face, broad unruly black beard, thick brows. Low brown cloth cap/headwrap, dark green rolled sleeves over practical bronze chest armor, coarse leather belt and exposed forearms. Hold large curved blade. Wild retainer silhouette unlike noble Guan Yu, no huge gold epaulets.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "sunce",
+      "name": "손책",
+      "faction": "오",
+      "order": 30,
+      "identity": "Youthful Wu ruler with a low bronze-gold coronet and compact red ribbon, broad dark bronze and red armor trimmed in gold, a substantial vermilion command cloak, and two short ji halberds held asymmetrically (right upright, left low).",
+      "folder": "sunce",
+      "identityDesign": "Youthful Wu ruler with a low bronze-gold coronet and compact red ribbon, broad dark bronze and red armor trimmed in gold, a substantial vermilion command cloak, and two short ji halberds held asymmetrically (right upright, left low).",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "luxun",
+      "name": "육손",
+      "faction": "오",
+      "order": 31,
+      "identity": "Lu Xun: youthful but clearly ADULT scholarly commander, smooth clean-shaven oval face, focused fine brows, small close-fitting blue steel cap/helmet, green neck scarf. Slim silver-gray light chest armor over ivory robe with crimson waist sash, red cape edge. Hold small torch as established game equipment. Slim adult shoulders, not a child or plain white-robed magician.",
+      "folder": "luxun",
+      "identityDesign": "Lu Xun: youthful but clearly ADULT scholarly commander, smooth clean-shaven oval face, focused fine brows, small close-fitting blue steel cap/helmet, green neck scarf. Slim silver-gray light chest armor over ivory robe with crimson waist sash, red cape edge. Hold small torch as established game equipment. Slim adult shoulders, not a child or plain white-robed magician.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "sunquan",
+      "name": "손권",
+      "faction": "오",
+      "order": 32,
+      "identity": "Sun Quan: mature dignified ruler, broad face, long FULL REDDISH-BROWN beard, thick eyebrows. Low gold crown on brown-black tied hair, rich burgundy court robe over understated armor, purple-patterned central panel simplified to large blocks, wide draped sleeves. Hold straight sword by hilt. Distinct from Cao Cao's short forked dark beard and navy armor; average lord body.",
+      "folder": "sunquan",
+      "identityDesign": "Sun Quan: mature dignified ruler, broad face, long FULL REDDISH-BROWN beard, thick eyebrows. Low gold crown on brown-black tied hair, rich burgundy court robe over understated armor, purple-patterned central panel simplified to large blocks, wide draped sleeves. Hold straight sword by hilt. Distinct from Cao Cao's short forked dark beard and navy armor; average lord body.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "ganning",
+      "name": "감녕",
+      "faction": "오",
+      "order": 33,
+      "identity": "Gan Ning: roguish athletic pirate warrior, tanned face, unruly swept black hair with red headband, confident grin and stubble. Asymmetric open red/black vest and leather straps with exposed muscular shoulder, conspicuous few GOLD BELLS at belt. Hold curved chain sickle with a clear slack chain. Bold red scarf, no symmetric default gold armor and no large fur collar.",
+      "folder": "ganning",
+      "identityDesign": "Gan Ning: roguish athletic pirate warrior, tanned face, unruly swept black hair with red headband, confident grin and stubble. Asymmetric open red/black vest and leather straps with exposed muscular shoulder, conspicuous few GOLD BELLS at belt. Hold curved chain sickle with a clear slack chain. Bold red scarf, no symmetric default gold armor and no large fur collar.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "taishici",
+      "name": "태사자",
+      "faction": "오",
+      "order": 34,
+      "identity": "Taishi Ci: disciplined powerful archer warrior, square tan face, short neatly trimmed beard. Bronze/steel helmet with red tie, strong shoulders under dark red practical armor. Hold one short ji halberd and recurve bow, second short ji secured visibly at belt/back. Arrow quiver behind. Clear archer-warrior identity with mature stern face.",
+      "folder": "taishici",
+      "identityDesign": "Taishi Ci: disciplined powerful archer warrior, square tan face, short neatly trimmed beard. Bronze/steel helmet with red tie, strong shoulders under dark red practical armor. Hold one short ji halberd and recurve bow, second short ji secured visibly at belt/back. Arrow quiver behind. Clear archer-warrior identity with mature stern face.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "lumeng",
+      "name": "여몽",
+      "faction": "오",
+      "order": 35,
+      "identity": "Lu Meng: mature capable commander, broad thoughtful face, neat black moustache and medium squared beard, practical angular SILVER helmet with modest short pale crest. White surcoat/cape over dark iron armor, crimson sash, long spear. WHITE garment should read from far away; not generic red-gold warrior. Sturdy normal infantry.",
+      "folder": "lumeng",
+      "identityDesign": "Lu Meng: mature capable commander, broad thoughtful face, neat black moustache and medium squared beard, practical angular SILVER helmet with modest short pale crest. White surcoat/cape over dark iron armor, crimson sash, long spear. WHITE garment should read from far away; not generic red-gold warrior. Sturdy normal infantry.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "huanggai",
+      "name": "황개",
+      "faction": "오",
+      "order": 36,
+      "identity": "Huang Gai: old muscular veteran, WHITE beard and brows, white hair bound with red headband, rugged tanned BARE CHEST and thick arms with subtle readable battle scars. Dark red waist armor and bronze belt. Hold heavy iron whip/flail from existing design. Muscular but not giant, no helmet or cloak.",
+      "folder": "huanggai",
+      "identityDesign": "Huang Gai: old muscular veteran, WHITE beard and brows, white hair bound with red headband, rugged tanned BARE CHEST and thick arms with subtle readable battle scars. Dark red waist armor and bronze belt. Hold heavy iron whip/flail from existing design. Muscular but not giant, no helmet or cloak.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "lusu",
+      "name": "노숙",
+      "faction": "오",
+      "order": 37,
+      "identity": "Lu Su: middle-aged calm generous diplomat, broader softer face, small dark moustache, substantial but not muscular scholar body. Modest rounded bronze-brown official cap, muted TEAL outer robe with cream inner collar and brown sash, wide sleeves. Hold rolled scroll with both hands. Distinct from thin youthful blue Guo Jia and tall-crowned Xun Yu.",
+      "folder": "lusu",
+      "identityDesign": "Lu Su: middle-aged calm generous diplomat, broader softer face, small dark moustache, substantial but not muscular scholar body. Modest rounded bronze-brown official cap, muted TEAL outer robe with cream inner collar and brown sash, wide sleeves. Hold rolled scroll with both hands. Distinct from thin youthful blue Guo Jia and tall-crowned Xun Yu.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "sunshangxiang",
+      "name": "손상향",
+      "faction": "오",
+      "order": 38,
+      "identity": "Sun Shangxiang: spirited young female archer, tied high dark ponytail with short red ribbon, confident eyes, compact reddish bronze shoulder armor over crimson/ivory tunic, fitted waist and practical boots. Hold recurve bow and wear quiver. Athletic slender woman, no long court gown, no enormous gold floral crown.",
+      "folder": "sunshangxiang",
+      "identityDesign": "Sun Shangxiang: spirited young female archer, tied high dark ponytail with short red ribbon, confident eyes, compact reddish bronze shoulder armor over crimson/ivory tunic, fitted waist and practical boots. Hold recurve bow and wear quiver. Athletic slender woman, no long court gown, no enormous gold floral crown.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "dingfeng",
+      "name": "정봉",
+      "faction": "오",
+      "order": 39,
+      "identity": "Ding Feng: hardy stocky older assault fighter, short cropped dark-gray beard, red wrapped headscarf, thick forearms exposed beneath simple iron-red chest armor. Hold short broad saber low, other fist ready. Compact rugged veteran, short cloak or none, avoid noble golden armor.",
+      "folder": "dingfeng",
+      "identityDesign": "Ding Feng: hardy stocky older assault fighter, short cropped dark-gray beard, red wrapped headscarf, thick forearms exposed beneath simple iron-red chest armor. Hold short broad saber low, other fist ready. Compact rugged veteran, short cloak or none, avoid noble golden armor.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "panzhang",
+      "name": "반장",
+      "faction": "오",
+      "order": 40,
+      "identity": "Pan Zhang: intimidating mature stocky captor, heavy moustache, close dark headwrap with short red tail, dark bronze chest armor and red-brown cloth skirt. Hold conspicuous coil of tan ROPE and short practical sword at belt. Rough leather shoulders, no fur collar; rope and square jaw are identity.",
+      "folder": "panzhang",
+      "identityDesign": "Pan Zhang: intimidating mature stocky captor, heavy moustache, close dark headwrap with short red tail, dark bronze chest armor and red-brown cloth skirt. Hold conspicuous coil of tan ROPE and short practical sword at belt. Rough leather shoulders, no fur collar; rope and square jaw are identity.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "zhangjue",
+      "name": "장각",
+      "faction": "군웅",
+      "order": 41,
+      "identity": "Yellow Turban mystic with a yellow brow band, controlled long dark hair and beard, simple ochre and brown robes, cream sash, and one crook staff with a single yellow cloth.",
+      "folder": "zhangjue",
+      "identityDesign": "Yellow Turban mystic with a yellow brow band, controlled long dark hair and beard, simple ochre and brown robes, cream sash, and one crook staff with a single yellow cloth.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "dongzhuo",
+      "name": "동탁",
+      "faction": "군웅",
+      "order": 42,
+      "identity": "Dong Zhuo: very fat imposing tyrant, huge round belly, thick short neck, broad heavy cheeks and bushy BLACK beard, smug hostile eyes. Low lavish dark-gold crown, rich purple robe and red-black armor stretched over belly, ornate but readable bronze belt. Hold heavy crescent blade. Broadest torso but not tallest; distinct obesity not muscle.",
+      "folder": "dongzhuo",
+      "identityDesign": "Dong Zhuo: very fat imposing tyrant, huge round belly, thick short neck, broad heavy cheeks and bushy BLACK beard, smug hostile eyes. Low lavish dark-gold crown, rich purple robe and red-black armor stretched over belly, ornate but readable bronze belt. Hold heavy crescent blade. Broadest torso but not tallest; distinct obesity not muscle.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "yuanshao",
+      "name": "원소",
+      "faction": "군웅",
+      "order": 43,
+      "identity": "Yuan Shao: proud aristocratic commander, dignified long face with neat moustache and pointed beard. Ornate angular GOLD helmet/crown without white pony plume, broad PURPLE shoulder mantle, gold/bronze chest armor over dark noble robe. Hold long spear. Refined noble silhouette and full purple mantle, not ordinary gold infantry.",
+      "folder": "yuanshao",
+      "identityDesign": "Yuan Shao: proud aristocratic commander, dignified long face with neat moustache and pointed beard. Ornate angular GOLD helmet/crown without white pony plume, broad PURPLE shoulder mantle, gold/bronze chest armor over dark noble robe. Hold long spear. Refined noble silhouette and full purple mantle, not ordinary gold infantry.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "huatuo",
+      "name": "화타",
+      "faction": "군웅",
+      "order": 44,
+      "identity": "Hua Tuo: frail gentle elderly physician, long WHITE eyebrows and wispy white beard, white hair in small bun, slight stoop, cream and muted sage robe. Wooden walking staff and green-brown medicine box with simple strap. Slim old body, no armor or martial weapon, clear doctor silhouette.",
+      "folder": "huatuo",
+      "identityDesign": "Hua Tuo: frail gentle elderly physician, long WHITE eyebrows and wispy white beard, white hair in small bun, slight stoop, cream and muted sage robe. Wooden walking staff and green-brown medicine box with simple strap. Slim old body, no armor or martial weapon, clear doctor silhouette.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "yanliang",
+      "name": "안량",
+      "faction": "군웅",
+      "order": 45,
+      "identity": "Yan Liang: large strong mature fighter, long angular face with hooked black moustache and pointed beard, angular dark steel helmet with green small plume. Brown-green heavy armor and muted plum cloth at waist, broad armored shoulders. Hold large crescent saber. More angular and tall-necked than Wen Chou, not identical purple recolor.",
+      "folder": "yanliang",
+      "identityDesign": "Yan Liang: large strong mature fighter, long angular face with hooked black moustache and pointed beard, angular dark steel helmet with green small plume. Brown-green heavy armor and muted plum cloth at waist, broad armored shoulders. Hold large crescent saber. More angular and tall-necked than Wen Chou, not identical purple recolor.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "wenchou",
+      "name": "문추",
+      "faction": "군웅",
+      "order": 46,
+      "identity": "Wen Chou: broad squat fierce fighter, round heavy brow, square jaw and wide black beard, rounded bronze helmet with ochre scarf around neck. Heavy dark iron and bronze armor, plum waist sash. Hold long spear. Stockier broader face than Yan Liang, distinct rounded helmet and large shoulder blocks.",
+      "folder": "wenchou",
+      "identityDesign": "Wen Chou: broad squat fierce fighter, round heavy brow, square jaw and wide black beard, rounded bronze helmet with ochre scarf around neck. Heavy dark iron and bronze armor, plum waist sash. Hold long spear. Stockier broader face than Yan Liang, distinct rounded helmet and large shoulder blocks.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "diaochan",
+      "name": "초선",
+      "faction": "군웅",
+      "order": 47,
+      "identity": "Diao Chan: graceful young dancer, gentle almond-like square-pixel eyes, black hair in elegant double-loop updo with GOLD FLOWER ornaments, pink and soft ivory long flowing dress, plum waist sash and delicate ribbon. Hold small white hand fan. Slim adult feminine body, no armor, no exaggerated proportions.",
+      "folder": "diaochan",
+      "identityDesign": "Diao Chan: graceful young dancer, gentle almond-like square-pixel eyes, black hair in elegant double-loop updo with GOLD FLOWER ornaments, pink and soft ivory long flowing dress, plum waist sash and delicate ribbon. Hold small white hand fan. Slim adult feminine body, no armor, no exaggerated proportions.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "huaxiong",
+      "name": "화웅",
+      "faction": "군웅",
+      "order": 48,
+      "identity": "Hua Xiong: brutal large frontier warrior, dark tan square face, thick bristly black beard, low dark iron helmet with angular cheek guards, heavy IRON/BLACK armor and brown fur edging confined to short shoulder pads, dark plum cape. Hold massive crescent blade. Rough heavier silhouette distinct from Yan Liang and Wen Chou; avoid common gold lions.",
+      "folder": "huaxiong",
+      "identityDesign": "Hua Xiong: brutal large frontier warrior, dark tan square face, thick bristly black beard, low dark iron helmet with angular cheek guards, heavy IRON/BLACK armor and brown fur edging confined to short shoulder pads, dark plum cape. Hold massive crescent blade. Rough heavier silhouette distinct from Yan Liang and Wen Chou; avoid common gold lions.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "gongsunzan",
+      "name": "공손찬",
+      "faction": "군웅",
+      "order": 49,
+      "identity": "Gongsun Zan: mature northern cavalry commander with neatly trimmed moustache and short beard, practical simple STEEL helmet with compact dark crest (NO giant white plume), red neck scarf, gray-iron armor and white shoulder cloak. Mounted on WHITE horse with plain dark leather tack, long spear. Distinct adult bearded commander versus young silver Zhao Yun and lion-helmet Ma Chao.",
+      "folder": "gongsunzan",
+      "identityDesign": "Gongsun Zan: mature northern cavalry commander with neatly trimmed moustache and short beard, practical simple STEEL helmet with compact dark crest (NO giant white plume), red neck scarf, gray-iron armor and white shoulder cloak. Mounted on WHITE horse with plain dark leather tack, long spear. Distinct adult bearded commander versus young silver Zhao Yun and lion-helmet Ma Chao.",
+      "artRevision": "pixel256-v1",
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ]
+    }
+  ]
+}

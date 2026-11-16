@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 1,
+  "id": "15",
+  "name": "조운",
+  "pathBase": "repository-root",
+  "guideRevision": "pixel256-v1",
+  "inputArtRevision": "pixel256-v1",
+  "inputSha256": {
+    "front": "68cc33a1fe459aa06008649291569017060aca7c9d47d190a303a83ef405afce",
+    "side": "e2b58e77dd48d0dbfdd08149e88ed3d85420505999ce87cdca1a923ce752c194",
+    "back": "a3793b01568e500d05ac03f6d8c3e4e9a3f18f5dcbcdf07d712dd65b2bd3572a"
+  },
+  "reviewStatus": "approved",
+  "approvedScope": "front detail breathing; mounted move front/left/rear",
+  "runtimeApplied": false,
+  "clips": [
+    {
+      "clipId": "front-move",
+      "view": "front",
+      "state": "move",
+      "sourceProvider": "PixelLab animate-with-text-v3",
+      "request": {
+        "action": "Create one continuous, seamless four-beat horse walk cycle in place, viewed from the fixed front camera. Each hoof lifts and lands once per loop. The forelegs alternate smoothly: one hoof bears weight as the other lifts, swings forward, and plants. The hind hooves step on separate beats, briefly visible behind the forelegs where natural. Let the horse shift weight continuously through the whole cycle, with a gentle sway and minimal vertical bounce. No pause or reset between left and right steps. Keep planted hooves steady during contact. Zhao Yun stays seated and follows the horse’s motion gently. Preserve his exact neutral expression and open eyes throughout, with no blinking, eyebrow movement, or mouth movement. Keep the original proportions, armor, and full spear. The last frame should flow into the first without a visible stop.",
+        "frame_count": 8,
+        "no_background": true,
+        "seed": 151116,
+        "enhance_prompt": false,
+        "first_frame": "art-source/characters/v1/15/front.png",
+        "last_frame": "same as first"
+      },
+      "job": {
+        "usage": null,
+        "background_job_id": "68ebf65f-1342-4ec4-a0a7-012c8430842f",
+        "status": "completed",
+        "enhanced_prompt": null,
+        "enhance_usage": null
+      },
+      "canvas": [
+        256,
+        256
+      ],
+      "anchor": [
+        128,
+        224
+      ],
+      "frames": [
+        {
+          "file": "art-source/motions/v1/15/sequences/front/move/0000.png",
+          "sourceFrameIndex": 0,
+          "durationMs": 120,
+          "visibleBounds": [
+            76,
+            14,
+            175,
+            225
+          ],
+          "sha256": "68cc33a1fe459aa06008649291569017060aca7c9d47d190a303a83ef405afce"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/front/move/0001.png",
+          "sourceFrameIndex": 1,
+          "durationMs": 120,
+          "visibleBounds": [
+            75,
+            14,
+            175,
+            236
+          ],
+          "sha256": "c94170f6e6477ec927bff3ee3cf0c0a275b66386ad7acac77edf6f8d249b6d2e"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/front/move/0002.png",
+          "sourceFrameIndex": 2,
+          "durationMs": 120,
+          "visibleBounds": [
+            77,
+            18,
+            175,
+            240
+          ],
+          "sha256": "ed18dd5ab8331701c192067ccdf0a66bf1e2be78937be98e93268c5c69af8595"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/front/move/0003.png",
+          "sourceFrameIndex": 3,
+          "durationMs": 120,
+          "visibleBounds": [
+            76,
+            22,
+            175,
+            238
+          ],
+          "sha256": "6f27e028693421c5b01493890873e8fece9ff97b2d1ed2e3ae1ff12ab87cf208"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/front/move/0004.png",
+          "sourceFrameIndex": 4,
+          "durationMs": 120,
+          "visibleBounds": [
+            77,
+            25,
+            175,
+            240
+          ],
+          "sha256": "6bfd2a73cadff0e4d7b6e10050880dec6e88b6aed341c492cdd1b3e0a2eb6213"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/front/move/0005.png",
+          "sourceFrameIndex": 5,
+          "durationMs": 120,
+          "visibleBounds": [
+            77,
+            25,
+            175,
+            240
+          ],
+          "sha256": "67390f3df27615d11cc815fed050b7345b2ba835a2d7ff2bac4931eb482af775"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/front/move/0006.png",
+          "sourceFrameIndex": 6,
+          "durationMs": 120,
+          "visibleBounds": [
+            77,
+            20,
+            175,
+            236
+          ],
+          "sha256": "85382198052f89e136e107955bd38e5a57a15681031f581a80640668d7a7ffce"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/front/move/0007.png",
+          "sourceFrameIndex": 7,
+          "durationMs": 120,
+          "visibleBounds": [
+            77,
+            16,
+            175,
+            231
+          ],
+          "sha256": "b5d36ed92f78a0e61a491cdd6f47040774bcf8f908807a8c92b8b878489aae40"
+        }
+      ],
+      "loopStart": 0,
+      "loopEnd": 7,
+      "markers": {}
+    },
+    {
+      "clipId": "side-move",
+      "view": "side",
+      "state": "move",
+      "sourceProvider": "PixelLab animate-with-text-v3",
+      "request": {
+        "action": "One seamless light mounted run cycle in place at a steady brisk pace. Fixed left-facing side profile, keeps facing screen left. The white horse alternates its hoof contacts with a small spring. Zhao Yun remains seated and follows the rhythm gently. Preserve the original silhouette, armor, face with neutral open eyes when visible, and full spear. No blinking, turning, camera motion, effects or shadows.",
+        "frame_count": 8,
+        "no_background": true,
+        "seed": 151116,
+        "enhance_prompt": false,
+        "source": "art-source/characters/v1/15/side.png",
+        "last_frame": "same as first"
+      },
+      "job": {
+        "usage": null,
+        "background_job_id": "09b420ff-823f-411c-a5e9-7f971a25b0ff",
+        "status": "completed",
+        "enhanced_prompt": null,
+        "enhance_usage": null
+      },
+      "canvas": [
+        256,
+        256
+      ],
+      "anchor": [
+        128,
+        224
+      ],
+      "frames": [
+        {
+          "file": "art-source/motions/v1/15/sequences/side/move/0000.png",
+          "sourceFrameIndex": 0,
+          "durationMs": 120,
+          "visibleBounds": [
+            58,
+            8,
+            191,
+            225
+          ],
+          "sha256": "f0a8e4defc487b09ab1c862d833ad4da6050079f1471603d0f7d17e1556aff41"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/side/move/0001.png",
+          "sourceFrameIndex": 1,
+          "durationMs": 120,
+          "visibleBounds": [
+            60,
+            11,
+            192,
+            225
+          ],
+          "sha256": "f93f751d51106755fce8c3cbbf644a768ac3ed6f88c89162dd9f43a23d057e89"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/side/move/0002.png",
+          "sourceFrameIndex": 2,
+          "durationMs": 120,
+          "visibleBounds": [
+            58,
+            14,
+            192,
+            225
+          ],
+          "sha256": "c920a7779b8b100c6a7517585622f4b9f6a7ef5f2eb9d49b455ce1839e8267aa"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/side/move/0003.png",
+          "sourceFrameIndex": 3,
+          "durationMs": 120,
+          "visibleBounds": [
+            56,
+            15,
+            195,
+            224
+          ],
+          "sha256": "ea45b354a2aedcd51fd18586dd2ab2b1dd98b84e3a17270c1942734cf65f7ee3"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/side/move/0004.png",
+          "sourceFrameIndex": 4,
+          "durationMs": 120,
+          "visibleBounds": [
+            59,
+            17,
+            196,
+            224
+          ],
+          "sha256": "0341dc91ae9988169522ae0847fb74c1210fa260c2f226bd29cc7dc67e1f295a"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/side/move/0005.png",
+          "sourceFrameIndex": 5,
+          "durationMs": 120,
+          "visibleBounds": [
+            59,
+            18,
+            198,
+            225
+          ],
+          "sha256": "995810012de1de74862f8ea8dd251abaac2646fb769f8f97ab4d93b2f601eaaa"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/side/move/0006.png",
+          "sourceFrameIndex": 6,
+          "durationMs": 120,
+          "visibleBounds": [
+            57,
+            18,
+            199,
+            224
+          ],
+          "sha256": "b8f63418912493ef6964bee7c015d98405de27a37c49a819282dbbb5550721ab"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/side/move/0007.png",
+          "sourceFrameIndex": 7,
+          "durationMs": 120,
+          "visibleBounds": [
+            58,
+            13,
+            195,
+            225
+          ],
+          "sha256": "8276281846fce3531c7f5b4874988f484caacbff7119d298ba49f0c3f3869d55"
+        }
+      ],
+      "loopStart": 0,
+      "loopEnd": 7,
+      "markers": {}
+    },
+    {
+      "clipId": "back-move",
+      "view": "back",
+      "state": "move",
+      "sourceProvider": "PixelLab animate-with-text-v3",
+      "request": {
+        "action": "One seamless light mounted run cycle in place at a steady brisk pace. Fixed rear view, keeps facing away. The white horse alternates its hoof contacts with a small spring. Zhao Yun remains seated and follows the rhythm gently. Preserve the original silhouette, armor, face with neutral open eyes when visible, and full spear. No blinking, turning, camera motion, effects or shadows.",
+        "frame_count": 8,
+        "no_background": true,
+        "seed": 151116,
+        "enhance_prompt": false,
+        "source": "art-source/characters/v1/15/back.png",
+        "last_frame": "same as first"
+      },
+      "job": {
+        "usage": null,
+        "background_job_id": "bb64e070-b5e8-43f8-8ceb-35380c421593",
+        "status": "completed",
+        "enhanced_prompt": null,
+        "enhance_usage": null
+      },
+      "canvas": [
+        256,
+        256
+      ],
+      "anchor": [
+        128,
+        224
+      ],
+      "frames": [
+        {
+          "file": "art-source/motions/v1/15/sequences/back/move/0000.png",
+          "sourceFrameIndex": 0,
+          "durationMs": 120,
+          "visibleBounds": [
+            80,
+            12,
+            180,
+            225
+          ],
+          "sha256": "f08001de97aa13841a87b2503bf2245b6ecf84e50918fc1006ec546841704a6a"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/back/move/0001.png",
+          "sourceFrameIndex": 1,
+          "durationMs": 120,
+          "visibleBounds": [
+            80,
+            14,
+            181,
+            227
+          ],
+          "sha256": "56779c95c84827380e1ff7bd9e1c1f7772eeffa8ab909a160510012567438bd2"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/back/move/0002.png",
+          "sourceFrameIndex": 2,
+          "durationMs": 120,
+          "visibleBounds": [
+            81,
+            19,
+            182,
+            230
+          ],
+          "sha256": "ed1570fe0c75cd8e783966621b3308c807d66cb802eadbf5d1e656f71789832e"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/back/move/0003.png",
+          "sourceFrameIndex": 3,
+          "durationMs": 120,
+          "visibleBounds": [
+            82,
+            22,
+            181,
+            235
+          ],
+          "sha256": "37490457d280ed62cd886017236820e32ae5213d258ff71d02b51bc4fe518375"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/back/move/0004.png",
+          "sourceFrameIndex": 4,
+          "durationMs": 120,
+          "visibleBounds": [
+            82,
+            26,
+            177,
+            241
+          ],
+          "sha256": "594e2ba59ea680106dd8b90769079be2d18afd6f98e6599ab892e01cc1a1f62c"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/back/move/0005.png",
+          "sourceFrameIndex": 5,
+          "durationMs": 120,
+          "visibleBounds": [
+            81,
+            25,
+            178,
+            240
+          ],
+          "sha256": "ea32194ced72ee0416710538133ba56b8cd83881f385a58e2bdcf5205a310e42"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/back/move/0006.png",
+          "sourceFrameIndex": 6,
+          "durationMs": 120,
+          "visibleBounds": [
+            81,
+            24,
+            180,
+            236
+          ],
+          "sha256": "f60e752985eeba7ad91cf45d0d4860ef636ffb2a86a56fd77b3fc8420c7e2bb7"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/back/move/0007.png",
+          "sourceFrameIndex": 7,
+          "durationMs": 120,
+          "visibleBounds": [
+            80,
+            17,
+            180,
+            233
+          ],
+          "sha256": "0124703510630ef04316e4ec2cfd6416ac7d1ba52ea936c5921029eb459c04dc"
+        }
+      ],
+      "loopStart": 0,
+      "loopEnd": 7,
+      "markers": {}
+    },
+    {
+      "clipId": "front-idle",
+      "view": "front",
+      "state": "idle",
+      "usage": "detail-screen-only",
+      "sourceProvider": "PixelLab animate-with-text-v3 + approved eye/eyebrow correction",
+      "request": {
+        "endpoint": "/v2/animate-with-text-v3",
+        "first_frame": {
+          "file": "art-source/characters/v1/15/front.png",
+          "sha256": "68cc33a1fe459aa06008649291569017060aca7c9d47d190a303a83ef405afce"
+        },
+        "last_frame": {
+          "sameAsFirst": true
+        },
+        "action": "Seamless subtle idle breathing loop of this front-facing mounted Chinese spear general and his white horse. Fixed front camera. The horse remains planted on the same ground with all hooves in place, makes a tiny ear twitch and gentle neck breathing. The rider stays seated in the saddle with very small chest breathing; plume, blue ribbons and white cape gently settle. Keep spear upright, straight, same length and fully inside canvas. Preserve the exact face, silver helmet, armor, colors, pixel art outlines, rider and horse proportions and position. No walking, turning, zoom, translation, jumping, weapon swing, effects, shadow or background. Fixed root at pixel (128,224) on the 256x256 canvas. Return gently to the initial pose.",
+        "frame_count": 8,
+        "no_background": true,
+        "seed": 151115,
+        "enhance_prompt": false
+      },
+      "canvas": [
+        256,
+        256
+      ],
+      "anchor": [
+        128,
+        224
+      ],
+      "frames": [
+        {
+          "file": "art-source/motions/v1/15/sequences/front/idle/0000.png",
+          "sourceFrameIndex": 0,
+          "durationMs": 150,
+          "visibleBounds": [
+            76,
+            14,
+            175,
+            225
+          ],
+          "sha256": "68cc33a1fe459aa06008649291569017060aca7c9d47d190a303a83ef405afce"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/front/idle/0001.png",
+          "sourceFrameIndex": 1,
+          "durationMs": 150,
+          "visibleBounds": [
+            74,
+            14,
+            175,
+            225
+          ],
+          "sha256": "28b5e6edd415a8a77236865734c98143f172485f4355d431d06638b22842183e"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/front/idle/0002.png",
+          "sourceFrameIndex": 2,
+          "durationMs": 150,
+          "visibleBounds": [
+            72,
+            16,
+            176,
+            225
+          ],
+          "sha256": "045a926aa8687b2a4161b5dcfbb7caed2675f8da51e74411d3dec29a113a4006"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/front/idle/0003.png",
+          "sourceFrameIndex": 3,
+          "durationMs": 150,
+          "visibleBounds": [
+            72,
+            17,
+            176,
+            225
+          ],
+          "sha256": "124d0200764befccc5140feeaade3538c7b74f71ee0ef174770e127a1a27b8d3"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/front/idle/0004.png",
+          "sourceFrameIndex": 4,
+          "durationMs": 150,
+          "visibleBounds": [
+            75,
+            18,
+            176,
+            225
+          ],
+          "sha256": "1ec2ca64bd7b43d64f700c37a459fd2126d65d41f9aca23fd1f26514912bb1ca"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/front/idle/0005.png",
+          "sourceFrameIndex": 5,
+          "durationMs": 150,
+          "visibleBounds": [
+            75,
+            18,
+            176,
+            225
+          ],
+          "sha256": "0f1502d7f371673ed3cc4f24b48fe666c0034dbcc83bdf9ea972e066a3871244"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/front/idle/0006.png",
+          "sourceFrameIndex": 6,
+          "durationMs": 150,
+          "visibleBounds": [
+            74,
+            17,
+            176,
+            225
+          ],
+          "sha256": "f274047c6b28a147fe05405c42b0fed40cbc6ab339293ef6b633f65cd43b4af7"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/front/idle/0007.png",
+          "sourceFrameIndex": 7,
+          "durationMs": 150,
+          "visibleBounds": [
+            77,
+            15,
+            175,
+            225
+          ],
+          "sha256": "1c267af9bba655073d65f34bd13d3300d4f0d51470830e5da2b3df891ea03b86"
+        },
+        {
+          "file": "art-source/motions/v1/15/sequences/front/idle/0008.png",
+          "sourceFrameIndex": 8,
+          "durationMs": 150,
+          "visibleBounds": [
+            76,
+            14,
+            175,
+            225
+          ],
+          "sha256": "a3aecb9c5aa4c0d84e4875af7100a817cec7a3b8d51ffa89f6625c228974986e"
+        }
+      ],
+      "loopStart": 0,
+      "loopEnd": 8,
+      "markers": {}
+    }
+  ],
+  "approvedDate": "2026-11-15",
+  "knownLimitations": [
+    "Front move frames 3-6 retain previously observed subtle eye/eyebrow pixel variation; approved as-is on 2026-11-15."
+  ]
+}

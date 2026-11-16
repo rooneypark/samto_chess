@@ -1,0 +1,13 @@
+import {createArtworkResultCard,paintArtworkResultSelection} from '../../artwork-result-cards.js';
+import {recruitResultsTemplate} from '../../recruit-results-template.js';
+import {artworkShell} from '../../ui-shell.js';
+import {paintArtworkLayout} from '../../art-layout.js';
+import {placeArtwork} from '../../art-controls.js';
+import {treasureDefs} from '../../treasures.js';
+const root=document.querySelector('.game'),$=s=>root.querySelector(s);root.innerHTML=recruitResultsTemplate;
+$('.scroll-heading').textContent='새로운 보물을 획득했습니다';root.querySelector('[data-box="50,286,841,44"]').textContent='10회 보물 모집 결과';$('.receipt-note').textContent='총 10개 획득 · 같은 보물도 각각 보관됩니다.';$('.home-back').textContent='보물함으로';$('#barracks-back').id='shop-back';await paintArtworkLayout(root,{stablePixels:true});artworkShell(root,{screen:'shop',title:'보물 획득',progress:{gold:9450,diamonds:320},controlsRoot:root});
+const ids=['dragon','jade','bronze','iron','book','haste','guard','wisdom','iron','horse'],positions={gold:'33.333% 100%',scroll:'66.667% 50%',helmet:'33.333% 0',gem:'66.667% 100%',banner:'100% 0',swords:'0 50%',gate:'66.667% 0'};let selected=0;
+const symbol=d=>`<i class="symbol" style="background-position:${positions[d.icon]}"></i>`;
+for(const [i,id]of ids.entries()){const d=treasureDefs.find(d=>d.id===id),holder=document.createElement('div');holder.innerHTML=symbol(d);const b=createArtworkResultCard({index:i,gradeLabel:d.grade+' · 1성',visual:holder.firstElementChild,name:d.name,status:'획득 +1'});$('.results').append(b);b.onclick=()=>{selected=i;render()};}
+async function render(){root.inert=true;root.setAttribute('aria-busy','true');const d=treasureDefs.find(d=>d.id===ids[selected]),count=ids.filter(id=>id===d.id).length;$('.detail-title').textContent=d.name+' · '+d.grade;$('.result-status').textContent='1성 · 미장착 · 이번 모집 '+count+'개 획득';$('.skill').textContent='능력치 · '+d.effect;$('.skill-text').textContent='보물함에서 장수에게 장착할 수 있습니다. 같은 보물은 별도 개체로 보관되며, 조건에 맞으면 강화 재료로 사용할 수 있습니다.';$('.full-art').innerHTML=`<div class="treasure-emblem">${symbol(d)}</div>`;placeArtwork($('.treasure-emblem'),[50,944,270,270]);await paintArtworkResultSelection(root,selected);await document.fonts.ready;root.inert=false;root.setAttribute('aria-busy','false');}
+const notify=()=>{let e=document.querySelector('.preview-status');if(!e){e=document.createElement('div');e.className='preview-status';document.body.append(e)}e.textContent='검토용 시안입니다. 실제 보물과 재화는 변경하지 않습니다.';setTimeout(()=>e.remove(),2200)};root.querySelectorAll('.save,.home-back,#shop-back,.bottom-nav button,.wallet button').forEach(b=>b.onclick=notify);await render();

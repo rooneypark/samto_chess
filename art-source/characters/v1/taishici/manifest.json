@@ -1,0 +1,192 @@
+{
+  "id": "taishici",
+  "name": "태사자",
+  "faction": "오",
+  "order": 34,
+  "identity": "Taishi Ci: disciplined powerful archer warrior, square tan face, short neatly trimmed beard. Bronze/steel helmet with red tie, strong shoulders under dark red practical armor. Hold one short ji halberd and recurve bow, second short ji secured visibly at belt/back. Arrow quiver behind. Clear archer-warrior identity with mature stern face.",
+  "folder": "taishici",
+  "identityDesign": "Taishi Ci: disciplined powerful archer warrior, square tan face, short neatly trimmed beard. Bronze/steel helmet with red tie, strong shoulders under dark red practical armor. Hold one short ji halberd and recurve bow, second short ji secured visibly at belt/back. Arrow quiver behind. Clear archer-warrior identity with mature stern face.",
+  "artRevision": "pixel256-v1",
+  "canvas": [
+    256,
+    256
+  ],
+  "foot": [
+    128,
+    224
+  ],
+  "schemaVersion": 2,
+  "status": "ready-for-review",
+  "runtimeApplied": false,
+  "motionComplete": false,
+  "sideFacing": "left",
+  "right": "mirror-side",
+  "directions": {
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "taishici",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "sourceCanvas": [
+          1254,
+          1254
+        ],
+        "bodyTopVirtual256": 83,
+        "bodyHeightTarget": 130,
+        "sourceFootVirtual256": 228,
+        "sourceToFinalScale": 0.18302810317329374,
+        "wholeImageOffset": [
+          13,
+          20
+        ],
+        "groundRoundingCorrection": -1,
+        "visibleBounds": [
+          66,
+          61,
+          182,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
+        "weaponContainFit": false,
+        "runtimeApplied": false,
+        "sha256": "7e6064ea0ecb33247162c26108691d4a7ac2fda5b11532aaa47a1c42006ca945"
+      }
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "taishici",
+        "direction": "back",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 99,
+        "bodyHeightTarget": 130,
+        "sourceFootVirtual256": 218,
+        "sourceToFinalScale": 0.22301743663972765,
+        "wholeImageOffset": [
+          -12,
+          -14
+        ],
+        "groundRoundingCorrection": -1,
+        "visibleBounds": [
+          69,
+          52,
+          191,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "5c41670b918f8f1fe7abb04544dd9abf47f52806eec8314cc0a6ee0867e5b2d1"
+      }
+    },
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "taishici",
+        "direction": "side",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 100,
+        "bodyHeightTarget": 130,
+        "sourceFootVirtual256": 218,
+        "sourceToFinalScale": 0.2249074149163355,
+        "wholeImageOffset": [
+          -13,
+          -16
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          72,
+          56,
+          171,
+          226
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "9af42565c6fc4fa6a46fbafd621b7d9e22c74c6f9ab32e7304bfdbc70cae7332"
+      }
+    }
+  },
+  "files": {
+    "front": {
+      "path": "front.png",
+      "sha256": "7e6064ea0ecb33247162c26108691d4a7ac2fda5b11532aaa47a1c42006ca945"
+    },
+    "back": {
+      "path": "back.png",
+      "sha256": "5c41670b918f8f1fe7abb04544dd9abf47f52806eec8314cc0a6ee0867e5b2d1"
+    },
+    "side": {
+      "path": "side.png",
+      "sha256": "9af42565c6fc4fa6a46fbafd621b7d9e22c74c6f9ab32e7304bfdbc70cae7332"
+    }
+  },
+  "sourceProvider": "built-in image_gen",
+  "provenanceFile": "generation.json",
+  "bodyMetrics": {
+    "shoulderWidth": null,
+    "anatomicalHeight": null,
+    "riderJoints": null
+  },
+  "approval": {
+    "frontApproved": false,
+    "fullSetApproved": false
+  }
+}

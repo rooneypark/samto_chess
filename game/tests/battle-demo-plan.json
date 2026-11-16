@@ -1,0 +1,251 @@
+{
+  "seed": 1,
+  "plan": [
+    {
+      "round": 1,
+      "commands": [
+        {
+          "type": "summon"
+        },
+        {
+          "type": "summon"
+        },
+        {
+          "type": "move",
+          "id": 2,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "type": "move",
+          "id": 1,
+          "x": 4,
+          "y": 3
+        }
+      ],
+      "outcome": "win",
+      "tick": 122,
+      "skills": 1
+    },
+    {
+      "round": 2,
+      "commands": [
+        {
+          "type": "summon"
+        },
+        {
+          "type": "move",
+          "id": 3,
+          "x": 4,
+          "y": 3
+        },
+        {
+          "type": "move",
+          "id": 1,
+          "x": 0,
+          "y": -1
+        },
+        {
+          "type": "move",
+          "id": 2,
+          "x": 1,
+          "y": -1
+        },
+        {
+          "type": "move",
+          "id": 1,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "type": "move",
+          "id": 2,
+          "x": 4,
+          "y": 3
+        }
+      ],
+      "outcome": "win",
+      "tick": 248,
+      "skills": 3
+    },
+    {
+      "round": 3,
+      "commands": [
+        {
+          "type": "summon"
+        },
+        {
+          "type": "summon"
+        },
+        {
+          "type": "move",
+          "id": 5,
+          "x": 0,
+          "y": -1
+        },
+        {
+          "type": "move",
+          "id": 1,
+          "x": 1,
+          "y": -1
+        },
+        {
+          "type": "move",
+          "id": 2,
+          "x": 2,
+          "y": -1
+        },
+        {
+          "type": "move",
+          "id": 1,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "type": "move",
+          "id": 4,
+          "x": 4,
+          "y": 2
+        },
+        {
+          "type": "move",
+          "id": 2,
+          "x": 2,
+          "y": 3
+        },
+        {
+          "type": "equip",
+          "id": 1,
+          "index": 0
+        }
+      ],
+      "outcome": "win",
+      "tick": 361,
+      "skills": 6
+    },
+    {
+      "round": 4,
+      "commands": [
+        {
+          "type": "summon"
+        },
+        {
+          "type": "capacity"
+        },
+        {
+          "type": "move",
+          "id": 1,
+          "x": 1,
+          "y": -1
+        },
+        {
+          "type": "move",
+          "id": 2,
+          "x": 2,
+          "y": -1
+        },
+        {
+          "type": "move",
+          "id": 4,
+          "x": 3,
+          "y": -1
+        },
+        {
+          "type": "move",
+          "id": 1,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "type": "move",
+          "id": 4,
+          "x": 4,
+          "y": 2
+        },
+        {
+          "type": "move",
+          "id": 2,
+          "x": 2,
+          "y": 3
+        },
+        {
+          "type": "move",
+          "id": 6,
+          "x": 5,
+          "y": 2
+        }
+      ],
+      "outcome": "win",
+      "tick": 234,
+      "skills": 6
+    },
+    {
+      "round": 5,
+      "commands": [
+        {
+          "type": "summon"
+        },
+        {
+          "type": "summon"
+        },
+        {
+          "type": "move",
+          "id": 1,
+          "x": 2,
+          "y": -1
+        },
+        {
+          "type": "move",
+          "id": 2,
+          "x": 3,
+          "y": -1
+        },
+        {
+          "type": "move",
+          "id": 4,
+          "x": 4,
+          "y": -1
+        },
+        {
+          "type": "move",
+          "id": 6,
+          "x": 5,
+          "y": -1
+        },
+        {
+          "type": "move",
+          "id": 1,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "type": "move",
+          "id": 4,
+          "x": 4,
+          "y": 2
+        },
+        {
+          "type": "move",
+          "id": 2,
+          "x": 2,
+          "y": 3
+        },
+        {
+          "type": "move",
+          "id": 7,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "type": "equip",
+          "id": 1,
+          "index": 0
+        }
+      ],
+      "outcome": "win",
+      "tick": 818,
+      "skills": 18
+    }
+  ],
+  "merges": 2
+}

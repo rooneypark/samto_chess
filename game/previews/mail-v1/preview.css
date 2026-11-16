@@ -1,0 +1,10 @@
+@import url('../alliance-v1/preview.css');
+.art-header-title{font-size:4.7cqw}.scroll-heading{font-size:4.8cqw}
+.summary-title{font-size:4cqw;gap:2cqw;z-index:3}.summary-title b{color:#a5e2bb;font-size:4.4cqw}.summary-copy{display:flex;align-items:center;font-size:2.7cqw;color:#b4c8d3;z-index:3}
+.summary-rewards,.detail-rewards,.row-rewards{display:flex;align-items:center;gap:1cqw;color:#ffe0a0;z-index:3}.summary-rewards{justify-content:flex-end;font-size:3.7cqw}.reward-space{width:2cqw}.summary-rewards img,.detail-rewards img,.row-rewards img{width:3cqw;height:3cqw;object-fit:contain}
+.section-tabs button{flex-direction:row;gap:1.4cqw;font-size:3.5cqw}.section-tabs small{font-weight:normal;font-size:2.7cqw;color:#b3c9d4}.mail-rows{display:contents}
+.mail-row{font-weight:normal;text-align:left}.mail-row>*{position:absolute;pointer-events:none;z-index:2}.row-title{left:3.4%;top:17%;width:61%;font-size:3.5cqw;white-space:nowrap}.row-state{right:3.4%;top:19%;font-size:2.7cqw;color:#b1dec6}.row-rewards{left:3.4%;top:55%;height:30%;font-size:3cqw}.row-expiry{right:3.4%;top:62%;font-size:2.4cqw;color:#b6c9d3}.mail-row.expired .row-state,.detail-status.expired{color:#db9f8c}.mail-row.claimed .row-state{color:#9db2c7}.mail-row.claimed .row-rewards,.mail-row.expired .row-rewards{color:#b2c2ce}
+.page-prev,.page-next{font-size:3cqw}.page-count,.empty-list{display:flex;align-items:center;justify-content:center;color:#aec4d1;font-size:2.8cqw}.empty-list{font-size:3.6cqw}.empty-list[hidden]{display:none}
+.detail-title{font-size:3.5cqw;z-index:3}.detail-status{display:flex;align-items:center;justify-content:flex-end;font-size:2.7cqw;color:#a8d7c2;z-index:3}.detail-body{font-size:2.8cqw;line-height:1.7;color:#bbcdd7;z-index:3;display:flex;align-items:center}.detail-rewards{font-size:3.5cqw}.delete-mail,.claim-mail{font-size:3cqw}.claim-all{font-size:3.8cqw}.home-back{font-size:3.4cqw}
+.mail-note{text-align:center;display:flex;justify-content:center;align-items:center;font-size:2.25cqw;color:#9db0c4}
+button:disabled{color:#9eb1c5;cursor:default;filter:none;opacity:1}

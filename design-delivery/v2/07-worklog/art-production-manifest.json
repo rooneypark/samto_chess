@@ -1,0 +1,3630 @@
+{
+  "schemaVersion": 2,
+  "updated": "2026-11-14",
+  "guide": "../../../docs/캐릭터_원화_모션_스킬이펙트_통합가이드.md",
+  "treasurePlan": "../../../docs/보물_기획서_v2.md",
+  "productionViews": [
+    "front",
+    "back",
+    "side"
+  ],
+  "rightView": "mirror-side",
+  "characters": [
+    {
+      "id": "1",
+      "name": "관우",
+      "faction": "촉",
+      "existingSprite": "assets/heroes/1-idle.png",
+      "existingPortrait": "assets/design-a/portraits/1.png",
+      "sourceUnit": 142,
+      "identity": "녹색 관모·도포, 긴 수염, 청룡언월도, 기존 갈색 말",
+      "views": {
+        "front": {
+          "proposedFile": "1-front.png",
+          "existingIndependentFile": "game/assets/generals-v2/1-front.png",
+          "reviewStatus": "existing-review-required",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "1-back.png",
+          "existingIndependentFile": "game/assets/generals-v2/1-back.png",
+          "reviewStatus": "existing-review-required",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "1-side.png",
+          "existingIndependentFile": "game/assets/generals-v2/1-side.png",
+          "reviewStatus": "existing-review-required",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": 1,
+      "displayScaleStatus": "fixed"
+    },
+    {
+      "id": "2",
+      "name": "장비",
+      "faction": "촉",
+      "existingSprite": "assets/heroes/2-idle.png",
+      "existingPortrait": "assets/design-a/portraits/2.png",
+      "sourceUnit": 145,
+      "identity": "검붉은 갑옷, 넓은 검은 수염, 부릅뜬 눈매, 붉은 머리띠, 장팔사모, 보행",
+      "views": {
+        "front": {
+          "proposedFile": "2-front.png",
+          "existingIndependentFile": "design-delivery/v2/01-characters/full-roster-v1/zhang-fei-v2/2-front.png",
+          "reviewStatus": "user-approved-still-art",
+          "width": 1085,
+          "height": 1450,
+          "visibleBounds": null,
+          "foot": null,
+          "anchor": [
+            543.5,
+            1400
+          ],
+          "footBaseline": 1400,
+          "placementReport": "design-delivery/v2/01-characters/full-roster-v1/zhang-fei-v2/clean/2-slice-sheet.json"
+        },
+        "back": {
+          "proposedFile": "2-back.png",
+          "existingIndependentFile": "design-delivery/v2/01-characters/full-roster-v1/zhang-fei-v2/2-back.png",
+          "reviewStatus": "user-approved-still-art",
+          "width": 1085,
+          "height": 1450,
+          "visibleBounds": null,
+          "foot": null,
+          "anchor": [
+            543.0,
+            1400.0
+          ],
+          "footBaseline": 1400,
+          "placementReport": "design-delivery/v2/01-characters/full-roster-v1/zhang-fei-v2/clean/back/2-slice-sheet.json"
+        },
+        "side": {
+          "proposedFile": "2-side.png",
+          "existingIndependentFile": "design-delivery/v2/01-characters/full-roster-v1/zhang-fei-v2/2-side.png",
+          "reviewStatus": "user-approved-still-art",
+          "width": 1085,
+          "height": 1450,
+          "visibleBounds": null,
+          "foot": null,
+          "anchor": [
+            542.5,
+            1400.0
+          ],
+          "footBaseline": 1400,
+          "placementReport": "design-delivery/v2/01-characters/full-roster-v1/zhang-fei-v2/clean/side/2-slice-sheet.json"
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed",
+      "reviewStatus": "user-approved-v2-three-views",
+      "motionStatus": "not-produced",
+      "runtimeStatus": "not-integrated",
+      "priorReviewStatus": "user-accepted-still-design-2026-11-14",
+      "proportionReview": "pending-external-grok-review"
+    },
+    {
+      "id": "15",
+      "name": "조운",
+      "faction": "촉",
+      "existingSprite": "assets/heroes/15-idle.png",
+      "existingPortrait": "assets/design-a/portraits/15.png",
+      "sourceUnit": 148,
+      "identity": "백마, 은창",
+      "views": {
+        "front": {
+          "proposedFile": "15-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "15-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "15-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "16",
+      "name": "황충",
+      "faction": "촉",
+      "existingSprite": "assets/heroes/16-idle.png",
+      "existingPortrait": "assets/design-a/portraits/16.png",
+      "sourceUnit": 209,
+      "identity": "노장, 활",
+      "views": {
+        "front": {
+          "proposedFile": "16-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "16-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "16-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "35",
+      "name": "제갈량",
+      "faction": "촉",
+      "existingSprite": "assets/heroes/35-idle.png",
+      "existingPortrait": "assets/design-a/portraits/35.png",
+      "sourceUnit": 215,
+      "identity": "높은 남색 관모, 흰색·연녹색 도포, 백우선",
+      "views": {
+        "front": {
+          "proposedFile": "35-front.png",
+          "existingIndependentFile": "game/assets/generals-v2/35-front.png",
+          "reviewStatus": "existing-review-required",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "35-back.png",
+          "existingIndependentFile": "game/assets/generals-v2/35-back.png",
+          "reviewStatus": "existing-review-required",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "35-side.png",
+          "existingIndependentFile": "game/assets/generals-v2/35-side.png",
+          "reviewStatus": "existing-review-required",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": 0.7,
+      "displayScaleStatus": "fixed"
+    },
+    {
+      "id": "0",
+      "name": "유비",
+      "faction": "촉",
+      "existingSprite": "assets/heroes/0-idle.png",
+      "existingPortrait": "assets/design-a/portraits/0.png",
+      "sourceUnit": 139,
+      "identity": "쌍검, 녹색 도포",
+      "views": {
+        "front": {
+          "proposedFile": "0-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "0-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "0-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "32",
+      "name": "조조",
+      "faction": "위",
+      "existingSprite": "assets/heroes/32-idle.png",
+      "existingPortrait": "assets/design-a/portraits/32.png",
+      "sourceUnit": 154,
+      "identity": "금관, 남색 금장 복식, 붉은 망토, 수염",
+      "views": {
+        "front": {
+          "proposedFile": "32-front.png",
+          "existingIndependentFile": "game/assets/generals-v2/32-front.png",
+          "reviewStatus": "existing-review-required",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "32-back.png",
+          "existingIndependentFile": "game/assets/generals-v2/32-back.png",
+          "reviewStatus": "existing-review-required",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "32-side.png",
+          "existingIndependentFile": "game/assets/generals-v2/32-side.png",
+          "reviewStatus": "existing-review-required",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": 0.7,
+      "displayScaleStatus": "fixed"
+    },
+    {
+      "id": "33",
+      "name": "하후돈",
+      "faction": "위",
+      "existingSprite": "assets/heroes/33-idle.png",
+      "existingPortrait": "assets/design-a/portraits/33.png",
+      "sourceUnit": 244,
+      "identity": "안대, 창",
+      "views": {
+        "front": {
+          "proposedFile": "33-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "33-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "33-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "34",
+      "name": "장료",
+      "faction": "위",
+      "existingSprite": "assets/heroes/34-idle.png",
+      "existingPortrait": "assets/design-a/portraits/34.png",
+      "sourceUnit": 158,
+      "identity": "기마, 월도",
+      "views": {
+        "front": {
+          "proposedFile": "34-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "34-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "34-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "77",
+      "name": "주유",
+      "faction": "오",
+      "existingSprite": "assets/heroes/77-idle.png",
+      "existingPortrait": "assets/design-a/portraits/77.png",
+      "sourceUnit": 176,
+      "identity": "미남, 지휘검",
+      "views": {
+        "front": {
+          "proposedFile": "77-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "77-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "77-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "119",
+      "name": "여포",
+      "faction": "군웅",
+      "existingSprite": "assets/heroes/119-idle.png",
+      "existingPortrait": "assets/design-a/portraits/119.png",
+      "sourceUnit": 163,
+      "identity": "긴 붉은 깃, 검정·금색 갑옷, 붉은 망토, 방천화극, 기존 말",
+      "views": {
+        "front": {
+          "proposedFile": "119-front.png",
+          "existingIndependentFile": "game/assets/generals-v2/119-front.png",
+          "reviewStatus": "existing-review-required",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "119-back.png",
+          "existingIndependentFile": "game/assets/generals-v2/119-back.png",
+          "reviewStatus": "existing-review-required",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "119-side.png",
+          "existingIndependentFile": "game/assets/generals-v2/119-side.png",
+          "reviewStatus": "existing-review-required",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": 1,
+      "displayScaleStatus": "fixed"
+    },
+    {
+      "id": "infantry",
+      "name": "의용보병",
+      "faction": "군웅",
+      "existingSprite": "assets/heroes/infantry-idle.png",
+      "existingPortrait": "assets/design-a/portraits/infantry.png",
+      "sourceUnit": 0,
+      "identity": "창·방패",
+      "views": {
+        "front": {
+          "proposedFile": "infantry-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "infantry-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "infantry-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "archer",
+      "name": "의용궁병",
+      "faction": "군웅",
+      "existingSprite": "assets/heroes/archer-idle.png",
+      "existingPortrait": "assets/design-a/portraits/archer.png",
+      "sourceUnit": 18,
+      "identity": "삿갓, 활",
+      "views": {
+        "front": {
+          "proposedFile": "archer-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "archer-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "archer-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "tactician",
+      "name": "군영참모",
+      "faction": "군웅",
+      "existingSprite": "assets/heroes/tactician-idle.png",
+      "existingPortrait": "assets/design-a/portraits/tactician.png",
+      "sourceUnit": 63,
+      "identity": "죽간",
+      "views": {
+        "front": {
+          "proposedFile": "tactician-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "tactician-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "tactician-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "simayi",
+      "name": "사마의",
+      "faction": "위",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%234A82B8%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%82%AC%EB%A7%88%EC%9D%98%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%234A82B8%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%82%AC%EB%A7%88%EC%9D%98%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "검은 도포, 깃털부채",
+      "views": {
+        "front": {
+          "proposedFile": "simayi-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "simayi-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "simayi-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "dianwei",
+      "name": "전위",
+      "faction": "위",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%234A82B8%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%A0%84%EC%9C%84%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%234A82B8%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%A0%84%EC%9C%84%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "쌍철극",
+      "views": {
+        "front": {
+          "proposedFile": "dianwei-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "dianwei-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "dianwei-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "guojia",
+      "name": "곽가",
+      "faction": "위",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%234A82B8%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EA%B3%BD%EA%B0%80%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%234A82B8%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EA%B3%BD%EA%B0%80%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "병약, 죽간",
+      "views": {
+        "front": {
+          "proposedFile": "guojia-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "guojia-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "guojia-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "xuchu",
+      "name": "허저",
+      "faction": "위",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%234A82B8%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%ED%97%88%EC%A0%80%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%234A82B8%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%ED%97%88%EC%A0%80%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "큰 보행 체격, 남색 갑옷, 흰 털깃, 철퇴",
+      "views": {
+        "front": {
+          "proposedFile": "xuchu-front.png",
+          "existingIndependentFile": "game/assets/generals-v2/xuchu-front.png",
+          "reviewStatus": "existing-review-required",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "xuchu-back.png",
+          "existingIndependentFile": "game/assets/generals-v2/xuchu-back.png",
+          "reviewStatus": "existing-review-required",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "xuchu-side.png",
+          "existingIndependentFile": "game/assets/generals-v2/xuchu-side.png",
+          "reviewStatus": "existing-review-required",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": 0.85,
+      "displayScaleStatus": "fixed"
+    },
+    {
+      "id": "xiahouyuan",
+      "name": "하후연",
+      "faction": "위",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%234A82B8%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%ED%95%98%ED%9B%84%EC%97%B0%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%234A82B8%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%ED%95%98%ED%9B%84%EC%97%B0%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "활",
+      "views": {
+        "front": {
+          "proposedFile": "xiahouyuan-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "xiahouyuan-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "xiahouyuan-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "xuhuang",
+      "name": "서황",
+      "faction": "위",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%234A82B8%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%84%9C%ED%99%A9%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%234A82B8%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%84%9C%ED%99%A9%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "큰 도끼",
+      "views": {
+        "front": {
+          "proposedFile": "xuhuang-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "xuhuang-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "xuhuang-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "xunyu",
+      "name": "순욱",
+      "faction": "위",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%234A82B8%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%88%9C%EC%9A%B1%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%234A82B8%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%88%9C%EC%9A%B1%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "관모, 홀",
+      "views": {
+        "front": {
+          "proposedFile": "xunyu-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "xunyu-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "xunyu-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "yuejin",
+      "name": "악진",
+      "faction": "위",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%234A82B8%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%95%85%EC%A7%84%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%234A82B8%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%95%85%EC%A7%84%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "작고 다부짐, 단검",
+      "views": {
+        "front": {
+          "proposedFile": "yuejin-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "yuejin-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "yuejin-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "caohong",
+      "name": "조홍",
+      "faction": "위",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%234A82B8%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%A1%B0%ED%99%8D%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%234A82B8%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%A1%B0%ED%99%8D%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "방패",
+      "views": {
+        "front": {
+          "proposedFile": "caohong-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "caohong-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "caohong-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "machao",
+      "name": "마초",
+      "faction": "촉",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%233E9B62%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EB%A7%88%EC%B4%88%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%233E9B62%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EB%A7%88%EC%B4%88%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "기마, 은빛 사자투구",
+      "views": {
+        "front": {
+          "proposedFile": "machao-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "machao-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "machao-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "pangtong",
+      "name": "방통",
+      "faction": "촉",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%233E9B62%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EB%B0%A9%ED%86%B5%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%233E9B62%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EB%B0%A9%ED%86%B5%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "왜소, 지팡이",
+      "views": {
+        "front": {
+          "proposedFile": "pangtong-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "pangtong-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "pangtong-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "jiangwei",
+      "name": "강유",
+      "faction": "촉",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%233E9B62%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EA%B0%95%EC%9C%A0%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%233E9B62%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EA%B0%95%EC%9C%A0%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "창",
+      "views": {
+        "front": {
+          "proposedFile": "jiangwei-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "jiangwei-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "jiangwei-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "weiyan",
+      "name": "위연",
+      "faction": "촉",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%233E9B62%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%9C%84%EC%97%B0%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%233E9B62%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%9C%84%EC%97%B0%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "가면, 대도",
+      "views": {
+        "front": {
+          "proposedFile": "weiyan-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "weiyan-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "weiyan-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "liaohua",
+      "name": "요화",
+      "faction": "촉",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%233E9B62%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%9A%94%ED%99%94%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%233E9B62%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%9A%94%ED%99%94%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "검",
+      "views": {
+        "front": {
+          "proposedFile": "liaohua-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "liaohua-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "liaohua-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "zhoucang",
+      "name": "주창",
+      "faction": "촉",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%233E9B62%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%A3%BC%EC%B0%BD%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%233E9B62%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%A3%BC%EC%B0%BD%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "큰 칼",
+      "views": {
+        "front": {
+          "proposedFile": "zhoucang-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "zhoucang-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "zhoucang-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "sunce",
+      "name": "손책",
+      "faction": "오",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%23B8483E%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%86%90%EC%B1%85%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%23B8483E%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%86%90%EC%B1%85%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "쌍극",
+      "views": {
+        "front": {
+          "proposedFile": "sunce-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "sunce-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "sunce-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "luxun",
+      "name": "육손",
+      "faction": "오",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%23B8483E%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%9C%A1%EC%86%90%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%23B8483E%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%9C%A1%EC%86%90%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "서생, 횃불",
+      "views": {
+        "front": {
+          "proposedFile": "luxun-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "luxun-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "luxun-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "sunquan",
+      "name": "손권",
+      "faction": "오",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%23B8483E%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%86%90%EA%B6%8C%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%23B8483E%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%86%90%EA%B6%8C%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "붉은 관복, 검",
+      "views": {
+        "front": {
+          "proposedFile": "sunquan-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "sunquan-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "sunquan-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "ganning",
+      "name": "감녕",
+      "faction": "오",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%23B8483E%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EA%B0%90%EB%85%95%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%23B8483E%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EA%B0%90%EB%85%95%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "방울, 사슬낫",
+      "views": {
+        "front": {
+          "proposedFile": "ganning-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "ganning-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "ganning-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "taishici",
+      "name": "태사자",
+      "faction": "오",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%23B8483E%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%ED%83%9C%EC%82%AC%EC%9E%90%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%23B8483E%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%ED%83%9C%EC%82%AC%EC%9E%90%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "활과 쌍극",
+      "views": {
+        "front": {
+          "proposedFile": "taishici-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "taishici-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "taishici-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "lumeng",
+      "name": "여몽",
+      "faction": "오",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%23B8483E%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%97%AC%EB%AA%BD%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%23B8483E%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%97%AC%EB%AA%BD%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "흰옷, 창",
+      "views": {
+        "front": {
+          "proposedFile": "lumeng-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "lumeng-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "lumeng-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "huanggai",
+      "name": "황개",
+      "faction": "오",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%23B8483E%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%ED%99%A9%EA%B0%9C%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%23B8483E%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%ED%99%A9%EA%B0%9C%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "웃통 벗은 노장, 쇠채찍",
+      "views": {
+        "front": {
+          "proposedFile": "huanggai-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "huanggai-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "huanggai-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "lusu",
+      "name": "노숙",
+      "faction": "오",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%23B8483E%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EB%85%B8%EC%88%99%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%23B8483E%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EB%85%B8%EC%88%99%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "두루마리",
+      "views": {
+        "front": {
+          "proposedFile": "lusu-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "lusu-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "lusu-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "sunshangxiang",
+      "name": "손상향",
+      "faction": "오",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%23B8483E%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%86%90%EC%83%81%ED%96%A5%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%23B8483E%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%86%90%EC%83%81%ED%96%A5%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "활, 붉은 옷",
+      "views": {
+        "front": {
+          "proposedFile": "sunshangxiang-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "sunshangxiang-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "sunshangxiang-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "dingfeng",
+      "name": "정봉",
+      "faction": "오",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%23B8483E%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%A0%95%EB%B4%89%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%23B8483E%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%A0%95%EB%B4%89%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "단도",
+      "views": {
+        "front": {
+          "proposedFile": "dingfeng-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "dingfeng-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "dingfeng-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "panzhang",
+      "name": "반장",
+      "faction": "오",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%23B8483E%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EB%B0%98%EC%9E%A5%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%23B8483E%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EB%B0%98%EC%9E%A5%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "밧줄",
+      "views": {
+        "front": {
+          "proposedFile": "panzhang-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "panzhang-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "panzhang-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "zhangjue",
+      "name": "장각",
+      "faction": "군웅",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%237A6C9B%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%9E%A5%EA%B0%81%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%237A6C9B%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%9E%A5%EA%B0%81%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "누런 도포, 지팡이",
+      "views": {
+        "front": {
+          "proposedFile": "zhangjue-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "zhangjue-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "zhangjue-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "dongzhuo",
+      "name": "동탁",
+      "faction": "군웅",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%237A6C9B%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EB%8F%99%ED%83%81%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%237A6C9B%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EB%8F%99%ED%83%81%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "비대, 가장 넓게",
+      "views": {
+        "front": {
+          "proposedFile": "dongzhuo-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "dongzhuo-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "dongzhuo-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "yuanshao",
+      "name": "원소",
+      "faction": "군웅",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%237A6C9B%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%9B%90%EC%86%8C%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%237A6C9B%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%9B%90%EC%86%8C%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "금빛 갑주, 풍채",
+      "views": {
+        "front": {
+          "proposedFile": "yuanshao-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "yuanshao-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "yuanshao-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "huatuo",
+      "name": "화타",
+      "faction": "군웅",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%237A6C9B%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%ED%99%94%ED%83%80%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%237A6C9B%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%ED%99%94%ED%83%80%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "구부정한 노인, 약상자",
+      "views": {
+        "front": {
+          "proposedFile": "huatuo-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "huatuo-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "huatuo-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "yanliang",
+      "name": "안량",
+      "faction": "군웅",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%237A6C9B%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%95%88%EB%9F%89%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%237A6C9B%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%95%88%EB%9F%89%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "대도",
+      "views": {
+        "front": {
+          "proposedFile": "yanliang-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "yanliang-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "yanliang-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "wenchou",
+      "name": "문추",
+      "faction": "군웅",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%237A6C9B%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EB%AC%B8%EC%B6%94%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%237A6C9B%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EB%AC%B8%EC%B6%94%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "창",
+      "views": {
+        "front": {
+          "proposedFile": "wenchou-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "wenchou-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "wenchou-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "diaochan",
+      "name": "초선",
+      "faction": "군웅",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%237A6C9B%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EC%B4%88%EC%84%A0%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "assets/design-a/portraits/diaochan.png",
+      "sourceUnit": null,
+      "identity": "금색 꽃장식, 분홍색 긴 의상, 부채",
+      "views": {
+        "front": {
+          "proposedFile": "diaochan-front.png",
+          "existingIndependentFile": "game/assets/generals-v2/diaochan-front.png",
+          "reviewStatus": "existing-review-required",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "diaochan-back.png",
+          "existingIndependentFile": "game/assets/generals-v2/diaochan-back.png",
+          "reviewStatus": "existing-review-required",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "diaochan-side.png",
+          "existingIndependentFile": "game/assets/generals-v2/diaochan-side.png",
+          "reviewStatus": "existing-review-required",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": 0.7,
+      "displayScaleStatus": "fixed"
+    },
+    {
+      "id": "huaxiong",
+      "name": "화웅",
+      "faction": "군웅",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%237A6C9B%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%ED%99%94%EC%9B%85%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%237A6C9B%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2216%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%ED%99%94%EC%9B%85%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "큰 칼",
+      "views": {
+        "front": {
+          "proposedFile": "huaxiong-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "huaxiong-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "huaxiong-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    },
+    {
+      "id": "gongsunzan",
+      "name": "공손찬",
+      "faction": "군웅",
+      "existingSprite": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2288%22%20rx%3D%2222%22%20ry%3D%225%22%20fill%3D%22%23141C2A%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2244%22%20height%3D%2260%22%20fill%3D%22%237A6C9B%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%228%22%20width%3D%2228%22%20height%3D%2224%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2260%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EA%B3%B5%EC%86%90%EC%B0%AC%3C%2Ftext%3E%3Crect%20x%3D%2230%22%20y%3D%2270%22%20width%3D%2236%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2280%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "existingPortrait": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%20120%22%20shape-rendering%3D%22crispEdges%22%3E%3Crect%20width%3D%2296%22%20height%3D%22120%22%20fill%3D%22%2322364C%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2224%22%20width%3D%2260%22%20height%3D%2270%22%20fill%3D%22%237A6C9B%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2236%22%20height%3D%2230%22%20fill%3D%22%23E8DCC2%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2270%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%20stroke%3D%22%23141C2A%22%20stroke-width%3D%22.6%22%20font-family%3D%22sans-serif%22%3E%EA%B3%B5%EC%86%90%EC%B0%AC%3C%2Ftext%3E%3Crect%20x%3D%2228%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2212%22%20fill%3D%22%23141C2A%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22110%22%20font-size%3D%229%22%20text-anchor%3D%22middle%22%20fill%3D%22%23E8DCC2%22%20font-family%3D%22sans-serif%22%3E%EC%9E%84%EC%8B%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "sourceUnit": null,
+      "identity": "백마",
+      "views": {
+        "front": {
+          "proposedFile": "gongsunzan-front.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "back": {
+          "proposedFile": "gongsunzan-back.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        },
+        "side": {
+          "proposedFile": "gongsunzan-side.png",
+          "existingIndependentFile": null,
+          "reviewStatus": "not-produced",
+          "width": null,
+          "height": null,
+          "visibleBounds": null,
+          "foot": null
+        }
+      },
+      "right": {
+        "source": "side",
+        "mirrorX": true,
+        "independentFileRequired": false
+      },
+      "displayScale": null,
+      "displayScaleStatus": "to-be-reviewed"
+    }
+  ],
+  "legacyRuntimeTreasures": [
+    {
+      "id": "iron",
+      "name": "흑철 호심경",
+      "grade": "C",
+      "effect": "HP +8%",
+      "icon": "helmet",
+      "stat": "hp",
+      "value": 0.08,
+      "productionStatus": "legacy-runtime-only-do-not-produce"
+    },
+    {
+      "id": "horse",
+      "name": "백마 인장",
+      "grade": "C",
+      "effect": "이동속도 +5%",
+      "icon": "banner",
+      "stat": "move",
+      "value": 0.05,
+      "productionStatus": "legacy-runtime-only-do-not-produce"
+    },
+    {
+      "id": "book",
+      "name": "청룡 병서",
+      "grade": "C",
+      "effect": "스킬 피해 +5%",
+      "icon": "scroll",
+      "stat": "skill",
+      "value": 0.05,
+      "productionStatus": "legacy-runtime-only-do-not-produce"
+    },
+    {
+      "id": "bronze",
+      "name": "청동 검장식",
+      "grade": "B",
+      "effect": "공격 +10%",
+      "icon": "swords",
+      "stat": "atk",
+      "value": 0.1,
+      "productionStatus": "legacy-runtime-only-do-not-produce"
+    },
+    {
+      "id": "guard",
+      "name": "수비 인장",
+      "grade": "B",
+      "effect": "방어 +12%",
+      "icon": "gate",
+      "stat": "def",
+      "value": 0.12,
+      "productionStatus": "legacy-runtime-only-do-not-produce"
+    },
+    {
+      "id": "wisdom",
+      "name": "지략 두루마리",
+      "grade": "B",
+      "effect": "마법방어 +12%",
+      "icon": "scroll",
+      "stat": "mdef",
+      "value": 0.12,
+      "productionStatus": "legacy-runtime-only-do-not-produce"
+    },
+    {
+      "id": "jade",
+      "name": "회춘옥",
+      "grade": "A",
+      "effect": "주는 회복 +12%",
+      "icon": "gem",
+      "stat": "heal",
+      "value": 0.12,
+      "productionStatus": "legacy-runtime-only-do-not-produce"
+    },
+    {
+      "id": "haste",
+      "name": "신속부",
+      "grade": "A",
+      "effect": "공격속도 +10%",
+      "icon": "banner",
+      "stat": "speed",
+      "value": 0.1,
+      "productionStatus": "legacy-runtime-only-do-not-produce"
+    },
+    {
+      "id": "barrier",
+      "name": "수호부",
+      "grade": "A",
+      "effect": "주는 보호막 +12%",
+      "icon": "helmet",
+      "stat": "shield",
+      "value": 0.12,
+      "productionStatus": "legacy-runtime-only-do-not-produce"
+    },
+    {
+      "id": "dragon",
+      "name": "용문 인장",
+      "grade": "S",
+      "effect": "공격 +15%",
+      "icon": "gold",
+      "stat": "atk",
+      "value": 0.15,
+      "productionStatus": "legacy-runtime-only-do-not-produce"
+    },
+    {
+      "id": "tiger",
+      "name": "호문 호심경",
+      "grade": "S",
+      "effect": "HP +18%",
+      "icon": "helmet",
+      "stat": "hp",
+      "value": 0.18,
+      "productionStatus": "legacy-runtime-only-do-not-produce"
+    },
+    {
+      "id": "strategy",
+      "name": "군략 비전",
+      "grade": "S",
+      "effect": "스킬 피해 +15%",
+      "icon": "scroll",
+      "stat": "skill",
+      "value": 0.15,
+      "productionStatus": "legacy-runtime-only-do-not-produce"
+    }
+  ],
+  "treasureCandidates": [
+    {
+      "catalogId": "tr-001",
+      "name": "의천검",
+      "priority": "P1",
+      "reference": "R14·CC",
+      "visualBrief": "곧은 은빛 검신, 금색 가드, 짙은 남색 손잡이",
+      "roleProposal": "공격",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-001.png",
+      "status": "user-approved-style-reference",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-001.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/yitian-v1/manifest.json"
+    },
+    {
+      "catalogId": "tr-002",
+      "name": "청공검",
+      "priority": "P1",
+      "reference": "R14·CC",
+      "visualBrief": "청회색 날, 비취 장식, 단정한 검집",
+      "roleProposal": "공격/관통 후보",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-002.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-002.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-002/manifest.json"
+    },
+    {
+      "catalogId": "tr-003",
+      "name": "청룡언월도",
+      "priority": "P1",
+      "reference": "R14·CC",
+      "visualBrief": "넓은 초승달 날, 용무늬 목, 녹색 술",
+      "roleProposal": "전법 피해",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-003.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-003.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-003/manifest.json"
+    },
+    {
+      "catalogId": "tr-004",
+      "name": "장팔사모",
+      "priority": "P1",
+      "reference": "R14·CC",
+      "visualBrief": "구불거리는 뱀형 창날, 검은 긴 자루",
+      "roleProposal": "공격",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-004.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-004.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-004/manifest.json"
+    },
+    {
+      "catalogId": "tr-005",
+      "name": "방천화극",
+      "priority": "P1",
+      "reference": "R14·CC",
+      "visualBrief": "중앙 창날과 양옆 월아, 붉은 술",
+      "roleProposal": "공격속도",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-005.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-005.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-005/manifest.json"
+    },
+    {
+      "catalogId": "tr-006",
+      "name": "자웅일대검",
+      "priority": "P1",
+      "reference": "R14·CC",
+      "visualBrief": "길이가 조금 다른 한 쌍의 검, 녹색 매듭",
+      "roleProposal": "공격/보호막 후보",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-006.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-006.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-006/manifest.json"
+    },
+    {
+      "catalogId": "tr-007",
+      "name": "고정도",
+      "priority": "P1",
+      "reference": "R14·CC",
+      "visualBrief": "두터운 외날 도신, 오래된 청동빛 가드",
+      "roleProposal": "공격",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-007.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-007.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-007/manifest.json"
+    },
+    {
+      "catalogId": "tr-008",
+      "name": "칠성보도",
+      "priority": "P1",
+      "reference": "R14",
+      "visualBrief": "칼집의 별 장식7점, 자주색 매듭",
+      "roleProposal": "전법 피해",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-008.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-008.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-008/manifest.json"
+    },
+    {
+      "catalogId": "tr-009",
+      "name": "삼첨도",
+      "priority": "P2",
+      "reference": "R14",
+      "visualBrief": "세 갈래로 갈린 넓은 날",
+      "roleProposal": "공격",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-009.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-010",
+      "name": "철척사모",
+      "priority": "P2",
+      "reference": "R14",
+      "visualBrief": "사모와 다른 굵은 철제 등뼈형 목",
+      "roleProposal": "방어",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-010.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-011",
+      "name": "쌍철극",
+      "priority": "P1",
+      "reference": "R14",
+      "visualBrief": "짧고 무거운 철극 한 쌍",
+      "roleProposal": "공격/방어 후보",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-011.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-011.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-011/manifest.json"
+    },
+    {
+      "catalogId": "tr-012",
+      "name": "대부",
+      "priority": "P2",
+      "reference": "R14",
+      "visualBrief": "큰 반원형 도끼날과 짧은 붉은 술",
+      "roleProposal": "공격",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-012.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-013",
+      "name": "철편",
+      "priority": "P2",
+      "reference": "R14",
+      "visualBrief": "마디가 선명한 단단한 쇠채찍",
+      "roleProposal": "공격",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-013.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-014",
+      "name": "철쇄",
+      "priority": "P2",
+      "reference": "R14",
+      "visualBrief": "굵은 쇠사슬을 둥글게 말고 끝을 드러냄",
+      "roleProposal": "방어",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-014.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-015",
+      "name": "유성추",
+      "priority": "P2",
+      "reference": "R14·CC",
+      "visualBrief": "사슬 끝의 철구, 완전한 사슬 외곽",
+      "roleProposal": "공격",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-015.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-016",
+      "name": "이광궁",
+      "priority": "P1",
+      "reference": "R14·CC·전대 명궁",
+      "visualBrief": "길고 단단한 흑갈색 활, 붉은 감개",
+      "roleProposal": "공격",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-016.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-016.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-016/manifest.json"
+    },
+    {
+      "catalogId": "tr-017",
+      "name": "양유기궁",
+      "priority": "P2",
+      "reference": "R14·전대 명궁",
+      "visualBrief": "부드러운 긴 곡선, 밝은 나무와 청록 감개",
+      "roleProposal": "공격속도",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-017.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-018",
+      "name": "여포궁",
+      "priority": "P1",
+      "reference": "CC",
+      "visualBrief": "검정·금색 굵은 활과 붉은 술",
+      "roleProposal": "공격",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-018.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-018.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-018/manifest.json"
+    },
+    {
+      "catalogId": "tr-019",
+      "name": "백벽도",
+      "priority": "P2",
+      "reference": "R14·百辟刀",
+      "visualBrief": "정제된 외날, 절제된 철색과 금 장식",
+      "roleProposal": "공격",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-019.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-020",
+      "name": "오구",
+      "priority": "P2",
+      "reference": "R14·呉鉤",
+      "visualBrief": "끝이 갈고리처럼 휘어진 짧은 날",
+      "roleProposal": "공격속도",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-020.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-021",
+      "name": "환수도",
+      "priority": "P2",
+      "reference": "R14",
+      "visualBrief": "둥근 고리 자루 끝, 단순한 외날",
+      "roleProposal": "공격",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-021.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-022",
+      "name": "거치도",
+      "priority": "P2",
+      "reference": "R14",
+      "visualBrief": "톱니가 읽히는 칼날 외곽",
+      "roleProposal": "공격",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-022.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-023",
+      "name": "봉취도",
+      "priority": "P2",
+      "reference": "R14",
+      "visualBrief": "봉황 부리처럼 좁게 굽은 장병기 날",
+      "roleProposal": "전법 피해",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-023.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-024",
+      "name": "미첨도",
+      "priority": "P2",
+      "reference": "R14",
+      "visualBrief": "눈썹처럼 가늘게 굽은 날",
+      "roleProposal": "공격속도",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-024.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-025",
+      "name": "철질려골타",
+      "priority": "P2",
+      "reference": "R14",
+      "visualBrief": "가시가 박힌 무거운 철퇴 머리",
+      "roleProposal": "공격",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-025.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-026",
+      "name": "수극",
+      "priority": "P2",
+      "reference": "R14",
+      "visualBrief": "손에 드는 짧은 극, 작은 측면 날",
+      "roleProposal": "공격속도",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-026.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-027",
+      "name": "단극",
+      "priority": "P2",
+      "reference": "R14",
+      "visualBrief": "짧은 자루와 넓은 극날, 수극과 다른 비율",
+      "roleProposal": "공격",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-027.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-028",
+      "name": "쌍편",
+      "priority": "P2",
+      "reference": "CC",
+      "visualBrief": "마디가 있는 쇠채찍 두 개를 교차",
+      "roleProposal": "공격속도",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-028.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-029",
+      "name": "참사검",
+      "priority": "P3",
+      "reference": "R14·전대 전설",
+      "visualBrief": "길고 소박한 고검, 붉은 매듭과 뱀형 가드",
+      "roleProposal": "전법 피해",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-029.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-030",
+      "name": "간장",
+      "priority": "P3",
+      "reference": "R14·전대 전설",
+      "visualBrief": "어두운 청동빛 검, 각진 금 장식",
+      "roleProposal": "공격",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-030.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-031",
+      "name": "막야",
+      "priority": "P3",
+      "reference": "R14·전대 전설",
+      "visualBrief": "밝은 은청색 검, 둥근 옥 장식",
+      "roleProposal": "보호막",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-031.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-032",
+      "name": "적토마",
+      "priority": "P1",
+      "reference": "R14·CC",
+      "visualBrief": "붉은 갈색 전신, 검붉은 갈기, 금색 마구",
+      "roleProposal": "이동속도",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-032.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-032.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-032/manifest.json"
+    },
+    {
+      "catalogId": "tr-033",
+      "name": "적로",
+      "priority": "P1",
+      "reference": "R14·CC",
+      "visualBrief": "이마 흰 무늬, 회백색 전신, 녹색 마구",
+      "roleProposal": "HP",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-033.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-033.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-033/manifest.json"
+    },
+    {
+      "catalogId": "tr-034",
+      "name": "절영",
+      "priority": "P1",
+      "reference": "R14·CC",
+      "visualBrief": "검은 전신, 푸른 하이라이트, 짧은 마구",
+      "roleProposal": "이동속도",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-034.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-034.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-034/manifest.json"
+    },
+    {
+      "catalogId": "tr-035",
+      "name": "조황비전",
+      "priority": "P1",
+      "reference": "R14·CC",
+      "visualBrief": "밝은 전신과 황색 발굽, 남색 안장",
+      "roleProposal": "이동속도",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-035.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-035.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-035/manifest.json"
+    },
+    {
+      "catalogId": "tr-036",
+      "name": "백룡",
+      "priority": "P2",
+      "reference": "R14",
+      "visualBrief": "흰 전신, 은청색 마구, 흰 갈기",
+      "roleProposal": "공격속도",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-036.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-037",
+      "name": "대완마",
+      "priority": "P2",
+      "reference": "R14·말 종류",
+      "visualBrief": "윤기 있는 밤색 전신, 작은 안장",
+      "roleProposal": "HP",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-037.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-038",
+      "name": "양주마",
+      "priority": "P2",
+      "reference": "R14·말 종류",
+      "visualBrief": "회갈색 튼튼한 체구, 두꺼운 가죽 마구",
+      "roleProposal": "방어",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-038.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-039",
+      "name": "과하마",
+      "priority": "P2",
+      "reference": "R14·말 종류",
+      "visualBrief": "다리가 짧고 작은 체구, 소박한 마구",
+      "roleProposal": "이동속도",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-039.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-040",
+      "name": "백마",
+      "priority": "P2",
+      "reference": "R14·말 종류",
+      "visualBrief": "장식 적은 백색 말, 갈색 가죽 안장",
+      "roleProposal": "이동속도",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-040.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-041",
+      "name": "사륜차",
+      "priority": "P2",
+      "reference": "R14·탈것",
+      "visualBrief": "네 바퀴가 읽히는 목제 지휘차, 빈 좌석",
+      "roleProposal": "마법방어",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-041.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-042",
+      "name": "손자병법",
+      "priority": "P1",
+      "reference": "R14·CC",
+      "visualBrief": "검은 띠로 묶은 담갈색 죽간",
+      "roleProposal": "전법 피해",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-042.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-042.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-042/manifest.json"
+    },
+    {
+      "catalogId": "tr-043",
+      "name": "육도",
+      "priority": "P1",
+      "reference": "R14·CC",
+      "visualBrief": "여섯 묶음이 읽히는 짧은 죽간 세트",
+      "roleProposal": "공격",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-043.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-043.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-043/manifest.json"
+    },
+    {
+      "catalogId": "tr-044",
+      "name": "삼략",
+      "priority": "P1",
+      "reference": "R14·CC",
+      "visualBrief": "세 묶음 두루마리, 붉은 끈",
+      "roleProposal": "방어",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-044.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-044.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-044/manifest.json"
+    },
+    {
+      "catalogId": "tr-045",
+      "name": "맹덕신서",
+      "priority": "P1",
+      "reference": "R14·CC",
+      "visualBrief": "남색 싸개와 붉은 봉인, 군략 죽간",
+      "roleProposal": "전법 피해",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-045.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-045.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-045/manifest.json"
+    },
+    {
+      "catalogId": "tr-046",
+      "name": "청낭서",
+      "priority": "P1",
+      "reference": "R14·CC",
+      "visualBrief": "연녹색 천 싸개와 작은 의서",
+      "roleProposal": "주는 회복",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-046.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-046.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-046/manifest.json"
+    },
+    {
+      "catalogId": "tr-047",
+      "name": "태평요술서",
+      "priority": "P1",
+      "reference": "CC·연의 도술",
+      "visualBrief": "황색 펼친 두루마리, 붉은 봉인",
+      "roleProposal": "전법 피해",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-047.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-047.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-047/manifest.json"
+    },
+    {
+      "catalogId": "tr-048",
+      "name": "둔갑천서",
+      "priority": "P1",
+      "reference": "CC·연의 도술",
+      "visualBrief": "보랏빛 싸개, 펼친 팔괘 도형",
+      "roleProposal": "마법방어",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-048.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-048.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-048/manifest.json"
+    },
+    {
+      "catalogId": "tr-049",
+      "name": "태평청령서",
+      "priority": "P1",
+      "reference": "CC·도술 계열",
+      "visualBrief": "흰 두루마리, 청록 끈, 깨끗한 옥 축",
+      "roleProposal": "주는 회복",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-049.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-049.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-049/manifest.json"
+    },
+    {
+      "catalogId": "tr-050",
+      "name": "사기",
+      "priority": "P3",
+      "reference": "R14·고전",
+      "visualBrief": "갈색 죽간 두 묶음, 긴 검은 띠",
+      "roleProposal": "HP",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-050.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-051",
+      "name": "한서",
+      "priority": "P3",
+      "reference": "R14·고전",
+      "visualBrief": "짙은 갈색 펼친 죽간, 붉은 축",
+      "roleProposal": "방어",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-051.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-052",
+      "name": "춘추좌씨전",
+      "priority": "P2",
+      "reference": "R14·고전",
+      "visualBrief": "녹색 싸개와 묵직한 죽간",
+      "roleProposal": "방어",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-052.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-053",
+      "name": "전국책",
+      "priority": "P3",
+      "reference": "R14·고전",
+      "visualBrief": "여러 폭 펼친 죽간, 엇갈린 끈",
+      "roleProposal": "전법 피해",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-053.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-054",
+      "name": "논어",
+      "priority": "P2",
+      "reference": "R14·고전",
+      "visualBrief": "소박한 밝은 죽간, 남색 매듭",
+      "roleProposal": "보호막",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-054.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-055",
+      "name": "사마법",
+      "priority": "P2",
+      "reference": "R14·병서",
+      "visualBrief": "회청색 싸개, 좁고 긴 죽간",
+      "roleProposal": "방어",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-055.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-056",
+      "name": "노자",
+      "priority": "P2",
+      "reference": "R14·고전",
+      "visualBrief": "연녹색 가는 두루마리, 옥 매듭",
+      "roleProposal": "마법방어",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-056.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-057",
+      "name": "장자",
+      "priority": "P2",
+      "reference": "R14·고전",
+      "visualBrief": "청록색 넓은 두루마리, 나무 축",
+      "roleProposal": "주는 회복",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-057.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-058",
+      "name": "시경",
+      "priority": "P3",
+      "reference": "R14·고전",
+      "visualBrief": "연홍색 끈과 밝은 비단 두루마리",
+      "roleProposal": "보호막",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-058.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-059",
+      "name": "서경",
+      "priority": "P3",
+      "reference": "R14·고전",
+      "visualBrief": "청동빛 축과 황갈색 두루마리",
+      "roleProposal": "HP",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-059.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-060",
+      "name": "주역",
+      "priority": "P2",
+      "reference": "R14·고전",
+      "visualBrief": "흑백 괘 도형, 황색 축",
+      "roleProposal": "전법 피해",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-060.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-061",
+      "name": "예기",
+      "priority": "P3",
+      "reference": "R14·고전",
+      "visualBrief": "단정한 자주색 싸개, 작은 금색 고리",
+      "roleProposal": "보호막",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-061.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-062",
+      "name": "여씨춘추",
+      "priority": "P3",
+      "reference": "R14·고전",
+      "visualBrief": "두꺼운 죽간 묶음, 황토색 끈",
+      "roleProposal": "마법방어",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-062.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-063",
+      "name": "오월춘추",
+      "priority": "P3",
+      "reference": "R14·고전",
+      "visualBrief": "녹청색 싸개, 긴 목제 축",
+      "roleProposal": "공격",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-063.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-064",
+      "name": "회남자",
+      "priority": "P3",
+      "reference": "R14·고전",
+      "visualBrief": "푸른 두루마리, 둥근 옥 장식",
+      "roleProposal": "전법 피해",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-064.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-065",
+      "name": "전론",
+      "priority": "P3",
+      "reference": "R14·고전",
+      "visualBrief": "남색 비단 싸개와 작은 죽간",
+      "roleProposal": "공격속도",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-065.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-066",
+      "name": "오자",
+      "priority": "P2",
+      "reference": "R14·병서",
+      "visualBrief": "붉은 가죽 띠, 넓은 죽간",
+      "roleProposal": "공격",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-066.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-067",
+      "name": "손빈병법",
+      "priority": "P2",
+      "reference": "R14·병서",
+      "visualBrief": "청록 띠, 절제된 군략 도형",
+      "roleProposal": "전법 피해",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-067.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-068",
+      "name": "울료자",
+      "priority": "P2",
+      "reference": "R14·병서",
+      "visualBrief": "검붉은 싸개, 짧고 굵은 축",
+      "roleProposal": "방어",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-068.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-069",
+      "name": "묵자",
+      "priority": "P2",
+      "reference": "R14·고전",
+      "visualBrief": "소박한 검은 끈, 목제 자와 죽간",
+      "roleProposal": "보호막",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-069.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-070",
+      "name": "거울갑옷",
+      "priority": "P2",
+      "reference": "CC·게임 장비",
+      "visualBrief": "가슴 중앙의 넓은 원형 거울판",
+      "roleProposal": "방어",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-070.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-071",
+      "name": "황금갑옷",
+      "priority": "P1",
+      "reference": "CC·게임 장비",
+      "visualBrief": "금색 찰갑, 짙은 붉은 안감",
+      "roleProposal": "방어",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-071.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-071.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-071/manifest.json"
+    },
+    {
+      "catalogId": "tr-072",
+      "name": "연환갑옷",
+      "priority": "P2",
+      "reference": "CC·게임 장비",
+      "visualBrief": "연결 고리와 철판, 회청색 몸통",
+      "roleProposal": "HP",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-072.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-073",
+      "name": "백은갑옷",
+      "priority": "P2",
+      "reference": "CC·게임 장비",
+      "visualBrief": "은백색 갑편, 푸른 안감",
+      "roleProposal": "마법방어",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-073.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-074",
+      "name": "용린갑옷",
+      "priority": "P1",
+      "reference": "CC·게임 장비",
+      "visualBrief": "녹청색 비늘갑, 작은 용형 가슴 장식",
+      "roleProposal": "방어",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-074.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-074.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-074/manifest.json"
+    },
+    {
+      "catalogId": "tr-075",
+      "name": "비룡도복",
+      "priority": "P2",
+      "reference": "CC·게임 장비",
+      "visualBrief": "청록색 옷, 금색 구름 도형, 가벼운 소매",
+      "roleProposal": "공격속도",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-075.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-076",
+      "name": "학창",
+      "priority": "P2",
+      "reference": "CC·게임 장비",
+      "visualBrief": "흰 긴 도포와 검은 넓은 가장자리",
+      "roleProposal": "마법방어",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-076.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-077",
+      "name": "칠흑도복",
+      "priority": "P2",
+      "reference": "CC·게임 장비",
+      "visualBrief": "검은 옷, 보라색 띠, 좁은 소매",
+      "roleProposal": "마법방어",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-077.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-078",
+      "name": "봉황깃옷",
+      "priority": "P2",
+      "reference": "CC·게임 장비",
+      "visualBrief": "붉은 깃형 겹자락, 금색 허리끈",
+      "roleProposal": "주는 회복",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-078.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-079",
+      "name": "백은방패",
+      "priority": "P2",
+      "reference": "CC·게임 장비",
+      "visualBrief": "은빛 방패, 중앙 돌기와 푸른 테두리",
+      "roleProposal": "방어",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-079.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-080",
+      "name": "풍신방패",
+      "priority": "P2",
+      "reference": "CC·게임 장비",
+      "visualBrief": "비취색 방패, 소용돌이 도형",
+      "roleProposal": "마법방어",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-080.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-081",
+      "name": "철투구",
+      "priority": "P2",
+      "reference": "CC·게임 장비",
+      "visualBrief": "단순한 철색 투구, 가죽 턱끈",
+      "roleProposal": "HP",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-081.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-082",
+      "name": "제갈건",
+      "priority": "P1",
+      "reference": "CC·게임 장비",
+      "visualBrief": "높은 검은 두건, 흰 가장자리와 긴 끈",
+      "roleProposal": "전법 피해",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-082.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-082.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-082/manifest.json"
+    },
+    {
+      "catalogId": "tr-083",
+      "name": "옥새",
+      "priority": "P1",
+      "reference": "R14·CC",
+      "visualBrief": "비취색 네모 인장, 위쪽 용 매듭",
+      "roleProposal": "보호막",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-083.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-083.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-083/manifest.json"
+    },
+    {
+      "catalogId": "tr-084",
+      "name": "동작",
+      "priority": "P2",
+      "reference": "R14·銅雀",
+      "visualBrief": "작은 청동 참새 장식, 녹청색 받침",
+      "roleProposal": "HP",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-084.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-085",
+      "name": "백우선",
+      "priority": "P1",
+      "reference": "R14·CC",
+      "visualBrief": "흰 깃털, 짙은 손잡이, 청록 매듭",
+      "roleProposal": "전법 피해",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-085.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-085.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-085/manifest.json"
+    },
+    {
+      "catalogId": "tr-086",
+      "name": "파초선",
+      "priority": "P2",
+      "reference": "CC·게임 장비",
+      "visualBrief": "넓은 녹색 잎형 부채, 짧은 나무 손잡이",
+      "roleProposal": "마법방어",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-086.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-087",
+      "name": "오화신염선",
+      "priority": "P2",
+      "reference": "CC·판타지",
+      "visualBrief": "다섯 갈래 붉은 깃, 금색 손잡이",
+      "roleProposal": "전법 피해",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-087.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-088",
+      "name": "청룡보옥",
+      "priority": "P1",
+      "reference": "CC·판타지",
+      "visualBrief": "비취색 보옥, 작은 청룡 테두리",
+      "roleProposal": "전법 피해",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-088.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-088.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-088/manifest.json"
+    },
+    {
+      "catalogId": "tr-089",
+      "name": "주작보옥",
+      "priority": "P1",
+      "reference": "CC·판타지",
+      "visualBrief": "주홍색 보옥, 날개형 금 테두리",
+      "roleProposal": "전법 피해",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-089.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-089.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-089/manifest.json"
+    },
+    {
+      "catalogId": "tr-090",
+      "name": "백호보옥",
+      "priority": "P1",
+      "reference": "CC·판타지",
+      "visualBrief": "백색 보옥, 호랑이 발톱형 은 테두리",
+      "roleProposal": "주는 회복",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-090.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-090.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-090/manifest.json"
+    },
+    {
+      "catalogId": "tr-091",
+      "name": "현무보옥",
+      "priority": "P1",
+      "reference": "CC·판타지",
+      "visualBrief": "남청색 보옥, 거북등형 테두리",
+      "roleProposal": "보호막",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-091.png",
+      "status": "awaiting-user-review",
+      "file": "design-delivery/v2/02-treasures/originals-v2/tr-091.png",
+      "assetManifest": "design-delivery/v2/02-treasures/originals-v2/batch-p1/tr-091/manifest.json"
+    },
+    {
+      "catalogId": "tr-092",
+      "name": "몰우전",
+      "priority": "P2",
+      "reference": "CC·게임 장비",
+      "visualBrief": "돌멩이 묶음과 작은 가죽 주머니",
+      "roleProposal": "공격",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-092.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-093",
+      "name": "바람바퀴",
+      "priority": "P2",
+      "reference": "CC·게임 장비",
+      "visualBrief": "바람 도형이 있는 작은 바퀴 한 쌍",
+      "roleProposal": "이동속도",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-093.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-094",
+      "name": "유금박산로",
+      "priority": "P3",
+      "reference": "R14·鎏金博山炉",
+      "visualBrief": "금빛 산봉우리 뚜껑, 둥근 향로",
+      "roleProposal": "주는 회복",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-094.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-095",
+      "name": "도철문정",
+      "priority": "P3",
+      "reference": "R14·고대 기물",
+      "visualBrief": "세 다리 청동 솥, 도철 문양",
+      "roleProposal": "HP",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-095.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-096",
+      "name": "장신궁등",
+      "priority": "P3",
+      "reference": "R14·고대 기물",
+      "visualBrief": "등불을 받쳐 든 작은 금동 인물",
+      "roleProposal": "주는 회복",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-096.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-097",
+      "name": "신수연",
+      "priority": "P3",
+      "reference": "R14·神獣の硯",
+      "visualBrief": "신수 모양의 짙은 돌 벼루",
+      "roleProposal": "전법 피해",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-097.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-098",
+      "name": "우등",
+      "priority": "P3",
+      "reference": "R14·牛灯",
+      "visualBrief": "소 모양 청동 등, 등 위의 작은 등잔",
+      "roleProposal": "보호막",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-098.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-099",
+      "name": "청동박산로",
+      "priority": "P3",
+      "reference": "R14·고대 기물",
+      "visualBrief": "녹청색 산형 향로, 높은 받침",
+      "roleProposal": "마법방어",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-099.png",
+      "status": "not-produced"
+    },
+    {
+      "catalogId": "tr-100",
+      "name": "가채박산로",
+      "priority": "P3",
+      "reference": "R14·고대 기물",
+      "visualBrief": "채색된 산형 뚜껑, 붉은 갈색 몸통",
+      "roleProposal": "주는 회복",
+      "grade": null,
+      "effectValue": null,
+      "proposedFile": "tr-100.png",
+      "status": "not-produced"
+    }
+  ]
+}

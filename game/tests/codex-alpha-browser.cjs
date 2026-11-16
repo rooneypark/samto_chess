@@ -1,0 +1,18 @@
+const {launch,start,seed,artifact}=require('./browser-env.cjs'),sharp=require('../../design-delivery/v1/a-production/tools/node_modules/sharp'),fs=require('node:fs/promises'),path=require('node:path'),assert=require('node:assert/strict');const root=path.resolve(__dirname,'../..'),read=buffer=>sharp(buffer).ensureAlpha().raw().toBuffer({resolveWithObject:true});(async()=>{const browser=await launch();try{const page=await browser.newPage({viewport:{width:941,height:1672}}),report={pressed:[]};await start(page,{hash:'#codex'});await page.locator('.codex-runtime[aria-busy=false]').waitFor(); async function pressChecks(tab){
+  for(const button of await page.locator('.codex-runtime button.art-control:not(:disabled)').all()){
+   const box=await button.boundingBox(),clip=Object.fromEntries(Object.entries(box).map(([k,v])=>[k,Math.round(v)]));
+   await page.mouse.move(939,1400);await button.evaluate(e=>e.blur());const before=await read(await page.screenshot({clip}));
+   const url=await button.evaluate(e=>getComputedStyle(e).getPropertyValue('--art-image').trim().slice(4,-1).replaceAll('"',''));
+   const mask=await read(url.startsWith('data:')?Buffer.from(url.split(',')[1],'base64'):await fs.readFile(path.join(root,'game',url.replace(/^https?:\/\/[^/]+\/game\//,''))));
+   await page.mouse.move(box.x+box.width/2,box.y+box.height/2);await page.mouse.down();assert.ok(await button.evaluate(e=>e.classList.contains('is-pressed')));assert.deepEqual(await button.boundingBox(),box);
+   const after=await read(await page.screenshot({clip}));let outside=0,frame=0,missed=0;
+   for(let y=0;y<clip.height;y++)for(let x=0;x<clip.width;x++){
+    const i=(y*clip.width+x)*4,a=before.data[i]+before.data[i+1]+before.data[i+2],b=after.data[i]+after.data[i+1]+after.data[i+2],delta=Math.abs(before.data[i]-after.data[i])+Math.abs(before.data[i+1]-after.data[i+1])+Math.abs(before.data[i+2]-after.data[i+2]);
+    if(!mask.data[i+3]&&delta>3)outside++;
+    if(mask.data[i+3]===255&&(x<clip.width*.12||x>clip.width*.88||y<clip.height*.12||y>clip.height*.88)&&Math.max(mask.data[i],mask.data[i+1],mask.data[i+2])>100&&a>30){frame++;if(b>a*.92)missed++;}
+   }
+   const label=await button.getAttribute('aria-label')||await button.innerText();assert.equal(outside,0,label+' alpha exterior');assert.ok(frame>25);assert.equal(missed,0,label+' full border');report.pressed.push({tab,label,outside,frame,missed});await page.mouse.move(939,1400);await page.mouse.up();
+  }
+ }
+
+await pressChecks('normal');await page.locator('.codex-entry').nth(1).click();await page.locator('.codex-runtime[aria-busy=false]').waitFor();await pressChecks('selected');console.log('PASS '+report.pressed.length+' actual alpha/pressed borders');}finally{await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1});

@@ -1,0 +1,207 @@
+{
+  "pressed": [
+    {
+      "label": "성문으로 돌아가기",
+      "outside": 0,
+      "frame": 1335,
+      "missed": 0
+    },
+    {
+      "label": "골드 예시 12,450",
+      "outside": 0,
+      "frame": 1688,
+      "missed": 0
+    },
+    {
+      "label": "다이아 예시 320",
+      "outside": 0,
+      "frame": 1674,
+      "missed": 0
+    },
+    {
+      "label": "대전 준비",
+      "outside": 0,
+      "frame": 3235,
+      "missed": 0
+    },
+    {
+      "label": "순위표",
+      "outside": 0,
+      "frame": 3246,
+      "missed": 0
+    },
+    {
+      "label": "전투 기록",
+      "outside": 0,
+      "frame": 3246,
+      "missed": 0
+    },
+    {
+      "label": "시즌·등급",
+      "outside": 0,
+      "frame": 2490,
+      "missed": 0
+    },
+    {
+      "label": "편성 변경",
+      "outside": 0,
+      "frame": 2311,
+      "missed": 0
+    },
+    {
+      "label": "다른 상대 보기",
+      "outside": 0,
+      "frame": 4713,
+      "missed": 0
+    },
+    {
+      "label": "대전 규칙",
+      "outside": 0,
+      "frame": 4713,
+      "missed": 0
+    },
+    {
+      "label": "대전 시작\n승리 골드 20 · 군공 10",
+      "outside": 0,
+      "frame": 6394,
+      "missed": 0
+    },
+    {
+      "label": "군공 상점\n보유 군공 120",
+      "outside": 0,
+      "frame": 3885,
+      "missed": 0
+    },
+    {
+      "label": "상점",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "label": "병영",
+      "outside": 0,
+      "frame": 4208,
+      "missed": 0
+    },
+    {
+      "label": "성문",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "label": "동맹",
+      "outside": 0,
+      "frame": 4129,
+      "missed": 0
+    },
+    {
+      "label": "군웅대전",
+      "outside": 0,
+      "frame": 4241,
+      "missed": 0
+    }
+  ],
+  "frames": [
+    {
+      "tone": "blue",
+      "width": 281,
+      "height": 74,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 901,
+      "height": 500,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 901,
+      "height": 130,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 207,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 430,
+      "height": 88,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 570,
+      "height": 136,
+      "identicalCorners": true
+    },
+    {
+      "tone": "blue",
+      "width": 290,
+      "height": 136,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 281,
+      "height": 74,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 901,
+      "height": 500,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 901,
+      "height": 130,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 207,
+      "height": 64,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 430,
+      "height": 88,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 570,
+      "height": 136,
+      "identicalCorners": true
+    },
+    {
+      "tone": "green",
+      "width": 290,
+      "height": 136,
+      "identicalCorners": true
+    }
+  ],
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "identicalShellPixels": 224470
+}

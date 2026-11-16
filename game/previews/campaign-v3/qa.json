@@ -1,0 +1,27 @@
+{
+  "buttons": [
+    {
+      "name": "황건 토벌",
+      "selectedSpriteUnchanged": true,
+      "pressedMaskMatches": true,
+      "geometryUnchanged": true
+    },
+    {
+      "name": "관문 돌파",
+      "selectedSpriteUnchanged": true,
+      "pressedMaskMatches": true,
+      "geometryUnchanged": true
+    },
+    {
+      "name": "삼영전여포",
+      "selectedSpriteUnchanged": true,
+      "pressedMaskMatches": true,
+      "geometryUnchanged": true
+    }
+  ],
+  "viewports": [
+    320,
+    390,
+    941
+  ]
+}

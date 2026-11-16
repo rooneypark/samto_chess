@@ -1,0 +1,192 @@
+{
+  "id": "machao",
+  "name": "마초",
+  "faction": "촉",
+  "order": 24,
+  "identity": "Ma Chao: youthful fierce frontier cavalry hero, clean-shaven angular face, sharp eyes. VERY DISTINCT SILVER LION/BEAST-FACED helmet with sculpted brow and swept side wings, compact white mane plume, thick WHITE FUR collar, silver armor with charcoal etched large panels and teal-green undercloth, pale cape. Mounted on existing WHITE horse holding long silver spear. Broader fiercer shoulders than Zhao Yun but same cavalry scale. Lion brow and fur must differentiate him from Zhao Yun's smooth silver helmet and cloth scarf. No white face mask.",
+  "folder": "machao",
+  "identityDesign": "Ma Chao: youthful fierce frontier cavalry hero, clean-shaven angular face, sharp eyes. VERY DISTINCT SILVER LION/BEAST-FACED helmet with sculpted brow and swept side wings, compact white mane plume, thick WHITE FUR collar, silver armor with charcoal etched large panels and teal-green undercloth, pale cape. Mounted on existing WHITE horse holding long silver spear. Broader fiercer shoulders than Zhao Yun but same cavalry scale. Lion brow and fur must differentiate him from Zhao Yun's smooth silver helmet and cloth scarf. No white face mask.",
+  "artRevision": "pixel256-v1",
+  "canvas": [
+    256,
+    256
+  ],
+  "foot": [
+    128,
+    224
+  ],
+  "schemaVersion": 2,
+  "status": "ready-for-review",
+  "runtimeApplied": false,
+  "motionComplete": false,
+  "sideFacing": "left",
+  "right": "mirror-side",
+  "directions": {
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "machao",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "sourceCanvas": [
+          1254,
+          1254
+        ],
+        "bodyTopVirtual256": 63,
+        "bodyHeightTarget": 168,
+        "sourceFootVirtual256": 243,
+        "sourceToFinalScale": 0.19053694843168528,
+        "wholeImageOffset": [
+          9,
+          -3
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          76,
+          12,
+          178,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
+        "weaponContainFit": false,
+        "runtimeApplied": false,
+        "sha256": "25cb23f952052cc3e05804823eafd23eeed86bf83e66a89782600057bd2c3c3b"
+      }
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "machao",
+        "direction": "back",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 55,
+        "bodyHeightTarget": 168,
+        "sourceFootVirtual256": 223,
+        "sourceToFinalScale": 0.20414673046251994,
+        "wholeImageOffset": [
+          0,
+          1
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          78,
+          14,
+          182,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "6d2f8294ba66070a4303baf517fad9de31d669962737feb664f54931017800bc"
+      }
+    },
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "machao",
+        "direction": "side",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 59,
+        "bodyHeightTarget": 168,
+        "sourceFootVirtual256": 220,
+        "sourceToFinalScale": 0.2130226752652382,
+        "wholeImageOffset": [
+          -6,
+          -6
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          62,
+          8,
+          188,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "d7b1f1066c70de3de45f6ac242bfdea00310be6ed5f7cfecd6f35c3b1a58e924"
+      }
+    }
+  },
+  "files": {
+    "front": {
+      "path": "front.png",
+      "sha256": "25cb23f952052cc3e05804823eafd23eeed86bf83e66a89782600057bd2c3c3b"
+    },
+    "back": {
+      "path": "back.png",
+      "sha256": "6d2f8294ba66070a4303baf517fad9de31d669962737feb664f54931017800bc"
+    },
+    "side": {
+      "path": "side.png",
+      "sha256": "d7b1f1066c70de3de45f6ac242bfdea00310be6ed5f7cfecd6f35c3b1a58e924"
+    }
+  },
+  "sourceProvider": "built-in image_gen",
+  "provenanceFile": "generation.json",
+  "bodyMetrics": {
+    "shoulderWidth": null,
+    "anatomicalHeight": null,
+    "riderJoints": null
+  },
+  "approval": {
+    "frontApproved": false,
+    "fullSetApproved": false
+  }
+}

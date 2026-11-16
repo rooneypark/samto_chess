@@ -1,0 +1,192 @@
+{
+  "id": "guojia",
+  "name": "곽가",
+  "faction": "위",
+  "order": 17,
+  "identity": "Guo Jia: young slender clean-shaven strategist, pale warm skin, relaxed clever narrow eyes. Long dark hair tied loosely without tall official hat, blue-gray scholar robe with indigo collar and subtle bronze trim, soft draped sleeves. Hold bamboo slips. Physically fine-boned adult, not child, distinct from mature crowned Xun Yu.",
+  "folder": "guojia",
+  "identityDesign": "Guo Jia: young slender clean-shaven strategist, pale warm skin, relaxed clever narrow eyes. Long dark hair tied loosely without tall official hat, blue-gray scholar robe with indigo collar and subtle bronze trim, soft draped sleeves. Hold bamboo slips. Physically fine-boned adult, not child, distinct from mature crowned Xun Yu.",
+  "artRevision": "pixel256-v1",
+  "canvas": [
+    256,
+    256
+  ],
+  "foot": [
+    128,
+    224
+  ],
+  "schemaVersion": 2,
+  "status": "ready-for-review",
+  "runtimeApplied": false,
+  "motionComplete": false,
+  "sideFacing": "left",
+  "right": "mirror-side",
+  "directions": {
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "guojia",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "sourceCanvas": [
+          1254,
+          1254
+        ],
+        "bodyTopVirtual256": 88,
+        "bodyHeightTarget": 122,
+        "sourceFootVirtual256": 229,
+        "sourceToFinalScale": 0.17663759657040734,
+        "wholeImageOffset": [
+          17,
+          26
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          97,
+          102,
+          154,
+          226
+        ],
+        "clippedVisiblePixels": 0,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
+        "weaponContainFit": false,
+        "runtimeApplied": false,
+        "sha256": "1c94f3f2dece5835094c39c74e5bf502bd0f433044fd58d4ea5041854bcae8bf"
+      }
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "guojia",
+        "direction": "back",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 84,
+        "bodyHeightTarget": 122,
+        "sourceFootVirtual256": 208,
+        "sourceToFinalScale": 0.20085404126151155,
+        "wholeImageOffset": [
+          2,
+          19
+        ],
+        "groundRoundingCorrection": 1,
+        "visibleBounds": [
+          102,
+          104,
+          155,
+          226
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "808b1ed1ff0a2b812a5e750337f0ea0bff96f436f78e0aa7137d2ca3f9410cb1"
+      }
+    },
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "guojia",
+        "direction": "side",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 100,
+        "bodyHeightTarget": 122,
+        "sourceFootVirtual256": 219,
+        "sourceToFinalScale": 0.20929328669266747,
+        "wholeImageOffset": [
+          -3,
+          -1
+        ],
+        "groundRoundingCorrection": 1,
+        "visibleBounds": [
+          104,
+          104,
+          158,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "c521f5cfc538d665d4e4629a2f896adf5c1a87c4d51c4d2e84de1decaf7b0524"
+      }
+    }
+  },
+  "files": {
+    "front": {
+      "path": "front.png",
+      "sha256": "1c94f3f2dece5835094c39c74e5bf502bd0f433044fd58d4ea5041854bcae8bf"
+    },
+    "back": {
+      "path": "back.png",
+      "sha256": "808b1ed1ff0a2b812a5e750337f0ea0bff96f436f78e0aa7137d2ca3f9410cb1"
+    },
+    "side": {
+      "path": "side.png",
+      "sha256": "c521f5cfc538d665d4e4629a2f896adf5c1a87c4d51c4d2e84de1decaf7b0524"
+    }
+  },
+  "sourceProvider": "built-in image_gen",
+  "provenanceFile": "generation.json",
+  "bodyMetrics": {
+    "shoulderWidth": null,
+    "anatomicalHeight": null,
+    "riderJoints": null
+  },
+  "approval": {
+    "frontApproved": false,
+    "fullSetApproved": false
+  }
+}

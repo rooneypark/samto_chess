@@ -1,0 +1,27 @@
+{
+  "name": "samguk-chess",
+  "version": "0.12.0",
+  "private": true,
+  "type": "module",
+  "description": "삼토체스. 게임 실행에는 설치가 필요 없고, 아래 의존성은 브라우저 검수에만 쓴다.",
+  "scripts": {
+    "start": "python game/server.py --open-browser",
+    "test": "node --test \"game/tests/*.test.mjs\"",
+    "verify:assets": "node game/tools/verify-assets.mjs",
+    "test:browser": "node game/tests/run-browser.cjs",
+    "review:battle": "node game/tests/run-browser.cjs battle-review",
+    "review:mixed": "node game/tests/run-browser.cjs mixed-battle-review",
+    "test:all": "npm test && npm run verify:assets && npm run test:browser",
+    "build:ui": "node game/tools/ui-assets.cjs",
+    "verify:ui": "node game/tools/ui-assets.cjs --verify",
+    "test:ui": "node game/tests/run-browser.cjs toast-ui dialog-art arena-opponents-ui arena-season-ui arena-records-ui merit-shop-ui products-ui pickup-rates-ui rates-ui treasure-results-flow treasure-results-ui recruit-results-flow recruit-results-ui s-select-flow s-select-ui exchange-flow exchange-ui strategy-flow strategy-ui formation-flow formation-ui settings-flow settings-ui profile-flow profile-ui treasure-flow treasure-ui government-flow government-ui side-margins shared-scroll original-layout approved-ui gate-lobby ui-shell ui-components shop-ui alliance-ui arena-ui campaign-ui results-ui results-flow combat-record-ui combat-record-flow missions-ui missions-flow mail-ui mail-flow battle-feedback art",
+    "assets:restore": "python tools/asset_packs.py restore",
+    "assets:pack": "python tools/asset_packs.py pack",
+    "assets:verify": "python tools/asset_packs.py verify",
+    "assets:publish": "python tools/asset_packs.py publish",
+    "test:asset-packs": "python -m unittest discover -s tools/tests -p test_asset_packs.py"
+  },
+  "devDependencies": {
+    "playwright-core": "1.65.0"
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "id": "yanliang",
+  "name": "안량",
+  "faction": "군웅",
+  "order": 45,
+  "identity": "Yan Liang: large strong mature fighter, long angular face with hooked black moustache and pointed beard, angular dark steel helmet with green small plume. Brown-green heavy armor and muted plum cloth at waist, broad armored shoulders. Hold large crescent saber. More angular and tall-necked than Wen Chou, not identical purple recolor.",
+  "folder": "yanliang",
+  "identityDesign": "Yan Liang: large strong mature fighter, long angular face with hooked black moustache and pointed beard, angular dark steel helmet with green small plume. Brown-green heavy armor and muted plum cloth at waist, broad armored shoulders. Hold large crescent saber. More angular and tall-necked than Wen Chou, not identical purple recolor.",
+  "artRevision": "pixel256-v1",
+  "canvas": [
+    256,
+    256
+  ],
+  "foot": [
+    128,
+    224
+  ],
+  "schemaVersion": 2,
+  "status": "ready-for-review",
+  "runtimeApplied": false,
+  "motionComplete": false,
+  "sideFacing": "left",
+  "right": "mirror-side",
+  "directions": {
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "yanliang",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "sourceCanvas": [
+          1254,
+          1254
+        ],
+        "bodyTopVirtual256": 74,
+        "bodyHeightTarget": 130,
+        "sourceFootVirtual256": 240,
+        "sourceToFinalScale": 0.1598739455429373,
+        "wholeImageOffset": [
+          28,
+          36
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          79,
+          53,
+          170,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
+        "weaponContainFit": false,
+        "runtimeApplied": false,
+        "sha256": "849baf4f4a7d403dcaa6c02aa30e39289fe518ce10f1b765535cd158f9179d27"
+      }
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "yanliang",
+        "direction": "back",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 92,
+        "bodyHeightTarget": 130,
+        "sourceFootVirtual256": 217,
+        "sourceToFinalScale": 0.21231259968102073,
+        "wholeImageOffset": [
+          -5,
+          -2
+        ],
+        "groundRoundingCorrection": 0,
+        "visibleBounds": [
+          83,
+          52,
+          175,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "aab38b55a500d246c311e614e8a89c906823727102fc4b7cb54cb2d1e1c95543"
+      }
+    },
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "foot": [
+        128,
+        224
+      ],
+      "trimOffset": [
+        0,
+        0
+      ],
+      "bodyCalibration": {
+        "id": "yanliang",
+        "direction": "side",
+        "canvas": [
+          256,
+          256
+        ],
+        "foot": [
+          128,
+          224
+        ],
+        "bodyTopVirtual256": 92,
+        "bodyHeightTarget": 130,
+        "sourceFootVirtual256": 220,
+        "sourceToFinalScale": 0.20733652312599682,
+        "wholeImageOffset": [
+          -2,
+          1
+        ],
+        "groundRoundingCorrection": -1,
+        "visibleBounds": [
+          84,
+          54,
+          166,
+          225
+        ],
+        "clippedVisiblePixels": 0,
+        "weaponContainFit": false,
+        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
+        "runtimeApplied": false,
+        "sha256": "bb98490d70599353a7ac6f1811b1313acebcbcf07053d47bb425c74208adf819"
+      }
+    }
+  },
+  "files": {
+    "front": {
+      "path": "front.png",
+      "sha256": "849baf4f4a7d403dcaa6c02aa30e39289fe518ce10f1b765535cd158f9179d27"
+    },
+    "back": {
+      "path": "back.png",
+      "sha256": "aab38b55a500d246c311e614e8a89c906823727102fc4b7cb54cb2d1e1c95543"
+    },
+    "side": {
+      "path": "side.png",
+      "sha256": "bb98490d70599353a7ac6f1811b1313acebcbcf07053d47bb425c74208adf819"
+    }
+  },
+  "sourceProvider": "built-in image_gen",
+  "provenanceFile": "generation.json",
+  "bodyMetrics": {
+    "shoulderWidth": null,
+    "anatomicalHeight": null,
+    "riderJoints": null
+  },
+  "approval": {
+    "frontApproved": false,
+    "fullSetApproved": false
+  }
+}

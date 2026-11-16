@@ -1,0 +1,4 @@
+@scope (.products-runtime){
+.product-card{font-size:3.2cqw!important}.product-card small{color:#bed1df;font-size:2.6cqw}.product-card .price{color:#ffe0a1}.product-heading{font-size:4cqw}.product-copy{font-size:3.1cqw;color:#bfd0dd;line-height:1.5;white-space:pre-line}.apply{font-size:3.3cqw!important}
+.art-header-title{font-size:4.5cqw}.rate-card{gap:1cqw}.chance{font-size:3.5cqw;color:#ffe0a1}.hint{font-size:2.6cqw;text-align:center;color:#b9cddd}.home-back{font-size:3.3cqw!important}.product-copy{overflow:auto}
+}

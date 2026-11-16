@@ -1,0 +1,14 @@
+// Visual catalogue of the exact source variants, including reusable pressed PNGs.
+const fs=require('node:fs/promises'),path=require('node:path');
+const {launch}=require('../tests/browser-env.cjs');
+(async()=>{
+ const root=path.resolve(__dirname,'../..'),out=path.join(root,'game/assets/ui-common'),data=JSON.parse(await fs.readFile(path.join(out,'manifest.json'),'utf8'));
+ const cards=Object.entries(data.records).map(([id,c])=>'<article data-id="'+id+'"><h2>'+id+' <small>'+c.box[2]+' × '+c.box[3]+'</small></h2><div class="pair"><figure><img src="'+c.file+'"><figcaption>normal</figcaption></figure><figure><img src="'+c.pressedFile+'"><figcaption>pressed</figcaption></figure></div></article>').join('');
+ const html='<!doctype html><html lang="ko"><meta charset="utf-8"><title>삼토체스 공용 UI 자산</title><style>@font-face{font-family:GamePixel;src:url(../ui/neodgm.woff2) format(woff2);font-display:swap}*{box-sizing:border-box}body{margin:0;background:#142139;color:#f6e7c6;font:14px GamePixel,Malgun Gothic,sans-serif}header{padding:20px}h1{font-size:24px;margin:0 0 12px}button{font:inherit;padding:9px 16px;margin-right:8px}main{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;padding:16px}article{border:1px solid #678;padding:10px;min-width:0}h2{font:15px monospace;margin:0 0 10px}small{font-size:12px;color:#aab8c9}.pair{background:#f8efdb;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:8px;min-height:150px;padding:12px;color:#142139}figure{margin:0;min-width:0;text-align:center}img{max-width:100%;max-height:160px;image-rendering:pixelated}figcaption{font-size:12px;margin:8px}.dark .pair{background:#172337;color:#eee}.contrast .pair{background:#43b3a0}@media(max-width:800px){main{grid-template-columns:1fr}}</style><header><h1>공용 UI · 원본 / 눌림</h1><button onclick="document.body.className=\'\'">밝은 배경</button><button onclick="document.body.className=\'dark\'">어두운 배경</button><button onclick="document.body.className=\'contrast\'">대조색 배경</button><p>모양이 다른 원본은 별도 변형으로 보존 · 클릭 처리와 투명 마스크는 공통 사용</p></header><main>'+cards+'</main></html>';
+ await fs.writeFile(path.join(out,'review.html'),html);
+ const browser=await launch(),page=await browser.newPage({viewport:{width:1536,height:1100}});await page.goto(require('node:url').pathToFileURL(path.join(out,'review.html')).href);await page.evaluate(()=>Promise.all([...document.images].map(i=>i.decode())));
+ await fs.mkdir(path.join(root,'test-artifacts/ui-components'),{recursive:true});
+ for(const theme of ['', 'dark','contrast']){await page.evaluate(t=>document.body.className=t,theme);await page.screenshot({path:path.join(root,'test-artifacts/ui-components','catalog-'+(theme||'light')+'.png'),fullPage:true});}
+ await browser.close();console.log('Rendered '+Object.keys(data.records).length+' component pairs on three backgrounds');
+})().catch(e=>{console.error(e);process.exitCode=1;});
+

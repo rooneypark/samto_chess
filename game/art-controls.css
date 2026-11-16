@@ -1,0 +1,32 @@
+@import url('./scroll-ui.css');
+/* A source-alpha mask darkens the complete frame AND its live content.
+   Transparent pixels remain untouched. No polygon approximation or layout shift. */
+.art-control.art-control{touch-action:manipulation}
+.art-control.art-control:is(:active,.is-pressed){translate:none;transform:none}
+.game .art-control.art-control.is-pressed{z-index:35}
+.art-control.art-painted{background-image:var(--art-image);background-size:100% 100%}
+:is(.game,.art-dialog,.game-toast) .art-control.art-control.art-control:is(.is-pressed,:disabled)::after{
+ content:'';position:absolute;inset:0;z-index:30;pointer-events:none;
+ background:#000;opacity:.28;filter:none;clip-path:none;
+ mask-image:var(--art-image);mask-size:100% 100%;mask-repeat:no-repeat;
+ border:0;box-shadow:none;
+}
+:is(.game,.art-dialog,.game-toast) .art-control.art-control.art-control:disabled::after{opacity:.4}
+:is(.game,.art-dialog,.game-toast) .art-control.art-control:focus-visible{outline:2px solid #ffe2a1;outline-offset:-3px}
+
+.art-region-button{pointer-events:none}.art-region-button svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}.art-region-button path{pointer-events:all}
+
+/* Selectable map regions can explicitly opt out of visual pressed feedback. */
+.game .art-control[data-art-press-visual="none"]::after{display:none!important}
+
+/* X shares source alpha with pressed; no frame or rectangular dark overlay. */
+:is(#modal.art-dialog #close-modal,.game-toast .toast-close).shared-close-icon{
+ --close-hit-size:36px;
+ --close-art-size:26px;
+ display:grid;place-items:center;padding:0;border:0;background:transparent;box-shadow:none;
+ position:relative;min-width:var(--close-hit-size);width:var(--close-hit-size);height:var(--close-hit-size);flex:none;
+}
+:is(#modal.art-dialog,.game-toast) .shared-close-icon img{display:block;width:var(--close-art-size);height:var(--close-art-size);image-rendering:pixelated;pointer-events:none}
+:is(#modal.art-dialog,.game-toast) .art-control.shared-close-icon.shared-close-icon::after{
+ mask-size:var(--close-art-size) var(--close-art-size);mask-position:center;mask-repeat:no-repeat;
+}

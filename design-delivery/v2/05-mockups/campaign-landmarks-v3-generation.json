@@ -1,0 +1,30 @@
+{
+  "status": "draft-awaiting-user-review",
+  "runtimeApplied": false,
+  "generator": "built-in image_gen",
+  "assets": [
+    {
+      "name": "yellow-camp",
+      "subject": "Yellow Turban camp: exactly ONE small ochre thatched hut behind a short wooden palisade, one yellow triangular flag. Only three big readable shapes.",
+      "prompt": "Use case: stylized-concept. Asset type: TINY RETRO PIXEL-ART MAP ICON for an existing simple mobile Three Kingdoms chess game. Yellow Turban camp: exactly ONE small ochre thatched hut behind a short wooden palisade, one yellow triangular flag. Only three big readable shapes. Crucial style: extremely simple old 16-bit RPG map symbol, original artwork drawn on a logical 48 by 40 pixel grid then enlarged with perfectly sharp nearest-neighbor pixels. Large square pixels, 10 colors MAXIMUM, flat color masses, 1 logical-pixel dark navy outline, only one shadow tone per material. NO intricate detailed painting. Broad readable shapes designed to display at only 60 pixels wide. Front view with only a hint of roof top. Isolated compact single building centered in a square image with generous fully transparent margin on all four sides. Real transparent alpha background. NO scenery, NO mountain, NO ground patch or terrain, NO rubble, NO bushes, NO rocks, NO props, NO people, NO horses, NO brick texture, NO individual shingles, NO gradients, NO fine grain, NO highlights, NO UI, NO text, NO labels, NO framing. Do not turn this into a detailed miniature or architectural illustration. It must look like a very small sparse game sprite, not a high resolution illustration.",
+      "source": "C:\\Users\\pms10\\.codex\\generated_images\\01a1d401-218e-7061-acde-752e44e85aca\\exec-11a2c45c-604f-4ebe-b770-4783fe0df87c.png"
+    },
+    {
+      "name": "sishui-wall",
+      "subject": "Sishui Pass: ONE short squat blue-gray stone wall, a simple dark central doorway, and a tiny red triangular flag. Low wide silhouette. Only three big readable shapes.",
+      "prompt": "Use case: stylized-concept. Asset type: TINY RETRO PIXEL-ART MAP ICON for an existing simple mobile Three Kingdoms chess game. Sishui Pass: ONE short squat blue-gray stone wall, a simple dark central doorway, and a tiny red triangular flag. Low wide silhouette. Only three big readable shapes. Crucial style: extremely simple old 16-bit RPG map symbol, original artwork drawn on a logical 48 by 40 pixel grid then enlarged with perfectly sharp nearest-neighbor pixels. Large square pixels, 10 colors MAXIMUM, flat color masses, 1 logical-pixel dark navy outline, only one shadow tone per material. NO intricate detailed painting. Broad readable shapes designed to display at only 60 pixels wide. Front view with only a hint of roof top. Isolated compact single building centered in a square image with generous fully transparent margin on all four sides. Real transparent alpha background. NO scenery, NO mountain, NO ground patch or terrain, NO rubble, NO bushes, NO rocks, NO props, NO people, NO horses, NO brick texture, NO individual shingles, NO gradients, NO fine grain, NO highlights, NO UI, NO text, NO labels, NO framing. Do not turn this into a detailed miniature or architectural illustration. It must look like a very small sparse game sprite, not a high resolution illustration.",
+      "source": "C:\\Users\\pms10\\.codex\\generated_images\\01a1d401-218e-7061-acde-752e44e85aca\\exec-605a2bb9-8177-4b93-a97e-b4b9c340d734.png"
+    },
+    {
+      "name": "hulao-gate",
+      "subject": "Hulao Pass: ONE compact blue-gray stone gate tower with one simple navy tiled roof and a dark doorway, one tiny red triangular flag. Slightly taller silhouette than a squat wall. Only three big readable shapes.",
+      "prompt": "Use case: stylized-concept. Asset type: TINY RETRO PIXEL-ART MAP ICON for an existing simple mobile Three Kingdoms chess game. Hulao Pass: ONE compact blue-gray stone gate tower with one simple navy tiled roof and a dark doorway, one tiny red triangular flag. Slightly taller silhouette than a squat wall. Only three big readable shapes. Crucial style: extremely simple old 16-bit RPG map symbol, original artwork drawn on a logical 48 by 40 pixel grid then enlarged with perfectly sharp nearest-neighbor pixels. Large square pixels, 10 colors MAXIMUM, flat color masses, 1 logical-pixel dark navy outline, only one shadow tone per material. NO intricate detailed painting. Broad readable shapes designed to display at only 60 pixels wide. Front view with only a hint of roof top. Isolated compact single building centered in a square image with generous fully transparent margin on all four sides. Real transparent alpha background. NO scenery, NO mountain, NO ground patch or terrain, NO rubble, NO bushes, NO rocks, NO props, NO people, NO horses, NO brick texture, NO individual shingles, NO gradients, NO fine grain, NO highlights, NO UI, NO text, NO labels, NO framing. Do not turn this into a detailed miniature or architectural illustration. It must look like a very small sparse game sprite, not a high resolution illustration.",
+      "source": "C:\\Users\\pms10\\.codex\\generated_images\\01a1d401-218e-7061-acde-752e44e85aca\\exec-2c24435a-e4d2-4516-a2b4-8428f64be8b9.png"
+    }
+  ],
+  "composition": "game/previews/campaign-v3/index.html",
+  "screenshot": "campaign-landmarks-v3.png",
+  "supersedes": "campaign-v2: user rejected detailed individual landmarks",
+  "rule": "One small simple shared landmark per chapter; stages 1/2/3 reuse it. Names use approved blue/green nine-slice frames.",
+  "qa": "game/previews/campaign-v3/qa.json"
+}

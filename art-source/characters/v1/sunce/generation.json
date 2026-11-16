@@ -1,0 +1,29 @@
+{
+  "front": {
+    "provider": "built-in image_gen",
+    "direction": "front",
+    "reference": "previous front and established roster style",
+    "design": "Youthful Wu ruler with a low bronze-gold coronet and compact red ribbon, broad dark bronze and red armor trimmed in gold, a substantial vermilion command cloak, and two short ji halberds held asymmetrically (right upright, left low).",
+    "sourceSha256": "ed4cd1a5c096e8b5171bc6e0c34a1d7404cdcfbe0f8ae51abbf4761aee3d9741",
+    "export": "nearest-neighbor to RGBA 256×256 with pivot (128,224)",
+    "sha256": "16752e613a2f6aca8af6ce332d72bb6270ad8a54a758320b62e196146c94589a"
+  },
+  "side": {
+    "provider": "built-in image_gen",
+    "direction": "side",
+    "reference": "user-approved revised front",
+    "design": "Youthful Wu ruler with a low bronze-gold coronet and compact red ribbon, broad dark bronze and red armor trimmed in gold, a substantial vermilion command cloak, and two short ji halberds held asymmetrically (right upright, left low).",
+    "sourceSha256": "cd4ded311273b9d512136f369d13fe13623a6f9a8c033691002419440759ac88",
+    "export": "nearest-neighbor to RGBA 256×256 with pivot (128,224)",
+    "sha256": "c93f837694a68ebd3aeb65ca6f1d579420f579ac944e45b21049e222f73c3b6c"
+  },
+  "back": {
+    "provider": "built-in image_gen",
+    "direction": "back",
+    "reference": "user-approved revised front",
+    "design": "Youthful Wu ruler with a low bronze-gold coronet and compact red ribbon, broad dark bronze and red armor trimmed in gold, a substantial vermilion command cloak, and two short ji halberds held asymmetrically (right upright, left low).",
+    "sourceSha256": "4c04afc16ba3e652d34f8cae095623aabc1a0bafd332cd640df1529f924a0ea3",
+    "export": "nearest-neighbor to RGBA 256×256 with pivot (128,224)",
+    "sha256": "d451c0b4446bd34b59f6f5cb82a5c13a73c0e70758005fc8997b3562bc1a1a0b"
+  }
+}

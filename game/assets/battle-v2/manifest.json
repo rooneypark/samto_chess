@@ -1,0 +1,154 @@
+{
+  "source": "design-delivery/v2/05-mockups/battle-preparation-v1.png",
+  "width": 941,
+  "height": 1672,
+  "board": [
+    119,
+    329,
+    706,
+    729
+  ],
+  "sprites": {
+    "xuchu-back": {
+      "width": 160,
+      "height": 208,
+      "foot": [
+        80,
+        200
+      ],
+      "visible": [
+        31,
+        74,
+        114,
+        126
+      ]
+    },
+    "1-back": {
+      "width": 160,
+      "height": 208,
+      "foot": [
+        80,
+        200
+      ],
+      "visible": [
+        39,
+        18,
+        90,
+        182
+      ]
+    },
+    "119-back": {
+      "width": 160,
+      "height": 208,
+      "foot": [
+        80,
+        200
+      ],
+      "visible": [
+        33,
+        37,
+        105,
+        163
+      ]
+    },
+    "32-back": {
+      "width": 160,
+      "height": 208,
+      "foot": [
+        80,
+        200
+      ],
+      "visible": [
+        36,
+        61,
+        89,
+        139
+      ]
+    },
+    "35-back": {
+      "width": 160,
+      "height": 208,
+      "foot": [
+        80,
+        200
+      ],
+      "visible": [
+        43,
+        66,
+        90,
+        134
+      ]
+    },
+    "diaochan-back": {
+      "width": 160,
+      "height": 208,
+      "foot": [
+        80,
+        200
+      ],
+      "visible": [
+        42,
+        73,
+        77,
+        127
+      ]
+    },
+    "raider-front": {
+      "width": 160,
+      "height": 208,
+      "foot": [
+        80,
+        200
+      ],
+      "visible": [
+        34,
+        120,
+        85,
+        80
+      ]
+    },
+    "bow-front": {
+      "width": 160,
+      "height": 208,
+      "foot": [
+        80,
+        200
+      ],
+      "visible": [
+        40,
+        122,
+        77,
+        78
+      ]
+    },
+    "32-front": {
+      "width": 160,
+      "height": 208,
+      "foot": [
+        80,
+        200
+      ],
+      "visible": [
+        41,
+        97,
+        78,
+        103
+      ]
+    },
+    "archer-front": {
+      "width": 160,
+      "height": 208,
+      "foot": [
+        80,
+        200
+      ],
+      "visible": [
+        39,
+        109,
+        79,
+        91
+      ]
+    }
+  },
+  "method": "Original UI pixels and clean board; runtime text; independently redrawn transparent character assets."
+}

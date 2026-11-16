@@ -1,0 +1,41 @@
+@import url('./general-portraits.css');
+@scope (.barracks-v2){
+ :scope.barracks-screen{inset:0;padding:0;overflow:hidden;background:#1b304a!important;z-index:1}
+ .barracks-detail-art{position:absolute;background:url('assets/barracks-v2/detail-body.png') 0 0/100% 100%;pointer-events:none;z-index:0}
+ :scope.barracks-screen[hidden]{display:none}
+ .barracks-title,.barracks-detail,.hero-info,.growth-actions,.equipped,.roster-controls,.faction-filters{display:contents}
+ .barracks-title h2,.hero-stage>.grade,.hero-stage>strong,.hero-info>header,.hero-info>.stars,.stat-grid,.equipped>span,.roster-title{display:none}
+ .art-control:not(.roster-card){position:absolute;margin:0;padding:0;border:0;border-image:none;background:none;box-shadow:none;filter:none;color:transparent;font-size:0;text-shadow:none;min-width:0;min-height:0;z-index:5}
+ .art-control:not(.roster-card)>*{opacity:0;pointer-events:none}
+ .hero-stage{position:absolute;z-index:1;left:3%;top:16%;width:46.5%;height:29.5%;display:flex;align-items:center;justify-content:flex-end;border:0;min-height:0;padding:0;background:none!important}
+ .hero-stage img{display:block;width:92%;height:96%;object-fit:contain;object-position:center bottom;filter:none;margin:0;animation:none;transform:none}
+ .hero-stage img.general-original{position:absolute;left:54%;top:calc(2% + var(--general-foot-offset) * .96);height:calc(96% * var(--general-ratio));width:auto;max-width:none;max-height:none;transform:translateX(-50%)}
+ .barracks-value{position:absolute;display:flex;align-items:center;justify-content:flex-start;color:#fff0cd;pointer-events:none;font:bold 3.8cqw Georgia,'Batang',serif;line-height:1.1;white-space:nowrap;z-index:3}
+ .hero-name{font-size:6cqw}.hero-name:has(+.hero-grade){letter-spacing:-.1cqw}
+ .hero-role{font-size:2.3cqw;justify-content:center}.hero-grade{font-size:4cqw;justify-content:center;color:#ffe08a}
+ .hero-level{font-size:3.6cqw}.hero-stat{font-size:3.4cqw;justify-content:flex-end}
+ .hero-level-bar{background:#14243a;border-radius:2px;padding:0;overflow:hidden}
+ .hero-level-bar i{display:block;height:100%;background:linear-gradient(#6ada9d,#269951);box-shadow:inset 0 1px #a0e6b8}
+ .hero-stars{gap:0}.hero-stars i{display:block;flex:1;height:100%;background:url('assets/barracks-v2/star-empty.png') center/100% 100%}
+ .hero-stars i.lit{background-image:url('assets/barracks-v2/star-filled.png')}
+ .hero-skill-name{font-size:3.5cqw}.hero-treasure{font-size:3.1cqw}
+ .owned-count{font-size:4cqw;color:#14283a}
+ .wallet-gold,.wallet-diamonds{font-size:3.9cqw;justify-content:flex-end}
+ .hero-roster{position:absolute;left:2.1253985%;top:60.4%;width:95.749203%;height:26.6%;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-rows:21.7cqw;align-content:start;gap:1.1cqw;margin:0;padding:0;overflow-y:auto;overflow-x:hidden;scrollbar-width:thin;scrollbar-color:#a4aead #142339;overscroll-behavior:contain}
+ .roster-card{position:relative;min-width:0;min-height:0;display:flex;align-items:center;gap:.6cqw;margin:0;padding:1.8cqw 1.5cqw 1.5cqw .6cqw;border:0;box-shadow:none;border-image:none;background:url('assets/ui-common/barracks-card.png') center/100% 100%;overflow:hidden;text-shadow:1px 1px #122338;font-family:Georgia,'Batang',serif}
+ .roster-card.selected{border:0;box-shadow:none;background-image:url('assets/ui-common/barracks-card-selected.png')}
+ .roster-card img{width:48%;height:95%;object-fit:contain;object-position:center bottom;filter:none;pointer-events:none}
+ .general-card-art{position:relative;display:block;flex:0 0 48%;width:48%;height:95%;pointer-events:none}
+ .general-card-art .portrait-viewport{left:0;top:0;width:100%;aspect-ratio:4/5}
+ .general-card-art img{object-fit:fill;object-position:initial}
+ .roster-card>div{display:flex;flex:1;min-width:0;flex-direction:column;gap:1.3cqw;align-items:flex-start;margin-top:3cqw}
+ .roster-card strong{font-size:3.7cqw;letter-spacing:-.2cqw;white-space:nowrap}
+ .roster-card div span{font-size:3.4cqw;white-space:nowrap}
+ .roster-card small{top:1.9cqw;right:2.4cqw;background:#164a3b;border:1px solid #b9aa70;color:#fbeecf;font-size:2.1cqw;padding:.35cqw .8cqw}
+ .roster-card .card-grade,.roster-card em{display:none}
+ .empty-roster{font-size:3cqw;padding:8cqw 1cqw}
+ .faction-filters .art-control{background:url('assets/barracks-v2/filter-face.png') center/100% 100%;font:bold 3.3cqw Georgia,'Batang',serif;color:#fff0cf}
+ .faction-filters [aria-pressed=true]{background-image:url('assets/barracks-v2/filter-active.png')}
+}
+
+

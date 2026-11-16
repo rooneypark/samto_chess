@@ -1,0 +1,19 @@
+/* A design art set: backgrounds and icons. Active only while <html data-art="a"> (see art.js). */
+html[data-art="a"] .castle{background-image:url('assets/design-a/backgrounds/gate.png')}
+html[data-art="a"] .icon{background-image:url('assets/design-a/icons-24.png');background-size:800% 800%}
+html[data-art="a"] .icon-shop{background-position:0 0}html[data-art="a"] .icon-helmet{background-position:14.286% 0}html[data-art="a"] .icon-gate{background-position:28.571% 0}html[data-art="a"] .icon-banner{background-position:42.857% 0}html[data-art="a"] .icon-swords{background-position:57.143% 0}html[data-art="a"] .icon-mail{background-position:71.429% 0}html[data-art="a"] .icon-scroll{background-position:85.714% 0}html[data-art="a"] .icon-settings{background-position:100% 0}
+html[data-art="a"] .icon-map{background-position:0 14.286%}html[data-art="a"] .icon-chest{background-position:42.857% 14.286%}html[data-art="a"] .icon-gold{background-position:85.714% 14.286%}html[data-art="a"] .icon-gem{background-position:100% 14.286%}
+html[data-art="a"] .barracks-screen{background:linear-gradient(#1c2c42c8,#1c2c42dd),url('assets/design-a/backgrounds/barracks.png') center/cover}
+html[data-art="a"] .shop-screen{background:linear-gradient(#1c2c42c8,#1c2c42dd),url('assets/design-a/backgrounds/shop.png') center/cover}
+html[data-art="a"] .alliance-screen{background:linear-gradient(#1c2c42c8,#1c2c42dd),url('assets/design-a/backgrounds/alliance.png') center/cover}
+html[data-art="a"] .alliance-screen.arena-screen{background:linear-gradient(#1c2c42c8,#1c2c42dd),url('assets/design-a/backgrounds/arena.png') center/cover}
+html[data-art="a"] .hero-stage{background:linear-gradient(#293d5850,#2c425d90),url('assets/design-a/backgrounds/barracks.png') center 30%/260%}
+html[data-art="a"] .battle-screen{background:url('assets/design-a/backgrounds/battle-yellow-turban.png') center/100% 100%}
+html[data-art="a"] .battle-screen[data-scene="sishui"]{background-image:url('assets/design-a/backgrounds/battle-sishui.png')}
+html[data-art="a"] .battle-screen[data-scene="hulao"]{background-image:url('assets/design-a/backgrounds/battle-hulao.png')}
+html[data-art="a"] .battle-screen[data-scene="arena"]{background-image:url('assets/design-a/backgrounds/arena.png')}
+html[data-art="a"] .battle-screen[data-scene="puyang"]{background-image:url('assets/design-a/backgrounds/battle-puyang.png')}
+html[data-art="a"] .battle-screen[data-scene="xiapi"]{background-image:url('assets/design-a/backgrounds/battle-xiapi.png')}
+html[data-art="a"] .battle-screen[data-scene="guandu"]{background-image:url('assets/design-a/backgrounds/battle-guandu.png')}
+html[data-art="a"] .battle-screen[data-scene="chibi"]{background-image:url('assets/design-a/backgrounds/battle-chibi.png')}
+html[data-art="a"] .battle-screen[data-scene="yiling"]{background-image:url('assets/design-a/backgrounds/battle-yiling.png')}
