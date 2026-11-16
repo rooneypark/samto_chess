@@ -13,6 +13,7 @@ const products=meritShop(Date.now());
 let selected='treasure',busy=false,revision=0,week,refreshTimer;
 const icons=['33.333% 0','100% 100%','66.667% 50%'];
 $('.home-back').textContent='군웅대전으로';
+$('.scroll-heading').textContent='군공 교환';
 root.querySelector('[data-box="50,286,841,44"]').textContent='보유 군공';
 root.querySelector('[data-box="50,1234,841,44"]').textContent='주간 갱신';
 root.querySelector('[data-box="50,1292,841,60"]').textContent='매주 월요일 05시 (한국 시간) · 교환 한도와 장수 카드 갱신';

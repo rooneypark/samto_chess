@@ -1,0 +1,18 @@
+{
+  "action": "Pull right fist back then restore upright guard. Horse eases its weight back, naturally articulates knees and hocks, then settles BOTH hooves into exact final idle stance. Finish settling early and hold a short calm beat at end. No new step or jump near end. Cyan fades completely. Rear view locked. Horse subtly shifts weight naturally; preserve rump width, torso volume, thigh/shin lengths and hoof size. No zoom, shrinking or travel. Left hand stays at saddle, hidden ahead of torso. Right weapon stays on screen RIGHT.",
+  "frame_count": 8,
+  "seed": 181463,
+  "no_background": true,
+  "enhance_prompt": false,
+  "historicalInputs": [
+    {
+      "file": "C:\\Users\\user\\Documents\\GitHub\\samto_chess\\test-artifacts\\zhaoyun-skill-natural-v4\\back\\extension.png",
+      "sha256": "519ccb66e24fc277028c5807d7b63d2f50be60f1c5d1e8c9777337535642e246"
+    },
+    {
+      "file": "C:\\Users\\user\\Documents\\GitHub\\samto_chess\\test-artifacts\\zhaoyun-skill-natural-v4\\back\\idle.png",
+      "sha256": "f08001de97aa13841a87b2503bf2245b6ecf84e50918fc1006ec546841704a6a"
+    }
+  ],
+  "note": "Original request provenance; retired input paths are not runtime dependencies."
+}

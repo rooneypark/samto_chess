@@ -40,9 +40,12 @@ def build(output):
     catalog = read_json(ROOT / 'asset-packs/catalog.json')
     if roster['artRevision'] != 'pixel256-v1' or len(roster['entries']) != 49:
         raise ValueError('Expected the latest pixel256-v1 roster of 49 characters.')
-    expected_clips = {'front-idle': 9, 'front-move': 8, 'side-move': 8, 'back-move': 8}
-    if motion['reviewStatus'] != 'approved' or {c['clipId']: len(c['frames']) for c in motion['clips']} != expected_clips:
-        raise ValueError('Expected the four approved Zhao Yun clips (33 frames).')
+    # Every approved clip in the manifest is shown, so adding a clip needs no change here.
+    order = [f'{view}-{action}' for action in ('idle', 'move', 'attack', 'skill') for view in DIRECTIONS]
+    clip_ids = [c['clipId'] for c in motion['clips']]
+    if motion['reviewStatus'] != 'approved' or not clip_ids or len(set(clip_ids)) != len(clip_ids) or not all(c['frames'] for c in motion['clips']):
+        raise ValueError('Expected approved Zhao Yun clips with unique ids and at least one frame each.')
+    frame_total = sum(len(c['frames']) for c in motion['clips'])
     wanted, heroes = {}, []
     for entry in sorted(roster['entries'], key=lambda e: e['order']):
         base = f"art-source/characters/v1/{entry['folder']}/"
@@ -59,18 +62,18 @@ def build(output):
     if len(wanted) != 147 or len({h['id'] for h in heroes}) != 49:
         raise ValueError('Duplicate or missing character assets.')
     clips = []
-    for clip in sorted(motion['clips'], key=lambda c: list(expected_clips).index(c['clipId'])):
-        if clip['canvas'] != [256, 256] or clip['anchor'] != [128, 224]:
+    for clip in sorted(motion['clips'], key=lambda c: (order.index(c['clipId']) if c['clipId'] in order else len(order), c['clipId'])):
+        if clip['view'] not in DIRECTIONS or clip['canvas'] != [256, 256] or clip['anchor'][1] != 224 or not 0 <= clip['anchor'][0] < 256:
             raise ValueError('Unexpected motion canvas or pivot.')
         frames = []
         for frame in clip['frames']:
             if not 0 < frame['durationMs'] <= 10000:
                 raise ValueError('Invalid frame duration.')
-            wanted[frame['file']] = frame['sha256']
+            if wanted.setdefault(frame['file'], frame['sha256']) != frame['sha256']:
+                raise ValueError(f"Frame listed with two different hashes: {frame['file']}")
             frames.append({'image': frame['file'], 'duration': frame['durationMs']})
-        clips.append({'id': clip['clipId'], 'view': clip['view'], 'frames': frames})
-    if len(wanted) != 180:
-        raise ValueError('Expected exactly 180 image files.')
+        clips.append({'heroId': '15', 'status': 'approved', 'action': clip['clipId'].split('-', 1)[1], 'id': clip['clipId'], 'view': clip['view'], 'anchor': clip['anchor'], 'frames': frames})
+    # A clip may reuse another clip's frame file, so the image count can be below 147 + frame_total.
     for direction, expected in motion['inputSha256'].items():
         if wanted[f'art-source/characters/v1/15/{direction}.png'] != expected:
             raise ValueError('Motion input no longer matches the character artwork.')
@@ -100,6 +103,27 @@ def build(output):
         archives.append({k: archive[k] for k in ('path', 'bytes', 'sha256')})
     if set(images) != set(wanted):
         raise ValueError('Missing packed images: ' + ', '.join(sorted(set(wanted) - set(images))))
+    # Review assets are local and explicitly labelled; never presented as packed approvals.
+    review_path = ROOT / 'test-artifacts/liaohua-skill-move-review-v1/review.json'
+    liaohua_path = ROOT / 'art-source/motions/v1/liaohua/manifest.json'
+    if review_path.exists() or liaohua_path.exists():
+        local = read_json(review_path if review_path.exists() else liaohua_path)
+        for clip in local['clips']:
+            frames = []
+            for frame in clip['frames']:
+                name = frame['file']
+                blob = checked_path(name).read_bytes()
+                digest = sha(blob)
+                if frame.get('sha256') and frame['sha256'] != digest:
+                    raise ValueError('Local review hash mismatch: ' + name)
+                if blob[:8] != b'\x89PNG\r\n\x1a\n' or struct.unpack('>II', blob[16:24]) != (256, 256) or blob[25] != 6:
+                    raise ValueError('Invalid local review PNG: ' + name)
+                if name not in images:
+                    images[name] = 'data:image/png;base64,' + base64.b64encode(blob).decode('ascii')
+                    records.append({'path': name, 'bytes': len(blob), 'sha256': digest, 'source': 'local-review'})
+                frames.append({'image': name, 'duration': frame['durationMs']})
+            clips.append({'id': 'liaohua-' + clip['clipId'], 'heroId': 'liaohua', 'action': clip['state'], 'status': clip.get('reviewStatus', 'approved' if clip['state'] == 'attack' else 'user-review-pending'), 'view': clip['view'], 'anchor': [128, 224], 'frames': frames})
+            frame_total += len(frames)
     payload = json.dumps({'heroes': heroes, 'clips': clips, 'images': images}, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c')
     template = Path(__file__).with_name('template.html').read_text(encoding='utf-8')
     if template.count('__CHECKER_DATA__') != 1:
@@ -107,9 +131,9 @@ def build(output):
     html = template.replace('__CHECKER_DATA__', payload).encode('utf-8')
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_bytes(html)
-    report = {'characters': 49, 'stillImages': 147, 'motionClips': 4, 'motionFrames': 33, 'canvas': [256, 256], 'pivot': [128, 224], 'htmlBytes': len(html), 'htmlSha256': sha(html), 'archives': archives, 'files': records}
+    report = {'characters': 49, 'stillImages': 147, 'motionClips': len(clips), 'motionFrames': frame_total, 'canvas': [256, 256], 'pivot': [128, 224], 'htmlBytes': len(html), 'htmlSha256': sha(html), 'archives': archives, 'files': records}
     output.with_suffix('.verification.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    print(f'OK: 49 characters / 147 stills / 4 clips / 33 frames. All SHA-256 verified.\nHTML: {output}\nBytes: {len(html)}\nSHA-256: {sha(html)}')
+    print(f'OK: 49 characters / 147 stills / {len(clips)} clips / {frame_total} frames. All SHA-256 verified.\nHTML: {output}\nBytes: {len(html)}\nSHA-256: {sha(html)}')
 
 
 def main():

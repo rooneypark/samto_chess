@@ -1,0 +1,459 @@
+{
+  "approvedSimulation": "art-source/motions/v1/15/preview/index.html",
+  "frames": [
+    {
+      "final": "art-source/motions/v1/15/sequences/front/attack/0000.png",
+      "sha256": "68cc33a1fe459aa06008649291569017060aca7c9d47d190a303a83ef405afce",
+      "historicalSource": "test-artifacts/zhaoyun-front-thrust-v2/idle.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/attack/0001.png",
+      "sha256": "6b8f35bdc45185bda8e4bd35497e8565ad53cd8331ffd6aabf16c4acda1973f0",
+      "historicalSource": "test-artifacts/zhaoyun-front-thrust-v2/01-ready/01.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/attack/0002.png",
+      "sha256": "fc8c8463ed23c99fcbf9ca335c65fea774d71868018ecc947f70b5027b543d5a",
+      "historicalSource": "test-artifacts/zhaoyun-front-thrust-v2/01-ready/02.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/attack/0003.png",
+      "sha256": "b1113ae9b192f7600bdee6876e28a213084ed14940b49029eb439f255b44a207",
+      "historicalSource": "test-artifacts/zhaoyun-front-thrust-v2/01-ready/03.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/attack/0004.png",
+      "sha256": "e69c078eaed0506aaecebf29f9663d90b686122a6eca4ac037f0d8bf38cad9d6",
+      "historicalSource": "test-artifacts/zhaoyun-front-thrust-v2/windup.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/attack/0005.png",
+      "sha256": "e0734dfbd230f849ac3f15cd4f5402e49365e24e3c0fa7ea412af93f59ed2e4d",
+      "historicalSource": "test-artifacts/zhaoyun-front-thrust-v2/02-thrust/01.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/attack/0006.png",
+      "sha256": "5faeb41ee6c3dc90424968d67766e4f55dc52552c40b679ea3f61695bf59b04c",
+      "historicalSource": "test-artifacts/zhaoyun-front-thrust-v2/extension.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/attack/0005.png",
+      "sha256": "e0734dfbd230f849ac3f15cd4f5402e49365e24e3c0fa7ea412af93f59ed2e4d",
+      "historicalSource": "test-artifacts/zhaoyun-front-thrust-v2/02-thrust/01.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/attack/0004.png",
+      "sha256": "e69c078eaed0506aaecebf29f9663d90b686122a6eca4ac037f0d8bf38cad9d6",
+      "historicalSource": "test-artifacts/zhaoyun-front-thrust-v2/windup.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/attack/0003.png",
+      "sha256": "b1113ae9b192f7600bdee6876e28a213084ed14940b49029eb439f255b44a207",
+      "historicalSource": "test-artifacts/zhaoyun-front-thrust-v2/01-ready/03.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/attack/0002.png",
+      "sha256": "fc8c8463ed23c99fcbf9ca335c65fea774d71868018ecc947f70b5027b543d5a",
+      "historicalSource": "test-artifacts/zhaoyun-front-thrust-v2/01-ready/02.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/attack/0001.png",
+      "sha256": "6b8f35bdc45185bda8e4bd35497e8565ad53cd8331ffd6aabf16c4acda1973f0",
+      "historicalSource": "test-artifacts/zhaoyun-front-thrust-v2/01-ready/01.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/attack/0000.png",
+      "sha256": "68cc33a1fe459aa06008649291569017060aca7c9d47d190a303a83ef405afce",
+      "historicalSource": "test-artifacts/zhaoyun-front-thrust-v2/idle.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/skill/0000.png",
+      "sha256": "68cc33a1fe459aa06008649291569017060aca7c9d47d190a303a83ef405afce",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/front/idle.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/skill/0001.png",
+      "sha256": "45f7a95ce8154ccf130fd096eb1faf6c1777ce33f5ceaf3d766c5e0806a90c17",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/front/01-ready/01.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/skill/0002.png",
+      "sha256": "0b25e631b4b68efaa3cc52be6558731dbd2007b8570338d6700cb09b93038c72",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/front/01-ready/02.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/skill/0003.png",
+      "sha256": "7ebacbb7a03753f81e74a2caea516c7ae3e7b07c08e416746157a36235f1707b",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/front/01-ready/03.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/skill/0004.png",
+      "sha256": "3ccb6b1087c0fd9c203f685bcf0d1029df32ea066e4b00fb9822d6437478aedc",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/front/01-ready/04.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/skill/0005.png",
+      "sha256": "799ec1f282d8d785462b65e8400d819763308452b3021dd1b412873dd4f1e238",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/front/02-thrust/01.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/skill/0006.png",
+      "sha256": "25fbe2098a5b98e377c67d2f51e073b32180011653c711a6feb8ae2b0b5b0d6e",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/front/02-thrust/02.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/skill/0007.png",
+      "sha256": "65e93858d554f272f2d4239bec87ac0ea2d71e4136dff3d5532606dd61985bb3",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/front/02-thrust/03.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/skill/0008.png",
+      "sha256": "8de24ef30fb60f3860f002cc2c2e34ac3e89498173bbef82acd5932f48d5b3ec",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/front/02-thrust/04.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/skill/0009.png",
+      "sha256": "30f496a4b15222a5e38c6d0703cf9c5924f24d341f15cad595e56cd9bff6560b",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/front/03-recover/01.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/skill/0010.png",
+      "sha256": "3aea6de2b14c6c0473da3338db2c582c4c3ca45234824e48e4db4d589f355acf",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/front/03-recover/02.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/skill/0011.png",
+      "sha256": "e29e7b23a2f3f1b3c3df880a3672c35ad64f33769e2ba781919f1a3b2a017641",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/front/03-recover/03.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/skill/0012.png",
+      "sha256": "4a070ab173d23fc30ee3aceb68769fbb22ff369978e2ac7fde8f9044a97c8fee",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/front/03-recover/04.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/skill/0013.png",
+      "sha256": "ae8f7e39945d5fb2ac5140bc7fda78610d9b4f24cecb12bf13be5ccf774d6d18",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/front/03-recover/05.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/skill/0014.png",
+      "sha256": "2b02e65a8caeadd633a32db0c40d555b28eac66aed4cb2255ae81a382b7af691",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/front/03-recover/06.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/skill/0015.png",
+      "sha256": "17c271468c95650402ea4cf044384a9546c7177c99e908c723a2d11015a45c0b",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/front/03-recover/07.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/skill/0016.png",
+      "sha256": "3403815373a0c29839d494bd71ca0bba43d86905f19210aad9615b2d043a1e38",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/front/03-recover/08.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/front/skill/0000.png",
+      "sha256": "68cc33a1fe459aa06008649291569017060aca7c9d47d190a303a83ef405afce",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/front/idle.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/attack/0000.png",
+      "sha256": "05384d1725b82d40bbb6aaa8524c0c29a4542df1e2401a77de53612bd479e5fc",
+      "historicalSource": "test-artifacts/zhaoyun-side-thrust-v2/idle.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/attack/0001.png",
+      "sha256": "f62779d328c6bb89c8e71cf61ce131dc1a09967142fd589b8c908c5e956295dc",
+      "historicalSource": "test-artifacts/zhaoyun-side-thrust-v2/01-ready/01.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/attack/0002.png",
+      "sha256": "b40b5a70fdc1c3e751274088a4108070d5cd6de389b68668e8559e9a650221c7",
+      "historicalSource": "test-artifacts/zhaoyun-side-thrust-v2/01-ready/02.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/attack/0003.png",
+      "sha256": "f163f6cdc495740701c6f1776f396f9a3a1dfbabf33a55731a2c0e0a6cd4dedc",
+      "historicalSource": "test-artifacts/zhaoyun-side-thrust-v2/01-ready/03.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/attack/0004.png",
+      "sha256": "b95e9a316f7b8083dd3f05053011b58dba6b418f976cfaae3af400844c41db4b",
+      "historicalSource": "test-artifacts/zhaoyun-side-thrust-v2/windup.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/attack/0005.png",
+      "sha256": "ffa940690ff85f7c7ce6e12e6c6e866c5586ffd35828d94c5d960661a0d6ce02",
+      "historicalSource": "test-artifacts/zhaoyun-side-thrust-v2/02-thrust/01.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/attack/0006.png",
+      "sha256": "4bd8fa99fb5b605af35dae9aa6634801efcbf4a2aa5260791f17ebf08bcf42da",
+      "historicalSource": "test-artifacts/zhaoyun-side-thrust-v2/02-thrust/02.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/attack/0007.png",
+      "sha256": "87f013924e860e0b928b78db8b9f0c8148b1c160874d954152e1f2b0d5a43235",
+      "historicalSource": "test-artifacts/zhaoyun-side-thrust-v2/extension.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/attack/0008.png",
+      "sha256": "0c3de2d115438c8a3fc7f30e96ed6572e57f343e85072147fffc2b6fe685fd3a",
+      "historicalSource": "test-artifacts/zhaoyun-side-thrust-v2/03-recover/01.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/attack/0004.png",
+      "sha256": "b95e9a316f7b8083dd3f05053011b58dba6b418f976cfaae3af400844c41db4b",
+      "historicalSource": "test-artifacts/zhaoyun-side-thrust-v2/windup.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/attack/0009.png",
+      "sha256": "4da67ec39435508d92ec57b91d2598c7c96e8ff0a78ec242088d2d924cf05726",
+      "historicalSource": "test-artifacts/zhaoyun-side-thrust-v2/03-recover/02.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/attack/0010.png",
+      "sha256": "657492a79bb8e4a03db46f917d053ec0c29b90ffa501fb32ed70a918a6df1cee",
+      "historicalSource": "test-artifacts/zhaoyun-side-thrust-v2/03-recover/03.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/skill/0000.png",
+      "sha256": "b4585a90d321a256c13c6c97b0a267932535078b04b81ee669797c288839916f",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/side/idle.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/skill/0001.png",
+      "sha256": "445b92085c1fcb85d8c25b123307722bdee9483cb0fb780613ffb61ae27638e0",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/side/01-ready/01.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/skill/0002.png",
+      "sha256": "97c1e2416c66280a746e1cab5087084f12b1cc8bc02a35c9e99912771a4017f8",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/side/01-ready/02.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/skill/0003.png",
+      "sha256": "dca8e5db7e8a98361974ac44f79ae2d9c5850f651210bc0babc7a390504962bf",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/side/01-ready/03.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/skill/0004.png",
+      "sha256": "d603a449aaa7e9cf29efaf4a8e608083eec21e114992d4064d95f74eccb9435e",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/side/01-ready/04.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/skill/0005.png",
+      "sha256": "ecf0094911a2f9690b76142f4a6afce02b04600d24dda554a7433423454b46e1",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/side/02-thrust/03.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/skill/0006.png",
+      "sha256": "90ca9dd01bca76320cf55d7f03c40260c699b735aeb62f3cc0021a5ed36d8a41",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/side/02-thrust/04.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/skill/0007.png",
+      "sha256": "c30f2e7e5ea0a1df8fcf24230c8f3b3fc0f6db349ffaa5ec66bdf7017d9cb7a2",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/side/03-recover/01.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/skill/0008.png",
+      "sha256": "7cac95b44008e45f3ce6a37faff5b0a3171df9a88a4fd461bad768578560890c",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/side/03-recover/02.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/skill/0009.png",
+      "sha256": "7a736b6c87361dac027564a0d6d05c78bf5283f65e9966e48f28d9dc28419056",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/side/03-recover/03.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/skill/0010.png",
+      "sha256": "81ef6b45be91c8af2a80b5aa58b14e1afdcf3c08c09aeaf689fd315008a0f7b6",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/side/03-recover/04.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/skill/0011.png",
+      "sha256": "26607fcb0d7c32893c233a0b59f31bb76ec8b202d68ff6dd003039d21d6c45a0",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/side/03-recover/05.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/skill/0012.png",
+      "sha256": "b5c71c3b82c49c8fb5d1a66dc1ea0bcc25d815456d3f151d334daf809fd880a0",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/side/03-recover/06.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/skill/0013.png",
+      "sha256": "d5b82599edbbad9afefb9028a40e31d306d46ab6ed8af99cacab7b9cdbec3ae9",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/side/03-recover/07.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/skill/0014.png",
+      "sha256": "9b271e4abc3865521b05cfe2d9e1ff4f03950ae7536511eb4f9758cddf0672ba",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/side/03-recover/08.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/side/skill/0000.png",
+      "sha256": "b4585a90d321a256c13c6c97b0a267932535078b04b81ee669797c288839916f",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/side/idle.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/attack/0000.png",
+      "sha256": "a3793b01568e500d05ac03f6d8c3e4e9a3f18f5dcbcdf07d712dd65b2bd3572a",
+      "historicalSource": "test-artifacts/zhaoyun-back-thrust-v1/idle.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/attack/0001.png",
+      "sha256": "6d67dc806811df66af826db20db454d2501856a933fa67ad84729b9366dc27f0",
+      "historicalSource": "test-artifacts/zhaoyun-back-thrust-v1/01-ready/01.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/attack/0002.png",
+      "sha256": "62f0dccb9c7a781243c2831d5e2b596c83217d93c496db1e65fc639473a57851",
+      "historicalSource": "test-artifacts/zhaoyun-back-thrust-v1/01-ready/02.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/attack/0003.png",
+      "sha256": "f6e3539e444af2ff2fd4c21d3fa78e2f80b5550ccdd48e96bab8e3cba6610212",
+      "historicalSource": "test-artifacts/zhaoyun-back-thrust-v1/01-ready/03.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/attack/0004.png",
+      "sha256": "c3c1e6159d237f17366f942f9fe0763fe384dd6633d690680042ea77cd2b8b99",
+      "historicalSource": "test-artifacts/zhaoyun-back-thrust-v1/windup.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/attack/0005.png",
+      "sha256": "ed8baf13903125143b535e0f7ed9565b16ddda5b7de67dfb940f2022e52d4699",
+      "historicalSource": "test-artifacts/zhaoyun-back-thrust-v1/04-thrust-fix/01.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/attack/0006.png",
+      "sha256": "2909c3c0c89ec26e39112b86b52ba1a9d4f090ef90a47e20182886fdcaec01f3",
+      "historicalSource": "test-artifacts/zhaoyun-back-thrust-v1/04-thrust-fix/02.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/attack/0007.png",
+      "sha256": "aea6fe484a57559f4db90e602f9cf202551d7ae4f9bbd2c3df92611f87ae6e46",
+      "historicalSource": "test-artifacts/zhaoyun-back-thrust-v1/04-thrust-fix/03.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/attack/0008.png",
+      "sha256": "6b3f53a0b8aa2ab9045d62271b92a9aaac5229786b9c7ce4af2a886a62d7f3f2",
+      "historicalSource": "test-artifacts/zhaoyun-back-thrust-v1/extension.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/attack/0007.png",
+      "sha256": "aea6fe484a57559f4db90e602f9cf202551d7ae4f9bbd2c3df92611f87ae6e46",
+      "historicalSource": "test-artifacts/zhaoyun-back-thrust-v1/04-thrust-fix/03.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/attack/0006.png",
+      "sha256": "2909c3c0c89ec26e39112b86b52ba1a9d4f090ef90a47e20182886fdcaec01f3",
+      "historicalSource": "test-artifacts/zhaoyun-back-thrust-v1/04-thrust-fix/02.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/attack/0005.png",
+      "sha256": "ed8baf13903125143b535e0f7ed9565b16ddda5b7de67dfb940f2022e52d4699",
+      "historicalSource": "test-artifacts/zhaoyun-back-thrust-v1/04-thrust-fix/01.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/attack/0004.png",
+      "sha256": "c3c1e6159d237f17366f942f9fe0763fe384dd6633d690680042ea77cd2b8b99",
+      "historicalSource": "test-artifacts/zhaoyun-back-thrust-v1/windup.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/attack/0003.png",
+      "sha256": "f6e3539e444af2ff2fd4c21d3fa78e2f80b5550ccdd48e96bab8e3cba6610212",
+      "historicalSource": "test-artifacts/zhaoyun-back-thrust-v1/01-ready/03.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/attack/0002.png",
+      "sha256": "62f0dccb9c7a781243c2831d5e2b596c83217d93c496db1e65fc639473a57851",
+      "historicalSource": "test-artifacts/zhaoyun-back-thrust-v1/01-ready/02.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/attack/0001.png",
+      "sha256": "6d67dc806811df66af826db20db454d2501856a933fa67ad84729b9366dc27f0",
+      "historicalSource": "test-artifacts/zhaoyun-back-thrust-v1/01-ready/01.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/skill/0000.png",
+      "sha256": "f08001de97aa13841a87b2503bf2245b6ecf84e50918fc1006ec546841704a6a",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/back/idle.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/skill/0001.png",
+      "sha256": "d5182137a453a723a39a658ed21d7eca755c8c0550a441a69665c9a8b6aefe78",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/back/01-ready/01.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/skill/0002.png",
+      "sha256": "7f5698f3cc5c5b34c80c269219cbc83bb10fff1490fedfaccde7cd6a9cc3b860",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/back/01-ready/02.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/skill/0003.png",
+      "sha256": "e7c94013685de18ace471abbcae1ea72ceec3e7792e59da5e1ab254a8b38a3d9",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/back/01-ready/03.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/skill/0004.png",
+      "sha256": "43ae0dbaf62166237586f50d93167bb792703612d5288b32a705291a69e4b418",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/back/01-ready/04.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/skill/0005.png",
+      "sha256": "74a42e7c6ec0cc13464d47c8f3cd885b43b27dc26b969a1fa4e6267d1842fbbc",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/back/02-thrust/01.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/skill/0006.png",
+      "sha256": "4d9a0e216196091660e83bcbe2471e1af6574319360d5087f8639544ad7d4e63",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/back/02-thrust/02.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/skill/0007.png",
+      "sha256": "670e7b1ae8793feea9010c56accfbeac3a425e74e0ab2d13ae8ec7cbf557fb1f",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/back/02-thrust/04.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/skill/0008.png",
+      "sha256": "79f9f83794981d999a1cb33fb5dbfbc759816a223ef0ee105772a53b5c75ed6a",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/back/03-recover/01.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/skill/0009.png",
+      "sha256": "cc3f489b98828eec7f87fd667fa7bddcdfb8332169cb283aa20d8d32f377c209",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/back/03-recover/02.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/skill/0010.png",
+      "sha256": "f90b89845ced4fb9405fa8dcf273d6d5cc6de536c9c82cb8a4cc6ceca6b36355",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/back/03-recover/03.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/skill/0011.png",
+      "sha256": "54a398d20b648653b22d0c11e49a31420c242c520ac4a9c17967c243f279cac7",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/back/03-recover/06.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/skill/0012.png",
+      "sha256": "9b1297baed25573c951a80a0f7cabdd939b5b44149807450b8453083f5db2296",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/back/03-recover/07.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/skill/0013.png",
+      "sha256": "e2df1b9060eb1198f6408508f7ade83c4b94fc7e2f3d6336db310f1813a91fd9",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/back/03-recover/08.png"
+    },
+    {
+      "final": "art-source/motions/v1/15/sequences/back/skill/0000.png",
+      "sha256": "f08001de97aa13841a87b2503bf2245b6ecf84e50918fc1006ec546841704a6a",
+      "historicalSource": "test-artifacts/zhaoyun-skill-natural-v4/back/idle.png"
+    }
+  ],
+  "rejected": "fixed horse sizefix-v3; earlier superseded front attack and skills excluded",
+  "assetVersion": "v1",
+  "historicalSourcesRetained": true,
+  "historicalSourceNote": "Retired and excluded from final v1. User-requested deletion blocked by automatic policy review; files still exist."
+}

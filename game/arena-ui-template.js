@@ -1,7 +1,7 @@
 // Approved arena composition; live values are assigned separately.
 export const arenaTemplate=`
  <button id="barracks-back" class="guild-back" aria-label="성문으로 돌아가기"></button>
- <h1 class="scroll-heading" data-box="22,153,895,90">군웅의 격전</h1>
+ <h1 class="scroll-heading" data-box="22,153,895,90">오늘의 대전</h1>
  <nav class="section-tabs" aria-label="대전 메뉴">
   <button data-tone="green" data-box="32,264,281,74" aria-current="page">대전 준비</button>
   <button data-tone="blue" data-box="330,264,281,74">순위표</button>

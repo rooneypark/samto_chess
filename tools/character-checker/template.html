@@ -10,14 +10,14 @@
 *{box-sizing:border-box}body{margin:0;background:var(--page);color:var(--ink);line-height:1.5}body.light{color-scheme:light;--page:#f2f4ef;--panel:#fff;--card:#eef2ec;--ink:#20342f;--muted:#576d65;--border:#cbd7cf;--accent:#126c50;--button:#e2eee6;--stage:#e4e9e3;--stage-alt:#f7f8f5}
 button,input,select{font:inherit;color:inherit}button,select,input[type=search]{min-height:44px;border:1px solid var(--border);border-radius:9px;background:var(--button);padding:8px 12px}button{cursor:pointer}button:hover{border-color:var(--accent)}button:disabled{opacity:.5;cursor:default}button[aria-pressed=true]{border-color:var(--accent);background:var(--button);color:var(--accent)}:focus-visible{outline:3px solid var(--accent);outline-offset:3px}input[type=range]{width:100%;min-height:44px;accent-color:var(--accent)}[hidden]{display:none!important}
 header{max-width:1400px;margin:auto;padding:28px 28px 20px;display:flex;align-items:center;justify-content:space-between;gap:20px}h1{font-size:25px;letter-spacing:-1px;margin:2px 0}h2{font-size:22px;margin:0}h3{font-size:16px;margin:0}p{margin:6px 0}.eyebrow{font-size:12px;letter-spacing:2px;color:var(--accent);font-weight:700}.muted,.small{color:var(--muted)}.small{font-size:13px}.badge{display:inline-block;border:1px solid var(--border);padding:4px 10px;border-radius:99px;font-size:12px;color:var(--accent)}.toolbar{display:flex;align-items:center;flex-wrap:wrap;gap:10px}.toolbar label{display:flex;align-items:center;gap:8px;font-size:13px}
-main{max-width:1400px;margin:auto;padding:0 28px 36px;display:grid;grid-template-columns:230px minmax(0,1fr);gap:20px}.panel{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:18px}aside{align-self:start;position:sticky;top:16px}.filters{display:grid;gap:10px}.filters label{font-size:13px;color:var(--muted)}.filters input,.filters select{width:100%;margin-top:4px}#count{margin:14px 0 8px}.roster{display:grid;gap:5px;max-height:63vh;overflow:auto;padding:3px}.hero-button{text-align:left;display:flex;justify-content:space-between;align-items:center;gap:8px;background:transparent;font-size:14px}.hero-button small{color:var(--muted);font-size:11px}.hero-button[aria-pressed=true]{border-left:3px solid var(--accent)}.content{min-width:0;display:grid;gap:20px;align-content:start}.section-head{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:18px}.title-row{display:flex;gap:10px;align-items:center}.directions{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:12px}.art-card{min-width:0;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:var(--card)}.card-label{padding:10px 14px;font-size:13px;display:flex;justify-content:space-between;gap:8px}.stage-scroll{overflow:auto;padding:8px}.stage{position:relative;width:calc(256px * var(--zoom));height:calc(256px * var(--zoom));margin:auto;background-color:var(--stage);background-image:conic-gradient(var(--stage-alt) 25%,transparent 0 50%,var(--stage-alt) 0 75%,transparent 0);background-size:32px 32px;isolation:isolate}.stage img{display:block;width:100%;height:100%;image-rendering:pixelated;position:relative;z-index:1}.guides .stage:before{content:"";position:absolute;left:0;right:0;top:87.5%;border-top:1px dashed #faab59;z-index:2;pointer-events:none}.guides .stage:after{content:"+";position:absolute;left:50%;top:87.5%;transform:translate(-50%,-50%);color:#ff9d34;z-index:2;pointer-events:none;font-size:20px;line-height:1}.motion-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:12px;margin-top:16px}.controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:16px}#play{background:#a8edcf;color:#143f31;border-color:#a8edcf;font-weight:700;min-width:110px}#frame-label{font-variant-numeric:tabular-nums;min-width:115px}.timeline{margin-top:8px}.empty{padding:32px 16px;text-align:center;color:var(--muted)}#error{margin:12px 28px;background:#4b2025;color:#fff;border:2px solid #ffadad;padding:16px;border-radius:10px;white-space:pre-wrap}.note{border-left:2px solid var(--border);padding-left:12px;margin-top:16px;font-size:12px;color:var(--muted)}footer{margin-top:14px;font-size:12px;color:var(--muted)}
+main{max-width:1400px;margin:auto;padding:0 28px 36px;display:grid;grid-template-columns:230px minmax(0,1fr);gap:20px}.panel{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:18px}aside{align-self:start;position:sticky;top:16px}.filters{display:grid;gap:10px}.filters label{font-size:13px;color:var(--muted)}.filters input,.filters select{width:100%;margin-top:4px}#count{margin:14px 0 8px}.roster{display:grid;gap:5px;max-height:63vh;overflow:auto;padding:3px}.hero-button{text-align:left;display:flex;justify-content:space-between;align-items:center;gap:8px;background:transparent;font-size:14px}.hero-button small{color:var(--muted);font-size:11px}.hero-button[aria-pressed=true]{border-left:3px solid var(--accent)}.content{min-width:0;display:grid;gap:20px;align-content:start}.section-head{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:18px}.title-row{display:flex;gap:10px;align-items:center}.directions{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:12px}.art-card{min-width:0;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:var(--card)}.card-label{padding:10px 14px;font-size:13px;display:flex;justify-content:space-between;gap:8px}.stage-scroll{overflow:auto;padding:8px}.stage{position:relative;width:calc(256px * var(--zoom));height:calc(256px * var(--zoom));margin:auto;background-color:var(--stage);background-image:conic-gradient(var(--stage-alt) 25%,transparent 0 50%,var(--stage-alt) 0 75%,transparent 0);background-size:32px 32px;isolation:isolate}.stage img{display:block;width:100%;height:100%;image-rendering:pixelated;position:relative;z-index:1}.guides .stage:before{content:"";position:absolute;left:0;right:0;top:87.5%;border-top:1px dashed #faab59;z-index:2;pointer-events:none}.guides .stage:after{content:"+";position:absolute;left:var(--pivot-x,50%);top:87.5%;transform:translate(-50%,-50%);color:#ff9d34;z-index:2;pointer-events:none;font-size:20px;line-height:1}.motion-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:12px;margin-top:16px}.controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:16px}#play{background:#a8edcf;color:#143f31;border-color:#a8edcf;font-weight:700;min-width:110px}#frame-label{font-variant-numeric:tabular-nums;min-width:115px}.timeline{margin-top:8px}.empty{padding:32px 16px;text-align:center;color:var(--muted)}#error{margin:12px 28px;background:#4b2025;color:#fff;border:2px solid #ffadad;padding:16px;border-radius:10px;white-space:pre-wrap}.note{border-left:2px solid var(--border);padding-left:12px;margin-top:16px;font-size:12px;color:var(--muted)}footer{margin-top:14px;font-size:12px;color:var(--muted)}
 @media(min-width:1050px){.directions.single{grid-template-columns:minmax(270px,1fr) 1fr}.motion-grid{grid-template-columns:repeat(2,minmax(270px,1fr))}}
 @media(max-width:760px){header{padding:20px 16px 16px;align-items:flex-start;flex-direction:column;gap:12px}h1{font-size:23px}main{padding:0 12px 24px;grid-template-columns:1fr;gap:12px}aside{position:static;padding:14px}.filters{grid-template-columns:1fr 1fr}.filters label:first-child{grid-column:1/-1}.roster{grid-template-columns:repeat(2,minmax(0,1fr));max-height:156px}.panel{padding:12px}.directions,.motion-grid{grid-template-columns:1fr}.toolbar{gap:8px}.stage-scroll{padding:6px}#error{margin:12px}header .small{max-width:42ch}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
 </style>
 </head>
 <body>
-<header><div><div class="eyebrow">SAMTO CHESS / ART REVIEW</div><h1>캐릭터 모션 체커</h1><p class="small">장수 49명 · 원화 147장 · 조운 모션 4종</p></div><div class="toolbar"><span class="badge">오프라인 사용 가능</span><button id="theme" aria-pressed="false">밝은 배경</button></div></header>
+<header><div><div class="eyebrow">SAMTO CHESS / ART REVIEW</div><h1>캐릭터 모션 체커</h1><p class="small">장수 49명 · 원화 147장 · 조운 모션 <span id="clip-count"></span>종</p></div><div class="toolbar"><span class="badge">오프라인 사용 가능</span><button id="theme" aria-pressed="false">밝은 배경</button></div></header>
 <div id="error" role="alert" hidden></div>
 <main>
 <aside class="panel" aria-label="장수 선택">
@@ -29,10 +29,10 @@ main{max-width:1400px;margin:auto;padding:0 28px 36px;display:grid;grid-template
 <div class="section-head"><h3>방향별 원화</h3><label class="small">방향 <select id="direction"><option value="all">3방향 비교</option><option value="front">정면</option><option value="side">왼쪽 측면</option><option value="back">후면</option></select></label></div>
 <div id="directions" class="directions"></div><p class="note">원본 256 × 256 픽셀과 투명 여백을 그대로 표시합니다. 모든 장수의 배율과 기준점(128, 224)은 같습니다. 2배 확대는 이미지 안에서 가로로 스크롤할 수 있습니다.</p>
 </section>
-<section id="motion-panel" class="panel" aria-labelledby="motion-title"><div class="section-head"><div><h2 id="motion-title">조운 모션</h2><p class="small">정지 원화와 같은 방향의 모션을 나란히 비교하세요.</p></div><label class="small">클립 <select id="clip"><option value="front-idle">정면 · 숨쉬기</option><option value="front-move">정면 · 이동</option><option value="side-move">왼쪽 측면 · 이동</option><option value="back-move">후면 · 이동</option></select></label></div>
+<section id="motion-panel" class="panel" aria-labelledby="motion-title"><div class="section-head"><div><h2 id="motion-title">조운 모션</h2><p class="small">정지 원화와 같은 방향의 모션을 나란히 비교하세요.</p></div><label class="small">클립 <select id="clip"></select></label></div>
 <div class="motion-grid"><div class="art-card"><div class="card-label"><span id="reference-label">기준 원화</span><span>정지</span></div><div class="stage-scroll"><div class="stage"><img id="reference" width="256" height="256" alt=""></div></div></div><div class="art-card"><div class="card-label"><span id="animation-label">모션</span><span id="play-state" role="status">정지</span></div><div class="stage-scroll"><div class="stage"><img id="animation" width="256" height="256" alt=""></div></div></div></div>
 <div class="controls"><button id="play" aria-pressed="false">▶ 재생</button><button id="previous" aria-label="이전 프레임">← 이전</button><button id="next" aria-label="다음 프레임">다음 →</button><label class="small">배속 <select id="speed"><option value="0.25">0.25배</option><option value="0.5">0.5배</option><option value="1" selected>1배</option><option value="2">2배</option></select></label><output id="frame-label"></output></div>
-<div class="timeline"><input id="frame" type="range" min="0" max="8" value="0" step="1" aria-label="모션 프레임"></div><p id="timing" class="small"></p><p class="note">승인된 4클립만 표시합니다. 정면 이동의 미세한 눈·눈썹 변화도 승인 원본 그대로입니다. 공격·스킬 모션은 포함하지 않습니다.</p>
+<div class="timeline"><input id="frame" type="range" min="0" max="8" value="0" step="1" aria-label="모션 프레임"></div><p id="timing" class="small"></p><p class="note">승인된 클립만 표시합니다. 정면 이동의 미세한 눈·눈썹 변화도 승인 원본 그대로입니다. 측면 공격·스킬은 기준점의 가로 위치가 다르며, 기준선 표시가 클립별 기준점을 따릅니다.</p>
 </section>
 <section id="still-panel" class="panel" hidden><h3>정지 원화만 준비된 장수입니다</h3><p class="small">현재 모션이 있는 장수는 조운입니다.</p><button id="go-zhao">조운 모션 보기</button></section>
 <footer>별도 원화 검토 도구 · 게임 저장과 연결되지 않습니다. 원화 전체 최종 검수와 실제 전투 적용은 별도입니다.</footer>
@@ -45,7 +45,7 @@ const $ = id => document.getElementById(id);
 let timer = null, playing = false, frameIndex = 0, selectedId = '15', currentClip;
 function showError(message) {
   clearTimeout(timer); playing = false;
-  $('error').hidden = false; $('error').textContent = '체커 오류: ' + message + '\n창을 다시 열어 보세요. 계속되면 ZIP 파일을 다시 받아 checker.bat을 실행하세요.';
+  $('error').hidden = false; $('error').textContent = '체커 오류: ' + message + '\n창을 다시 열어 보세요. 계속되면 ZIP 파일을 다시 받아 checker.cmd을 실행하세요.';
   $('play').textContent = '▶ 재생'; $('play').setAttribute('aria-pressed', 'false'); $('play-state').textContent = '오류 · 정지';
 }
 window.addEventListener('error', event => {
@@ -55,19 +55,22 @@ window.addEventListener('error', event => {
 window.addEventListener('unhandledrejection', event => showError(String(event.reason)));
 const DATA = JSON.parse($('checker-data').textContent);
 const viewNames = {front:'정면', side:'왼쪽 측면', back:'후면'};
-const clipNames = {'front-idle':'정면 · 숨쉬기','front-move':'정면 · 이동','side-move':'왼쪽 측면 · 이동','back-move':'후면 · 이동'};
+const actionNames = {idle:'숨쉬기', move:'이동', attack:'공격', skill:'전법'};
+const clipNames = Object.fromEntries(DATA.clips.map(c => [c.id, viewNames[c.view] + ' · ' + (actionNames[c.action] || c.id) + (c.status === 'approved' ? ' · 확정' : ' · 검토 대기')]));
+for (const c of DATA.clips.filter(c => c.heroId === selectedId)) { const o = document.createElement('option'); o.value = o.textContent = c.id; o.textContent = clipNames[c.id]; $('clip').append(o); }
+$('clip-count').textContent = DATA.clips.length;
 function setImage(node, path, alt) {
   if (!DATA.images[path]) throw new Error('이미지 데이터 누락: ' + path);
   node.alt = alt; node.src = DATA.images[path];
 }
 function roster() {
   const query = $('search').value.trim().replace(/\s/g, '').toLocaleLowerCase();
-  const matches = DATA.heroes.filter(h => h.name.replace(/\s/g, '').toLocaleLowerCase().includes(query) && (!$('faction').value || h.faction === $('faction').value) && (!$('availability').value || (h.id === '15') === ($('availability').value === 'motion')));
+  const matches = DATA.heroes.filter(h => h.name.replace(/\s/g, '').toLocaleLowerCase().includes(query) && (!$('faction').value || h.faction === $('faction').value) && (!$('availability').value || DATA.clips.some(c => c.heroId === h.id) === ($('availability').value === 'motion')));
   $('roster').replaceChildren();
   for (const hero of matches) {
     const button = document.createElement('button'); button.className = 'hero-button'; button.dataset.hero = hero.id; button.setAttribute('aria-pressed', String(hero.id === selectedId));
     const name = document.createElement('span'); name.textContent = hero.name;
-    const badge = document.createElement('small'); badge.textContent = hero.faction + (hero.id === '15' ? ' · 모션' : ' · 정지');
+    const badge = document.createElement('small'); badge.textContent = hero.faction + (DATA.clips.some(c => c.heroId === hero.id) ? ' · 모션' : ' · 정지');
     button.append(name, badge); button.addEventListener('click', () => selectHero(hero.id)); $('roster').append(button);
   }
   $('count').textContent = matches.length + '명 / 전체 49명'; $('no-results').hidden = matches.length > 0;
@@ -86,13 +89,19 @@ function directions() {
 function selectHero(id) {
   pause(); selectedId = id; const hero = DATA.heroes.find(h => h.id === id);
   $('hero-name').textContent = hero.name; $('hero-faction').textContent = hero.faction;
-  $('hero-status').textContent = id === '15' ? '3방향 원화 · 승인 모션 4종' : '3방향 원화 · 모션 없음';
-  $('motion-panel').hidden = id !== '15'; $('still-panel').hidden = id === '15';
+  const available = DATA.clips.filter(c => c.heroId === id);
+  $('hero-status').textContent = '3방향 원화 · 모션 ' + available.length + '종' + (available.some(c => c.status !== 'approved') ? ' · 새 모션 검토 대기' : '');
+  $('motion-title').textContent = hero.name + ' 모션';
+  $('motion-panel').hidden = !available.length; $('still-panel').hidden = !!available.length;
+  $('clip').replaceChildren();
+  for (const c of available) { const o = document.createElement('option'); o.value = c.id; o.textContent = clipNames[c.id]; $('clip').append(o); }
+
   roster(); directions(); changeClip();
 }
 function renderFrame() {
+  if (!currentClip) return;
   const frame = currentClip.frames[frameIndex];
-  setImage($('animation'), frame.image, '조운 ' + clipNames[currentClip.id] + ' ' + (frameIndex + 1) + '번 프레임');
+  setImage($('animation'), frame.image, selectedId + ' ' + clipNames[currentClip.id] + ' ' + (frameIndex + 1) + '번 프레임');
   $('frame').value = frameIndex; $('frame').max = currentClip.frames.length - 1;
   $('frame').setAttribute('aria-valuetext', (frameIndex + 1) + ' / ' + currentClip.frames.length + ' 프레임');
   $('frame-label').textContent = (frameIndex + 1) + ' / ' + currentClip.frames.length + ' 프레임';
@@ -108,9 +117,10 @@ function schedule() {
 }
 function changeClip() {
   pause(); frameIndex = 0; currentClip = DATA.clips.find(c => c.id === $('clip').value);
-  const hero = DATA.heroes.find(h => h.id === '15');
-  setImage($('reference'), hero.images[currentClip.view], '조운 ' + viewNames[currentClip.view] + ' 기준 원화');
-  $('reference-label').textContent = viewNames[currentClip.view] + ' · 기준 원화'; $('animation-label').textContent = clipNames[currentClip.id]; renderFrame();
+  if (!currentClip) return;
+  const hero = DATA.heroes.find(h => h.id === selectedId);
+  setImage($('reference'), hero.images[currentClip.view], hero.name + ' ' + viewNames[currentClip.view] + ' 기준 원화');
+  $('reference-label').textContent = viewNames[currentClip.view] + ' · 기준 원화'; $('animation-label').textContent = clipNames[currentClip.id]; $('animation').parentNode.style.setProperty('--pivot-x', (currentClip.anchor[0] / 256 * 100) + '%'); renderFrame();
 }
 for (const id of ['search','faction','availability']) $(id).addEventListener(id === 'search' ? 'input' : 'change', roster);
 $('direction').addEventListener('change', directions);
@@ -124,7 +134,7 @@ $('theme').addEventListener('click', () => { const light = document.body.classLi
 $('guides').addEventListener('click', () => { const shown = document.body.classList.toggle('guides'); $('guides').setAttribute('aria-pressed', String(shown)); $('guides').textContent = shown ? '기준선 숨기기' : '기준선 표시'; });
 $('go-zhao').addEventListener('click', () => { $('search').value = ''; $('faction').value = ''; $('availability').value = ''; selectHero('15'); $('motion-title').scrollIntoView({block:'start'}); });
 document.addEventListener('visibilitychange', () => { if (document.hidden) pause(); });
-selectHero('15');
+selectHero(new URLSearchParams(location.search).get('hero') === 'liaohua' ? 'liaohua' : '15');
 </script>
 </body>
 </html>

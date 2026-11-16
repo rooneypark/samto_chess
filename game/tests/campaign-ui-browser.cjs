@@ -34,7 +34,7 @@ const root=path.resolve(__dirname,'../..'),read=buffer=>sharp(buffer).ensureAlph
   }
   const label=await button.getAttribute('aria-label')||await button.innerText();assert.equal(outside,0,label+' alpha exterior');assert.ok(frame>25,label+" samples="+frame);assert.equal(missed,0,label+' full border');report.pressed.push({label,outside,frame,missed});await page.mouse.move(939,1480);await page.mouse.up();
  }
- const frames=await page.evaluate(async()=>{const {renderNineSlice}=await import('./nine-slice.js'),out=[];for(const tone of ['blue','green'])for(const [w,h] of [[430,74],[901,650],[901,264],[240,64],[430,88],[570,136],[290,136]])out.push({tone,w,h,url:await renderNineSlice(tone,w,h)});return out;});
+ const frames=await page.evaluate(async()=>{const {renderNineSlice}=await import('./nine-slice.js'),out=[];for(const tone of ['blue','green'])for(const [w,h] of [[430,74],[901,650],[901,264],[240,64],[430,88],[570,136],[290,136]])out.push({tone,w,h,url:await renderNineSlice(tone,w,h,{stablePixels:true})});return out;});
  const corners={};for(const f of frames){const png=Buffer.from(f.url.split(',')[1],'base64'),parts=[];
   for(const [left,top] of [[0,0],[f.w-28,0],[0,f.h-28],[f.w-28,f.h-28]])parts.push(await sharp(png).extract({left,top,width:28,height:28}).raw().toBuffer());
   if(!corners[f.tone])corners[f.tone]=parts;else parts.forEach((part,i)=>assert.ok(part.equals(corners[f.tone][i]),'Fixed corner ornament'));report.frames.push({tone:f.tone,width:f.w,height:f.h,identicalCorners:true});

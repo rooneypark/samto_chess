@@ -1,0 +1,18 @@
+{
+  "action": "Push spear LEFT along the same slightly downward axis into final pose. Horse makes a subtle forward weight shift and neck response. Same body size and segment lengths. Straight cyan trail, no circular sweep. Left profile fixed. Horse makes a small natural weight transfer and neck response in place; constant torso volume, head size, femur/shin lengths and hoof size. No zoom or travel. One straight spear; support hand holds saddle.",
+  "frame_count": 4,
+  "seed": 181462,
+  "no_background": true,
+  "enhance_prompt": false,
+  "historicalInputs": [
+    {
+      "file": "C:\\Users\\user\\Documents\\GitHub\\samto_chess\\test-artifacts\\zhaoyun-skill-natural-v4\\side\\windup.png",
+      "sha256": "30be94819411905eaed4477100eef4d6425df88636068eae4c86acbdca1e681b"
+    },
+    {
+      "file": "C:\\Users\\user\\Documents\\GitHub\\samto_chess\\test-artifacts\\zhaoyun-skill-natural-v4\\side\\extension.png",
+      "sha256": "84e6ed18e4a2cb1efd93e60f4a3a1fcb93778c3a17236b00be847b8c8830fa5c"
+    }
+  ],
+  "note": "Original request provenance; retired input paths are not runtime dependencies."
+}

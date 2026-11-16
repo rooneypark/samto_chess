@@ -1,0 +1,20 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><title>공용 버튼 검수</title>
+<link rel="stylesheet" href="../../art-controls.css">
+<style>body{margin:20px;background:#182332;color:#fff;font:16px sans-serif}.game{width:941px;max-width:100%}.sample{padding:12px;margin:12px 0;overflow:auto}button{position:relative;display:block;border:0;outline:none;padding:0;margin:10px 0;color:#fff;background:transparent;font:inherit;image-rendering:pixelated}.light{background:#eee}.dark{background:#141c2a}.contrast{background:#b84b86}h1{font-size:22px;line-height:30px;margin:0 0 20px}</style>
+<h1>공용 버튼 크기·눌림 검수</h1><div class="game"></div>
+<script type="module">
+import {nineSlice} from '../../nine-slice.js';
+import {initArtPress} from '../../art-controls.js';
+const root=document.querySelector('.game');
+for(const background of ['light','dark','contrast']) {
+ const section=document.createElement('section');section.className='sample '+background;root.append(section);
+ for(const tone of ['green','blue']) for(const [width,height] of [[170,60],[320,80],[579,100],[900,140]]) {
+  const button=document.createElement('button');button.textContent=`${tone} ${width} × ${height}`;
+  button.style.width=width+'px';button.style.height=height+'px';section.append(button);
+  await nineSlice(button,tone);
+ }
+}
+initArtPress(root);window.ready=true;
+</script></html>
+
+

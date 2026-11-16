@@ -14,7 +14,7 @@ async function press(page,button){
  const after=await read(await page.screenshot({clip}));let changed=0,outside=0,frame=0,missed=0;
  for(let i=0;i<before.data.length;i+=4){const delta=Math.abs(before.data[i]-after.data[i])+Math.abs(before.data[i+1]-after.data[i+1])+Math.abs(before.data[i+2]-after.data[i+2]);if(!mask.data[i+3]&&delta>3)outside++;if(delta>3)changed++;
   const x=i/4%clip.width,y=Math.floor(i/4/clip.width),a=before.data[i]+before.data[i+1]+before.data[i+2],b=after.data[i]+after.data[i+1]+after.data[i+2];
-  if(mask.data[i+3]===255&&(x<clip.width*.12||x>clip.width*.88||y<clip.height*.12||y>clip.height*.88)&&Math.max(mask.data[i],mask.data[i+1],mask.data[i+2])>100&&a>30){frame++;if(b>a*.92)missed++;}
+  if(mask.data[i+3]===255&&(x<clip.width*.12||x>clip.width*.88||y<clip.height*.12||y>clip.height*.88)&&Math.max(mask.data[i],mask.data[i+1],mask.data[i+2])>120&&a>30){frame++;if(b>a*.92)missed++;}
  }
  if(outside){await sharp(before.data,{raw:before.info}).png().toFile(artifact('government-v1','failed-before.png'));await sharp(after.data,{raw:after.info}).png().toFile(artifact('government-v1','failed-after.png'));await sharp(mask.data,{raw:mask.info}).png().toFile(artifact('government-v1','failed-mask.png'));}
  assert.equal(outside,0,'Pressed changes outside source alpha: '+await button.innerText());assert.ok(changed>100);

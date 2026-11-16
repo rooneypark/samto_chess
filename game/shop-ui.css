@@ -10,16 +10,16 @@ button{position:absolute;box-shadow:none;border-image:none;filter:none;translate
 .stage-caption{display:flex;align-items:center;justify-content:center;color:#f9e5b2;font-size:3cqw;font-weight:bold;letter-spacing:.1cqw;text-shadow:0 2px 2px #091626,0 0 10px #091626;z-index:2}
 .general-lineup{display:contents}.general-original{position:absolute;object-fit:contain;image-rendering:pixelated;z-index:3;pointer-events:none}
 .pity-scroll{gap:3cqw;font-size:3.2cqw;z-index:2;white-space:nowrap}.pity-scroll b{color:#8c4129}.pity-scroll i{height:40%;width:1px;background:#a58a5d}
-.odds-note{display:flex;align-items:center;font-size:2.8cqw;color:#bfccdb}.small{font-size:2.7cqw}
+.odds-note{display:flex;align-items:center;font-size:max(2.8cqw,9px);color:#bfccdb}.small{font-size:max(2.7cqw,9px)}
 .currencies button{flex-direction:row;gap:1.5cqw;font-size:3.5cqw}.currency-icon{width:5cqw;height:4.4cqw;background:url('/game/assets/shop-v2/coin.png') center/contain no-repeat;display:inline-block;flex-shrink:0}.currency-icon.gem{background-image:url('/game/assets/shop-v2/gem.png')}
 .recruit-action{display:flex;flex-direction:column;gap:1cqw}.recruit-action strong{font-size:4.8cqw}.recruit-action span{font-size:3cqw;color:#e6d5ae}
-.guarantee{display:flex;align-items:center;justify-content:center;gap:1cqw;font-size:2.8cqw;color:#becbdd}.guarantee b{color:#f5d48e}
-.utility-buttons strong{font-size:3.5cqw}.utility-buttons small{font-size:2.3cqw;font-weight:normal;color:#bbcad9;margin-top:.9cqw}
+.guarantee{display:flex;align-items:center;justify-content:center;gap:1cqw;font-size:max(2.8cqw,9px);color:#becbdd}.guarantee b{color:#f5d48e}
+.utility-buttons strong{font-size:3.5cqw}.utility-buttons small{font-size:max(2.3cqw,9px);font-weight:normal;color:#bbcad9;margin-top:.9cqw}
 
  .recruit-action:disabled{opacity:1;filter:none}
  .treasure-display{display:flex;align-items:center;justify-content:space-between}
  .treasure-display .icon{width:16cqw;height:16cqw}.treasure-display .icon-chest{width:22cqw;height:22cqw}
- #pending-result{font-size:2.4cqw;z-index:7}
+ #pending-result{font-size:max(2.4cqw,9px);z-index:7}
 }
 
 .shop-v2 .hall[data-recruit-art]{background-size:cover;background-position:center}

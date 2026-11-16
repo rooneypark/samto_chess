@@ -1,0 +1,10 @@
+{
+  "method": "PixelLab2segments,7selected frames +3alpha fade frames",
+  "normalization": "one common crop/scale for all frames",
+  "previewBlankHoldRemoved": true,
+  "runtimeDurationMs": 365,
+  "assetVersion": "v1",
+  "historicalSourcesRetained": true,
+  "historicalSourceNote": "Retired and excluded from final v1. User-requested deletion blocked by automatic policy review; files still exist.",
+  "historicalSource": "test-artifacts/zhaoyun-impact-v1"
+}

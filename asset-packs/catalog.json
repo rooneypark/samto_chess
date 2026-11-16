@@ -795,11 +795,129 @@
       ]
     },
     {
+      "path": "asset-packs/v1/effects-15-v1-001.zip",
+      "category": "effects-15",
+      "bytes": 4643,
+      "sha256": "63d90141e29b08c29ff39fd210a47e4c173ea2528405352b5b93a6169e45807f",
+      "files": [
+        {
+          "path": "art-source/effects/v1/15/final/impact/000.png",
+          "bytes": 329,
+          "sha256": "1abfe12da5d838084a58299112095f31c1c4356ebd57eb147460317ad4ab3dac"
+        },
+        {
+          "path": "art-source/effects/v1/15/final/impact/001.png",
+          "bytes": 368,
+          "sha256": "817df3a32b9de8a77efe7cad7882a56e3bade3815fe2a3a92a9c7256e4035f8e"
+        },
+        {
+          "path": "art-source/effects/v1/15/final/impact/002.png",
+          "bytes": 447,
+          "sha256": "bc48c12b7a24ef13b62911a68738aa3788dd360bc4885c8c41e01b912ecedd20"
+        },
+        {
+          "path": "art-source/effects/v1/15/final/impact/003.png",
+          "bytes": 454,
+          "sha256": "c21a539b006a1c4431836d6cc1fa225a5815b913e731fc54529b0ff45520a7b2"
+        },
+        {
+          "path": "art-source/effects/v1/15/final/impact/004.png",
+          "bytes": 468,
+          "sha256": "569570b7a90df1cadaf82d7cf246dbac56c3a84f3163f36cdd53397f7d794f78"
+        },
+        {
+          "path": "art-source/effects/v1/15/final/impact/005.png",
+          "bytes": 218,
+          "sha256": "f7e85801d7d40850bf5ad6c42977907ce1b51717c3b7506fe07bc5927f2d0488"
+        },
+        {
+          "path": "art-source/effects/v1/15/final/impact/006.png",
+          "bytes": 171,
+          "sha256": "fd2ceaa64577edc57c5fd7db58e770e9b67741ab50b753a7cc55af0f9e3e01eb"
+        },
+        {
+          "path": "art-source/effects/v1/15/final/impact/007.png",
+          "bytes": 170,
+          "sha256": "cb5346352c58b81a197e200275878f80e96b1e0a2672420d66814ab985d1de3d"
+        },
+        {
+          "path": "art-source/effects/v1/15/final/impact/008.png",
+          "bytes": 172,
+          "sha256": "078adad8aaa9f6ebf5c38543dbce6b7c37c429cfbfa64748cf398d3f3a382fa0"
+        },
+        {
+          "path": "art-source/effects/v1/15/final/impact/009.png",
+          "bytes": 166,
+          "sha256": "ce262f8cde6c8a1be92e54dfca5205e750d7be9795119e8868278f60ebacfcd3"
+        }
+      ]
+    },
+    {
       "path": "asset-packs/v1/motions-15-v1-001.zip",
       "category": "motions-15",
-      "bytes": 639049,
-      "sha256": "bd928fe433d3ae003730a7e5d13804b8c22c6c92ce434789be25bfeac548de1a",
+      "bytes": 6398263,
+      "sha256": "9ff01dcc15b1ebc3e3baf991c3acc49497d8e53bd99fab80dd33da71980d3ed7",
       "files": [
+        {
+          "path": "art-source/motions/v1/15/preview/side-peak.png",
+          "bytes": 25370,
+          "sha256": "3523a13b26af91e5b5faac480c3ce1b3b4a1fa7d4f7edf14b0902fddc93dbf15"
+        },
+        {
+          "path": "art-source/motions/v1/15/preview/simulation.gif",
+          "bytes": 4154739,
+          "sha256": "7b75700ef6f867bfce20724033cfbd0c44d09c0972e68e053edc6a36f0961de6"
+        },
+        {
+          "path": "art-source/motions/v1/15/preview/simulation.mp4",
+          "bytes": 332001,
+          "sha256": "da754ea2a974539d8fda9eaada02be12af2550230d60b70463b5acd85f301cfa"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/back/attack/0000.png",
+          "bytes": 34176,
+          "sha256": "a3793b01568e500d05ac03f6d8c3e4e9a3f18f5dcbcdf07d712dd65b2bd3572a"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/back/attack/0001.png",
+          "bytes": 18063,
+          "sha256": "6d67dc806811df66af826db20db454d2501856a933fa67ad84729b9366dc27f0"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/back/attack/0002.png",
+          "bytes": 17556,
+          "sha256": "62f0dccb9c7a781243c2831d5e2b596c83217d93c496db1e65fc639473a57851"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/back/attack/0003.png",
+          "bytes": 16890,
+          "sha256": "f6e3539e444af2ff2fd4c21d3fa78e2f80b5550ccdd48e96bab8e3cba6610212"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/back/attack/0004.png",
+          "bytes": 34955,
+          "sha256": "c3c1e6159d237f17366f942f9fe0763fe384dd6633d690680042ea77cd2b8b99"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/back/attack/0005.png",
+          "bytes": 13341,
+          "sha256": "ed8baf13903125143b535e0f7ed9565b16ddda5b7de67dfb940f2022e52d4699"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/back/attack/0006.png",
+          "bytes": 12807,
+          "sha256": "2909c3c0c89ec26e39112b86b52ba1a9d4f090ef90a47e20182886fdcaec01f3"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/back/attack/0007.png",
+          "bytes": 12805,
+          "sha256": "aea6fe484a57559f4db90e602f9cf202551d7ae4f9bbd2c3df92611f87ae6e46"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/back/attack/0008.png",
+          "bytes": 31889,
+          "sha256": "6b3f53a0b8aa2ab9045d62271b92a9aaac5229786b9c7ce4af2a886a62d7f3f2"
+        },
         {
           "path": "art-source/motions/v1/15/sequences/back/move/0000.png",
           "bytes": 35886,
@@ -839,6 +957,111 @@
           "path": "art-source/motions/v1/15/sequences/back/move/0007.png",
           "bytes": 15555,
           "sha256": "0124703510630ef04316e4ec2cfd6416ac7d1ba52ea936c5921029eb459c04dc"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/back/skill/0000.png",
+          "bytes": 35886,
+          "sha256": "f08001de97aa13841a87b2503bf2245b6ecf84e50918fc1006ec546841704a6a"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/back/skill/0001.png",
+          "bytes": 18520,
+          "sha256": "d5182137a453a723a39a658ed21d7eca755c8c0550a441a69665c9a8b6aefe78"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/back/skill/0002.png",
+          "bytes": 17971,
+          "sha256": "7f5698f3cc5c5b34c80c269219cbc83bb10fff1490fedfaccde7cd6a9cc3b860"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/back/skill/0003.png",
+          "bytes": 17362,
+          "sha256": "e7c94013685de18ace471abbcae1ea72ceec3e7792e59da5e1ab254a8b38a3d9"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/back/skill/0004.png",
+          "bytes": 17434,
+          "sha256": "43ae0dbaf62166237586f50d93167bb792703612d5288b32a705291a69e4b418"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/back/skill/0005.png",
+          "bytes": 14648,
+          "sha256": "74a42e7c6ec0cc13464d47c8f3cd885b43b27dc26b969a1fa4e6267d1842fbbc"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/back/skill/0006.png",
+          "bytes": 13575,
+          "sha256": "4d9a0e216196091660e83bcbe2471e1af6574319360d5087f8639544ad7d4e63"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/back/skill/0007.png",
+          "bytes": 14247,
+          "sha256": "670e7b1ae8793feea9010c56accfbeac3a425e74e0ab2d13ae8ec7cbf557fb1f"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/back/skill/0008.png",
+          "bytes": 15053,
+          "sha256": "79f9f83794981d999a1cb33fb5dbfbc759816a223ef0ee105772a53b5c75ed6a"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/back/skill/0009.png",
+          "bytes": 14590,
+          "sha256": "cc3f489b98828eec7f87fd667fa7bddcdfb8332169cb283aa20d8d32f377c209"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/back/skill/0010.png",
+          "bytes": 15356,
+          "sha256": "f90b89845ced4fb9405fa8dcf273d6d5cc6de536c9c82cb8a4cc6ceca6b36355"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/back/skill/0011.png",
+          "bytes": 16299,
+          "sha256": "54a398d20b648653b22d0c11e49a31420c242c520ac4a9c17967c243f279cac7"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/back/skill/0012.png",
+          "bytes": 17043,
+          "sha256": "9b1297baed25573c951a80a0f7cabdd939b5b44149807450b8453083f5db2296"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/back/skill/0013.png",
+          "bytes": 15725,
+          "sha256": "e2df1b9060eb1198f6408508f7ade83c4b94fc7e2f3d6336db310f1813a91fd9"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/front/attack/0000.png",
+          "bytes": 39633,
+          "sha256": "68cc33a1fe459aa06008649291569017060aca7c9d47d190a303a83ef405afce"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/front/attack/0001.png",
+          "bytes": 21706,
+          "sha256": "6b8f35bdc45185bda8e4bd35497e8565ad53cd8331ffd6aabf16c4acda1973f0"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/front/attack/0002.png",
+          "bytes": 21069,
+          "sha256": "fc8c8463ed23c99fcbf9ca335c65fea774d71868018ecc947f70b5027b543d5a"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/front/attack/0003.png",
+          "bytes": 20247,
+          "sha256": "b1113ae9b192f7600bdee6876e28a213084ed14940b49029eb439f255b44a207"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/front/attack/0004.png",
+          "bytes": 38756,
+          "sha256": "e69c078eaed0506aaecebf29f9663d90b686122a6eca4ac037f0d8bf38cad9d6"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/front/attack/0005.png",
+          "bytes": 20164,
+          "sha256": "e0734dfbd230f849ac3f15cd4f5402e49365e24e3c0fa7ea412af93f59ed2e4d"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/front/attack/0006.png",
+          "bytes": 39915,
+          "sha256": "5faeb41ee6c3dc90424968d67766e4f55dc52552c40b679ea3f61695bf59b04c"
         },
         {
           "path": "art-source/motions/v1/15/sequences/front/idle/0000.png",
@@ -926,6 +1149,146 @@
           "sha256": "b5d36ed92f78a0e61a491cdd6f47040774bcf8f908807a8c92b8b878489aae40"
         },
         {
+          "path": "art-source/motions/v1/15/sequences/front/skill/0000.png",
+          "bytes": 39633,
+          "sha256": "68cc33a1fe459aa06008649291569017060aca7c9d47d190a303a83ef405afce"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/front/skill/0001.png",
+          "bytes": 19797,
+          "sha256": "45f7a95ce8154ccf130fd096eb1faf6c1777ce33f5ceaf3d766c5e0806a90c17"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/front/skill/0002.png",
+          "bytes": 19874,
+          "sha256": "0b25e631b4b68efaa3cc52be6558731dbd2007b8570338d6700cb09b93038c72"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/front/skill/0003.png",
+          "bytes": 18651,
+          "sha256": "7ebacbb7a03753f81e74a2caea516c7ae3e7b07c08e416746157a36235f1707b"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/front/skill/0004.png",
+          "bytes": 18304,
+          "sha256": "3ccb6b1087c0fd9c203f685bcf0d1029df32ea066e4b00fb9822d6437478aedc"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/front/skill/0005.png",
+          "bytes": 18332,
+          "sha256": "799ec1f282d8d785462b65e8400d819763308452b3021dd1b412873dd4f1e238"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/front/skill/0006.png",
+          "bytes": 19533,
+          "sha256": "25fbe2098a5b98e377c67d2f51e073b32180011653c711a6feb8ae2b0b5b0d6e"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/front/skill/0007.png",
+          "bytes": 19763,
+          "sha256": "65e93858d554f272f2d4239bec87ac0ea2d71e4136dff3d5532606dd61985bb3"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/front/skill/0008.png",
+          "bytes": 19467,
+          "sha256": "8de24ef30fb60f3860f002cc2c2e34ac3e89498173bbef82acd5932f48d5b3ec"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/front/skill/0009.png",
+          "bytes": 20536,
+          "sha256": "30f496a4b15222a5e38c6d0703cf9c5924f24d341f15cad595e56cd9bff6560b"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/front/skill/0010.png",
+          "bytes": 20680,
+          "sha256": "3aea6de2b14c6c0473da3338db2c582c4c3ca45234824e48e4db4d589f355acf"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/front/skill/0011.png",
+          "bytes": 21021,
+          "sha256": "e29e7b23a2f3f1b3c3df880a3672c35ad64f33769e2ba781919f1a3b2a017641"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/front/skill/0012.png",
+          "bytes": 20330,
+          "sha256": "4a070ab173d23fc30ee3aceb68769fbb22ff369978e2ac7fde8f9044a97c8fee"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/front/skill/0013.png",
+          "bytes": 19821,
+          "sha256": "ae8f7e39945d5fb2ac5140bc7fda78610d9b4f24cecb12bf13be5ccf774d6d18"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/front/skill/0014.png",
+          "bytes": 20072,
+          "sha256": "2b02e65a8caeadd633a32db0c40d555b28eac66aed4cb2255ae81a382b7af691"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/front/skill/0015.png",
+          "bytes": 20148,
+          "sha256": "17c271468c95650402ea4cf044384a9546c7177c99e908c723a2d11015a45c0b"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/front/skill/0016.png",
+          "bytes": 19263,
+          "sha256": "3403815373a0c29839d494bd71ca0bba43d86905f19210aad9615b2d043a1e38"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/attack/0000.png",
+          "bytes": 42617,
+          "sha256": "05384d1725b82d40bbb6aaa8524c0c29a4542df1e2401a77de53612bd479e5fc"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/attack/0001.png",
+          "bytes": 22042,
+          "sha256": "f62779d328c6bb89c8e71cf61ce131dc1a09967142fd589b8c908c5e956295dc"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/attack/0002.png",
+          "bytes": 22129,
+          "sha256": "b40b5a70fdc1c3e751274088a4108070d5cd6de389b68668e8559e9a650221c7"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/attack/0003.png",
+          "bytes": 23165,
+          "sha256": "f163f6cdc495740701c6f1776f396f9a3a1dfbabf33a55731a2c0e0a6cd4dedc"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/attack/0004.png",
+          "bytes": 45354,
+          "sha256": "b95e9a316f7b8083dd3f05053011b58dba6b418f976cfaae3af400844c41db4b"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/attack/0005.png",
+          "bytes": 21180,
+          "sha256": "ffa940690ff85f7c7ce6e12e6c6e866c5586ffd35828d94c5d960661a0d6ce02"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/attack/0006.png",
+          "bytes": 21155,
+          "sha256": "4bd8fa99fb5b605af35dae9aa6634801efcbf4a2aa5260791f17ebf08bcf42da"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/attack/0007.png",
+          "bytes": 46890,
+          "sha256": "87f013924e860e0b928b78db8b9f0c8148b1c160874d954152e1f2b0d5a43235"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/attack/0008.png",
+          "bytes": 23807,
+          "sha256": "0c3de2d115438c8a3fc7f30e96ed6572e57f343e85072147fffc2b6fe685fd3a"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/attack/0009.png",
+          "bytes": 22433,
+          "sha256": "4da67ec39435508d92ec57b91d2598c7c96e8ff0a78ec242088d2d924cf05726"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/attack/0010.png",
+          "bytes": 22777,
+          "sha256": "657492a79bb8e4a03db46f917d053ec0c29b90ffa501fb32ed70a918a6df1cee"
+        },
+        {
           "path": "art-source/motions/v1/15/sequences/side/move/0000.png",
           "bytes": 42696,
           "sha256": "f0a8e4defc487b09ab1c862d833ad4da6050079f1471603d0f7d17e1556aff41"
@@ -964,6 +1327,194 @@
           "path": "art-source/motions/v1/15/sequences/side/move/0007.png",
           "bytes": 18039,
           "sha256": "8276281846fce3531c7f5b4874988f484caacbff7119d298ba49f0c3f3869d55"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/skill/0000.png",
+          "bytes": 42612,
+          "sha256": "b4585a90d321a256c13c6c97b0a267932535078b04b81ee669797c288839916f"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/skill/0001.png",
+          "bytes": 24181,
+          "sha256": "445b92085c1fcb85d8c25b123307722bdee9483cb0fb780613ffb61ae27638e0"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/skill/0002.png",
+          "bytes": 23939,
+          "sha256": "97c1e2416c66280a746e1cab5087084f12b1cc8bc02a35c9e99912771a4017f8"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/skill/0003.png",
+          "bytes": 24760,
+          "sha256": "dca8e5db7e8a98361974ac44f79ae2d9c5850f651210bc0babc7a390504962bf"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/skill/0004.png",
+          "bytes": 21160,
+          "sha256": "d603a449aaa7e9cf29efaf4a8e608083eec21e114992d4064d95f74eccb9435e"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/skill/0005.png",
+          "bytes": 21085,
+          "sha256": "ecf0094911a2f9690b76142f4a6afce02b04600d24dda554a7433423454b46e1"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/skill/0006.png",
+          "bytes": 21254,
+          "sha256": "90ca9dd01bca76320cf55d7f03c40260c699b735aeb62f3cc0021a5ed36d8a41"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/skill/0007.png",
+          "bytes": 23373,
+          "sha256": "c30f2e7e5ea0a1df8fcf24230c8f3b3fc0f6db349ffaa5ec66bdf7017d9cb7a2"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/skill/0008.png",
+          "bytes": 22872,
+          "sha256": "7cac95b44008e45f3ce6a37faff5b0a3171df9a88a4fd461bad768578560890c"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/skill/0009.png",
+          "bytes": 22799,
+          "sha256": "7a736b6c87361dac027564a0d6d05c78bf5283f65e9966e48f28d9dc28419056"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/skill/0010.png",
+          "bytes": 21373,
+          "sha256": "81ef6b45be91c8af2a80b5aa58b14e1afdcf3c08c09aeaf689fd315008a0f7b6"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/skill/0011.png",
+          "bytes": 22552,
+          "sha256": "26607fcb0d7c32893c233a0b59f31bb76ec8b202d68ff6dd003039d21d6c45a0"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/skill/0012.png",
+          "bytes": 21882,
+          "sha256": "b5c71c3b82c49c8fb5d1a66dc1ea0bcc25d815456d3f151d334daf809fd880a0"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/skill/0013.png",
+          "bytes": 22954,
+          "sha256": "d5b82599edbbad9afefb9028a40e31d306d46ab6ed8af99cacab7b9cdbec3ae9"
+        },
+        {
+          "path": "art-source/motions/v1/15/sequences/side/skill/0014.png",
+          "bytes": 19167,
+          "sha256": "9b271e4abc3865521b05cfe2d9e1ff4f03950ae7536511eb4f9758cddf0672ba"
+        }
+      ]
+    },
+    {
+      "path": "asset-packs/v1/motions-liaohua-v1-001.zip",
+      "category": "motions-liaohua",
+      "bytes": 426086,
+      "sha256": "ee3694d74bca1f88448a5ab4acc8b0b82a398d036659dc2e56e4866db5c26127",
+      "files": [
+        {
+          "path": "art-source/motions/v1/liaohua/preview/attacks.gif",
+          "bytes": 154057,
+          "sha256": "901d878108a99df8c7ac3e0406b59b3052ef2fe986e1c666eac1cfab5631fa93"
+        },
+        {
+          "path": "art-source/motions/v1/liaohua/sequences/back/attack/0000.png",
+          "bytes": 18735,
+          "sha256": "60bd407410f94e568e6dc919777bc633918774aa35c03520581ece404f04373f"
+        },
+        {
+          "path": "art-source/motions/v1/liaohua/sequences/back/attack/0001.png",
+          "bytes": 19048,
+          "sha256": "d0407aa963d1b6a3f249ff53d42d618766949fbf9e3d1aabfb59526cc5694e85"
+        },
+        {
+          "path": "art-source/motions/v1/liaohua/sequences/back/attack/0002.png",
+          "bytes": 7760,
+          "sha256": "a3a30fc48494582ba987941b648712b5953dd742b51a70fd6019bd4f28a00f6c"
+        },
+        {
+          "path": "art-source/motions/v1/liaohua/sequences/back/attack/0003.png",
+          "bytes": 6562,
+          "sha256": "d6b39111a810a9f0d2d667c8ae7f1e52bf47ccc084c24fb37b5d07812cb01b63"
+        },
+        {
+          "path": "art-source/motions/v1/liaohua/sequences/back/attack/0004.png",
+          "bytes": 6255,
+          "sha256": "e6a3b11044ea222585f29925833f0a81aeb02989ac57481fc20ba6ce68986be4"
+        },
+        {
+          "path": "art-source/motions/v1/liaohua/sequences/back/attack/0005.png",
+          "bytes": 16755,
+          "sha256": "32bbf0048deb57de6e94a8c8e0f11d78dfeb96a5367430437d845754a0f29658"
+        },
+        {
+          "path": "art-source/motions/v1/liaohua/sequences/back/attack/0006.png",
+          "bytes": 7816,
+          "sha256": "5ac5adf28e58c778fbff109df1f4f231e058ebe98b67b81dd38b193b8ab30507"
+        },
+        {
+          "path": "art-source/motions/v1/liaohua/sequences/front/attack/0000.png",
+          "bytes": 22339,
+          "sha256": "f49c7ccb2aa7812871a964b993ec24a57f4bf42ac09b0071e5c368daf39202df"
+        },
+        {
+          "path": "art-source/motions/v1/liaohua/sequences/front/attack/0001.png",
+          "bytes": 23317,
+          "sha256": "a6106fa9ddb0d97183ff12ae07b4cd863477b0dfe34f2eafbb7d2031b15131df"
+        },
+        {
+          "path": "art-source/motions/v1/liaohua/sequences/front/attack/0002.png",
+          "bytes": 10741,
+          "sha256": "39f573ae5b736c191d9d546846521cf453eab066f72e8b556c6f40566ecbbbcb"
+        },
+        {
+          "path": "art-source/motions/v1/liaohua/sequences/front/attack/0003.png",
+          "bytes": 11462,
+          "sha256": "684dd4c4aac7f4268652b737a4ea0c6b5b8090767859086f383c22a3fec4d7c8"
+        },
+        {
+          "path": "art-source/motions/v1/liaohua/sequences/front/attack/0004.png",
+          "bytes": 11289,
+          "sha256": "0a3618c384ccc6bdbb3b466e8af79bb56ee1ffb2cb3074ac77669154ad1d3bb1"
+        },
+        {
+          "path": "art-source/motions/v1/liaohua/sequences/front/attack/0005.png",
+          "bytes": 21325,
+          "sha256": "b8416e900eab1e5aaa5eea2f7842711aa2dd266c9a1a60700ebaf069486ce6a7"
+        },
+        {
+          "path": "art-source/motions/v1/liaohua/sequences/front/attack/0006.png",
+          "bytes": 11487,
+          "sha256": "3d0bb2af2f1ec3c90993933d9a2f692c10c8631708ae7ceba88ebb328caddf6a"
+        },
+        {
+          "path": "art-source/motions/v1/liaohua/sequences/side/attack/0000.png",
+          "bytes": 16293,
+          "sha256": "498fdffa7898d559f7aa47fc4730f20eb7ea902cbb15a52a211daff0f963aa51"
+        },
+        {
+          "path": "art-source/motions/v1/liaohua/sequences/side/attack/0001.png",
+          "bytes": 17756,
+          "sha256": "893718159786913983abb7217f6cd9fbcdee00f9224146fe1a799fe96a0122d8"
+        },
+        {
+          "path": "art-source/motions/v1/liaohua/sequences/side/attack/0002.png",
+          "bytes": 11220,
+          "sha256": "44d6524c24895936e613349c00e865f8ea26d836a062bd701a4f319736f3a03a"
+        },
+        {
+          "path": "art-source/motions/v1/liaohua/sequences/side/attack/0003.png",
+          "bytes": 7756,
+          "sha256": "17058e628d10a20b29fae15ae1e5ad8bf705b89b0494e67adf559da49dda94f4"
+        },
+        {
+          "path": "art-source/motions/v1/liaohua/sequences/side/attack/0004.png",
+          "bytes": 21775,
+          "sha256": "01fc062fe110c6b515ad73749888048b3136d96300a9c0d3c8e369ec131b1af9"
+        },
+        {
+          "path": "art-source/motions/v1/liaohua/sequences/side/attack/0005.png",
+          "bytes": 10818,
+          "sha256": "4734dc486bd4774850fb1ac5470a63599a52166cc214fc4834a51205d5b399fb"
         }
       ]
     },
@@ -6667,8 +7218,8 @@
     {
       "path": "asset-packs/v1/runtime-ui-v1-003.zip",
       "category": "runtime-ui",
-      "bytes": 11905576,
-      "sha256": "88db300d2381a36ad374966a0a42a5969840e210596e3e283c1ec297e3139dd1",
+      "bytes": 12203889,
+      "sha256": "26511652b9cc3f7ee7b0bcb78cd09a2224231b597fce782b6254b1c04991ad9d",
       "files": [
         {
           "path": "game/assets/ui-common/battle-summon.png",
@@ -7016,6 +7567,11 @@
           "sha256": "093e403deccaa2385a8b96b0b20d26c3e1a5c8da0f23a4f1d2f98c314cba7a50"
         },
         {
+          "path": "game/assets/ui-scalable/blue-rich.png",
+          "bytes": 107914,
+          "sha256": "557c9043b9febec6565fb2fb52bee045a318bcee5472834a15927e1298b061a1"
+        },
+        {
           "path": "game/assets/ui-scalable/blue.png",
           "bytes": 298609,
           "sha256": "8da479ca9b6eea2471c3066afef67baf9f66bb4d8ded712ededa1b3081c16f2e"
@@ -7026,9 +7582,224 @@
           "sha256": "e973879cb9de52e03f6ccd1d27db8173f1601e1f2a4a922dbc20f4b7b75696cc"
         },
         {
+          "path": "game/assets/ui-scalable/green-rich.png",
+          "bytes": 126831,
+          "sha256": "23b3867adf056a6ca17d01bb573dfd508ed26d11f3abe0e98b423f9d781c94d9"
+        },
+        {
           "path": "game/assets/ui-scalable/green.png",
           "bytes": 343142,
           "sha256": "5208bb5e1eb86dd1afc108d12b5e3b2a6e970522585ed2bcc85f6a339bffc8f7"
+        },
+        {
+          "path": "game/assets/ui-temp/empty-state.png",
+          "bytes": 1527,
+          "sha256": "09a5b7110dd29b4cd92c8d836a9a109e115171e4d3e61333a891435107ec64cc"
+        },
+        {
+          "path": "game/assets/ui-temp/faction-qun.png",
+          "bytes": 1081,
+          "sha256": "d268affbbdd3864b30d984e0964e91ae62b9f69b9eb5f0797a5f88af79de131a"
+        },
+        {
+          "path": "game/assets/ui-temp/faction-shu.png",
+          "bytes": 1148,
+          "sha256": "ca09a59230f6e98b5fb8adc963f183e54e9083e532d4cf3a70e057db98d377a4"
+        },
+        {
+          "path": "game/assets/ui-temp/faction-wei.png",
+          "bytes": 1384,
+          "sha256": "b4f7a1a011228e4d93b77eef4d72597eb21b0527698d4019e6083c56a7a7d8db"
+        },
+        {
+          "path": "game/assets/ui-temp/faction-wu.png",
+          "bytes": 1370,
+          "sha256": "4a24a6c6af0901574782eb04518466dfea27f0f213d6adb0e89c8cce05ddfc3f"
+        },
+        {
+          "path": "game/assets/ui-temp/lock.png",
+          "bytes": 1135,
+          "sha256": "4d16098319c82c0d049092059c58a0d8c11b733122dcb5571382fafc6ba24aa9"
+        },
+        {
+          "path": "game/assets/ui-temp/product-d2300.png",
+          "bytes": 1474,
+          "sha256": "35e782062aa3765a8b02d9e032ca0f604b5b062df5f25f4f7a05109212a0b9ed"
+        },
+        {
+          "path": "game/assets/ui-temp/product-d320.png",
+          "bytes": 1357,
+          "sha256": "bc3cddf8c286f44ed684306945990b22648a3b9659f87eebf57e746e7746a9d9"
+        },
+        {
+          "path": "game/assets/ui-temp/product-d4300.png",
+          "bytes": 1895,
+          "sha256": "603e27fee107ecce9fa5779e55e04657227db88e8bb66b4d510bdb52182147af"
+        },
+        {
+          "path": "game/assets/ui-temp/product-d60.png",
+          "bytes": 1162,
+          "sha256": "3ef08bbb642df322440ce09bb4cc11007457ae8e86213e2d4ee16d4c57aeb7dc"
+        },
+        {
+          "path": "game/assets/ui-temp/product-d700.png",
+          "bytes": 1383,
+          "sha256": "54cba78b1616209b6d1f132465908799e1a88a1ed15b8c2c630c98a1961320dc"
+        },
+        {
+          "path": "game/assets/ui-temp/product-d8400.png",
+          "bytes": 1744,
+          "sha256": "2b52d887ccad9c274ffd07a1ba0530c2d005ba743a35927db68a8d18bcf0dab3"
+        },
+        {
+          "path": "game/assets/ui-temp/product-first.png",
+          "bytes": 1555,
+          "sha256": "2049a965e1d006af60dd4da2132d42fe311a545d547f7c7ca5983694bf066954"
+        },
+        {
+          "path": "game/assets/ui-temp/product-fund.png",
+          "bytes": 1368,
+          "sha256": "a71f5fe99763a96d0c0ff2041521c45a757e6a529b31dad09380f9612b2312ac"
+        },
+        {
+          "path": "game/assets/ui-temp/product-monthly.png",
+          "bytes": 1290,
+          "sha256": "fe5021def3c27c77ba62db18d0994111907caf4f68ebdcdf538d591917b6cba8"
+        },
+        {
+          "path": "game/assets/ui-temp/rank-1.png",
+          "bytes": 735,
+          "sha256": "24b37a76faed9433e7ffa1e5c1a8a900edbbed86e00df078d2ac8c6ff4139642"
+        },
+        {
+          "path": "game/assets/ui-temp/rank-2.png",
+          "bytes": 799,
+          "sha256": "aafde22e3abd970c518ecd56d682d08e763c684fc1a0d4330f069dd82782fa86"
+        },
+        {
+          "path": "game/assets/ui-temp/rank-3.png",
+          "bytes": 842,
+          "sha256": "4cdc3ab905282f2eb90bdea59ce5c58724dccf99ef388157b9e11a01c39c779b"
+        },
+        {
+          "path": "game/assets/ui-temp/rank-4.png",
+          "bytes": 820,
+          "sha256": "b69b0bdf518aeb4535eef5d03cf0d51c5228b78d0a94973068227dd2137a773d"
+        },
+        {
+          "path": "game/assets/ui-temp/rank-5.png",
+          "bytes": 869,
+          "sha256": "ae7877fb1602a6e86c6211cd03aa10faf906e1dcdcee5f318c3d31a9b97690a8"
+        },
+        {
+          "path": "game/assets/ui-temp/rank-6.png",
+          "bytes": 1059,
+          "sha256": "7d73c42afd5739d473f61a04e3df068cff8673a9088c65581ba0e63b5b3427f0"
+        },
+        {
+          "path": "game/assets/ui-temp/reward-contribution.png",
+          "bytes": 1571,
+          "sha256": "eabb411db1f1304fe37435f02fe7a9c6e7d1176fa8415907b5d7133dd11b809a"
+        },
+        {
+          "path": "game/assets/ui-temp/reward-hero-token.png",
+          "bytes": 1673,
+          "sha256": "9dae92538f0201dbfb91b5942be7cb2a9aa5d9c04e37ede2b09f8cadd4e551b1"
+        },
+        {
+          "path": "game/assets/ui-temp/reward-merit.png",
+          "bytes": 1150,
+          "sha256": "867d4c321a05a462057406e3b9c53fd366a61214af5d665a4a00723871119cc6"
+        },
+        {
+          "path": "game/assets/ui-temp/reward-provisions.png",
+          "bytes": 1362,
+          "sha256": "aebe448a0680bdd80a402c88fcbd284011ec1f197930ea04692d24522d0be64d"
+        },
+        {
+          "path": "game/assets/ui-temp/reward-s-shard.png",
+          "bytes": 1274,
+          "sha256": "519818e6becb1a339f64e21db32a18ee1fa1516779c739106779360e5b1f7da5"
+        },
+        {
+          "path": "game/assets/ui-temp/reward-ticket.png",
+          "bytes": 1324,
+          "sha256": "6246166aeb854678f9d847284600cea5c91587d1b18e1b9f309c14b871efbf1a"
+        },
+        {
+          "path": "game/assets/ui-temp/reward-treasure-token.png",
+          "bytes": 1490,
+          "sha256": "ee40c07c26ac18b6dea9b8ddbf4795a7cf1a8ca710a1ece8ceae9d9fb2285156"
+        },
+        {
+          "path": "game/assets/ui-temp/tile-attend.png",
+          "bytes": 1405,
+          "sha256": "5acae1dc8caa62e7c0c0a47b43f4b51571453b0c36ae3d901925b3584d3b98f8"
+        },
+        {
+          "path": "game/assets/ui-temp/tile-battle.png",
+          "bytes": 1495,
+          "sha256": "8f81f4f58ea46ab80ef8a1def4615cb2c399dc3bf36120e0199273f1f432eda5"
+        },
+        {
+          "path": "game/assets/ui-temp/tile-donate.png",
+          "bytes": 1642,
+          "sha256": "ede2d0fc4d92dca325220c7f7689772f15c5b1337e5ae235b312541a74c3031f"
+        },
+        {
+          "path": "game/assets/ui-temp/tile-exchange.png",
+          "bytes": 1480,
+          "sha256": "3df948a0b42eeb346e5c59d32cf964865310f234afd18f752e73332e04f25821"
+        },
+        {
+          "path": "game/assets/ui-temp/tile-guild-shop.png",
+          "bytes": 1356,
+          "sha256": "edcb01e9872e7af69427c28134ced700de872ccf450c52688eeec1c89d52e3bb"
+        },
+        {
+          "path": "game/assets/ui-temp/tile-manage.png",
+          "bytes": 1352,
+          "sha256": "3c2a20103d7d2baa2311caa2f475e0e605724ba1b38f5eb63358718d01d91d5b"
+        },
+        {
+          "path": "game/assets/ui-temp/tile-merit-shop.png",
+          "bytes": 1640,
+          "sha256": "86020a1e814b4f4a1a582a2d142b3d9d6dea04c5fa410e8996bf378a21c45c8e"
+        },
+        {
+          "path": "game/assets/ui-temp/tile-next.png",
+          "bytes": 1602,
+          "sha256": "e9134a12a0f6d99b1e2f64e66cd2bf71947f1f2cc221f9acfc7f0e698676211c"
+        },
+        {
+          "path": "game/assets/ui-temp/tile-products.png",
+          "bytes": 1633,
+          "sha256": "5241507421ce92f238852c5ab2cebe152254855bec39ad1c916e2ee4598510ab"
+        },
+        {
+          "path": "game/assets/ui-temp/tile-raid.png",
+          "bytes": 1438,
+          "sha256": "6d34ffd02ac5d33631abe6c6c9e9a416a58040880133469c93bd52515698b187"
+        },
+        {
+          "path": "game/assets/ui-temp/tile-research.png",
+          "bytes": 1594,
+          "sha256": "58d1c72ba23c5f6fc95f5178e5ee44dbf0c2a6128efc1c1caaf2e47bd01e154e"
+        },
+        {
+          "path": "game/assets/ui-temp/tile-rules.png",
+          "bytes": 1202,
+          "sha256": "26337e16085db4d6db9a270f98c94fec6a9d36de91e8e74cc78ef67c1a68ff58"
+        },
+        {
+          "path": "game/assets/ui-temp/tile-s-select.png",
+          "bytes": 1398,
+          "sha256": "c7f54985d394de77b660776e93c41d390b0252f50dd8523e443258dab2c6203a"
+        },
+        {
+          "path": "game/assets/ui-temp/tile-supply.png",
+          "bytes": 1791,
+          "sha256": "661bb9119dc201e37637db981a65a81d641d4a7f30f4208c43b4f26bcae26756"
         },
         {
           "path": "game/assets/ui/battle-courtyard-v1.png",
@@ -7228,8 +7999,8 @@
     {
       "path": "asset-packs/v1/ui-build-reference-v1-001.zip",
       "category": "ui-build-reference",
-      "bytes": 37398609,
-      "sha256": "656727ba25e26b28a02173eef85095ecab1e418d018fd384756b81f790f7da26",
+      "bytes": 37314005,
+      "sha256": "0d5434e24dd7e695631998ca6132394cdf5a3ea06ffae7e1012804672145af31",
       "files": [
         {
           "path": "art-source/ui-build/v1/battle-sprites/1-back.png",
@@ -7280,6 +8051,16 @@
           "path": "art-source/ui-build/v1/battle-sprites/xuchu-back.png",
           "bytes": 536841,
           "sha256": "acd6122d6eab20605e1851c75bd0ec5ab5a0d398f9ebbaa86e4e762ef8b4b0eb"
+        },
+        {
+          "path": "art-source/ui-build/v1/button-rich-v2/blue-source-v3.png",
+          "bytes": 1326065,
+          "sha256": "474a5e6a9cd3b66adae92efeccfbcabd82bd55c5920bd3cb307662300026c306"
+        },
+        {
+          "path": "art-source/ui-build/v1/button-rich-v2/green-source-v3.png",
+          "bytes": 1273572,
+          "sha256": "528a1ca05b4fafaee013223bbdb4f9f7470529885caf4fd7333db6e79610c6c4"
         },
         {
           "path": "art-source/ui-build/v1/general-turnarounds/cao-cao-turnaround.png",
@@ -7333,33 +8114,33 @@
         },
         {
           "path": "design-delivery/v2/05-mockups/alliance-headquarters-v1.png",
-          "bytes": 1304788,
-          "sha256": "9ef732d6ca410772783836541515514b4919c9454dd563a98076c07010211eb2"
+          "bytes": 1375030,
+          "sha256": "f6f8c871c87ebb1cad850a893a6f0f3d7cbb9b6d270d385d33789d42ac9abb40"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/barracks-390.png",
-          "bytes": 344421,
-          "sha256": "10877784215109a82ec21c0b19c1ab5968df66d620d2e0dab54d84e91be053df"
+          "bytes": 387823,
+          "sha256": "cc0b26b6815ba96fadd154791591fa439d31c324e6dface130c5f16ebceede58"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/barracks-941.png",
-          "bytes": 1584373,
-          "sha256": "0cf41f67ed81221d9518dcf1defddde1aeb7b16c4d4b13037b8a1b6a5042a935"
+          "bytes": 1587157,
+          "sha256": "0a47ae88457a83a9a5dd2d7ff149f247cdebceaab5fb88d6ea13850662da96ab"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/battle-390.png",
-          "bytes": 448155,
-          "sha256": "cc458b9114387e29e2ff1deb4b5d635a0d3ff0943978c04d0e83efc560a8164f"
+          "bytes": 459872,
+          "sha256": "20e9882d09c99392a7f15c93f652989b5ff85a3c8ed507cd5d3e4fef1773d17a"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/battle-941.png",
-          "bytes": 2075338,
-          "sha256": "fc0c2b7cbdaec9f830b947ee750c83c083f85dda3aec9e415c3ca482c6105067"
+          "bytes": 2070597,
+          "sha256": "39bd973fc3ad52f1db0a434c1dbd565d7433e21c49899a8fbd27b78474bfbf46"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/home-390.png",
-          "bytes": 497936,
-          "sha256": "e0962142d1fe9333ffcb26bbbbce3604d9263d62bbcd4b4efc74ea74303e2eac"
+          "bytes": 481250,
+          "sha256": "8e26de46261a97c198ec66966668b10a5ffac7268af22d2fc18bd238828844b5"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/home-941.png",
@@ -7368,18 +8149,18 @@
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/shop-390.png",
-          "bytes": 332106,
-          "sha256": "f92b96b7ba8c09f71b8ef87255953d1c3f94dc627ed074070d78ab8b6f8c6da0"
+          "bytes": 360526,
+          "sha256": "3462db56d59c3f94074837d312facfb77ebf17b9817498a66e14665885386f75"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/shop-941.png",
-          "bytes": 1542577,
-          "sha256": "c85a69ab48c3a6846e112f9116f2548c84856000091f9dcc9f833fcc13a7c7a0"
+          "bytes": 1544098,
+          "sha256": "5d0a23af8aa35d9350bd9e6af3fe221d16255c35dc00d9f7b57f9c5fed6116ce"
         },
         {
           "path": "design-delivery/v2/05-mockups/arena-versus-v1.png",
-          "bytes": 1421084,
-          "sha256": "24c1111da8342cfed7d40531eb9b2f7388fc68b750489e2b76e655857059bbf6"
+          "bytes": 1405520,
+          "sha256": "1cdc4bdd46da96e6d79499be5695ced196d85b602512bfc8414e2761f6f7cb00"
         },
         {
           "path": "design-delivery/v2/05-mockups/barracks-clean-plate.png",
@@ -7395,20 +8176,20 @@
           "path": "design-delivery/v2/05-mockups/battle-clean-plate.png",
           "bytes": 2115744,
           "sha256": "39256c4b9dcfab52639eda7c368687852a7c6dd7e38a0c38106c2679d6743a7b"
-        },
-        {
-          "path": "design-delivery/v2/05-mockups/battle-preparation-v1.png",
-          "bytes": 2386347,
-          "sha256": "457630f07c492508ba1554607026fed767747d34353d68dd5390a57e6585f389"
         }
       ]
     },
     {
       "path": "asset-packs/v1/ui-build-reference-v1-002.zip",
       "category": "ui-build-reference",
-      "bytes": 23942242,
-      "sha256": "9e72acad92cedcbcad6fca1dab6a1058ae751f22de35cc632928fd51b535ad0e",
+      "bytes": 26175525,
+      "sha256": "09cb18337776c3ecd323a247ed8e6aca6030b91d4c2f99bdbde9935a4acc1537",
       "files": [
+        {
+          "path": "design-delivery/v2/05-mockups/battle-preparation-v1.png",
+          "bytes": 2386347,
+          "sha256": "457630f07c492508ba1554607026fed767747d34353d68dd5390a57e6585f389"
+        },
         {
           "path": "design-delivery/v2/05-mockups/battle-rank-indicator-v1.png",
           "bytes": 2136963,
@@ -7421,13 +8202,13 @@
         },
         {
           "path": "design-delivery/v2/05-mockups/battle-record-v1.png",
-          "bytes": 1170607,
-          "sha256": "ebac1ae84235b12a9c0d7367803bba6cbe8355d8f86b62e68b24032399544003"
+          "bytes": 1134470,
+          "sha256": "1600de6fac229d1835c5a1998e78fe48d36070f720e5e0b8a62b1bab02c1cbcd"
         },
         {
           "path": "design-delivery/v2/05-mockups/battle-results-v1.png",
-          "bytes": 1328198,
-          "sha256": "9ed708937bc88fe6c4c44e7f90fd0166e948e58d0a0440b58cdf76b34c7dc60a"
+          "bytes": 1310352,
+          "sha256": "d3372a1428eccd160cb5e8b76d50adb4d3e072ab36e7f7a9328191b89d07dc8c"
         },
         {
           "path": "design-delivery/v2/05-mockups/campaign-landmarks-v3.png",
@@ -7436,8 +8217,8 @@
         },
         {
           "path": "design-delivery/v2/05-mockups/campaign-selection-v4.png",
-          "bytes": 1442404,
-          "sha256": "6e089b17d5fd164f8127c72f6bba30d4495da382a1a1db7250fc95b51d828586"
+          "bytes": 1437252,
+          "sha256": "b53675c16f5b8d22ba94ef918e702cf44e5cc9b5718f1f8a2fdd112280fb930c"
         },
         {
           "path": "design-delivery/v2/05-mockups/codex-v1-mobile.png",
@@ -7486,8 +8267,8 @@
         },
         {
           "path": "design-delivery/v2/05-mockups/mail-v1.png",
-          "bytes": 1057440,
-          "sha256": "8113bf2d7726b716887cad9566e30a112d7113dbe2fe6c30e6e7ff54ad7d4ec3"
+          "bytes": 997018,
+          "sha256": "23dca33cbd396ecf5001326201652e2da35a0099ed55e18ff977361abc86a5d5"
         },
         {
           "path": "design-delivery/v2/05-mockups/missions-v1-mobile.png",
@@ -7496,8 +8277,8 @@
         },
         {
           "path": "design-delivery/v2/05-mockups/missions-v1.png",
-          "bytes": 1073672,
-          "sha256": "020ecce3095e3701f313b55b210872b242ddc36ba09d615f4954ea8876e39fa7"
+          "bytes": 1093172,
+          "sha256": "7fafa596695de89b91c84a06823e568e8548f6d238fca65e5abe5cdcb7881acf"
         },
         {
           "path": "design-delivery/v2/05-mockups/portraits-v1-mobile.png",
@@ -7511,8 +8292,8 @@
         },
         {
           "path": "design-delivery/v2/05-mockups/shop-recruitment-v1.png",
-          "bytes": 1542577,
-          "sha256": "c85a69ab48c3a6846e112f9116f2548c84856000091f9dcc9f833fcc13a7c7a0"
+          "bytes": 1544098,
+          "sha256": "5d0a23af8aa35d9350bd9e6af3fe221d16255c35dc00d9f7b57f9c5fed6116ce"
         },
         {
           "path": "design-delivery/v2/05-mockups/start-v1-mobile.png",
@@ -7544,28 +8325,13 @@
     {
       "path": "asset-packs/v1/ui-previews-v1-001.zip",
       "category": "ui-previews",
-      "bytes": 6276679,
-      "sha256": "932e79f65fe0ef50560366cfa9ce579cdac799ed870e70138876b8c891f76218",
+      "bytes": 4980765,
+      "sha256": "03b72f060805d34b21413af15280f51f7b5054a0091ae5546ff7cba862d674f9",
       "files": [
         {
           "path": "game/previews/motion-v1/assets/guan-skill-cutin-v2.png",
           "bytes": 842089,
           "sha256": "61b619ab6e5492814bf31745947ad6aa46c9166aef947a518dc7136b25e7548f"
-        },
-        {
-          "path": "game/previews/motion-v1/media/preview-320.png",
-          "bytes": 338271,
-          "sha256": "2c1713f010799654aee3af0fb316fcb82a2f5c67ac4c0c80cec37c0e147366d1"
-        },
-        {
-          "path": "game/previews/motion-v1/media/preview-390.png",
-          "bytes": 477686,
-          "sha256": "85447ed8f81ff9b5188ec10784f3c4fc306fa55ac8f10f6f1c2910cb7401cf31"
-        },
-        {
-          "path": "game/previews/motion-v1/media/preview-900.png",
-          "bytes": 487601,
-          "sha256": "65959ef7b25ce1cae44046d4c147e39f8c73561544e62d568b1c0e9591783f99"
         },
         {
           "path": "game/previews/motion-v1/media/recruit.gif",

@@ -40,7 +40,7 @@ const root=path.resolve(__dirname,'../..'),read=buffer=>sharp(buffer).ensureAlph
  }
  const mounted=await page.locator('.results-v1 [data-hero="1"]').boundingBox(),standing=await page.locator('.results-v1 [data-hero="32"]').boundingBox();assert.ok(Math.abs(standing.height/mounted.height-.7)<.001,'Approved mounted/standing scale');
  const xuchu=await page.locator('.results-v1 [data-hero="xuchu"]').boundingBox();assert.ok(Math.abs(xuchu.height/mounted.height-.85)<.001,'Larger Xu Chu silhouette');
- const frames=await page.evaluate(async()=>{const {renderNineSlice}=await import('./nine-slice.js'),out=[];for(const tone of ['blue','green'])for(const [w,h] of [[281,64],[901,518],[901,254],[240,140],[901,130],[901,78],[582,118]])out.push({tone,w,h,url:await renderNineSlice(tone,w,h)});return out;});
+ const frames=await page.evaluate(async()=>{const {renderNineSlice}=await import('./nine-slice.js'),out=[];for(const tone of ['blue','green'])for(const [w,h] of [[281,64],[901,518],[901,254],[240,140],[901,130],[901,78],[582,118]])out.push({tone,w,h,url:await renderNineSlice(tone,w,h,{stablePixels:true})});return out;});
  const corners={};for(const f of frames){const png=Buffer.from(f.url.split(',')[1],'base64'),parts=[];
   for(const [left,top] of [[0,0],[f.w-28,0],[0,f.h-28],[f.w-28,f.h-28]])parts.push(await sharp(png).extract({left,top,width:28,height:28}).raw().toBuffer());
   if(!corners[f.tone])corners[f.tone]=parts;else parts.forEach((part,i)=>assert.ok(part.equals(corners[f.tone][i]),'Fixed corner ornament'));report.frames.push({tone:f.tone,width:f.w,height:f.h,identicalCorners:true});

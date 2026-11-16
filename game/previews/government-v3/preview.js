@@ -1,4 +1,6 @@
 import {districtButton} from './districts.js';
+import {decorateStatic} from '../../ui-polish.js';
+{const polishRoot=document.querySelector('.game');let queued=false;new MutationObserver(()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;decorateStatic(polishRoot);});}).observe(polishRoot,{childList:true,subtree:true,characterData:true});}
 import {artworkShell} from '../../ui-shell.js';
 import {placeArtwork,uiComponentsReady} from '../../art-controls.js';
 import {paintArtworkLayout} from '../../art-layout.js';

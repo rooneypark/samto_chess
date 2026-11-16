@@ -39,7 +39,7 @@ async function press(page,button){
  // The selected tab must retain every cream/highlight pixel from the source lettering.
  const original=await read(await fs.readFile(path.join(root,'game/assets/ui-common/nav-shop.png'))),selected=await read(await fs.readFile(path.join(root,'game/assets/shop-v2/nav-shop-selected.png')));
  let strokes=0;for(let y=88;y<133;y++)for(let x=33;x<146;x++){const i=(y*178+x)*4;if(original.data[i]>125&&original.data[i+1]>125&&original.data[i+2]>90){assert.ok(original.data.subarray(i,i+4).equals(selected.data.subarray(i,i+4)));strokes++;}}assert.ok(strokes>300);
- const frames=await page.evaluate(async()=>{const {renderNineSlice}=await import('./nine-slice.js'),out=[];for(const tone of ['blue','green'])for(const [w,h] of [[180,60],[281,74],[350,138],[425,72],[500,138],[901,488],[700,190]])out.push({tone,w,h,url:await renderNineSlice(tone,w,h)});return out;});
+ const frames=await page.evaluate(async()=>{const {renderNineSlice}=await import('./nine-slice.js'),out=[];for(const tone of ['blue','green'])for(const [w,h] of [[180,60],[281,74],[350,138],[425,72],[500,138],[901,488],[700,190]])out.push({tone,w,h,url:await renderNineSlice(tone,w,h,{stablePixels:true})});return out;});
  const corners={};for(const f of frames){const png=Buffer.from(f.url.split(',')[1],'base64'),{data}=await read(png),parts=[];
   for(const [x,y] of [[0,0],[f.w-28,0],[0,f.h-28],[f.w-28,f.h-28]])parts.push(await sharp(png).extract({left:x,top:y,width:28,height:28}).raw().toBuffer());
   if(!corners[f.tone])corners[f.tone]=parts;else parts.forEach((p,i)=>assert.ok(p.equals(corners[f.tone][i]),'Corner ornament changed'));

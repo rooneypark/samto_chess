@@ -1,0 +1,186 @@
+{
+  "generator": "built-in image_gen",
+  "prompt": "Three Kingdoms chunky pixel icon, dark navy outlines, 16 colors, transparent exterior, 96x96 target, 6px margins, no text except faction characters",
+  "icons": [
+    {
+      "name": "tile-exchange",
+      "subject": "two small goods crates with two exchange arrows",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-73f16041-19ae-4e9f-88b3-059539f21e67.png"
+    },
+    {
+      "name": "tile-s-select",
+      "subject": "hero command tablet with a gold seal",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-90ad430b-a648-4698-949a-60cb8f02f1b5.png"
+    },
+    {
+      "name": "tile-products",
+      "subject": "supply chest containing cyan diamonds",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-d5e45352-57ba-435b-aa1a-3bc9a718ae2f.png"
+    },
+    {
+      "name": "tile-attend",
+      "subject": "attendance ledger with red seal no writing",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-80ab1827-da84-424a-b122-07cebaa52e3e.png"
+    },
+    {
+      "name": "tile-guild-shop",
+      "subject": "small market stall with alliance flag",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-8d29c3aa-2880-46c5-a9da-555f69b9905a.png"
+    },
+    {
+      "name": "tile-research",
+      "subject": "open bamboo scroll and brush",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-ebba90af-ce7e-44fa-9177-85a86c3d86c2.png"
+    },
+    {
+      "name": "tile-manage",
+      "subject": "military command tablet and flag",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-d6ebb753-35d7-4df3-ba8c-836c56182c59.png"
+    },
+    {
+      "name": "tile-supply",
+      "subject": "wooden cart carrying rice sacks",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-3d4a88a7-b65a-44d2-9378-aac2a8374a75.png"
+    },
+    {
+      "name": "tile-donate",
+      "subject": "pouch filled with gold coins",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-cd2f077c-c3c6-46c9-a9e0-637e62ed921c.png"
+    },
+    {
+      "name": "tile-raid",
+      "subject": "enemy warrior helmet behind crossed swords",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-9e11e086-c324-4ca7-9ad2-b8905d07fbc7.png"
+    },
+    {
+      "name": "tile-next",
+      "subject": "two warrior silhouettes surrounded by circular arrows",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-c8a5746b-ad6f-41b7-b3ba-74e1fa1cc802.png"
+    },
+    {
+      "name": "tile-rules",
+      "subject": "scroll bearing a balance scale symbol",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-8852e3ae-ad3a-4791-b235-e78987736e96.png"
+    },
+    {
+      "name": "tile-merit-shop",
+      "subject": "chest bearing military medal",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-4ef94ee1-2a73-4196-b1cc-f6ba3ddf6443.png"
+    },
+    {
+      "name": "tile-battle",
+      "subject": "crossed swords with a small flame",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-e723076d-27af-4cae-a608-b548aaef006b.png"
+    },
+    {
+      "name": "reward-hero-token",
+      "subject": "blue token engraved with warrior face",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-39036c02-2005-4d18-9f1e-d3c96309038e.png"
+    },
+    {
+      "name": "reward-treasure-token",
+      "subject": "bronze token engraved with treasure symbol",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-ab0474be-0d53-4422-bef4-10fa24574af1.png"
+    },
+    {
+      "name": "reward-ticket",
+      "subject": "green training ticket bearing barracks pictogram",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-862a5ff7-f532-4a32-8cfb-f58e532a5476.png"
+    },
+    {
+      "name": "reward-s-shard",
+      "subject": "golden star fragment",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-c1054e9b-672a-4654-b64f-7d69baa88c68.png"
+    },
+    {
+      "name": "reward-merit",
+      "subject": "military medal with red tassel",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-d9c51830-a4ea-49ff-8ee9-fe6df0f96f4d.png"
+    },
+    {
+      "name": "reward-provisions",
+      "subject": "rice sack",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-440695d1-c350-434a-b492-4147fbfbc66e.png"
+    },
+    {
+      "name": "reward-contribution",
+      "subject": "purple token engraved with alliance flag",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-69c70301-9a3c-43cd-95b9-ac56a50888dd.png"
+    },
+    {
+      "name": "faction-wei",
+      "subject": "blue #4A82B8 shield bearing single Chinese character 魏",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-94899dac-66bd-493a-a22b-86a313f61c8d.png"
+    },
+    {
+      "name": "faction-shu",
+      "subject": "green #3E9B62 shield bearing single Chinese character 蜀",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-2db20cb1-d663-4973-913f-4124662e0dd6.png"
+    },
+    {
+      "name": "faction-wu",
+      "subject": "red #B8483E shield bearing single Chinese character 吳",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-02f72af3-5a62-4739-94d8-40aa8a7fcc6e.png"
+    },
+    {
+      "name": "faction-qun",
+      "subject": "purple #7A6C9B shield bearing single Chinese character 群",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-88800924-2e23-4d58-871c-4cc3031eccda.png"
+    },
+    {
+      "name": "product-first",
+      "subject": "gift box tied with red ribbon",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-627408bd-1ab5-40b6-b27a-d759209d2e05.png"
+    },
+    {
+      "name": "product-monthly",
+      "subject": "small calendar with cyan diamond, no writing or numbers",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-c34b5b37-162e-4bca-8596-7c0fe46e337b.png"
+    },
+    {
+      "name": "product-fund",
+      "subject": "ascending stacks of gold coins and upward arrow",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-518aceb2-ff59-4496-8059-69b9008fbbbe.png"
+    },
+    {
+      "name": "product-d60",
+      "subject": "one cyan diamond",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-46eea53a-2a66-443d-8b2b-8412e150e7e6.png"
+    },
+    {
+      "name": "product-d320",
+      "subject": "small handful of four cyan diamonds",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-9c3a3243-9b94-40ef-b843-9fe277ad6b69.png"
+    },
+    {
+      "name": "product-d700",
+      "subject": "small pouch filled with cyan diamonds",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-634c8c40-c695-4f98-a816-18541f7d209d.png"
+    },
+    {
+      "name": "product-d2300",
+      "subject": "small chest filled with cyan diamonds",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-71475791-ca4b-4e6a-8546-d813aeffea4b.png"
+    },
+    {
+      "name": "product-d4300",
+      "subject": "large chest overflowing with many cyan diamonds",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-0ce4b364-7b8a-4df7-a8e9-769edba0231e.png"
+    },
+    {
+      "name": "product-d8400",
+      "subject": "large wooden cart piled high with cyan diamonds",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-c16170c4-b435-41ac-b376-ff6ec629922e.png"
+    },
+    {
+      "name": "empty-state",
+      "subject": "empty open chest in calm muted gray blue",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-a18c38b2-d4b6-4766-a2a4-a2af6b1f7552.png"
+    },
+    {
+      "name": "lock",
+      "subject": "closed padlock with gray blue body and silver shackle",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1e2e7-7ee3-7732-8982-f442e0590219\\exec-65604edc-4e07-4b99-8b9e-73b8b868e1d4.png"
+    }
+  ]
+}

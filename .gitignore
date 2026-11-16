@@ -52,3 +52,6 @@ __pycache__/
 /design-delivery/**/*.ico
 
 /delete-review-2026-11-15/
+
+# Side bundle of ZIPs (binaries never go to Git; the same files are in the assets-v1 release).
+/asset-packs/zhaoyun-final-v1/

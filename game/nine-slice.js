@@ -36,6 +36,8 @@ export async function renderNineSlice(tone,width,height,{corner=nineSliceFrames[
 // All callers keep the shared art-controls pointer/keyboard behavior.
 export async function nineSlice(el,tone,{box,button=true,center=true,corner=nineSliceFrames[tone]?.corner??28,stablePixels=false,fitCorner=false}={}){
  if(box)placeArtwork(el,box);
+ // Buttons use the richer '<tone>-button' frame when one is defined; panels keep the plain frame.
+ const source=button&&nineSliceFrames[tone+'-button']?tone+'-button':tone;
  let entry=instances.get(el);
  if(!entry){
   entry={revision:0};instances.set(el,entry);
@@ -48,13 +50,13 @@ export async function nineSlice(el,tone,{box,button=true,center=true,corner=nine
   // dimensions changed. No shared bitmap cache or altered slicing rules.
   const radius=Math.round(corner*scale*dpr);
   const actualCorner=fitCorner?Math.min(radius,Math.floor(Math.min(r.width,r.height)*dpr/2)):radius;
-  const key=[tone,Math.round(r.width*dpr),Math.round(r.height*dpr),actualCorner,center,stablePixels].join(':');
+  const key=[source,Math.round(r.width*dpr),Math.round(r.height*dpr),actualCorner,center,stablePixels].join(':');
   if(entry.pending?.key===key)return entry.pending.promise;
   const revision=++entry.revision;
   entry.pending=null;
   if(entry.lastKey===key)return;
   const promise=(async()=>{
-    const image=await renderNineSlice(tone,r.width*dpr,r.height*dpr,{corner:actualCorner,center,stablePixels});
+    const image=await renderNineSlice(source,r.width*dpr,r.height*dpr,{corner:actualCorner,center,stablePixels});
     if(revision!==entry.revision||!el.isConnected||instances.get(el)!==entry)return;
     el.style.setProperty('--art-image',`url("${image}")`);el.style.backgroundImage=`url("${image}")`;el.style.backgroundSize='100% 100%';el.dataset.nineSlice=tone;
     entry.lastKey=key;

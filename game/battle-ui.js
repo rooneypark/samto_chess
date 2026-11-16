@@ -1,5 +1,6 @@
 import {artButton,initArtPress} from './art-controls.js';
 import {artSet} from './art.js';
+import {renderSynergy} from './synergy-chips.js';
 import {artworkHeader} from './ui-shell.js';
 import {battleSprites} from './assets/battle-v2/sprites.js';
 import {chapters,stageOf,stageName} from './stages.js';
@@ -54,7 +55,7 @@ export function skinBattle(root,run,bonds,selected=null){
   if(capacity)capacity.textContent='출전 '+run.units.filter(u=>u.y>=0).length+'/'+run.capacity;
  }
  if(!root.querySelector('#battle-bonds')){const bar=document.createElement('button');bar.type='button';bar.id='battle-bonds';bar.className='battle-bonds';bar.setAttribute('role','button');bar.tabIndex=0;root.append(bar);}
- const synergy=root.querySelector('#battle-bonds');synergy.textContent='세력 시너지 · '+bonds;synergy.setAttribute('aria-label','세력 시너지와 인연 상세');synergy.classList.add('battle-press-control');
+ const synergy=root.querySelector('#battle-bonds');renderSynergy(synergy,bonds);synergy.setAttribute('aria-label','세력 시너지와 인연 상세');synergy.classList.add('battle-press-control');
  // Selection belongs to the board layer, below every character (including neighbours).
  const units=run.phase==='prepare'?run.units:(run.battle?.units??run.units),chosen=units.find(u=>u.id===selected);
  root.querySelectorAll('.battle-cell').forEach(cell=>{

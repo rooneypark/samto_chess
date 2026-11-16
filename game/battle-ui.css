@@ -41,22 +41,22 @@
  .bench-cell.bench-cell{border:0;border-image:none;background:none;padding:0;overflow:visible;z-index:3}
  .bench-cell.bench-cell:active{translate:none}
  .battle-equipment{display:flex;gap:1.2cqw;overflow-x:auto;overflow-y:hidden;z-index:3}
- .battle-equipment button{position:relative;flex:0 0 31.2%;height:100%;padding:0;border:0;background-color:transparent;background-size:100% 100%;font-size:2.5cqw}
+ .battle-equipment button{position:relative;flex:0 0 31.2%;height:100%;padding:0;border:0;background-color:transparent;background-size:100% 100%;font-size:max(2.5cqw,9px)}
  .battle-equipment small{position:absolute;bottom:7%;right:10%;background:#182c40;color:#fff0cc}
  .is-preparing .life,.is-preparing .mana{display:none}
  :scope.is-preparing .life,:scope.is-preparing .mana,:scope.is-preparing .unit-ground{display:none}
- .unit-rank{top:70%;font-family:Georgia,serif;font-size:2.6cqw;line-height:1;background:#fff0c8;color:#152339;border:1px solid #9f845c;padding:0 .3cqw;text-shadow:none}
+ .unit-rank{top:70%;font-family:Georgia,serif;font-size:max(2.6cqw,9px);line-height:1;background:#fff0c8;color:#152339;border:1px solid #9f845c;padding:0 .3cqw;text-shadow:none}
  .enemy .unit-rank{display:none}
- .bench-cell .unit-rank{top:88%;font-size:2.3cqw}
+ .bench-cell .unit-rank{top:88%;font-size:max(2.3cqw,9px)}
  .merge-label{display:none}
  .battle-piece.selected::after,.battle-piece.mergeable::after{inset:0;box-sizing:border-box;border-color:#8cf6b3}
  .battle-position .battle-piece.selected::after,.battle-position .battle-piece.mergeable::after{display:none}
  .bench-cell .battle-piece.selected::after,.bench-cell .battle-piece.mergeable::after{inset:0;box-sizing:border-box;border-color:#8cf6b3}
  .bench-cell .battle-piece::after{z-index:0}
  .bench-cell .unit-sprite{z-index:1}
- .merge-success{top:-10%;font-size:2.4cqw}
- .unit-gear{top:91%;font-size:1.8cqw}
- .unit-status{font-size:2cqw}
+ .merge-success{top:-10%;font-size:max(2.4cqw,9px)}
+ .unit-gear{top:91%;font-size:max(1.8cqw,9px)}
+ .unit-status{font-size:max(2cqw,9px)}
  .battle-piece{position:relative}
  .approved-unit{image-rendering:pixelated;filter:none}
  :scope.is-fighting::after,:scope.is-result::after{content:'';position:absolute;left:2.3%;right:2.3%;top:65.2%;bottom:7.1%;background:#1a2c42;border:1px solid #8ca2b9;z-index:0;pointer-events:none}
@@ -74,7 +74,7 @@
  .battle-live-count{font-size:3.1cqw;color:#fff0c9;display:flex;align-items:center;justify-content:center;background:#172c42;z-index:4}
  .battle-timer{font-size:3.5cqw;background:none;border:0;padding:0}
  .battle-header-tools #battle-header-pause{color:#fff0c9;background:#1b354b;border:2px solid #cbb47a;font-size:4.8cqw;padding:0;z-index:4}
- .live-hint{top:63%!important;height:2.2%!important;font-size:2.6cqw;background:#172c42;color:#ffd6a1}
+ .live-hint{top:63%!important;height:2.2%!important;font-size:max(2.6cqw,9px);background:#172c42;color:#ffd6a1}
  .live-hint:empty{display:none}
  .tutorial-guide{top:7%;font-size:clamp(10px,2.7cqw,15px)}
 }

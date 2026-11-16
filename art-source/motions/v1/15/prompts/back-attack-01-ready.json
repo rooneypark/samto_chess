@@ -1,0 +1,18 @@
+{
+  "action": "Lower the spear from upright guard to the exact low foreshortened preparation pose. Bend right elbow back at waist. Keep horse stationary. Rear view locked. Exactly two arms, right hand grips one rigid straight spear, left hand stays at saddle. Horse hooves fixed, same scale. White cape, silver blue armor. No turn, extra limbs, swing, effects or background.",
+  "frame_count": 4,
+  "seed": 161261,
+  "no_background": true,
+  "enhance_prompt": false,
+  "historicalInputs": [
+    {
+      "file": "C:\\Users\\user\\Documents\\GitHub\\samto_chess\\test-artifacts\\zhaoyun-back-thrust-v1\\idle.png",
+      "sha256": "a3793b01568e500d05ac03f6d8c3e4e9a3f18f5dcbcdf07d712dd65b2bd3572a"
+    },
+    {
+      "file": "C:\\Users\\user\\Documents\\GitHub\\samto_chess\\test-artifacts\\zhaoyun-back-thrust-v1\\windup.png",
+      "sha256": "c3c1e6159d237f17366f942f9fe0763fe384dd6633d690680042ea77cd2b8b99"
+    }
+  ],
+  "note": "Original request provenance; retired input paths are not runtime dependencies."
+}

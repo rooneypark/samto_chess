@@ -1,0 +1,11 @@
+{
+  "reviewStatus": "approved",
+  "frames": 10,
+  "canvas": [
+    48,
+    48
+  ],
+  "central40BoundsPass": true,
+  "lastFrameTransparent": true,
+  "runtimeApplied": false
+}

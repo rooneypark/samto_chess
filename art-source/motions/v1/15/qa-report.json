@@ -1,0 +1,13 @@
+{
+  "reviewStatus": "approved",
+  "existingFramesUnchanged": 33,
+  "clips": 10,
+  "playbackFrames": 123,
+  "newFramesVerified": 90,
+  "canvas": [
+    256,
+    256
+  ],
+  "runtimeApplied": false,
+  "sidePlacement": "per-clip anchor/drawOffset required; no crop or resize"
+}

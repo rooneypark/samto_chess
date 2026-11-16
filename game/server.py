@@ -19,6 +19,12 @@ class PreviewServer(ThreadingHTTPServer):
 
 
 class Handler(SimpleHTTPRequestHandler):
+    # Keep-alive: without it every module, style and image opens its own connection, and a burst of page
+    # loads (the browser checks) runs Windows out of local ports (net::ERR_ADDRESS_IN_USE), which left a
+    # module unloaded and the game stuck on its loading state.
+    protocol_version = "HTTP/1.1"
+    timeout = 30  # drop idle keep-alive connections
+
     def end_headers(self):
         # Development previews must not combine cached old modules with new UI.
         self.send_header("Cache-Control", "no-store")
@@ -29,6 +35,7 @@ class Handler(SimpleHTTPRequestHandler):
         if route == "/":
             self.send_response(302)
             self.send_header("Location", "/game/")
+            self.send_header("Content-Length", "0")
             self.end_headers()
             return
         if not route.startswith(("/game/", "/docs/ui/")) or ".." in route.split("/"):

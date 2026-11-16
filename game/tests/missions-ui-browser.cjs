@@ -45,7 +45,7 @@ const root=path.resolve(__dirname,'../..'),read=buffer=>sharp(buffer).ensureAlph
   assert.equal(await view.locator('.mission').count(),tab==='week'?5:tab==='day'?4:3);
   await page.screenshot({path:artifact('missions-v1',tab+'.png')});await pressChecks(tab);report.states.push(tab);
  }
- const frames=await page.evaluate(async()=>{const {renderNineSlice}=await import('./nine-slice.js'),out=[];for(const tone of ['blue','green'])for(const [w,h] of [[901,254],[120,110],[289,74],[901,116],[901,90],[901,146],[239,74],[901,64]])out.push({tone,w,h,url:await renderNineSlice(tone,w,h)});return out;});
+ const frames=await page.evaluate(async()=>{const {renderNineSlice}=await import('./nine-slice.js'),out=[];for(const tone of ['blue','green'])for(const [w,h] of [[901,254],[120,110],[289,74],[901,116],[901,90],[901,146],[239,74],[901,64]])out.push({tone,w,h,url:await renderNineSlice(tone,w,h,{stablePixels:true})});return out;});
  const corners={};for(const f of frames){const png=Buffer.from(f.url.split(',')[1],'base64'),parts=[];
   for(const [left,top] of [[0,0],[f.w-28,0],[0,f.h-28],[f.w-28,f.h-28]])parts.push(await sharp(png).extract({left,top,width:28,height:28}).raw().toBuffer());
   if(!corners[f.tone])corners[f.tone]=parts;else parts.forEach((part,i)=>assert.ok(part.equals(corners[f.tone][i]),'Fixed corner ornament'));report.frames.push({tone:f.tone,width:f.w,height:f.h,identicalCorners:true});

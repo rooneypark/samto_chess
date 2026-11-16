@@ -1,0 +1,18 @@
+{
+  "action": "White contact core rapidly dims and contracts. Tiny teal fragments disperse a short distance and fade. No second flash. Match exact final remnant. Isolated compact silver-white and teal pixel art spear impact VFX only. Fixed center, transparent background, crisp pixel clusters, no character or weapon, no camera motion. All sparks stay near center within 200x200 of this 256 canvas. Preserve short straight horizontal piercing streak. No ring, smoke, explosion, or curved slash.",
+  "frame_count": 4,
+  "seed": 181462,
+  "no_background": true,
+  "enhance_prompt": false,
+  "historicalInputs": [
+    {
+      "file": "C:\\Users\\user\\Documents\\GitHub\\samto_chess\\test-artifacts\\zhaoyun-impact-v1\\windup.png",
+      "sha256": "44b0188cc36e20383875f385e907a8be66aac1b6f2aa3b2638c691bf53ca7a36"
+    },
+    {
+      "file": "C:\\Users\\user\\Documents\\GitHub\\samto_chess\\test-artifacts\\zhaoyun-impact-v1\\extension.png",
+      "sha256": "eb051d8c82bc2ecbaa50a6b32dd5e84d6274cc4bca67558703f495b7d1508577"
+    }
+  ],
+  "note": "Original request provenance; retired input paths are not runtime dependencies."
+}

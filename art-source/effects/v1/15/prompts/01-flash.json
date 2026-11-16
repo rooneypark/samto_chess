@@ -1,0 +1,18 @@
+{
+  "action": "Energy compresses then gives ONE sharp white central contact flash, with tiny teal angular sparks. Match exact end frame. Isolated compact silver-white and teal pixel art spear impact VFX only. Fixed center, transparent background, crisp pixel clusters, no character or weapon, no camera motion. All sparks stay near center within 200x200 of this 256 canvas. Preserve short straight horizontal piercing streak. No ring, smoke, explosion, or curved slash.",
+  "frame_count": 4,
+  "seed": 181461,
+  "no_background": true,
+  "enhance_prompt": false,
+  "historicalInputs": [
+    {
+      "file": "C:\\Users\\user\\Documents\\GitHub\\samto_chess\\test-artifacts\\zhaoyun-impact-v1\\idle.png",
+      "sha256": "991434d87c95125f3697e5106b7839c582046fdd517fe92f0d2f008ed2a2cb6b"
+    },
+    {
+      "file": "C:\\Users\\user\\Documents\\GitHub\\samto_chess\\test-artifacts\\zhaoyun-impact-v1\\windup.png",
+      "sha256": "44b0188cc36e20383875f385e907a8be66aac1b6f2aa3b2638c691bf53ca7a36"
+    }
+  ],
+  "note": "Original request provenance; retired input paths are not runtime dependencies."
+}

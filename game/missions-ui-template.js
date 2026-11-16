@@ -2,7 +2,7 @@ import {artworkFooter} from './artwork-screen-template.js';
 export const missionsTemplate=`
  <button id="barracks-back" aria-label="뒤로"></button>
  <div class="wallet"><button aria-label="골드"></button><button aria-label="다이아"></button></div>
- <h1 class="scroll-heading" data-box="22,153,895,90">승전으로 쌓는 공적</h1>
+ <h1 class="scroll-heading" data-box="22,153,895,90">임무와 보상</h1>
  <section class="attendance-panel" data-box="20,264,901,254"><div class="panel-frame" data-frame="blue"></div></section>
  <h2 class="attendance-title" data-box="50,286,400,45">매일 출석 보상</h2>
  <p class="attendance-copy" data-box="50,335,470,32">오늘은 3일차 · 무료 다이아 20</p>

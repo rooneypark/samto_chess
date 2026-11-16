@@ -1,0 +1,18 @@
+{
+  "action": "From upright left-facing guard lower the one spearhead forward to screen-left aiming down-left, and draw spear fist back toward ribs. Prepare only. Spear slopes DOWN LEFT toward a lower target, exactly two distinct arms. Lower hand remains on saddle/reins. Locked left profile, fixed framing. White horse anchored on planted hooves. Same face, armor and reins. One silver spearhead and blue tassel, same shaft length. No blink, movement of horse, effects, or background.",
+  "frame_count": 4,
+  "seed": 161261,
+  "no_background": true,
+  "enhance_prompt": false,
+  "historicalInputs": [
+    {
+      "file": "C:\\Users\\user\\Documents\\GitHub\\samto_chess\\test-artifacts\\zhaoyun-side-thrust-v2\\idle.png",
+      "sha256": "05384d1725b82d40bbb6aaa8524c0c29a4542df1e2401a77de53612bd479e5fc"
+    },
+    {
+      "file": "C:\\Users\\user\\Documents\\GitHub\\samto_chess\\test-artifacts\\zhaoyun-side-thrust-v2\\windup.png",
+      "sha256": "b95e9a316f7b8083dd3f05053011b58dba6b418f976cfaae3af400844c41db4b"
+    }
+  ],
+  "note": "Original request provenance; retired input paths are not runtime dependencies."
+}

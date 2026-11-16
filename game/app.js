@@ -1,3 +1,5 @@
+import {initPolish} from './ui-polish.js';
+import {initFit} from './fit.js';
 import {createToast} from './toast.js';
 import {initArenaOpponents} from './arena-opponents-screen.js';
 import {initArenaSeason} from './arena-season-screen.js';
@@ -60,6 +62,7 @@ const modal = document.querySelector('#modal');
 const body = document.querySelector('#modal-body');
 const gameDialog = createGameDialog(modal,{artwork:artSet==='a'});
 const store = await bootStore(gameDialog);
+initPolish({store,game});initFit(game);
 let state = store.get();
 const gateLobby = initGateLobby(game,store);
 store.subscribe(next => { state = next; { const l = lordLevel(state), small = document.querySelector('.profile small'); if (small) { small.textContent = 'Lv.' + l.level; document.querySelector('.xp i').style.width = (l.next ? Math.round(l.xp / l.next * 100) : 100) + '%'; } } game.classList.toggle('reduce-motion',state.reducedMotion);game.classList.toggle('large-text',!!state.preferences?.largeText);document.body.classList.toggle('large-text',!!state.preferences?.largeText);game.classList.toggle('reduced-fx',!!state.preferences?.reducedFx); });

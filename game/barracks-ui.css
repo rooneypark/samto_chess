@@ -12,7 +12,7 @@
  .hero-stage img.general-original{position:absolute;left:54%;top:calc(2% + var(--general-foot-offset) * .96);height:calc(96% * var(--general-ratio));width:auto;max-width:none;max-height:none;transform:translateX(-50%)}
  .barracks-value{position:absolute;display:flex;align-items:center;justify-content:flex-start;color:#fff0cd;pointer-events:none;font:bold 3.8cqw Georgia,'Batang',serif;line-height:1.1;white-space:nowrap;z-index:3}
  .hero-name{font-size:6cqw}.hero-name:has(+.hero-grade){letter-spacing:-.1cqw}
- .hero-role{font-size:2.3cqw;justify-content:center}.hero-grade{font-size:4cqw;justify-content:center;color:#ffe08a}
+ .hero-role{font-size:max(2.3cqw,9px);justify-content:center}.hero-grade{font-size:4cqw;justify-content:center;color:#ffe08a}
  .hero-level{font-size:3.6cqw}.hero-stat{font-size:3.4cqw;justify-content:flex-end}
  .hero-level-bar{background:#14243a;border-radius:2px;padding:0;overflow:hidden}
  .hero-level-bar i{display:block;height:100%;background:linear-gradient(#6ada9d,#269951);box-shadow:inset 0 1px #a0e6b8}
@@ -31,7 +31,7 @@
  .roster-card>div{display:flex;flex:1;min-width:0;flex-direction:column;gap:1.3cqw;align-items:flex-start;margin-top:3cqw}
  .roster-card strong{font-size:3.7cqw;letter-spacing:-.2cqw;white-space:nowrap}
  .roster-card div span{font-size:3.4cqw;white-space:nowrap}
- .roster-card small{top:1.9cqw;right:2.4cqw;background:#164a3b;border:1px solid #b9aa70;color:#fbeecf;font-size:2.1cqw;padding:.35cqw .8cqw}
+ .roster-card small{top:1.9cqw;right:2.4cqw;background:#164a3b;border:1px solid #b9aa70;color:#fbeecf;font-size:max(2.1cqw,9px);padding:.35cqw .8cqw}
  .roster-card .card-grade,.roster-card em{display:none}
  .empty-roster{font-size:3cqw;padding:8cqw 1cqw}
  .faction-filters .art-control{background:url('assets/barracks-v2/filter-face.png') center/100% 100%;font:bold 3.3cqw Georgia,'Batang',serif;color:#fff0cf}

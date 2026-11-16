@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "15",
+  "name": "조운",
+  "pathBase": "repository-root",
+  "reviewStatus": "approved",
+  "approvedDate": "2026-11-16",
+  "runtimeApplied": false,
+  "effects": [
+    {
+      "effectId": "zhaoyun-skill-impact",
+      "role": "impact",
+      "canvas": [
+        48,
+        48
+      ],
+      "visibleRect": [
+        4,
+        4,
+        40,
+        40
+      ],
+      "tileAnchor": [
+        24,
+        24
+      ],
+      "blend": "source-over",
+      "playMode": "once",
+      "eventBinding": "actual skill damage event; engine wiring pending",
+      "targetBinding": "each actual primary/additional target cell; default simultaneous",
+      "frames": [
+        {
+          "file": "art-source/effects/v1/15/final/impact/000.png",
+          "durationMs": 35,
+          "visibleBounds": [
+            14,
+            15,
+            40,
+            29
+          ],
+          "sha256": "1abfe12da5d838084a58299112095f31c1c4356ebd57eb147460317ad4ab3dac"
+        },
+        {
+          "file": "art-source/effects/v1/15/final/impact/001.png",
+          "durationMs": 35,
+          "visibleBounds": [
+            16,
+            20,
+            34,
+            29
+          ],
+          "sha256": "817df3a32b9de8a77efe7cad7882a56e3bade3815fe2a3a92a9c7256e4035f8e"
+        },
+        {
+          "file": "art-source/effects/v1/15/final/impact/002.png",
+          "durationMs": 35,
+          "visibleBounds": [
+            8,
+            16,
+            39,
+            32
+          ],
+          "sha256": "bc48c12b7a24ef13b62911a68738aa3788dd360bc4885c8c41e01b912ecedd20"
+        },
+        {
+          "file": "art-source/effects/v1/15/final/impact/003.png",
+          "durationMs": 50,
+          "visibleBounds": [
+            8,
+            15,
+            40,
+            33
+          ],
+          "sha256": "c21a539b006a1c4431836d6cc1fa225a5815b913e731fc54529b0ff45520a7b2"
+        },
+        {
+          "file": "art-source/effects/v1/15/final/impact/004.png",
+          "durationMs": 35,
+          "visibleBounds": [
+            8,
+            17,
+            34,
+            30
+          ],
+          "sha256": "569570b7a90df1cadaf82d7cf246dbac56c3a84f3163f36cdd53397f7d794f78"
+        },
+        {
+          "file": "art-source/effects/v1/15/final/impact/005.png",
+          "durationMs": 35,
+          "visibleBounds": [
+            14,
+            22,
+            28,
+            27
+          ],
+          "sha256": "f7e85801d7d40850bf5ad6c42977907ce1b51717c3b7506fe07bc5927f2d0488"
+        },
+        {
+          "file": "art-source/effects/v1/15/final/impact/006.png",
+          "durationMs": 35,
+          "visibleBounds": [
+            17,
+            21,
+            31,
+            27
+          ],
+          "sha256": "fd2ceaa64577edc57c5fd7db58e770e9b67741ab50b753a7cc55af0f9e3e01eb"
+        },
+        {
+          "file": "art-source/effects/v1/15/final/impact/007.png",
+          "durationMs": 35,
+          "visibleBounds": [
+            17,
+            21,
+            31,
+            27
+          ],
+          "sha256": "cb5346352c58b81a197e200275878f80e96b1e0a2672420d66814ab985d1de3d"
+        },
+        {
+          "file": "art-source/effects/v1/15/final/impact/008.png",
+          "durationMs": 35,
+          "visibleBounds": [
+            17,
+            21,
+            31,
+            27
+          ],
+          "sha256": "078adad8aaa9f6ebf5c38543dbce6b7c37c429cfbfa64748cf398d3f3a382fa0"
+        },
+        {
+          "file": "art-source/effects/v1/15/final/impact/009.png",
+          "durationMs": 35,
+          "visibleBounds": null,
+          "sha256": "ce262f8cde6c8a1be92e54dfca5205e750d7be9795119e8868278f60ebacfcd3"
+        }
+      ],
+      "assetVersion": "v1"
+    }
+  ],
+  "assetVersion": "v1",
+  "baseline": "zhaoyun-final-v1"
+}

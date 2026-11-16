@@ -1,0 +1,8 @@
+{
+  "method": "imagegen localized edit, retain original rows0..229; assemble generated transparent bottom rows230..255",
+  "unchangedUpperRows": true,
+  "groundAlphaZero": true,
+  "source": "C:\\Users\\user\\Documents\\GitHub\\samto_chess\\test-artifacts\\liaohua-diagonal-attack-v1\\side\\02-cut\\03.png",
+  "generatorSource": "C:/Users/user/.codex/generated_images/01a1e18f-a0c0-7ed3-be43-42329a7e1756/exec-75a14877-e51c-459a-a5d6-9dc1da7c3613.png",
+  "sourceSha256": "c361d58b4cd4202efe6790ec5e13bbc6a09bda9c0985de979032963d35bc1f3c"
+}

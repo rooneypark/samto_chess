@@ -1,6 +1,6 @@
 @scope (.rates-runtime){
-.art-header-title{font-size:4.5cqw}.copy{font-size:2.9cqw;color:#bfd0dd;line-height:1.5}.rate-card{font-size:3.6cqw!important;gap:1cqw}.rate-card small{font-size:2.6cqw;color:#c0d1dd}.pool-tab,.home-back{font-size:3.3cqw!important}.names{font-size:3cqw;color:#bfd0dd;line-height:1.7;overflow:auto}.chance{font-size:3.5cqw;color:#ffe0a1}.rules{font-size:2.9cqw;line-height:1.7;white-space:pre-line;color:#c4d4df}.hint{font-size:2.6cqw;text-align:center;color:#b9cddd}
+.art-header-title{font-size:4.5cqw}.copy{font-size:2.9cqw;color:#bfd0dd;line-height:1.5}.rate-card{font-size:3.6cqw!important;gap:1cqw}.rate-card small{font-size:max(2.6cqw,9px);color:#c0d1dd}.pool-tab,.home-back{font-size:3.3cqw!important}.names{font-size:3cqw;color:#bfd0dd;line-height:1.7;overflow:auto}.chance{font-size:3.5cqw;color:#ffe0a1}.rules{font-size:2.9cqw;line-height:1.7;white-space:pre-line;color:#c4d4df}.hint{font-size:max(2.6cqw,9px);text-align:center;color:#b9cddd}
 
 }
 
-.pickup-rates .names{white-space:pre-line}.pickup-rates .rules{font-size:2.8cqw}
+.pickup-rates .names{white-space:pre-line}.pickup-rates .rules{font-size:max(2.8cqw,9px)}

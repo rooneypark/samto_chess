@@ -2,9 +2,11 @@ import {placeArtwork,uiComponentsReady} from '../../art-controls.js';
 import {artworkShell} from '../../ui-shell.js';
 import {generals} from '../../assets/generals-v2/generals.js';
 import {nineSlice} from '../../nine-slice.js';
+import {decorateStatic} from '../../ui-polish.js';
 const game=document.querySelector('.game');
 artworkShell(game,{screen:'alliance',title:'동맹',progress:{gold:12450,diamonds:320}});
 game.querySelectorAll('[data-box]').forEach(el=>placeArtwork(el,el.dataset.box.split(',').map(Number)));
+decorateStatic(game);
 const painting=[...game.querySelectorAll('[data-tone]')].map(el=>nineSlice(el,el.dataset.tone));
 game.querySelectorAll('[data-frame]').forEach(el=>painting.push(nineSlice(el,el.dataset.frame,{button:false,center:!el.closest('.headquarters')})));
 for(const [id,center,height] of [['1',142,232],['35',798,195]]){
