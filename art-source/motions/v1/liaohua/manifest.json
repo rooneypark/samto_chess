@@ -1,0 +1,626 @@
+{
+  "schemaVersion": 1,
+  "id": "liaohua",
+  "name": "요화",
+  "approvedDate": "2026-11-16",
+  "reviewStatus": "approved",
+  "approvedScope": "movement, basic attack and skill, three directions",
+  "runtimeApplied": false,
+  "clips": [
+    {
+      "clipId": "front-attack",
+      "view": "front",
+      "state": "attack",
+      "anchor": [
+        128,
+        224
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "frames": [
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/attack/0000.png",
+          "durationMs": 120,
+          "label": "준비",
+          "sha256": "b83c59df3c829b7ca6c89ea4fe6b05e681842bdecf2d5932878e22526771870d"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/attack/0001.png",
+          "durationMs": 55,
+          "label": "베기 중간 1",
+          "sha256": "d81b02ec2162f1f82642928ac41ca9729a85585dd71db9a6bb84f30bbe00fe2d"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/attack/0002.png",
+          "durationMs": 55,
+          "label": "베기 중간 2",
+          "sha256": "e8bd7f24b434f5dc49328f13ffc3255b6e59b9dc074d07e0036702929cb5e3ba"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/attack/0003.png",
+          "durationMs": 55,
+          "label": "베기 중간 3",
+          "sha256": "17b3c9c247f989df858044afc6411b377d47330fa636a2e03bda0ad2269c5f61"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/attack/0004.png",
+          "durationMs": 55,
+          "label": "베기 중간 4",
+          "sha256": "b38c5fbdeb972c0a855aa229562dece6208c67119e67131a8e8915ba247275ef"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/attack/0005.png",
+          "durationMs": 110,
+          "label": "베기 끝",
+          "sha256": "8dd70b306b317c30a166660e9f51abd2137e7a7233f3d21f4957c63cbf3cbb54"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/attack/0006.png",
+          "durationMs": 80,
+          "label": "회수 중간 1",
+          "sha256": "4740107caf139ca89a36e25a5896e8f6db1882f8e912b37654adc49b79e46c4f"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/attack/0007.png",
+          "durationMs": 80,
+          "label": "회수 중간 2",
+          "sha256": "87e4ea4de956f4eeb888da832439a58c1c822ac5e3b465eee6a91f2234b1e373"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/attack/0008.png",
+          "durationMs": 560,
+          "label": "기존 대기",
+          "sha256": "f49c7ccb2aa7812871a964b993ec24a57f4bf42ac09b0071e5c368daf39202df"
+        }
+      ]
+    },
+    {
+      "clipId": "side-attack",
+      "view": "side",
+      "state": "attack",
+      "anchor": [
+        128,
+        224
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "frames": [
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/attack/0000.png",
+          "durationMs": 120,
+          "label": "준비",
+          "sha256": "c75220be4140e5d8006027349e78e5a1baf7ce788390444e11711c79a147b81c"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/attack/0001.png",
+          "durationMs": 55,
+          "label": "베기 중간 1",
+          "sha256": "c76de5f53d00508575a7666845dafa9ec8c1fc7e865b6ee3ebd10195fc878ca7"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/attack/0002.png",
+          "durationMs": 55,
+          "label": "베기 중간 2",
+          "sha256": "61dea7cfa702ec6d384b40185bc4781b38fc31681e1f2a6265d6b3da178d62d2"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/attack/0003.png",
+          "durationMs": 55,
+          "label": "베기 중간 3",
+          "sha256": "374a66ee84e3eba411bd94dd0233ac671d1ed6580795090dd702644b1f4c0bbc"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/attack/0004.png",
+          "durationMs": 55,
+          "label": "베기 중간 4",
+          "sha256": "1eb5bfa77c5c21e964213b3bfa32e1db97632d86718d193a7b19b97c1b845d0f"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/attack/0005.png",
+          "durationMs": 110,
+          "label": "베기 끝",
+          "sha256": "749d38da0573d3d1fd5acafc1aff96de02190e0050e0c29912b0523a4255c8e9"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/attack/0006.png",
+          "durationMs": 80,
+          "label": "회수 중간 1",
+          "sha256": "9cdda736c53e0d6e656e581cc7cd574d8152b45edb155c6c0c2a0ddc7fbfb3c2"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/attack/0007.png",
+          "durationMs": 80,
+          "label": "회수 중간 2",
+          "sha256": "b9d0e5bab2b4ba2d6910f02f98fa89f0b0f5ac76b583a0c14fd7912fc40b265b"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/attack/0008.png",
+          "durationMs": 560,
+          "label": "기존 대기",
+          "sha256": "498fdffa7898d559f7aa47fc4730f20eb7ea902cbb15a52a211daff0f963aa51"
+        }
+      ]
+    },
+    {
+      "clipId": "back-attack",
+      "view": "back",
+      "state": "attack",
+      "anchor": [
+        128,
+        224
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "frames": [
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/attack/0000.png",
+          "durationMs": 120,
+          "label": "준비",
+          "sha256": "b8443c360d76c3bffc41bab77b2b5ff481313155e3d72a1ce40b1eaee29dc546"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/attack/0001.png",
+          "durationMs": 55,
+          "label": "베기 중간 1",
+          "sha256": "ad6255e8ef6870fe1af4f80ea6bd9d0cef49def3ff1ee5be2a08b431a2cbcf20"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/attack/0002.png",
+          "durationMs": 55,
+          "label": "베기 중간 2",
+          "sha256": "578d1e5a6b4f371b6e3442adcf55b83ea0ea5ec0f53ce161f0e8a0e9dfaf8ad8"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/attack/0003.png",
+          "durationMs": 55,
+          "label": "베기 중간 3",
+          "sha256": "01b72d781d648b978c38383c8ddccd9f730c53c192feeec099c349588f6afc04"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/attack/0004.png",
+          "durationMs": 55,
+          "label": "베기 중간 4",
+          "sha256": "df01cc3e510a859f5d84a91c192ae56015451fa62997a201d309742610ecff2c"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/attack/0005.png",
+          "durationMs": 110,
+          "label": "베기 끝",
+          "sha256": "a7d43fd7b217d8ed152350d347ee1e1e1e62385acaba03c62e68aa1ddfbddb55"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/attack/0006.png",
+          "durationMs": 80,
+          "label": "회수 중간 1",
+          "sha256": "9f360511fc4ad64e84ec7fedeacc48262644d06a355e027ed3891b96c4f6d723"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/attack/0007.png",
+          "durationMs": 80,
+          "label": "회수 중간 2",
+          "sha256": "e53b356c026472c44853be917a41491e55ff389a5ee572351c77b1f5a34d09fc"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/attack/0008.png",
+          "durationMs": 560,
+          "label": "기존 대기",
+          "sha256": "60bd407410f94e568e6dc919777bc633918774aa35c03520581ece404f04373f"
+        }
+      ]
+    },
+    {
+      "clipId": "front-skill",
+      "view": "front",
+      "state": "skill",
+      "anchor": [
+        128,
+        224
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "frames": [
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/attack/0000.png",
+          "durationMs": 120,
+          "label": "준비",
+          "sha256": "b83c59df3c829b7ca6c89ea4fe6b05e681842bdecf2d5932878e22526771870d"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/attack/0001.png",
+          "durationMs": 55,
+          "label": "베기 중간 1",
+          "sha256": "d81b02ec2162f1f82642928ac41ca9729a85585dd71db9a6bb84f30bbe00fe2d"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/skill/0002.png",
+          "durationMs": 55,
+          "label": "베기 중간 2",
+          "sha256": "075e8a7541f096001e2d7baf5cf3ba66ca70d4a0478d2baafde6848c1d5cd355"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/skill/0003.png",
+          "durationMs": 55,
+          "label": "베기 중간 3",
+          "sha256": "ed1cb8bb6e993cf5cb1034cf9c9abca813d7625dcf0e67ccf311563411781eca"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/attack/0004.png",
+          "durationMs": 55,
+          "label": "베기 중간 4",
+          "sha256": "b38c5fbdeb972c0a855aa229562dece6208c67119e67131a8e8915ba247275ef"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/attack/0005.png",
+          "durationMs": 110,
+          "label": "베기 끝",
+          "sha256": "8dd70b306b317c30a166660e9f51abd2137e7a7233f3d21f4957c63cbf3cbb54"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/attack/0006.png",
+          "durationMs": 80,
+          "label": "회수 중간 1",
+          "sha256": "4740107caf139ca89a36e25a5896e8f6db1882f8e912b37654adc49b79e46c4f"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/attack/0007.png",
+          "durationMs": 80,
+          "label": "회수 중간 2",
+          "sha256": "87e4ea4de956f4eeb888da832439a58c1c822ac5e3b465eee6a91f2234b1e373"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/attack/0008.png",
+          "durationMs": 560,
+          "label": "기존 대기",
+          "sha256": "f49c7ccb2aa7812871a964b993ec24a57f4bf42ac09b0071e5c368daf39202df"
+        }
+      ],
+      "embeddedAfterimage": true,
+      "reviewStatus": "approved",
+      "sourceClipId": "front-attack"
+    },
+    {
+      "clipId": "side-skill",
+      "view": "side",
+      "state": "skill",
+      "anchor": [
+        128,
+        224
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "frames": [
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/attack/0000.png",
+          "durationMs": 120,
+          "label": "준비",
+          "sha256": "c75220be4140e5d8006027349e78e5a1baf7ce788390444e11711c79a147b81c"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/skill/0001.png",
+          "durationMs": 55,
+          "label": "베기 중간 1",
+          "sha256": "87018d4f130045bc60bbede2873a61c45ffe9ef1602a84f844c8d90a7181cf08"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/skill/0002.png",
+          "durationMs": 55,
+          "label": "베기 중간 2",
+          "sha256": "753c4d4145b64023b201d08c4ba53fe2e56eb6f00ba8d8b91869049c3e520375"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/attack/0003.png",
+          "durationMs": 55,
+          "label": "베기 중간 3",
+          "sha256": "374a66ee84e3eba411bd94dd0233ac671d1ed6580795090dd702644b1f4c0bbc"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/attack/0004.png",
+          "durationMs": 55,
+          "label": "베기 중간 4",
+          "sha256": "1eb5bfa77c5c21e964213b3bfa32e1db97632d86718d193a7b19b97c1b845d0f"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/attack/0005.png",
+          "durationMs": 110,
+          "label": "베기 끝",
+          "sha256": "749d38da0573d3d1fd5acafc1aff96de02190e0050e0c29912b0523a4255c8e9"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/attack/0006.png",
+          "durationMs": 80,
+          "label": "회수 중간 1",
+          "sha256": "9cdda736c53e0d6e656e581cc7cd574d8152b45edb155c6c0c2a0ddc7fbfb3c2"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/attack/0007.png",
+          "durationMs": 80,
+          "label": "회수 중간 2",
+          "sha256": "b9d0e5bab2b4ba2d6910f02f98fa89f0b0f5ac76b583a0c14fd7912fc40b265b"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/attack/0008.png",
+          "durationMs": 560,
+          "label": "기존 대기",
+          "sha256": "498fdffa7898d559f7aa47fc4730f20eb7ea902cbb15a52a211daff0f963aa51"
+        }
+      ],
+      "embeddedAfterimage": true,
+      "reviewStatus": "approved",
+      "sourceClipId": "side-attack"
+    },
+    {
+      "clipId": "back-skill",
+      "view": "back",
+      "state": "skill",
+      "anchor": [
+        128,
+        224
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "frames": [
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/attack/0000.png",
+          "durationMs": 120,
+          "label": "준비",
+          "sha256": "b8443c360d76c3bffc41bab77b2b5ff481313155e3d72a1ce40b1eaee29dc546"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/attack/0001.png",
+          "durationMs": 55,
+          "label": "베기 중간 1",
+          "sha256": "ad6255e8ef6870fe1af4f80ea6bd9d0cef49def3ff1ee5be2a08b431a2cbcf20"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/skill/0002.png",
+          "durationMs": 55,
+          "label": "베기 중간 2",
+          "sha256": "ee2b8093f5c6632b770ff04448aeeb28f99a0d07e3ce69832bad9005b1144d3f"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/skill/0003.png",
+          "durationMs": 55,
+          "label": "베기 중간 3",
+          "sha256": "db7b75438de37ac8b19bc4ceeffd7ec610f77b03d138c497d555e4d49b4f0e4d"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/attack/0004.png",
+          "durationMs": 55,
+          "label": "베기 중간 4",
+          "sha256": "df01cc3e510a859f5d84a91c192ae56015451fa62997a201d309742610ecff2c"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/attack/0005.png",
+          "durationMs": 110,
+          "label": "베기 끝",
+          "sha256": "a7d43fd7b217d8ed152350d347ee1e1e1e62385acaba03c62e68aa1ddfbddb55"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/attack/0006.png",
+          "durationMs": 80,
+          "label": "회수 중간 1",
+          "sha256": "9f360511fc4ad64e84ec7fedeacc48262644d06a355e027ed3891b96c4f6d723"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/attack/0007.png",
+          "durationMs": 80,
+          "label": "회수 중간 2",
+          "sha256": "e53b356c026472c44853be917a41491e55ff389a5ee572351c77b1f5a34d09fc"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/attack/0008.png",
+          "durationMs": 560,
+          "label": "기존 대기",
+          "sha256": "60bd407410f94e568e6dc919777bc633918774aa35c03520581ece404f04373f"
+        }
+      ],
+      "embeddedAfterimage": true,
+      "reviewStatus": "approved",
+      "sourceClipId": "back-attack"
+    },
+    {
+      "clipId": "front-move",
+      "view": "front",
+      "state": "move",
+      "anchor": [
+        128,
+        224
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "frames": [
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/move/0000.png",
+          "durationMs": 120,
+          "label": "이동",
+          "sha256": "d92980192367a1fdaae6ad83976275744c03b086dd79e42712bfb913adad490f"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/move/0001.png",
+          "durationMs": 120,
+          "label": "이동",
+          "sha256": "42c83a9818e11a6cd46c56c9652edbeac23a1b325c9cb0ce1cc4b2365ef7c88b"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/move/0002.png",
+          "durationMs": 120,
+          "label": "이동",
+          "sha256": "5ee4dd0ccf19cdc88cb12949721bf628322b54c85daa51f156e31175965d4d8a"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/move/0003.png",
+          "durationMs": 120,
+          "label": "이동",
+          "sha256": "bb5410e9189cb5080079346238cf57f9aa4330fbf74e274851064c47c1898c8d"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/move/0004.png",
+          "durationMs": 120,
+          "label": "이동",
+          "sha256": "055d06588ed15223035f32d28de55f86104f09f1699176bc00cc7519a039c706"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/move/0005.png",
+          "durationMs": 120,
+          "label": "이동",
+          "sha256": "f0daa48b4ece9dd428e25d302c12a38ad1de8a7f595e6034af127148261facc1"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/move/0006.png",
+          "durationMs": 120,
+          "label": "이동",
+          "sha256": "17e8af70426f695c73ec53532059de567d7568f9c38958fb70ac697c76429ded"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/front/move/0007.png",
+          "durationMs": 120,
+          "label": "이동",
+          "sha256": "9bf32662e0afbb2132b4acc8c16501527806815d1b4f082685284243da33185e"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "clipId": "side-move",
+      "view": "side",
+      "state": "move",
+      "anchor": [
+        128,
+        224
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "frames": [
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/move/0000.png",
+          "durationMs": 120,
+          "label": "이동",
+          "sha256": "2f676bf895a49bdfb7749e71aba1c8058d0e7a67bf6ab3eda02966448ab83125"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/move/0001.png",
+          "durationMs": 120,
+          "label": "이동",
+          "sha256": "621c213d93ee83a12858f79e007b2734e817eb194ad9df1c9ae1aaf9694eaff4"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/move/0002.png",
+          "durationMs": 120,
+          "label": "이동",
+          "sha256": "92ec3805d22e3cbcc7549570a7f1e0fde2af1f8ca135c82710f7698f8265cfd1"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/move/0003.png",
+          "durationMs": 120,
+          "label": "이동",
+          "sha256": "77d77addb5a3b5a0f2e51f213ac3c8f69e6878f0323245c3da0a53c9d9aba6d7"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/move/0004.png",
+          "durationMs": 120,
+          "label": "이동",
+          "sha256": "92dcac2e33694284f3d35a23347a7c0aeeca9ccf288af143e27cc5d7b7b8b853"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/move/0005.png",
+          "durationMs": 120,
+          "label": "이동",
+          "sha256": "583efad0c0609413f6dae445555adcdd5bbc958151eaa6016137a3b382603e17"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/move/0006.png",
+          "durationMs": 120,
+          "label": "이동",
+          "sha256": "93985f004c540486fe99e1013826b699e74865430b21977dc8a9d393e1d72369"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/side/move/0007.png",
+          "durationMs": 120,
+          "label": "이동",
+          "sha256": "9f1b18407d640af0cb98af1392def361e493d470e1a2f3de64ef3149a8aef3e2"
+        }
+      ],
+      "reviewStatus": "approved"
+    },
+    {
+      "clipId": "back-move",
+      "view": "back",
+      "state": "move",
+      "anchor": [
+        128,
+        224
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "frames": [
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/move/0000.png",
+          "durationMs": 120,
+          "label": "이동",
+          "sha256": "ba378e0884e8ea40f08ea8bcf1c0982833785f72a98a7d9122caa5c80e2c155e"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/move/0001.png",
+          "durationMs": 120,
+          "label": "이동",
+          "sha256": "3505e132b397d92cf660219ef77132c91afc76d5f72fdcaf806ea367eb6eb5e7"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/move/0002.png",
+          "durationMs": 120,
+          "label": "이동",
+          "sha256": "fd0f10e81abf9c8e8930d42691f89bcec8fbf3faf9f978bdf4e4a0a2f0cfaeca"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/move/0003.png",
+          "durationMs": 120,
+          "label": "이동",
+          "sha256": "1408abcb0bdedf6e876daa6a38c6bc30bb0c495b52e46644b42f203837c83d33"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/move/0004.png",
+          "durationMs": 120,
+          "label": "이동",
+          "sha256": "153c42d6d7845d803de2056b524fa7da4ec71d719cfaa4a8aa66f88361f9b9fb"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/move/0005.png",
+          "durationMs": 120,
+          "label": "이동",
+          "sha256": "f66e55c11e7d85ce6e2b568fbd70ee7259e2c638e1d5c655e96a4e20607615cb"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/move/0006.png",
+          "durationMs": 120,
+          "label": "이동",
+          "sha256": "74bcef0eb808e216ea3e5e9a41036ba9c586c72cde9561b570f15abfcdb5eb56"
+        },
+        {
+          "file": "art-source/motions/v1/liaohua/sequences/back/move/0007.png",
+          "durationMs": 120,
+          "label": "이동",
+          "sha256": "3cf2821f7f0a0a35b758d44ffca1f63a4d0c2ff5db9d383197d9ffb54394d51b"
+        }
+      ],
+      "reviewStatus": "approved"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>제갈량 기본 공격 · 3방향</title>
+<style>body{margin:24px auto;padding:12px;max-width:900px;background:#14202d;color:#edf3f8;font:16px system-ui}h1{font-size:24px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;text-align:center}canvas{width:100%;image-rendering:pixelated;background:#dae3ed}h2{font-size:16px}button,input,select{font:inherit}.controls{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}a{color:#ade1ff}</style>
+<h1>제갈량 기본 공격 · 3방향</h1>
+<p>시작 → 바람 방출 → 회수 → 기존 대기. 점선은 접지 기준입니다.</p>
+<div class="grid" id="grid"></div>
+<div class="controls"><button id="play">일시정지</button><button id="once">한 번 재생</button><button id="prev">이전</button><button id="next">다음</button><label>속도 <select id="speed"><option value="1">1배</option><option value=".5">0.5배</option><option value=".25">0.25배</option></select></label><input id="scrub" type="range" aria-label="프레임" min="0" value="0"><span id="phase"></span></div>
+<p id="review"></p><p></p>
+<script src="review-data.js"></script><script>
+const $=id=>document.getElementById(id);
+let phase=0,playing=true,oneShot=true,elapsed=0,last=0;
+const images={};const titles={front:'정면',side:'왼쪽',back:'후면'};
+const load=src=>new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>resolve(im);im.onerror=()=>reject(Error(src));im.src=src});
+function paint(){
+ for(const d of Object.keys(titles)){
+  const ctx=$(d).getContext('2d');ctx.clearRect(0,0,256,256);ctx.drawImage(images[d][phase],0,0);
+  ctx.strokeStyle='#a7485680';ctx.setLineDash([4,4]);ctx.beginPath();ctx.moveTo(0,224.5);ctx.lineTo(256,224.5);ctx.stroke();
+ }
+ $('scrub').value=phase;$('phase').textContent=DATA.labels[phase];
+}
+function mode(value){playing=value;elapsed=0;$('play').textContent=value?'일시정지':'재생'}
+async function init(){
+ for(const [d,title] of Object.entries(titles)){
+  $('grid').insertAdjacentHTML('beforeend', '<section><h2>'+title+'</h2><canvas id="'+d+'" width="256" height="256"></canvas></section>');
+  images[d]=await Promise.all(DATA.frames[d].map(load));
+ }
+ $('scrub').max=DATA.labels.length-1;$('review').textContent=DATA.note;
+ $('play').onclick=()=>{oneShot=false;mode(!playing)};
+ $('once').onclick=()=>{phase=0;oneShot=true;mode(true);paint()};
+ $('scrub').oninput=()=>{mode(false);phase=+$('scrub').value;paint()};
+ $('prev').onclick=()=>{mode(false);phase=Math.max(0,phase-1);paint()};
+ $('next').onclick=()=>{mode(false);phase=Math.min(DATA.labels.length-1,phase+1);paint()};
+ paint();window.reviewReady=true;requestAnimationFrame(tick);
+}
+function tick(now){
+ if(playing){elapsed+=Math.min(now-(last||now),100)*+$('speed').value;
+ if(elapsed>=DATA.ms[phase]){elapsed=0;if(oneShot&&phase===DATA.labels.length-1)mode(false);else{phase=(phase+1)%DATA.labels.length;paint()}}}
+ last=now;requestAnimationFrame(tick);
+}
+init().catch(error=>{$('phase').textContent=error.message});
+</script></html>
