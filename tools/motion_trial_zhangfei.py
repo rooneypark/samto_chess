@@ -26,8 +26,11 @@ RIG = estimate['rig']
 # Second attempt (2026-11-17): the sprite is moved right inside the canvas so a 160px spear can be thrust forward
 # of the body without leaving the picture. The clip's pivot is therefore (128 + SHIFT, 224), as the approved
 # Zhao Yun side attack already does with its own anchor.
-SHIFT = 40
-SOURCE = os.path.join(TRIAL, 'source-side-shifted.png')
+# Variant: 'v2' (default) is the second attempt as generated; 'v3' is the more dynamic waist-height thrust.
+VARIANT = sys.argv[2] if len(sys.argv) > 2 else 'v2'
+SHIFT = 46 if VARIANT == 'v3' else 40
+SOURCE = os.path.join(TRIAL, 'source-side-shifted.png' if VARIANT == 'v2' else 'source-side-shifted-%d.png' % SHIFT)
+PREFIX = '05' if VARIANT == 'v2' else '06'
 if not os.path.exists(SOURCE):
     original = Image.open(os.path.join(TRIAL, 'source-side.png')).convert('RGBA')
     moved = Image.new('RGBA', original.size, (0, 0, 0, 0)); moved.paste(original, (SHIFT, 0)); moved.save(SOURCE)
@@ -76,6 +79,30 @@ PLAN = [('rest', 'ready', 0.45), ('rest', 'ready', 0.85), ('rest', 'ready', 1.0)
         ('ready', 'thrust', 0.55), ('ready', 'thrust', 1.0), ('thrust', 'thrust', 0.0), ('thrust', 'thrust', 0.0),
         ('thrust', 'rest', 0.3), ('thrust', 'rest', 0.6), ('thrust', 'rest', 0.85), ('thrust', 'rest', 1.0)]
 KEY_FRAME = 5      # index in PLAN of the full extension
+DURATIONS = [100] * 12
+
+if VARIANT == 'v3':
+    # User feedback on v2: too static, and the spear was carried at chest height. Changes:
+    #  - the lane is at waist height (y = LANE), hands low by the hip;
+    #  - a deep coil (weight back, body low, spear drawn back) held for a beat, then the drive in two frames;
+    #  - the shaft slides through the front hand (it holds further up the shaft while coiled), which lengthens
+    #    the tip's travel without moving the body further;
+    #  - a small overshoot past the end point, then settle; rear heel lifts as the back leg pushes;
+    #  - the headband tail lags behind the body's motion.
+    LANE = 164
+    KEYS = {
+     'rest':   dict(pelvis=(0, 0),    lean=0,   angle=90,  grip=REST['near_wrist'], near=GRIP_NEAR_REST, far=GRIP_FAR_REST, near_foot=(0, 0),   far_foot=(0, 0),   spread=1.0),
+     'coil':   dict(pelvis=(10, 8),   lean=-10, angle=180, grip=(165, LANE),        near=76,             far=34,            near_foot=(2, 0),   far_foot=(8, 0),   spread=0.7),
+     'coil2':  dict(pelvis=(13, 10),  lean=-13, angle=180, grip=(168, LANE),        near=77,             far=34,            near_foot=(2, 0),   far_foot=(8, 0),   spread=0.7),
+     'thrust': dict(pelvis=(-16, 11), lean=17,  angle=180, grip=(124, LANE),        near=56,             far=18,            near_foot=(-34, 0), far_foot=(10, -4), spread=0.7),
+     'over':   dict(pelvis=(-19, 12), lean=20,  angle=180, grip=(119, LANE),        near=56,             far=18,            near_foot=(-34, 0), far_foot=(10, -6), spread=0.7),
+    }
+    # 1-4 draw back (slow), 5 held coil, 6-7 drive (fast), 8 settle, 9 hold, 10-12 recover.
+    PLAN = [('rest', 'coil', 0.3), ('rest', 'coil', 0.62), ('rest', 'coil', 0.88), ('coil', 'coil2', 0.5), ('coil2', 'coil2', 0.0),
+            ('coil2', 'over', 0.62), ('over', 'over', 0.0), ('thrust', 'thrust', 0.0), ('thrust', 'thrust', 0.0),
+            ('thrust', 'rest', 0.35), ('thrust', 'rest', 0.72), ('thrust', 'rest', 1.0)]
+    KEY_FRAME = 6
+    DURATIONS = [110, 110, 110, 130, 160, 50, 50, 90, 180, 90, 90, 110]
 
 def mix(a, b, t):
     ka, kb = KEYS[a], KEYS[b]; out = {}
@@ -122,7 +149,16 @@ def keypoints(j):
     return out
 
 def frames():
-    return [skeleton(mix(a, b, t)) for a, b, t in PLAN]
+    out = [skeleton(mix(a, b, t)) for a, b, t in PLAN]
+    if VARIANT == 'v3':
+        # Headband tail: trails opposite to the body's horizontal motion and settles a frame later.
+        previous = REST['pelvis'][0]; lag = 0.0
+        for j in out:
+            velocity = j['pelvis'][0] - previous; previous = j['pelvis'][0]
+            lag = lag * 0.45 - velocity * 0.55
+            lag = max(-10, min(14, lag))
+            j['scarf_2'] = add(j['scarf_2'], (lag * 0.5, -abs(lag) * 0.15)); j['scarf_3'] = add(j['scarf_3'], (lag, -abs(lag) * 0.3))
+    return out
 
 def overlay(j, base=None):
     im = (base or Image.new('RGBA', (SIZE, SIZE), (60, 70, 90, 255))).convert('RGBA').resize((SIZE * 3, SIZE * 3), Image.NEAREST)
@@ -136,13 +172,19 @@ def overlay(j, base=None):
 
 def poses():
     source = Image.open(SOURCE)
-    overlay(REST, source).save(os.path.join(TRIAL, '05-rest-skeleton.png'))
+    overlay(REST, source).save(os.path.join(TRIAL, PREFIX + '-rest-skeleton.png'))
     fs = frames(); sheet = Image.new('RGBA', (SIZE * 3 * 6, SIZE * 3 * 2), (60, 70, 90, 255))
-    for i, j in enumerate(fs): sheet.paste(overlay(j), ((i % 6) * SIZE * 3, (i // 6) * SIZE * 3))
-    sheet.resize((SIZE * 6, SIZE * 2), Image.LANCZOS).save(os.path.join(TRIAL, '05-planned-skeletons.png'))
-    with open(os.path.join(TRIAL, '05-planned-keypoints.json'), 'w', encoding='utf-8', newline='\n') as f:
+    for i, j in enumerate(fs):
+        cell = overlay(j); d = ImageDraw.Draw(cell)
+        d.line([(0, 224 * 3), (SIZE * 3, 224 * 3)], fill=(255, 255, 255, 90), width=1)            # ground line
+        d.line([(0, REST['pelvis'][1] * 3), (SIZE * 3, REST['pelvis'][1] * 3)], fill=(120, 255, 160, 110), width=1)   # waist of the source art
+        d.text((8, 8), '%d  %dms' % (i + 1, DURATIONS[i]), fill=(255, 255, 0, 255))
+        sheet.paste(cell, ((i % 6) * SIZE * 3, (i // 6) * SIZE * 3))
+    sheet.resize((SIZE * 6, SIZE * 2), Image.LANCZOS).save(os.path.join(TRIAL, PREFIX + '-planned-skeletons.png'))
+    with open(os.path.join(TRIAL, PREFIX + '-planned-keypoints.json'), 'w', encoding='utf-8', newline='\n') as f:
         json.dump([keypoints(j) for j in fs], f, indent=1); f.write('\n')
     tips = [(round(j['spear_tip'][0], 1), round(j['spear_tip'][1], 1)) for j in fs]
+    print('tip x per frame:', [round(j['spear_tip'][0]) for j in fs], '| front hand x:', [round(j['near_wrist'][0]) for j in fs])
     print('spear length per frame:', sorted({round(dist(j['spear_butt'], j['spear_tip']), 1) for j in fs}))
     print('tip positions:', tips)
     # Every hand must actually reach its place on the shaft; a clamped IK target would pull the hand off the spear.
@@ -161,7 +203,7 @@ def generate(which):
     body = {'description': DESCRIPTION, 'action': 'spear thrust attack', 'direction': 'west', 'view': 'side',
             'first_frame': pl.image(SOURCE), 'first_frame_keypoints': keypoints(REST),
             'keypoints': [keypoints(j) for j in chosen], 'rig': RIG, 'template_id': 'mannequin', 'seed': 20261117, 'no_background': True}
-    tag = '03b-key' if which == 'key' else '05-clip'
+    tag = '03b-key' if which == 'key' else PREFIX + '-clip'
     pl.log(TRIAL, tag + '-request.json', body)
     started = pl.call('POST', '/animate-with-skeleton-v3', body); print('job', started.get('background_job_id'))
     job = pl.wait(started['background_job_id']); pl.log(TRIAL, tag + '-result.json', job)

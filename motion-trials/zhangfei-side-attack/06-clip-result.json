@@ -1,0 +1,77 @@
+{
+ "usage": {
+  "type": "generations",
+  "generations": 3.0
+ },
+ "id": "938bb725-0114-4a50-8335-d1e9382b7500",
+ "status": "completed",
+ "created_at": "2026-11-17T03:52:57.176999+00:00",
+ "last_response": {
+  "seed": 20261117,
+  "type": "done",
+  "action": "smoothing frames",
+  "images": [
+   {
+    "type": "base64",
+    "bytes": 11163
+   },
+   {
+    "type": "base64",
+    "bytes": 10947
+   },
+   {
+    "type": "base64",
+    "bytes": 11127
+   },
+   {
+    "type": "base64",
+    "bytes": 10686
+   },
+   {
+    "type": "base64",
+    "bytes": 9936
+   },
+   {
+    "type": "base64",
+    "bytes": 11190
+   },
+   {
+    "type": "base64",
+    "bytes": 11049
+   },
+   {
+    "type": "base64",
+    "bytes": 10698
+   },
+   {
+    "type": "base64",
+    "bytes": 11034
+   },
+   {
+    "type": "base64",
+    "bytes": 11004
+   },
+   {
+    "type": "base64",
+    "bytes": 10986
+   },
+   {
+    "type": "base64",
+    "bytes": 10278
+   }
+  ],
+  "status": "initializing",
+  "progress": 1.0,
+  "flow_kind": "animation",
+  "billing_usage": {
+   "usd": 0.0,
+   "type": "generations",
+   "generations": 3
+  },
+  "generation_id": "dbb98936-d440-4c19-913d-1bafea1a5db6",
+  "queue_position": 0,
+  "billing_charged": true,
+  "generation_started_at": "2026-11-17T03:52:57.816511+00:00",
+  "estimated_wait_seconds": 0
+ }
+}
