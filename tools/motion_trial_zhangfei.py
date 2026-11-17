@@ -23,7 +23,15 @@ DESCRIPTION = 'stocky bearded warrior in black and red armor with a red headband
 
 estimate = json.load(open(os.path.join(TRIAL, '01-estimate-result.json'), encoding='utf-8'))['last_response']
 RIG = estimate['rig']
-REST = {k['label']: (k['x'] * SIZE, k['y'] * SIZE) for k in estimate['frames'][0]}
+# Second attempt (2026-11-17): the sprite is moved right inside the canvas so a 160px spear can be thrust forward
+# of the body without leaving the picture. The clip's pivot is therefore (128 + SHIFT, 224), as the approved
+# Zhao Yun side attack already does with its own anchor.
+SHIFT = 40
+SOURCE = os.path.join(TRIAL, 'source-side-shifted.png')
+if not os.path.exists(SOURCE):
+    original = Image.open(os.path.join(TRIAL, 'source-side.png')).convert('RGBA')
+    moved = Image.new('RGBA', original.size, (0, 0, 0, 0)); moved.paste(original, (SHIFT, 0)); moved.save(SOURCE)
+REST = {k['label']: (k['x'] * SIZE + SHIFT, k['y'] * SIZE) for k in estimate['frames'][0]}
 Z = {k['label']: k['z_index'] for k in estimate['frames'][0]}
 
 def sub(a, b): return (a[0] - b[0], a[1] - b[1])
@@ -54,10 +62,13 @@ GRIP_FAR_REST = dist(REST['spear_butt'], REST['far_wrist'])
 
 # Key poses. angle: direction the tip points, degrees, 90 = straight up, 180 = left (the attack direction).
 # grip: where the near (front) hand holds the shaft; near/far: distance of each hand from the butt.
+# spread: how far the shoulders sit from the neck, relative to the source art. The first attempt kept the full
+# spread and put both hands under the shoulders, which read as a body turned to the camera holding a bar.
+# Here both hands are in front of the body on the shaft: the front hand reaches forward, the rear hand stays by the hip.
 KEYS = {
- 'rest':   dict(pelvis=(0, 0),  lean=0,   angle=90,  grip=REST['near_wrist'], near=GRIP_NEAR_REST, far=GRIP_FAR_REST, near_foot=(0, 0),   far_foot=(0, 0)),
- 'ready':  dict(pelvis=(5, 3),  lean=-6,  angle=176, grip=(131, 160),         near=74,             far=38,            near_foot=(0, 0),   far_foot=(4, 0)),
- 'thrust': dict(pelvis=(-9, 6), lean=14,  angle=180, grip=(99, 152),          near=74,             far=38,            near_foot=(-16, 0), far_foot=(6, 0)),
+ 'rest':   dict(pelvis=(0, 0),   lean=0,  angle=90,  grip=REST['near_wrist'], near=GRIP_NEAR_REST, far=GRIP_FAR_REST, near_foot=(0, 0),   far_foot=(0, 0), spread=1.0),
+ 'ready':  dict(pelvis=(6, 4),   lean=-8, angle=180, grip=(150, 152),         near=60,             far=20,            near_foot=(0, 0),   far_foot=(4, 0), spread=0.7),
+ 'thrust': dict(pelvis=(-12, 8), lean=16, angle=180, grip=(112, 152),         near=60,             far=20,            near_foot=(-24, 0), far_foot=(8, 0), spread=0.7),
 }
 # Frame plan for the 12 returned frames (the source art is frame 0 and is not returned).
 # A1 wind-up 0-30%, A2 drive 30-55%, A3 contact and hold 55-70%, A4 recovery 70-100%.
@@ -81,7 +92,10 @@ def skeleton(p):
     pelvis = add(REST['pelvis'], p['pelvis']); j['pelvis'] = pelvis
     # Upper body: the source offsets from the pelvis, leaned around it (positive = forward, toward the left).
     for name in ('chest', 'neck', 'head', 'head_top', 'near_shoulder', 'far_shoulder', 'scarf_1', 'scarf_2', 'scarf_3'):
-        j[name] = rotate(add(pelvis, sub(REST[name], REST['pelvis'])), pelvis, -p['lean'])
+        offset = sub(REST[name], REST['pelvis'])
+        if name.endswith('_shoulder'):
+            neck = sub(REST['neck'], REST['pelvis']); offset = add(neck, tuple(c * p['spread'] for c in sub(offset, neck)))
+        j[name] = rotate(add(pelvis, offset), pelvis, -p['lean'])
     for name in ('scarf_2', 'scarf_3'):                                   # the scarf trails behind a forward lean
         j[name] = add(j[name], (max(0, p['lean']) * (0.25 if name == 'scarf_2' else 0.5), 0))
     # Spear: one straight line of fixed length through the front hand.
@@ -121,24 +135,33 @@ def overlay(j, base=None):
     return im
 
 def poses():
-    source = Image.open(os.path.join(TRIAL, 'source-side.png'))
-    overlay(REST, source).save(os.path.join(TRIAL, '02-rest-skeleton.png'))
+    source = Image.open(SOURCE)
+    overlay(REST, source).save(os.path.join(TRIAL, '05-rest-skeleton.png'))
     fs = frames(); sheet = Image.new('RGBA', (SIZE * 3 * 6, SIZE * 3 * 2), (60, 70, 90, 255))
     for i, j in enumerate(fs): sheet.paste(overlay(j), ((i % 6) * SIZE * 3, (i // 6) * SIZE * 3))
-    sheet.resize((SIZE * 6, SIZE * 2), Image.LANCZOS).save(os.path.join(TRIAL, '02-planned-skeletons.png'))
-    with open(os.path.join(TRIAL, '02-planned-keypoints.json'), 'w', encoding='utf-8', newline='\n') as f:
+    sheet.resize((SIZE * 6, SIZE * 2), Image.LANCZOS).save(os.path.join(TRIAL, '05-planned-skeletons.png'))
+    with open(os.path.join(TRIAL, '05-planned-keypoints.json'), 'w', encoding='utf-8', newline='\n') as f:
         json.dump([keypoints(j) for j in fs], f, indent=1); f.write('\n')
     tips = [(round(j['spear_tip'][0], 1), round(j['spear_tip'][1], 1)) for j in fs]
     print('spear length per frame:', sorted({round(dist(j['spear_butt'], j['spear_tip']), 1) for j in fs}))
     print('tip positions:', tips)
+    # Every hand must actually reach its place on the shaft; a clamped IK target would pull the hand off the spear.
+    short = []
+    for i, (a, b, t) in enumerate(PLAN):
+        p = mix(a, b, t); j = fs[i]; axis = (math.cos(math.radians(p['angle'])), -math.sin(math.radians(p['angle'])))
+        want = {'near_wrist': p['grip'], 'far_wrist': add(j['spear_butt'], tuple(c * p['far'] for c in axis))}
+        short += [(i, n, round(dist(j[n], w), 1)) for n, w in want.items() if dist(j[n], w) > 0.5]
+        short += [(i, side + '_ankle') for side in ('near', 'far') if dist(j[side + '_ankle'], add(REST[side + '_ankle'], p[side + '_foot'])) > 0.5]
+    print('hands or feet that cannot reach their target:', short)
+    print('tip lane (y) while horizontal:', sorted({round(j['spear_tip'][1], 1) for i, j in enumerate(fs) if abs(j['spear_tip'][1] - j['spear_butt'][1]) < 2}))
     print('out of canvas:', [(i, n) for i, j in enumerate(fs) for n, (x, y) in j.items() if not (2 <= x <= SIZE - 2 and 2 <= y <= SIZE - 2)])
 
 def generate(which):
     fs = frames(); chosen = [fs[KEY_FRAME]] if which == 'key' else fs
     body = {'description': DESCRIPTION, 'action': 'spear thrust attack', 'direction': 'west', 'view': 'side',
-            'first_frame': pl.image(os.path.join(TRIAL, 'source-side.png')), 'first_frame_keypoints': keypoints(REST),
+            'first_frame': pl.image(SOURCE), 'first_frame_keypoints': keypoints(REST),
             'keypoints': [keypoints(j) for j in chosen], 'rig': RIG, 'template_id': 'mannequin', 'seed': 20261117, 'no_background': True}
-    tag = '03-key' if which == 'key' else '04-clip'
+    tag = '03b-key' if which == 'key' else '05-clip'
     pl.log(TRIAL, tag + '-request.json', body)
     started = pl.call('POST', '/animate-with-skeleton-v3', body); print('job', started.get('background_job_id'))
     job = pl.wait(started['background_job_id']); pl.log(TRIAL, tag + '-result.json', job)
