@@ -26,6 +26,3 @@
 @scope (.codex-runtime){.bottom-nav{display:contents}.bottom-nav button{position:absolute;border:0;padding:0;box-shadow:none}.wallet{display:contents}.wallet button{position:absolute}.codex-entry{position:absolute} }
 
 .game.in-battle>.codex-runtime{display:none}.game.codex-art>.toast{z-index:80}
-
-/* 도감 mode (장수 | 보물) and treasure list. */
-@scope (.codex-runtime){.section-tabs button[hidden]{display:none!important}.section-tabs [data-mode]{font-size:3.4cqw;z-index:4}.section-tabs [data-category]{font-size:2.8cqw!important}.treasure-detail{position:absolute;object-fit:contain;image-rendering:pixelated;z-index:3;pointer-events:none}.treasure-entry>.legacy-portrait{image-rendering:pixelated}:scope[data-mode=treasure] .reward-amount img{display:none}:scope[data-mode=treasure] .reward-amount{justify-content:center}.summary-copy{width:54%!important}}

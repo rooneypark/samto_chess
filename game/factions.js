@@ -11,6 +11,7 @@ export const factions={
 };
 // The starter set of a profile that has not chosen a faction yet (and of saves from before the choice existed).
 export const defaultStarter=['15','0','16',...commons];
+export const recruitWeight=2;
 
 // Synergy by distinct deployed heroes of one faction: tiers at 2 / 4 / 6.
 export const synergies={

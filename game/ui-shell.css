@@ -38,6 +38,3 @@
 .barracks-v2 .hero-roster{grid-auto-rows:21.7cqw;gap:1.1cqw}
 .barracks-v2 .roster-card.unowned div span{font-size:max(2.8cqw,9px);color:#d9c49c}
 .barracks-v2 .hero-level.hero-unowned{font-size:max(2.8cqw,9px);color:#e8ce9c}
-
-/* Brush-lettered header titles (ui-shell.js headerLettering). */
-.header-title-lettering{max-width:76%;max-height:52%;width:auto;height:auto;display:block;image-rendering:auto}
