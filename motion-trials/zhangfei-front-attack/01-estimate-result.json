@@ -1,0 +1,368 @@
+{
+ "usage": {
+  "type": "generations",
+  "generations": 1.0
+ },
+ "id": "50775c70-0ed9-4435-80ca-1f8efb4bbb9d",
+ "status": "completed",
+ "created_at": "2026-11-17T04:02:44.101247+00:00",
+ "last_response": {
+  "rig": [
+   {
+    "name": "pelvis",
+    "side": "mid",
+    "parent": null,
+    "estimate": null
+   },
+   {
+    "name": "chest",
+    "side": "mid",
+    "parent": "pelvis",
+    "estimate": null
+   },
+   {
+    "name": "neck",
+    "side": "mid",
+    "parent": "chest",
+    "estimate": "NECK"
+   },
+   {
+    "name": "head",
+    "side": "mid",
+    "parent": "neck",
+    "estimate": null
+   },
+   {
+    "name": "nose",
+    "side": "mid",
+    "parent": "head",
+    "estimate": "NOSE"
+   },
+   {
+    "name": "head_top",
+    "side": "mid",
+    "parent": "head",
+    "estimate": null
+   },
+   {
+    "name": "right_shoulder",
+    "side": "near",
+    "parent": "chest",
+    "estimate": "RIGHT SHOULDER"
+   },
+   {
+    "name": "right_elbow",
+    "side": "near",
+    "parent": "right_shoulder",
+    "estimate": "RIGHT ELBOW"
+   },
+   {
+    "name": "right_wrist",
+    "side": "near",
+    "parent": "right_elbow",
+    "estimate": "RIGHT ARM"
+   },
+   {
+    "name": "left_shoulder",
+    "side": "far",
+    "parent": "chest",
+    "estimate": "LEFT SHOULDER"
+   },
+   {
+    "name": "left_elbow",
+    "side": "far",
+    "parent": "left_shoulder",
+    "estimate": "LEFT ELBOW"
+   },
+   {
+    "name": "left_wrist",
+    "side": "far",
+    "parent": "left_elbow",
+    "estimate": "LEFT ARM"
+   },
+   {
+    "name": "right_hip",
+    "side": "near",
+    "parent": "pelvis",
+    "estimate": "RIGHT HIP"
+   },
+   {
+    "name": "right_knee",
+    "side": "near",
+    "parent": "right_hip",
+    "estimate": "RIGHT KNEE"
+   },
+   {
+    "name": "right_ankle",
+    "side": "near",
+    "parent": "right_knee",
+    "estimate": "RIGHT LEG"
+   },
+   {
+    "name": "right_foot_tip",
+    "side": "near",
+    "parent": "right_ankle",
+    "estimate": null
+   },
+   {
+    "name": "left_hip",
+    "side": "far",
+    "parent": "pelvis",
+    "estimate": "LEFT HIP"
+   },
+   {
+    "name": "left_knee",
+    "side": "far",
+    "parent": "left_hip",
+    "estimate": "LEFT KNEE"
+   },
+   {
+    "name": "left_ankle",
+    "side": "far",
+    "parent": "left_knee",
+    "estimate": "LEFT LEG"
+   },
+   {
+    "name": "left_foot_tip",
+    "side": "far",
+    "parent": "left_ankle",
+    "estimate": null
+   },
+   {
+    "name": "cape_mid",
+    "side": "mid",
+    "parent": "pelvis",
+    "estimate": null
+   },
+   {
+    "name": "cape_tip",
+    "side": "mid",
+    "parent": "cape_mid",
+    "estimate": null
+   },
+   {
+    "name": "spear_grip",
+    "side": "near",
+    "parent": "right_wrist",
+    "estimate": null
+   },
+   {
+    "name": "spear_low",
+    "side": "near",
+    "parent": "spear_grip",
+    "estimate": null
+   },
+   {
+    "name": "spear_butt",
+    "side": "near",
+    "parent": "spear_low",
+    "estimate": null
+   },
+   {
+    "name": "spear_upper",
+    "side": "near",
+    "parent": "spear_grip",
+    "estimate": null
+   },
+   {
+    "name": "spear_mid",
+    "side": "near",
+    "parent": "spear_upper",
+    "estimate": null
+   },
+   {
+    "name": "spear_tip",
+    "side": "near",
+    "parent": "spear_mid",
+    "estimate": null
+   }
+  ],
+  "kind": "person",
+  "type": "done",
+  "action": "Building the skeleton",
+  "frames": [
+   [
+    {
+     "x": 0.5,
+     "y": 0.6875,
+     "label": "pelvis",
+     "z_index": 1
+    },
+    {
+     "x": 0.5,
+     "y": 0.5859,
+     "label": "chest",
+     "z_index": 1
+    },
+    {
+     "x": 0.5073,
+     "y": 0.5438,
+     "label": "neck",
+     "z_index": 1
+    },
+    {
+     "x": 0.5,
+     "y": 0.4766,
+     "label": "head",
+     "z_index": 1
+    },
+    {
+     "x": 0.498,
+     "y": 0.506,
+     "label": "nose",
+     "z_index": 1
+    },
+    {
+     "x": 0.5,
+     "y": 0.3906,
+     "label": "head_top",
+     "z_index": 1
+    },
+    {
+     "x": 0.4243,
+     "y": 0.5336,
+     "label": "right_shoulder",
+     "z_index": 2
+    },
+    {
+     "x": 0.3912,
+     "y": 0.5945,
+     "label": "right_elbow",
+     "z_index": 2
+    },
+    {
+     "x": 0.3746,
+     "y": 0.6092,
+     "label": "right_wrist",
+     "z_index": 2
+    },
+    {
+     "x": 0.5902,
+     "y": 0.5539,
+     "label": "left_shoulder",
+     "z_index": 0
+    },
+    {
+     "x": 0.6215,
+     "y": 0.6239,
+     "label": "left_elbow",
+     "z_index": 0
+    },
+    {
+     "x": 0.616,
+     "y": 0.694,
+     "label": "left_wrist",
+     "z_index": 0
+    },
+    {
+     "x": 0.4557,
+     "y": 0.6792,
+     "label": "right_hip",
+     "z_index": 2
+    },
+    {
+     "x": 0.4391,
+     "y": 0.7677,
+     "label": "right_knee",
+     "z_index": 2
+    },
+    {
+     "x": 0.4391,
+     "y": 0.8451,
+     "label": "right_ankle",
+     "z_index": 2
+    },
+    {
+     "x": 0.4375,
+     "y": 0.875,
+     "label": "right_foot_tip",
+     "z_index": 2
+    },
+    {
+     "x": 0.5478,
+     "y": 0.6829,
+     "label": "left_hip",
+     "z_index": 0
+    },
+    {
+     "x": 0.5625,
+     "y": 0.7714,
+     "label": "left_knee",
+     "z_index": 0
+    },
+    {
+     "x": 0.5607,
+     "y": 0.8432,
+     "label": "left_ankle",
+     "z_index": 0
+    },
+    {
+     "x": 0.5625,
+     "y": 0.875,
+     "label": "left_foot_tip",
+     "z_index": 0
+    },
+    {
+     "x": 0.5,
+     "y": 0.7617,
+     "label": "cape_mid",
+     "z_index": 1
+    },
+    {
+     "x": 0.5,
+     "y": 0.8047,
+     "label": "cape_tip",
+     "z_index": 1
+    },
+    {
+     "x": 0.375,
+     "y": 0.6094,
+     "label": "spear_grip",
+     "z_index": 2
+    },
+    {
+     "x": 0.375,
+     "y": 0.7656,
+     "label": "spear_low",
+     "z_index": 2
+    },
+    {
+     "x": 0.375,
+     "y": 0.8594,
+     "label": "spear_butt",
+     "z_index": 2
+    },
+    {
+     "x": 0.375,
+     "y": 0.4609,
+     "label": "spear_upper",
+     "z_index": 2
+    },
+    {
+     "x": 0.3594,
+     "y": 0.3203,
+     "label": "spear_mid",
+     "z_index": 2
+    },
+    {
+     "x": 0.3906,
+     "y": 0.2109,
+     "label": "spear_tip",
+     "z_index": 2
+    }
+   ]
+  ],
+  "status": "initializing",
+  "progress": 0.0,
+  "billing_usage": {
+   "usd": 0.0,
+   "type": "generations",
+   "generations": 1
+  },
+  "queue_position": 0,
+  "billing_charged": true,
+  "generation_mode": "estimate_custom_skeleton",
+  "generation_started_at": "2026-11-17T04:02:44.166037+00:00",
+  "estimated_wait_seconds": 0
+ }
+}

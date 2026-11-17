@@ -1,0 +1,12 @@
+{
+ "images": [
+  {
+   "type": "base64",
+   "bytes": 24657
+  }
+ ],
+ "description": "stocky bearded warrior in black and red armor with a red headband, holding a long serpent-bladed spear upright",
+ "action": "spear thrust attack",
+ "direction": "north",
+ "view": "low top-down"
+}

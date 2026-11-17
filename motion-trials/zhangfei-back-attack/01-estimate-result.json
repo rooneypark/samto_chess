@@ -1,0 +1,320 @@
+{
+ "usage": {
+  "type": "generations",
+  "generations": 1.0
+ },
+ "id": "1864c58c-b0c8-496d-8200-2be4377dd49d",
+ "status": "completed",
+ "created_at": "2026-11-17T04:02:45.596833+00:00",
+ "last_response": {
+  "rig": [
+   {
+    "name": "pelvis",
+    "side": "mid",
+    "parent": null,
+    "estimate": null
+   },
+   {
+    "name": "chest",
+    "side": "mid",
+    "parent": "pelvis",
+    "estimate": null
+   },
+   {
+    "name": "neck",
+    "side": "mid",
+    "parent": "chest",
+    "estimate": "NECK"
+   },
+   {
+    "name": "head",
+    "side": "mid",
+    "parent": "neck",
+    "estimate": null
+   },
+   {
+    "name": "near_shoulder",
+    "side": "near",
+    "parent": "chest",
+    "estimate": "RIGHT SHOULDER"
+   },
+   {
+    "name": "near_elbow",
+    "side": "near",
+    "parent": "near_shoulder",
+    "estimate": "RIGHT ELBOW"
+   },
+   {
+    "name": "near_hand",
+    "side": "near",
+    "parent": "near_elbow",
+    "estimate": "RIGHT ARM"
+   },
+   {
+    "name": "far_shoulder",
+    "side": "far",
+    "parent": "chest",
+    "estimate": "LEFT SHOULDER"
+   },
+   {
+    "name": "far_elbow",
+    "side": "far",
+    "parent": "far_shoulder",
+    "estimate": "LEFT ELBOW"
+   },
+   {
+    "name": "far_hand",
+    "side": "far",
+    "parent": "far_elbow",
+    "estimate": "LEFT ARM"
+   },
+   {
+    "name": "spear_grip",
+    "side": "mid",
+    "parent": "far_hand",
+    "estimate": null
+   },
+   {
+    "name": "spear_mid",
+    "side": "mid",
+    "parent": "spear_grip",
+    "estimate": null
+   },
+   {
+    "name": "spear_butt",
+    "side": "mid",
+    "parent": "spear_mid",
+    "estimate": null
+   },
+   {
+    "name": "spear_guard",
+    "side": "mid",
+    "parent": "spear_grip",
+    "estimate": null
+   },
+   {
+    "name": "blade_mid",
+    "side": "mid",
+    "parent": "spear_guard",
+    "estimate": null
+   },
+   {
+    "name": "blade_tip",
+    "side": "mid",
+    "parent": "blade_mid",
+    "estimate": null
+   },
+   {
+    "name": "near_hip",
+    "side": "near",
+    "parent": "pelvis",
+    "estimate": "RIGHT HIP"
+   },
+   {
+    "name": "near_knee",
+    "side": "near",
+    "parent": "near_hip",
+    "estimate": "RIGHT KNEE"
+   },
+   {
+    "name": "near_ankle",
+    "side": "near",
+    "parent": "near_knee",
+    "estimate": "RIGHT LEG"
+   },
+   {
+    "name": "far_hip",
+    "side": "far",
+    "parent": "pelvis",
+    "estimate": "LEFT HIP"
+   },
+   {
+    "name": "far_knee",
+    "side": "far",
+    "parent": "far_hip",
+    "estimate": "LEFT KNEE"
+   },
+   {
+    "name": "far_ankle",
+    "side": "far",
+    "parent": "far_knee",
+    "estimate": "LEFT LEG"
+   },
+   {
+    "name": "cape_mid",
+    "side": "mid",
+    "parent": "pelvis",
+    "estimate": null
+   },
+   {
+    "name": "cape_tip",
+    "side": "mid",
+    "parent": "cape_mid",
+    "estimate": null
+   }
+  ],
+  "kind": "person",
+  "type": "done",
+  "action": "Building the skeleton",
+  "frames": [
+   [
+    {
+     "x": 0.5,
+     "y": 0.6719,
+     "label": "pelvis",
+     "z_index": 1
+    },
+    {
+     "x": 0.4922,
+     "y": 0.5859,
+     "label": "chest",
+     "z_index": 1
+    },
+    {
+     "x": 0.4885,
+     "y": 0.5277,
+     "label": "neck",
+     "z_index": 1
+    },
+    {
+     "x": 0.4961,
+     "y": 0.4453,
+     "label": "head",
+     "z_index": 1
+    },
+    {
+     "x": 0.4175,
+     "y": 0.5335,
+     "label": "near_shoulder",
+     "z_index": 2
+    },
+    {
+     "x": 0.385,
+     "y": 0.601,
+     "label": "near_elbow",
+     "z_index": 2
+    },
+    {
+     "x": 0.371,
+     "y": 0.6871,
+     "label": "near_hand",
+     "z_index": 2
+    },
+    {
+     "x": 0.5595,
+     "y": 0.5219,
+     "label": "far_shoulder",
+     "z_index": 0
+    },
+    {
+     "x": 0.5874,
+     "y": 0.587,
+     "label": "far_elbow",
+     "z_index": 0
+    },
+    {
+     "x": 0.6223,
+     "y": 0.6196,
+     "label": "far_hand",
+     "z_index": 0
+    },
+    {
+     "x": 0.6289,
+     "y": 0.6367,
+     "label": "spear_grip",
+     "z_index": 1
+    },
+    {
+     "x": 0.6348,
+     "y": 0.7422,
+     "label": "spear_mid",
+     "z_index": 1
+    },
+    {
+     "x": 0.6406,
+     "y": 0.8594,
+     "label": "spear_butt",
+     "z_index": 1
+    },
+    {
+     "x": 0.6289,
+     "y": 0.4141,
+     "label": "spear_guard",
+     "z_index": 1
+    },
+    {
+     "x": 0.6406,
+     "y": 0.3125,
+     "label": "blade_mid",
+     "z_index": 1
+    },
+    {
+     "x": 0.6172,
+     "y": 0.2109,
+     "label": "blade_tip",
+     "z_index": 1
+    },
+    {
+     "x": 0.4594,
+     "y": 0.6661,
+     "label": "near_hip",
+     "z_index": 2
+    },
+    {
+     "x": 0.4362,
+     "y": 0.7615,
+     "label": "near_knee",
+     "z_index": 2
+    },
+    {
+     "x": 0.4315,
+     "y": 0.843,
+     "label": "near_ankle",
+     "z_index": 2
+    },
+    {
+     "x": 0.5385,
+     "y": 0.6685,
+     "label": "far_hip",
+     "z_index": 0
+    },
+    {
+     "x": 0.5618,
+     "y": 0.7569,
+     "label": "far_knee",
+     "z_index": 0
+    },
+    {
+     "x": 0.5665,
+     "y": 0.843,
+     "label": "far_ankle",
+     "z_index": 0
+    },
+    {
+     "x": 0.5,
+     "y": 0.7422,
+     "label": "cape_mid",
+     "z_index": 1
+    },
+    {
+     "x": 0.5,
+     "y": 0.8203,
+     "label": "cape_tip",
+     "z_index": 1
+    }
+   ]
+  ],
+  "status": "initializing",
+  "progress": 0.0,
+  "billing_usage": {
+   "usd": 0.0,
+   "type": "generations",
+   "generations": 1
+  },
+  "queue_position": 0,
+  "billing_charged": true,
+  "generation_mode": "estimate_custom_skeleton",
+  "generation_started_at": "2026-11-17T04:02:45.654407+00:00",
+  "estimated_wait_seconds": 0
+ }
+}
