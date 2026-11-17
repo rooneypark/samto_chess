@@ -14,3 +14,5 @@
 - 내장 image_gen으로 투명 제목 `game/assets/ui-common/header-lettering/codex-tabs.png` 생성하고 공용 header-lettering에 등록. 참조 codex.png, 프롬프트: exact Korean text 도감, warm pale gold brush calligraphy, subtle brown outline, transparent background, no frame or extra text.
 - codex-tabs-browser: 실제 보유 개수, 2탭/5필터/페이지, 3크기, 저장 불변, 상점 이동 통과. codex-flow-browser 기존 보상/재접속/중복방지 통과. 실제 사용자 클릭 검수 대기.
 - pack/verify 완료: 1783자산/17묶음. publish는 GitHub CLI 실행 파일 부재(WinError 2)로 미완료. 원격 푸시하지 않음.
+
+- 2026-11-17 사용자 확정으로 실제 보물도감의 기존 12종 아이콘 목록을 청공검·청룡언월도 포함 승인 원화 32종으로 교체했다. art-source/treasures/v1/catalog.json과 원본 PNG를 사용하며 무기·군마·서책·기타로 분류한다. 도감의 원화 항목에는 기존 모집·저장 ID를 연결하지 않는다. 게임 보물 모집·장착·저장에는 기존 12종을 사용한다.

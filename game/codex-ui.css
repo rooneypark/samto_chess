@@ -34,3 +34,7 @@
 :scope.treasure-tab .codex-entry .grade-label{width:32%;white-space:nowrap;font-size:2.1cqw}
 
 }
+
+.codex-runtime .codex-treasure-art{position:absolute;object-fit:contain;image-rendering:pixelated;pointer-events:none}
+.codex-runtime .codex-entry .codex-treasure-art{left:34%;top:5%;width:32%;height:48%}
+.codex-runtime .detail-art .codex-treasure-art{left:4%;top:62%;width:25%;height:13%}

@@ -38,7 +38,7 @@ class Handler(SimpleHTTPRequestHandler):
             self.send_header("Content-Length", "0")
             self.end_headers()
             return
-        if not route.startswith(("/game/", "/docs/ui/", "/art-source/motions/v1/2/", "/art-source/characters/v1/")) or ".." in route.split("/"):
+        if not route.startswith(("/game/", "/docs/ui/", "/art-source/motions/v1/2/", "/art-source/characters/v1/", "/art-source/treasures/v1/")) or ".." in route.split("/"):
             self.send_error(404)
             return
         super().do_GET()
