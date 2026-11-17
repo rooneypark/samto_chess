@@ -1,0 +1,33 @@
+{
+ "usage": {
+  "type": "generations",
+  "generations": 2.0
+ },
+ "id": "3179ead3-2d18-4df9-b038-17736c32ee81",
+ "status": "completed",
+ "created_at": "2026-11-17T03:32:17.848585+00:00",
+ "last_response": {
+  "seed": 20261117,
+  "type": "done",
+  "action": "finalizing",
+  "images": [
+   {
+    "type": "base64",
+    "bytes": 12048
+   }
+  ],
+  "status": "initializing",
+  "progress": 0.2073922794843645,
+  "flow_kind": "animation",
+  "billing_usage": {
+   "usd": 0.0,
+   "type": "generations",
+   "generations": 2
+  },
+  "generation_id": "e9afd4de-d2fa-4074-ad12-73f1d05999f3",
+  "queue_position": 0,
+  "billing_charged": true,
+  "generation_started_at": "2026-11-17T03:32:18.491876+00:00",
+  "estimated_wait_seconds": 0
+ }
+}
