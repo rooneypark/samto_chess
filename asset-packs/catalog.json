@@ -8544,8 +8544,8 @@
     {
       "path": "asset-packs/v1/ui-build-reference-v1-001.zip",
       "category": "ui-build-reference",
-      "bytes": 37314005,
-      "sha256": "0d5434e24dd7e695631998ca6132394cdf5a3ea06ffae7e1012804672145af31",
+      "bytes": 37272652,
+      "sha256": "b856386061c8db84f7f7d7ef3e11b9d35148d3e15aef511c2a28508a4a7d1289",
       "files": [
         {
           "path": "art-source/ui-build/v1/battle-sprites/1-back.png",
@@ -8664,13 +8664,13 @@
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/barracks-390.png",
-          "bytes": 387823,
-          "sha256": "cc0b26b6815ba96fadd154791591fa439d31c324e6dface130c5f16ebceede58"
+          "bytes": 386072,
+          "sha256": "5a626d64fa805d96e3ead165ea7ef6c4f085a84233222027c3919bf45a4907af"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/barracks-941.png",
-          "bytes": 1587157,
-          "sha256": "0a47ae88457a83a9a5dd2d7ff149f247cdebceaab5fb88d6ea13850662da96ab"
+          "bytes": 1552553,
+          "sha256": "50abda2118569b375fde6dffe2f750de92fd573b0ba249e5c91774a0b202d704"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/battle-390.png",
@@ -8684,13 +8684,13 @@
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/home-390.png",
-          "bytes": 481250,
-          "sha256": "8e26de46261a97c198ec66966668b10a5ffac7268af22d2fc18bd238828844b5"
+          "bytes": 480209,
+          "sha256": "25cf22ad465be7ce025e068f419664c14155af203de0e554b37cfd9b1e095ee4"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/home-941.png",
-          "bytes": 2316806,
-          "sha256": "eaad2c2be4740722755360e766524559729084acf06eb5b69b82a8b58114d340"
+          "bytes": 2312921,
+          "sha256": "da72799be03f96b08dd147218b45a11bd899eeecc3109b3b3ce9383922712a3f"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/shop-390.png",
@@ -8727,8 +8727,8 @@
     {
       "path": "asset-packs/v1/ui-build-reference-v1-002.zip",
       "category": "ui-build-reference",
-      "bytes": 26175525,
-      "sha256": "09cb18337776c3ecd323a247ed8e6aca6030b91d4c2f99bdbde9935a4acc1537",
+      "bytes": 26176482,
+      "sha256": "0d08ec38c09e09c184bc1a73faa7dd1bb88745a5177d8070437ec3fbd5fddefb",
       "files": [
         {
           "path": "design-delivery/v2/05-mockups/battle-preparation-v1.png",
@@ -8762,8 +8762,8 @@
         },
         {
           "path": "design-delivery/v2/05-mockups/campaign-selection-v4.png",
-          "bytes": 1437252,
-          "sha256": "b53675c16f5b8d22ba94ef918e702cf44e5cc9b5718f1f8a2fdd112280fb930c"
+          "bytes": 1438240,
+          "sha256": "432e62dad07fd89103b82e5d5d5f662e1d25bc5f2c755d79f343cc670d480490"
         },
         {
           "path": "design-delivery/v2/05-mockups/codex-v1-mobile.png",
