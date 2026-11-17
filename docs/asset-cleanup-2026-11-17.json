@@ -1,0 +1,401 @@
+{
+  "removed": [
+    {
+      "path": "test-artifacts/apply-portraits-v4.py",
+      "files": 1,
+      "bytes": 1756
+    },
+    {
+      "path": "test-artifacts/battle",
+      "files": 3,
+      "bytes": 1121017
+    },
+    {
+      "path": "test-artifacts/battle-feedback",
+      "files": 6,
+      "bytes": 4322010
+    },
+    {
+      "path": "test-artifacts/battle-header-source.png",
+      "files": 1,
+      "bytes": 94363
+    },
+    {
+      "path": "test-artifacts/battle-silver-source.png",
+      "files": 1,
+      "bytes": 43804
+    },
+    {
+      "path": "test-artifacts/button-frames-v2",
+      "files": 14,
+      "bytes": 4390377
+    },
+    {
+      "path": "test-artifacts/character-checker",
+      "files": 2,
+      "bytes": 7773426
+    },
+    {
+      "path": "test-artifacts/check-portrait-release.py",
+      "files": 1,
+      "bytes": 958
+    },
+    {
+      "path": "test-artifacts/check-release.py",
+      "files": 1,
+      "bytes": 1591
+    },
+    {
+      "path": "test-artifacts/check-title-lettering.cjs",
+      "files": 1,
+      "bytes": 1557
+    },
+    {
+      "path": "test-artifacts/codex-tabs",
+      "files": 6,
+      "bytes": 2422828
+    },
+    {
+      "path": "test-artifacts/codex-v1",
+      "files": 3,
+      "bytes": 1296433
+    },
+    {
+      "path": "test-artifacts/codex-v2",
+      "files": 6,
+      "bytes": 2302673
+    },
+    {
+      "path": "test-artifacts/contact-titles.cjs",
+      "files": 1,
+      "bytes": 917
+    },
+    {
+      "path": "test-artifacts/dialog-runtime",
+      "files": 6,
+      "bytes": 220150
+    },
+    {
+      "path": "test-artifacts/font-comparison",
+      "files": 13,
+      "bytes": 23390067
+    },
+    {
+      "path": "test-artifacts/formation-source.png",
+      "files": 1,
+      "bytes": 396514
+    },
+    {
+      "path": "test-artifacts/formation-synergy",
+      "files": 5,
+      "bytes": 208063
+    },
+    {
+      "path": "test-artifacts/formation-v1",
+      "files": 1,
+      "bytes": 265192
+    },
+    {
+      "path": "test-artifacts/gate-formation-fixed.png",
+      "files": 1,
+      "bytes": 7635
+    },
+    {
+      "path": "test-artifacts/gate-title-plaque-v2-replaced.png",
+      "files": 1,
+      "bytes": 39841
+    },
+    {
+      "path": "test-artifacts/install-title-lettering.cjs",
+      "files": 1,
+      "bytes": 589
+    },
+    {
+      "path": "test-artifacts/liaohua-attack-cut-8-v1",
+      "files": 49,
+      "bytes": 1838720
+    },
+    {
+      "path": "test-artifacts/liaohua-attack-final-v1",
+      "files": 18,
+      "bytes": 961244
+    },
+    {
+      "path": "test-artifacts/liaohua-attack-full-v1",
+      "files": 84,
+      "bytes": 3190718
+    },
+    {
+      "path": "test-artifacts/liaohua-attack-motion-v2",
+      "files": 69,
+      "bytes": 2118289
+    },
+    {
+      "path": "test-artifacts/liaohua-attack-motion-v3",
+      "files": 82,
+      "bytes": 2696863
+    },
+    {
+      "path": "test-artifacts/liaohua-attack-poses-v1",
+      "files": 9,
+      "bytes": 2869084
+    },
+    {
+      "path": "test-artifacts/liaohua-attack-poses-v2",
+      "files": 14,
+      "bytes": 2265748
+    },
+    {
+      "path": "test-artifacts/liaohua-back-attack-text-v1",
+      "files": 29,
+      "bytes": 774692
+    },
+    {
+      "path": "test-artifacts/liaohua-front-attack-text-v1",
+      "files": 29,
+      "bytes": 792103
+    },
+    {
+      "path": "test-artifacts/liaohua-side-attack-template-v1",
+      "files": 13,
+      "bytes": 1104837
+    },
+    {
+      "path": "test-artifacts/liaohua-side-attack-text-v1",
+      "files": 29,
+      "bytes": 805135
+    },
+    {
+      "path": "test-artifacts/liaohua-side-walk-ab-v1",
+      "files": 58,
+      "bytes": 2322649
+    },
+    {
+      "path": "test-artifacts/liaohua-skill-trail-v1",
+      "files": 11,
+      "bytes": 353560
+    },
+    {
+      "path": "test-artifacts/liaohua-three-way-attack-text-v1",
+      "files": 3,
+      "bytes": 370970
+    },
+    {
+      "path": "test-artifacts/liaohua-three-way-walk-a-v1",
+      "files": 46,
+      "bytes": 1365846
+    },
+    {
+      "path": "test-artifacts/motion-publish-root.txt",
+      "files": 1,
+      "bytes": 60
+    },
+    {
+      "path": "test-artifacts/navigation",
+      "files": 4,
+      "bytes": 2103228
+    },
+    {
+      "path": "test-artifacts/portable-gh",
+      "files": 1,
+      "bytes": 41800504
+    },
+    {
+      "path": "test-artifacts/portrait-full-guide.png",
+      "files": 1,
+      "bytes": 398501
+    },
+    {
+      "path": "test-artifacts/portrait-heads.png",
+      "files": 1,
+      "bytes": 274535
+    },
+    {
+      "path": "test-artifacts/portrait-ids.json",
+      "files": 1,
+      "bytes": 443
+    },
+    {
+      "path": "test-artifacts/portrait-release-root",
+      "files": 1767,
+      "bytes": 406755155
+    },
+    {
+      "path": "test-artifacts/portrait-v4",
+      "files": 2,
+      "bytes": 299550
+    },
+    {
+      "path": "test-artifacts/portrait-v4-candidates",
+      "files": 49,
+      "bytes": 748232
+    },
+    {
+      "path": "test-artifacts/portrait-v4-jobs.tsv",
+      "files": 1,
+      "bytes": 2647
+    },
+    {
+      "path": "test-artifacts/portraits-v3",
+      "files": 1,
+      "bytes": 241598
+    },
+    {
+      "path": "test-artifacts/portraits-v3.png",
+      "files": 1,
+      "bytes": 713148
+    },
+    {
+      "path": "test-artifacts/portraits-v4-review.png",
+      "files": 1,
+      "bytes": 785008
+    },
+    {
+      "path": "test-artifacts/premium-title",
+      "files": 12,
+      "bytes": 3616285
+    },
+    {
+      "path": "test-artifacts/retired-portraits",
+      "files": 81,
+      "bytes": 2097900
+    },
+    {
+      "path": "test-artifacts/retired-title-plaques",
+      "files": 3,
+      "bytes": 3906234
+    },
+    {
+      "path": "test-artifacts/seed-portrait-release.py",
+      "files": 1,
+      "bytes": 1790
+    },
+    {
+      "path": "test-artifacts/settings-v1",
+      "files": 3,
+      "bytes": 245199
+    },
+    {
+      "path": "test-artifacts/stage-portraits-v4.cjs",
+      "files": 1,
+      "bytes": 2039
+    },
+    {
+      "path": "test-artifacts/summon-ui",
+      "files": 2,
+      "bytes": 757636
+    },
+    {
+      "path": "test-artifacts/title-file-index.json",
+      "files": 1,
+      "bytes": 3697
+    },
+    {
+      "path": "test-artifacts/title-new.png",
+      "files": 1,
+      "bytes": 459589
+    },
+    {
+      "path": "test-artifacts/title-recovery.png",
+      "files": 1,
+      "bytes": 555033
+    },
+    {
+      "path": "test-artifacts/topui-lettering",
+      "files": 4,
+      "bytes": 1679555
+    },
+    {
+      "path": "test-artifacts/topui-yeonsung",
+      "files": 1,
+      "bytes": 462008
+    },
+    {
+      "path": "test-artifacts/update-button-frames.py",
+      "files": 1,
+      "bytes": 2108
+    },
+    {
+      "path": "test-artifacts/verify-portraits-v4.cjs",
+      "files": 1,
+      "bytes": 2230
+    },
+    {
+      "path": "test-artifacts/zhaoyun-playtest",
+      "files": 1,
+      "bytes": 628738
+    },
+    {
+      "path": "test-artifacts/zhaoyun-server.log",
+      "files": 1,
+      "bytes": 101
+    },
+    {
+      "path": "test-artifacts/zhaoyun-server.log.err",
+      "files": 1,
+      "bytes": 537812
+    },
+    {
+      "path": "test-artifacts/zhaoyun-test-server.log",
+      "files": 1,
+      "bytes": 101
+    },
+    {
+      "path": "test-artifacts/zhaoyun-test-server.log.err",
+      "files": 1,
+      "bytes": 1155044
+    },
+    {
+      "path": "test-artifacts/zhugeliang-attack-fixed-v1",
+      "files": 11,
+      "bytes": 309498
+    },
+    {
+      "path": "test-artifacts/zhugeliang-attack-motion-v1",
+      "files": 83,
+      "bytes": 2757519
+    },
+    {
+      "path": "test-artifacts/zhugeliang-attack-natural-v1",
+      "files": 78,
+      "bytes": 2217015
+    },
+    {
+      "path": "test-artifacts/zhugeliang-attack-poses-v1",
+      "files": 15,
+      "bytes": 2977479
+    },
+    {
+      "path": "test-artifacts/zhugeliang-attack-poses-v2",
+      "files": 5,
+      "bytes": 375408
+    },
+    {
+      "path": "test-artifacts/zhugeliang-attack-poses-v3",
+      "files": 5,
+      "bytes": 480761
+    },
+    {
+      "path": ".asset-backups/catalog-before-startup-fix-c53b193.json",
+      "files": 1,
+      "bytes": 372996
+    },
+    {
+      "path": "game/previews/motion-v1/media/references",
+      "files": 49,
+      "bytes": 2915600
+    },
+    {
+      "path": "game/previews/motion-v1/build-reference-review.mjs",
+      "files": 1,
+      "bytes": 2777
+    },
+    {
+      "path": "game/previews/motion-v1/reference-data.json",
+      "files": 1,
+      "bytes": 99772
+    }
+  ],
+  "reason": "Unused local experiments, review outputs, staging copies and obsolete pre-pixel256 reference copies; current runtime/build inputs and approved/pending source sets preserved.",
+  "disposition": "Moved to ignored 삭제예정/2026-11-17 after bulk deletion was blocked; safe to delete manually."
+}
