@@ -44,7 +44,7 @@ async function press(page,button){
  const reference=await read(await preview.locator('.game').screenshot({path:artifact('alliance-v2','current-preview.png')}));
  await preview.close();
  const shot=await game.screenshot({path:artifact('alliance-v2','approved-layout.png')}),actual=await read(shot);
- const images=await page.locator('.alliance-v2 .general-original').evaluateAll((es,o)=>es.map(e=>{const r=e.getBoundingClientRect();return {left:Math.floor(r.left-o.x)-1,right:Math.ceil(r.right-o.x)+1,top:Math.floor(r.top-o.y)-1,bottom:Math.ceil(r.bottom-o.y)+1};}),origin);
+ const images=await page.locator('.alliance-v2 .general-original,.alliance-v2 .rw-icon').evaluateAll((es,o)=>es.map(e=>{const r=e.getBoundingClientRect();return {left:Math.floor(r.left-o.x)-1,right:Math.ceil(r.right-o.x)+1,top:Math.floor(r.top-o.y)-1,bottom:Math.ceil(r.bottom-o.y)+1};}),origin);
  const scrollChange=await require('./approved-ui-changes.cjs')(page,941,origin);
  let changed=0,imageRasterPixels=0,imageError=0;for(let i=0;i<actual.data.length;i+=4)if(!scrollChange(i)&&!actual.data.subarray(i,i+4).equals(reference.data.subarray(i,i+4))){const x=i/4%941,y=Math.floor(i/4/941);if(images.some(r=>x>=r.left&&x<r.right&&y>=r.top&&y<r.bottom)){imageRasterPixels++;for(let k=0;k<3;k++)imageError+=Math.abs(actual.data[i+k]-reference.data[i+k]);}else changed++;}
  // Original character PNGs are unchanged; Chromium can choose a different

@@ -182,3 +182,7 @@ body{background:#16273d;background-image:repeating-linear-gradient(45deg,#ffffff
 .arena-season-runtime .reward{display:flex;align-items:center;justify-content:center;font-size:4.4cqw}
 .arena-season-runtime .reward .rwi{margin:0 1cqw}
 .arena-season-runtime .rank-card small{font-size:max(2.3cqw,9px)!important;white-space:nowrap}
+/* Mail: the expiry line's box was a hair shorter than its glyphs once small windows scale the whole game. */
+.mail-v1 .row-expiry{line-height:1.4}
+/* Amount icons: nearest-neighbour scaling, so the same icon rasterises identically on every page. */
+.rwi>.rw-icon{image-rendering:pixelated}

@@ -16,7 +16,6 @@ export const CREATE_COST=1000;
 // 동맹 연구: contribution buys guild-wide buffs. The levels belong to the guild and are lost on leaving.
 export const research={farm:{name:'둔전 개간',text:'농지 생산 +5%',step:.05},march:{name:'행군 훈련',text:'토벌 파견 시간 −5%',step:.05}};
 export const researchCosts=[50,100,200];
-export const researchLevel=(state,id)=>state.alliance?.guild?state.alliance.research?.[id]??0:0;
 // Simulates one attempt with the saved formation and real growth; returns the damage dealt to the boss.
 export function raidAttempt(state,week){
  const boss=raidBoss(week),profile=runProfile(state),units=arenaUnits(state.order,0).map(u=>combatant(u,0,profile));

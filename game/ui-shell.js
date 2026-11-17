@@ -8,6 +8,15 @@ export function artworkShell(root,{screen,title,progress,controlsRoot=root.close
  const game=root.closest('.game');initArtPress(game);
  artworkHeader(root,screen,title);artworkWallet(controlsRoot,progress);artworkNavigation(controlsRoot,screen);
 }
+// Header titles drawn as brush lettering: title text -> file in assets/ui-common/header-lettering.
+// A title that is not listed (boss names, composed titles) is drawn as text.
+// treasure-codex.png is composed from existing glyphs (보물 획득 + 장수 도감), colour-matched.
+const headerLettering={'상점':'shop','병영':'barracks','동맹':'alliance','군웅대전':'arena','전역':'campaign','임무':'missions','우편함':'mail',
+ '장수 도감':'codex','보물 도감':'treasure-codex','첫 7일 보상':'start','토벌 파견':'expedition','연무탑':'tower','내정':'government','보물함':'treasure',
+ '군주 정보':'profile','설정':'settings','장수 편성':'formation','군략 선택':'strategy','상품 교환':'exchange','S 장수 선택':'select',
+ '등용 결과':'recruit-result','보물 획득':'treasure-result','모집 확률':'rates','픽업 확률':'pickup','상품 · 보급':'products','군공 상점':'merit',
+ '시즌 · 등급':'season','상대 선택':'opponent','전투 기록':'record','전투 결과':'results',
+ '황건의 난':'yellow','사수관':'sishui','호뢰관':'hulao','복양':'puyang','관도':'guandu','하비':'xiapi','적벽':'chibi','이릉':'yiling','기초 훈련':'training'};
 // All artwork scenes use this exact frame, title slot and control alignment.
 export function artworkHeader(root,screen,title){
  let shell=root.querySelector(':scope > .art-header');
@@ -19,6 +28,18 @@ export function artworkHeader(root,screen,title){
   lettering.className='gate-title-lettering';
   lettering.alt='';
   lettering.src=gateTitleArtwork;
+  lettering.decode().then(()=>{
+   label.classList.add('has-gate-lettering');
+   label.append(lettering);
+  }).catch(()=>{});
+ }
+ // Brush lettering for titles that have artwork (assets/ui-common/header-lettering). The text stays underneath
+ // at zero size, and is shown again if the image fails to load.
+ else if(headerLettering[title]){
+  const lettering=new Image();
+  lettering.className='header-title-lettering';
+  lettering.alt='';
+  lettering.src='assets/ui-common/header-lettering/'+headerLettering[title]+'.png';
   lettering.decode().then(()=>{
    label.classList.add('has-gate-lettering');
    label.append(lettering);

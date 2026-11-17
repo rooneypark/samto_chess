@@ -6940,8 +6940,8 @@
     {
       "path": "asset-packs/v1/runtime-ui-v1-002.zip",
       "category": "runtime-ui",
-      "bytes": 39700316,
-      "sha256": "d6dafaf3e3dc4649dff5f315d1f91591e38d8753387acd9c8e45a6707f94ac0c",
+      "bytes": 39704174,
+      "sha256": "8a9b830af8bf8d115d39886c0b3be833b930382de00e0c4f11bb41fc01df55ef",
       "files": [
         {
           "path": "game/assets/shop-v2/recruitment-hall.png",
@@ -7199,6 +7199,166 @@
           "sha256": "e3d5bac22690b4935156811ef4581f1839b6223a3074477a85d768596d1014c1"
         },
         {
+          "path": "game/assets/treasures-v1/tr-001.png",
+          "bytes": 22875,
+          "sha256": "dabf69e61f1a9b78dcfc6e24ca6f8d6ae258c04db9332b8ac67819e37bd480d6"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-002.png",
+          "bytes": 31780,
+          "sha256": "b81dc1e9ca0e66272406dacdca6a83fc2c09b3b8916925e8d4f627cbdfd7afab"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-003.png",
+          "bytes": 22451,
+          "sha256": "1975faac6a9b60860186bae82a25be8d55ea07740d602dfd70a49a8785465ecf"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-004.png",
+          "bytes": 19847,
+          "sha256": "5d39e398950945a72b881c81e7d35651c001c31e188eca50f499eaaada2418a8"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-005.png",
+          "bytes": 22537,
+          "sha256": "c9ad4d051405bf78b855fab306b48063482825436c4d33412278faf3650303b1"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-006.png",
+          "bytes": 27833,
+          "sha256": "330f46c3ed66bf2689b795cb50e9a8d0b8f974fcfadb4f36c1b924fdb597ce25"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-007.png",
+          "bytes": 24537,
+          "sha256": "a40360859bdd236c8492b3d7e9eccde7d1dd8eb95130e573b0b23f8ad4ccc87c"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-008.png",
+          "bytes": 26665,
+          "sha256": "b563130aed513e8e329638f7daf81d370b16142c08879356ca1939046c013f8a"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-011.png",
+          "bytes": 36554,
+          "sha256": "3d89c0aacd4d35a6e10f77d074b8f0ab34ba7474612126819c66c6a02f106ca7"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-016.png",
+          "bytes": 25506,
+          "sha256": "c021a6e7e5a9b00623b51ce6de0d54135327e5b7e9c0e0aaf85a21746b3bd586"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-018.png",
+          "bytes": 31285,
+          "sha256": "7ab0d1760355ab697b8508a038bbf55a37aaeeb9535e6e059989faef9b551958"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-032.png",
+          "bytes": 51103,
+          "sha256": "4ee7def90f20e0a142143c921c9a31043eb74ce520d9ad20802abf0a8406a8f5"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-033.png",
+          "bytes": 48088,
+          "sha256": "faf28f0e098d99ea010c92db9778d722e370933328fb775a43c545891115b75b"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-034.png",
+          "bytes": 44053,
+          "sha256": "d2d1b8fcfe3988cb8cbbc5b359701c2d71331b9920f811f3066f0ee2caf3cf66"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-035.png",
+          "bytes": 51418,
+          "sha256": "da07f27557d55e76c8514093368e5d5aa855fc0e1d9268a100acbbbba797d9e2"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-042.png",
+          "bytes": 50563,
+          "sha256": "46d5b9608b2b72a153790b2a03bba477740bb8b53795a2ae5b0ab089860f46e1"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-043.png",
+          "bytes": 59177,
+          "sha256": "8e08e381fa2f767bb21598546e6afe1797b5cfcf3ff0738327b3a3b412891cf8"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-044.png",
+          "bytes": 45130,
+          "sha256": "fe43b28304aa6e84b1487bd86a01620b24f21945352882ace3e8438466a06abc"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-045.png",
+          "bytes": 45387,
+          "sha256": "88c4779fcc1bb1e2c9e584994e74129b157558b3d8b15ac9c23b54d0c7b6298c"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-046.png",
+          "bytes": 43614,
+          "sha256": "b2e302988c42241c82e91bcc7a49f4d7fa1d2323103dd514a04846a7f94999be"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-047.png",
+          "bytes": 44919,
+          "sha256": "aca8822482dda0798a0ac7004da14a3197bc37016b6512fd2dbcb3db307d3b9e"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-048.png",
+          "bytes": 54956,
+          "sha256": "fa651bc9140492c5af04a4eaf66cddd824d0fb7e3d09cd66e60527307e1abbcb"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-049.png",
+          "bytes": 46671,
+          "sha256": "3e52e34c4960843794d647a12fef2e02de069cf5dd89574425754fd440fd368f"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-071.png",
+          "bytes": 55761,
+          "sha256": "eb9947cb1764b3b79d518f555ebc42536dcb687a6f1eda423452e29b10908653"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-074.png",
+          "bytes": 61251,
+          "sha256": "5fc92b86ddd072467b70ad44e93c5ae80278b9f2edd4a4193b9b3c26eeba6a9f"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-082.png",
+          "bytes": 39509,
+          "sha256": "9f80cf63edd050bca8fb58d3a210f3dfc3f933c7658d63e51a0464ad031aeb18"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-083.png",
+          "bytes": 41786,
+          "sha256": "67b8ecb0c79702e1645e74dd7e8037d1f27fb734dba70f2d6c179da59e5d7eeb"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-085.png",
+          "bytes": 41690,
+          "sha256": "1c40f913ae79b2f08f86d0a9c18ccd5281fe1cda7dcb60925c44a71850927b06"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-088.png",
+          "bytes": 42254,
+          "sha256": "d0761dd5e1fbdfc61c1adf8e010d4bcb6d8bf67e7a83f40a79951c8067e8547d"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-089.png",
+          "bytes": 47867,
+          "sha256": "a85ea3aa92358b5a41d8eb1506cbe70d1c1d6fee2e57e57c859a8ccacec591b5"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-090.png",
+          "bytes": 49423,
+          "sha256": "d192c400236c3659a2b2c0ab50a3dae8e28e8b7d51d28cc3833f6ce8f1f5c23d"
+        },
+        {
+          "path": "game/assets/treasures-v1/tr-091.png",
+          "bytes": 46600,
+          "sha256": "5604623ab0d20038a3b806d6a5d61bf6bb66323f07f2f8c7c7a93980804f2e92"
+        },
+        {
           "path": "game/assets/ui-common/barracks-awaken-pressed.png",
           "bytes": 50937,
           "sha256": "435806dcd2d39f9f1bd15c05a2f66b5a47f4248fea4acc1dd5d7f3ccc0f903de"
@@ -7417,7 +7577,15 @@
           "path": "game/assets/ui-common/battle-back-pressed.png",
           "bytes": 16751,
           "sha256": "cc9b5763cbe5b552cf4575801bf2467a8002af2c476f150d71bfdf1bbf078656"
-        },
+        }
+      ]
+    },
+    {
+      "path": "asset-packs/v1/runtime-ui-v1-003.zip",
+      "category": "runtime-ui",
+      "bytes": 21580616,
+      "sha256": "3593377a150c3fe013b7074f7293b3e58129157c12598f5c2b6b014302026a3e",
+      "files": [
         {
           "path": "game/assets/ui-common/battle-back.png",
           "bytes": 19567,
@@ -7492,15 +7660,7 @@
           "path": "game/assets/ui-common/battle-summon-pressed.png",
           "bytes": 89947,
           "sha256": "7b7b37eb6588790ca50923bad6ceb14938179665f8ff6677beab925b7a747cb5"
-        }
-      ]
-    },
-    {
-      "path": "asset-packs/v1/runtime-ui-v1-003.zip",
-      "category": "runtime-ui",
-      "bytes": 20014161,
-      "sha256": "06b0484508e2ddfd731cf5bdec07fbb31d2f0392068729e3a52335d6d1d35a01",
-      "files": [
+        },
         {
           "path": "game/assets/ui-common/battle-summon.png",
           "bytes": 106657,
@@ -7957,6 +8117,11 @@
           "sha256": "24ffea4a8432c9d16506eeee41ced1f65be188cf181487a739ef350ade204b46"
         },
         {
+          "path": "game/assets/ui-common/header-lettering/treasure-codex.png",
+          "bytes": 94455,
+          "sha256": "506e78ab86d38e46fad56fea7e1c4c8fc0e08ea9d665ba410a890dfcd6787b05"
+        },
+        {
           "path": "game/assets/ui-common/header-lettering/treasure-result.png",
           "bytes": 109732,
           "sha256": "de25f239b6d2bb3dbc2691fedfcd819893feca1f37a054180b4e44c18b2bc4ff"
@@ -8112,6 +8277,11 @@
           "sha256": "093e403deccaa2385a8b96b0b20d26c3e1a5c8da0f23a4f1d2f98c314cba7a50"
         },
         {
+          "path": "game/assets/ui-scalable/blue-plain-panel.png",
+          "bytes": 55247,
+          "sha256": "b460195f56bc5b3b5341a129b5c5100dbfbedb60e21639f29cc27df9acac82d9"
+        },
+        {
           "path": "game/assets/ui-scalable/blue-rich.png",
           "bytes": 107914,
           "sha256": "557c9043b9febec6565fb2fb52bee045a318bcee5472834a15927e1298b061a1"
@@ -8125,6 +8295,16 @@
           "path": "game/assets/ui-scalable/button-sheet-v1.png",
           "bytes": 1160691,
           "sha256": "e973879cb9de52e03f6ccd1d27db8173f1601e1f2a4a922dbc20f4b7b75696cc"
+        },
+        {
+          "path": "game/assets/ui-scalable/green-plain-panel.png",
+          "bytes": 49044,
+          "sha256": "2eae62989f09b3140e21b34b218221bffd81fc7954fd28b285e0b9b0429a97c5"
+        },
+        {
+          "path": "game/assets/ui-scalable/green-plain.png",
+          "bytes": 68126,
+          "sha256": "499fb14239d0393bd467df26f71d51bae86c4b64a563008c87e3d5a1669130dc"
         },
         {
           "path": "game/assets/ui-scalable/green-rich.png",
@@ -8544,8 +8724,8 @@
     {
       "path": "asset-packs/v1/ui-build-reference-v1-001.zip",
       "category": "ui-build-reference",
-      "bytes": 37314005,
-      "sha256": "0d5434e24dd7e695631998ca6132394cdf5a3ea06ffae7e1012804672145af31",
+      "bytes": 37138274,
+      "sha256": "c312b35ce7434b7d30651c152b292088db56d74b430dcd53a384bc98d217854b",
       "files": [
         {
           "path": "art-source/ui-build/v1/battle-sprites/1-back.png",
@@ -8664,48 +8844,48 @@
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/barracks-390.png",
-          "bytes": 387823,
-          "sha256": "cc0b26b6815ba96fadd154791591fa439d31c324e6dface130c5f16ebceede58"
+          "bytes": 387756,
+          "sha256": "cd635a5c1779472c83d8db96a533dfabd4acaf3de8dbfecc2f7474a7a80c5a0d"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/barracks-941.png",
-          "bytes": 1587157,
-          "sha256": "0a47ae88457a83a9a5dd2d7ff149f247cdebceaab5fb88d6ea13850662da96ab"
+          "bytes": 1556607,
+          "sha256": "50fe5a5be81d29cb4ea84650cc1863ca158c8dd05833b0aa781b203fd1a31b1f"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/battle-390.png",
-          "bytes": 459872,
-          "sha256": "20e9882d09c99392a7f15c93f652989b5ff85a3c8ed507cd5d3e4fef1773d17a"
+          "bytes": 463577,
+          "sha256": "79fbbcd6a7a296e43c03bf138095f1205fc5a1846294eea96174435bc8a06c7f"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/battle-941.png",
-          "bytes": 2070597,
-          "sha256": "39bd973fc3ad52f1db0a434c1dbd565d7433e21c49899a8fbd27b78474bfbf46"
+          "bytes": 2085063,
+          "sha256": "220e49882f144d44e9ff98697a561acb034306b296698428b4c43ec4377e0374"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/home-390.png",
-          "bytes": 481250,
-          "sha256": "8e26de46261a97c198ec66966668b10a5ffac7268af22d2fc18bd238828844b5"
+          "bytes": 480209,
+          "sha256": "25cf22ad465be7ce025e068f419664c14155af203de0e554b37cfd9b1e095ee4"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/home-941.png",
-          "bytes": 2316806,
-          "sha256": "eaad2c2be4740722755360e766524559729084acf06eb5b69b82a8b58114d340"
+          "bytes": 2312921,
+          "sha256": "da72799be03f96b08dd147218b45a11bd899eeecc3109b3b3ce9383922712a3f"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/shop-390.png",
-          "bytes": 360526,
-          "sha256": "3462db56d59c3f94074837d312facfb77ebf17b9817498a66e14665885386f75"
+          "bytes": 350538,
+          "sha256": "24d83f8523dc7787c23fa7776cafc5eec3e5a56964206324e3b1e8e982ad16b6"
         },
         {
           "path": "design-delivery/v2/05-mockups/approved-runtime/shop-941.png",
-          "bytes": 1544098,
-          "sha256": "5d0a23af8aa35d9350bd9e6af3fe221d16255c35dc00d9f7b57f9c5fed6116ce"
+          "bytes": 1500406,
+          "sha256": "0869d77624b884964133925e6cec92920f5482188b3e1c3084a8f80065188499"
         },
         {
           "path": "design-delivery/v2/05-mockups/arena-versus-v1.png",
-          "bytes": 1405520,
-          "sha256": "1cdc4bdd46da96e6d79499be5695ced196d85b602512bfc8414e2761f6f7cb00"
+          "bytes": 1301146,
+          "sha256": "c1e20275d32841f4373543317db0886d531412832ff5e8046d12c8588b588124"
         },
         {
           "path": "design-delivery/v2/05-mockups/barracks-clean-plate.png",
@@ -8727,8 +8907,8 @@
     {
       "path": "asset-packs/v1/ui-build-reference-v1-002.zip",
       "category": "ui-build-reference",
-      "bytes": 26175525,
-      "sha256": "09cb18337776c3ecd323a247ed8e6aca6030b91d4c2f99bdbde9935a4acc1537",
+      "bytes": 25350755,
+      "sha256": "082cbd2364336f3d02d2ea4f751198b05add40b481a6a89449dff7e687b6e4f7",
       "files": [
         {
           "path": "design-delivery/v2/05-mockups/battle-preparation-v1.png",
@@ -8747,13 +8927,13 @@
         },
         {
           "path": "design-delivery/v2/05-mockups/battle-record-v1.png",
-          "bytes": 1134470,
-          "sha256": "1600de6fac229d1835c5a1998e78fe48d36070f720e5e0b8a62b1bab02c1cbcd"
+          "bytes": 1006129,
+          "sha256": "60a49d5bf9c6400feeefe1af2d6f59be3da1c7113eb25dcf2b88f1179c9f983f"
         },
         {
           "path": "design-delivery/v2/05-mockups/battle-results-v1.png",
-          "bytes": 1310352,
-          "sha256": "d3372a1428eccd160cb5e8b76d50adb4d3e072ab36e7f7a9328191b89d07dc8c"
+          "bytes": 1175628,
+          "sha256": "69709acd3acc2b966f82a69ad4015dfd318b93455e102d4df4dcaf53de3b6460"
         },
         {
           "path": "design-delivery/v2/05-mockups/campaign-landmarks-v3.png",
@@ -8762,8 +8942,8 @@
         },
         {
           "path": "design-delivery/v2/05-mockups/campaign-selection-v4.png",
-          "bytes": 1437252,
-          "sha256": "b53675c16f5b8d22ba94ef918e702cf44e5cc9b5718f1f8a2fdd112280fb930c"
+          "bytes": 1333633,
+          "sha256": "f25279e94aa42ad05c069e57fab9a08dbc6e1c8aeb41f1b03f512851f0281460"
         },
         {
           "path": "design-delivery/v2/05-mockups/codex-v1-mobile.png",
@@ -8812,8 +8992,8 @@
         },
         {
           "path": "design-delivery/v2/05-mockups/mail-v1.png",
-          "bytes": 997018,
-          "sha256": "23dca33cbd396ecf5001326201652e2da35a0099ed55e18ff977361abc86a5d5"
+          "bytes": 845042,
+          "sha256": "d617cb5ba66471f7259c45f2bd89f70698304323c61bd59e96fe2f687106eab7"
         },
         {
           "path": "design-delivery/v2/05-mockups/missions-v1-mobile.png",
@@ -8822,8 +9002,8 @@
         },
         {
           "path": "design-delivery/v2/05-mockups/missions-v1.png",
-          "bytes": 1093172,
-          "sha256": "7fafa596695de89b91c84a06823e568e8548f6d238fca65e5abe5cdcb7881acf"
+          "bytes": 835129,
+          "sha256": "c1d1db1b17ca176d03765866cc7be2d2b98bc7c91d06fb97da847c8135681d6a"
         },
         {
           "path": "design-delivery/v2/05-mockups/portraits-v1-mobile.png",
@@ -8837,8 +9017,8 @@
         },
         {
           "path": "design-delivery/v2/05-mockups/shop-recruitment-v1.png",
-          "bytes": 1544098,
-          "sha256": "5d0a23af8aa35d9350bd9e6af3fe221d16255c35dc00d9f7b57f9c5fed6116ce"
+          "bytes": 1500406,
+          "sha256": "0869d77624b884964133925e6cec92920f5482188b3e1c3084a8f80065188499"
         },
         {
           "path": "design-delivery/v2/05-mockups/start-v1-mobile.png",

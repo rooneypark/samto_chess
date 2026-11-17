@@ -25,7 +25,8 @@ export function initFit(game){
   stack.style.transform=`translate(-50%,-50%) scale(${scale})`;
  };
  const queue=()=>{if(!queued){queued=true;requestAnimationFrame(apply);}};
- addEventListener('resize',queue);
+ // Resizes apply at once: anything measured right after a resize must already see the fitted layout.
+ addEventListener('resize',apply);
  // The frame's proportions differ between the gate and the artwork screens; follow screen changes.
  new MutationObserver(queue).observe(game,{attributes:true,attributeFilter:['class','hidden'],subtree:true});
  apply();

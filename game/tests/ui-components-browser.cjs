@@ -61,7 +61,7 @@ async function checkPress(page,button){
  // The treasure box and formation are their own screens now; each returns to the barracks.
  for(const [id,screen] of [['treasure-open','.treasure-runtime'],['barracks-formation','.formation-runtime']]){await page.locator('#'+id).click();await page.locator(screen+'[aria-busy=false]').waitFor();await page.locator(screen+' .home-back').click();await page.locator(screen).waitFor({state:'hidden'});await page.locator('.barracks-screen').waitFor();}
  for(const viewport of [{width:320,height:568},{width:390,height:844},{width:1440,height:900}]){
-  await page.setViewportSize(viewport);const root=await page.locator('.game').boundingBox();assert.ok(root.width<=viewport.width+.1&&root.height<=viewport.height+.1);
+  await page.setViewportSize(viewport);await page.evaluate(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))));/* the page refits on the resize event */const root=await page.locator('.game').boundingBox();assert.ok(root.width<=viewport.width+.1&&root.height<=viewport.height+.1);
   for(const id of ['train','awaken','treasure-open']){const b=await page.locator('#'+id).boundingBox();assert.ok(b.x>=root.x&&b.x+b.width<=root.x+root.width+1);}
   const image=await page.locator('.hero-stage img').boundingBox(),panel=await page.locator('.hero-stage').boundingBox();assert.ok(image.x>=panel.x-.1&&image.y>=panel.y-.1&&image.y+image.height<=panel.y+panel.height+.1);
   await page.screenshot({path:artifact('ui-components','barracks-'+viewport.width+'.png')});
