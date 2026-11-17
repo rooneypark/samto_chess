@@ -1406,6 +1406,574 @@
       ]
     },
     {
+      "path": "asset-packs/v1/motions-2-v1-001.zip",
+      "category": "motions-2",
+      "bytes": 2500250,
+      "sha256": "d2ba25b8ef5e7033c4f71fd9a5117dee0f96b72d06e9728c10c9685fef5fbb7e",
+      "files": [
+        {
+          "path": "art-source/motions/v1/2/preview/attack.gif",
+          "bytes": 459932,
+          "sha256": "0227135255a8150c97ffb139cfbd82b6e250d2a82120e3ece295f3ef0c1984e7"
+        },
+        {
+          "path": "art-source/motions/v1/2/preview/move.gif",
+          "bytes": 405569,
+          "sha256": "8c595205ed0bdf23e853c7eed7fb01d96dff9d01a7378bad7b7d2aeb56e344b5"
+        },
+        {
+          "path": "art-source/motions/v1/2/preview/skill.gif",
+          "bytes": 467110,
+          "sha256": "821ee02feabf5e34fb4d60bc1bc291e29d8bc2985de8e42743e59de343df3a71"
+        },
+        {
+          "path": "art-source/motions/v1/2/references/side-attack-input.png",
+          "bytes": 28275,
+          "sha256": "b8b9e91ae93a82bdc339953323d0833806fa21f170775f3ade09bdb3fa73f2a1"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/attack/0000.png",
+          "bytes": 9814,
+          "sha256": "6c808cb6d97acff983c8995774643119c87e75af574c280cef7278195a7799d6"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/attack/0001.png",
+          "bytes": 9934,
+          "sha256": "507689f6429ad0ca193592f961824f983ac1a4379c65683b41870ff699d9bcac"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/attack/0002.png",
+          "bytes": 8774,
+          "sha256": "3581694a8d3b7cb778e7745b1b888b8ae5740ea480a8de25b662371827a6876a"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/attack/0003.png",
+          "bytes": 8605,
+          "sha256": "73d751a8ff25cbb224aab1c5629c56e044d14ebeef8328c5a3f4d0279337485d"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/attack/0004.png",
+          "bytes": 8134,
+          "sha256": "9603f816033d66c813df1d297c19f12aa9a4ef291e67a204cb10a94bf9f4cb93"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/attack/0005.png",
+          "bytes": 9074,
+          "sha256": "fa691dfba7aca8f0fa177734a72f85cd0aec58c43d06d52955c9b81eb3018172"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/attack/0006.png",
+          "bytes": 9128,
+          "sha256": "5ceb24efe62e83542f619e473ef99206dcd261b4449a8e4b63ae4471a687877b"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/attack/0007.png",
+          "bytes": 8835,
+          "sha256": "76de538a2be198f25a18a0d48a300a3b9ee5a86e5109785fef67fe5303dcb04e"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/attack/0008.png",
+          "bytes": 8808,
+          "sha256": "45eacaf7e8b0374661c42f4204f8be60c26ce3ab25beaa1a546599f7eec301d8"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/attack/0009.png",
+          "bytes": 9620,
+          "sha256": "dec79231a35820a2503e61e9dacc8e33c36d4f41aea02fddd183a7f515978678"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/attack/0010.png",
+          "bytes": 9768,
+          "sha256": "d6c6809171a74baa3fcbef97c057ed4b1c7e5092685fb0e0ac93bf9ed227f12d"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/attack/0011.png",
+          "bytes": 8955,
+          "sha256": "d4ddf17d119296d70c7261a1ae03cab5eeffbbaa739a0a2891fae6a04d1288f7"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/move/0000.png",
+          "bytes": 9544,
+          "sha256": "5978bfc30a6b0d526a045417a9859620ec5d088db8de4d075145a9c9e09b74e2"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/move/0001.png",
+          "bytes": 9379,
+          "sha256": "7c96b8ee62a78f4cc2722bc8cd25908b6268b92a27da8b3d1b355be8eaf71943"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/move/0002.png",
+          "bytes": 9572,
+          "sha256": "a6ba59ac92b4e63b8e81e4d89770b8677130f652107646bb399434fe696f63fb"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/move/0003.png",
+          "bytes": 8919,
+          "sha256": "e2407860c34f2d155e01bdea789ca2616c77d3098540b50d30eaa7ea71d660c2"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/move/0004.png",
+          "bytes": 8977,
+          "sha256": "0629ddbec164a12f02c378d2000b0f363125bf14b389b0b6581ca21dc0d262aa"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/move/0005.png",
+          "bytes": 9555,
+          "sha256": "7881dff77d1b40b078afcc63ed9cf84411056677aebc05b1e683ace1b3c0d4d8"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/move/0006.png",
+          "bytes": 9157,
+          "sha256": "b3a4dc8bdc7761c410f94b08c74a34bb2be9430abc09f855c549ed0fd55f2dd7"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/move/0007.png",
+          "bytes": 9331,
+          "sha256": "55babc35781be75865b80f6eb9fe58d09a6e36470370b9d93b39bf8bd3ae8985"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/move/0008.png",
+          "bytes": 9409,
+          "sha256": "106f9cc0b5a335da6826eb944e2ee48a4f7f801a76efe554e4c17187fd6580e6"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/move/0009.png",
+          "bytes": 8781,
+          "sha256": "c079bedcc52f1458402564aff7a77adbbc1355cf16ffcc3e932303f4b414651d"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/move/0010.png",
+          "bytes": 9181,
+          "sha256": "14c583d3c5a9002c324187e73bd2a78e28d9372928f3f5c5260bfee3574383f9"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/move/0011.png",
+          "bytes": 9216,
+          "sha256": "4f632f82dae4bcda4b5d8e3cd019491b3d01689656201b93c4decfc50c10ef10"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/skill/0000.png",
+          "bytes": 8834,
+          "sha256": "58cd23ab579ffb9ba07975497a69b4fd256e03c7bdd25bffa5af03d7faff228d"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/skill/0001.png",
+          "bytes": 9996,
+          "sha256": "1cd88c8fbb1466f3db54a2a4794522cafa7eed5a04bb81292c96451ea1bfeff6"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/skill/0002.png",
+          "bytes": 10558,
+          "sha256": "c90a59a00ac5c6afaeb4233cf0c88ceb15dd11085e3061ce4af390ac58811333"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/skill/0003.png",
+          "bytes": 10171,
+          "sha256": "06a325ee31e54907972408566b66655e871cea010dbc90ac58c1642fe9915c9c"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/skill/0004.png",
+          "bytes": 9977,
+          "sha256": "260f431224602301e18df2c280bc97fa530b5d592dd0ad03ce1f3f022eddb8d4"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/skill/0005.png",
+          "bytes": 10416,
+          "sha256": "c6c5efc3621d04abfa354e7b657d0acc4be155f7adf1b0ebd340be1450a65146"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/skill/0006.png",
+          "bytes": 10530,
+          "sha256": "9f6b3fc86ea53d86499cc9dfa23804c10331944b856873a7dcdd24dcbc80752b"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/skill/0007.png",
+          "bytes": 10249,
+          "sha256": "397ff0a1e573cd2d1d9166c4baedd4fc18a199f2478928ea2daf7f0473fa63f7"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/skill/0008.png",
+          "bytes": 9710,
+          "sha256": "fc367e54e297dd8ef2d3404ed89eef7eddd698de9f9d76b35461c132bf7ff9a1"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/skill/0009.png",
+          "bytes": 9422,
+          "sha256": "cf0a0fff06930b5bb5cbf03dfeb2b039621c92f475718d7e5eb1aef3320cfffd"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/skill/0010.png",
+          "bytes": 9706,
+          "sha256": "7f7db7b560e7c9c74d75501434d43e95c1b41cf751904a5dd54f7d201cac2a7d"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/back/skill/0011.png",
+          "bytes": 8767,
+          "sha256": "fb53b2fe8fe59e144a467b1dc088653eed49d397affff4e86404673049b24d58"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/attack/0000.png",
+          "bytes": 11888,
+          "sha256": "8f91007e7d051493410f4a33a92d4cecf1adc53738d22cb6c65dae08fd74cc46"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/attack/0001.png",
+          "bytes": 11081,
+          "sha256": "9d0ca3172afcc4f3b63eda93791614205beab66fac6fa1ff111663004c2a6747"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/attack/0002.png",
+          "bytes": 10552,
+          "sha256": "e1bf1ef35605023461fa711dfe0de85e52cbe04bd2566829a6811d4abe9d5f70"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/attack/0003.png",
+          "bytes": 10780,
+          "sha256": "e5da278f72a2f0c35d5d19c1abd3a15f3c38303439164cfae3a936de208ddfcc"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/attack/0004.png",
+          "bytes": 10164,
+          "sha256": "d6f893121e08293339e5f66fd213f176962005b1d325d042a9ac00cf99be8f37"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/attack/0005.png",
+          "bytes": 9815,
+          "sha256": "ac42f90ed5925d2aff105f33e273e16a3aeabfb6a75ec6d240e8b4d8c08aae30"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/attack/0006.png",
+          "bytes": 9564,
+          "sha256": "f2b520c6491c4ebaa5b2c66b188de6186cea3d2326eb32dc4cc181f8383576cf"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/attack/0007.png",
+          "bytes": 9442,
+          "sha256": "5d845b583be7b35ac82a6698f34ce63c2e211ada4e786ba603b9cece21700ad0"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/attack/0008.png",
+          "bytes": 9777,
+          "sha256": "bc6c79d04d7c41c62c175086934a20bdae6b04bc7eb3b6ffbc96617b16817927"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/attack/0009.png",
+          "bytes": 9901,
+          "sha256": "6980d71b593d096fce24e242810b5b0ce1d51df4930f4026ccead0a560a32d43"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/attack/0010.png",
+          "bytes": 11619,
+          "sha256": "e79b48802164be27c5a4be76c6b06f193b6d649060e01418af9dbbb6dbe1677a"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/attack/0011.png",
+          "bytes": 11192,
+          "sha256": "e3f919172c085d5e43a0389698b87014741ca91fc2f69819978e2b9cb5a15b1f"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/move/0000.png",
+          "bytes": 12410,
+          "sha256": "c7c219930e736c7c01f461aa8b753728ba8fc4bd24ca94c07f506829decbf28a"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/move/0001.png",
+          "bytes": 12383,
+          "sha256": "cfb9ea43890da95dc5f540916087e4e0488e574a3dc124b741cc416180819f0a"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/move/0002.png",
+          "bytes": 12642,
+          "sha256": "d3367aef34655c954bd7c2733b7fbd50358be96b686a05b627374dd06cb50410"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/move/0003.png",
+          "bytes": 12208,
+          "sha256": "7d1ffab113fb36cbdd0c4ba28d33dda3ddde1c706c94ced5e1853e7b38941a27"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/move/0004.png",
+          "bytes": 11934,
+          "sha256": "28471f7a33bd01ad86183294907500a1b9f7df394b5e1ef6fa418a61545002cd"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/move/0005.png",
+          "bytes": 12475,
+          "sha256": "c0b132d525a1974224b6709a3df838130e0d76574abc194999dccb34d1853c3d"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/move/0006.png",
+          "bytes": 12566,
+          "sha256": "5cc8a78e4b933d5094c5c5c57edcf835c946e965c74b1545580939268954cd53"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/move/0007.png",
+          "bytes": 11988,
+          "sha256": "130ad6b20f97a0f2c22ec1fa84042b83593cd693ef7288ad9aabdff8254e476e"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/move/0008.png",
+          "bytes": 12029,
+          "sha256": "3448ffc2b8174effce7f5a428d87ca8680a5e7b6122318c28e2118334f53f169"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/move/0009.png",
+          "bytes": 11624,
+          "sha256": "3b1270976629e7eed32cb4fb945d595db4687b1a38f5dc0b4683ea41216f0d9c"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/move/0010.png",
+          "bytes": 11910,
+          "sha256": "564abf8d27d574bfd3f2c686969a6ebc82e1ec7efb9ede90bf654eec007d2fdd"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/move/0011.png",
+          "bytes": 12290,
+          "sha256": "dd68c30079862d2a97c6344b7faa0adab3efadc0440697b07cbc45771c4150b1"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/skill/0000.png",
+          "bytes": 9730,
+          "sha256": "f1e677d2c9fa01f5de41645c5ca287da6af7c5cd537bd31073d2c97f205d8f5d"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/skill/0001.png",
+          "bytes": 11278,
+          "sha256": "c95e65779e58205c6adfa70ab17d4990b8267f14417206d9db6037018fa5dbed"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/skill/0002.png",
+          "bytes": 11562,
+          "sha256": "7e3404f7b278ad589840557a39d1fe5f3d778930a4cec96ff2976e6e8c9470c1"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/skill/0003.png",
+          "bytes": 10951,
+          "sha256": "894938cd6c724416336987291c38d4ca2ac54a79be7bf377204437058d9e6a86"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/skill/0004.png",
+          "bytes": 10921,
+          "sha256": "ebc3557ff7024d70ec7a78ce0acd005aec6b444fbe413b8129bb18efe049631a"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/skill/0005.png",
+          "bytes": 11328,
+          "sha256": "54ca0d6b11d096bf3992430f9ae145ddb2b0c54447f9736c9e95bc9763ede652"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/skill/0006.png",
+          "bytes": 11385,
+          "sha256": "3e1a9d6e0043192fa070ae9d5fc1157be5e49cc44840f9701bcbdf4e7dfa28b8"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/skill/0007.png",
+          "bytes": 11103,
+          "sha256": "dfe4c4d1a3ec6e1047182007ea2258b65b88fd070f68fb9afb9fb8c89f9c404b"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/skill/0008.png",
+          "bytes": 10711,
+          "sha256": "6d99e1985cb07da60ba05493cc6a0f150c5004a5c731e58284e1faa770c4102b"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/skill/0009.png",
+          "bytes": 10331,
+          "sha256": "f1e51bbdb47a9d1be93dd7c148235907a5bdaed1a7b41493d5abec97da6b249f"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/skill/0010.png",
+          "bytes": 10147,
+          "sha256": "c1ccc2cff0a02cf6eb1292604ae6bc9d3e365eeb4ce6d0b14f7ac012523a5d0f"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/front/skill/0011.png",
+          "bytes": 9184,
+          "sha256": "8737df6c98c62dc47a594e557f46d0747e17567ff67df7a664cfdfe7c63a9315"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/attack/0000.png",
+          "bytes": 11946,
+          "sha256": "56bb62d3cb9252ee40c8305807db2d05fca0140be696f63431eee0b6a6c1aef4"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/attack/0001.png",
+          "bytes": 11450,
+          "sha256": "dca5553f4eecbf4e1580f76b93d27de151d5885ec789a166db51eb2a1e8640d4"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/attack/0002.png",
+          "bytes": 10823,
+          "sha256": "69b31120851aab2e0bba91cf9b7bff9e93f05835e1b932e81c8151725ffe733a"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/attack/0003.png",
+          "bytes": 10863,
+          "sha256": "5198c3c48f183f752ba9bd163724236f41e681d82d82d7dfcda43721ed9f1df9"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/attack/0004.png",
+          "bytes": 10936,
+          "sha256": "4ce2f209cf81f7c78f4489b17c8a36217c47be5577c9c5e44d6374b13086aac5"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/attack/0005.png",
+          "bytes": 12027,
+          "sha256": "cf6404b5226c2df3df8ffc0a387569b00e533d5b5129251f3313c9e86ef33e54"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/attack/0006.png",
+          "bytes": 11884,
+          "sha256": "d345322225cea6b2e2949c755104cfef8722e46475f81c3a143337b3e11cb66a"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/attack/0007.png",
+          "bytes": 12084,
+          "sha256": "6b1ebfe49647f08a872f6ab635ba578d3cab89a6316d7ba6bb5d77b6346e74d1"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/attack/0008.png",
+          "bytes": 10938,
+          "sha256": "7419b1951b0b04c2dcb39983a708a535a4f4356f285bf9fba70f5e8f012e21ba"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/attack/0009.png",
+          "bytes": 10184,
+          "sha256": "bf6c49ad8bc5591147a8a3fb4c233892ef406561a792a256dbeab4794869d96c"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/attack/0010.png",
+          "bytes": 11727,
+          "sha256": "e61e7b573aedbcccce5a15202637b2d88d840a460d2eaedb52fb1682d1ebdb21"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/attack/0011.png",
+          "bytes": 10939,
+          "sha256": "1432d7d9b63cda9b405c905f9ac2bc1cab841ed4fc86d8cbb4495b7493e5c465"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/move/0000.png",
+          "bytes": 11865,
+          "sha256": "54d35a0db487ad49f6eaa3766cf53301922871b861fa396986741c31044fda9f"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/move/0001.png",
+          "bytes": 11682,
+          "sha256": "3d41ee4693f332a73459f0e06e13c7d51aa5a94bbe8dd40c806efd05dd978794"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/move/0002.png",
+          "bytes": 11241,
+          "sha256": "4bd0ff8f1e2a1817814fb147c825de7e94b9792154bda1c34166cdb2d1096e37"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/move/0003.png",
+          "bytes": 11331,
+          "sha256": "b8856dbc28db08f13e6a927aa9a92708f274d45c03a35a03d3ce37cf6d05358b"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/move/0004.png",
+          "bytes": 11124,
+          "sha256": "9c9220978cef4364d4ce86d5d4a209cb8ed39b8c864224714f01fb091aed9ca6"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/move/0005.png",
+          "bytes": 11341,
+          "sha256": "6b44ea20bb00814c30bed40778a712ac7dc468bf0f516efb176569f0c0ee4871"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/move/0006.png",
+          "bytes": 11501,
+          "sha256": "643d2b6deac96896c66736bc054d286a320ff36877afdcb2d64cef0c7fcfc346"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/move/0007.png",
+          "bytes": 11868,
+          "sha256": "c87a37302922f96915a670c7881f0b92c2bd491388555db1c8c9adf8865dd97a"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/move/0008.png",
+          "bytes": 11404,
+          "sha256": "201adea8f428a9747810266f52e2090c8a592dd72d851dbe50c9350f82219293"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/move/0009.png",
+          "bytes": 10681,
+          "sha256": "e7dd5ad62a93a67847b5d894fc52efbb97fa5c603e8d8e0b679d06c11cc9030f"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/move/0010.png",
+          "bytes": 11191,
+          "sha256": "e97ceeae413822d9b569a3e8efdc0eedec8c39bdfa15ba70268b32a38be883df"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/move/0011.png",
+          "bytes": 11551,
+          "sha256": "e112108311421cf88ca08f55b68934e561aeb89a938a4228022636d545152149"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/skill/0000.png",
+          "bytes": 10384,
+          "sha256": "1118de1f6478749f7460574e52498d829387cc59ae181432963ed11bf48c6a9c"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/skill/0001.png",
+          "bytes": 12157,
+          "sha256": "ef6a5422c2b60b0d9dc75976bd8aebcda05d3634ce651808804142e84fc65a66"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/skill/0002.png",
+          "bytes": 11707,
+          "sha256": "9dc814f4c41491548b600bd8b96ac258a17fd5d08f53ca3605db4fb3f0c3a67d"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/skill/0003.png",
+          "bytes": 11433,
+          "sha256": "4d1dcfa959d55fa1be6507d573ab36769fab7ef4f076e3afc059e648cd3641dd"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/skill/0004.png",
+          "bytes": 11430,
+          "sha256": "ee7d1ce473d798aec3144c9e35ef3e6ed8380c1638bfe0099aafc217c66e0c58"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/skill/0005.png",
+          "bytes": 11975,
+          "sha256": "1f77c80664b0a3c8cada412d96ea1a58642170d323cefdcb238e28cf71811e88"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/skill/0006.png",
+          "bytes": 11829,
+          "sha256": "c2910ad3b6f0a08a917e7ca714aeabb2f4da723e66939d1f32467379226a21b0"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/skill/0007.png",
+          "bytes": 11662,
+          "sha256": "5547b92d51fb06fe0348f8002720cfbc4547ff3e1f4d5489cb101ed04f194554"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/skill/0008.png",
+          "bytes": 11272,
+          "sha256": "66f80cf6c35b9bf3a2c6b32355d8592806379790b709d1ab538d2e84c2593c52"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/skill/0009.png",
+          "bytes": 11430,
+          "sha256": "98be67d20ec8ef7336e8c8f718b773fcc6ce130ddbcd5bb2aba263e7385234e7"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/skill/0010.png",
+          "bytes": 11449,
+          "sha256": "ebe6bf126e9199fa016966207946f843cc11fb0c88d122c255ee543abd9edb60"
+        },
+        {
+          "path": "art-source/motions/v1/2/sequences/side/skill/0011.png",
+          "bytes": 10479,
+          "sha256": "edb58f6155dd0930c32fd1333f437595549ca88f1e38dfde3e51cbed2587b0a8"
+        }
+      ]
+    },
+    {
       "path": "asset-packs/v1/motions-liaohua-v1-001.zip",
       "category": "motions-liaohua",
       "bytes": 671422,

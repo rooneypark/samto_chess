@@ -1,0 +1,2370 @@
+{
+  "description": "left profile of a stocky bearded Three Kingdoms infantryman, black and red armor and a red headband, one dark spear with a single wavy silver blade and gold butt cap",
+  "action": "Forceful short straight spear thrust left in profile. Load weight then snap the body and both hands sharply with the point along a fixed level line. Hold briefly and return along that line. Keep the shaft low at belt height, leading left support hand in front and rear right hand at the hip. No swapped hands or twisted elbows. Keep right flank shaft behind the armor in profile, keep rear foot planted and maintain spear length. Slight delayed headband tail.",
+  "direction": "west",
+  "view": "side",
+  "first_frame_keypoints": [
+    {
+      "label": "pelvis",
+      "x": 0.6484375,
+      "y": 0.6640625,
+      "z_index": 1
+    },
+    {
+      "label": "chest",
+      "x": 0.65625,
+      "y": 0.5703125,
+      "z_index": 1
+    },
+    {
+      "label": "neck",
+      "x": 0.6640625,
+      "y": 0.5117188,
+      "z_index": 1
+    },
+    {
+      "label": "head",
+      "x": 0.671875,
+      "y": 0.4609375,
+      "z_index": 1
+    },
+    {
+      "label": "head_top",
+      "x": 0.671875,
+      "y": 0.390625,
+      "z_index": 1
+    },
+    {
+      "label": "right_shoulder",
+      "x": 0.6015625,
+      "y": 0.5664062,
+      "z_index": 0
+    },
+    {
+      "label": "right_elbow",
+      "x": 0.6015625,
+      "y": 0.6210938,
+      "z_index": 0
+    },
+    {
+      "label": "right_wrist",
+      "x": 0.546875,
+      "y": 0.609375,
+      "z_index": 0
+    },
+    {
+      "label": "left_shoulder",
+      "x": 0.6953125,
+      "y": 0.5664062,
+      "z_index": 2
+    },
+    {
+      "label": "left_elbow",
+      "x": 0.6835938,
+      "y": 0.6328125,
+      "z_index": 2
+    },
+    {
+      "label": "left_wrist",
+      "x": 0.6679688,
+      "y": 0.7148438,
+      "z_index": 2
+    },
+    {
+      "label": "right_hip",
+      "x": 0.6210938,
+      "y": 0.6757812,
+      "z_index": 0
+    },
+    {
+      "label": "right_knee",
+      "x": 0.6210938,
+      "y": 0.75,
+      "z_index": 0
+    },
+    {
+      "label": "right_ankle",
+      "x": 0.6328125,
+      "y": 0.8359375,
+      "z_index": 0
+    },
+    {
+      "label": "right_toe",
+      "x": 0.59375,
+      "y": 0.8632812,
+      "z_index": 0
+    },
+    {
+      "label": "left_hip",
+      "x": 0.6796875,
+      "y": 0.6601562,
+      "z_index": 2
+    },
+    {
+      "label": "left_knee",
+      "x": 0.6679688,
+      "y": 0.7578125,
+      "z_index": 2
+    },
+    {
+      "label": "left_ankle",
+      "x": 0.6601562,
+      "y": 0.8398438,
+      "z_index": 2
+    },
+    {
+      "label": "left_toe",
+      "x": 0.6171875,
+      "y": 0.859375,
+      "z_index": 2
+    },
+    {
+      "label": "scarf_1",
+      "x": 0.734375,
+      "y": 0.4726562,
+      "z_index": 2
+    },
+    {
+      "label": "scarf_2",
+      "x": 0.78125,
+      "y": 0.484375,
+      "z_index": 2
+    },
+    {
+      "label": "scarf_3",
+      "x": 0.8203125,
+      "y": 0.5078125,
+      "z_index": 2
+    },
+    {
+      "label": "spear_mid",
+      "x": 0.5507812,
+      "y": 0.734375,
+      "z_index": 1
+    },
+    {
+      "label": "spear_butt",
+      "x": 0.5507812,
+      "y": 0.8671875,
+      "z_index": 1
+    },
+    {
+      "label": "spear_collar",
+      "x": 0.546875,
+      "y": 0.4492188,
+      "z_index": 1
+    },
+    {
+      "label": "spear_blade_mid",
+      "x": 0.5390625,
+      "y": 0.3320312,
+      "z_index": 1
+    },
+    {
+      "label": "spear_tip",
+      "x": 0.546875,
+      "y": 0.2421875,
+      "z_index": 1
+    }
+  ],
+  "keypoints": [
+    [
+      {
+        "label": "pelvis",
+        "x": 0.6480859,
+        "y": 0.6642969,
+        "z_index": 1
+      },
+      {
+        "label": "chest",
+        "x": 0.6558984,
+        "y": 0.5705469,
+        "z_index": 1
+      },
+      {
+        "label": "neck",
+        "x": 0.6637109,
+        "y": 0.5119532,
+        "z_index": 1
+      },
+      {
+        "label": "head",
+        "x": 0.6715234,
+        "y": 0.4611719,
+        "z_index": 1
+      },
+      {
+        "label": "head_top",
+        "x": 0.6715234,
+        "y": 0.3908594,
+        "z_index": 1
+      },
+      {
+        "label": "right_shoulder",
+        "x": 0.6012109,
+        "y": 0.5666406,
+        "z_index": 0
+      },
+      {
+        "label": "right_elbow",
+        "x": 0.6128906,
+        "y": 0.6444531,
+        "z_index": 0
+      },
+      {
+        "label": "right_wrist",
+        "x": 0.5585938,
+        "y": 0.6328126,
+        "z_index": 0
+      },
+      {
+        "label": "left_shoulder",
+        "x": 0.6949609,
+        "y": 0.5666406,
+        "z_index": 2
+      },
+      {
+        "label": "left_elbow",
+        "x": 0.6678516,
+        "y": 0.6426953,
+        "z_index": 2
+      },
+      {
+        "label": "left_wrist",
+        "x": 0.6472822,
+        "y": 0.6983666,
+        "z_index": 2
+      },
+      {
+        "label": "right_hip",
+        "x": 0.6207422,
+        "y": 0.6760156,
+        "z_index": 0
+      },
+      {
+        "label": "right_knee",
+        "x": 0.6210938,
+        "y": 0.75,
+        "z_index": 0
+      },
+      {
+        "label": "right_ankle",
+        "x": 0.6328125,
+        "y": 0.8359375,
+        "z_index": 0
+      },
+      {
+        "label": "right_toe",
+        "x": 0.59375,
+        "y": 0.8632812,
+        "z_index": 0
+      },
+      {
+        "label": "left_hip",
+        "x": 0.6793359,
+        "y": 0.6603906,
+        "z_index": 2
+      },
+      {
+        "label": "left_knee",
+        "x": 0.6675001,
+        "y": 0.7580469,
+        "z_index": 2
+      },
+      {
+        "label": "left_ankle",
+        "x": 0.6596874,
+        "y": 0.8398438,
+        "z_index": 2
+      },
+      {
+        "label": "left_toe",
+        "x": 0.6167187,
+        "y": 0.859375,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_1",
+        "x": 0.7340234,
+        "y": 0.4728906,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_2",
+        "x": 0.7808984,
+        "y": 0.4846094,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_3",
+        "x": 0.8199609,
+        "y": 0.5080469,
+        "z_index": 2
+      },
+      {
+        "label": "spear_mid",
+        "x": 0.6090414,
+        "y": 0.7472471,
+        "z_index": 1
+      },
+      {
+        "label": "spear_butt",
+        "x": 0.6587938,
+        "y": 0.8703888,
+        "z_index": 1
+      },
+      {
+        "label": "spear_collar",
+        "x": 0.4985982,
+        "y": 0.4843183,
+        "z_index": 1
+      },
+      {
+        "label": "spear_blade_mid",
+        "x": 0.4474553,
+        "y": 0.3785905,
+        "z_index": 1
+      },
+      {
+        "label": "spear_tip",
+        "x": 0.4210429,
+        "y": 0.2923621,
+        "z_index": 1
+      }
+    ],
+    [
+      {
+        "label": "pelvis",
+        "x": 0.6478516,
+        "y": 0.6644531,
+        "z_index": 1
+      },
+      {
+        "label": "chest",
+        "x": 0.6556641,
+        "y": 0.5707031,
+        "z_index": 1
+      },
+      {
+        "label": "neck",
+        "x": 0.6634766,
+        "y": 0.5121094,
+        "z_index": 1
+      },
+      {
+        "label": "head",
+        "x": 0.6712891,
+        "y": 0.4613281,
+        "z_index": 1
+      },
+      {
+        "label": "head_top",
+        "x": 0.6712891,
+        "y": 0.3910156,
+        "z_index": 1
+      },
+      {
+        "label": "right_shoulder",
+        "x": 0.6009766,
+        "y": 0.5667968,
+        "z_index": 0
+      },
+      {
+        "label": "right_elbow",
+        "x": 0.6210938,
+        "y": 0.6778906,
+        "z_index": 0
+      },
+      {
+        "label": "right_wrist",
+        "x": 0.5742188,
+        "y": 0.6484375,
+        "z_index": 0
+      },
+      {
+        "label": "left_shoulder",
+        "x": 0.6947266,
+        "y": 0.5667968,
+        "z_index": 2
+      },
+      {
+        "label": "left_elbow",
+        "x": 0.5830859,
+        "y": 0.6805469,
+        "z_index": 2
+      },
+      {
+        "label": "left_wrist",
+        "x": 0.4919367,
+        "y": 0.61765,
+        "z_index": 2
+      },
+      {
+        "label": "right_hip",
+        "x": 0.6205079,
+        "y": 0.6761718,
+        "z_index": 0
+      },
+      {
+        "label": "right_knee",
+        "x": 0.6210938,
+        "y": 0.75,
+        "z_index": 0
+      },
+      {
+        "label": "right_ankle",
+        "x": 0.6328125,
+        "y": 0.8359375,
+        "z_index": 0
+      },
+      {
+        "label": "right_toe",
+        "x": 0.59375,
+        "y": 0.8632812,
+        "z_index": 0
+      },
+      {
+        "label": "left_hip",
+        "x": 0.6791016,
+        "y": 0.6605468,
+        "z_index": 2
+      },
+      {
+        "label": "left_knee",
+        "x": 0.6671876,
+        "y": 0.7582031,
+        "z_index": 2
+      },
+      {
+        "label": "left_ankle",
+        "x": 0.659375,
+        "y": 0.8398438,
+        "z_index": 2
+      },
+      {
+        "label": "left_toe",
+        "x": 0.6164063,
+        "y": 0.859375,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_1",
+        "x": 0.7337891,
+        "y": 0.4730468,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_2",
+        "x": 0.7808614,
+        "y": 0.4839458,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_3",
+        "x": 0.8207181,
+        "y": 0.5060057,
+        "z_index": 2
+      },
+      {
+        "label": "spear_mid",
+        "x": 0.687368,
+        "y": 0.7017058,
+        "z_index": 1
+      },
+      {
+        "label": "spear_butt",
+        "x": 0.8057048,
+        "y": 0.7620014,
+        "z_index": 1
+      },
+      {
+        "label": "spear_collar",
+        "x": 0.4315185,
+        "y": 0.5757281,
+        "z_index": 1
+      },
+      {
+        "label": "spear_blade_mid",
+        "x": 0.3235569,
+        "y": 0.5294871,
+        "z_index": 1
+      },
+      {
+        "label": "spear_tip",
+        "x": 0.2470523,
+        "y": 0.4817379,
+        "z_index": 1
+      }
+    ],
+    [
+      {
+        "label": "pelvis",
+        "x": 0.6484375,
+        "y": 0.6640625,
+        "z_index": 1
+      },
+      {
+        "label": "chest",
+        "x": 0.65625,
+        "y": 0.5703125,
+        "z_index": 1
+      },
+      {
+        "label": "neck",
+        "x": 0.6640625,
+        "y": 0.5117188,
+        "z_index": 1
+      },
+      {
+        "label": "head",
+        "x": 0.671875,
+        "y": 0.4609375,
+        "z_index": 1
+      },
+      {
+        "label": "head_top",
+        "x": 0.671875,
+        "y": 0.390625,
+        "z_index": 1
+      },
+      {
+        "label": "right_shoulder",
+        "x": 0.6015625,
+        "y": 0.5664062,
+        "z_index": 0
+      },
+      {
+        "label": "right_elbow",
+        "x": 0.6230469,
+        "y": 0.6920312,
+        "z_index": 0,
+        "depth": 106
+      },
+      {
+        "label": "right_wrist",
+        "x": 0.5898438,
+        "y": 0.6640625,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "left_shoulder",
+        "x": 0.6953125,
+        "y": 0.5664062,
+        "z_index": 2
+      },
+      {
+        "label": "left_elbow",
+        "x": 0.5640625,
+        "y": 0.6974218,
+        "z_index": 2,
+        "depth": 148
+      },
+      {
+        "label": "left_wrist",
+        "x": 0.4570312,
+        "y": 0.6640625,
+        "z_index": 3,
+        "depth": 96
+      },
+      {
+        "label": "right_hip",
+        "x": 0.6210938,
+        "y": 0.6757812,
+        "z_index": 0
+      },
+      {
+        "label": "right_knee",
+        "x": 0.6210938,
+        "y": 0.75,
+        "z_index": 0
+      },
+      {
+        "label": "right_ankle",
+        "x": 0.6328125,
+        "y": 0.8359375,
+        "z_index": 0
+      },
+      {
+        "label": "right_toe",
+        "x": 0.59375,
+        "y": 0.8632812,
+        "z_index": 0
+      },
+      {
+        "label": "left_hip",
+        "x": 0.6796875,
+        "y": 0.6601562,
+        "z_index": 2
+      },
+      {
+        "label": "left_knee",
+        "x": 0.6679688,
+        "y": 0.7578125,
+        "z_index": 2
+      },
+      {
+        "label": "left_ankle",
+        "x": 0.6601562,
+        "y": 0.8398438,
+        "z_index": 2
+      },
+      {
+        "label": "left_toe",
+        "x": 0.6171875,
+        "y": 0.859375,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_1",
+        "x": 0.734375,
+        "y": 0.4726562,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_2",
+        "x": 0.7808125,
+        "y": 0.4860038,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_3",
+        "x": 0.8181449,
+        "y": 0.512109,
+        "z_index": 2
+      },
+      {
+        "label": "spear_mid",
+        "x": 0.7148438,
+        "y": 0.6601563,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_butt",
+        "x": 0.8476562,
+        "y": 0.6601563,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_collar",
+        "x": 0.4296875,
+        "y": 0.6640625,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_blade_mid",
+        "x": 0.3125,
+        "y": 0.671875,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_tip",
+        "x": 0.2226562,
+        "y": 0.6640625,
+        "z_index": 0,
+        "depth": 93
+      }
+    ],
+    [
+      {
+        "label": "pelvis",
+        "x": 0.6484375,
+        "y": 0.6640625,
+        "z_index": 1
+      },
+      {
+        "label": "chest",
+        "x": 0.65625,
+        "y": 0.5703125,
+        "z_index": 1
+      },
+      {
+        "label": "neck",
+        "x": 0.6640625,
+        "y": 0.5117188,
+        "z_index": 1
+      },
+      {
+        "label": "head",
+        "x": 0.671875,
+        "y": 0.4609375,
+        "z_index": 1
+      },
+      {
+        "label": "head_top",
+        "x": 0.671875,
+        "y": 0.390625,
+        "z_index": 1
+      },
+      {
+        "label": "right_shoulder",
+        "x": 0.6015625,
+        "y": 0.5664062,
+        "z_index": 0
+      },
+      {
+        "label": "right_elbow",
+        "x": 0.6250001,
+        "y": 0.6920312,
+        "z_index": 0,
+        "depth": 106
+      },
+      {
+        "label": "right_wrist",
+        "x": 0.6015625,
+        "y": 0.6640625,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "left_shoulder",
+        "x": 0.6953125,
+        "y": 0.5664062,
+        "z_index": 2
+      },
+      {
+        "label": "left_elbow",
+        "x": 0.565625,
+        "y": 0.6974218,
+        "z_index": 2,
+        "depth": 148
+      },
+      {
+        "label": "left_wrist",
+        "x": 0.46875,
+        "y": 0.6640625,
+        "z_index": 3,
+        "depth": 96
+      },
+      {
+        "label": "right_hip",
+        "x": 0.6210938,
+        "y": 0.6757812,
+        "z_index": 0
+      },
+      {
+        "label": "right_knee",
+        "x": 0.6210938,
+        "y": 0.75,
+        "z_index": 0
+      },
+      {
+        "label": "right_ankle",
+        "x": 0.6328125,
+        "y": 0.8359375,
+        "z_index": 0
+      },
+      {
+        "label": "right_toe",
+        "x": 0.59375,
+        "y": 0.8632812,
+        "z_index": 0
+      },
+      {
+        "label": "left_hip",
+        "x": 0.6796875,
+        "y": 0.6601562,
+        "z_index": 2
+      },
+      {
+        "label": "left_knee",
+        "x": 0.6679688,
+        "y": 0.7578125,
+        "z_index": 2
+      },
+      {
+        "label": "left_ankle",
+        "x": 0.6601562,
+        "y": 0.8398438,
+        "z_index": 2
+      },
+      {
+        "label": "left_toe",
+        "x": 0.6171875,
+        "y": 0.859375,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_1",
+        "x": 0.734375,
+        "y": 0.4726562,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_2",
+        "x": 0.7808125,
+        "y": 0.4860038,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_3",
+        "x": 0.8181449,
+        "y": 0.512109,
+        "z_index": 2
+      },
+      {
+        "label": "spear_mid",
+        "x": 0.7265625,
+        "y": 0.6601563,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_butt",
+        "x": 0.859375,
+        "y": 0.6601563,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_collar",
+        "x": 0.4414063,
+        "y": 0.6640625,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_blade_mid",
+        "x": 0.3242187,
+        "y": 0.671875,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_tip",
+        "x": 0.234375,
+        "y": 0.6640625,
+        "z_index": 0,
+        "depth": 93
+      }
+    ],
+    [
+      {
+        "label": "pelvis",
+        "x": 0.6346484,
+        "y": 0.6714844,
+        "z_index": 1
+      },
+      {
+        "label": "chest",
+        "x": 0.636329,
+        "y": 0.5774245,
+        "z_index": 1
+      },
+      {
+        "label": "neck",
+        "x": 0.6403029,
+        "y": 0.5184459,
+        "z_index": 1
+      },
+      {
+        "label": "head",
+        "x": 0.6447864,
+        "y": 0.4672632,
+        "z_index": 1
+      },
+      {
+        "label": "head_top",
+        "x": 0.6401999,
+        "y": 0.3971004,
+        "z_index": 1
+      },
+      {
+        "label": "right_shoulder",
+        "x": 0.5815032,
+        "y": 0.5770937,
+        "z_index": 0
+      },
+      {
+        "label": "right_elbow",
+        "x": 0.5958594,
+        "y": 0.6875,
+        "z_index": 0,
+        "depth": 106
+      },
+      {
+        "label": "right_wrist",
+        "x": 0.5546875,
+        "y": 0.6640625,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "left_shoulder",
+        "x": 0.6750536,
+        "y": 0.5709785,
+        "z_index": 2
+      },
+      {
+        "label": "left_elbow",
+        "x": 0.5253125,
+        "y": 0.6865234,
+        "z_index": 2,
+        "depth": 148
+      },
+      {
+        "label": "left_wrist",
+        "x": 0.421875,
+        "y": 0.6640625,
+        "z_index": 3,
+        "depth": 96
+      },
+      {
+        "label": "right_hip",
+        "x": 0.6073047,
+        "y": 0.6832032,
+        "z_index": 0
+      },
+      {
+        "label": "right_knee",
+        "x": 0.6157812,
+        "y": 0.7539844,
+        "z_index": 0
+      },
+      {
+        "label": "right_ankle",
+        "x": 0.6328125,
+        "y": 0.8359375,
+        "z_index": 0
+      },
+      {
+        "label": "right_toe",
+        "x": 0.59375,
+        "y": 0.8632812,
+        "z_index": 0
+      },
+      {
+        "label": "left_hip",
+        "x": 0.6658984,
+        "y": 0.6675782,
+        "z_index": 2
+      },
+      {
+        "label": "left_knee",
+        "x": 0.6411718,
+        "y": 0.7639063,
+        "z_index": 2
+      },
+      {
+        "label": "left_ankle",
+        "x": 0.6399999,
+        "y": 0.8398438,
+        "z_index": 2
+      },
+      {
+        "label": "left_toe",
+        "x": 0.5970312,
+        "y": 0.859375,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_1",
+        "x": 0.7079176,
+        "y": 0.4748802,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_2",
+        "x": 0.7547926,
+        "y": 0.486599,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_3",
+        "x": 0.7938551,
+        "y": 0.5100365,
+        "z_index": 2
+      },
+      {
+        "label": "spear_mid",
+        "x": 0.6796875,
+        "y": 0.6601563,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_butt",
+        "x": 0.8125,
+        "y": 0.6601563,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_collar",
+        "x": 0.3945312,
+        "y": 0.6640625,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_blade_mid",
+        "x": 0.2773438,
+        "y": 0.671875,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_tip",
+        "x": 0.1875,
+        "y": 0.6640625,
+        "z_index": 0,
+        "depth": 93
+      }
+    ],
+    [
+      {
+        "label": "pelvis",
+        "x": 0.6132812,
+        "y": 0.683125,
+        "z_index": 1
+      },
+      {
+        "label": "chest",
+        "x": 0.6059389,
+        "y": 0.589337,
+        "z_index": 1
+      },
+      {
+        "label": "neck",
+        "x": 0.6042416,
+        "y": 0.5302491,
+        "z_index": 1
+      },
+      {
+        "label": "head",
+        "x": 0.6037988,
+        "y": 0.4788723,
+        "z_index": 1
+      },
+      {
+        "label": "head_top",
+        "x": 0.5925086,
+        "y": 0.4094721,
+        "z_index": 1
+      },
+      {
+        "label": "right_shoulder",
+        "x": 0.5513337,
+        "y": 0.5942626,
+        "z_index": 0
+      },
+      {
+        "label": "right_elbow",
+        "x": 0.5528906,
+        "y": 0.6815625,
+        "z_index": 0,
+        "depth": 106
+      },
+      {
+        "label": "right_wrist",
+        "x": 0.4882812,
+        "y": 0.6640625,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "left_shoulder",
+        "x": 0.6438673,
+        "y": 0.5792092,
+        "z_index": 2
+      },
+      {
+        "label": "left_elbow",
+        "x": 0.4659375,
+        "y": 0.6708594,
+        "z_index": 2,
+        "depth": 148
+      },
+      {
+        "label": "left_wrist",
+        "x": 0.3554688,
+        "y": 0.6640625,
+        "z_index": 3,
+        "depth": 96
+      },
+      {
+        "label": "right_hip",
+        "x": 0.5859376,
+        "y": 0.6948438,
+        "z_index": 0
+      },
+      {
+        "label": "right_knee",
+        "x": 0.6079687,
+        "y": 0.7598438,
+        "z_index": 0
+      },
+      {
+        "label": "right_ankle",
+        "x": 0.6328125,
+        "y": 0.8359375,
+        "z_index": 0
+      },
+      {
+        "label": "right_toe",
+        "x": 0.59375,
+        "y": 0.8632812,
+        "z_index": 0
+      },
+      {
+        "label": "left_hip",
+        "x": 0.6445312,
+        "y": 0.6792188,
+        "z_index": 2
+      },
+      {
+        "label": "left_knee",
+        "x": 0.6003125,
+        "y": 0.7735938,
+        "z_index": 2
+      },
+      {
+        "label": "left_ankle",
+        "x": 0.6089062,
+        "y": 0.8398438,
+        "z_index": 2
+      },
+      {
+        "label": "left_toe",
+        "x": 0.5659375,
+        "y": 0.859375,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_1",
+        "x": 0.6673695,
+        "y": 0.4804033,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_2",
+        "x": 0.7147936,
+        "y": 0.4896528,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_3",
+        "x": 0.7564213,
+        "y": 0.5081551,
+        "z_index": 2
+      },
+      {
+        "label": "spear_mid",
+        "x": 0.6132812,
+        "y": 0.6601563,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_butt",
+        "x": 0.7460938,
+        "y": 0.6601563,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_collar",
+        "x": 0.328125,
+        "y": 0.6640625,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_blade_mid",
+        "x": 0.2109374,
+        "y": 0.671875,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_tip",
+        "x": 0.1210938,
+        "y": 0.6640625,
+        "z_index": 0,
+        "depth": 93
+      }
+    ],
+    [
+      {
+        "label": "pelvis",
+        "x": 0.6054688,
+        "y": 0.6875,
+        "z_index": 1
+      },
+      {
+        "label": "chest",
+        "x": 0.5952494,
+        "y": 0.5939818,
+        "z_index": 1
+      },
+      {
+        "label": "neck",
+        "x": 0.5917381,
+        "y": 0.5349738,
+        "z_index": 1
+      },
+      {
+        "label": "head",
+        "x": 0.5897176,
+        "y": 0.4836349,
+        "z_index": 1
+      },
+      {
+        "label": "head_top",
+        "x": 0.5763014,
+        "y": 0.4146142,
+        "z_index": 1
+      },
+      {
+        "label": "right_shoulder",
+        "x": 0.5408213,
+        "y": 0.6005821,
+        "z_index": 0
+      },
+      {
+        "label": "right_elbow",
+        "x": 0.53125,
+        "y": 0.6803124,
+        "z_index": 0,
+        "depth": 106
+      },
+      {
+        "label": "right_wrist",
+        "x": 0.4375,
+        "y": 0.6640625,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "left_shoulder",
+        "x": 0.6328489,
+        "y": 0.5826938,
+        "z_index": 2
+      },
+      {
+        "label": "left_elbow",
+        "x": 0.440625,
+        "y": 0.6661719,
+        "z_index": 2,
+        "depth": 148
+      },
+      {
+        "label": "left_wrist",
+        "x": 0.3046875,
+        "y": 0.6640625,
+        "z_index": 3,
+        "depth": 96
+      },
+      {
+        "label": "right_hip",
+        "x": 0.5781251,
+        "y": 0.6992187,
+        "z_index": 0
+      },
+      {
+        "label": "right_knee",
+        "x": 0.6054688,
+        "y": 0.7617188,
+        "z_index": 0
+      },
+      {
+        "label": "right_ankle",
+        "x": 0.6328125,
+        "y": 0.8359375,
+        "z_index": 0
+      },
+      {
+        "label": "right_toe",
+        "x": 0.59375,
+        "y": 0.8632812,
+        "z_index": 0
+      },
+      {
+        "label": "left_hip",
+        "x": 0.6367188,
+        "y": 0.6835937,
+        "z_index": 2
+      },
+      {
+        "label": "left_knee",
+        "x": 0.5859375,
+        "y": 0.7773437,
+        "z_index": 2
+      },
+      {
+        "label": "left_ankle",
+        "x": 0.5976562,
+        "y": 0.8398438,
+        "z_index": 2
+      },
+      {
+        "label": "left_toe",
+        "x": 0.5546875,
+        "y": 0.859375,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_1",
+        "x": 0.6533054,
+        "y": 0.4832128,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_2",
+        "x": 0.7012591,
+        "y": 0.4891316,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_3",
+        "x": 0.7456523,
+        "y": 0.499351,
+        "z_index": 2
+      },
+      {
+        "label": "spear_mid",
+        "x": 0.5625,
+        "y": 0.6601563,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_butt",
+        "x": 0.6953125,
+        "y": 0.6601563,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_collar",
+        "x": 0.2773438,
+        "y": 0.6640625,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_blade_mid",
+        "x": 0.1601562,
+        "y": 0.671875,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_tip",
+        "x": 0.0703125,
+        "y": 0.6640625,
+        "z_index": 0,
+        "depth": 93
+      }
+    ],
+    [
+      {
+        "label": "pelvis",
+        "x": 0.6054688,
+        "y": 0.6875,
+        "z_index": 1
+      },
+      {
+        "label": "chest",
+        "x": 0.5952494,
+        "y": 0.5939818,
+        "z_index": 1
+      },
+      {
+        "label": "neck",
+        "x": 0.5917381,
+        "y": 0.5349738,
+        "z_index": 1
+      },
+      {
+        "label": "head",
+        "x": 0.5897176,
+        "y": 0.4836349,
+        "z_index": 1
+      },
+      {
+        "label": "head_top",
+        "x": 0.5763014,
+        "y": 0.4146142,
+        "z_index": 1
+      },
+      {
+        "label": "right_shoulder",
+        "x": 0.5408213,
+        "y": 0.6005821,
+        "z_index": 0
+      },
+      {
+        "label": "right_elbow",
+        "x": 0.53125,
+        "y": 0.6803124,
+        "z_index": 0,
+        "depth": 106
+      },
+      {
+        "label": "right_wrist",
+        "x": 0.4375,
+        "y": 0.6640625,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "left_shoulder",
+        "x": 0.6328489,
+        "y": 0.5826938,
+        "z_index": 2
+      },
+      {
+        "label": "left_elbow",
+        "x": 0.440625,
+        "y": 0.6661719,
+        "z_index": 2,
+        "depth": 148
+      },
+      {
+        "label": "left_wrist",
+        "x": 0.3046875,
+        "y": 0.6640625,
+        "z_index": 3,
+        "depth": 96
+      },
+      {
+        "label": "right_hip",
+        "x": 0.5781251,
+        "y": 0.6992187,
+        "z_index": 0
+      },
+      {
+        "label": "right_knee",
+        "x": 0.6054688,
+        "y": 0.7617188,
+        "z_index": 0
+      },
+      {
+        "label": "right_ankle",
+        "x": 0.6328125,
+        "y": 0.8359375,
+        "z_index": 0
+      },
+      {
+        "label": "right_toe",
+        "x": 0.59375,
+        "y": 0.8632812,
+        "z_index": 0
+      },
+      {
+        "label": "left_hip",
+        "x": 0.6367188,
+        "y": 0.6835937,
+        "z_index": 2
+      },
+      {
+        "label": "left_knee",
+        "x": 0.5859375,
+        "y": 0.7773437,
+        "z_index": 2
+      },
+      {
+        "label": "left_ankle",
+        "x": 0.5976562,
+        "y": 0.8398438,
+        "z_index": 2
+      },
+      {
+        "label": "left_toe",
+        "x": 0.5546875,
+        "y": 0.859375,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_1",
+        "x": 0.6533054,
+        "y": 0.4832128,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_2",
+        "x": 0.7010233,
+        "y": 0.4908016,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_3",
+        "x": 0.7450329,
+        "y": 0.5025641,
+        "z_index": 2
+      },
+      {
+        "label": "spear_mid",
+        "x": 0.5625,
+        "y": 0.6601563,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_butt",
+        "x": 0.6953125,
+        "y": 0.6601563,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_collar",
+        "x": 0.2773438,
+        "y": 0.6640625,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_blade_mid",
+        "x": 0.1601562,
+        "y": 0.671875,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_tip",
+        "x": 0.0703125,
+        "y": 0.6640625,
+        "z_index": 0,
+        "depth": 93
+      }
+    ],
+    [
+      {
+        "label": "pelvis",
+        "x": 0.6303125,
+        "y": 0.67375,
+        "z_index": 1
+      },
+      {
+        "label": "chest",
+        "x": 0.6298259,
+        "y": 0.5796763,
+        "z_index": 1
+      },
+      {
+        "label": "neck",
+        "x": 0.6324401,
+        "y": 0.5206218,
+        "z_index": 1
+      },
+      {
+        "label": "head",
+        "x": 0.6357433,
+        "y": 0.4693494,
+        "z_index": 1
+      },
+      {
+        "label": "head_top",
+        "x": 0.6295418,
+        "y": 0.399311,
+        "z_index": 1
+      },
+      {
+        "label": "right_shoulder",
+        "x": 0.575007,
+        "y": 0.5806087,
+        "z_index": 0
+      },
+      {
+        "label": "right_elbow",
+        "x": 0.585,
+        "y": 0.6855469,
+        "z_index": 0,
+        "depth": 106
+      },
+      {
+        "label": "right_wrist",
+        "x": 0.5429688,
+        "y": 0.6640625,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "left_shoulder",
+        "x": 0.6683916,
+        "y": 0.57234,
+        "z_index": 2
+      },
+      {
+        "label": "left_elbow",
+        "x": 0.510625,
+        "y": 0.6825,
+        "z_index": 2,
+        "depth": 148
+      },
+      {
+        "label": "left_wrist",
+        "x": 0.4101562,
+        "y": 0.6640625,
+        "z_index": 3,
+        "depth": 96
+      },
+      {
+        "label": "right_hip",
+        "x": 0.6029687,
+        "y": 0.6854688,
+        "z_index": 0
+      },
+      {
+        "label": "right_knee",
+        "x": 0.6139062,
+        "y": 0.7553906,
+        "z_index": 0
+      },
+      {
+        "label": "right_ankle",
+        "x": 0.6328125,
+        "y": 0.8359375,
+        "z_index": 0
+      },
+      {
+        "label": "right_toe",
+        "x": 0.59375,
+        "y": 0.8632812,
+        "z_index": 0
+      },
+      {
+        "label": "left_hip",
+        "x": 0.6615625,
+        "y": 0.6698438,
+        "z_index": 2
+      },
+      {
+        "label": "left_knee",
+        "x": 0.6324219,
+        "y": 0.7657031,
+        "z_index": 2
+      },
+      {
+        "label": "left_ankle",
+        "x": 0.6335937,
+        "y": 0.8398438,
+        "z_index": 2
+      },
+      {
+        "label": "left_toe",
+        "x": 0.590625,
+        "y": 0.859375,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_1",
+        "x": 0.6990333,
+        "y": 0.4755101,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_2",
+        "x": 0.7462887,
+        "y": 0.4855858,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_3",
+        "x": 0.7879164,
+        "y": 0.5040881,
+        "z_index": 2
+      },
+      {
+        "label": "spear_mid",
+        "x": 0.6679688,
+        "y": 0.6601563,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_butt",
+        "x": 0.8007812,
+        "y": 0.6601563,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_collar",
+        "x": 0.3828125,
+        "y": 0.6640625,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_blade_mid",
+        "x": 0.265625,
+        "y": 0.671875,
+        "z_index": 0,
+        "depth": 93
+      },
+      {
+        "label": "spear_tip",
+        "x": 0.1757812,
+        "y": 0.6640625,
+        "z_index": 0,
+        "depth": 93
+      }
+    ],
+    [
+      {
+        "label": "pelvis",
+        "x": 0.6415625,
+        "y": 0.6678125,
+        "z_index": 1
+      },
+      {
+        "label": "chest",
+        "x": 0.646492,
+        "y": 0.5738668,
+        "z_index": 1
+      },
+      {
+        "label": "neck",
+        "x": 0.6525012,
+        "y": 0.5150607,
+        "z_index": 1
+      },
+      {
+        "label": "head",
+        "x": 0.6587504,
+        "y": 0.4640635,
+        "z_index": 1
+      },
+      {
+        "label": "head_top",
+        "x": 0.6565909,
+        "y": 0.3937842,
+        "z_index": 1
+      },
+      {
+        "label": "right_shoulder",
+        "x": 0.5917103,
+        "y": 0.571642,
+        "z_index": 0
+      },
+      {
+        "label": "right_elbow",
+        "x": 0.6092188,
+        "y": 0.6780469,
+        "z_index": 0
+      },
+      {
+        "label": "right_wrist",
+        "x": 0.578125,
+        "y": 0.6523438,
+        "z_index": 0
+      },
+      {
+        "label": "left_shoulder",
+        "x": 0.6854161,
+        "y": 0.5687626,
+        "z_index": 2
+      },
+      {
+        "label": "left_elbow",
+        "x": 0.5976656,
+        "y": 0.6738172,
+        "z_index": 2
+      },
+      {
+        "label": "left_wrist",
+        "x": 0.5364678,
+        "y": 0.6632164,
+        "z_index": 2
+      },
+      {
+        "label": "right_hip",
+        "x": 0.6142187,
+        "y": 0.6795312,
+        "z_index": 0
+      },
+      {
+        "label": "right_knee",
+        "x": 0.6185938,
+        "y": 0.751875,
+        "z_index": 0
+      },
+      {
+        "label": "right_ankle",
+        "x": 0.6328125,
+        "y": 0.8359375,
+        "z_index": 0
+      },
+      {
+        "label": "right_toe",
+        "x": 0.59375,
+        "y": 0.8632812,
+        "z_index": 0
+      },
+      {
+        "label": "left_hip",
+        "x": 0.6728125,
+        "y": 0.6639062,
+        "z_index": 2
+      },
+      {
+        "label": "left_knee",
+        "x": 0.6548438,
+        "y": 0.7609375,
+        "z_index": 2
+      },
+      {
+        "label": "left_ankle",
+        "x": 0.6501563,
+        "y": 0.8398438,
+        "z_index": 2
+      },
+      {
+        "label": "left_toe",
+        "x": 0.6071875,
+        "y": 0.859375,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_1",
+        "x": 0.7215808,
+        "y": 0.4738572,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_2",
+        "x": 0.7675242,
+        "y": 0.4888173,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_3",
+        "x": 0.8019233,
+        "y": 0.5186819,
+        "z_index": 2
+      },
+      {
+        "label": "spear_mid",
+        "x": 0.6947144,
+        "y": 0.6975895,
+        "z_index": 1
+      },
+      {
+        "label": "spear_butt",
+        "x": 0.816969,
+        "y": 0.7494833,
+        "z_index": 1
+      },
+      {
+        "label": "spear_collar",
+        "x": 0.4307004,
+        "y": 0.5897657,
+        "z_index": 1
+      },
+      {
+        "label": "spear_blade_mid",
+        "x": 0.3197761,
+        "y": 0.5511683,
+        "z_index": 1
+      },
+      {
+        "label": "spear_tip",
+        "x": 0.2401271,
+        "y": 0.5088721,
+        "z_index": 1
+      }
+    ],
+    [
+      {
+        "label": "pelvis",
+        "x": 0.6462891,
+        "y": 0.6652343,
+        "z_index": 1
+      },
+      {
+        "label": "chest",
+        "x": 0.6532013,
+        "y": 0.5714137,
+        "z_index": 1
+      },
+      {
+        "label": "neck",
+        "x": 0.660451,
+        "y": 0.5127476,
+        "z_index": 1
+      },
+      {
+        "label": "head",
+        "x": 0.6677757,
+        "y": 0.4618937,
+        "z_index": 1
+      },
+      {
+        "label": "head_top",
+        "x": 0.6671007,
+        "y": 0.3915845,
+        "z_index": 1
+      },
+      {
+        "label": "right_shoulder",
+        "x": 0.5984788,
+        "y": 0.5680326,
+        "z_index": 0
+      },
+      {
+        "label": "right_elbow",
+        "x": 0.6121621,
+        "y": 0.6536817,
+        "z_index": 0
+      },
+      {
+        "label": "right_wrist",
+        "x": 0.5703125,
+        "y": 0.6367187,
+        "z_index": 0
+      },
+      {
+        "label": "left_shoulder",
+        "x": 0.6922245,
+        "y": 0.5671326,
+        "z_index": 2
+      },
+      {
+        "label": "left_elbow",
+        "x": 0.65575,
+        "y": 0.6510586,
+        "z_index": 2
+      },
+      {
+        "label": "left_wrist",
+        "x": 0.6323188,
+        "y": 0.6903822,
+        "z_index": 2
+      },
+      {
+        "label": "right_hip",
+        "x": 0.6189453,
+        "y": 0.6769531,
+        "z_index": 0
+      },
+      {
+        "label": "right_knee",
+        "x": 0.6203125,
+        "y": 0.7505859,
+        "z_index": 0
+      },
+      {
+        "label": "right_ankle",
+        "x": 0.6328125,
+        "y": 0.8359375,
+        "z_index": 0
+      },
+      {
+        "label": "right_toe",
+        "x": 0.59375,
+        "y": 0.8632812,
+        "z_index": 0
+      },
+      {
+        "label": "left_hip",
+        "x": 0.6775391,
+        "y": 0.6613281,
+        "z_index": 2
+      },
+      {
+        "label": "left_knee",
+        "x": 0.6638672,
+        "y": 0.758789,
+        "z_index": 2
+      },
+      {
+        "label": "left_ankle",
+        "x": 0.6570313,
+        "y": 0.8398438,
+        "z_index": 2
+      },
+      {
+        "label": "left_toe",
+        "x": 0.6140626,
+        "y": 0.859375,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_1",
+        "x": 0.7303853,
+        "y": 0.473012,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_2",
+        "x": 0.7768227,
+        "y": 0.4863596,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_3",
+        "x": 0.8141552,
+        "y": 0.5124649,
+        "z_index": 2
+      },
+      {
+        "label": "spear_mid",
+        "x": 0.6343302,
+        "y": 0.7441524,
+        "z_index": 1
+      },
+      {
+        "label": "spear_butt",
+        "x": 0.698719,
+        "y": 0.8603129,
+        "z_index": 1
+      },
+      {
+        "label": "spear_collar",
+        "x": 0.4926672,
+        "y": 0.4966429,
+        "z_index": 1
+      },
+      {
+        "label": "spear_blade_mid",
+        "x": 0.4290206,
+        "y": 0.397936,
+        "z_index": 1
+      },
+      {
+        "label": "spear_tip",
+        "x": 0.3922965,
+        "y": 0.3155693,
+        "z_index": 1
+      }
+    ],
+    [
+      {
+        "label": "pelvis",
+        "x": 0.6484375,
+        "y": 0.6640625,
+        "z_index": 1
+      },
+      {
+        "label": "chest",
+        "x": 0.65625,
+        "y": 0.5703125,
+        "z_index": 1
+      },
+      {
+        "label": "neck",
+        "x": 0.6640625,
+        "y": 0.5117188,
+        "z_index": 1
+      },
+      {
+        "label": "head",
+        "x": 0.671875,
+        "y": 0.4609375,
+        "z_index": 1
+      },
+      {
+        "label": "head_top",
+        "x": 0.671875,
+        "y": 0.390625,
+        "z_index": 1
+      },
+      {
+        "label": "right_shoulder",
+        "x": 0.6015625,
+        "y": 0.5664062,
+        "z_index": 0
+      },
+      {
+        "label": "right_elbow",
+        "x": 0.6015625,
+        "y": 0.6210938,
+        "z_index": 0
+      },
+      {
+        "label": "right_wrist",
+        "x": 0.546875,
+        "y": 0.609375,
+        "z_index": 0
+      },
+      {
+        "label": "left_shoulder",
+        "x": 0.6953125,
+        "y": 0.5664062,
+        "z_index": 2
+      },
+      {
+        "label": "left_elbow",
+        "x": 0.6835938,
+        "y": 0.6328125,
+        "z_index": 2
+      },
+      {
+        "label": "left_wrist",
+        "x": 0.6679688,
+        "y": 0.7148438,
+        "z_index": 2
+      },
+      {
+        "label": "right_hip",
+        "x": 0.6210938,
+        "y": 0.6757812,
+        "z_index": 0
+      },
+      {
+        "label": "right_knee",
+        "x": 0.6210938,
+        "y": 0.75,
+        "z_index": 0
+      },
+      {
+        "label": "right_ankle",
+        "x": 0.6328125,
+        "y": 0.8359375,
+        "z_index": 0
+      },
+      {
+        "label": "right_toe",
+        "x": 0.59375,
+        "y": 0.8632812,
+        "z_index": 0
+      },
+      {
+        "label": "left_hip",
+        "x": 0.6796875,
+        "y": 0.6601562,
+        "z_index": 2
+      },
+      {
+        "label": "left_knee",
+        "x": 0.6679688,
+        "y": 0.7578125,
+        "z_index": 2
+      },
+      {
+        "label": "left_ankle",
+        "x": 0.6601562,
+        "y": 0.8398438,
+        "z_index": 2
+      },
+      {
+        "label": "left_toe",
+        "x": 0.6171875,
+        "y": 0.859375,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_1",
+        "x": 0.734375,
+        "y": 0.4726562,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_2",
+        "x": 0.78125,
+        "y": 0.484375,
+        "z_index": 2
+      },
+      {
+        "label": "scarf_3",
+        "x": 0.8203125,
+        "y": 0.5078125,
+        "z_index": 2
+      },
+      {
+        "label": "spear_mid",
+        "x": 0.5507812,
+        "y": 0.734375,
+        "z_index": 1
+      },
+      {
+        "label": "spear_butt",
+        "x": 0.5507812,
+        "y": 0.8671875,
+        "z_index": 1
+      },
+      {
+        "label": "spear_collar",
+        "x": 0.546875,
+        "y": 0.4492188,
+        "z_index": 1
+      },
+      {
+        "label": "spear_blade_mid",
+        "x": 0.5390625,
+        "y": 0.3320312,
+        "z_index": 1
+      },
+      {
+        "label": "spear_tip",
+        "x": 0.546875,
+        "y": 0.2421875,
+        "z_index": 1
+      }
+    ]
+  ],
+  "rig": [
+    {
+      "name": "pelvis",
+      "parent": null,
+      "side": "mid",
+      "estimate": null
+    },
+    {
+      "name": "chest",
+      "parent": "pelvis",
+      "side": "mid",
+      "estimate": null
+    },
+    {
+      "name": "neck",
+      "parent": "chest",
+      "side": "mid",
+      "estimate": "NECK"
+    },
+    {
+      "name": "head",
+      "parent": "neck",
+      "side": "mid",
+      "estimate": null
+    },
+    {
+      "name": "head_top",
+      "parent": "head",
+      "side": "mid",
+      "estimate": null
+    },
+    {
+      "name": "right_shoulder",
+      "parent": "chest",
+      "side": "far",
+      "estimate": "RIGHT SHOULDER"
+    },
+    {
+      "name": "right_elbow",
+      "parent": "right_shoulder",
+      "side": "far",
+      "estimate": "RIGHT ELBOW"
+    },
+    {
+      "name": "right_wrist",
+      "parent": "right_elbow",
+      "side": "far",
+      "estimate": "RIGHT ARM"
+    },
+    {
+      "name": "left_shoulder",
+      "parent": "chest",
+      "side": "near",
+      "estimate": "LEFT SHOULDER"
+    },
+    {
+      "name": "left_elbow",
+      "parent": "left_shoulder",
+      "side": "near",
+      "estimate": "LEFT ELBOW"
+    },
+    {
+      "name": "left_wrist",
+      "parent": "left_elbow",
+      "side": "near",
+      "estimate": "LEFT ARM"
+    },
+    {
+      "name": "right_hip",
+      "parent": "pelvis",
+      "side": "far",
+      "estimate": "RIGHT HIP"
+    },
+    {
+      "name": "right_knee",
+      "parent": "right_hip",
+      "side": "far",
+      "estimate": "RIGHT KNEE"
+    },
+    {
+      "name": "right_ankle",
+      "parent": "right_knee",
+      "side": "far",
+      "estimate": "RIGHT LEG"
+    },
+    {
+      "name": "right_toe",
+      "parent": "right_ankle",
+      "side": "far",
+      "estimate": null
+    },
+    {
+      "name": "left_hip",
+      "parent": "pelvis",
+      "side": "near",
+      "estimate": "LEFT HIP"
+    },
+    {
+      "name": "left_knee",
+      "parent": "left_hip",
+      "side": "near",
+      "estimate": "LEFT KNEE"
+    },
+    {
+      "name": "left_ankle",
+      "parent": "left_knee",
+      "side": "near",
+      "estimate": "LEFT LEG"
+    },
+    {
+      "name": "left_toe",
+      "parent": "left_ankle",
+      "side": "near",
+      "estimate": null
+    },
+    {
+      "name": "scarf_1",
+      "parent": "head",
+      "side": "mid",
+      "estimate": null
+    },
+    {
+      "name": "scarf_2",
+      "parent": "scarf_1",
+      "side": "mid",
+      "estimate": null
+    },
+    {
+      "name": "scarf_3",
+      "parent": "scarf_2",
+      "side": "mid",
+      "estimate": null
+    },
+    {
+      "name": "spear_mid",
+      "parent": "right_wrist",
+      "side": "mid",
+      "estimate": null
+    },
+    {
+      "name": "spear_butt",
+      "parent": "spear_mid",
+      "side": "mid",
+      "estimate": null
+    },
+    {
+      "name": "spear_collar",
+      "parent": "spear_mid",
+      "side": "mid",
+      "estimate": null
+    },
+    {
+      "name": "spear_blade_mid",
+      "parent": "spear_collar",
+      "side": "mid",
+      "estimate": null
+    },
+    {
+      "name": "spear_tip",
+      "parent": "spear_blade_mid",
+      "side": "mid",
+      "estimate": null
+    }
+  ],
+  "template_id": "mannequin",
+  "seed": 20261117,
+  "no_background": true
+}
