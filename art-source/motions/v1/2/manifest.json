@@ -13,7 +13,7 @@
   "reviewStatus": "approved",
   "approvedDate": "2026-11-17",
   "approvedScope": "전·측·후면의 허리 높이 평타, 걷기, 장판의 함성 복귀 수정본 총 9개. 숨쉬기·피격·쓰러짐·별도 효과와 게임 연결 제외.",
-  "runtimeApplied": false,
+  "runtimeApplied": true,
   "clips": [
     {
       "clipId": "front-attack",
@@ -51,7 +51,7 @@
       ],
       "reviewStatus": "approved",
       "approvedDate": "2026-11-17",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "loop": false,
       "markers": {
         "contact": 6
@@ -240,7 +240,7 @@
       ],
       "reviewStatus": "approved",
       "approvedDate": "2026-11-17",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "loop": false,
       "markers": {
         "contact": 6
@@ -429,7 +429,7 @@
       ],
       "reviewStatus": "approved",
       "approvedDate": "2026-11-17",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "loop": false,
       "markers": {
         "contact": 6
@@ -618,7 +618,7 @@
       ],
       "reviewStatus": "approved",
       "approvedDate": "2026-11-17",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "loop": true,
       "markers": {
         "leftContact": 0,
@@ -810,7 +810,7 @@
       ],
       "reviewStatus": "approved",
       "approvedDate": "2026-11-17",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "loop": true,
       "markers": {
         "leftContact": 0,
@@ -1002,7 +1002,7 @@
       ],
       "reviewStatus": "approved",
       "approvedDate": "2026-11-17",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "loop": true,
       "markers": {
         "leftContact": 0,
@@ -1194,7 +1194,7 @@
       ],
       "reviewStatus": "approved",
       "approvedDate": "2026-11-17",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "loop": false,
       "markers": {
         "stomp": 4,
@@ -1384,7 +1384,7 @@
       ],
       "reviewStatus": "approved",
       "approvedDate": "2026-11-17",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "loop": false,
       "markers": {
         "stomp": 4,
@@ -1574,7 +1574,7 @@
       ],
       "reviewStatus": "approved",
       "approvedDate": "2026-11-17",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "loop": false,
       "markers": {
         "stomp": 4,
@@ -1745,5 +1745,6 @@
       "sha256": "821ee02feabf5e34fb4d60bc1bc291e29d8bc2985de8e42743e59de343df3a71",
       "label": "장판의 함성"
     }
-  }
+  },
+  "runtimeAppliedDate": "2026-11-17"
 }

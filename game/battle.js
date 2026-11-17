@@ -1,3 +1,4 @@
+import {preloadApprovedMotions,approvedMotionSprite,paintApprovedMotions} from './approved-motion.js';
 import {createSkillCutin} from './skill-cutin.js';
 import {createCombatRecord} from './combat-record.js';
 import {renderResultsArtwork,clearResultsArtwork} from './results-ui.js';
@@ -33,7 +34,7 @@ export function initBattle({store,dialog,navigate}){
  const save=()=>store.update(s=>({...s,battleRun:run}));
  async function persist(){try{await save();return true;}catch(e){paused=true;error='저장 실패: '+e.message;return false;}}
  async function act(fn){if(committing)return;committing=true;root.querySelectorAll('button').forEach(b=>b.disabled=true);const previous=run;try{run=fn(run);error='';if(!await persist())run=previous;else if(previous.phase==='prepare'&&run.units.length<previous.units.length){const upgraded=run.units.find(u=>u.rank>(previous.units.find(v=>v.id===u.id)?.rank??u.rank));if(upgraded){mergeNotice={id:upgraded.id,until:performance.now()+1400};setTimeout(()=>{if(run?.phase==='prepare')render();},1450);}}render();}catch(e){run=previous;error=e.message;render();}finally{committing=false;}}
- async function open(match=null,stageId,difficulty){const current=store.get().battleRun;if(current){if(current.rulesetId!==RULESET||current.contentVersion!==CONTENT_VERSION){dialog.confirm('이전 버전 출정 기록','이전 출정 기록을 보관하고 새 출정을 시작합니다.','기록 보관 후 새 출정',async()=>{await store.transact(s=>({...s,archivedRuns:[...(s.archivedRuns??[]),archiveRun(s.battleRun)],battleRun:null}));dialog.dismiss();await open(match,stageId,difficulty);});return;}run=current;}else{const s=store.get();run=newRun(s,crypto.getRandomValues(new Uint32Array(1))[0],match?.id??crypto.randomUUID(),match,Date.now(),stageId,difficulty);if(!await persist()){run=null;dialog.open('출정 저장 실패','<p>저장 공간을 사용할 수 없습니다. 다시 시도해 주세요.</p>');return false;}}await battleUIReady;dialog.dismiss();root.hidden=false;root.dataset.scene=run.mode==='arena'?'arena':String(run.stageId??'yellow').split('_')[0];game.classList.add('in-battle');selected=null;paused=false;last=0;loading=run.phase!=='result';render();if(!loading)return;root.setAttribute('aria-busy','true');const openingId=run.id;await preloadBattleSprites(run.battle?.units??[...run.units,...heroes,...enemies(run.round,run.stageId,run.difficulty).map(u=>combatant(u,1,run.profile))]);if(!run||run.id!==openingId)return;loading=false;last=0;render();if(!root.classList.contains('results-v1'))root.setAttribute('aria-busy','false');}
+ async function open(match=null,stageId,difficulty){const current=store.get().battleRun;if(current){if(current.rulesetId!==RULESET||current.contentVersion!==CONTENT_VERSION){dialog.confirm('이전 버전 출정 기록','이전 출정 기록을 보관하고 새 출정을 시작합니다.','기록 보관 후 새 출정',async()=>{await store.transact(s=>({...s,archivedRuns:[...(s.archivedRuns??[]),archiveRun(s.battleRun)],battleRun:null}));dialog.dismiss();await open(match,stageId,difficulty);});return;}run=current;}else{const s=store.get();run=newRun(s,crypto.getRandomValues(new Uint32Array(1))[0],match?.id??crypto.randomUUID(),match,Date.now(),stageId,difficulty);if(!await persist()){run=null;dialog.open('출정 저장 실패','<p>저장 공간을 사용할 수 없습니다. 다시 시도해 주세요.</p>');return false;}}await battleUIReady;dialog.dismiss();root.hidden=false;root.dataset.scene=run.mode==='arena'?'arena':String(run.stageId??'yellow').split('_')[0];game.classList.add('in-battle');selected=null;paused=false;last=0;loading=run.phase!=='result';render();if(!loading)return;root.setAttribute('aria-busy','true');const openingId=run.id;try{await preloadApprovedMotions();}catch(e){error=e.message;}await preloadBattleSprites(run.battle?.units??[...run.units,...heroes,...enemies(run.round,run.stageId,run.difficulty).map(u=>combatant(u,1,run.profile))]);if(!run||run.id!==openingId)return;loading=false;last=0;render();if(!root.classList.contains('results-v1'))root.setAttribute('aria-busy','false');}
  function leave(destination){cutin.clear();records.close({notify:false});audio.stop();root.hidden=true;game.classList.remove('in-battle');if(frame)cancelAnimationFrame(frame);frame=0;const mode=run.mode,tutorial=!!run.tutorial,tower=stageOf(run.stageId).tower;run=null;clearResultsArtwork(root);root.replaceChildren();delete root.dataset.phase;navigate(destination??(mode==='arena'?'arena':tower?'tower':!tutorial&&location.hash==='#campaign'?'campaign':'home'));}
  async function closeRun(destination){try{await store.update(s=>({...s,battleRun:null}));leave(destination);}catch(e){error=e.message;render();}}
  function abandon(destination){
@@ -71,6 +72,7 @@ export function initBattle({store,dialog,navigate}){
   else {records.close();returnResult(destination);}
  }
  function sprite(u){
+  const motion=approvedMotionSprite(u,run);if(motion)return motion;
   const approved=preparationSprite(u,run.phase,run.battle,run.profile.reducedMotion);if(approved)return approved;
   const actual=u.name!==undefined?u:combatant(u,0,run.profile,run.mode==='arena'),{pose,flip}=motionPose(u,run.battle),p=spritePlacement(pose);
   // Heroes whose artwork is still pending have no motion frames: show their marked placeholder token.
@@ -109,11 +111,23 @@ export function initBattle({store,dialog,navigate}){
   ${result?`<section class="battle-result pixel-frame"><h3>${{win:'승리',loss:'패배',draw:'무승부'}[run.outcome]}</h3><p>${run.receipt?`골드 +${run.receipt.gold}${run.receipt.diamonds?` · 무료 다이아 +${run.receipt.diamonds}`:''}${run.receipt.hero?` · ${heroes.find(h=>h.id===run.receipt.hero)?.name} 합류`:''}${run.receipt.merit?` · 군공 +${run.receipt.merit}`:''}${run.receipt.extra?' · '+Object.entries(run.receipt.extra).map(([k,v])=>({heroTokens:'장수 재료',treasureTokens:'보물 재료',sShards:'S 선택 조각'}[k]??k)+' +'+v).join(' · '):''}${run.mode==='arena'?` · 점수 ${run.receipt.score>=0?'+':''}${run.receipt.score}`:''}`:run.outcome==='win'&&run.round<roundCount(run.stageId)?`다음 준비 은화 +${roundRule(run.round,run.stageId).victorySilver}${!run.tutorial&&roundRule(run.round,run.stageId).equipment?' · 장비 획득':''}`:'재도전 시 전투 직전 배치를 복구합니다.'}</p><div class="battle-controls">${run.mode==='campaign'&&run.outcome==='win'&&run.round<roundCount(run.stageId)?'<button class="battle-button primary" id="battle-next">다음 라운드</button>':`${run.mode==='campaign'&&run.outcome==='loss'&&run.retries<2?`<button class="battle-button primary" id="battle-retry">재도전 ${2-run.retries}회</button>`:''}<button class="battle-button" id="battle-return">돌아가기</button>`}<button class="battle-button" id="battle-stats">전투 기록</button></div></section>`:''}`;
   if(fighting&&root.dataset.phase==='fighting'){
    const draft=document.createElement('template');draft.innerHTML=markup;
-   for(const selector of ['.battle-units','.battle-status','.battle-detail','.battle-hint','.battle-auto'])root.querySelector(selector).innerHTML=draft.content.querySelector(selector).innerHTML;
+   const liveUnits=root.querySelector('.battle-units'),nextUnits=draft.content.querySelector('.battle-units');
+   for(const next of nextUnits.querySelectorAll('[data-approved-motion]')){
+    const id=next.closest('[data-entity]').dataset.entity;
+    const live=liveUnits.querySelector(`[data-entity="${id}"] [data-approved-motion]`);
+    if(!live)continue;
+    live.dataset.motionFrame=next.dataset.motionFrame;
+    live.dataset.approvedMotion=next.dataset.approvedMotion;
+    live.style.cssText=next.style.cssText;
+    next.replaceWith(live);
+   }
+   liveUnits.replaceChildren(...nextUnits.children);
+   for(const selector of ['.battle-status','.battle-detail','.battle-hint','.battle-auto'])root.querySelector(selector).innerHTML=draft.content.querySelector(selector).innerHTML;
    root.querySelector('#battle-header-pause').textContent=paused?'▶':'Ⅱ';root.querySelector('#battle-header-pause').setAttribute('aria-label',paused?'전투 계속':'일시 정지');
    root.querySelectorAll('[data-speed]').forEach(b=>{b.classList.toggle('speed-active',Number(b.dataset.speed)===speed);b.setAttribute('aria-pressed',String(Number(b.dataset.speed)===speed));});
   }else root.innerHTML=markup;
   root.dataset.phase=run.phase;
+  paintApprovedMotions(root);
   skinBattle(root,run,[...tiers.map(([f,v])=>f+' '+[2,4,6][v.tier-1]),...linked.map(a=>a.bond.name)].join(' · ')||'없음',selected);
  const bind=(id,fn)=>{const el=root.querySelector('#'+id);if(el)el.onclick=fn;};
  const synergyButton=root.querySelector('#battle-bonds');if(synergyButton&&synergyButton.tagName!=='BUTTON')synergyButton.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();synergyButton.click();}};
