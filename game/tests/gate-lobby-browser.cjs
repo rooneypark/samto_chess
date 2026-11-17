@@ -13,7 +13,8 @@ const assert=require('node:assert/strict');
  });
  await page.locator('.game[aria-busy=false]').waitFor();await page.evaluate(()=>document.fonts.ready);
  const screenshot=await page.locator('.game').screenshot({path:artifact('gate-lobby','reference-state.png')});
- const comparison=await page.evaluate(async encoded=>{
+ const formation=await page.locator('[data-action=formation]').boundingBox();
+ const comparison=await page.evaluate(async ([encoded,formation])=>{
   async function pixels(src){const image=new Image();image.src=src;await image.decode();const c=document.createElement('canvas');c.width=image.width;c.height=image.height;const ctx=c.getContext('2d');ctx.drawImage(image,0,0);return ctx.getImageData(0,0,c.width,c.height).data;}
   const a=await pixels('assets/gate-lobby/reference.png'),b=await pixels('data:image/png;base64,'+encoded);
   let compared=0,changed=0;
@@ -24,10 +25,12 @@ const assert=require('node:assert/strict');
    if((x>=40&&x<155&&y>=28&&y<128)||(x>=170&&x<300&&y>=80&&y<108))continue;
    // The mail button's red dot is live data too: drawn only while a reward is waiting.
    if(x>=101&&x<136&&y>=176&&y<210)continue;
+   // The approved compact formation control replaces the baked button.
+   if(x>=formation.x&&x<formation.x+formation.width&&y>=formation.y&&y<formation.y+formation.height)continue;
    compared++;const i=(y*941+x)*4;if(a[i]!==b[i]||a[i+1]!==b[i+1]||a[i+2]!==b[i+2])changed++;
   }
   return {compared,changed};
- },screenshot.toString('base64'));
+ },[screenshot.toString('base64'),formation]);
  require('node:fs').writeFileSync(artifact('gate-lobby','pixel-comparison.json'),JSON.stringify(comparison,null,2));
  assert.equal(comparison.changed,0,'Static screen pixels must match the approved source exactly at native size');
  assert.equal(await page.locator('.party .hero').count(),6);

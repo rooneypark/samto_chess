@@ -13,17 +13,32 @@ const root=path.resolve(__dirname,'../..'),read=buffer=>sharp(buffer).ensureAlph
  await page.waitForTimeout(200);await page.mouse.move(939,1480);
  const shot=await page.screenshot({path:artifact('results-v1','runtime-approved.png')}),actual=await read(shot),reference=await read(await fs.readFile(path.join(root,'design-delivery/v2/05-mockups/approved-runtime/shop-941.png')));
  const scrollChange=await require('./approved-ui-changes.cjs')(page);
- const approved=await read(await fs.readFile(path.join(root,'design-delivery/v2/05-mockups/battle-results-v1.png')));let drift=0;
- for(let i=0;i<actual.data.length;i+=4)if(!scrollChange(i)&&!actual.data.subarray(i,i+4).equals(approved.data.subarray(i,i+4)))drift++;
+ // The approved shared frame replaces the pixel content of filled result panels.
+ // Their current frame corners, button alpha and layout are checked below.
+ const changed=await page.locator('.results-v1 .panel-frame:visible,.results-v1 button[data-tone]:visible,.results-v1 .clear-badge:visible,.results-v1 .round-summary:visible,.results-v1 .reset-note:visible').evaluateAll(elements=>elements.map(el=>{
+  const r=el.getBoundingClientRect();return [Math.floor(r.left)-1,Math.floor(r.top)-1,Math.ceil(r.right)+1,Math.ceil(r.bottom)+1];
+ }));
+ const approved=await read(await fs.readFile(path.join(root,'design-delivery/v2/05-mockups/battle-results-v1.png')));let drift=0,compared=0;
+ const headerChanges=(x,y)=>y>=19&&y<125&&((x>=333&&x<608)||(x>=690&&x<916));
+ for(let i=0;i<actual.data.length;i+=4){
+  const pixel=i/4,x=pixel%941,y=Math.floor(pixel/941);
+  if(scrollChange(i)||headerChanges(x,y)||changed.some(([l,t,r,b])=>x>=l&&x<r&&y>=t&&y<b))continue;
+  compared++;
+  if(!actual.data.subarray(i,i+4).equals(approved.data.subarray(i,i+4)))drift++;
+ }
+ assert.ok(compared>400000,'Historical pixels compared: '+compared);
  report.approvedPixelDrift=drift;assert.equal(drift,0,'Approved result screen pixel drift');
  let common=0;
  for(let y=0;y<1672;y++)for(let x=0;x<941;x++){
-  if(y<150){if(x>=333&&x<608&&y>=19&&y<125)continue;}
+  if(y<150){if(headerChanges(x,y))continue;}
   else if(y>=1498){if(y>=1512&&y<1656&&(x>=18&&x<196||x>=384&&x<562))continue;}
   else continue;
   const i=(y*941+x)*4;assert.ok(actual.data.subarray(i,i+4).equals(reference.data.subarray(i,i+4)),'Approved shell drift '+x+','+y);common++;
  }
  report.identicalShellPixels=common;
+ assert.equal(await page.locator('.results-v1 .clear-badge .panel-frame').count(),0);
+ assert.equal(await page.locator('.results-v1 .panel-frame[data-nine-slice-source="blue"]').count(),6);
+ assert.equal(await page.locator('.results-v1 .wallet .shell-wallet-value').count(),2);
  for(const button of await page.locator('.results-v1 button.art-control').all()){
   const box=await button.boundingBox(),clip=Object.fromEntries(Object.entries(box).map(([k,v])=>[k,Math.round(v)]));
   await page.mouse.move(939,1480);await button.evaluate(e=>e.blur());const before=await read(await page.screenshot({clip}));

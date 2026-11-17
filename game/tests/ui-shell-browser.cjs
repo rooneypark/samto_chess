@@ -52,7 +52,9 @@ async function capture(page,name){
   assert.ok(compared>3000);
  }
  for(const size of [{width:320,height:568},{width:390,height:844},{width:1440,height:900}]){
-  await page.setViewportSize(size);const roster=await page.locator('.hero-roster').boundingBox();
+  await page.setViewportSize(size);
+  await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));
+  const roster=await page.locator('.hero-roster').boundingBox();
   for(const id of ids){const r=await page.locator('.hero-roster [data-hero="'+id+'"]').boundingBox();assert.ok(r.y+r.height<=roster.y+roster.height+.1);}
   const measured={detail:[]};
   const portraitBoxes=()=>page.locator('.general-card-art .portrait-viewport').evaluateAll(es=>es.map(e=>e.getBoundingClientRect().toJSON()));
@@ -64,8 +66,25 @@ async function capture(page,name){
    for(const key of ['detail']){assert.ok(geometry[key].inside,id+' complete silhouette '+key);assert.ok(Math.abs(geometry[key].aspect-geometry.aspect)<.003,id+' aspect '+key);measured[key].push(geometry[key]);}
   }
   for(const key of ['detail'])for(let i=0;i<ids.length;i++){const ratio=['1','119'].includes(ids[i])?1:ids[i]==='xuchu'?.85:.7;assert.ok(Math.abs(measured[key][i].height/measured[key][0].height-ratio)<.003,ids[i]+' shared stature '+key);assert.ok(Math.abs(measured[key][i].foot-measured[key][0].foot)<.1,ids[i]+' shared foot baseline '+key);}
-  const portraits=await page.evaluate(async()=>{const {portraitCrops}=await import('./general-portraits.js');return [...document.querySelectorAll('.general-card-art .portrait-viewport')].map(slot=>{const id=slot.closest('[data-hero]').dataset.hero,a=portraitCrops[id],img=slot.querySelector('img'),b=slot.getBoundingClientRect(),r=img.getBoundingClientRect(),scale=r.width/img.naturalWidth;return {id,eye:(r.y+a.eyes*scale-b.y)/b.height,face:a.faceWidth*scale/b.width,aspect:Math.abs(r.width/r.height-img.naturalWidth/img.naturalHeight),background:getComputedStyle(slot).backgroundColor,src:img.getAttribute('src')};});});
-  for(const p of portraits){assert.ok(Math.abs(p.eye-.56)<.003,p.id+' portrait eyes');assert.ok(Math.abs(p.face-.45)<.003,p.id+' portrait face');assert.ok(p.aspect<.003,p.id+' original aspect');assert.equal(p.background,'rgba(0, 0, 0, 0)');assert.equal(p.src,'assets/generals-v2/'+p.id+'-front.png');}
+  // Eye rows measured on the six approved 96×120 portrait PNGs.
+  const eyeRows={'1':56,xuchu:63,'32':58,'35':60,diaochan:61,'119':65};
+  const portraits=await page.locator('.general-card-art .portrait-viewport').evaluateAll(async (slots,eyes)=>{
+   return Promise.all(slots.filter(slot=>slot.closest('[data-hero]').dataset.hero in eyes).map(async slot=>{
+    const id=slot.closest('[data-hero]').dataset.hero,img=slot.querySelector('img');
+    await img.decode();
+    const box=slot.getBoundingClientRect(),r=img.getBoundingClientRect();
+    return {id,eye:(r.y+eyes[id]*r.height/120-box.y)/box.height,aspect:r.width/r.height,
+     natural:[img.naturalWidth,img.naturalHeight],background:getComputedStyle(slot).backgroundColor,src:img.getAttribute('src')};
+   }));
+  },eyeRows);
+  assert.equal(portraits.length,ids.length);
+  for(const p of portraits){
+   assert.ok(Math.abs(p.eye-eyeRows[p.id]/120)<.003,p.id+' portrait eyes');
+   assert.ok(Math.abs(p.aspect-.8)<.003,p.id+' approved portrait aspect');
+   assert.deepEqual(p.natural,[96,120]);
+   assert.equal(p.background,'rgba(0, 0, 0, 0)');
+   assert.equal(p.src,'assets/portraits-v4/'+p.id+'.png');
+  }
   await page.locator('.hero-roster [data-hero="35"]').click();await page.screenshot({path:artifact('ui-shell','barracks-zhuge-'+size.width+'.png')});
   await page.locator('.hero-roster [data-hero="1"]').click();await page.screenshot({path:artifact('ui-shell','barracks-'+size.width+'.png')});
  }
