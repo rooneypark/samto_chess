@@ -1,3 +1,4 @@
+import {compactAction} from './compact-action.js';
 import {artButton,initArtPress} from './art-controls.js';
 import {artSet} from './art.js';
 import {renderSynergy} from './synergy-chips.js';
@@ -7,6 +8,7 @@ import {chapters,stageOf,stageName} from './stages.js';
 import {roundCount} from './battle-data.js';
 
 export const battleV2=artSet==='a';
+const silverCoin='<img class="battle-silver-coin" src="assets/battle-v2/silver-coin.svg" alt="">';
 export function rankIndicator(rank){
  return battleV2?Array.from({length:5},(_,i)=>`<i class="rank-diamond ${i<rank?'filled':''}" aria-hidden="true"></i>`).join(''):['','Ⅰ','Ⅱ','Ⅲ','Ⅳ','Ⅴ'][rank];
 }
@@ -48,7 +50,10 @@ export function skinBattle(root,run,bonds,selected=null){
  root.querySelector('.battle-title>span').textContent=(run.phase==='prepare'?'전투 준비':run.phase==='fighting'?'전투 진행':'전투 결과')+' · '+run.round+'/'+roundCount(run.stageId)+' 라운드';
  root.querySelector('.battle-title>span').classList.toggle('source-lettering',run.phase==='prepare'&&run.round===1&&roundCount(run.stageId)===5);
  if(run.phase!=='fighting'){
-  root.querySelector('.battle-status>span:first-child').innerHTML='은화 <b>'+run.silver+'</b>';
+  const silver=root.querySelector('.battle-status>span:first-child');
+  silver.classList.add('battle-silver-balance');
+  silver.setAttribute('aria-label','은화 '+run.silver);
+  silver.innerHTML=silverCoin+'<b>'+run.silver+'</b>';
   const capacity=root.querySelector('.battle-status>span:nth-child(2)');
   // Keep the expansion button out of the text box's coordinate space.
   const plus=capacity?.querySelector('#battle-capacity');if(plus)root.append(plus);
@@ -65,9 +70,17 @@ export function skinBattle(root,run,bonds,selected=null){
  });
  const count=root.querySelector('.bench-heading>span');if(count)count.textContent='대기 '+run.units.filter(u=>u.y<0).length+'/8';
  for(const [selector,box] of Object.entries(geometry)){const el=root.querySelector(selector);if(el)place(el,box);}
+ const silverBalance=root.querySelector('.battle-silver-balance');
+ if(silverBalance&&run.phase!=='fighting')place(silverBalance,[58,246,223,53]);
  root.querySelectorAll('.bench-cell').forEach((cell,i)=>place(cell,[31+[0,120,232,341,450,559,668,777][i],1256,[114,108,105,105,105,105,105,102][i],130]));
  for(const selector of ['#battle-exit','#battle-help','#battle-capacity','#battle-sell','#battle-summon','#battle-start'])root.querySelector(selector)?.classList.add('battle-art-button');
  for(const [selector,id] of Object.entries({'#battle-exit':'back','#battle-help':'help','#battle-capacity':'capacity','#battle-sell':'sell','#battle-summon':'summon','#battle-start':'start','#battle-bonds':'bonds'}))artButton(root.querySelector(selector),'battle-'+id);
+ for(const id of ['battle-summon','battle-sell'])compactAction(root.querySelector('#'+id));
+ const summon=root.querySelector('#battle-summon');
+ if(summon){
+  summon.setAttribute('aria-label','소환, 은화 3');
+  summon.innerHTML='<img class="battle-summon-lettering" src="assets/battle-v2/summon-lettering.png" alt="소환"><small class="battle-summon-cost">'+silverCoin+'<b>3</b></small>';
+ }
  artworkHeader(root,'battle',title);
  const capacityButton=root.querySelector('#battle-capacity');if(capacityButton){artButton(capacityButton,'battle-capacity',{paint:true});place(capacityButton,[813,236,89,74]);}
  root.querySelectorAll('[data-gear]').forEach((button,i)=>{const gear=run.gear[i];artButton(button,'battle-'+gear.type,{position:false});button.style.backgroundImage=`url('assets/battle-v2/${gear.type}.png')`;button.innerHTML='<small>'+['','Ⅰ','Ⅱ','Ⅲ'][gear.rank]+'</small>';button.setAttribute('aria-label',button.title);});

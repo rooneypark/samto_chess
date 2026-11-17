@@ -50,7 +50,7 @@ export function initGateLobby(game,store){
  const buttonIds={profile:'profile',mail:'mail',quests:'quests',start:'start',settings:'settings',codex:'codex',expedition:'expedition',tower:'tower',formation:'formation',campaign:'campaign',depart:'depart'};
  function skinControls(){
   artworkShell(game,{screen:'gate',title:'삼토체스',progress:store.get()});
-  for(const [action,id] of Object.entries(buttonIds))artButton(game.querySelector('[data-action='+action+']'),'gate-'+id);
+  for(const [action,id] of Object.entries(buttonIds))artButton(game.querySelector('[data-action='+action+']'),'gate-'+id,{paint:action==='formation'});
   artButton(game.querySelector('.profile'),'gate-profile',{paint:true});
  }
  skinControls();

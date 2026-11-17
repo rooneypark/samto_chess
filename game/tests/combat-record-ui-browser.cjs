@@ -52,7 +52,7 @@ const root=path.resolve(__dirname,'../..'),read=buffer=>sharp(buffer).ensureAlph
  await page.locator('[data-side="0"]').click();await page.locator('.combat-record-v1[aria-busy=false]').waitFor();
  const frames=await page.evaluate(async()=>{const {renderNineSlice}=await import('./nine-slice.js'),out=[];for(const tone of ['blue','green'])for(const [w,h] of [[901,142],[441,74],[289,64],[901,704],[861,98],[901,64],[582,84]])out.push({tone,w,h,url:await renderNineSlice(tone,w,h,{stablePixels:true})});return out;});
  const corners={};for(const f of frames){const png=Buffer.from(f.url.split(',')[1],'base64'),parts=[];
-  for(const [left,top] of [[0,0],[f.w-28,0],[0,f.h-28],[f.w-28,f.h-28]])parts.push(await sharp(png).extract({left,top,width:28,height:28}).raw().toBuffer());
+  for(const [left,top] of [[0,0],[f.w-24,0],[0,f.h-24],[f.w-24,f.h-24]])parts.push(await sharp(png).extract({left,top,width:24,height:24}).raw().toBuffer());
   if(!corners[f.tone])corners[f.tone]=parts;else parts.forEach((part,i)=>assert.ok(part.equals(corners[f.tone][i]),'Fixed corner ornament'));report.frames.push({tone:f.tone,width:f.w,height:f.h,identicalCorners:true});
  }
  for(const size of [{width:320,height:568},{width:390,height:844},{width:1440,height:900}]){

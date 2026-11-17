@@ -34,10 +34,12 @@ export async function renderNineSlice(tone,width,height,{corner=nineSliceFrames[
 }
 // Resizes both the artwork AND the exact pressed alpha mask together.
 // All callers keep the shared art-controls pointer/keyboard behavior.
-export async function nineSlice(el,tone,{box,button=true,center=true,corner=nineSliceFrames[tone]?.corner??28,stablePixels=false,fitCorner=false}={}){
+export async function nineSlice(el,tone,{box,button=true,center=true,corner,stablePixels=false,fitCorner=false}={}){
  if(box)placeArtwork(el,box);
- // Buttons use the richer '<tone>-button' frame when one is defined; panels keep the plain frame.
- const source=button&&nineSliceFrames[tone+'-button']?tone+'-button':tone;
+ // Compact plates are shared by ordinary buttons; departure actions keep their original frame.
+ const keepDeparture=el.matches('#battle-start,[data-action=depart]');
+ const source=button&&nineSliceFrames[tone+(keepDeparture?'-hero-button':'-button')]?tone+(keepDeparture?'-hero-button':'-button'):tone;
+ corner??=nineSliceFrames[source]?.corner??28;
  let entry=instances.get(el);
  if(!entry){
   entry={revision:0};instances.set(el,entry);
@@ -58,7 +60,7 @@ export async function nineSlice(el,tone,{box,button=true,center=true,corner=nine
   const promise=(async()=>{
     const image=await renderNineSlice(source,r.width*dpr,r.height*dpr,{corner:actualCorner,center,stablePixels});
     if(revision!==entry.revision||!el.isConnected||instances.get(el)!==entry)return;
-    el.style.setProperty('--art-image',`url("${image}")`);el.style.backgroundImage=`url("${image}")`;el.style.backgroundSize='100% 100%';el.dataset.nineSlice=tone;
+    el.style.setProperty('--art-image',`url("${image}")`);el.style.backgroundImage=`url("${image}")`;el.style.backgroundSize='100% 100%';el.dataset.nineSlice=tone;el.dataset.nineSliceSource=source;
     entry.lastKey=key;
   })().finally(()=>{if(entry.pending?.promise===promise)entry.pending=null;});
   entry.pending={key,promise};

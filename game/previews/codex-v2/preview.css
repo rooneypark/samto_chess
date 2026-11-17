@@ -1,0 +1,5 @@
+@import url('../codex-v1/preview.css');
+.codex-tabs button{font-size:4cqw}.symbol{display:block;background-image:url('/game/assets/ui/icons.png');background-size:400% 300%;image-rendering:pixelated}.codex-card .symbol{position:absolute;left:10%;top:24%;width:8cqw;height:8cqw}.detail-art .symbol{position:absolute;left:9%;top:64%;width:16cqw;height:16cqw}.game [hidden]{display:none!important}
+
+.treasure-tab .codex-card .symbol{left:36%;top:10%;width:8cqw;height:8cqw}.treasure-tab .codex-card strong{left:5%;width:90%;top:52%;text-align:center}.treasure-tab .codex-card small{left:5%;width:90%;top:72%;justify-content:center}.treasure-tab .codex-card .grade-label{left:8%;top:8%;width:20%}
+.treasure-tab .codex-card .grade-label{width:32%;white-space:nowrap;font-size:2.1cqw}

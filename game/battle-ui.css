@@ -13,6 +13,15 @@
  .battle-title h2{background:url('assets/battle-v2/title-blank.png') center/100% 100%}
  .battle-title .source-lettering{opacity:0}
  .battle-status>span{font-size:3.8cqw;color:#fff0c9}
+ .battle-status>.battle-silver-balance{
+  background:url('assets/battle-v2/silver-blank.png') center/100% 100%;
+  gap:1.1cqw;
+ }
+ .battle-silver-coin{display:block;width:4.1cqw;height:4.1cqw;flex:none}
+ .battle-silver-balance b{font-weight:bold}
+ #battle-summon .battle-summon-lettering{display:block;width:70%;height:53%;object-fit:contain;image-rendering:auto}
+ #battle-summon .battle-summon-cost{display:flex;align-items:center;justify-content:center;gap:.65cqw;line-height:1}
+ #battle-summon .battle-summon-cost .battle-silver-coin{width:3.1cqw;height:3.1cqw}
  .battle-hint{font-size:3.6cqw;color:#102338;overflow:hidden;white-space:normal;z-index:5}
  .bench-heading>span{font-size:4.3cqw;color:#102338}
  .battle-bonds{font-size:3.3cqw;color:#102338;cursor:pointer;overflow:hidden;text-overflow:ellipsis;z-index:5}

@@ -41,9 +41,9 @@ async function press(page,button){
  let strokes=0;for(let y=88;y<133;y++)for(let x=33;x<146;x++){const i=(y*178+x)*4;if(original.data[i]>125&&original.data[i+1]>125&&original.data[i+2]>90){assert.ok(original.data.subarray(i,i+4).equals(selected.data.subarray(i,i+4)));strokes++;}}assert.ok(strokes>300);
  const frames=await page.evaluate(async()=>{const {renderNineSlice}=await import('./nine-slice.js'),out=[];for(const tone of ['blue','green'])for(const [w,h] of [[180,60],[281,74],[350,138],[425,72],[500,138],[901,488],[700,190]])out.push({tone,w,h,url:await renderNineSlice(tone,w,h,{stablePixels:true})});return out;});
  const corners={};for(const f of frames){const png=Buffer.from(f.url.split(',')[1],'base64'),{data}=await read(png),parts=[];
-  for(const [x,y] of [[0,0],[f.w-28,0],[0,f.h-28],[f.w-28,f.h-28]])parts.push(await sharp(png).extract({left:x,top:y,width:28,height:28}).raw().toBuffer());
+  for(const [x,y] of [[0,0],[f.w-24,0],[0,f.h-24],[f.w-24,f.h-24]])parts.push(await sharp(png).extract({left:x,top:y,width:24,height:24}).raw().toBuffer());
   if(!corners[f.tone])corners[f.tone]=parts;else parts.forEach((p,i)=>assert.ok(p.equals(corners[f.tone][i]),'Corner ornament changed'));
-  for(let y=28;y<f.h-28;y++)for(let x=28;x<f.w-28;x++)assert.equal(data[(y*f.w+x)*4+3],255);
+  for(let y=28;y<f.h-24;y++)for(let x=28;x<f.w-24;x++)assert.equal(data[(y*f.w+x)*4+3],255);
  }
  // A late disposer from the previous screen cannot detach a fresh instance.
  const resized=await page.evaluate(async()=>{

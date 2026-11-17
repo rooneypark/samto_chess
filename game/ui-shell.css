@@ -11,11 +11,7 @@
 .game:is(.shop-art,.alliance-art,.arena-art,.campaign-art) .shell-wallet-value{text-shadow:0 .15cqw #0e1c2d}
 /* One 941×150 header and one 941×174 footer for approved artwork screens. */
 .art-header{position:absolute;inset:0;pointer-events:none;z-index:2;background:url('assets/ui-common/header-frame.png') top left/100% 8.9712919% no-repeat;image-rendering:pixelated}
-.art-header-title{position:absolute;display:flex;align-items:center;justify-content:center;background:url('assets/ui-common/header-title.png') 0 0/100% 100%;font:bold 5.6cqw Georgia,'Batang',serif;color:#fff0c9;white-space:nowrap}
-.art-header-title.has-gate-lettering{font-size:0}
-.gate-title-lettering{width:75.64%;height:auto;display:block}
 
-.art-header[data-screen=battle] .art-header-title{font-size:4.7cqw}
 .art-header-content{position:absolute;background-size:100% 100%}
 .art-header-content.battle{background-image:url('assets/ui-common/battle-header-content.png')}
 .art-header-content.barracks{background-color:#1b304a}
@@ -38,3 +34,9 @@
 .barracks-v2 .hero-roster{grid-auto-rows:21.7cqw;gap:1.1cqw}
 .barracks-v2 .roster-card.unowned div span{font-size:max(2.8cqw,9px);color:#d9c49c}
 .barracks-v2 .hero-level.hero-unowned{font-size:max(2.8cqw,9px);color:#e8ce9c}
+
+.art-header .art-header-title{position:absolute;display:flex;align-items:center;justify-content:center;background:none;font:400 var(--title-size,6.4cqw)/1 'Batang',serif;color:#ffe3a0;text-shadow:0 .18cqw #452e20;white-space:nowrap}
+
+.header-lettering{display:flex;align-items:center;justify-content:center;gap:calc(var(--lettering-height)*.14)}
+.header-lettering img{height:var(--lettering-height);width:auto;max-width:none;display:block;image-rendering:auto}
+.header-lettering-dot{width:calc(var(--lettering-height)*.12);aspect-ratio:1;background:#ffe3a0;border-radius:50%}

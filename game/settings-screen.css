@@ -4,3 +4,6 @@
 .setting-name,.setting-help{position:absolute;margin:0;padding:0}.save-note{font-size:max(2.4cqw,9px);line-height:1.2}
 
 }
+
+/* Keep option labels consistent with the artwork controls. */
+@scope (.settings-runtime){.setting-name{font-family:Georgia,'Batang',serif;font-weight:700}.setting-help,.section-note,.save-note,.footnote{font-family:Georgia,'Batang',serif}}

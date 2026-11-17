@@ -2,6 +2,22 @@ const fs=require('node:fs/promises'),path=require('node:path');
 const {frameCutout,pressedPNG,sharp}=require('./ui-cutout.cjs');
 const root=path.resolve(__dirname,'../..'),out=path.join(root,'game/assets/ui-common');
 const sources={gate:'gate-lobby-v1.png',battle:'battle-preparation-v1.png',barracks:'barracks-v1.png'};
+async function goldFormationLowerEdge(png){
+ const {data,info}=await sharp(png).ensureAlpha().raw().toBuffer({resolveWithObject:true});
+ const shades=[[236,193,116],[208,158,79],[119,81,44],[65,46,31]];
+ // Clear the lettering baked into the source so the button can use its live label.
+ for(let y=8;y<50;y++)for(let x=43;x<121;x++){
+  const i=(y*info.width+x)*4,left=(y*info.width+42)*4,right=(y*info.width+121)*4;
+  for(let c=0;c<3;c++)data[i+c]=Math.round(data[left+c]+(data[right+c]-data[left+c])*(x-42)/79);
+ }
+ for(const [row,shade] of shades.entries())for(let x=10;x<150;x++){
+  const i=((52+row)*info.width+x)*4;
+  if(!data[i+3]||data[i+2]-data[i]<18)continue;
+  const variation=(data[i+1]-[146,128,74,53][row])*.4;
+  for(let c=0;c<3;c++)data[i+c]=Math.max(0,Math.min(255,Math.round(shade[c]+variation)));
+ }
+ return sharp(data,{raw:{width:info.width,height:info.height,channels:4}}).png().toBuffer();
+}
 const definitions={
  gate:{
  profile:[35,18,124,120],gold:[693,20,220,55],diamonds:[693,77,220,54],
@@ -34,7 +50,9 @@ const definitions={
   if(['gold','diamonds'].includes(name))options.includeGreen=true;
   if(screen==='gate'&&['mail','quests','start','settings','codex','expedition','tower'].includes(name))options.darkOutline=true;
   if(name.startsWith('card'))options.tone='slate';
-  const png=await frameCutout(source,box,options);await fs.writeFile(path.join(out,id+'.png'),png);
+  let png=await frameCutout(source,box,options);
+  if(id==='gate-formation')png=await goldFormationLowerEdge(png);
+  await fs.writeFile(path.join(out,id+'.png'),png);
   await fs.writeFile(path.join(out,id+'-pressed.png'),await pressedPNG(png));
   records[id]={file:id+'.png',pressedFile:id+'-pressed.png',screen,box,source:path.relative(root,source).replaceAll('\\','/'),method:options.paperBackground?'original RGB, exterior parchment flood fill':'original RGB, measured frame outline and dark rim'};
  }

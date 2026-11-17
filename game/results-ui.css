@@ -13,7 +13,7 @@ h2{display:flex;align-items:center;color:#f9e4b6;font-size:4.1cqw}
 .reset-note{font-size:max(2.2cqw,9px);text-align:center;color:#a6b8c9}
 .scroll-heading{line-height:normal;font-weight:bold}
 .environment{background-image:linear-gradient(#14253bd9 0%,#14253bba 49%,#14253b00 78%),url('/game/assets/arena-v2/courtyard.png');background-position:center 70%}
-.clear-badge{display:flex;align-items:center;justify-content:center;font-size:3cqw;font-weight:bold;z-index:3}.clear-badge span{position:relative;color:#ffe5ab}
+.clear-badge{display:flex;align-items:center;justify-content:center;font-size:3cqw;font-weight:bold;z-index:3}.clear-badge span{position:relative;color:#ffe3a0;text-shadow:.15cqw .15cqw #634326,-.08cqw -.08cqw #fff3cc;letter-spacing:.25cqw}
 .victory-title{display:flex;justify-content:center;align-items:center;font-size:11.8cqw;color:#ffe3a0;text-shadow:.35cqw .35cqw #634326,-.12cqw -.12cqw #fff3cc;z-index:3;letter-spacing:1.3cqw;padding-left:1.3cqw}
 :scope[data-outcome=win] .victory-title{font-size:9cqw;letter-spacing:.55cqw;padding-left:.55cqw;white-space:nowrap}
 .results-v1 [hidden]{display:none!important}

@@ -25,11 +25,11 @@ export async function renderCampaignArtwork(root,{state,selected,difficulty,busy
  for(const [i,id] of campaignMapIds.entries()){
   const normalStatus=stageStatus(state,id),isLocked=normalStatus==='locked'||hard&&!hardUnlocked(state,id),status=isLocked?'locked':cleared(id)?'cleared':'open',active=id===selected,asset=assets[Math.floor(i/3)];
   const card=document.createElement('article');card.className='stage-card';Object.assign(card.dataset,{stageCard:id,status,asset,selected:String(active)});
-  const name=document.createElement('button');name.className='stage-node';Object.assign(name.dataset,{stage:id,status});name.textContent=stageName(id);name.setAttribute('aria-pressed',String(active));name.setAttribute('aria-label',stageName(id)+' · '+({cleared:'클리어',open:'도전 가능',locked:'잠김'})[status]);
   const icon=document.createElement('button');icon.className='landmark-art art-control art-painted';icon.setAttribute('aria-label',stageName(id)+' 전투지 · '+({cleared:'클리어',open:'도전 가능',locked:'잠김'})[status]);icon.dataset.artButton='landmark-'+asset;icon.dataset.artState=status==='cleared'?'cleared':'standing';
-  card.append(icon,name);if(isLocked)card.insertAdjacentHTML('beforeend',locks);$('.stage-nodes').append(card);placeArtwork(card,[...positions[i],240,160]);
-  painting.push(nineSlice(name,active?'green':'blue'),landmarkArtwork(asset,status==='cleared').then(url=>{if(token===revision)icon.style.setProperty('--art-image',`url("${url}")`);}));
-  name.onclick=icon.onclick=()=>onSelect(id);
+  Object.assign(icon.dataset,{stage:id,status});icon.setAttribute('aria-pressed',String(active));icon.title=stageName(id);
+  card.append(icon);if(isLocked)card.insertAdjacentHTML('beforeend',locks);$('.stage-nodes').append(card);placeArtwork(card,[...positions[i],240,160]);
+  painting.push(landmarkArtwork(asset,status==='cleared').then(url=>{if(token===revision)icon.style.setProperty('--art-image',`url("${url}")`);}));
+  icon.onclick=()=>onSelect(id);
  }
  for(const tab of root.querySelectorAll('[data-chapter]')){
   const yellow=tab.dataset.chapter==='yellow',ids=campaignMapIds.slice(yellow?0:3,yellow?3:9),active=yellow===selected.startsWith('yellow');

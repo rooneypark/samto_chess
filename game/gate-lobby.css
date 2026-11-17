@@ -8,6 +8,9 @@
  .hud h1,.campaign,.party-toolbar>.rule,.party-toolbar>span{display:none}
  .gate-hit.gate-hit,.gate-hero.gate-hero{position:absolute;left:var(--gx);top:var(--gy);width:var(--gw);height:var(--gh);margin:0;padding:0;border:0;border-image:none;background:none;box-shadow:none;filter:none;min-width:0;min-height:0;translate:none}
  .gate-hit.gate-hit{color:transparent;font-size:0;text-shadow:none}
+ .gate-hit.gate-hit[data-art-button=gate-formation].art-painted{
+  color:#fff0c9;font:bold 3.3cqw/1 Georgia,'Batang',serif;text-shadow:0 .15cqw #132438
+ }
  .gate-hit>*{opacity:0;pointer-events:none}
  .gate-hit:focus-visible,.gate-hero:focus-visible{outline:2px solid #ffe0a1;outline-offset:-2px}
  .gate-hit.gate-hit:active,.gate-hit.gate-hit:hover{background:none;box-shadow:none;translate:none}

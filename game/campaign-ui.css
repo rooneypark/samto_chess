@@ -16,7 +16,8 @@ button{position:absolute;box-shadow:none;border-image:none;filter:none;translate
 .stage-card{position:absolute;z-index:5}.stage-card button{position:absolute}
 .stage-card .stage-node{left:0;top:60%;width:100%;height:40%;font-size:2.95cqw;line-height:1.2;gap:0;color:#fff0cd}
 .landmark-art{left:25%;top:0;width:50%;height:62.5%;background-repeat:no-repeat;background-size:100% 100%;image-rendering:pixelated}
-.stage-card[data-selected=true]::before{content:'';position:absolute;left:23%;top:49%;width:54%;height:10%;border:.3cqw solid #ffe6a1;background:#b0914055;border-radius:50%;pointer-events:none}
+.stage-card[data-selected=true] .landmark-art{filter:drop-shadow(.2cqw 0 #ffe6a1) drop-shadow(-.2cqw 0 #ffe6a1) drop-shadow(0 .2cqw #ffe6a1) drop-shadow(0 -.2cqw #ffe6a1)}
+.landmark-art:focus-visible{outline:2px solid #ffe6a1;outline-offset:2px}
 .lock-badge{position:absolute;left:70%;top:35%;width:2.8cqw;height:3.3cqw;pointer-events:none;z-index:7}
 .stage-card .stage-node[aria-pressed=true]{color:#fff0cd}
 .chapter-label{font-size:max(2.3cqw,9px)}.chapter-label b{font-size:3.5cqw}

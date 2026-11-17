@@ -5,7 +5,7 @@ export const resultsTemplate=`
  <div class="wallet"><button aria-label="골드 예시 12,450"></button><button aria-label="다이아 예시 320"></button></div>
  <h1 class="scroll-heading" data-box="22,153,895,90">광종 결전 · 일반</h1>
  <section class="victory-scene" data-box="${contentBounds.left},264,${contentBounds.width},518"><div class="environment"></div><div class="panel-frame" data-frame="blue"></div></section>
- <div class="clear-badge" data-box="330,294,281,64"><div class="panel-frame" data-frame="green"></div><span>최초 클리어</span></div>
+ <div class="clear-badge" data-box="330,294,281,64"><span>최초 클리어</span></div>
  <h2 class="victory-title" data-box="200,370,541,116">승리</h2>
  <p class="round-summary" data-box="160,539,621,31">5 / 5 라운드 완료</p>
  <div class="victory-generals" aria-label="기존 6장수 독립 원화"></div>

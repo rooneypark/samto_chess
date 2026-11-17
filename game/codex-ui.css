@@ -26,3 +26,11 @@
 @scope (.codex-runtime){.bottom-nav{display:contents}.bottom-nav button{position:absolute;border:0;padding:0;box-shadow:none}.wallet{display:contents}.wallet button{position:absolute}.codex-entry{position:absolute} }
 
 .game.in-battle>.codex-runtime{display:none}.game.codex-art>.toast{z-index:80}
+
+@scope (.codex-runtime){
+.codex-tabs button{font-size:4cqw}.symbol{display:block;background-image:url('/game/assets/ui/icons.png');background-size:400% 300%;image-rendering:pixelated}.codex-entry .symbol{position:absolute;left:10%;top:24%;width:8cqw;height:8cqw}.detail-art .symbol{position:absolute;left:9%;top:64%;width:16cqw;height:16cqw}[hidden]{display:none!important}
+
+:scope.treasure-tab .codex-entry .symbol{left:36%;top:10%;width:8cqw;height:8cqw}:scope.treasure-tab .codex-entry strong{left:5%;width:90%;top:52%;text-align:center}:scope.treasure-tab .codex-entry small{left:5%;width:90%;top:72%;justify-content:center}:scope.treasure-tab .codex-entry .grade-label{left:8%;top:8%;width:20%}
+:scope.treasure-tab .codex-entry .grade-label{width:32%;white-space:nowrap;font-size:2.1cqw}
+
+}

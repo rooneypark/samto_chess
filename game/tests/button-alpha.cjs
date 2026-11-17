@@ -1,6 +1,6 @@
 const sharp=require('../../design-delivery/v1/a-production/tools/node_modules/sharp'),assert=require('node:assert/strict'),path=require('node:path');
-module.exports=async function verifyButtonAlpha(id,before,after){
- const mask=await sharp(path.resolve('game/assets/ui-common/battle-'+id+'.png')).ensureAlpha().raw().toBuffer({resolveWithObject:true});
+module.exports=async function verifyButtonAlpha(id,before,after,source){
+ const mask=await sharp(source??path.resolve('game/assets/ui-common/battle-'+id+'.png')).ensureAlpha().raw().toBuffer({resolveWithObject:true});
  const a=await sharp(before).ensureAlpha().raw().toBuffer({resolveWithObject:true}),b=await sharp(after).ensureAlpha().raw().toBuffer();
  assert.equal(a.info.width,mask.info.width);assert.equal(a.info.height,mask.info.height);
  const {width:w,height:h}=a.info;let transparent=0,gold=0;

@@ -242,3 +242,19 @@ S등급 선택: s-select-template.js를 시안/실제 화면이 공유하고 gen
 현재 UI/스프라이트 PNG는 픽셀을 유지한 채 asset-packs/v1/의 카테고리 ZIP으로 Git 추적한다. pull 뒤 `python tools/asset_packs.py restore`를 실행해야 기존 경로로 복원된다. 재생성/검수 전에 복원을 마친다. 생성 후에는 pack/verify와 변경된 ZIP/catalog를 함께 제출한다.
 장수 재생성 입력은 art-source/ui-build/v1/general-turnarounds, 전투 재생성 입력은 art-source/ui-build/v1/battle-sprites로 이동했다. 게임 출력 경로·상하단·pressed·나인슬라이스·PNG 바이트는 변경하지 않았다. 최신49명 제작 원화와 현재 게임의6장수 입력은 별도 역할이며 혼용하지 않는다.
 구체적 절차는 docs/자산_ZIP_복원_제출_가이드.md를 따른다. 과거 작업 기록의 삭제된 원화 폴더는 현재 입력 경로가 아니다.
+
+## 2026-11-16 일반 버튼 스타일
+일반 공용 나인슬라이스는 navigation/normal-frame.png(남색·은색), selected-frame.png(녹색·금색)를 직접 참조한다. blue-button/green-button의 slice24/corner24를 사용하며 출정/전투 시작은 hero-button 변형 또는 기존 전용 원화를 유지한다. 패널은 기존 blue/green 프레임이다. 직접 corner를 지정하는 작은 버튼은 그 값을 유지한다. build-nine-slice.cjs는 모든 button 변형을 보존한다. 성문 제목 배경만 gate-title-plaque-v2.png 사용, 기존 글씨·상하단 배치 유지. button-frames-browser 및 기존 alpha 검수를 따른다.
+
+2026-11-16 추가 확정: 일반 버튼에 이어 큰 컨테이너·시너지 표시도 동일한24px navigation 나인슬라이스를 사용한다. blue/green과 blue-button/green-button은 같은 원본이다. 예전 패널 유지 규칙을 대체한다. 출정/전투 시작 전용 강조형만 예외다.
+
+
+2026-11-16 사용자 최종 확정: 프리미엄 금속 금색 테두리·모서리 장식의 남색 타이틀 판을 모든 TopUI 제목에 공통 적용했다. ui-shell.css는 header-title-premium.png, 성문은 글자가 포함된 gate-title-premium.png를 사용한다. 기존 제목 슬롯과 화면별 제목은 유지한다. 단순 A 시안은 대체되었다. 결과 화면의 라운드 완료/최초 클리어 상태 문구는 버튼이 아니므로 프레임을 제거하고 전투 승리와 같은 금색·음영 글자로 표시한다.
+
+
+2026-11-16 최종 확정: 모든 공용 TopUI 제목은 삼토체스까지 배민 연성체 텍스트로 표시한다. 제목 배경과 제목별 이미지 제작 방식은 폐기한다. 공용 상단 틀과 제목 위치는 유지한다.
+
+
+2026-11-16 TopUI 최종 확정: 배민 연성체 적용을 대체하여 공용 상단 제목에 투명 금빛 글자 이미지를 사용한다. 제목판 배경은 제거하고 공용 상단 틀과 배치를 유지한다. 고정 제목 30종, 전투 이름 9종, 난이도 글자 1종과 연무탑 층수 조합용 11종을 사용한다. 기존 승인 글자와 ImageGen 시안은 실제 문구를 확인해 재사용하고, 나머지는 같은 느낌으로 제작했다. 생성 기준은 굵고 둥근 붓획, 밝은 금색, 얇은 갈색 외곽, 배경과 장식 없는 한 줄이다.
+
+- 2026-11-16 도감: 공용 header-lettering의 도감→codex-tabs.png 붓글씨 제목. 장수/보물 탭은 기존 nineSlice/paintArtworkSelection과 동일한 선택 색/pressed 사용. 상세 좌표는 승인 codex-v2 시안 유지.

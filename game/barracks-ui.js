@@ -1,3 +1,4 @@
+import {compactAction} from './compact-action.js';
 import {fitBodyBox,barracksBodySource} from './side-layout.js';
 import {artSet} from './art.js';
 import {artButton,placeArtwork,preloadArtwork} from './art-controls.js';
@@ -34,8 +35,9 @@ export function skinBarracks(root,{hero,h,stats,progress,spec,equipped,owned}){
  const bar=field('hero-level-bar','',[619,348,271,19]);bar.setAttribute('aria-label','훈련 레벨 '+h.level+' / 20');const fill=document.createElement('i');fill.style.width=h.level/20*100+'%';bar.append(fill);
  const stars=field('hero-stars','',[642,391,246,42]);stars.setAttribute('aria-label','각성 '+h.star+'성');stars.innerHTML=Array.from({length:5},(_,i)=>'<i class="'+(i<h.star?'lit':'')+'" aria-hidden="true"></i>').join('');
  stats.slice(0,4).forEach((value,i)=>field('hero-stat',value.toLocaleString(),[782,443+i*40,105,35]));
- field('hero-skill-name','전법 · '+spec.skill,[594,622,285,45]);field('hero-treasure',equipped?equipped.name:'보물 미장착',[574,703,190,42]);
+ field('hero-treasure',equipped?equipped.name:'보물 미장착',[574,703,190,42]);
  field('owned-count scroll-label','보유 장수 '+owned+'/'+Object.keys(progress.heroes).length,[66,928,302,48]);
+ for(const id of ['train','awaken','barracks-formation','treasure-open','hero-skill'])compactAction(root.querySelector('#'+id),id==='train'?'green':'blue');
  const image=root.querySelector('.hero-stage img');image.src=generalFront(hero.id)??hero.sprite;
  image.classList.toggle('general-original',!!generalFront(hero.id));
  sizeOriginal(image,hero.id);

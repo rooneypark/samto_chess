@@ -22,9 +22,11 @@ async function press(page,button){
  }));
  if(!alphaNear&&delta>3)outside++;if(delta>3)changed++;
   const x=i/4%clip.width,y=Math.floor(i/4/clip.width),a=before.data[i]+before.data[i+1]+before.data[i+2],b=after.data[i]+after.data[i+1]+after.data[i+2];
-  if(mask.data[i+3]===255&&(icon||(x<clip.width*.12||x>clip.width*.88||y<clip.height*.12||y>clip.height*.88))&&Math.max(mask.data[i],mask.data[i+1],mask.data[i+2])>100&&a>30){frame++;if(b>a*.96)missed++;}
+  // Rounded screenshot bounds can include a row outside a fractional button box.
+  const withinButton=clip.x+x+.5>=box.x&&clip.x+x+.5<box.x+box.width&&clip.y+y+.5>=box.y&&clip.y+y+.5<box.y+box.height;
+  if(withinButton&&mask.data[i+3]===255&&(icon||(x<clip.width*.12||x>clip.width*.88||y<clip.height*.12||y>clip.height*.88))&&Math.max(mask.data[i],mask.data[i+1],mask.data[i+2])>100&&a>30){frame++;if(b>a*.96)missed++;}
  }
- if(outside){await sharp(before.data,{raw:before.info}).png().toFile(artifact('dialog-runtime','failed-before.png'));await sharp(after.data,{raw:after.info}).png().toFile(artifact('dialog-runtime','failed-after.png'));await sharp(mask.data,{raw:mask.info}).png().toFile(artifact('dialog-runtime','failed-mask.png'));}
+ if(outside||missed){await sharp(before.data,{raw:before.info}).png().toFile(artifact('dialog-runtime','failed-before.png'));await sharp(after.data,{raw:after.info}).png().toFile(artifact('dialog-runtime','failed-after.png'));await sharp(mask.data,{raw:mask.info}).png().toFile(artifact('dialog-runtime','failed-mask.png'));}
  assert.equal(outside,0,'Pressed changes outside source alpha: '+await button.innerText());assert.ok(changed>100);
  assert.ok(frame>25);assert.equal(missed,0,'Entire border must press: '+await button.innerText());
  const header=await page.locator("#modal-title").boundingBox();await page.mouse.move(header.x+5,header.y+5);await page.mouse.up();
@@ -47,6 +49,6 @@ await modal.locator('#products-cancel').click();await modal.waitFor({state:'hidd
 await action.click();await page.keyboard.press('Escape');await modal.waitFor({state:'hidden'});assert.deepEqual(await savedState(page),before);
 await action.click();await modal.locator('#products-confirm').click();await modal.waitFor({state:'hidden'});
 assert.equal((await savedState(page)).paidDiamonds,before.paidDiamonds+300);
-const frames=await page.evaluate(async()=>{const {renderNineSlice}=await import('./nine-slice.js'),out=[];for(const tone of ['blue','green'])for(const [w,h] of [[901,120],[901,500],[901,470],[411,64],[412,64],[582,64],[170,64]])out.push({tone,w,h,url:await renderNineSlice(tone,w,h,{stablePixels:true})});return out;});const corners={};for(const f of frames){const parts=[];for(const [left,top] of [[0,0],[f.w-28,0],[0,f.h-28],[f.w-28,f.h-28]])parts.push(await sharp(Buffer.from(f.url.split(',')[1],'base64')).extract({left,top,width:28,height:28}).raw().toBuffer());if(!corners[f.tone])corners[f.tone]=parts;else parts.forEach((p,i)=>assert.ok(p.equals(corners[f.tone][i]),JSON.stringify({tone:f.tone,w:f.w,h:f.h,corner:i})));}
+const frames=await page.evaluate(async()=>{const {renderNineSlice}=await import('./nine-slice.js'),out=[];for(const tone of ['blue','green'])for(const [w,h] of [[901,120],[901,500],[901,470],[411,64],[412,64],[582,64],[170,64]])out.push({tone,w,h,url:await renderNineSlice(tone,w,h,{corner:24,stablePixels:true})});return out;});const corners={};for(const f of frames){const parts=[];for(const [left,top] of [[0,0],[f.w-24,0],[0,f.h-24],[f.w-24,f.h-24]])parts.push(await sharp(Buffer.from(f.url.split(',')[1],'base64')).extract({left,top,width:24,height:24}).raw().toBuffer());if(!corners[f.tone])corners[f.tone]=parts;else parts.forEach((p,i)=>assert.ok(p.equals(corners[f.tone][i]),JSON.stringify({tone:f.tone,w:f.w,h:f.h,corner:i})));}
 
 assert.deepEqual(errors,[]);console.log('PASS '+count+' pressed alpha/borders, confirm and cancel, 3 screenshots');}finally{await browser.close()}})().catch(e=>{console.error(e);process.exitCode=1});

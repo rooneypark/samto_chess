@@ -1,7 +1,7 @@
+import {paintHeaderLettering} from './header-lettering.js';
 import {artButton,placeArtwork,artworkNavigation,initArtPress} from './art-controls.js';
 
 export const featuredGenerals=['1','xuchu','32','35','diaochan','119'];
-export const gateTitleArtwork='assets/ui-common/gate-title-samto.png';
 // Entry point for pages sharing the approved header, wallet and footer.
 // Screens own their content and navigation; the shell owns only presentation.
 export function artworkShell(root,{screen,title,progress,controlsRoot=root.closest('.game')}){
@@ -14,17 +14,8 @@ export function artworkHeader(root,screen,title){
  if(!shell){shell=document.createElement('div');shell.className='art-header';shell.setAttribute('aria-hidden','true');root.append(shell);}
  shell.dataset.screen=screen;shell.replaceChildren();
  const label=document.createElement('div');label.className='art-header-title';label.textContent=title;
- if(screen==='gate'&&title==='삼토체스'){
-  const lettering=new Image();
-  lettering.className='gate-title-lettering';
-  lettering.alt='';
-  lettering.src=gateTitleArtwork;
-  lettering.decode().then(()=>{
-   label.classList.add('has-gate-lettering');
-   label.append(lettering);
-  }).catch(()=>{});
- }
- if(screen==='battle')label.style.fontSize=Math.min(4.7,25/title.length)+'cqw';
+ label.style.setProperty('--title-size',Math.min(6.4,26/Array.from(title).length)+'cqw');
+ paintHeaderLettering(label,title);
  placeArtwork(label,[333,19,275,106]);shell.append(label);
  if(screen==='battle'||screen==='barracks'){
   const content=document.createElement('div');content.className='art-header-content '+screen;

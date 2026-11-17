@@ -6705,8 +6705,8 @@
     {
       "path": "asset-packs/v1/runtime-ui-v1-001.zip",
       "category": "runtime-ui",
-      "bytes": 37727832,
-      "sha256": "caf871852d5650959d64df226759da114c3ba1a68ae24b646c3509a04001108b",
+      "bytes": 37818595,
+      "sha256": "b2f83e3356a777b3b3ac4aee56e35c53b172d8d76ddf365099fca192b3b8fff6",
       "files": [
         {
           "path": "game/assets/alliance-v2/headquarters.png",
@@ -6897,6 +6897,11 @@
           "path": "game/assets/battle-v2/start.png",
           "bytes": 191599,
           "sha256": "3274046a30e890a12df1b03abfbb7f52a63253652d609ffa1b23e88db5972d56"
+        },
+        {
+          "path": "game/assets/battle-v2/summon-lettering.png",
+          "bytes": 90573,
+          "sha256": "c18adb46f0b519531cfca513916eecfc0f70426003e5fae9978c6d8943fbd2aa"
         },
         {
           "path": "game/assets/battle-v2/summon.png",
@@ -8066,8 +8071,8 @@
     {
       "path": "asset-packs/v1/runtime-ui-v1-003.zip",
       "category": "runtime-ui",
-      "bytes": 20014161,
-      "sha256": "06b0484508e2ddfd731cf5bdec07fbb31d2f0392068729e3a52335d6d1d35a01",
+      "bytes": 21012606,
+      "sha256": "9387350ac53d05d301b717bcd0ff903f049b8c37ee85389e52bc3fb11fad8e8b",
       "files": [
         {
           "path": "game/assets/ui-common/battle-summon.png",
@@ -8323,6 +8328,11 @@
           "path": "game/assets/ui-common/header-lettering/chibi.png",
           "bytes": 57704,
           "sha256": "a6c28fc56a6d3600289f7d86b81b5297f8477675257cb4256c027bc4bcd049aa"
+        },
+        {
+          "path": "game/assets/ui-common/header-lettering/codex-tabs.png",
+          "bytes": 1089980,
+          "sha256": "b4d44502f2369c8b3d1cf335d28fd5e047886c3646b80bd30ae4d83d12d0bf50"
         },
         {
           "path": "game/assets/ui-common/header-lettering/codex.png",

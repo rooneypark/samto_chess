@@ -30,3 +30,10 @@
 :is(#modal.art-dialog,.game-toast) .art-control.shared-close-icon.shared-close-icon::after{
  mask-size:var(--close-art-size) var(--close-art-size);mask-position:center;mask-repeat:no-repeat;
 }
+
+/* Text controls formerly baked into the old ornate button artwork. */
+.game button.compact-action.compact-action{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.4cqw;color:#fff0cd;font:bold 3.8cqw Georgia,'Batang',serif;text-shadow:none;padding:0 1.5cqw;line-height:1.15}
+.game button.compact-action.compact-action>*{opacity:1;pointer-events:none}
+.game button.compact-action.compact-action small{font-size:2.8cqw}
+.game button.compact-action:is(#treasure-open,#hero-skill,[data-action=formation]){font-size:2.8cqw}
+.game button.compact-action#hero-skill{flex-direction:row;gap:1cqw}

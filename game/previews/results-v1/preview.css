@@ -1,6 +1,6 @@
 @import url('../alliance-v1/preview.css');
 .environment{background-image:linear-gradient(#14253bd9 0%,#14253bba 49%,#14253b00 78%),url('/game/assets/arena-v2/courtyard.png');background-position:center 70%}
-.clear-badge{display:flex;align-items:center;justify-content:center;font-size:3cqw;font-weight:bold;z-index:3}.clear-badge span{position:relative;color:#ffe5ab}
+.clear-badge{display:flex;align-items:center;justify-content:center;font-size:3cqw;font-weight:bold;z-index:3}.clear-badge span{position:relative;color:#ffe3a0;text-shadow:.15cqw .15cqw #634326,-.08cqw -.08cqw #fff3cc;letter-spacing:.25cqw}
 .victory-title{display:flex;justify-content:center;align-items:center;font-size:11.8cqw;color:#ffe3a0;text-shadow:.35cqw .35cqw #634326,-.12cqw -.12cqw #fff3cc;z-index:3;letter-spacing:1.3cqw;padding-left:1.3cqw}
 .victory-subtitle,.round-summary{display:flex;align-items:center;justify-content:center;color:#ffe9ba;font-size:4cqw;z-index:3;text-shadow:0 .2cqw #132333}.round-summary{font-size:2.6cqw;color:#c4d1d7}
 .victory-generals{display:contents}.victory-generals .general-original{z-index:3}.section-title{font-size:4cqw;z-index:3}.paid-label{display:flex;align-items:center;justify-content:flex-end;font-size:2.8cqw;color:#b0d8b5;z-index:3}

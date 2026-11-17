@@ -20,7 +20,9 @@ const verifyButtonAlpha=require('./button-alpha.cjs');
    const after=await page.screenshot({clip,path:artifact('battle-feedback',id+'-pressed.png')});
    const a=await sharp(before).ensureAlpha().raw().toBuffer({resolveWithObject:true}),b=await sharp(after).ensureAlpha().raw().toBuffer();
    // Samples on all four outer frame bands must darken, not only the button center.
-   await verifyButtonAlpha(id.replace('battle-',''),before,after);
+   const raster=await button.evaluate(e=>getComputedStyle(e).getPropertyValue('--art-image'));
+   const data=raster.match(/data:image\/png;base64,([^"')]+)/);
+   await verifyButtonAlpha(id.replace('battle-',''),before,after,data?Buffer.from(data[1],'base64'):undefined);
    await page.mouse.move(930,1100);await page.mouse.up();assert.equal(await button.evaluate(e=>e.classList.contains('is-pressed')),false);
   }
   assert.equal((await savedState(page)).battleRun.phase,'prepare');assert.equal((await savedState(page)).battleRun.silver,7);
