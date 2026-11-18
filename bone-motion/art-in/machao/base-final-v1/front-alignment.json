@@ -1,0 +1,48 @@
+{
+  "id": "machao",
+  "view": "front",
+  "source": "bone-motion/art-in/machao/base-draft-v1/front.png",
+  "source_sha256": "08686AD44577C1CE18A0C09279239F65AAC295D4A15604D1CD11D84518D6F473",
+  "path": "bone-motion/art-in/machao/base-final-v1/front.png",
+  "size": [
+    256,
+    256
+  ],
+  "offset": [
+    0,
+    -6
+  ],
+  "foot_roi": [
+    99,
+    159
+  ],
+  "source_foot_y": 230,
+  "target_foot_y": 224.0,
+  "pivot": [
+    128.0,
+    224.0
+  ],
+  "logical_pivot": [
+    128,
+    224
+  ],
+  "source_foot_center": 128.5,
+  "pixel_match": true,
+  "visible_clipped_pixels": 0,
+  "preserved_wrapped_alpha1_speckles": 0,
+  "sha256": "DDD543E6D183C1EB5FD6E9D8A56F0639A24562CAC18A2B2A166FD80F60449D75",
+  "approval": "user-approved-2026-11-18",
+  "scope": "standing artwork and ground alignment only; full rig/motion verification separate",
+  "generation_provenance": {
+    "hero": "machao",
+    "name": "마초",
+    "view": "front",
+    "status": "generated-awaiting-cross-review",
+    "generator": "built-in image_gen",
+    "source": "C:/Users/pms10/.codex/generated_images/01a1edec-e7a8-7b30-a481-c6294875f061/exec-9f125a77-485d-40e7-9937-81f34216e52e.png",
+    "prompt": "Create ONE productionpixelart BASICNEUTRAL 마초 sprite, front view. Identity: Ma Chao: youthful fierce frontier cavalry hero, clean-shaven angular face, sharp eyes. VERY DISTINCT SILVER LION/BEAST-FACED helmet with sculpted brow and swept side wings, compact white mane plume, thick WHITE FUR collar, silver armor with charcoal etched large panels and teal-green undercloth, pale cape. Mounted on existing WHITE horse holding long silver spear. Broader fiercer shoulders than Zhao Yun but same cavalry scale. Lion brow and fur must differentiate him from Zhao Yun's smooth silver helmet and cloth scarf. No white face mask. Charactertrait: 은갑과 사자투구, 가슴이 넓은 말.. Reference1 oldidentity only, redraw inapprovedstyle. Reference2 approved ZhangFei/ZhangLiao STYLE: thick confident1-2logicalpixel outline, simple square eyes, broadflat2-3toneclusters, few largehair/beardgroups, sparsegoldbands, no ornatefiligree/finehairlines or repeatingtinypattern. RIGHT hand upright spear140px blade22px grip50pxfromlowerbutt. LEFThandreins. Whitehorse standard163pxmountedheight, consistent all4legs saddleandreins. Pure FRONT, anatomicalRIGHT appears screenLEFT; LEFT appears screenRIGHT. Naturalstill upright relaxed rider seatedon standinghorse, no combatgesture. Logical256x256 SQUAREtransparentcanvas. Groundpivot128224. Mountedbody163px excludingplumes/weapon; riderheadtop~y68, horseears~y122, saddley149, fourhooves~y216-232. Samehorsebody sizeanddepth asapprovedZhangLiao. Generous margins, DO NOTenlargecharactertofillcanvas. Fullweapon feet cape decorations intact. Orthographic18degreedowncamera, no perspectiveextremes. TRUEtransparentbackground no shadow floor checkerboard text watermark grid labels oradditionalviews. CrispPIXELstepedges; do notswitchto smoothvectorart."
+  },
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

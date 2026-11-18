@@ -1,192 +1,56 @@
 {
+  "sideFacing": "left",
+  "artRevision": "ground-body-v1",
   "id": "dianwei",
-  "name": "전위",
   "faction": "위",
-  "order": 16,
-  "identity": "Dian Wei: extremely muscular stocky bodyguard but same tallness class as Xu Chu, thick neck, broad square jaw, dark coarse sideburns and short bristly beard, black tied hair with simple headband. Dark iron chest armor, leather straps, thick exposed upper arms, blue-black sash. TWO heavy short iron ji halberds with side blades, one per hand. No shiny gold default shoulder lions.",
+  "directions": {
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/dianwei/base-final-v1/side.png",
+      "sha256": "bb519f304aa7a5f8d90a00ca04e9a174a1fa84a3d9dc03af51ca3021a1eeab9a",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/dianwei/base-final-v1/front.png",
+      "sha256": "3aa802a92c689da803602717e2fb8f69dad1bb8f659613200948486d1f00e50d",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/dianwei/base-final-v1/back.png",
+      "sha256": "ddf203e9c0d9f8d0320a7891b402033c2c85c096d5d50445f4fb07d289ea0e1c",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    }
+  },
   "folder": "dianwei",
-  "identityDesign": "Dian Wei: extremely muscular stocky bodyguard but same tallness class as Xu Chu, thick neck, broad square jaw, dark coarse sideburns and short bristly beard, black tied hair with simple headband. Dark iron chest armor, leather straps, thick exposed upper arms, blue-black sash. TWO heavy short iron ji halberds with side blades, one per hand. No shiny gold default shoulder lions.",
-  "artRevision": "pixel256-v1",
-  "canvas": [
-    256,
-    256
-  ],
-  "foot": [
+  "right": "mirror-side",
+  "runtimeApplied": false,
+  "logicalFoot": [
     128,
     224
   ],
-  "schemaVersion": 2,
-  "status": "ready-for-review",
-  "runtimeApplied": false,
   "motionComplete": false,
-  "sideFacing": "left",
-  "right": "mirror-side",
-  "directions": {
-    "front": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "dianwei",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "sourceCanvas": [
-          1254,
-          1254
-        ],
-        "bodyTopVirtual256": 88,
-        "bodyHeightTarget": 132,
-        "sourceFootVirtual256": 223,
-        "sourceToFinalScale": 0.1996101364522417,
-        "wholeImageOffset": [
-          3,
-          6
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          68,
-          70,
-          188,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
-        "weaponContainFit": false,
-        "runtimeApplied": false,
-        "sha256": "7b2fa74a4a69e25af4ae7d96287cca22b7222267af9319061ad5484bc1fa209e"
-      }
-    },
-    "back": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "dianwei",
-        "direction": "back",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 90,
-        "bodyHeightTarget": 132,
-        "sourceFootVirtual256": 224,
-        "sourceToFinalScale": 0.20109976433621365,
-        "wholeImageOffset": [
-          2,
-          3
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          72,
-          71,
-          188,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "8b6b2518c36f8bdaf38651090adcfbd847cf40d6668b5a1de1614c3d9f78f8f6"
-      }
-    },
-    "side": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "dianwei",
-        "direction": "side",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 83,
-        "bodyHeightTarget": 132,
-        "sourceFootVirtual256": 216,
-        "sourceToFinalScale": 0.20261179263949347,
-        "wholeImageOffset": [
-          1,
-          10
-        ],
-        "groundRoundingCorrection": -1,
-        "visibleBounds": [
-          73,
-          72,
-          162,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "6e1b98f0b730ca776488d417a7262adfca1e2af48696ccb7f68582f00a15cca2"
-      }
-    }
-  },
-  "files": {
-    "front": {
-      "path": "front.png",
-      "sha256": "7b2fa74a4a69e25af4ae7d96287cca22b7222267af9319061ad5484bc1fa209e"
-    },
-    "back": {
-      "path": "back.png",
-      "sha256": "8b6b2518c36f8bdaf38651090adcfbd847cf40d6668b5a1de1614c3d9f78f8f6"
-    },
-    "side": {
-      "path": "side.png",
-      "sha256": "6e1b98f0b730ca776488d417a7262adfca1e2af48696ccb7f68582f00a15cca2"
-    }
-  },
-  "sourceProvider": "built-in image_gen",
-  "provenanceFile": "generation.json",
-  "bodyMetrics": {
-    "shoulderWidth": null,
-    "anatomicalHeight": null,
-    "riderJoints": null
-  },
-  "approval": {
-    "frontApproved": false,
-    "fullSetApproved": false
-  }
+  "name": "전위",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
 }

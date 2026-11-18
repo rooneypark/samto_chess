@@ -1,0 +1,26 @@
+{
+  "id": "sunquan",
+  "view": "side",
+  "source": "C:/Users/pms10/.codex/generated_images/01a1edec-e7a8-7b30-a481-c6294875f061/exec-cc10817f-0991-49cc-9047-edbba6de3aa7.png",
+  "prompt": "Draw exactly one LEFT SIDE VIEW of the attached Sun Quan front master in the SAME pixel-art style and SAME anatomical size. Tall red-gold robe, auburn full beard, small gold topknot crown, sword held down, purple cape. Keep skull top at y=88, shoulder y=125, waist y=164, shoes y=224 in a logical256 square canvas; ornament/topknot up to y=74. Same bold contours, limited large color planes, no extra detail. REAL completely TRANSPARENT background; absolutely no grey fog, texture, shadow or matte anywhere around the sprite. Preserve generous blank margins and exact front master physical head and body dimensions. One left-facing profile, no front figure, no sheet, no text.",
+  "status": "user-approved",
+  "generator": "built-in image_gen",
+  "ground_alignment": {
+    "pixelPreserved": true,
+    "wrappedAlpha1": 0,
+    "source": "side.png",
+    "foot": [
+      128,
+      224
+    ],
+    "offset": [
+      3,
+      5
+    ],
+    "status": "body-review-pending",
+    "sha256": "2CB87CADAC31CD9B257FC1AEEB55AA3C7CC1E006B7E9BAB35FB2EDE15E3A20FC"
+  },
+  "comparison": "Frontal master unchanged; anatomical size and proportions visually compared at common ground. Not a full rig pass.",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

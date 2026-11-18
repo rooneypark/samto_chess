@@ -1,0 +1,48 @@
+{
+  "id": "pangtong",
+  "view": "front",
+  "source": "bone-motion/art-in/pangtong/base-draft-v1/front.png",
+  "source_sha256": "C676B2D8C118DDC38787823FA2C19608F52904939872FAD42CEE904904393F7C",
+  "path": "bone-motion/art-in/pangtong/base-final-v1/front.png",
+  "size": [
+    256,
+    256
+  ],
+  "offset": [
+    0,
+    2
+  ],
+  "foot_roi": [
+    100,
+    164
+  ],
+  "source_foot_y": 222,
+  "target_foot_y": 224.0,
+  "pivot": [
+    128.0,
+    224.0
+  ],
+  "logical_pivot": [
+    128,
+    224
+  ],
+  "source_foot_center": 128.0,
+  "pixel_match": true,
+  "visible_clipped_pixels": 0,
+  "preserved_wrapped_alpha1_speckles": 0,
+  "sha256": "B1ECA7E7978A704FE209447A532464DE31045EB22F5EF08DE8FE026BE5FBDB5C",
+  "approval": "user-approved-2026-11-18",
+  "scope": "standing artwork and ground alignment only; full rig/motion verification separate",
+  "generation_provenance": {
+    "hero": "pangtong",
+    "name": "방통",
+    "view": "front",
+    "status": "generated-awaiting-cross-review",
+    "generator": "built-in image_gen",
+    "source": "C:/Users/pms10/.codex/generated_images/01a1edec-e7a8-7b30-a481-c6294875f061/exec-0c87d1e8-0cfb-47b9-85ba-b850f0af9a90.png",
+    "prompt": "Create ONE productionpixelart BASICNEUTRAL 방통 sprite, front view. Identity: Rustic strategist with a neat brown cloth hat, short beard, ochre and olive layered scholar robe, pale inner sleeves, and a tied bundle of bamboo slips instead of a staff. Charactertrait: 지팡이를 짚는다. 작고 구부정한 몸.. Reference1 oldidentity only, redraw inapprovedstyle. Reference2 approved ZhangFei/ZhangLiao STYLE: thick confident1-2logicalpixel outline, simple square eyes, broadflat2-3toneclusters, few largehair/beardgroups, sparsegoldbands, no ornatefiligree/finehairlines or repeatingtinypattern. Keep exactly identity-specificprop, notgenericfan replacement. Featherfan24px onlywhereidentitycallsfan; bambooslips/scroll/tablet compact24px infrontofwaist supportedbothhands. Staff upright inRIGHThandwithLEFTempty, headandcrookclear. TorchRIGHThand small flame. Handsstayattachedtotheprop. Pure FRONT, anatomicalRIGHT appears screenLEFT; LEFT appears screenRIGHT. Naturalstill upright relaxed standingpose, feetparallel, shoulderslevel, no combatgesture. Logical256x256 SQUAREtransparentcanvas. Groundpivot128224. Anatomicalbodyheight111.0px, excludingcrown/plume/weapon, headtop~y113, groundy224. Scholar shoulders30px timeswidth1. Keepnormalheadsize, fullnessfromtorso notgianthead. Generous margins, DO NOTenlargecharactertofillcanvas. Fullweapon feet cape decorations intact. Orthographic18degreedowncamera, no perspectiveextremes. TRUEtransparentbackground no shadow floor checkerboard text watermark grid labels oradditionalviews. CrispPIXELstepedges; do notswitchto smoothvectorart."
+  },
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

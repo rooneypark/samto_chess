@@ -1,192 +1,56 @@
 {
+  "sideFacing": "left",
+  "artRevision": "ground-body-v1",
   "id": "dingfeng",
-  "name": "정봉",
   "faction": "오",
-  "order": 39,
-  "identity": "Ding Feng: hardy stocky older assault fighter, short cropped dark-gray beard, red wrapped headscarf, thick forearms exposed beneath simple iron-red chest armor. Hold short broad saber low, other fist ready. Compact rugged veteran, short cloak or none, avoid noble golden armor.",
+  "directions": {
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/dingfeng/base-final-v1/side.png",
+      "sha256": "61bec79365bd55d52d40cdba333f432691cb2f458418d9a9c470acff434d7bee",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/dingfeng/base-final-v1/front.png",
+      "sha256": "9dd1055d06b4e4c55dfdc488098e258e32401d210563e9e126395012b77aa041",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/dingfeng/base-final-v1/back.png",
+      "sha256": "8ab541d72bbfd5c189b49cf576e25a364a9dc2d1cf575ad54503908d827e3a00",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    }
+  },
   "folder": "dingfeng",
-  "identityDesign": "Ding Feng: hardy stocky older assault fighter, short cropped dark-gray beard, red wrapped headscarf, thick forearms exposed beneath simple iron-red chest armor. Hold short broad saber low, other fist ready. Compact rugged veteran, short cloak or none, avoid noble golden armor.",
-  "artRevision": "pixel256-v1",
-  "canvas": [
-    256,
-    256
-  ],
-  "foot": [
+  "right": "mirror-side",
+  "runtimeApplied": false,
+  "logicalFoot": [
     128,
     224
   ],
-  "schemaVersion": 2,
-  "status": "ready-for-review",
-  "runtimeApplied": false,
   "motionComplete": false,
-  "sideFacing": "left",
-  "right": "mirror-side",
-  "directions": {
-    "front": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "dingfeng",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "sourceCanvas": [
-          1254,
-          1254
-        ],
-        "bodyTopVirtual256": 93,
-        "bodyHeightTarget": 124,
-        "sourceFootVirtual256": 230,
-        "sourceToFinalScale": 0.18477514290038302,
-        "wholeImageOffset": [
-          12,
-          16
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          82,
-          99,
-          166,
-          226
-        ],
-        "clippedVisiblePixels": 0,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
-        "weaponContainFit": false,
-        "runtimeApplied": false,
-        "sha256": "93246841c4707ddb921a1364cf73f2c714de4535b52ed901aa497caa50994ea0"
-      }
-    },
-    "back": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "dingfeng",
-        "direction": "back",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 88,
-        "bodyHeightTarget": 124,
-        "sourceFootVirtual256": 215,
-        "sourceToFinalScale": 0.19932436675080686,
-        "wholeImageOffset": [
-          3,
-          14
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          90,
-          102,
-          170,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "f008e0075cd7f4617eb31c25b31e78f62848666989c162f11ae19e9e66255bb4"
-      }
-    },
-    "side": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "dingfeng",
-        "direction": "side",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 85,
-        "bodyHeightTarget": 124,
-        "sourceFootVirtual256": 213,
-        "sourceToFinalScale": 0.1977671451355662,
-        "wholeImageOffset": [
-          4,
-          18
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          93,
-          102,
-          168,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "da2df51454a0f73c61b88e53a54204ed073d73de069a4680c277310361f71bf2"
-      }
-    }
-  },
-  "files": {
-    "front": {
-      "path": "front.png",
-      "sha256": "93246841c4707ddb921a1364cf73f2c714de4535b52ed901aa497caa50994ea0"
-    },
-    "back": {
-      "path": "back.png",
-      "sha256": "f008e0075cd7f4617eb31c25b31e78f62848666989c162f11ae19e9e66255bb4"
-    },
-    "side": {
-      "path": "side.png",
-      "sha256": "da2df51454a0f73c61b88e53a54204ed073d73de069a4680c277310361f71bf2"
-    }
-  },
-  "sourceProvider": "built-in image_gen",
-  "provenanceFile": "generation.json",
-  "bodyMetrics": {
-    "shoulderWidth": null,
-    "anatomicalHeight": null,
-    "riderJoints": null
-  },
-  "approval": {
-    "frontApproved": false,
-    "fullSetApproved": false
-  }
+  "name": "정봉",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
 }

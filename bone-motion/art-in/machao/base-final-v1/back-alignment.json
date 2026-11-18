@@ -1,0 +1,24 @@
+{
+  "id": "machao",
+  "view": "back",
+  "path": "bone-motion/art-in/machao/base-final-v1/back.png",
+  "size": [
+    256,
+    256
+  ],
+  "pivot": [
+    128,
+    224
+  ],
+  "logical_pivot": [
+    128,
+    224
+  ],
+  "target_foot_y": 224,
+  "method": "Builtin image_gen redraw followed by lossless integer canvas ground alignment; the pre-redraw pixels are intentionally replaced.",
+  "generation": "bone-motion/art-in/machao/base-final-v1/back-generation.json",
+  "sha256": "dc502f672fefb06a6e93f6cae88ae58e49c72c12e99aeb373a511779127be479",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

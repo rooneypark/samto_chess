@@ -1495,790 +1495,767 @@
     {
       "path": "asset-packs/v1/characters-qun-v1-001.zip",
       "category": "characters-qun",
-      "bytes": 952741,
-      "sha256": "8b3a7e4ff96c88d2c0cf1f98f68e4c9cdc9eb8ebeb196b6f3857adf846d7d1c5",
+      "bytes": 1034086,
+      "sha256": "8f9026af98ed73b9fefbad18dc004ed12dbe535400262ac9dca27e3779cdc81e",
       "files": [
         {
           "path": "art-source/characters/v1/119/back.png",
-          "bytes": 37117,
-          "sha256": "e191e9c567ff011b31d7006fbe1caa1a34bc987cd0bbdb97bdcc5f563688465b"
+          "bytes": 42295,
+          "sha256": "3b35001d80a2262823cb606ca7e95d7e01b8b547534dd402921499b456dca1d1"
         },
         {
           "path": "art-source/characters/v1/119/front.png",
-          "bytes": 45608,
-          "sha256": "a8a2fb5eda11d03869938c9f1439f7fd9a655b5ba4c04b850ccf028b1c3b99cd"
+          "bytes": 49804,
+          "sha256": "4346e961d1da35773e032761f8e30418f80d51825283477f9c97e5efc2667b18"
         },
         {
           "path": "art-source/characters/v1/119/side.png",
-          "bytes": 43808,
-          "sha256": "c9ace01b55381c748205635796572723e686f076c66113dd8e6eee70ef51ce98"
+          "bytes": 53592,
+          "sha256": "975b93fb026b6bdcf2378ca54453b95de9fb249bf2edb9ae63ca6ad95c0b1ca3"
         },
         {
           "path": "art-source/characters/v1/archer/back.png",
-          "bytes": 19278,
-          "sha256": "11e918595d96304431c96fc84bf06e2a3e405d20bee0467559aa9ee4355b9cbe"
+          "bytes": 24237,
+          "sha256": "7cbc054b4097c3bcb55410d3b910b2667db889c49943753d7cdf9e5727b0ac0e"
         },
         {
           "path": "art-source/characters/v1/archer/front.png",
-          "bytes": 21276,
-          "sha256": "285c77aa0477e83fe5e2299062e9c7602860722308088befdb352a6165dd66c3"
+          "bytes": 24718,
+          "sha256": "92105b491eaeb52cb0b1cb1d5e5cbbeec934335554225434fc2ac2cf95d1a8d4"
         },
         {
           "path": "art-source/characters/v1/archer/side.png",
-          "bytes": 16968,
-          "sha256": "4dc17edabab38bcbde9be06dbcd0423a7de88cea8ab64a61680d9be6806bb414"
+          "bytes": 18236,
+          "sha256": "f9bca878b098288dbdca87124096c8de53789dee9529175d4671f9a4f4766ecf"
         },
         {
           "path": "art-source/characters/v1/diaochan/back.png",
-          "bytes": 15991,
-          "sha256": "c5546b677c32163b3d9029e2574583f7e0d15c81f13760d63c3377688a316d6a"
+          "bytes": 22817,
+          "sha256": "3d87f951a2721b7aa741c29cfc8ad5fe8a9447f56a404ebefd3221572690cc92"
         },
         {
           "path": "art-source/characters/v1/diaochan/front.png",
-          "bytes": 16794,
-          "sha256": "decd591b0656bf464f8f934ba338cc763eeaa75c3b35142141c6eef8e94d3e48"
+          "bytes": 25003,
+          "sha256": "19eb3d300ea30ffaafef706839ec12eade2bcf671d126c9cc886712e8e4aff79"
         },
         {
           "path": "art-source/characters/v1/diaochan/side.png",
-          "bytes": 13552,
-          "sha256": "c45cfbb65cfa6ea59b94d0b077397ff2c4a018aed748e7b401391c0b0aeb4236"
+          "bytes": 21019,
+          "sha256": "989b86ac141cdb2f8540ee592699034d3d19b3291bc31d57354ec7fe24695bea"
         },
         {
           "path": "art-source/characters/v1/dongzhuo/back.png",
-          "bytes": 27990,
-          "sha256": "c5a14e88190b98c15e522ccb7b491508c0e07883b8fb5b0321e6edc463394450"
+          "bytes": 29577,
+          "sha256": "8642d4e32cbcc868822a7741c6a8a2af8867a318b245569400edfe52e9c2b08c"
         },
         {
           "path": "art-source/characters/v1/dongzhuo/front.png",
-          "bytes": 33041,
-          "sha256": "b028d4f5538e3084f788e23d99a24355bd8dda0b1839edd8986a92e9421089bd"
+          "bytes": 40496,
+          "sha256": "62dbc6a32455b50d156fc403ae466c1bde34e250244bb8a5554a3da1d1086eb7"
         },
         {
           "path": "art-source/characters/v1/dongzhuo/side.png",
-          "bytes": 27723,
-          "sha256": "6224ce8d1d3280457821c76aa767ebcf7b70c6261177214f5011f5beffc0b0da"
+          "bytes": 30577,
+          "sha256": "e560c402f204a1f40821523f341003789ac626d51c3478489068357307fb472e"
         },
         {
           "path": "art-source/characters/v1/gongsunzan/back.png",
-          "bytes": 32016,
-          "sha256": "1f1380827c25c8bebe9d3d6c6184bedab44a21bfeda4fb87a121b0ed40b47c11"
+          "bytes": 28397,
+          "sha256": "6e3fe7182eb2d7a0dd5109a9aa9a93331fdaa41140564e91e41fd4320d3b985f"
         },
         {
           "path": "art-source/characters/v1/gongsunzan/front.png",
-          "bytes": 35649,
-          "sha256": "1ab04914d062f0e9437b9a9c38703776e8cebd49c3db78f648a13bdd61f036e5"
+          "bytes": 35805,
+          "sha256": "6ec1ee505ebe5fd1d9f138501aa550a32ed6ca2c82bcdf7dfb6e7ca69d91230e"
         },
         {
           "path": "art-source/characters/v1/gongsunzan/side.png",
-          "bytes": 39323,
-          "sha256": "84a3aaae000b956729d9f52fc4666ab1d4338453d690b3994f33f4cb72e7c861"
+          "bytes": 37129,
+          "sha256": "5cf09e64541d3a9f48b52666c9aeea24bc78d6e83ac4c50dddc17356ba3beff2"
         },
         {
           "path": "art-source/characters/v1/huatuo/back.png",
-          "bytes": 15972,
-          "sha256": "2d1af5a8a686ca1dcace4c95d2fab7928b3726c0aba5bb3c0be8690e3c9bfdfa"
+          "bytes": 19014,
+          "sha256": "bb5f586ecc4afd9d0110b5e378efb11b4b05740f14b9e8c3d04e02711581de94"
         },
         {
           "path": "art-source/characters/v1/huatuo/front.png",
-          "bytes": 18614,
-          "sha256": "cc214395358dc110c2e86c218a1fa0a3154c54691dd729a3152d6cf90d543542"
+          "bytes": 23348,
+          "sha256": "feea1a4a3a9483bf1d3618662cf048fe722d14456a7d5167cac42625b10be24a"
         },
         {
           "path": "art-source/characters/v1/huatuo/side.png",
-          "bytes": 15026,
-          "sha256": "9e5334f47fbb1ac77cfac49f2c5b5c643c8922db9edb6a8df8277ad8e1567b59"
+          "bytes": 19398,
+          "sha256": "5dd0c2cdf96adada7331e7f5dfb19400e894de277f32fd21a4d5f402f4c103e8"
         },
         {
           "path": "art-source/characters/v1/huaxiong/back.png",
-          "bytes": 27000,
-          "sha256": "269e92fae0b50b09dfd64bac0be8995dd2c9cbb285730796c98bd17198f0f929"
+          "bytes": 24017,
+          "sha256": "fe1825835edb8c808da8c735faf219232871a0f9bed7dec9fe4a10bae04da50d"
         },
         {
           "path": "art-source/characters/v1/huaxiong/front.png",
-          "bytes": 40829,
-          "sha256": "dc395d03098f507890350a982d04bed8f5b99b717a07725586d070e5168e1aa7"
+          "bytes": 29320,
+          "sha256": "451c9bc33b6fe12c3ee35b311ff2e9f245c55105253b44d82a318db6431e6e2a"
         },
         {
           "path": "art-source/characters/v1/huaxiong/side.png",
-          "bytes": 25647,
-          "sha256": "bb8f590cb96f843fa52c8429a8f2d71ced3f2acd313d81caabe61a19e429a8de"
+          "bytes": 21716,
+          "sha256": "191eb6059d16dd76f26b88e15f679785b92fcc9baf695a835156401d9b1039d0"
         },
         {
           "path": "art-source/characters/v1/infantry/back.png",
-          "bytes": 21618,
-          "sha256": "30648c2eb6815b9aed5470485308cff8452f565348c9e305215f5405b5780fb3"
+          "bytes": 21972,
+          "sha256": "2266e242ec930bdb1634df8b21d3be43acd77c928e8d682c6bee68ed2580d74c"
         },
         {
           "path": "art-source/characters/v1/infantry/front.png",
-          "bytes": 22861,
-          "sha256": "10719fed85a2c8b5a9f64b3a64ae92310890ef5d5ce958d644209aea518d6d96"
+          "bytes": 23848,
+          "sha256": "7a9a2add04fa926b4c3764faad6a0286a3b8d395d87f249ef016833b93a62b3a"
         },
         {
           "path": "art-source/characters/v1/infantry/side.png",
-          "bytes": 17100,
-          "sha256": "7f5f27055268fc9b1ae1969528aa4e1a058033d5ab4128a63a6a35fbd3ff4f80"
+          "bytes": 17434,
+          "sha256": "3b5792f9f07d6aa0e4b1bbff47e5a3c2d46b263988aa76c3376460f80219fe9a"
         },
         {
           "path": "art-source/characters/v1/tactician/back.png",
-          "bytes": 11290,
-          "sha256": "c4adb5c1e4ada30a4ad4d6d429054883bff081d607f7e6824ab6f4008f7a8db9"
+          "bytes": 13504,
+          "sha256": "e1b45f49c67d4a4a42937aac9f467d39c3f569f666eb6094a7081d0707211867"
         },
         {
           "path": "art-source/characters/v1/tactician/front.png",
-          "bytes": 14206,
-          "sha256": "8647a0cd47ba81abfc7b0a098119db63c21226c0ec822099bf7d27a615867746"
+          "bytes": 16549,
+          "sha256": "f476688a0635ead8ac03298d4ca2f0f51cc9164198e281ebedfc7be46740c207"
         },
         {
           "path": "art-source/characters/v1/tactician/side.png",
-          "bytes": 10750,
-          "sha256": "6eaaebea45df781bac77a3f7efcd3f75c66e7d5b2ce1c88a880afc4ec7149618"
+          "bytes": 12208,
+          "sha256": "80815a23294173fcc40b85bd71792470aa973fb6196b74152b6a1771df5ba1b3"
         },
         {
           "path": "art-source/characters/v1/wenchou/back.png",
-          "bytes": 29916,
-          "sha256": "f69f8df0a1786503dcb8d85a841a73807d21bab41351f642c4c1f1afa03afb5e"
+          "bytes": 26007,
+          "sha256": "8ce34247bce9a458c9efc0211f966da63697b72eff5cb52ae0f786107aa2b0b9"
         },
         {
           "path": "art-source/characters/v1/wenchou/front.png",
-          "bytes": 32306,
-          "sha256": "7b561942201caa677429f8c2443609784138609c2b0810e42442d582bcfb8b6b"
+          "bytes": 31731,
+          "sha256": "a67f8dadf4e8e69d07f65688a793f4afcf480999078b6413046b83b8abf9761b"
         },
         {
           "path": "art-source/characters/v1/wenchou/side.png",
-          "bytes": 24531,
-          "sha256": "7b0b69c2a29d93ad1f673c42f3858f1490354a54bb7f30145c9767124a71bc74"
+          "bytes": 23753,
+          "sha256": "e268b214e7f4b1f994966ced43a58a7c9f3d865d6b88458e3bca438eca1b5101"
         },
         {
           "path": "art-source/characters/v1/yanliang/back.png",
-          "bytes": 26923,
-          "sha256": "aab38b55a500d246c311e614e8a89c906823727102fc4b7cb54cb2d1e1c95543"
+          "bytes": 24131,
+          "sha256": "9b51d5bdfff6bf716be8af663518205edb9228f800a3e3f07a6dbc291879312c"
         },
         {
           "path": "art-source/characters/v1/yanliang/front.png",
-          "bytes": 30384,
-          "sha256": "849baf4f4a7d403dcaa6c02aa30e39289fe518ce10f1b765535cd158f9179d27"
+          "bytes": 31201,
+          "sha256": "ded7e7097813cee693fd096207ed50207b381e1c11c5acb10141ebe97d345f64"
         },
         {
           "path": "art-source/characters/v1/yanliang/side.png",
-          "bytes": 26263,
-          "sha256": "bb98490d70599353a7ac6f1811b1313acebcbcf07053d47bb425c74208adf819"
+          "bytes": 22674,
+          "sha256": "2c4b11668aa1a73454696c35d8b7033cda2481ad6d51f0c9570246795d35c09c"
         },
         {
           "path": "art-source/characters/v1/yuanshao/back.png",
-          "bytes": 20184,
-          "sha256": "158b3a5ea8f1f5730587985dc447623b649c3a3faaa5ac453daf2e502be1e01c"
+          "bytes": 24830,
+          "sha256": "a5c493dfb098e189bc42f8e8b7ab9ade55a2bc97a048d18cd5978dbc3c814874"
         },
         {
           "path": "art-source/characters/v1/yuanshao/front.png",
-          "bytes": 24084,
-          "sha256": "3368b2e49c60c806615ea257c1ab4659fb2ff5f1ce5b00a5823903989f2f83d1"
+          "bytes": 32351,
+          "sha256": "7603bb5260cfa90d50e7412ae1d73f757828c34aa502b3529f3b0ac1d1c9d672"
         },
         {
           "path": "art-source/characters/v1/yuanshao/side.png",
-          "bytes": 18383,
-          "sha256": "8669a79610b145d4b665b1581af5af14cfbbd6458281e3519f05a053511cb27e"
+          "bytes": 23569,
+          "sha256": "7867473f9dc609f4bd6ac04887db512b11058265383757b3c5f643630e506e26"
         },
         {
           "path": "art-source/characters/v1/zhangjue/back.png",
-          "bytes": 17961,
-          "sha256": "c080c7c99864734be62556e70e49da030946d5f66d0c45e8aff70380047853c3"
+          "bytes": 21709,
+          "sha256": "63ce4252fe9ea9ed31d4b83d055b2a00ac565cd66b92a38458d497e3d1be7072"
         },
         {
           "path": "art-source/characters/v1/zhangjue/front.png",
-          "bytes": 20144,
-          "sha256": "cb8a009c3bf6c67f848ba3dcbcd09dd4123e0403a491b69d15fb597f6c9fcf77"
+          "bytes": 27605,
+          "sha256": "22269548458a2f53b4850bcb7f62f007c5aa413f1197c191462bc584f351ce2a"
         },
         {
           "path": "art-source/characters/v1/zhangjue/side.png",
-          "bytes": 17325,
-          "sha256": "52b627b749ca9eb77280c3ebc83d25783581b681eea464f93e005d617648e388"
-        }
-      ]
-    },
-    {
-      "path": "asset-packs/v1/characters-reference-v1-001.zip",
-      "category": "characters-reference",
-      "bytes": 2860818,
-      "sha256": "d3f83a4610792361b01a415387e3bf6b813874e7487eddff1ced73bebbe48046",
-      "files": [
-        {
-          "path": "art-source/characters/v1/lineup-back.png",
-          "bytes": 958714,
-          "sha256": "9c3edf1593b1cb8c579b5acbdaedaad19da27c9937cecf258161bee3c312a1f2"
-        },
-        {
-          "path": "art-source/characters/v1/lineup-side.png",
-          "bytes": 897337,
-          "sha256": "893473198a38c4354d323f2f6a538bfc020c64b0a909def521701094ca9aec85"
-        },
-        {
-          "path": "art-source/characters/v1/style-reference.png",
-          "bytes": 1038366,
-          "sha256": "c1961ee38415add2b59e68e5312a5eb9df90a8dc93b567c0622bee711a958740"
+          "bytes": 22240,
+          "sha256": "8c7e8fda02c43f14ae014764382d74c1531ef3391a7d79e23d087f19af08aa97"
         }
       ]
     },
     {
       "path": "asset-packs/v1/characters-shu-v1-001.zip",
       "category": "characters-shu",
-      "bytes": 902572,
-      "sha256": "a4959dba8141e156885eee23e581e7bf1c6697c0d09feece05019c7657b9595d",
+      "bytes": 2332016,
+      "sha256": "ddb4947816e299423fb25d2d3aafabbc6db0edc687e7d2b6f79e65472c60246b",
       "files": [
         {
           "path": "art-source/characters/v1/0/back.png",
-          "bytes": 17664,
-          "sha256": "7f415ffa598308ccc644c98707f51fb6ccdbc5ebbe71bfaba3541b25df3a3dd5"
+          "bytes": 24054,
+          "sha256": "acd704b922561ad1a17508b02f830186b3768448c3008a4fa89348938d95620b"
         },
         {
           "path": "art-source/characters/v1/0/front.png",
-          "bytes": 19531,
-          "sha256": "d155b2f1e58690b0a3e588f9f795cf5ef3203a3f9599f6247bfcac10a883ad73"
+          "bytes": 27510,
+          "sha256": "07a31250196bc862fa6a5b974d56e22289f69388dd0c480149d11afe6638a6fb"
         },
         {
           "path": "art-source/characters/v1/0/side.png",
-          "bytes": 12353,
-          "sha256": "a45c0a079840cc4d749bdde34b323fb8d60be0ce77bb23f2d018d7a514dcc721"
+          "bytes": 25391,
+          "sha256": "9fe23cc46bb38c67db9165b4a82ac35d668ca841f2729ca85f7929c5573e88ee"
         },
         {
           "path": "art-source/characters/v1/1/back.png",
-          "bytes": 29234,
-          "sha256": "2d43e7d4e592302a88fed0af8ce4637469d9f2b45d64dd5248c3446b51ef704f"
+          "bytes": 28467,
+          "sha256": "dbaffceb603156cb778d0fca735b664d6a377593be59cebcfbd15e15f0eaadde"
         },
         {
           "path": "art-source/characters/v1/1/front.png",
-          "bytes": 32743,
-          "sha256": "8d60ff9dd57f05d69af2e11675418922f3c062535ee7e8c29c3e524025f2328f"
+          "bytes": 33289,
+          "sha256": "f14fa554f1ad44ec30b3645c44163cb7b5ddbf4323933970bb9d7c52b1987c65"
         },
         {
           "path": "art-source/characters/v1/1/side.png",
-          "bytes": 33376,
-          "sha256": "58211f1ece39a765ecc22d90f20c490355721984e473f8c8b25f890c6e390299"
+          "bytes": 37297,
+          "sha256": "159c28e9f3ab8d6e784e615ff736955b4efe3e90cc45de1de363af6fc7b14594"
         },
         {
           "path": "art-source/characters/v1/15/back.png",
-          "bytes": 34176,
-          "sha256": "a3793b01568e500d05ac03f6d8c3e4e9a3f18f5dcbcdf07d712dd65b2bd3572a"
+          "bytes": 26011,
+          "sha256": "d9e8908def39fe18ad8025ec5d0bd3c87adfd232cf9de151d3dc65f671343f8e"
         },
         {
           "path": "art-source/characters/v1/15/front.png",
-          "bytes": 39633,
-          "sha256": "68cc33a1fe459aa06008649291569017060aca7c9d47d190a303a83ef405afce"
+          "bytes": 29832,
+          "sha256": "005efe791e3e09937e61a68022020db8e0ccc7f389d5fb95acb62b26866826d4"
         },
         {
           "path": "art-source/characters/v1/15/side.png",
-          "bytes": 40658,
-          "sha256": "e2b58e77dd48d0dbfdd08149e88ed3d85420505999ce87cdca1a923ce752c194"
+          "bytes": 33683,
+          "sha256": "ff77684c65a6069a96529cab0db48cb7641e5753e28324eb688a64a3745600c9"
         },
         {
           "path": "art-source/characters/v1/16/back.png",
-          "bytes": 26171,
-          "sha256": "7ecea3586a0b31333b2945bafda0011a43647dc2676844c029951a5839cf08b4"
+          "bytes": 21621,
+          "sha256": "b9eba4d9e3cf619548cb399c3bcacdc72f2dbcd7120b89e004783645bafbf89c"
         },
         {
           "path": "art-source/characters/v1/16/front.png",
-          "bytes": 29183,
-          "sha256": "d87f151375f92243eff9b62f76a924874449d84189c13afe6a586b7e58497e75"
+          "bytes": 25351,
+          "sha256": "dd4de82ed5231ba1de7ae6370129aeee541518faf6e1c0df7f414c42287cc9d2"
         },
         {
           "path": "art-source/characters/v1/16/side.png",
-          "bytes": 23365,
-          "sha256": "df50e19960f664c95ffd3da1e86c05cdc919bd993bf70f3268f2900ac830dcea"
+          "bytes": 20792,
+          "sha256": "cb5e7aa737de8d3a04a6522995ea414b67378f8432b7ae0de853cb60e3686645"
         },
         {
           "path": "art-source/characters/v1/2/back.png",
-          "bytes": 24656,
-          "sha256": "b8f8dfb6c1ddc69bc9a91ab33d2189d16e232789c038ea22167e944098b938e9"
+          "bytes": 524830,
+          "sha256": "e312d18faf9e09ace8df5b9638901b4c5f7ec49b75aab39abb29e9150b62b165"
         },
         {
           "path": "art-source/characters/v1/2/front.png",
-          "bytes": 26299,
-          "sha256": "5ea0b626aef016fb32efbe0abec07341a70c2d60664373c914b09d7fd573b91c"
+          "bytes": 563056,
+          "sha256": "f87a88309aecc8fe6e4d12f526d2abac63b407ba6c5bb189a46b62ead9e0d600"
         },
         {
           "path": "art-source/characters/v1/2/side.png",
-          "bytes": 26939,
-          "sha256": "66e1914a81416a3f63772f8f018b0c0ffaa22617310244c8defa83909839f79a"
+          "bytes": 431056,
+          "sha256": "78aade5c92f597ffed9626ca2f5f08393e71ec26279ffe2e6d307e7ec219b197"
         },
         {
           "path": "art-source/characters/v1/35/back.png",
-          "bytes": 13371,
-          "sha256": "4d7c395091227688c86c403666be809809861bef377d7fdca8af21c84899bd6c"
+          "bytes": 13908,
+          "sha256": "ae9204d38099f98fcc8429196badfe74fa9d65ce162947ff3666d6af108b02fa"
         },
         {
           "path": "art-source/characters/v1/35/front.png",
-          "bytes": 14341,
-          "sha256": "6460c0052082a41792d9b2a9c6cd14b13d9f4c834c00de337af8a593a4325e3c"
+          "bytes": 15664,
+          "sha256": "d437d7820a34166daa71b52a2a8529f91d66fcd9bd9290cc9dd83bbbeedde71c"
         },
         {
           "path": "art-source/characters/v1/35/side.png",
-          "bytes": 12125,
-          "sha256": "79da9c6fffbf41c8925f2b70997770d4205caef59bfd563e101d7e2eb92480ce"
+          "bytes": 12986,
+          "sha256": "6f77cfb1c4379f7bc0ea97d451c51c1e5bcec4275d4fe9ac9ad78799b32bc113"
         },
         {
           "path": "art-source/characters/v1/jiangwei/back.png",
-          "bytes": 20986,
-          "sha256": "02d3a4a8f9c59ea3473ac127262caa75b0f1ddf865e1b71056e579a4855090e5"
+          "bytes": 22760,
+          "sha256": "5430c913daf971bb7c029ce46bd1b4b2b9611b8e74466dd232e4d7943027ebc1"
         },
         {
           "path": "art-source/characters/v1/jiangwei/front.png",
-          "bytes": 23621,
-          "sha256": "5ce29ba65da7e98d4152351c59e864c92908ea3dbd563cc7fb11813aca1aed43"
+          "bytes": 25779,
+          "sha256": "0c652301ff052075107a9066cc6fc3a2bd2bfd1aebab33b059ba7dd644b10f20"
         },
         {
           "path": "art-source/characters/v1/jiangwei/side.png",
-          "bytes": 17402,
-          "sha256": "95d1f97392816fec48138fe0a6959e45085e7861bf829ad21b021e0ab81f0fdc"
+          "bytes": 20432,
+          "sha256": "83809536f5faba6740810268492b1ede6d5ade7efed3d76d20961d8ef6153453"
         },
         {
           "path": "art-source/characters/v1/liaohua/back.png",
-          "bytes": 18735,
-          "sha256": "60bd407410f94e568e6dc919777bc633918774aa35c03520581ece404f04373f"
+          "bytes": 21014,
+          "sha256": "3577df87ec9a0fb5309e1e3d90de7269e18497e5c06115e341bbf0c119fac5ec"
         },
         {
           "path": "art-source/characters/v1/liaohua/front.png",
-          "bytes": 22339,
-          "sha256": "f49c7ccb2aa7812871a964b993ec24a57f4bf42ac09b0071e5c368daf39202df"
+          "bytes": 25978,
+          "sha256": "766998cc5420dd1ba849cfa735e4bd21fa7bcadec1ae2b2e78b857223d5aaf1d"
         },
         {
           "path": "art-source/characters/v1/liaohua/side.png",
-          "bytes": 16293,
-          "sha256": "498fdffa7898d559f7aa47fc4730f20eb7ea902cbb15a52a211daff0f963aa51"
+          "bytes": 18924,
+          "sha256": "d849fc6e302c52b86f8d8b993f7d279c7f5ced29b77e580352566966eeced52a"
         },
         {
           "path": "art-source/characters/v1/machao/back.png",
-          "bytes": 37808,
-          "sha256": "6d2f8294ba66070a4303baf517fad9de31d669962737feb664f54931017800bc"
+          "bytes": 44289,
+          "sha256": "dc502f672fefb06a6e93f6cae88ae58e49c72c12e99aeb373a511779127be479"
         },
         {
           "path": "art-source/characters/v1/machao/front.png",
-          "bytes": 42419,
-          "sha256": "25cb23f952052cc3e05804823eafd23eeed86bf83e66a89782600057bd2c3c3b"
+          "bytes": 43859,
+          "sha256": "ddd543e6d183c1eb5fd6e9d8a56f0639a24562cac18a2b2a166fd80f60449d75"
         },
         {
           "path": "art-source/characters/v1/machao/side.png",
-          "bytes": 45804,
-          "sha256": "d7b1f1066c70de3de45f6ac242bfdea00310be6ed5f7cfecd6f35c3b1a58e924"
+          "bytes": 48194,
+          "sha256": "4187a60b70b26bf3e3d08cee56716d022cea6193eda5314ca548871dc601b327"
         },
         {
           "path": "art-source/characters/v1/pangtong/back.png",
-          "bytes": 14345,
-          "sha256": "b5449ac73f027a946923fd25ac6e0955662fe115be663973e70006fd0c5c9695"
+          "bytes": 16614,
+          "sha256": "973971b039c91e2817cdafa881e3a849b0b98b3e017265846ab0aa0c4fb4d12c"
         },
         {
           "path": "art-source/characters/v1/pangtong/front.png",
-          "bytes": 16151,
-          "sha256": "df4145b934e6dfdf1cf256bf713bef808edfa60bfffd6b8f016bab5bfcfc2385"
+          "bytes": 24270,
+          "sha256": "b1eca7e7978a704fe209447a532464de31045eb22f5ef08de8fe026be5fbdb5c"
         },
         {
           "path": "art-source/characters/v1/pangtong/side.png",
-          "bytes": 13147,
-          "sha256": "a7532c35e6a068a7c2884c82b703110411087b6b5afb559fe38a38660c82f0d9"
+          "bytes": 16146,
+          "sha256": "d13827409beefef6f64c8a73a1ff4fce1f8e6f50d42fb00c721933c1d7b5b5f0"
         },
         {
           "path": "art-source/characters/v1/weiyan/back.png",
-          "bytes": 29941,
-          "sha256": "60289ba1f9e9b4c25086b2e96590f559e454c6c280ebd03ef493e8ab8957f8da"
+          "bytes": 24577,
+          "sha256": "a2090e665601300db92122e4d2190af81a80735f9bc49405458decce001117f0"
         },
         {
           "path": "art-source/characters/v1/weiyan/front.png",
-          "bytes": 31786,
-          "sha256": "e73b8e024f8c387af66d4f9a6eba859809f75b17634c219c997a6ee04d419f9e"
+          "bytes": 27812,
+          "sha256": "8dd66e4f5a3f521384322cbe7df189aac7d5f160719fb9592f06e6306c3e3c2e"
         },
         {
           "path": "art-source/characters/v1/weiyan/side.png",
-          "bytes": 27891,
-          "sha256": "6ed7f5d01e77c85339ddbdcf13aafe8e0b24da7c64c9e444c03da2b1e58e4aa5"
+          "bytes": 20803,
+          "sha256": "1bb22ca7954dd5f6885c3159c67acb323911d413a36d2e94ae3416f9ceeabefa"
         },
         {
           "path": "art-source/characters/v1/zhoucang/back.png",
-          "bytes": 23900,
-          "sha256": "f9072917ebe3988359ba583ec2684137fcacec71bd6d43e2c0c9a99b3a735654"
+          "bytes": 23304,
+          "sha256": "a71fb062908a4d305252bc3728fe2f676d9208e929475002d6b3779e1e01d042"
         },
         {
           "path": "art-source/characters/v1/zhoucang/front.png",
-          "bytes": 25358,
-          "sha256": "55e24a9eeba6e9e25a3e8840a0adff75e7f7aa83086145fdcf457eb93a2bdbb1"
+          "bytes": 23891,
+          "sha256": "9cdb7ee975860a05bbb765a0d5c5f51ab35b00431143954c8101ac3ed175da41"
         },
         {
           "path": "art-source/characters/v1/zhoucang/side.png",
-          "bytes": 21258,
-          "sha256": "144478766e43ab28da8174cc0c6f83c05682bce90c6d746995ec597342ebc6fb"
+          "bytes": 20175,
+          "sha256": "b5841ccf2d8c85196aa2846bffc65d00c53c58720b879193047a6ab2691cf7e2"
         }
       ]
     },
     {
       "path": "asset-packs/v1/characters-wei-v1-001.zip",
       "category": "characters-wei",
-      "bytes": 799884,
-      "sha256": "a59fe86b0b8e1fd29726ffc6922da574d8011baec351e271d207182828368ad9",
+      "bytes": 885848,
+      "sha256": "e2aed894b8df7e03ddd5faa4881661e9e0ac026ba14d565993b0f98d2142101d",
       "files": [
         {
           "path": "art-source/characters/v1/32/back.png",
-          "bytes": 16663,
-          "sha256": "8b2c48746f29f6108c720d0edd93f632b7bd73d5109eeb8aa5f88ffae0c5a0e0"
+          "bytes": 17893,
+          "sha256": "b06b15f5130449bfb891056bde50384622ad0e2b1b8dba2ea2fc8475a56759ec"
         },
         {
           "path": "art-source/characters/v1/32/front.png",
-          "bytes": 19835,
-          "sha256": "dc815ae692ab72a25dbf6bf966841b60c02c8a95cd1ac8315cd299663240d73d"
+          "bytes": 21059,
+          "sha256": "920598a94d648a6c06aff919d2c55da19b282046c0fa1fdf7c1e7321107cee9d"
         },
         {
           "path": "art-source/characters/v1/32/side.png",
-          "bytes": 15260,
-          "sha256": "eef0c3d83855041a821d788e8ac55a3b20c8a76f76535565d5bdc29d051fae15"
+          "bytes": 15216,
+          "sha256": "8abd25aa248aa44460097f676d3d625f150e25de83cdd352f9ff68819bc3be0b"
         },
         {
           "path": "art-source/characters/v1/33/back.png",
-          "bytes": 25260,
-          "sha256": "d6e3370eb94b5a8a1b91eae7d8718df93bd35768290a2c5663287cf9ee1321ff"
+          "bytes": 21276,
+          "sha256": "81db9183a940ed60f907a18df92e727bb7fdc5a687aead765b9fd49479c58a1f"
         },
         {
           "path": "art-source/characters/v1/33/front.png",
-          "bytes": 28406,
-          "sha256": "16a1115fe6decf9baa2fb8f8429b6df84e4dd1f35c7ef186e31c338fd9120e39"
+          "bytes": 24093,
+          "sha256": "3602d1c0d97b50410de01c9a94f30f687240ce1e640115a0c3bb93fe768523bb"
         },
         {
           "path": "art-source/characters/v1/33/side.png",
-          "bytes": 24385,
-          "sha256": "de8f89b6ec35fa5b040d691b6b56911da347a8333afd955bc5ede99b16383ff7"
+          "bytes": 19632,
+          "sha256": "4e9028768f5faf9cefcdc1d844204b8aaf7e0ad88b748da8226b94366ec7e9f0"
         },
         {
           "path": "art-source/characters/v1/34/back.png",
-          "bytes": 31790,
-          "sha256": "4b9b75e1c31215210c05312a9b1a6ae25cc46b076737912763d342d0d262023c"
+          "bytes": 31547,
+          "sha256": "84fa2866b876dc4871388339f07b9b278454623011f3ccc722d92961cb889d7d"
         },
         {
           "path": "art-source/characters/v1/34/front.png",
-          "bytes": 37007,
-          "sha256": "0a9c132d1ff4dfd2748449f5f637b30252865ab6af93729fecbcb90de4bc5bf1"
+          "bytes": 35159,
+          "sha256": "df4866bf69379e98573ab53fc9fd57733a4da47ef397999b61ba2ba85b1d27e3"
         },
         {
           "path": "art-source/characters/v1/34/side.png",
-          "bytes": 35402,
-          "sha256": "0c35525dcea5437fd6d9e640fcdb71392f3331590e89c69f5d87690c30f97e52"
+          "bytes": 40211,
+          "sha256": "65e3f5ac0beeaf0bcb54411575ec3b2699aaeb38e7a7ddeddebebc8b47daea4a"
         },
         {
           "path": "art-source/characters/v1/caohong/back.png",
-          "bytes": 26759,
-          "sha256": "ac1ebfc52b7679a1bd93e978c34437803e2e0b2e69b1dc092660027d2040b254"
+          "bytes": 24738,
+          "sha256": "57896d9a6fd97e133abe04bd85a6d9fcda9d4cdb7a4db66489e14d466f6e9dae"
         },
         {
           "path": "art-source/characters/v1/caohong/front.png",
-          "bytes": 30788,
-          "sha256": "736028236678a6cd59659496207d08133ea98c2a4a43b447c5a4233b2c218cd8"
+          "bytes": 30266,
+          "sha256": "9542eb3b0fee28a93f845da9631189a71254d5b564d3c6092d5e3682280a3aad"
         },
         {
           "path": "art-source/characters/v1/caohong/side.png",
-          "bytes": 22500,
-          "sha256": "c29e80d9830fd6d1490b264c3b0378dc7d4ad36fc0e37c73c26218977f8899c6"
+          "bytes": 22409,
+          "sha256": "faa44b52fa290bc00bba55476457f5d06f1777c4283eb4d73bb5650dd04159fd"
         },
         {
           "path": "art-source/characters/v1/dianwei/back.png",
-          "bytes": 27389,
-          "sha256": "8b6b2518c36f8bdaf38651090adcfbd847cf40d6668b5a1de1614c3d9f78f8f6"
+          "bytes": 27709,
+          "sha256": "ddf203e9c0d9f8d0320a7891b402033c2c85c096d5d50445f4fb07d289ea0e1c"
         },
         {
           "path": "art-source/characters/v1/dianwei/front.png",
-          "bytes": 31291,
-          "sha256": "7b2fa74a4a69e25af4ae7d96287cca22b7222267af9319061ad5484bc1fa209e"
+          "bytes": 29312,
+          "sha256": "3aa802a92c689da803602717e2fb8f69dad1bb8f659613200948486d1f00e50d"
         },
         {
           "path": "art-source/characters/v1/dianwei/side.png",
-          "bytes": 22594,
-          "sha256": "6e1b98f0b730ca776488d417a7262adfca1e2af48696ccb7f68582f00a15cca2"
+          "bytes": 23666,
+          "sha256": "bb519f304aa7a5f8d90a00ca04e9a174a1fa84a3d9dc03af51ca3021a1eeab9a"
         },
         {
           "path": "art-source/characters/v1/guojia/back.png",
-          "bytes": 13385,
-          "sha256": "808b1ed1ff0a2b812a5e750337f0ea0bff96f436f78e0aa7137d2ca3f9410cb1"
+          "bytes": 16731,
+          "sha256": "217c64af23826b0d3bd01b14276053ee6e3a36138df9565784f103f41340a2d4"
         },
         {
           "path": "art-source/characters/v1/guojia/front.png",
-          "bytes": 16285,
-          "sha256": "1c94f3f2dece5835094c39c74e5bf502bd0f433044fd58d4ea5041854bcae8bf"
+          "bytes": 23484,
+          "sha256": "c267da709a5abd44388d7b08c220dee43cccc7e82cfb7cb43c75bdd79add4e5f"
         },
         {
           "path": "art-source/characters/v1/guojia/side.png",
-          "bytes": 12976,
-          "sha256": "c521f5cfc538d665d4e4629a2f896adf5c1a87c4d51c4d2e84de1decaf7b0524"
+          "bytes": 22108,
+          "sha256": "4e98c23a2d2697ea384e29f4f184e1ce453cc81a03f052fabc81d74f62b82105"
         },
         {
           "path": "art-source/characters/v1/simayi/back.png",
-          "bytes": 13906,
-          "sha256": "7efaf7b4d8e8c720fea5384bbd6b28381e15ac2cf8b738db2d5d4708996b24d5"
+          "bytes": 14932,
+          "sha256": "49e8cf73856754445a60802897e24052e8558fed43b9f4ba3c5a6c8dda11a512"
         },
         {
           "path": "art-source/characters/v1/simayi/front.png",
-          "bytes": 15821,
-          "sha256": "e361ffb5673d18f054bb3bbfa54ee54229dc3ae6807d626fe55ac8fe4707dd2f"
+          "bytes": 17549,
+          "sha256": "4449a41b0bcfe81a622a84e565a77ab4b101e0ae2df0b84ed2b6d7679df378f2"
         },
         {
           "path": "art-source/characters/v1/simayi/side.png",
-          "bytes": 12388,
-          "sha256": "5c64d6d5f4b2d5136ec5c595df1f3a5c2e7d9e57347bcb294e97195e64e61bc7"
+          "bytes": 14830,
+          "sha256": "fc3abef88ba605dc4e10e0322823f4e464d38450b6408e413f4fb36e52a44503"
         },
         {
           "path": "art-source/characters/v1/xiahouyuan/back.png",
-          "bytes": 25332,
-          "sha256": "42395eae229074f00690ed5122a1178387edb9f45f293cff4eb482a7fab3a919"
+          "bytes": 23549,
+          "sha256": "574cf1bf20034e9eeb12b121a0adafea86429d79f5c4a391b3821d744100f562"
         },
         {
           "path": "art-source/characters/v1/xiahouyuan/front.png",
-          "bytes": 25295,
-          "sha256": "3b860e6225a5679b5e9846ca3c8c3878185f85fde70093628502e83f2d42ec3f"
+          "bytes": 25727,
+          "sha256": "cd4e103aff7e5fc5933de59b61cea989134bea88880a771c4c05a208094b4be1"
         },
         {
           "path": "art-source/characters/v1/xiahouyuan/side.png",
-          "bytes": 21675,
-          "sha256": "17bd4b1352938a0df5d5d4401b4eb1fa906c75a3710162a0191e11e953644ce8"
+          "bytes": 20981,
+          "sha256": "462c8bf643c0b0880efe8b364a07f62ccecc06f8b0d15536631e58487fc07d0b"
         },
         {
           "path": "art-source/characters/v1/xuchu/back.png",
-          "bytes": 24515,
-          "sha256": "877ff00b2dacefbaae9927bb34a2d0fa37230e9663022beab2ef4a53cc0b4940"
+          "bytes": 31184,
+          "sha256": "462cab6f62391c40847004fb7c11eb9dcb31381a01b153b68930f281129633ba"
         },
         {
           "path": "art-source/characters/v1/xuchu/front.png",
-          "bytes": 27296,
-          "sha256": "261d9cffe7a170fa02e5b5ce08172564b2ceed031d5b447d6d86a6e3d1fceac4"
+          "bytes": 35228,
+          "sha256": "0cb269caaddf7bb952a6b4fe9f36d7b0f2b0802451fe445266215c9fcc1f60c5"
         },
         {
           "path": "art-source/characters/v1/xuchu/side.png",
-          "bytes": 20857,
-          "sha256": "53724ca3c3f3a71464440831ec229a074c2e8961ab542e17a69da4e40216039a"
+          "bytes": 21426,
+          "sha256": "0e96f01cc3829071740272b297d04c7d7449af764c868d3312290889847ceff6"
         },
         {
           "path": "art-source/characters/v1/xuhuang/back.png",
-          "bytes": 29422,
-          "sha256": "bed7a8dec495ba840497f229e1402d68946e9d112ae1200154cd0961aaf3dcfa"
+          "bytes": 31196,
+          "sha256": "9d158d2335b560d4b46fbb524f2e9c4c0dde259afb5380611110a70c2e8efe53"
         },
         {
           "path": "art-source/characters/v1/xuhuang/front.png",
-          "bytes": 29215,
-          "sha256": "5722b7a03324559c0f8db03053b9dc4cd097b99d6f6aca6e514e2be73cc50158"
+          "bytes": 34361,
+          "sha256": "371734c6e23489b9163dffe22e1d162f8df669e5241df0ab2d82e69468519230"
         },
         {
           "path": "art-source/characters/v1/xuhuang/side.png",
-          "bytes": 24052,
-          "sha256": "ae4a255d37a7aa0e766530fe3c2ba7a819abef516f6bb7109c44a7fc6245bffd"
+          "bytes": 34083,
+          "sha256": "7c62ac8b53656381865f9a331d3ef44604d684fde7687b658aac440c6be7a3ce"
         },
         {
           "path": "art-source/characters/v1/xunyu/back.png",
-          "bytes": 12618,
-          "sha256": "83056aa71e6f050bda94927766a269d4ed205030a7496556c05ff7930b39f794"
+          "bytes": 33950,
+          "sha256": "8c51c9b9bcc1dfd180cb3a3c23022b3d75a31284f306092dc521a3cdd13252e6"
         },
         {
           "path": "art-source/characters/v1/xunyu/front.png",
-          "bytes": 14352,
-          "sha256": "ced8d2d2e6da1ebba50606d108ec07dc49cd7a4a5da9bddb7a03cb88707afb62"
+          "bytes": 23577,
+          "sha256": "df3d4add6ad182742d7e82fd4a78c87596720b62a825baa34b02f307c24948b3"
         },
         {
           "path": "art-source/characters/v1/xunyu/side.png",
-          "bytes": 12693,
-          "sha256": "2a46add65d396aaac0b73f19af0c22b665a01300fe8e166eb29848e287dea03a"
+          "bytes": 20308,
+          "sha256": "c1b70d22646d90de40d6a86e96a6268a975555060e3a1012b11f03ed399bf5e5"
         },
         {
           "path": "art-source/characters/v1/yuejin/back.png",
-          "bytes": 19547,
-          "sha256": "2482e3b4ec2bd20e0259a72103c2538ea12a6f862bcfdc128d93d76aec7320f4"
+          "bytes": 19803,
+          "sha256": "96dcbb26b11edf479234544275a83660e1b32abfede91f69392731338d05bc4a"
         },
         {
           "path": "art-source/characters/v1/yuejin/front.png",
-          "bytes": 20978,
-          "sha256": "2c793ed62ff77e01b3cf9d8c32aa4e34b7f996931a3d77feeda2ae20dbd76fd8"
+          "bytes": 24549,
+          "sha256": "99a45eab88850106ca0467145cb9b0f06a96668e3b07edca80de4d40ba016818"
         },
         {
           "path": "art-source/characters/v1/yuejin/side.png",
-          "bytes": 14973,
-          "sha256": "60d94c07adf72e9fb7cc4f6139ff87e7b94e913ce490516e4c0c83e4d25288cb"
+          "bytes": 16224,
+          "sha256": "e0c72b7815cc092cfc3b5930918994125aad89df00e4d954dc1282de9d161d85"
         }
       ]
     },
     {
       "path": "asset-packs/v1/characters-wu-v1-001.zip",
       "category": "characters-wu",
-      "bytes": 780515,
-      "sha256": "132c13f33445f740e57c5a17557cdb7854cbabb2bf53be356bd6b5646c650ae8",
+      "bytes": 884820,
+      "sha256": "7d810196664cf250c440d2103184298049bde463e5e8030cec809e524692eca0",
       "files": [
         {
           "path": "art-source/characters/v1/77/back.png",
-          "bytes": 19160,
-          "sha256": "eff44034fd0748f5991327c0c521a753f7a9301096c3e67f214a2be2ec43fcde"
+          "bytes": 22704,
+          "sha256": "a5f370a0aa40b3d5c5ac536a475005c995a165c872324b370e3949fe6dd4a673"
         },
         {
           "path": "art-source/characters/v1/77/front.png",
-          "bytes": 20803,
-          "sha256": "f3c93afa323cc2c648de7b9ca0480344caa523a0c46407542cf0117c5f405f91"
+          "bytes": 28350,
+          "sha256": "cef6d752d90b98930d25b67cddb183d2b0f295bc04b05b3e6278f502c62f40ae"
         },
         {
           "path": "art-source/characters/v1/77/side.png",
-          "bytes": 16494,
-          "sha256": "2cfea776065adbba954802d24ecdc548a731d7469cfce5d5550f1033c460fb64"
+          "bytes": 20994,
+          "sha256": "71ccf0edd09add80301f58ad92d42cca9293fcfd2e178a00ca5df41949a81aba"
         },
         {
           "path": "art-source/characters/v1/dingfeng/back.png",
-          "bytes": 18984,
-          "sha256": "f008e0075cd7f4617eb31c25b31e78f62848666989c162f11ae19e9e66255bb4"
+          "bytes": 20781,
+          "sha256": "8ab541d72bbfd5c189b49cf576e25a364a9dc2d1cf575ad54503908d827e3a00"
         },
         {
           "path": "art-source/characters/v1/dingfeng/front.png",
-          "bytes": 21993,
-          "sha256": "93246841c4707ddb921a1364cf73f2c714de4535b52ed901aa497caa50994ea0"
+          "bytes": 23311,
+          "sha256": "9dd1055d06b4e4c55dfdc488098e258e32401d210563e9e126395012b77aa041"
         },
         {
           "path": "art-source/characters/v1/dingfeng/side.png",
-          "bytes": 15413,
-          "sha256": "da2df51454a0f73c61b88e53a54204ed073d73de069a4680c277310361f71bf2"
+          "bytes": 17280,
+          "sha256": "61bec79365bd55d52d40cdba333f432691cb2f458418d9a9c470acff434d7bee"
         },
         {
           "path": "art-source/characters/v1/ganning/back.png",
-          "bytes": 22759,
-          "sha256": "2866fb02ab6529bc392c7a11f295e0d318b53e307b7b84f9010ad7ccea097c9e"
+          "bytes": 24947,
+          "sha256": "71cd2455ad12fa6dd4e7f1bba46d6055c638bdbea7038deac0b36176f741d471"
         },
         {
           "path": "art-source/characters/v1/ganning/front.png",
-          "bytes": 23515,
-          "sha256": "304f61ef32569851ae5d73662347b23cd521385dcd9fdeaa21c9ee243544d4d9"
+          "bytes": 30338,
+          "sha256": "ad761a8664835394a6bca40630205287eb9bd9c6f5b3eca634434b80942281a7"
         },
         {
           "path": "art-source/characters/v1/ganning/side.png",
-          "bytes": 18348,
-          "sha256": "f183779257cdafb481f731a177e373f58f68f7fdeba45f5ea8de44ee6eb88d26"
+          "bytes": 22400,
+          "sha256": "e1deb439215c3a6613355a7dc50ad6b81c42a730988f145715c7f26817954594"
         },
         {
           "path": "art-source/characters/v1/huanggai/back.png",
-          "bytes": 26067,
-          "sha256": "ee3d435fcdc87ae60f1d634dcc36d263345337d0c6f27fbf06898ce01f3e17f3"
+          "bytes": 23406,
+          "sha256": "426078be7384eba4cebfc545590d0b94f22d71a269a6ce5ba17de21ae1b9eb4b"
         },
         {
           "path": "art-source/characters/v1/huanggai/front.png",
-          "bytes": 31563,
-          "sha256": "66f474412e87242ebd3dabfbbae72842d8d8d4d1b1ffc50de512f56cc23248ab"
+          "bytes": 27115,
+          "sha256": "36a0822fb12c83ae4ae4624b03c8f4ddfa2de601e400070fa95974ba2147cb2a"
         },
         {
           "path": "art-source/characters/v1/huanggai/side.png",
-          "bytes": 21589,
-          "sha256": "82f3986b2fe21f80ca542b35c37042018d405ec826e43d0a07347e1ba943dedf"
+          "bytes": 20288,
+          "sha256": "5f35f9d27f1aa5f644fb7b5144aa5bb8be1c96ad9d290835e138a39c56237472"
         },
         {
           "path": "art-source/characters/v1/lumeng/back.png",
-          "bytes": 23091,
-          "sha256": "bf3b757920ee6d4487b46225beeda89b196da0ccfc4187fad758835e8fa5aeba"
+          "bytes": 22996,
+          "sha256": "26fcaee9bfe003a3ec6f227bd8712d061556c384e7d48cf370ca8e255cb38006"
         },
         {
           "path": "art-source/characters/v1/lumeng/front.png",
-          "bytes": 27743,
-          "sha256": "05eeac2eb1c26ad85404947f0d0e580eca5b9628ad3b66cbbdc174e35bdbb425"
+          "bytes": 29039,
+          "sha256": "2999bb2699ac6cd5b016759d85f017d76af8171183bc21485ac9cd0f115f7874"
         },
         {
           "path": "art-source/characters/v1/lumeng/side.png",
-          "bytes": 23863,
-          "sha256": "9d42425c52c32eb158364377807a47666ee1c2d49851458b4a8813e9839b1d61"
+          "bytes": 22135,
+          "sha256": "e7f8a1cdc1b5c2ec92ff33661ccbbc7f46cb7d39a20c319b6bf4d9c3ff8557c4"
         },
         {
           "path": "art-source/characters/v1/lusu/back.png",
-          "bytes": 13519,
-          "sha256": "8563ca8036c2be54f9e9529ec556fe511fca3759849946e8121aafb21c479a35"
+          "bytes": 27651,
+          "sha256": "f4cb2d01343366ea0b13aa747909941db961259be29955287535d49d569018f6"
         },
         {
           "path": "art-source/characters/v1/lusu/front.png",
-          "bytes": 16286,
-          "sha256": "40d5e835f2f07c72cbc0af8fd6e21698f01dd1d4bc2f588633e20e66e1d08275"
+          "bytes": 27079,
+          "sha256": "65959d06ae2d6d132bd2788cbe3b8c9f24286d17d1c1887a71f3b98e083e0a4d"
         },
         {
           "path": "art-source/characters/v1/lusu/side.png",
-          "bytes": 11622,
-          "sha256": "54d85580cb17ae0eb1faf8a8fff434f6d0654d7ca2e61f9038c522d1504fa095"
+          "bytes": 18244,
+          "sha256": "ad49d746fc7e1a40ce51b5506428055e4df75d4e6dd38b4afab49d8088a6d0ad"
         },
         {
           "path": "art-source/characters/v1/luxun/back.png",
-          "bytes": 23403,
-          "sha256": "c4f73741418cc698bb4407a5697f47fa977d44713839a66e6da7211914b3cbb6"
+          "bytes": 22406,
+          "sha256": "6e2d320137af04553bdec461ea8134c717741f5328336c590827d563f95634b7"
         },
         {
           "path": "art-source/characters/v1/luxun/front.png",
-          "bytes": 25857,
-          "sha256": "0d3dcff8825473654c76fded3b2907b9fc71d902089058edf42c8530b2a31b94"
+          "bytes": 25610,
+          "sha256": "a960063ef04d4ddce0403d431f59e9b64d82361565c6c444b27f6b445b177366"
         },
         {
           "path": "art-source/characters/v1/luxun/side.png",
-          "bytes": 21714,
-          "sha256": "c8e01c38f5107963adf7296ed803f0bcea3dcd6ad1278aa58e7da70d29a1d074"
+          "bytes": 19031,
+          "sha256": "b557a2e18660ed8041f19c08494f566988a203dc150ce935a3f5ab35c2b61d18"
         },
         {
           "path": "art-source/characters/v1/panzhang/back.png",
-          "bytes": 20261,
-          "sha256": "d05c7b687920ee9762203bbb0e3f01b83e509e74d13d3c47ac5720b3795ecbc2"
+          "bytes": 22810,
+          "sha256": "0db7ccd7f70393fbc57d55498945e115e2089245e212b2d9cd1f12ed6da66273"
         },
         {
           "path": "art-source/characters/v1/panzhang/front.png",
-          "bytes": 22525,
-          "sha256": "00b33d0529aea3b5118b84020f5cdf3cb8b0bcfc6993f3215e8c5883772af0ab"
+          "bytes": 28177,
+          "sha256": "5fb6152f8c9d95f65a5b3f8b755758d53999caf2ef5ddca9a2f1c57f4d0535ec"
         },
         {
           "path": "art-source/characters/v1/panzhang/side.png",
-          "bytes": 17177,
-          "sha256": "d6b459c5e0d5103ec02b165917cf4ec2c00855ef4bdeca30cb31a28e6916e646"
+          "bytes": 19015,
+          "sha256": "123df9839fa496f947743a7e7edf61eb83868151d1a446ef56a1cde1725f553e"
         },
         {
           "path": "art-source/characters/v1/sunce/back.png",
-          "bytes": 24359,
-          "sha256": "d451c0b4446bd34b59f6f5cb82a5c13a73c0e70758005fc8997b3562bc1a1a0b"
+          "bytes": 23914,
+          "sha256": "e96729a37f535635808127064659899b664aca9f4b0ab4990bc33ec2211af2be"
         },
         {
           "path": "art-source/characters/v1/sunce/front.png",
-          "bytes": 27212,
-          "sha256": "16752e613a2f6aca8af6ce332d72bb6270ad8a54a758320b62e196146c94589a"
+          "bytes": 34292,
+          "sha256": "a4c825d6924be7edbb68fde4cc64b9bda58b83521ab3e9701c4258d463eb6504"
         },
         {
           "path": "art-source/characters/v1/sunce/side.png",
-          "bytes": 19728,
-          "sha256": "c93f837694a68ebd3aeb65ca6f1d579420f579ac944e45b21049e222f73c3b6c"
+          "bytes": 26190,
+          "sha256": "d86cbb7b538e4744d22781b63d01c11adc2c250ca8a6fc652c9aab1eb2fd3099"
         },
         {
           "path": "art-source/characters/v1/sunquan/back.png",
-          "bytes": 18718,
-          "sha256": "5818c2995c0c1b410d25c61c7b4b49617a87cf4de05ca1361297f12343931d68"
+          "bytes": 27092,
+          "sha256": "134f91a59759e804de3322166e811628a3d8dab37b2503847b9d0199da2d376a"
         },
         {
           "path": "art-source/characters/v1/sunquan/front.png",
-          "bytes": 22710,
-          "sha256": "6a78efc1caaf60d0ca80aade645aa0e3a54378eee3aa23d45f7cc4c2d5e7682b"
+          "bytes": 32476,
+          "sha256": "5d4d94b9b1fc317f148a57537e07f77a78183b1c7b4a9810129b813c6e204c46"
         },
         {
           "path": "art-source/characters/v1/sunquan/side.png",
-          "bytes": 16739,
-          "sha256": "c7fca460997113b7106fcdc7819e6a48fe34df3d994c9fec603f2f3770611967"
+          "bytes": 23793,
+          "sha256": "2cb87cadac31cd9b257fc1aeeb55aa3c7cc1e006b7e9bab35fb2ede15e3a20fc"
         },
         {
           "path": "art-source/characters/v1/sunshangxiang/back.png",
-          "bytes": 16430,
-          "sha256": "155f1268ad7cccad18696ede75aae4bc913671b8f08b333f986a8cf6973d5d68"
+          "bytes": 23139,
+          "sha256": "25cd193a588526c9f60e8e95f39d4a0f825c07d763d05d7a8d46ed6935e903c2"
         },
         {
           "path": "art-source/characters/v1/sunshangxiang/front.png",
-          "bytes": 20460,
-          "sha256": "4552068c3aefb6460dcb33b464cfd042764b32320d22df8c320f540e8bf67bc5"
+          "bytes": 22495,
+          "sha256": "c6ad37c19824013e3195f34999d4355964f0367b9b4881403e84692952cbe5aa"
         },
         {
           "path": "art-source/characters/v1/sunshangxiang/side.png",
-          "bytes": 14339,
-          "sha256": "54fe548afc39a76b98bd8cd6900538f6e348f25ad982cb876aa92af1449f3ac5"
+          "bytes": 29496,
+          "sha256": "0e9706bc37cc1b79cb60c2cdd4b298be3b3b73c85a3573b240905702263998ea"
         },
         {
           "path": "art-source/characters/v1/taishici/back.png",
-          "bytes": 35155,
-          "sha256": "5c41670b918f8f1fe7abb04544dd9abf47f52806eec8314cc0a6ee0867e5b2d1"
+          "bytes": 28215,
+          "sha256": "2239a5e9efa23b2411282c3a1af1fb8d69d52966f850bdf1606f7def4a71d5c0"
         },
         {
           "path": "art-source/characters/v1/taishici/front.png",
-          "bytes": 35562,
-          "sha256": "7e6064ea0ecb33247162c26108691d4a7ac2fda5b11532aaa47a1c42006ca945"
+          "bytes": 29038,
+          "sha256": "8f1405bb70340b134cee0c7d7ead8fddd2910ad03ab9d81a1c404d8fcec8802f"
         },
         {
           "path": "art-source/characters/v1/taishici/side.png",
-          "bytes": 29355,
-          "sha256": "9af42565c6fc4fa6a46fbafd621b7d9e22c74c6f9ab32e7304bfdbc70cae7332"
+          "bytes": 22822,
+          "sha256": "416353d0f9ab06242e9d1c6ed01cdc66584e49d5e361add54bb56296e29f66b0"
         }
       ]
     },

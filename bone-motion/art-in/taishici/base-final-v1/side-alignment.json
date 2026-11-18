@@ -1,0 +1,24 @@
+{
+  "id": "taishici",
+  "view": "side",
+  "path": "bone-motion/art-in/taishici/base-final-v1/side.png",
+  "size": [
+    256,
+    256
+  ],
+  "pivot": [
+    128,
+    224
+  ],
+  "logical_pivot": [
+    128,
+    224
+  ],
+  "target_foot_y": 224,
+  "method": "Builtin image_gen redraw followed by lossless integer canvas ground alignment; the pre-redraw pixels are intentionally replaced.",
+  "generation": "bone-motion/art-in/taishici/base-final-v1/side-generation.json",
+  "sha256": "416353d0f9ab06242e9d1c6ed01cdc66584e49d5e361add54bb56296e29f66b0",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

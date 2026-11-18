@@ -1,0 +1,48 @@
+{
+  "id": "gongsunzan",
+  "view": "side",
+  "source": "bone-motion/art-in/gongsunzan/base-draft-v1/side.png",
+  "source_sha256": "4561251422E5ED2C474C8BA978DA08F4C6EF02F7B1F87D1B217C0A0068A1A5B4",
+  "path": "bone-motion/art-in/gongsunzan/base-final-v1/side.png",
+  "size": [
+    256,
+    256
+  ],
+  "offset": [
+    5,
+    4
+  ],
+  "foot_roi": [
+    80,
+    172
+  ],
+  "source_foot_y": 220,
+  "target_foot_y": 224.0,
+  "pivot": [
+    128.0,
+    224.0
+  ],
+  "logical_pivot": [
+    128,
+    224
+  ],
+  "source_foot_center": 123.5,
+  "pixel_match": true,
+  "visible_clipped_pixels": 0,
+  "preserved_wrapped_alpha1_speckles": 0,
+  "sha256": "5CF09E64541D3A9F48B52666C9AEEA24BC78D6E83AC4C50DDDC17356BA3BEFF2",
+  "approval": "user-approved-2026-11-18",
+  "scope": "standing artwork and ground alignment only; full rig/motion verification separate",
+  "generation_provenance": {
+    "hero": "gongsunzan",
+    "name": "공손찬",
+    "view": "side",
+    "status": "generated-awaiting-cross-review",
+    "generator": "built-in image_gen",
+    "source": "C:/Users/pms10/.codex/generated_images/01a1edec-e7a8-7b30-a481-c6294875f061/exec-3ead615d-bc02-4940-b282-5503c281e82b.png",
+    "prompt": "Create ONE productionpixelart BASICNEUTRAL 공손찬 sprite, side view. Identity: Gongsun Zan: mature northern cavalry commander with neatly trimmed moustache and short beard, practical simple STEEL helmet with compact dark crest (NO giant white plume), red neck scarf, gray-iron armor and white shoulder cloak. Mounted on WHITE horse with plain dark leather tack, long spear. Distinct adult bearded commander versus young silver Zhao Yun and lion-helmet Ma Chao. Charactertrait: 백마.. Reference1 newfront identity/design andbodyproportions tokeep exactly. Reference2 approved ZhangFei/ZhangLiao STYLE: thick confident1-2logicalpixel outline, simple square eyes, broadflat2-3toneclusters, few largehair/beardgroups, sparsegoldbands, no ornatefiligree/finehairlines or repeatingtinypattern. RIGHT hand upright spear140px blade22px grip50pxfromlowerbutt. LEFThandreins. Whitehorse standard163pxmountedheight, consistent all4legs saddleandreins. Pure LEFT-FACING PROFILE, camera sees anatomicalLEFT side. NearLEFTarm overlapsfarRIGHT naturally. Do not switchhands: RIGHTweaponhand isfar and canbe partlyhidden. Forbow, nearLEFTarm visiblyconnects tobowgrip, FARrightemptyhand isoccluded. Forhorse nearLEFThand holdsreins andfarRIGHThand weapon. Naturalstill upright relaxed rider seatedon standinghorse, no combatgesture. Logical256x256 SQUAREtransparentcanvas. Groundpivot128224. Mountedbody163px excludingplumes/weapon; riderheadtop~y68, horseears~y122, saddley149, fourhooves~y216-232. Samehorsebody sizeanddepth asapprovedZhangLiao. Generous margins, DO NOTenlargecharactertofillcanvas. Fullweapon feet cape decorations intact. Orthographic18degreedowncamera, no perspectiveextremes. TRUEtransparentbackground no shadow floor checkerboard text watermark grid labels oradditionalviews. CrispPIXELstepedges; do notswitchto smoothvectorart."
+  },
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

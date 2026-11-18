@@ -1,192 +1,56 @@
 {
+  "sideFacing": "left",
+  "artRevision": "ground-body-v1",
   "id": "luxun",
-  "name": "육손",
   "faction": "오",
-  "order": 31,
-  "identity": "Lu Xun: youthful but clearly ADULT scholarly commander, smooth clean-shaven oval face, focused fine brows, small close-fitting blue steel cap/helmet, green neck scarf. Slim silver-gray light chest armor over ivory robe with crimson waist sash, red cape edge. Hold small torch as established game equipment. Slim adult shoulders, not a child or plain white-robed magician.",
+  "directions": {
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/luxun/base-final-v1/side.png",
+      "sha256": "b557a2e18660ed8041f19c08494f566988a203dc150ce935a3f5ab35c2b61d18",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/luxun/base-final-v1/front.png",
+      "sha256": "a960063ef04d4ddce0403d431f59e9b64d82361565c6c444b27f6b445b177366",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/luxun/base-final-v1/back.png",
+      "sha256": "6e2d320137af04553bdec461ea8134c717741f5328336c590827d563f95634b7",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    }
+  },
   "folder": "luxun",
-  "identityDesign": "Lu Xun: youthful but clearly ADULT scholarly commander, smooth clean-shaven oval face, focused fine brows, small close-fitting blue steel cap/helmet, green neck scarf. Slim silver-gray light chest armor over ivory robe with crimson waist sash, red cape edge. Hold small torch as established game equipment. Slim adult shoulders, not a child or plain white-robed magician.",
-  "artRevision": "pixel256-v1",
-  "canvas": [
-    256,
-    256
-  ],
-  "foot": [
+  "right": "mirror-side",
+  "runtimeApplied": false,
+  "logicalFoot": [
     128,
     224
   ],
-  "schemaVersion": 2,
-  "status": "ready-for-review",
-  "runtimeApplied": false,
   "motionComplete": false,
-  "sideFacing": "left",
-  "right": "mirror-side",
-  "directions": {
-    "front": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "luxun",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "sourceCanvas": [
-          1254,
-          1254
-        ],
-        "bodyTopVirtual256": 85,
-        "bodyHeightTarget": 123,
-        "sourceFootVirtual256": 230,
-        "sourceToFinalScale": 0.17317274377165484,
-        "wholeImageOffset": [
-          19,
-          29
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          81,
-          67,
-          161,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
-        "weaponContainFit": false,
-        "runtimeApplied": false,
-        "sha256": "0d3dcff8825473654c76fded3b2907b9fc71d902089058edf42c8530b2a31b94"
-      }
-    },
-    "back": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "luxun",
-        "direction": "back",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 100,
-        "bodyHeightTarget": 123,
-        "sourceFootVirtual256": 222,
-        "sourceToFinalScale": 0.2058200643187701,
-        "wholeImageOffset": [
-          -1,
-          0
-        ],
-        "groundRoundingCorrection": 1,
-        "visibleBounds": [
-          91,
-          67,
-          172,
-          226
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "c4f73741418cc698bb4407a5697f47fa977d44713839a66e6da7211914b3cbb6"
-      }
-    },
-    "side": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "luxun",
-        "direction": "side",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 100,
-        "bodyHeightTarget": 123,
-        "sourceFootVirtual256": 218,
-        "sourceToFinalScale": 0.2127970156516098,
-        "wholeImageOffset": [
-          -5,
-          -3
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          85,
-          68,
-          163,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "c8e01c38f5107963adf7296ed803f0bcea3dcd6ad1278aa58e7da70d29a1d074"
-      }
-    }
-  },
-  "files": {
-    "front": {
-      "path": "front.png",
-      "sha256": "0d3dcff8825473654c76fded3b2907b9fc71d902089058edf42c8530b2a31b94"
-    },
-    "back": {
-      "path": "back.png",
-      "sha256": "c4f73741418cc698bb4407a5697f47fa977d44713839a66e6da7211914b3cbb6"
-    },
-    "side": {
-      "path": "side.png",
-      "sha256": "c8e01c38f5107963adf7296ed803f0bcea3dcd6ad1278aa58e7da70d29a1d074"
-    }
-  },
-  "sourceProvider": "built-in image_gen",
-  "provenanceFile": "generation.json",
-  "bodyMetrics": {
-    "shoulderWidth": null,
-    "anatomicalHeight": null,
-    "riderJoints": null
-  },
-  "approval": {
-    "frontApproved": false,
-    "fullSetApproved": false
-  }
+  "name": "육손",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
 }

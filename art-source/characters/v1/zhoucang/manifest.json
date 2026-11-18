@@ -1,192 +1,56 @@
 {
+  "sideFacing": "left",
+  "artRevision": "ground-body-v1",
   "id": "zhoucang",
-  "name": "주창",
   "faction": "촉",
-  "order": 29,
-  "identity": "Zhou Cang: rough rugged sturdy retainer, dark tanned face, broad unruly black beard, thick brows. Low brown cloth cap/headwrap, dark green rolled sleeves over practical bronze chest armor, coarse leather belt and exposed forearms. Hold large curved blade. Wild retainer silhouette unlike noble Guan Yu, no huge gold epaulets.",
+  "directions": {
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/zhoucang/base-final-v1/side.png",
+      "sha256": "b5841ccf2d8c85196aa2846bffc65d00c53c58720b879193047a6ab2691cf7e2",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/zhoucang/base-final-v1/front.png",
+      "sha256": "9cdb7ee975860a05bbb765a0d5c5f51ab35b00431143954c8101ac3ed175da41",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/zhoucang/base-final-v1/back.png",
+      "sha256": "a71fb062908a4d305252bc3728fe2f676d9208e929475002d6b3779e1e01d042",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    }
+  },
   "folder": "zhoucang",
-  "identityDesign": "Zhou Cang: rough rugged sturdy retainer, dark tanned face, broad unruly black beard, thick brows. Low brown cloth cap/headwrap, dark green rolled sleeves over practical bronze chest armor, coarse leather belt and exposed forearms. Hold large curved blade. Wild retainer silhouette unlike noble Guan Yu, no huge gold epaulets.",
-  "artRevision": "pixel256-v1",
-  "canvas": [
-    256,
-    256
-  ],
-  "foot": [
+  "right": "mirror-side",
+  "runtimeApplied": false,
+  "logicalFoot": [
     128,
     224
   ],
-  "schemaVersion": 2,
-  "status": "ready-for-review",
-  "runtimeApplied": false,
   "motionComplete": false,
-  "sideFacing": "left",
-  "right": "mirror-side",
-  "directions": {
-    "front": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "zhoucang",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "sourceCanvas": [
-          1254,
-          1254
-        ],
-        "bodyTopVirtual256": 73,
-        "bodyHeightTarget": 130,
-        "sourceFootVirtual256": 232,
-        "sourceToFinalScale": 0.16691242113287794,
-        "wholeImageOffset": [
-          23,
-          34
-        ],
-        "groundRoundingCorrection": 1,
-        "visibleBounds": [
-          79,
-          56,
-          167,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
-        "weaponContainFit": false,
-        "runtimeApplied": false,
-        "sha256": "55e24a9eeba6e9e25a3e8840a0adff75e7f7aa83086145fdcf457eb93a2bdbb1"
-      }
-    },
-    "back": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "zhoucang",
-        "direction": "back",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 90,
-        "bodyHeightTarget": 130,
-        "sourceFootVirtual256": 216,
-        "sourceToFinalScale": 0.2106275790486317,
-        "wholeImageOffset": [
-          -4,
-          1
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          87,
-          57,
-          174,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "f9072917ebe3988359ba583ec2684137fcacec71bd6d43e2c0c9a99b3a735654"
-      }
-    },
-    "side": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "zhoucang",
-        "direction": "side",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 92,
-        "bodyHeightTarget": 130,
-        "sourceFootVirtual256": 223,
-        "sourceToFinalScale": 0.20258835847425644,
-        "wholeImageOffset": [
-          1,
-          3
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          82,
-          59,
-          174,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "144478766e43ab28da8174cc0c6f83c05682bce90c6d746995ec597342ebc6fb"
-      }
-    }
-  },
-  "files": {
-    "front": {
-      "path": "front.png",
-      "sha256": "55e24a9eeba6e9e25a3e8840a0adff75e7f7aa83086145fdcf457eb93a2bdbb1"
-    },
-    "back": {
-      "path": "back.png",
-      "sha256": "f9072917ebe3988359ba583ec2684137fcacec71bd6d43e2c0c9a99b3a735654"
-    },
-    "side": {
-      "path": "side.png",
-      "sha256": "144478766e43ab28da8174cc0c6f83c05682bce90c6d746995ec597342ebc6fb"
-    }
-  },
-  "sourceProvider": "built-in image_gen",
-  "provenanceFile": "generation.json",
-  "bodyMetrics": {
-    "shoulderWidth": null,
-    "anatomicalHeight": null,
-    "riderJoints": null
-  },
-  "approval": {
-    "frontApproved": false,
-    "fullSetApproved": false
-  }
+  "name": "주창",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
 }

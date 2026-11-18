@@ -1,0 +1,48 @@
+{
+  "id": "dingfeng",
+  "view": "side",
+  "source": "bone-motion/art-in/dingfeng/base-draft-v1/side.png",
+  "source_sha256": "DAC6289C3439B10B2DDE4E6A34D27394EEA52C563A504C45ACECEC6669A56059",
+  "path": "bone-motion/art-in/dingfeng/base-final-v1/side.png",
+  "size": [
+    256,
+    256
+  ],
+  "offset": [
+    3,
+    10
+  ],
+  "foot_roi": [
+    100,
+    164
+  ],
+  "source_foot_y": 214,
+  "target_foot_y": 224.0,
+  "pivot": [
+    128.0,
+    224.0
+  ],
+  "logical_pivot": [
+    128,
+    224
+  ],
+  "source_foot_center": 125.5,
+  "pixel_match": true,
+  "visible_clipped_pixels": 0,
+  "preserved_wrapped_alpha1_speckles": 0,
+  "sha256": "61BEC79365BD55D52D40CDBA333F432691CB2F458418D9A9C470ACFF434D7BEE",
+  "approval": "user-approved-2026-11-18",
+  "scope": "standing artwork and ground alignment only; full rig/motion verification separate",
+  "generation_provenance": {
+    "hero": "dingfeng",
+    "name": "정봉",
+    "view": "side",
+    "status": "generated-awaiting-cross-review",
+    "generator": "built-in image_gen",
+    "source": "C:/Users/pms10/.codex/generated_images/01a1edec-e7a8-7b30-a481-c6294875f061/exec-af3f1d92-26e2-44d1-8f6b-776436f3ee7d.png",
+    "prompt": "Create ONE productionpixelart BASICNEUTRAL 정봉 sprite, side view. Identity: Ding Feng: hardy stocky older assault fighter, short cropped dark-gray beard, red wrapped headscarf, thick forearms exposed beneath simple iron-red chest armor. Hold short broad saber low, other fist ready. Compact rugged veteran, short cloak or none, avoid noble golden armor. Charactertrait: 짧은 단도.. Reference1 newfront identity/design andbodyproportions tokeep exactly. Reference2 approved ZhangFei/ZhangLiao STYLE: thick confident1-2logicalpixel outline, simple square eyes, broadflat2-3toneclusters, few largehair/beardgroups, sparsegoldbands, no ornatefiligree/finehairlines or repeatingtinypattern. ONE right-hand blade, completeweapon34px withblade24px, hiltgrip6pxfrombutt, blade pointsDOWN relaxed besidebody. Large curveddao forWeiYan/ZhouCang/DongZhuo/YanLiang/HuaXiong, notlong polearm. LEFT hand empty. Pure LEFT-FACING PROFILE, camera sees anatomicalLEFT side. NearLEFTarm overlapsfarRIGHT naturally. Do not switchhands: RIGHTweaponhand isfar and canbe partlyhidden. Forbow, nearLEFTarm visiblyconnects tobowgrip, FARrightemptyhand isoccluded. Forhorse nearLEFThand holdsreins andfarRIGHThand weapon. Naturalstill upright relaxed standingpose, feetparallel, shoulderslevel, no combatgesture. Logical256x256 SQUAREtransparentcanvas. Groundpivot128224. Anatomicalbodyheight124.0px, excludingcrown/plume/weapon, headtop~y100, groundy224. Warrior shoulderjointspan38px timeswidth1. Keepnormalheadsize, fullnessfromtorso notgianthead. Generous margins, DO NOTenlargecharactertofillcanvas. Fullweapon feet cape decorations intact. Orthographic18degreedowncamera, no perspectiveextremes. TRUEtransparentbackground no shadow floor checkerboard text watermark grid labels oradditionalviews. CrispPIXELstepedges; do notswitchto smoothvectorart."
+  },
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

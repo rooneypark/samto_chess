@@ -1,0 +1,26 @@
+{
+  "id": "119",
+  "view": "side",
+  "source": "C:/Users/pms10/.codex/generated_images/01a1edec-e7a8-7b30-a481-c6294875f061/exec-3a6fa25c-274b-46c7-bd95-0bbfb6e3cabe.png",
+  "prompt": "Use case: stylized-concept. Attached is FRONT MASTER, character design and exact physical scale reference. Draw ONE matching view of the SAME character, a coherent turnaround, on the SAME 256x256 logical transparent square canvas. Do not output front or a sheet. Bold chunky pixel art, simple facial marks, large flat color/shadow planes, no added tiny ornamentation. Matching body SIZE across views is the main requirement. Actual head/body independent of hats, hair crests, plumes and weapons. Foot pivot (128,224); preserve generous blank canvas. Draw LU BU on his red-brown horse in LEFT PROFILE facing left. Keep exactly same rider BODY SIZE as the front. Previous left profiles made the rider too short. Rider skull/hair body MUST START at logical y=50 and shoulders at y=78, belt/pelvis y=120. Feet of horse at y=224. Thus rider head and shoulders must be around 15px HIGHER than the prior side candidate. Long red plumes are additional above that, not the head. Match front thick muscular arms and armor volume. Same horse physical size, four legs, matching horse ears near y=120, long red cape and same golden tack. Same halberd and proper hand grip. Do not shrink head to fit plumes.",
+  "status": "user-approved",
+  "generator": "built-in image_gen",
+  "ground_alignment": {
+    "pixelPreserved": true,
+    "wrappedAlpha1": 1,
+    "source": "side.png",
+    "foot": [
+      128,
+      224
+    ],
+    "offset": [
+      3,
+      -1
+    ],
+    "status": "body-review-pending",
+    "sha256": "975B93FB026B6BDCF2378CA54453B95DE9FB249BF2EDB9AE63CA6AD95C0B1CA3"
+  },
+  "comparison": "Frontal master unchanged; anatomical size and proportions visually compared at common ground. Not a full rig pass.",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

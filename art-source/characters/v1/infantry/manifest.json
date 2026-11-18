@@ -1,192 +1,56 @@
 {
+  "sideFacing": "left",
+  "artRevision": "ground-body-v1",
   "id": "infantry",
-  "name": "의용보병",
   "faction": "군웅",
-  "order": 12,
-  "identity": "Volunteer infantry: ordinary rank-and-file sturdy adult, simple dark cloth cap or plain leather helmet, modest short moustache. Muted brown/gray leather and plain iron lamellar vest, subdued plum sash. Hold a straight spear and SIMPLE WOODEN shield with metal rim, not gilded royal lion shield. Visually less ornate than named generals.",
+  "directions": {
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/infantry/base-final-v1/side.png",
+      "sha256": "3b5792f9f07d6aa0e4b1bbff47e5a3c2d46b263988aa76c3376460f80219fe9a",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/infantry/base-final-v1/front.png",
+      "sha256": "7a9a2add04fa926b4c3764faad6a0286a3b8d395d87f249ef016833b93a62b3a",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/infantry/base-final-v1/back.png",
+      "sha256": "2266e242ec930bdb1634df8b21d3be43acd77c928e8d682c6bee68ed2580d74c",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    }
+  },
   "folder": "infantry",
-  "identityDesign": "Volunteer infantry: ordinary rank-and-file sturdy adult, simple dark cloth cap or plain leather helmet, modest short moustache. Muted brown/gray leather and plain iron lamellar vest, subdued plum sash. Hold a straight spear and SIMPLE WOODEN shield with metal rim, not gilded royal lion shield. Visually less ornate than named generals.",
-  "artRevision": "pixel256-v1",
-  "canvas": [
-    256,
-    256
-  ],
-  "foot": [
+  "right": "mirror-side",
+  "runtimeApplied": false,
+  "logicalFoot": [
     128,
     224
   ],
-  "schemaVersion": 2,
-  "status": "ready-for-review",
-  "runtimeApplied": false,
   "motionComplete": false,
-  "sideFacing": "left",
-  "right": "mirror-side",
-  "directions": {
-    "front": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "infantry",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "sourceCanvas": [
-          1254,
-          1254
-        ],
-        "bodyTopVirtual256": 86,
-        "bodyHeightTarget": 124,
-        "sourceFootVirtual256": 225,
-        "sourceToFinalScale": 0.1821165077507372,
-        "wholeImageOffset": [
-          14,
-          23
-        ],
-        "groundRoundingCorrection": 1,
-        "visibleBounds": [
-          88,
-          70,
-          173,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
-        "weaponContainFit": false,
-        "runtimeApplied": false,
-        "sha256": "10719fed85a2c8b5a9f64b3a64ae92310890ef5d5ce958d644209aea518d6d96"
-      }
-    },
-    "back": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "infantry",
-        "direction": "back",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 96,
-        "bodyHeightTarget": 124,
-        "sourceFootVirtual256": 216,
-        "sourceToFinalScale": 0.21095162147793728,
-        "wholeImageOffset": [
-          -4,
-          1
-        ],
-        "groundRoundingCorrection": -1,
-        "visibleBounds": [
-          83,
-          71,
-          169,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "30648c2eb6815b9aed5470485308cff8452f565348c9e305215f5405b5780fb3"
-      }
-    },
-    "side": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "infantry",
-        "direction": "side",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 96,
-        "bodyHeightTarget": 124,
-        "sourceFootVirtual256": 218,
-        "sourceToFinalScale": 0.20749339817502027,
-        "wholeImageOffset": [
-          -2,
-          2
-        ],
-        "groundRoundingCorrection": 1,
-        "visibleBounds": [
-          93,
-          74,
-          164,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "7f5f27055268fc9b1ae1969528aa4e1a058033d5ab4128a63a6a35fbd3ff4f80"
-      }
-    }
-  },
-  "files": {
-    "front": {
-      "path": "front.png",
-      "sha256": "10719fed85a2c8b5a9f64b3a64ae92310890ef5d5ce958d644209aea518d6d96"
-    },
-    "back": {
-      "path": "back.png",
-      "sha256": "30648c2eb6815b9aed5470485308cff8452f565348c9e305215f5405b5780fb3"
-    },
-    "side": {
-      "path": "side.png",
-      "sha256": "7f5f27055268fc9b1ae1969528aa4e1a058033d5ab4128a63a6a35fbd3ff4f80"
-    }
-  },
-  "sourceProvider": "built-in image_gen",
-  "provenanceFile": "generation.json",
-  "bodyMetrics": {
-    "shoulderWidth": null,
-    "anatomicalHeight": null,
-    "riderJoints": null
-  },
-  "approval": {
-    "frontApproved": false,
-    "fullSetApproved": false
-  }
+  "name": "의용보병",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
 }

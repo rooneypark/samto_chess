@@ -1,161 +1,56 @@
 {
+  "sideFacing": "left",
+  "artRevision": "ground-body-v1",
   "id": "15",
-  "name": "조운",
   "faction": "촉",
-  "order": 3,
-  "identity": "Zhao Yun: silver helmet with white plume, silver armor, blue scarf, white cape, spear, white horse; approved front",
+  "directions": {
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/15/base-final-v1/side.png",
+      "sha256": "ff77684c65a6069a96529cab0db48cb7641e5753e28324eb688a64a3745600c9",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/15/base-final-v1/front.png",
+      "sha256": "005efe791e3e09937e61a68022020db8e0ccc7f389d5fb95acb62b26866826d4",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/15/base-final-v1/back.png",
+      "sha256": "d9e8908def39fe18ad8025ec5d0bd3c87adfd232cf9de151d3dc65f671343f8e",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    }
+  },
   "folder": "15",
-  "identityDesign": "Zhao Yun: silver helmet with white plume, silver armor, blue scarf, white cape, spear, white horse; approved front",
-  "artRevision": "pixel256-v1",
-  "canvas": [
-    256,
-    256
-  ],
-  "foot": [
+  "right": "mirror-side",
+  "runtimeApplied": false,
+  "logicalFoot": [
     128,
     224
   ],
-  "schemaVersion": 2,
-  "status": "ready-for-review",
-  "runtimeApplied": false,
   "motionComplete": false,
-  "sideFacing": "left",
-  "right": "mirror-side",
-  "directions": {
-    "front": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "method": "approved Zhao Yun front, square resolution export and ground translation",
-        "bodyHeightTarget": 168
-      }
-    },
-    "back": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "15",
-        "direction": "back",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 57,
-        "bodyHeightTarget": 168,
-        "sourceFootVirtual256": 218,
-        "sourceToFinalScale": 0.2130226752652382,
-        "wholeImageOffset": [
-          -6,
-          -3
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          80,
-          12,
-          180,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "a3793b01568e500d05ac03f6d8c3e4e9a3f18f5dcbcdf07d712dd65b2bd3572a"
-      }
-    },
-    "side": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "15",
-        "direction": "side",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 58,
-        "bodyHeightTarget": 168,
-        "sourceFootVirtual256": 215,
-        "sourceToFinalScale": 0.2184500045713589,
-        "wholeImageOffset": [
-          -9,
-          -6
-        ],
-        "groundRoundingCorrection": -1,
-        "visibleBounds": [
-          58,
-          8,
-          191,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "e2b58e77dd48d0dbfdd08149e88ed3d85420505999ce87cdca1a923ce752c194"
-      }
-    }
-  },
-  "files": {
-    "front": {
-      "path": "front.png",
-      "sha256": "68cc33a1fe459aa06008649291569017060aca7c9d47d190a303a83ef405afce"
-    },
-    "back": {
-      "path": "back.png",
-      "sha256": "a3793b01568e500d05ac03f6d8c3e4e9a3f18f5dcbcdf07d712dd65b2bd3572a"
-    },
-    "side": {
-      "path": "side.png",
-      "sha256": "e2b58e77dd48d0dbfdd08149e88ed3d85420505999ce87cdca1a923ce752c194"
-    }
-  },
-  "sourceProvider": "built-in image_gen",
-  "provenanceFile": "generation.json",
-  "bodyMetrics": {
-    "shoulderWidth": null,
-    "anatomicalHeight": null,
-    "riderJoints": null
-  },
-  "approval": {
-    "frontApproved": true,
-    "fullSetApproved": false
-  }
+  "name": "조운",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
 }

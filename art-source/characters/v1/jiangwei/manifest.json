@@ -1,192 +1,56 @@
 {
+  "sideFacing": "left",
+  "artRevision": "ground-body-v1",
   "id": "jiangwei",
-  "name": "강유",
   "faction": "촉",
-  "order": 26,
-  "identity": "Jiang Wei: young intelligent military scholar, clean-shaven focused face, dark hair with modest flat gold-green forehead band, trailing green scarf, light steel lamellar chest armor and ivory-green long split tunic. Hold long spear. Slender athletic infantry with neat waist and shoulders, no giant golden plates or fur.",
+  "directions": {
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/jiangwei/base-final-v1/side.png",
+      "sha256": "83809536f5faba6740810268492b1ede6d5ade7efed3d76d20961d8ef6153453",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/jiangwei/base-final-v1/front.png",
+      "sha256": "0c652301ff052075107a9066cc6fc3a2bd2bfd1aebab33b059ba7dd644b10f20",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/jiangwei/base-final-v1/back.png",
+      "sha256": "5430c913daf971bb7c029ce46bd1b4b2b9611b8e74466dd232e4d7943027ebc1",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    }
+  },
   "folder": "jiangwei",
-  "identityDesign": "Jiang Wei: young intelligent military scholar, clean-shaven focused face, dark hair with modest flat gold-green forehead band, trailing green scarf, light steel lamellar chest armor and ivory-green long split tunic. Hold long spear. Slender athletic infantry with neat waist and shoulders, no giant golden plates or fur.",
-  "artRevision": "pixel256-v1",
-  "canvas": [
-    256,
-    256
-  ],
-  "foot": [
+  "right": "mirror-side",
+  "runtimeApplied": false,
+  "logicalFoot": [
     128,
     224
   ],
-  "schemaVersion": 2,
-  "status": "ready-for-review",
-  "runtimeApplied": false,
   "motionComplete": false,
-  "sideFacing": "left",
-  "right": "mirror-side",
-  "directions": {
-    "front": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "jiangwei",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "sourceCanvas": [
-          1254,
-          1254
-        ],
-        "bodyTopVirtual256": 63,
-        "bodyHeightTarget": 126,
-        "sourceFootVirtual256": 229,
-        "sourceToFinalScale": 0.15495474721853922,
-        "wholeImageOffset": [
-          31,
-          50
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          78,
-          68,
-          170,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
-        "weaponContainFit": false,
-        "runtimeApplied": false,
-        "sha256": "5ce29ba65da7e98d4152351c59e864c92908ea3dbd563cc7fb11813aca1aed43"
-      }
-    },
-    "back": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "jiangwei",
-        "direction": "back",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 90,
-        "bodyHeightTarget": 126,
-        "sourceFootVirtual256": 223,
-        "sourceToFinalScale": 0.19340216570133467,
-        "wholeImageOffset": [
-          7,
-          13
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          89,
-          76,
-          174,
-          226
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "02d3a4a8f9c59ea3473ac127262caa75b0f1ddf865e1b71056e579a4855090e5"
-      }
-    },
-    "side": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "jiangwei",
-        "direction": "side",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 89,
-        "bodyHeightTarget": 126,
-        "sourceFootVirtual256": 218,
-        "sourceToFinalScale": 0.19939913207967064,
-        "wholeImageOffset": [
-          3,
-          11
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          95,
-          77,
-          169,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "95d1f97392816fec48138fe0a6959e45085e7861bf829ad21b021e0ab81f0fdc"
-      }
-    }
-  },
-  "files": {
-    "front": {
-      "path": "front.png",
-      "sha256": "5ce29ba65da7e98d4152351c59e864c92908ea3dbd563cc7fb11813aca1aed43"
-    },
-    "back": {
-      "path": "back.png",
-      "sha256": "02d3a4a8f9c59ea3473ac127262caa75b0f1ddf865e1b71056e579a4855090e5"
-    },
-    "side": {
-      "path": "side.png",
-      "sha256": "95d1f97392816fec48138fe0a6959e45085e7861bf829ad21b021e0ab81f0fdc"
-    }
-  },
-  "sourceProvider": "built-in image_gen",
-  "provenanceFile": "generation.json",
-  "bodyMetrics": {
-    "shoulderWidth": null,
-    "anatomicalHeight": null,
-    "riderJoints": null
-  },
-  "approval": {
-    "frontApproved": false,
-    "fullSetApproved": false
-  }
+  "name": "강유",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
 }

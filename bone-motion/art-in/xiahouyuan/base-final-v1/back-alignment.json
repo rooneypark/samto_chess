@@ -1,0 +1,48 @@
+{
+  "id": "xiahouyuan",
+  "view": "back",
+  "source": "bone-motion/art-in/xiahouyuan/base-draft-v1/back.png",
+  "source_sha256": "8CEFC3B535844B141FB37EA3523E99DF3CBA4B6FD2B7E59E15E62F621FF01D67",
+  "path": "bone-motion/art-in/xiahouyuan/base-final-v1/back.png",
+  "size": [
+    256,
+    256
+  ],
+  "offset": [
+    0,
+    25
+  ],
+  "foot_roi": [
+    100,
+    164
+  ],
+  "source_foot_y": 199,
+  "target_foot_y": 224.0,
+  "pivot": [
+    128.0,
+    224.0
+  ],
+  "logical_pivot": [
+    128,
+    224
+  ],
+  "source_foot_center": 128.0,
+  "pixel_match": true,
+  "visible_clipped_pixels": 0,
+  "preserved_wrapped_alpha1_speckles": 1,
+  "sha256": "574CF1BF20034E9EEB12B121A0ADAFEA86429D79F5C4A391B3821D744100F562",
+  "approval": "user-approved-2026-11-18",
+  "scope": "standing artwork and ground alignment only; full rig/motion verification separate",
+  "generation_provenance": {
+    "hero": "xiahouyuan",
+    "name": "하후연",
+    "view": "back",
+    "status": "generated-awaiting-cross-review",
+    "generator": "built-in image_gen",
+    "source": "C:/Users/pms10/.codex/generated_images/01a1edec-e7a8-7b30-a481-c6294875f061/exec-cd497c07-a77f-4a5a-ae02-b8c15646e7cc.png",
+    "prompt": "Create ONE productionpixelart BASICNEUTRAL 하후연 sprite, back view. Identity: Xiahou Yuan: hardy middle-aged archer general, short bristly beard, intense alert eyes, low rounded DARK STEEL helmet with cheek flaps, BLUE scarf, practical dark lamellar armor and modest leather bracers. Wooden recurve bow and quiver. Broad normal warrior body, no fur mantle and no eye patch. Distinct from old white-bearded Huang Zhong. Charactertrait: 민첩한 궁수.. Reference1 newfront identity/design andbodyproportions tokeep exactly. Reference2 approved ZhangFei/ZhangLiao STYLE: thick confident1-2logicalpixel outline, simple square eyes, broadflat2-3toneclusters, few largehair/beardgroups, sparsegoldbands, no ornatefiligree/finehairlines or repeatingtinypattern. LEFT hand holds vertical recurvebow68px midpointgrip. RIGHT hand emptyrelaxed. Quiver on anatomicalRIGHTupperback. No arrowdrawn. TaishiCi additionalshortji stowedatbelt/back tokeep bowhandroleclear. Pure REAR, anatomicalRIGHT appears screenRIGHT, LEFT screenLEFT. No face/beard onback. Props heldinfrontofchest naturallyhidden. Singlebladecurvature appears horizontallyreversed fromfront; do notswapweaponhands. Naturalstill upright relaxed standingpose, feetparallel, shoulderslevel, no combatgesture. Logical256x256 SQUAREtransparentcanvas. Groundpivot128224. Anatomicalbodyheight124.0px, excludingcrown/plume/weapon, headtop~y100, groundy224. Warrior shoulderjointspan38px timeswidth1. Keepnormalheadsize, fullnessfromtorso notgianthead. Generous margins, DO NOTenlargecharactertofillcanvas. Fullweapon feet cape decorations intact. Orthographic18degreedowncamera, no perspectiveextremes. TRUEtransparentbackground no shadow floor checkerboard text watermark grid labels oradditionalviews. CrispPIXELstepedges; do notswitchto smoothvectorart."
+  },
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

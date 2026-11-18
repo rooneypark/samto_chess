@@ -1,0 +1,47 @@
+{
+  "id": "guojia",
+  "view": "side",
+  "source": "bone-motion/art-in/guojia/base-draft-v2/side.png",
+  "source_sha256": "87F3351E3B50C9CFB3683D0611EC5724AD8F673364DD7E6D10750A3CA29D9D26",
+  "path": "bone-motion/art-in/guojia/base-final-v1/side.png",
+  "size": [
+    256,
+    256
+  ],
+  "offset": [
+    2,
+    6
+  ],
+  "foot_roi": [
+    100,
+    164
+  ],
+  "source_foot_y": 218,
+  "target_foot_y": 224.0,
+  "pivot": [
+    128.0,
+    224.0
+  ],
+  "logical_pivot": [
+    128,
+    224
+  ],
+  "source_foot_center": 126.0,
+  "pixel_match": true,
+  "visible_clipped_pixels": 0,
+  "preserved_wrapped_alpha1_speckles": 0,
+  "sha256": "4E98C23A2D2697EA384E29F4F184E1CE453CC81A03F052FABC81D74F62B82105",
+  "approval": "user-approved-2026-11-18",
+  "scope": "standing artwork and ground alignment only; full rig/motion verification separate",
+  "generation_provenance": {
+    "hero": "guojia",
+    "view": "side",
+    "status": "generated-awaiting-user-review",
+    "source": "C:/Users/pms10/.codex/generated_images/01a1edec-e7a8-7b30-a481-c6294875f061/exec-866f31c1-3d81-42c9-a962-0b9e8549b982.png",
+    "prompt": "Use case: precise-object-edit. Edit target: image 1, guojia side game sprite. Simplify ONLY the black hair drawing: remove the many small internal wavy strokes and layered strand outlines. Use 2-3 large coherent black hair masses, only ONE broad charcoal highlight plane and at most two short bold separation lines. Preserve hair silhouette, topknot, gold ribbon and face; same design across all views. Invariants: preserve all unrequested parts, exact existing canvas framing and character scale, body proportions, clothing, weapons, hands, feet, bold outlines and limited flat colors. Full square canvas with actual transparent background. Match 256x256 logical pixel-art grid; do not zoom to fill canvas. No text, no extra figures.",
+    "generator": "built-in image_gen"
+  },
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "119",
+  "view": "back",
+  "path": "bone-motion/art-in/119/base-final-v1/back.png",
+  "size": [
+    256,
+    256
+  ],
+  "pivot": [
+    128,
+    224
+  ],
+  "logical_pivot": [
+    128,
+    224
+  ],
+  "target_foot_y": 224,
+  "method": "Builtin image_gen redraw followed by lossless integer canvas ground alignment; the pre-redraw pixels are intentionally replaced.",
+  "generation": "bone-motion/art-in/119/base-final-v1/back-generation.json",
+  "sha256": "3b35001d80a2262823cb606ca7e95d7e01b8b547534dd402921499b456dca1d1",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

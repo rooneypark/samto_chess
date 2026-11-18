@@ -1,0 +1,48 @@
+{
+  "id": "infantry",
+  "view": "side",
+  "source": "bone-motion/art-in/infantry/base-draft-v1/side.png",
+  "source_sha256": "53E007BD093D24A86E9641CBA158FD2A6592AD2B0A2D2403DBFFAB2E1DDC6450",
+  "path": "bone-motion/art-in/infantry/base-final-v1/side.png",
+  "size": [
+    256,
+    256
+  ],
+  "offset": [
+    4,
+    12
+  ],
+  "foot_roi": [
+    108,
+    145
+  ],
+  "source_foot_y": 212,
+  "target_foot_y": 224.0,
+  "pivot": [
+    128.0,
+    224.0
+  ],
+  "logical_pivot": [
+    128,
+    224
+  ],
+  "source_foot_center": 124.0,
+  "pixel_match": true,
+  "visible_clipped_pixels": 0,
+  "preserved_wrapped_alpha1_speckles": 0,
+  "sha256": "3B5792F9F07D6AA0E4B1BBFF47E5A3C2D46B263988AA76C3376460F80219FE9A",
+  "approval": "user-approved-2026-11-18",
+  "scope": "standing artwork and ground alignment only; full rig/motion verification separate",
+  "generation_provenance": {
+    "hero": "infantry",
+    "name": "의용보병",
+    "view": "side",
+    "status": "generated-awaiting-cross-review",
+    "generator": "built-in image_gen",
+    "source": "C:/Users/pms10/.codex/generated_images/01a1edec-e7a8-7b30-a481-c6294875f061/exec-d5c0412c-4b41-4cf1-878d-07d75f60aaa1.png",
+    "prompt": "Create ONE productionpixelart BASICNEUTRAL 의용보병 sprite, side view. Identity: Volunteer infantry: ordinary rank-and-file sturdy adult, simple dark cloth cap or plain leather helmet, modest short moustache. Muted brown/gray leather and plain iron lamellar vest, subdued plum sash. Hold a straight spear and SIMPLE WOODEN shield with metal rim, not gilded royal lion shield. Visually less ornate than named generals. Charactertrait: 일반 병사. 창과 둥근 방패.. Reference1 newfront identity/design andbodyproportions tokeep exactly. Reference2 approved ZhangFei/ZhangLiao STYLE: thick confident1-2logicalpixel outline, simple square eyes, broadflat2-3toneclusters, few largehair/beardgroups, sparsegoldbands, no ornatefiligree/finehairlines or repeatingtinypattern. RIGHT hand upright spear104px head20px grip40pxfrombutt. LEFTarm shield24pxdiameter, lowerchestheight, noweaponpenetration. Pure LEFT-FACING PROFILE, camera sees anatomicalLEFT side. NearLEFTarm overlapsfarRIGHT naturally. Do not switchhands: RIGHTweaponhand isfar and canbe partlyhidden. Forbow, nearLEFTarm visiblyconnects tobowgrip, FARrightemptyhand isoccluded. Forhorse nearLEFThand holdsreins andfarRIGHThand weapon. Naturalstill upright relaxed standingpose, feetparallel, shoulderslevel, no combatgesture. Logical256x256 SQUAREtransparentcanvas. Groundpivot128224. Anatomicalbodyheight124.0px, excludingcrown/plume/weapon, headtop~y100, groundy224. Warrior shoulderjointspan38px timeswidth1. Keepnormalheadsize, fullnessfromtorso notgianthead. Generous margins, DO NOTenlargecharactertofillcanvas. Fullweapon feet cape decorations intact. Orthographic18degreedowncamera, no perspectiveextremes. TRUEtransparentbackground no shadow floor checkerboard text watermark grid labels oradditionalviews. CrispPIXELstepedges; do notswitchto smoothvectorart."
+  },
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

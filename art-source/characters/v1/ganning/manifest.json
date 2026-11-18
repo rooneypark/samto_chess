@@ -1,192 +1,56 @@
 {
+  "sideFacing": "left",
+  "artRevision": "ground-body-v1",
   "id": "ganning",
-  "name": "감녕",
   "faction": "오",
-  "order": 33,
-  "identity": "Gan Ning: roguish athletic pirate warrior, tanned face, unruly swept black hair with red headband, confident grin and stubble. Asymmetric open red/black vest and leather straps with exposed muscular shoulder, conspicuous few GOLD BELLS at belt. Hold curved chain sickle with a clear slack chain. Bold red scarf, no symmetric default gold armor and no large fur collar.",
+  "directions": {
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/ganning/base-final-v1/side.png",
+      "sha256": "e1deb439215c3a6613355a7dc50ad6b81c42a730988f145715c7f26817954594",
+      "foot": [
+        128,
+        224
+      ]
+    },
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/ganning/base-final-v1/front.png",
+      "sha256": "ad761a8664835394a6bca40630205287eb9bd9c6f5b3eca634434b80942281a7",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/ganning/base-final-v1/back.png",
+      "sha256": "71cd2455ad12fa6dd4e7f1bba46d6055c638bdbea7038deac0b36176f741d471",
+      "foot": [
+        128,
+        224
+      ]
+    }
+  },
   "folder": "ganning",
-  "identityDesign": "Gan Ning: roguish athletic pirate warrior, tanned face, unruly swept black hair with red headband, confident grin and stubble. Asymmetric open red/black vest and leather straps with exposed muscular shoulder, conspicuous few GOLD BELLS at belt. Hold curved chain sickle with a clear slack chain. Bold red scarf, no symmetric default gold armor and no large fur collar.",
-  "artRevision": "pixel256-v1",
-  "canvas": [
-    256,
-    256
-  ],
-  "foot": [
+  "right": "mirror-side",
+  "runtimeApplied": false,
+  "logicalFoot": [
     128,
     224
   ],
-  "schemaVersion": 2,
-  "status": "ready-for-review",
-  "runtimeApplied": false,
   "motionComplete": false,
-  "sideFacing": "left",
-  "right": "mirror-side",
-  "directions": {
-    "front": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "ganning",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "sourceCanvas": [
-          1254,
-          1254
-        ],
-        "bodyTopVirtual256": 55,
-        "bodyHeightTarget": 128,
-        "sourceFootVirtual256": 238,
-        "sourceToFinalScale": 0.14279115573334727,
-        "wholeImageOffset": [
-          38,
-          58
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          71,
-          96,
-          164,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
-        "weaponContainFit": false,
-        "runtimeApplied": false,
-        "sha256": "304f61ef32569851ae5d73662347b23cd521385dcd9fdeaa21c9ee243544d4d9"
-      }
-    },
-    "back": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "ganning",
-        "direction": "back",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 86,
-        "bodyHeightTarget": 128,
-        "sourceFootVirtual256": 220,
-        "sourceToFinalScale": 0.19500583208360114,
-        "wholeImageOffset": [
-          6,
-          14
-        ],
-        "groundRoundingCorrection": -1,
-        "visibleBounds": [
-          90,
-          97,
-          181,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "2866fb02ab6529bc392c7a11f295e0d318b53e307b7b84f9010ad7ccea097c9e"
-      }
-    },
-    "side": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "ganning",
-        "direction": "side",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 85,
-        "bodyHeightTarget": 128,
-        "sourceFootVirtual256": 217,
-        "sourceToFinalScale": 0.19796046590304964,
-        "wholeImageOffset": [
-          4,
-          14
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          81,
-          98,
-          167,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "f183779257cdafb481f731a177e373f58f68f7fdeba45f5ea8de44ee6eb88d26"
-      }
-    }
-  },
-  "files": {
-    "front": {
-      "path": "front.png",
-      "sha256": "304f61ef32569851ae5d73662347b23cd521385dcd9fdeaa21c9ee243544d4d9"
-    },
-    "back": {
-      "path": "back.png",
-      "sha256": "2866fb02ab6529bc392c7a11f295e0d318b53e307b7b84f9010ad7ccea097c9e"
-    },
-    "side": {
-      "path": "side.png",
-      "sha256": "f183779257cdafb481f731a177e373f58f68f7fdeba45f5ea8de44ee6eb88d26"
-    }
-  },
-  "sourceProvider": "built-in image_gen",
-  "provenanceFile": "generation.json",
-  "bodyMetrics": {
-    "shoulderWidth": null,
-    "anatomicalHeight": null,
-    "riderJoints": null
-  },
-  "approval": {
-    "frontApproved": false,
-    "fullSetApproved": false
-  }
+  "name": "감녕",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
 }

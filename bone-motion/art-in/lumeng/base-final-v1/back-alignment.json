@@ -1,0 +1,48 @@
+{
+  "id": "lumeng",
+  "view": "back",
+  "source": "bone-motion/art-in/lumeng/base-draft-v1/back.png",
+  "source_sha256": "18A0B3CBB197B6C7FB083AF2F82BD5AEF2F7C163A6A738FDD62191EC83F4FA14",
+  "path": "bone-motion/art-in/lumeng/base-final-v1/back.png",
+  "size": [
+    256,
+    256
+  ],
+  "offset": [
+    3,
+    10
+  ],
+  "foot_roi": [
+    101,
+    164
+  ],
+  "source_foot_y": 214,
+  "target_foot_y": 224.0,
+  "pivot": [
+    128.0,
+    224.0
+  ],
+  "logical_pivot": [
+    128,
+    224
+  ],
+  "source_foot_center": 125.5,
+  "pixel_match": true,
+  "visible_clipped_pixels": 0,
+  "preserved_wrapped_alpha1_speckles": 0,
+  "sha256": "26FCAEE9BFE003A3EC6F227BD8712D061556C384E7D48CF370CA8E255CB38006",
+  "approval": "user-approved-2026-11-18",
+  "scope": "standing artwork and ground alignment only; full rig/motion verification separate",
+  "generation_provenance": {
+    "hero": "lumeng",
+    "name": "여몽",
+    "view": "back",
+    "status": "generated-awaiting-cross-review",
+    "generator": "built-in image_gen",
+    "source": "C:/Users/pms10/.codex/generated_images/01a1edec-e7a8-7b30-a481-c6294875f061/exec-1d15625d-62f4-436a-9fe0-69e973c84718.png",
+    "prompt": "Create ONE productionpixelart BASICNEUTRAL 여몽 sprite, back view. Identity: Lu Meng: mature capable commander, broad thoughtful face, neat black moustache and medium squared beard, practical angular SILVER helmet with modest short pale crest. White surcoat/cape over dark iron armor, crimson sash, long spear. WHITE garment should read from far away; not generic red-gold warrior. Sturdy normal infantry. Charactertrait: 흰옷, 절제된 창.. Reference1 newfront identity/design andbodyproportions tokeep exactly. Reference2 approved ZhangFei/ZhangLiao STYLE: thick confident1-2logicalpixel outline, simple square eyes, broadflat2-3toneclusters, few largehair/beardgroups, sparsegoldbands, no ornatefiligree/finehairlines or repeatingtinypattern. ONE upright spear128px blade24px, RIGHThand grips34pxfromlowerbutt, LEFTempty relaxed. Gripheightat lowerchest so spearbutt aboveground, tipwithinframe. Pure REAR, anatomicalRIGHT appears screenRIGHT, LEFT screenLEFT. No face/beard onback. Back garment is a plain continuous back panel: NO copied front lapels, front apron, jade pendant, chest badge, belt buckle or handheld front prop on the back. Sleeves hang naturally beside torso, elbows bend forward and hands are hidden ahead of torso. Props heldinfrontofchest naturallyhidden. Singlebladecurvature appears horizontallyreversed fromfront; do notswapweaponhands. Naturalstill upright relaxed standingpose, feetparallel, shoulderslevel, no combatgesture. Logical256x256 SQUAREtransparentcanvas. Groundpivot128224. Anatomicalbodyheight124.0px, excludingcrown/plume/weapon, headtop~y100, groundy224. Warrior shoulderjointspan38px timeswidth1. Keepnormalheadsize, fullnessfromtorso notgianthead. Generous margins, DO NOTenlargecharactertofillcanvas. Fullweapon feet cape decorations intact. Orthographic18degreedowncamera, no perspectiveextremes. TRUEtransparentbackground no shadow floor checkerboard text watermark grid labels oradditionalviews. CrispPIXELstepedges; do notswitchto smoothvectorart."
+  },
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

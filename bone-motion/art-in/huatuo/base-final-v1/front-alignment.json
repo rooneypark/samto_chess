@@ -1,0 +1,48 @@
+{
+  "id": "huatuo",
+  "view": "front",
+  "source": "bone-motion/art-in/huatuo/base-draft-v1/front.png",
+  "source_sha256": "6BB2ECD3DBA01DF42F78B8D01F98C9EF7D33357B787307F51D8DB5134779E871",
+  "path": "bone-motion/art-in/huatuo/base-final-v1/front.png",
+  "size": [
+    256,
+    256
+  ],
+  "offset": [
+    1,
+    6
+  ],
+  "foot_roi": [
+    107,
+    154
+  ],
+  "source_foot_y": 218,
+  "target_foot_y": 224.0,
+  "pivot": [
+    128.0,
+    224.0
+  ],
+  "logical_pivot": [
+    128,
+    224
+  ],
+  "source_foot_center": 127.5,
+  "pixel_match": true,
+  "visible_clipped_pixels": 0,
+  "preserved_wrapped_alpha1_speckles": 0,
+  "sha256": "FEEA1A4A3A9483BF1D3618662CF048FE722D14456A7D5167CAC42625B10BE24A",
+  "approval": "user-approved-2026-11-18",
+  "scope": "standing artwork and ground alignment only; full rig/motion verification separate",
+  "generation_provenance": {
+    "hero": "huatuo",
+    "name": "화타",
+    "view": "front",
+    "status": "generated-awaiting-cross-review",
+    "generator": "built-in image_gen",
+    "source": "C:/Users/pms10/.codex/generated_images/01a1edec-e7a8-7b30-a481-c6294875f061/exec-85583962-a947-4d56-be3f-5e4aa59d17e0.png",
+    "prompt": "Create ONE productionpixelart BASICNEUTRAL 화타 sprite, front view. Identity: Hua Tuo: frail gentle elderly physician, long WHITE eyebrows and wispy white beard, white hair in small bun, slight stoop, cream and muted sage robe. Wooden walking staff and green-brown medicine box with simple strap. Slim old body, no armor or martial weapon, clear doctor silhouette. Charactertrait: 지팡이와 약상자.. Reference1 oldidentity only, redraw inapprovedstyle. Reference2 approved ZhangFei/ZhangLiao STYLE: thick confident1-2logicalpixel outline, simple square eyes, broadflat2-3toneclusters, few largehair/beardgroups, sparsegoldbands, no ornatefiligree/finehairlines or repeatingtinypattern. Keep exactly identity-specificprop, notgenericfan replacement. Featherfan24px onlywhereidentitycallsfan; bambooslips/scroll/tablet compact24px infrontofwaist supportedbothhands. Staff upright inRIGHThandwithLEFTempty, headandcrookclear. TorchRIGHThand small flame. Handsstayattachedtotheprop. Pure FRONT, anatomicalRIGHT appears screenLEFT; LEFT appears screenRIGHT. Naturalstill upright relaxed standingpose, feetparallel, shoulderslevel, no combatgesture. Logical256x256 SQUAREtransparentcanvas. Groundpivot128224. Anatomicalbodyheight111.0px, excludingcrown/plume/weapon, headtop~y113, groundy224. Scholar shoulders30px timeswidth1. Keepnormalheadsize, fullnessfromtorso notgianthead. Generous margins, DO NOTenlargecharactertofillcanvas. Fullweapon feet cape decorations intact. Orthographic18degreedowncamera, no perspectiveextremes. TRUEtransparentbackground no shadow floor checkerboard text watermark grid labels oradditionalviews. CrispPIXELstepedges; do notswitchto smoothvectorart."
+  },
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

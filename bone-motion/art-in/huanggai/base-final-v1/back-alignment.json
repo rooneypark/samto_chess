@@ -1,0 +1,48 @@
+{
+  "id": "huanggai",
+  "view": "back",
+  "source": "bone-motion/art-in/huanggai/base-draft-v1/back.png",
+  "source_sha256": "B8D2FB178353B8EB544FCEFF27E7582FBC20D43575C3C7784685A5618AED13F4",
+  "path": "bone-motion/art-in/huanggai/base-final-v1/back.png",
+  "size": [
+    256,
+    256
+  ],
+  "offset": [
+    1,
+    7
+  ],
+  "foot_roi": [
+    101,
+    166
+  ],
+  "source_foot_y": 217,
+  "target_foot_y": 224.0,
+  "pivot": [
+    128.0,
+    224.0
+  ],
+  "logical_pivot": [
+    128,
+    224
+  ],
+  "source_foot_center": 127.0,
+  "pixel_match": true,
+  "visible_clipped_pixels": 0,
+  "preserved_wrapped_alpha1_speckles": 0,
+  "sha256": "426078BE7384EBA4CEBFC545590D0B94F22D71A269A6CE5BA17DE21AE1B9EB4B",
+  "approval": "user-approved-2026-11-18",
+  "scope": "standing artwork and ground alignment only; full rig/motion verification separate",
+  "generation_provenance": {
+    "hero": "huanggai",
+    "name": "황개",
+    "view": "back",
+    "status": "generated-awaiting-cross-review",
+    "generator": "built-in image_gen",
+    "source": "C:/Users/pms10/.codex/generated_images/01a1edec-e7a8-7b30-a481-c6294875f061/exec-363bbcd0-ed76-4997-b790-aed2564474a6.png",
+    "prompt": "Create ONE productionpixelart BASICNEUTRAL 황개 sprite, back view. Identity: Huang Gai: old muscular veteran, WHITE beard and brows, white hair bound with red headband, rugged tanned BARE CHEST and thick arms with subtle readable battle scars. Dark red waist armor and bronze belt. Hold heavy iron whip/flail from existing design. Muscular but not giant, no helmet or cloak. Charactertrait: 맨상체의 노장. 쇠채찍(마디가 있는 굵은 채찍).. Reference1 newfront identity/design andbodyproportions tokeep exactly. Reference2 approved ZhangFei/ZhangLiao STYLE: thick confident1-2logicalpixel outline, simple square eyes, broadflat2-3toneclusters, few largehair/beardgroups, sparsegoldbands, no ornatefiligree/finehairlines or repeatingtinypattern. RIGHT hand holds short handle with slack hanging ironwhip/flail; left hand emptyrelaxed. Tool66px alongits centerline, naturalgravity, nofloating chain. Keepidentityequipment. Pure REAR, anatomicalRIGHT appears screenRIGHT, LEFT screenLEFT. No face/beard onback. Back garment is a plain continuous back panel: NO copied front lapels, front apron, jade pendant, chest badge, belt buckle or handheld front prop on the back. Sleeves hang naturally beside torso, elbows bend forward and hands are hidden ahead of torso. Props heldinfrontofchest naturallyhidden. Singlebladecurvature appears horizontallyreversed fromfront; do notswapweaponhands. Naturalstill upright relaxed standingpose, feetparallel, shoulderslevel, no combatgesture. Logical256x256 SQUAREtransparentcanvas. Groundpivot128224. Anatomicalbodyheight124.0px, excludingcrown/plume/weapon, headtop~y100, groundy224. Warrior shoulderjointspan38px timeswidth1. Keepnormalheadsize, fullnessfromtorso notgianthead. Generous margins, DO NOTenlargecharactertofillcanvas. Fullweapon feet cape decorations intact. Orthographic18degreedowncamera, no perspectiveextremes. TRUEtransparentbackground no shadow floor checkerboard text watermark grid labels oradditionalviews. CrispPIXELstepedges; do notswitchto smoothvectorart."
+  },
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

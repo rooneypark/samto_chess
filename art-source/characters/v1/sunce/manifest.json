@@ -1,204 +1,56 @@
 {
+  "sideFacing": "left",
+  "artRevision": "ground-body-v1",
   "id": "sunce",
-  "name": "손책",
   "faction": "오",
-  "order": 30,
-  "identity": "Youthful Wu ruler with a low bronze-gold coronet and compact red ribbon, broad dark bronze and red armor trimmed in gold, a substantial vermilion command cloak, and two short ji halberds held asymmetrically (right upright, left low).",
+  "directions": {
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/sunce/base-final-v1/side.png",
+      "sha256": "d86cbb7b538e4744d22781b63d01c11adc2c250ca8a6fc652c9aab1eb2fd3099",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/sunce/base-final-v1/front.png",
+      "sha256": "a4c825d6924be7edbb68fde4cc64b9bda58b83521ab3e9701c4258d463eb6504",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/sunce/base-final-v1/back.png",
+      "sha256": "e96729a37f535635808127064659899b664aca9f4b0ab4990bc33ec2211af2be",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    }
+  },
   "folder": "sunce",
-  "identityDesign": "Youthful Wu ruler with a low bronze-gold coronet and compact red ribbon, broad dark bronze and red armor trimmed in gold, a substantial vermilion command cloak, and two short ji halberds held asymmetrically (right upright, left low).",
-  "artRevision": "pixel256-v1",
-  "canvas": [
-    256,
-    256
-  ],
-  "foot": [
+  "right": "mirror-side",
+  "runtimeApplied": false,
+  "logicalFoot": [
     128,
     224
   ],
-  "schemaVersion": 2,
-  "status": "ready-for-review",
-  "runtimeApplied": false,
   "motionComplete": false,
-  "sideFacing": "left",
-  "right": "mirror-side",
-  "directions": {
-    "front": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "sunce",
-        "direction": "front",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "sourceCanvas": [
-          1254,
-          1254
-        ],
-        "bodyTopVirtual256": 92,
-        "sourceFootVirtual256": 226,
-        "bodyHeightTarget": 128,
-        "sourceToFinalScale": 0.19457735247208932,
-        "wholeImageOffset": [
-          6,
-          9
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          78,
-          88,
-          177,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "bodyAnchorMethod": "Visually inspected crown/head and soles in locked turnaround; nearest-neighbor scale and translate; weapon and ribbon excluded from body target.",
-        "weaponContainFit": false,
-        "runtimeApplied": false,
-        "sha256": "16752e613a2f6aca8af6ce332d72bb6270ad8a54a758320b62e196146c94589a",
-        "sourceSha256": "ed4cd1a5c096e8b5171bc6e0c34a1d7404cdcfbe0f8ae51abbf4761aee3d9741"
-      }
-    },
-    "back": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "sunce",
-        "direction": "back",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "sourceCanvas": [
-          1254,
-          1254
-        ],
-        "bodyTopVirtual256": 92,
-        "sourceFootVirtual256": 226,
-        "bodyHeightTarget": 128,
-        "sourceToFinalScale": 0.19457735247208932,
-        "wholeImageOffset": [
-          7,
-          8
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          77,
-          87,
-          177,
-          224
-        ],
-        "clippedVisiblePixels": 0,
-        "bodyAnchorMethod": "Visually inspected crown/head and soles in locked turnaround; nearest-neighbor scale and translate; weapon and ribbon excluded from body target.",
-        "weaponContainFit": false,
-        "runtimeApplied": false,
-        "sha256": "d451c0b4446bd34b59f6f5cb82a5c13a73c0e70758005fc8997b3562bc1a1a0b",
-        "sourceSha256": "4c04afc16ba3e652d34f8cae095623aabc1a0bafd332cd640df1529f924a0ea3"
-      }
-    },
-    "side": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "sunce",
-        "direction": "side",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "sourceCanvas": [
-          1254,
-          1254
-        ],
-        "bodyTopVirtual256": 92,
-        "sourceFootVirtual256": 226,
-        "bodyHeightTarget": 128,
-        "sourceToFinalScale": 0.19537480063795853,
-        "wholeImageOffset": [
-          11,
-          8
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          93,
-          88,
-          170,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "bodyAnchorMethod": "Visually inspected crown/head and soles in locked turnaround; nearest-neighbor scale and translate; weapon and ribbon excluded from body target.",
-        "weaponContainFit": false,
-        "runtimeApplied": false,
-        "sha256": "c93f837694a68ebd3aeb65ca6f1d579420f579ac944e45b21049e222f73c3b6c",
-        "sourceSha256": "cd4ded311273b9d512136f369d13fe13623a6f9a8c033691002419440759ac88"
-      }
-    }
-  },
-  "files": {
-    "front": {
-      "path": "front.png",
-      "sha256": "16752e613a2f6aca8af6ce332d72bb6270ad8a54a758320b62e196146c94589a"
-    },
-    "back": {
-      "path": "back.png",
-      "sha256": "d451c0b4446bd34b59f6f5cb82a5c13a73c0e70758005fc8997b3562bc1a1a0b"
-    },
-    "side": {
-      "path": "side.png",
-      "sha256": "c93f837694a68ebd3aeb65ca6f1d579420f579ac944e45b21049e222f73c3b6c"
-    }
-  },
-  "sourceProvider": "built-in image_gen",
-  "provenanceFile": "generation.json",
-  "bodyMetrics": {
-    "shoulderWidth": null,
-    "anatomicalHeight": null,
-    "riderJoints": null
-  },
-  "approval": {
-    "frontApproved": true,
-    "fullSetApproved": false
-  }
+  "name": "손책",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
 }

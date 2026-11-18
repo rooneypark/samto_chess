@@ -1,192 +1,56 @@
 {
+  "sideFacing": "left",
+  "artRevision": "ground-body-v1",
   "id": "sunquan",
-  "name": "손권",
   "faction": "오",
-  "order": 32,
-  "identity": "Sun Quan: mature dignified ruler, broad face, long FULL REDDISH-BROWN beard, thick eyebrows. Low gold crown on brown-black tied hair, rich burgundy court robe over understated armor, purple-patterned central panel simplified to large blocks, wide draped sleeves. Hold straight sword by hilt. Distinct from Cao Cao's short forked dark beard and navy armor; average lord body.",
+  "directions": {
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/sunquan/base-final-v1/side.png",
+      "sha256": "2cb87cadac31cd9b257fc1aeeb55aa3c7cc1e006b7e9bab35fb2ede15e3a20fc",
+      "foot": [
+        128,
+        224
+      ]
+    },
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/sunquan/base-final-v1/front.png",
+      "sha256": "5d4d94b9b1fc317f148a57537e07f77a78183b1c7b4a9810129b813c6e204c46",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/sunquan/base-final-v1/back.png",
+      "sha256": "134f91a59759e804de3322166e811628a3d8dab37b2503847b9d0199da2d376a",
+      "foot": [
+        128,
+        224
+      ]
+    }
+  },
   "folder": "sunquan",
-  "identityDesign": "Sun Quan: mature dignified ruler, broad face, long FULL REDDISH-BROWN beard, thick eyebrows. Low gold crown on brown-black tied hair, rich burgundy court robe over understated armor, purple-patterned central panel simplified to large blocks, wide draped sleeves. Hold straight sword by hilt. Distinct from Cao Cao's short forked dark beard and navy armor; average lord body.",
-  "artRevision": "pixel256-v1",
-  "canvas": [
-    256,
-    256
-  ],
-  "foot": [
+  "right": "mirror-side",
+  "runtimeApplied": false,
+  "logicalFoot": [
     128,
     224
   ],
-  "schemaVersion": 2,
-  "status": "ready-for-review",
-  "runtimeApplied": false,
   "motionComplete": false,
-  "sideFacing": "left",
-  "right": "mirror-side",
-  "directions": {
-    "front": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "sunquan",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "sourceCanvas": [
-          1254,
-          1254
-        ],
-        "bodyTopVirtual256": 67,
-        "bodyHeightTarget": 128,
-        "sourceFootVirtual256": 235,
-        "sourceToFinalScale": 0.15554036606668184,
-        "wholeImageOffset": [
-          30,
-          45
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          84,
-          84,
-          169,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
-        "weaponContainFit": false,
-        "runtimeApplied": false,
-        "sha256": "6a78efc1caaf60d0ca80aade645aa0e3a54378eee3aa23d45f7cc4c2d5e7682b"
-      }
-    },
-    "back": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "sunquan",
-        "direction": "back",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 78,
-        "bodyHeightTarget": 128,
-        "sourceFootVirtual256": 207,
-        "sourceToFinalScale": 0.20256419766823683,
-        "wholeImageOffset": [
-          1,
-          19
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          88,
-          88,
-          170,
-          226
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "5818c2995c0c1b410d25c61c7b4b49617a87cf4de05ca1361297f12343931d68"
-      }
-    },
-    "side": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "sunquan",
-        "direction": "side",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 92,
-        "bodyHeightTarget": 128,
-        "sourceFootVirtual256": 218,
-        "sourceToFinalScale": 0.2073871547555758,
-        "wholeImageOffset": [
-          -2,
-          3
-        ],
-        "groundRoundingCorrection": -1,
-        "visibleBounds": [
-          94,
-          87,
-          160,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "c7fca460997113b7106fcdc7819e6a48fe34df3d994c9fec603f2f3770611967"
-      }
-    }
-  },
-  "files": {
-    "front": {
-      "path": "front.png",
-      "sha256": "6a78efc1caaf60d0ca80aade645aa0e3a54378eee3aa23d45f7cc4c2d5e7682b"
-    },
-    "back": {
-      "path": "back.png",
-      "sha256": "5818c2995c0c1b410d25c61c7b4b49617a87cf4de05ca1361297f12343931d68"
-    },
-    "side": {
-      "path": "side.png",
-      "sha256": "c7fca460997113b7106fcdc7819e6a48fe34df3d994c9fec603f2f3770611967"
-    }
-  },
-  "sourceProvider": "built-in image_gen",
-  "provenanceFile": "generation.json",
-  "bodyMetrics": {
-    "shoulderWidth": null,
-    "anatomicalHeight": null,
-    "riderJoints": null
-  },
-  "approval": {
-    "frontApproved": false,
-    "fullSetApproved": false
-  }
+  "name": "손권",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
 }

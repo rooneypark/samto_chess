@@ -1,192 +1,56 @@
 {
+  "sideFacing": "left",
+  "artRevision": "ground-body-v1",
   "id": "xuchu",
-  "name": "허저",
   "faction": "위",
-  "order": 18,
-  "identity": "Xu Chu: very broad muscular stocky bodyguard, big forearms and rounded solid torso, fierce square eyes, broad black moustache and short full black beard, dark hair bun bound blue/gold. Preserve our recognizable NAVY armor, WHITE FUR shoulder collar, gold trim and lion belt, heavy spiked IRON MACE held upright. Keep bulky but not taller than cavalry. This established fur collar is his specific signature, not repeated on everyone.",
+  "directions": {
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/xuchu/base-final-v1/side.png",
+      "sha256": "0e96f01cc3829071740272b297d04c7d7449af764c868d3312290889847ceff6",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/xuchu/base-final-v1/front.png",
+      "sha256": "0cb269caaddf7bb952a6b4fe9f36d7b0f2b0802451fe445266215c9fcc1f60c5",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/xuchu/base-final-v1/back.png",
+      "sha256": "462cab6f62391c40847004fb7c11eb9dcb31381a01b153b68930f281129633ba",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    }
+  },
   "folder": "xuchu",
-  "identityDesign": "Xu Chu: very broad muscular stocky bodyguard, big forearms and rounded solid torso, fierce square eyes, broad black moustache and short full black beard, dark hair bun bound blue/gold. Preserve our recognizable NAVY armor, WHITE FUR shoulder collar, gold trim and lion belt, heavy spiked IRON MACE held upright. Keep bulky but not taller than cavalry. This established fur collar is his specific signature, not repeated on everyone.",
-  "artRevision": "pixel256-v1",
-  "canvas": [
-    256,
-    256
-  ],
-  "foot": [
+  "right": "mirror-side",
+  "runtimeApplied": false,
+  "logicalFoot": [
     128,
     224
   ],
-  "schemaVersion": 2,
-  "status": "ready-for-review",
-  "runtimeApplied": false,
   "motionComplete": false,
-  "sideFacing": "left",
-  "right": "mirror-side",
-  "directions": {
-    "front": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "xuchu",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "sourceCanvas": [
-          1254,
-          1254
-        ],
-        "bodyTopVirtual256": 63,
-        "bodyHeightTarget": 130,
-        "sourceFootVirtual256": 236,
-        "sourceToFinalScale": 0.15340505757299186,
-        "wholeImageOffset": [
-          32,
-          47
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          74,
-          76,
-          174,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
-        "weaponContainFit": false,
-        "runtimeApplied": false,
-        "sha256": "261d9cffe7a170fa02e5b5ce08172564b2ceed031d5b447d6d86a6e3d1fceac4"
-      }
-    },
-    "back": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "xuchu",
-        "direction": "back",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 93,
-        "bodyHeightTarget": 130,
-        "sourceFootVirtual256": 217,
-        "sourceToFinalScale": 0.21402479806554509,
-        "wholeImageOffset": [
-          -6,
-          -4
-        ],
-        "groundRoundingCorrection": 1,
-        "visibleBounds": [
-          83,
-          77,
-          183,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "877ff00b2dacefbaae9927bb34a2d0fa37230e9663022beab2ef4a53cc0b4940"
-      }
-    },
-    "side": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "xuchu",
-        "direction": "side",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 91,
-        "bodyHeightTarget": 130,
-        "sourceFootVirtual256": 223,
-        "sourceToFinalScale": 0.2010535981827848,
-        "wholeImageOffset": [
-          2,
-          4
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          82,
-          77,
-          162,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "53724ca3c3f3a71464440831ec229a074c2e8961ab542e17a69da4e40216039a"
-      }
-    }
-  },
-  "files": {
-    "front": {
-      "path": "front.png",
-      "sha256": "261d9cffe7a170fa02e5b5ce08172564b2ceed031d5b447d6d86a6e3d1fceac4"
-    },
-    "back": {
-      "path": "back.png",
-      "sha256": "877ff00b2dacefbaae9927bb34a2d0fa37230e9663022beab2ef4a53cc0b4940"
-    },
-    "side": {
-      "path": "side.png",
-      "sha256": "53724ca3c3f3a71464440831ec229a074c2e8961ab542e17a69da4e40216039a"
-    }
-  },
-  "sourceProvider": "built-in image_gen",
-  "provenanceFile": "generation.json",
-  "bodyMetrics": {
-    "shoulderWidth": null,
-    "anatomicalHeight": null,
-    "riderJoints": null
-  },
-  "approval": {
-    "frontApproved": false,
-    "fullSetApproved": false
-  }
+  "name": "허저",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
 }

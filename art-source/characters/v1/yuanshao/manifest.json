@@ -1,192 +1,56 @@
 {
+  "sideFacing": "left",
+  "artRevision": "ground-body-v1",
   "id": "yuanshao",
-  "name": "원소",
   "faction": "군웅",
-  "order": 43,
-  "identity": "Yuan Shao: proud aristocratic commander, dignified long face with neat moustache and pointed beard. Ornate angular GOLD helmet/crown without white pony plume, broad PURPLE shoulder mantle, gold/bronze chest armor over dark noble robe. Hold long spear. Refined noble silhouette and full purple mantle, not ordinary gold infantry.",
+  "directions": {
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/yuanshao/base-final-v1/side.png",
+      "sha256": "7867473f9dc609f4bd6ac04887db512b11058265383757b3c5f643630e506e26",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/yuanshao/base-final-v1/front.png",
+      "sha256": "7603bb5260cfa90d50e7412ae1d73f757828c34aa502b3529f3b0ac1d1c9d672",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/yuanshao/base-final-v1/back.png",
+      "sha256": "a5c493dfb098e189bc42f8e8b7ab9ade55a2bc97a048d18cd5978dbc3c814874",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    }
+  },
   "folder": "yuanshao",
-  "identityDesign": "Yuan Shao: proud aristocratic commander, dignified long face with neat moustache and pointed beard. Ornate angular GOLD helmet/crown without white pony plume, broad PURPLE shoulder mantle, gold/bronze chest armor over dark noble robe. Hold long spear. Refined noble silhouette and full purple mantle, not ordinary gold infantry.",
-  "artRevision": "pixel256-v1",
-  "canvas": [
-    256,
-    256
-  ],
-  "foot": [
+  "right": "mirror-side",
+  "runtimeApplied": false,
+  "logicalFoot": [
     128,
     224
   ],
-  "schemaVersion": 2,
-  "status": "ready-for-review",
-  "runtimeApplied": false,
   "motionComplete": false,
-  "sideFacing": "left",
-  "right": "mirror-side",
-  "directions": {
-    "front": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "yuanshao",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "sourceCanvas": [
-          1254,
-          1254
-        ],
-        "bodyTopVirtual256": 65,
-        "bodyHeightTarget": 128,
-        "sourceFootVirtual256": 233,
-        "sourceToFinalScale": 0.15554036606668184,
-        "wholeImageOffset": [
-          30,
-          46
-        ],
-        "groundRoundingCorrection": 1,
-        "visibleBounds": [
-          81,
-          76,
-          169,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
-        "weaponContainFit": false,
-        "runtimeApplied": false,
-        "sha256": "3368b2e49c60c806615ea257c1ab4659fb2ff5f1ce5b00a5823903989f2f83d1"
-      }
-    },
-    "back": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "yuanshao",
-        "direction": "back",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 93,
-        "bodyHeightTarget": 128,
-        "sourceFootVirtual256": 221,
-        "sourceToFinalScale": 0.20414673046251994,
-        "wholeImageOffset": [
-          0,
-          3
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          90,
-          79,
-          176,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "158b3a5ea8f1f5730587985dc447623b649c3a3faaa5ac453daf2e502be1e01c"
-      }
-    },
-    "side": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "yuanshao",
-        "direction": "side",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 91,
-        "bodyHeightTarget": 128,
-        "sourceFootVirtual256": 224,
-        "sourceToFinalScale": 0.1964720413473876,
-        "wholeImageOffset": [
-          5,
-          8
-        ],
-        "groundRoundingCorrection": 1,
-        "visibleBounds": [
-          85,
-          81,
-          157,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "8669a79610b145d4b665b1581af5af14cfbbd6458281e3519f05a053511cb27e"
-      }
-    }
-  },
-  "files": {
-    "front": {
-      "path": "front.png",
-      "sha256": "3368b2e49c60c806615ea257c1ab4659fb2ff5f1ce5b00a5823903989f2f83d1"
-    },
-    "back": {
-      "path": "back.png",
-      "sha256": "158b3a5ea8f1f5730587985dc447623b649c3a3faaa5ac453daf2e502be1e01c"
-    },
-    "side": {
-      "path": "side.png",
-      "sha256": "8669a79610b145d4b665b1581af5af14cfbbd6458281e3519f05a053511cb27e"
-    }
-  },
-  "sourceProvider": "built-in image_gen",
-  "provenanceFile": "generation.json",
-  "bodyMetrics": {
-    "shoulderWidth": null,
-    "anatomicalHeight": null,
-    "riderJoints": null
-  },
-  "approval": {
-    "frontApproved": false,
-    "fullSetApproved": false
-  }
+  "name": "원소",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
 }

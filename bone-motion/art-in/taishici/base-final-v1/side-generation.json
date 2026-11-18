@@ -1,0 +1,26 @@
+{
+  "id": "taishici",
+  "view": "side",
+  "source": "C:/Users/pms10/.codex/generated_images/01a1edec-e7a8-7b30-a481-c6294875f061/exec-ade22203-c03e-4a0a-b585-06b3c192736e.png",
+  "prompt": "Use case: precise-object-edit. This is a strict THREE-VIEW CHARACTER SIZE CONSISTENCY correction for a pixel-art game, not a redesign.\nImage 1 is the FRONT master: the same hero's exact body scale, head size, torso volume, limb thickness, outfit and drawing style. Image 2 is the TARGET VIEW to redraw. Reconstruct target view at EXACTLY the same physical scale as the front master, same camera elevation and ground plane. Match anatomical head top (exclude tall hats, plumes, hair crests and weapon tips), neck, shoulder, waist, knee and sole heights as projected from the same character. Back view must not become shorter, narrower or childlike. Side view must not become thinner or smaller; naturally it shows body depth instead of frontal shoulder width. Keep the approved frontal design and same chunky bold contours, simple faces, broad flat shadow planes and sparse details. Preserve target camera direction, weapon holding hand, consistent physical weapon blade edge and grip, clothing layer construction and character identity. Rear view never copies front facial features, front belt buckle, breastplate or front apron ornaments.\nCanvas: square transparent, logical 256x256. Foot-ground pivot (128,224). Preserve generous empty canvas surrounding sprite. Do not contain-fit character into a new frame; preserve the FRONT master's exact on-canvas subject scale. No text or guide marks. Output ONLY the requested target view, one character, not a sheet.\nSpecial constraints: Taishi Ci Sturdy mature archer, black helmet red crest, red-black gold armor, bow and back quiver. Match helmet/skull body top y=105, shoulders y=136, waist y=174, feet224. Side is too short/slender; match front robust head/torso/leg thickness. Rear should same armor breadth and anatomical height. Red plume above skull not counted as body height. Preserve actual bow physical length, quiver diagonal and proper grip. TARGET VIEW: strict LEFT SIDE facing screen left. Output exactly one sprite.",
+  "status": "user-approved",
+  "generator": "built-in image_gen",
+  "ground_alignment": {
+    "status": "body-review-pending",
+    "foot": [
+      128,
+      224
+    ],
+    "offset": [
+      -1,
+      -1
+    ],
+    "sha256": "416353D0F9AB06242E9D1C6ED01CDC66584E49D5E361ADD54BB56296E29F66B0",
+    "pixelPreserved": true,
+    "wrappedAlpha1": 0,
+    "source": "side.png"
+  },
+  "comparison": "Frontal master unchanged; anatomical size and proportions visually compared at common ground. Not a full rig pass.",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

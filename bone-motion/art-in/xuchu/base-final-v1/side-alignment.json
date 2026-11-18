@@ -1,0 +1,39 @@
+{
+  "id": "xuchu",
+  "view": "side",
+  "source": "bone-motion/art-in/xuchu/base-review-v1/side.png",
+  "source_sha256": "7BD2483BB4192E7EA83836157A179ADE040FE07D10E6D6991E8EF20AF2169560",
+  "path": "bone-motion/art-in/xuchu/base-final-v1/side.png",
+  "size": [
+    256,
+    256
+  ],
+  "offset": [
+    2,
+    -1
+  ],
+  "foot_roi": [
+    106,
+    146
+  ],
+  "source_foot_y": 225,
+  "target_foot_y": 224.0,
+  "pivot": [
+    128.0,
+    224.0
+  ],
+  "logical_pivot": [
+    128,
+    224
+  ],
+  "source_foot_center": 126.0,
+  "pixel_match": true,
+  "visible_clipped_pixels": 0,
+  "preserved_wrapped_alpha1_speckles": 0,
+  "sha256": "0E96F01CC3829071740272B297D04C7D7449AF764C868D3312290889847CEFF6",
+  "approval": "user-approved-2026-11-18",
+  "scope": "standing artwork and ground alignment only; full rig/motion verification separate",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

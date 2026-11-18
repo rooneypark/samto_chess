@@ -1,0 +1,48 @@
+{
+  "id": "tactician",
+  "view": "back",
+  "source": "bone-motion/art-in/tactician/base-draft-v1/back.png",
+  "source_sha256": "FE3186F3D9BB4A525CE5BC1930C161065C2C96FC3952C50BCCDA3234B8AC198B",
+  "path": "bone-motion/art-in/tactician/base-final-v1/back.png",
+  "size": [
+    256,
+    256
+  ],
+  "offset": [
+    0,
+    16
+  ],
+  "foot_roi": [
+    100,
+    164
+  ],
+  "source_foot_y": 208,
+  "target_foot_y": 224.0,
+  "pivot": [
+    128.0,
+    224.0
+  ],
+  "logical_pivot": [
+    128,
+    224
+  ],
+  "source_foot_center": 128.0,
+  "pixel_match": true,
+  "visible_clipped_pixels": 0,
+  "preserved_wrapped_alpha1_speckles": 3,
+  "sha256": "E1B45F49C67D4A4A42937AAC9F467D39C3F569F666EB6094A7081D0707211867",
+  "approval": "user-approved-2026-11-18",
+  "scope": "standing artwork and ground alignment only; full rig/motion verification separate",
+  "generation_provenance": {
+    "hero": "tactician",
+    "name": "군영참모",
+    "view": "back",
+    "status": "generated-awaiting-cross-review",
+    "generator": "built-in image_gen",
+    "source": "C:/Users/pms10/.codex/generated_images/01a1edec-e7a8-7b30-a481-c6294875f061/exec-4ff78e74-f8e1-4700-a144-1dbe7fa6c2dc.png",
+    "prompt": "Create ONE productionpixelart BASICNEUTRAL 군영참모 sprite, back view. Identity: Camp adviser: ordinary middle-aged scholar, SMALL plain charcoal square cloth cap, pale gray-lilac robe with brown narrow belt, modest short moustache. Hold bundled bamboo slips visibly with both hands. Slender ordinary body, no tall ornate court crown or feathers; subordinate support unit. Charactertrait: 죽간을 든다(부채 자리에).. Reference1 newfront identity/design andbodyproportions tokeep exactly. Reference2 approved ZhangFei/ZhangLiao STYLE: thick confident1-2logicalpixel outline, simple square eyes, broadflat2-3toneclusters, few largehair/beardgroups, sparsegoldbands, no ornatefiligree/finehairlines or repeatingtinypattern. Keep exactly identity-specificprop, notgenericfan replacement. Featherfan24px onlywhereidentitycallsfan; bambooslips/scroll/tablet compact24px infrontofwaist supportedbothhands. Staff upright inRIGHThandwithLEFTempty, headandcrookclear. TorchRIGHThand small flame. Handsstayattachedtotheprop. Pure REAR, anatomicalRIGHT appears screenRIGHT, LEFT screenLEFT. No face/beard onback. Props heldinfrontofchest naturallyhidden. Singlebladecurvature appears horizontallyreversed fromfront; do notswapweaponhands. Naturalstill upright relaxed standingpose, feetparallel, shoulderslevel, no combatgesture. Logical256x256 SQUAREtransparentcanvas. Groundpivot128224. Anatomicalbodyheight111.0px, excludingcrown/plume/weapon, headtop~y113, groundy224. Scholar shoulders30px timeswidth1. Keepnormalheadsize, fullnessfromtorso notgianthead. Generous margins, DO NOTenlargecharactertofillcanvas. Fullweapon feet cape decorations intact. Orthographic18degreedowncamera, no perspectiveextremes. TRUEtransparentbackground no shadow floor checkerboard text watermark grid labels oradditionalviews. CrispPIXELstepedges; do notswitchto smoothvectorart."
+  },
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

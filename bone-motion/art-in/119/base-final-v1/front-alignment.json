@@ -1,0 +1,48 @@
+{
+  "id": "119",
+  "view": "front",
+  "source": "bone-motion/art-in/119/base-draft-v1/front.png",
+  "source_sha256": "B03CF2547CE6AE053593AA4168D02319ACC852974E967FE05A44BA95B025E858",
+  "path": "bone-motion/art-in/119/base-final-v1/front.png",
+  "size": [
+    256,
+    256
+  ],
+  "offset": [
+    -4,
+    -11
+  ],
+  "foot_roi": [
+    100,
+    160
+  ],
+  "source_foot_y": 235,
+  "target_foot_y": 224.0,
+  "pivot": [
+    128.0,
+    224.0
+  ],
+  "logical_pivot": [
+    128,
+    224
+  ],
+  "source_foot_center": 132.0,
+  "pixel_match": true,
+  "visible_clipped_pixels": 0,
+  "preserved_wrapped_alpha1_speckles": 1,
+  "sha256": "4346E961D1DA35773E032761F8E30418F80D51825283477F9C97E5EFC2667B18",
+  "approval": "user-approved-2026-11-18",
+  "scope": "standing artwork and ground alignment only; full rig/motion verification separate",
+  "generation_provenance": {
+    "hero": "119",
+    "name": "여포",
+    "view": "front",
+    "status": "generated-awaiting-cross-review",
+    "generator": "built-in image_gen",
+    "source": "C:/Users/pms10/.codex/generated_images/01a1edec-e7a8-7b30-a481-c6294875f061/exec-35841734-1f79-40ed-9768-64c11b655953.png",
+    "prompt": "Create ONE productionpixelart BASICNEUTRAL 여포 sprite, front view. Identity: Lu Bu: imposing athletic cavalry warlord, proud clean-shaven angular face, small gold crown with TWO long curved crimson pheasant feathers. Black and gold armor, deep red cape, complete two-sided crescent halberd Fangtian Huaji. Existing chestnut/red-brown horse. Keep recognizable two-feather silhouette, no large common fur collar. Charactertrait: 방천화극의 큰 날과 투구의 긴 깃. 당당하게 편 가슴.. Reference1 oldidentity only, redraw inapprovedstyle. Reference2 approved ZhangFei/ZhangLiao STYLE: thick confident1-2logicalpixel outline, simple square eyes, broadflat2-3toneclusters, few largehair/beardgroups, sparsegoldbands, no ornatefiligree/finehairlines or repeatingtinypattern. RIGHT hand upright FangtianHuaji148px, head48px same doublecrescenthalberd silhouetteallviews. Mainhand55pxfromlowerbutt. LEFThandreins. Horseandridernormal163px height, torso110%width, nohorse/headenlargement. Pure FRONT, anatomicalRIGHT appears screenLEFT; LEFT appears screenRIGHT. Naturalstill upright relaxed rider seatedon standinghorse, no combatgesture. Logical256x256 SQUAREtransparentcanvas. Groundpivot128224. Mountedbody163px excludingplumes/weapon; riderheadtop~y68, horseears~y122, saddley149, fourhooves~y216-232. Samehorsebody sizeanddepth asapprovedZhangLiao. Generous margins, DO NOTenlargecharactertofillcanvas. Fullweapon feet cape decorations intact. Orthographic18degreedowncamera, no perspectiveextremes. TRUEtransparentbackground no shadow floor checkerboard text watermark grid labels oradditionalviews. CrispPIXELstepedges; do notswitchto smoothvectorart."
+  },
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

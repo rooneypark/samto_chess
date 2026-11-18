@@ -1,0 +1,48 @@
+{
+  "id": "luxun",
+  "view": "front",
+  "source": "bone-motion/art-in/luxun/base-draft-v1/front.png",
+  "source_sha256": "7CAF363D2065BF600185495327233E60A3081CF2D5904F06FBB3BB2F0C2073BA",
+  "path": "bone-motion/art-in/luxun/base-final-v1/front.png",
+  "size": [
+    256,
+    256
+  ],
+  "offset": [
+    0,
+    2
+  ],
+  "foot_roi": [
+    103,
+    159
+  ],
+  "source_foot_y": 222,
+  "target_foot_y": 224.0,
+  "pivot": [
+    128.0,
+    224.0
+  ],
+  "logical_pivot": [
+    128,
+    224
+  ],
+  "source_foot_center": 128.0,
+  "pixel_match": true,
+  "visible_clipped_pixels": 0,
+  "preserved_wrapped_alpha1_speckles": 0,
+  "sha256": "A960063EF04D4DDCE0403D431F59E9B64D82361565C6C444B27F6B445B177366",
+  "approval": "user-approved-2026-11-18",
+  "scope": "standing artwork and ground alignment only; full rig/motion verification separate",
+  "generation_provenance": {
+    "hero": "luxun",
+    "name": "육손",
+    "view": "front",
+    "status": "generated-awaiting-cross-review",
+    "generator": "built-in image_gen",
+    "source": "C:/Users/pms10/.codex/generated_images/01a1edec-e7a8-7b30-a481-c6294875f061/exec-14dfbad4-9992-42fb-8f7f-ed15aaf27661.png",
+    "prompt": "Create ONE productionpixelart BASICNEUTRAL 육손 sprite, front view. Identity: Lu Xun: youthful but clearly ADULT scholarly commander, smooth clean-shaven oval face, focused fine brows, small close-fitting blue steel cap/helmet, green neck scarf. Slim silver-gray light chest armor over ivory robe with crimson waist sash, red cape edge. Hold small torch as established game equipment. Slim adult shoulders, not a child or plain white-robed magician. Charactertrait: 횃불을 든다(부채 자리에).. Reference1 oldidentity only, redraw inapprovedstyle. Reference2 approved ZhangFei/ZhangLiao STYLE: thick confident1-2logicalpixel outline, simple square eyes, broadflat2-3toneclusters, few largehair/beardgroups, sparsegoldbands, no ornatefiligree/finehairlines or repeatingtinypattern. Keep exactly identity-specificprop, notgenericfan replacement. Featherfan24px onlywhereidentitycallsfan; bambooslips/scroll/tablet compact24px infrontofwaist supportedbothhands. Staff upright inRIGHThandwithLEFTempty, headandcrookclear. TorchRIGHThand small flame. Handsstayattachedtotheprop. Pure FRONT, anatomicalRIGHT appears screenLEFT; LEFT appears screenRIGHT. Naturalstill upright relaxed standingpose, feetparallel, shoulderslevel, no combatgesture. Logical256x256 SQUAREtransparentcanvas. Groundpivot128224. Anatomicalbodyheight111.0px, excludingcrown/plume/weapon, headtop~y113, groundy224. Scholar shoulders30px timeswidth1. Keepnormalheadsize, fullnessfromtorso notgianthead. Generous margins, DO NOTenlargecharactertofillcanvas. Fullweapon feet cape decorations intact. Orthographic18degreedowncamera, no perspectiveextremes. TRUEtransparentbackground no shadow floor checkerboard text watermark grid labels oradditionalviews. CrispPIXELstepedges; do notswitchto smoothvectorart."
+  },
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

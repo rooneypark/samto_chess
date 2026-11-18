@@ -1,0 +1,62 @@
+{
+  "status": "user-approved",
+  "reason": "User identified body scale differences after ground alignment; prior ground check is not a body consistency pass.",
+  "ids": [
+    "0",
+    "119",
+    "xuhuang",
+    "xunyu",
+    "machao",
+    "sunquan",
+    "ganning",
+    "taishici",
+    "sunshangxiang",
+    "diaochan"
+  ],
+  "selected": {
+    "0": {
+      "side": "bone-motion/art-in/0/base-final-v1/side.png",
+      "back": "bone-motion/art-in/0/base-final-v1/back.png"
+    },
+    "119": {
+      "side": "bone-motion/art-in/119/base-final-v1/side.png",
+      "back": "bone-motion/art-in/119/base-final-v1/back.png"
+    },
+    "xuhuang": {
+      "side": "bone-motion/art-in/xuhuang/base-final-v1/side.png",
+      "back": "bone-motion/art-in/xuhuang/base-final-v1/back.png"
+    },
+    "xunyu": {
+      "side": "bone-motion/art-in/xunyu/base-final-v1/side.png",
+      "back": "bone-motion/art-in/xunyu/base-final-v1/back.png"
+    },
+    "machao": {
+      "side": "bone-motion/art-in/machao/base-final-v1/side.png",
+      "back": "bone-motion/art-in/machao/base-final-v1/back.png"
+    },
+    "sunquan": {
+      "side": "bone-motion/art-in/sunquan/base-final-v1/side.png",
+      "back": "bone-motion/art-in/sunquan/base-final-v1/back.png"
+    },
+    "ganning": {
+      "side": "bone-motion/art-in/ganning/base-final-v1/side.png",
+      "back": "bone-motion/art-in/ganning/base-final-v1/back.png"
+    },
+    "taishici": {
+      "side": "bone-motion/art-in/taishici/base-final-v1/side.png",
+      "back": "bone-motion/art-in/taishici/base-final-v1/back.png"
+    },
+    "sunshangxiang": {
+      "side": "bone-motion/art-in/sunshangxiang/base-final-v1/side.png",
+      "back": "bone-motion/art-in/sunshangxiang/base-final-v1/back.png"
+    },
+    "diaochan": {
+      "side": "bone-motion/art-in/diaochan/base-final-v1/side.png",
+      "back": "bone-motion/art-in/diaochan/base-final-v1/back.png"
+    }
+  },
+  "redrawn_views": 20,
+  "front_masters_unchanged": true,
+  "full_rig_verified": false,
+  "approvedAt": "2026-11-18"
+}

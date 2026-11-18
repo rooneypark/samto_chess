@@ -1,192 +1,56 @@
 {
+  "sideFacing": "left",
+  "artRevision": "ground-body-v1",
   "id": "gongsunzan",
-  "name": "공손찬",
   "faction": "군웅",
-  "order": 49,
-  "identity": "Gongsun Zan: mature northern cavalry commander with neatly trimmed moustache and short beard, practical simple STEEL helmet with compact dark crest (NO giant white plume), red neck scarf, gray-iron armor and white shoulder cloak. Mounted on WHITE horse with plain dark leather tack, long spear. Distinct adult bearded commander versus young silver Zhao Yun and lion-helmet Ma Chao.",
+  "directions": {
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/gongsunzan/base-final-v1/side.png",
+      "sha256": "5cf09e64541d3a9f48b52666c9aeea24bc78d6e83ac4c50dddc17356ba3beff2",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/gongsunzan/base-final-v1/front.png",
+      "sha256": "6ec1ee505ebe5fd1d9f138501aa550a32ed6ca2c82bcdf7dfb6e7ca69d91230e",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/gongsunzan/base-final-v1/back.png",
+      "sha256": "6e3fe7182eb2d7a0dd5109a9aa9a93331fdaa41140564e91e41fd4320d3b985f",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    }
+  },
   "folder": "gongsunzan",
-  "identityDesign": "Gongsun Zan: mature northern cavalry commander with neatly trimmed moustache and short beard, practical simple STEEL helmet with compact dark crest (NO giant white plume), red neck scarf, gray-iron armor and white shoulder cloak. Mounted on WHITE horse with plain dark leather tack, long spear. Distinct adult bearded commander versus young silver Zhao Yun and lion-helmet Ma Chao.",
-  "artRevision": "pixel256-v1",
-  "canvas": [
-    256,
-    256
-  ],
-  "foot": [
+  "right": "mirror-side",
+  "runtimeApplied": false,
+  "logicalFoot": [
     128,
     224
   ],
-  "schemaVersion": 2,
-  "status": "ready-for-review",
-  "runtimeApplied": false,
   "motionComplete": false,
-  "sideFacing": "left",
-  "right": "mirror-side",
-  "directions": {
-    "front": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "gongsunzan",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "sourceCanvas": [
-          1254,
-          1254
-        ],
-        "bodyTopVirtual256": 68,
-        "bodyHeightTarget": 166,
-        "sourceFootVirtual256": 234,
-        "sourceToFinalScale": 0.20414673046251994,
-        "wholeImageOffset": [
-          0,
-          -10
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          73,
-          18,
-          172,
-          226
-        ],
-        "clippedVisiblePixels": 0,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
-        "weaponContainFit": false,
-        "runtimeApplied": false,
-        "sha256": "1ab04914d062f0e9437b9a9c38703776e8cebd49c3db78f648a13bdd61f036e5"
-      }
-    },
-    "back": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "gongsunzan",
-        "direction": "back",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 63,
-        "bodyHeightTarget": 166,
-        "sourceFootVirtual256": 223,
-        "sourceToFinalScale": 0.21180223285486446,
-        "wholeImageOffset": [
-          -5,
-          -7
-        ],
-        "groundRoundingCorrection": -1,
-        "visibleBounds": [
-          79,
-          11,
-          181,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "1f1380827c25c8bebe9d3d6c6184bedab44a21bfeda4fb87a121b0ed40b47c11"
-      }
-    },
-    "side": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "gongsunzan",
-        "direction": "side",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 60,
-        "bodyHeightTarget": 166,
-        "sourceFootVirtual256": 223,
-        "sourceToFinalScale": 0.20790403225017365,
-        "wholeImageOffset": [
-          -2,
-          -3
-        ],
-        "groundRoundingCorrection": -1,
-        "visibleBounds": [
-          60,
-          15,
-          186,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "84a3aaae000b956729d9f52fc4666ab1d4338453d690b3994f33f4cb72e7c861"
-      }
-    }
-  },
-  "files": {
-    "front": {
-      "path": "front.png",
-      "sha256": "1ab04914d062f0e9437b9a9c38703776e8cebd49c3db78f648a13bdd61f036e5"
-    },
-    "back": {
-      "path": "back.png",
-      "sha256": "1f1380827c25c8bebe9d3d6c6184bedab44a21bfeda4fb87a121b0ed40b47c11"
-    },
-    "side": {
-      "path": "side.png",
-      "sha256": "84a3aaae000b956729d9f52fc4666ab1d4338453d690b3994f33f4cb72e7c861"
-    }
-  },
-  "sourceProvider": "built-in image_gen",
-  "provenanceFile": "generation.json",
-  "bodyMetrics": {
-    "shoulderWidth": null,
-    "anatomicalHeight": null,
-    "riderJoints": null
-  },
-  "approval": {
-    "frontApproved": false,
-    "fullSetApproved": false
-  }
+  "name": "공손찬",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
 }

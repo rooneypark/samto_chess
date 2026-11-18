@@ -1,0 +1,3806 @@
+{
+  "total": 49,
+  "approved": 49,
+  "review_pending": 0,
+  "incomplete": 0,
+  "views": 147,
+  "new_hero_count": 39,
+  "new_views": 117,
+  "format_issues": [],
+  "validation_scope": "147 ground-aligned views; 20 views redrawn for body consistency and visually compared; All 49 heroes approved on 2026-11-18. Full rig and weapon measurement remain separate.",
+  "records": [
+    {
+      "id": "1",
+      "name": "관우",
+      "family": "mounted_blade",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.1,
+      "weapon_length": 148,
+      "weapon_head": 48,
+      "identity": "Guan Yu: majestic mature red-brown face, very long straight black beard, green folded headcloth, green robe over muted gold/steel armor, broad composed eyes. Mounted on existing chestnut horse, hold complete Green Dragon crescent glaive. Preserve iconic green silhouette, no helmet or giant gold horse mask.",
+      "traits": "침착하게 힘을 모았다가 한 번에 결단하는 기마 월도장. 긴 수염·녹색 도포·기존 갈색 말 유지. 기본 공격은 말이 버티고, 전법은 말과 기수가 함께 상승한다.",
+      "mark": "긴 수염과 청룡언월도. 월도의 날을 크고 넓게(전체 길이는 그대로 두고 날의 비중을 키운다).",
+      "body_standard": 163,
+      "reference": "art-source/characters/v1/1/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/1/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            6,
+            0,
+            247,
+            249
+          ],
+          "sha256": "f14fa554f1ad44ec30b3645c44163cb7b5ddbf4323933970bb9d7c52b1987c65",
+          "alignment": "bone-motion/art-in/1/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/1/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            8,
+            23,
+            232,
+            252
+          ],
+          "sha256": "159c28e9f3ab8d6e784e615ff736955b4efe3e90cc45de1de363af6fc7b14594",
+          "alignment": "bone-motion/art-in/1/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/1/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            10,
+            24,
+            239,
+            248
+          ],
+          "sha256": "dbaffceb603156cb778d0fca735b664d6a377593be59cebcfbd15e15f0eaadde",
+          "alignment": "bone-motion/art-in/1/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "2",
+      "name": "장비",
+      "family": "foot_spear",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.15,
+      "weapon_length": 140,
+      "weapon_head": 36,
+      "identity": "Zhang Fei: broad powerful stocky infantry, round fierce tiger eyes, massive flared BLACK beard, red headband tied around black hair bun, thick exposed forearms, black/red lamellar armor, simple bronze shoulders. Hold long wavy serpentine spear. No fur collar, no silver helmet, no horse. Thick torso similar strength class as Xu Chu, not a giant.",
+      "traits": "넓은 어깨와 거친 기세의 보행 장수. 승인된 덩치·붉은 머리띠·장팔사모를 유지한다. 모든 동작을 거인처럼 확대하지 않는다.",
+      "mark": "장팔사모: 물결치는 뱀 모양의 큰 날. 창이 길어 보이는 것이 이 장수의 특징이다. 넓은 어깨와 굵은 팔.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/2/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/2/base-final-v1/front.png",
+          "size": [
+            1254,
+            1254
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            25,
+            40,
+            1228,
+            1243
+          ],
+          "sha256": "f87a88309aecc8fe6e4d12f526d2abac63b407ba6c5bb189a46b62ead9e0d600",
+          "alignment": "bone-motion/art-in/2/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/2/base-final-v1/side.png",
+          "size": [
+            1254,
+            1254
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            45,
+            30,
+            1244,
+            1249
+          ],
+          "sha256": "78aade5c92f597ffed9626ca2f5f08393e71ec26279ffe2e6d307e7ec219b197",
+          "alignment": "bone-motion/art-in/2/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/2/base-final-v1/back.png",
+          "size": [
+            1254,
+            1254
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            6,
+            10,
+            1228,
+            1244
+          ],
+          "sha256": "e312d18faf9e09ace8df5b9638901b4c5f7ec49b75aab39abb29e9150b62b165",
+          "alignment": "bone-motion/art-in/2/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "15",
+      "name": "조운",
+      "family": "mounted_spear",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 140,
+      "weapon_head": 22,
+      "identity": "Zhao Yun: silver helmet with white plume, silver armor, blue scarf, white cape, spear, white horse; approved front",
+      "traits": "흰말과 은창의 정확하고 절제된 기동장. 가볍지만 몸/말 크기는 승인본 그대로.",
+      "mark": "흰말과 은창. 정확하고 절제된 자세.",
+      "body_standard": 163,
+      "reference": "art-source/characters/v1/15/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/15/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            12,
+            7,
+            243,
+            247
+          ],
+          "sha256": "005efe791e3e09937e61a68022020db8e0ccc7f389d5fb95acb62b26866826d4",
+          "alignment": "bone-motion/art-in/15/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/15/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            10,
+            14,
+            249,
+            251
+          ],
+          "sha256": "ff77684c65a6069a96529cab0db48cb7641e5753e28324eb688a64a3745600c9",
+          "alignment": "bone-motion/art-in/15/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/15/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            10,
+            8,
+            238,
+            247
+          ],
+          "sha256": "d9e8908def39fe18ad8025ec5d0bd3c87adfd232cf9de151d3dc65f671343f8e",
+          "alignment": "bone-motion/art-in/15/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "16",
+      "name": "황충",
+      "family": "bow",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 0,
+      "weapon_head": 0,
+      "identity": "Huang Zhong: aged veteran archer, long WHITE beard and white eyebrows, compact bronze/gold military helmet with modest red tassel, weathered face, green shoulder cloak over bronze lamellar armor. Bow in hand, arrow quiver over shoulder. Older stocky normal warrior, full boots. Distinct from bare-chested Huang Gai.",
+      "traits": "노련한 노궁수. 떨리는 노인이나 젊은 곡예사로 표현하지 않는다. 흰 수염과 원래 활 유지.",
+      "mark": "흰 수염의 노궁수.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/16/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/16/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            24,
+            92,
+            206,
+            253
+          ],
+          "sha256": "dd4de82ed5231ba1de7ae6370129aeee541518faf6e1c0df7f414c42287cc9d2",
+          "alignment": "bone-motion/art-in/16/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/16/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            91,
+            22,
+            199,
+            229
+          ],
+          "sha256": "cb5e7aa737de8d3a04a6522995ea414b67378f8432b7ae0de853cb60e3686645",
+          "alignment": "bone-motion/art-in/16/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/16/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            21,
+            84,
+            190,
+            252
+          ],
+          "sha256": "b9eba4d9e3cf619548cb399c3bcacdc72f2dbcd7120b89e004783645bafbf89c",
+          "alignment": "bone-motion/art-in/16/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "35",
+      "name": "제갈량",
+      "family": "caster",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 0,
+      "weapon_head": 0,
+      "identity": "Zhuge Liang: slender mature scholar, tall but modest navy-blue folded scholar cap, thin long black moustache and narrow pointed beard, calm intelligent eyes, ivory robe with muted jade/green trim. Hold WHITE feather fan at chest. Small plain jade belt, flowing long sleeves. No gold warrior shoulders, not oversized cap.",
+      "traits": "평정심과 계산된 지휘. 승인된 관모 크기·백우선·흰/연녹 도포를 유지하며 화려한 점프 금지.",
+      "mark": "백우선(깃털부채), 관모, 흰·연녹 도포.",
+      "body_standard": 111,
+      "reference": "art-source/characters/v1/35/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/35/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            81,
+            101,
+            226,
+            225
+          ],
+          "sha256": "d437d7820a34166daa71b52a2a8529f91d66fcd9bd9290cc9dd83bbbeedde71c",
+          "alignment": "bone-motion/art-in/35/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/35/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            105,
+            64,
+            152,
+            239
+          ],
+          "sha256": "6f77cfb1c4379f7bc0ea97d451c51c1e5bcec4275d4fe9ac9ad78799b32bc113",
+          "alignment": "bone-motion/art-in/35/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/35/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            102,
+            99,
+            153,
+            224
+          ],
+          "sha256": "ae9204d38099f98fcc8429196badfe74fa9d65ce162947ff3666d6af108b02fa",
+          "alignment": "bone-motion/art-in/35/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "0",
+      "name": "유비",
+      "family": "dual",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 36,
+      "weapon_head": 26,
+      "identity": "Liu Bei: compassionate mature lord, long earlobes, gentle brows, small neat moustache and pointed beard, low restrained gold head ornament. Green and ivory long robe over modest light armor, green cape. Hold TWO distinct swords, each hand gripping its own hilt correctly. Average warrior body, less bulky than Zhang Fei or Xu Chu.",
+      "traits": "동료를 독려하는 온화한 군주. 원래 쌍검·녹색 복식, 장비보다 큰 체격으로 확대하지 않는다.",
+      "mark": "쌍검, 녹색 복식.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/0/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/0/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            18,
+            24,
+            200,
+            247
+          ],
+          "sha256": "07a31250196bc862fa6a5b974d56e22289f69388dd0c480149d11afe6638a6fb",
+          "alignment": "bone-motion/art-in/0/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/0/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            16,
+            18,
+            252,
+            245
+          ],
+          "sha256": "9fe23cc46bb38c67db9165b4a82ac35d668ca841f2729ca85f7929c5573e88ee",
+          "generation": "bone-motion/art-in/0/base-final-v1/side-generation.json",
+          "alignment": "bone-motion/art-in/0/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/0/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            11,
+            17,
+            248,
+            246
+          ],
+          "sha256": "acd704b922561ad1a17508b02f830186b3768448c3008a4fa89348938d95620b",
+          "generation": "bone-motion/art-in/0/base-final-v1/back-generation.json",
+          "alignment": "bone-motion/art-in/0/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "32",
+      "name": "조조",
+      "family": "command",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 36,
+      "weapon_head": 26,
+      "identity": "Cao Cao: mature ambitious lord with broad authoritative brow, sharp eyes, neat moustache and divided pointed beard. Low gold crown on black hair, dark navy and black gold-trimmed court armor, deep red shoulder cape, dignified layered tabard. Hold ONE straight sword by its hilt, other hand empty. Average body, not giant.",
+      "traits": "짧고 단호한 군령. 금관·남색 금장·붉은 망토 유지, 새로운 대검/깃발을 만들지 않는다. 손에 쥔 원화 소품은 실제 입력에서 확인한다.",
+      "mark": "금관, 남색 금장, 붉은 망토.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/32/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/32/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            12,
+            41,
+            241,
+            250
+          ],
+          "sha256": "920598a94d648a6c06aff919d2c55da19b282046c0fa1fdf7c1e7321107cee9d",
+          "alignment": "bone-motion/art-in/32/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/32/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            104,
+            92,
+            183,
+            247
+          ],
+          "sha256": "8abd25aa248aa44460097f676d3d625f150e25de83cdd352f9ff68819bc3be0b",
+          "alignment": "bone-motion/art-in/32/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/32/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            26,
+            63,
+            238,
+            241
+          ],
+          "sha256": "b06b15f5130449bfb891056bde50384622ad0e2b1b8dba2ea2fc8475a56759ec",
+          "alignment": "bone-motion/art-in/32/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "33",
+      "name": "하후돈",
+      "family": "foot_spear",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 128,
+      "weapon_head": 24,
+      "identity": "Xiahou Dun: rugged muscular veteran, distinctive BLACK EYEPATCH on one eye, angular brow, short coarse black beard. Angular bronze/gold military helmet framing the face, dark blue steel armor, blue shoulder scarf. Full long spear. Remove generic fur collar and topknot silhouette, preserve one-eye identity. On foot.",
+      "traits": "안대와 강한 전열 자세. 긴 창을 들며 통증을 버티는 연기, 눈 부상 재현 금지.",
+      "mark": "안대. 긴 창.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/33/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/33/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            9,
+            26,
+            238,
+            255
+          ],
+          "sha256": "3602d1c0d97b50410de01c9a94f30f687240ce1e640115a0c3bb93fe768523bb",
+          "alignment": "bone-motion/art-in/33/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/33/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            36,
+            67,
+            239,
+            254
+          ],
+          "sha256": "4e9028768f5faf9cefcdc1d844204b8aaf7e0ad88b748da8226b94366ec7e9f0",
+          "alignment": "bone-motion/art-in/33/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/33/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            19,
+            40,
+            238,
+            255
+          ],
+          "sha256": "81db9183a940ed60f907a18df92e727bb7fdc5a687aead765b9fd49479c58a1f",
+          "alignment": "bone-motion/art-in/33/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "34",
+      "name": "장료",
+      "family": "mounted_blade",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 148,
+      "weapon_head": 36,
+      "identity": "Zhang Liao: mature disciplined cavalry commander, pronounced straight moustache and neat tapered black beard, stern narrow eyes. Angular RIDGED BRONZE military helmet with rust-red center crest/plate and small dark plume, violet neck scarf, bronze and dark steel plate armor, restrained navy cape. NO white fur collar and NO loose topknot. Mounted on existing gray horse holding long crescent glaive. Clearly distinct from Xiahou Dun and silver Zhao Yun.",
+      "traits": "절제된 기마 지휘관의 급습. 현재 말 폭과 월도 유지, 관우처럼 높이 말세우기 금지.",
+      "mark": "절제된 기마 지휘관. 월도는 관우보다 작게.",
+      "body_standard": 163,
+      "reference": "art-source/characters/v1/34/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/34/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            8,
+            7,
+            252,
+            246
+          ],
+          "sha256": "df4866bf69379e98573ab53fc9fd57733a4da47ef397999b61ba2ba85b1d27e3",
+          "alignment": "bone-motion/art-in/34/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/34/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            19,
+            0,
+            240,
+            250
+          ],
+          "sha256": "65e3f5ac0beeaf0bcb54411575ec3b2699aaeb38e7a7ddeddebebc8b47daea4a",
+          "alignment": "bone-motion/art-in/34/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/34/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            15,
+            21,
+            238,
+            235
+          ],
+          "sha256": "84fa2866b876dc4871388339f07b9b278454623011f3ccc722d92961cb889d7d",
+          "alignment": "bone-motion/art-in/34/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "77",
+      "name": "주유",
+      "family": "sword",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 40,
+      "weapon_head": 30,
+      "identity": "Zhou Yu: youthful elegant clean-shaven commander, long dark hair behind shoulders with small red-gold hair binding, composed handsome square-pixel face. White/ivory broad shoulder cape, deep crimson inner robe and narrow dark armor at chest, restrained gold trim. Hold elegant straight commander sword by hilt. Slender normal warrior, not bulky fur-collared soldier.",
+      "traits": "세련된 절도와 확신을 가진 화공 지휘관. 원화의 지휘검, 붉은 망토 유지.",
+      "mark": "지휘검, 붉은 망토.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/77/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/77/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            31,
+            29,
+            252,
+            250
+          ],
+          "sha256": "cef6d752d90b98930d25b67cddb183d2b0f295bc04b05b3e6278f502c62f40ae",
+          "alignment": "bone-motion/art-in/77/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/77/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            42,
+            27,
+            255,
+            246
+          ],
+          "sha256": "71ccf0edd09add80301f58ad92d42cca9293fcfd2e178a00ca5df41949a81aba",
+          "alignment": "bone-motion/art-in/77/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/77/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            0,
+            1,
+            232,
+            252
+          ],
+          "sha256": "a5f370a0aa40b3d5c5ac536a475005c995a165c872324b370e3949fe6dd4a673",
+          "alignment": "bone-motion/art-in/77/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "119",
+      "name": "여포",
+      "family": "mounted_blade",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.1,
+      "weapon_length": 148,
+      "weapon_head": 48,
+      "identity": "Lu Bu: imposing athletic cavalry warlord, proud clean-shaven angular face, small gold crown with TWO long curved crimson pheasant feathers. Black and gold armor, deep red cape, complete two-sided crescent halberd Fangtian Huaji. Existing chestnut/red-brown horse. Keep recognizable two-feather silhouette, no large common fur collar.",
+      "traits": "우월감을 드러내는 넓고 강한 기마 동작. 긴 깃·방천화극·기존 말의 외곽 보존.",
+      "mark": "방천화극의 큰 날과 투구의 긴 깃. 당당하게 편 가슴.",
+      "body_standard": 163,
+      "reference": "art-source/characters/v1/119/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/119/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            4,
+            1,
+            248,
+            252
+          ],
+          "sha256": "4346e961d1da35773e032761f8e30418f80d51825283477f9c97e5efc2667b18",
+          "alignment": "bone-motion/art-in/119/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/119/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            0,
+            2,
+            255,
+            253
+          ],
+          "sha256": "975b93fb026b6bdcf2378ca54453b95de9fb249bf2edb9ae63ca6ad95c0b1ca3",
+          "generation": "bone-motion/art-in/119/base-final-v1/side-generation.json",
+          "alignment": "bone-motion/art-in/119/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/119/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            10,
+            10,
+            226,
+            224
+          ],
+          "sha256": "3b35001d80a2262823cb606ca7e95d7e01b8b547534dd402921499b456dca1d1",
+          "generation": "bone-motion/art-in/119/base-final-v1/back-generation.json",
+          "alignment": "bone-motion/art-in/119/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "infantry",
+      "name": "의용보병",
+      "family": "spear_shield",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 104,
+      "weapon_head": 20,
+      "identity": "Volunteer infantry: ordinary rank-and-file sturdy adult, simple dark cloth cap or plain leather helmet, modest short moustache. Muted brown/gray leather and plain iron lamellar vest, subdued plum sash. Hold a straight spear and SIMPLE WOODEN shield with metal rim, not gilded royal lion shield. Visually less ornate than named generals.",
+      "traits": "일반 병사의 정직한 창·방패 동작. 영웅처럼 큰 도약이나 위압을 넣지 않는다.",
+      "mark": "일반 병사. 창과 둥근 방패.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/infantry/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/infantry/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            10,
+            5,
+            247,
+            249
+          ],
+          "sha256": "7a9a2add04fa926b4c3764faad6a0286a3b8d395d87f249ef016833b93a62b3a",
+          "alignment": "bone-motion/art-in/infantry/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/infantry/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            53,
+            43,
+            241,
+            254
+          ],
+          "sha256": "3b5792f9f07d6aa0e4b1bbff47e5a3c2d46b263988aa76c3376460f80219fe9a",
+          "alignment": "bone-motion/art-in/infantry/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/infantry/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            44,
+            48,
+            214,
+            249
+          ],
+          "sha256": "2266e242ec930bdb1634df8b21d3be43acd77c928e8d682c6bee68ed2580d74c",
+          "alignment": "bone-motion/art-in/infantry/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "archer",
+      "name": "의용궁병",
+      "family": "bow",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 0,
+      "weapon_head": 0,
+      "identity": "Volunteer archer: ordinary adult foot soldier, broad woven STRAW HAT, plain tan/brown cloth tunic with modest iron chest vest, muted red sash. Simple wooden bow and arrow quiver. Slim average rank-and-file body, few ornaments, no gold noble shoulders or giant beard.",
+      "traits": "삿갓의 평범한 궁수. 영웅 궁수보다 짧고 단순한 조준, 활과 화살통 유지.",
+      "mark": "삿갓, 화살통.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/archer/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/archer/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            8,
+            45,
+            224,
+            256
+          ],
+          "sha256": "92105b491eaeb52cb0b1cb1d5e5cbbeec934335554225434fc2ac2cf95d1a8d4",
+          "alignment": "bone-motion/art-in/archer/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/archer/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            18,
+            36,
+            240,
+            255
+          ],
+          "sha256": "f9bca878b098288dbdca87124096c8de53789dee9529175d4671f9a4f4766ecf",
+          "alignment": "bone-motion/art-in/archer/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/archer/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            8,
+            6,
+            249,
+            249
+          ],
+          "sha256": "7cbc054b4097c3bcb55410d3b910b2667db889c49943753d7cdf9e5727b0ac0e",
+          "alignment": "bone-motion/art-in/archer/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "tactician",
+      "name": "군영참모",
+      "family": "caster",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 0,
+      "weapon_head": 0,
+      "identity": "Camp adviser: ordinary middle-aged scholar, SMALL plain charcoal square cloth cap, pale gray-lilac robe with brown narrow belt, modest short moustache. Hold bundled bamboo slips visibly with both hands. Slender ordinary body, no tall ornate court crown or feathers; subordinate support unit.",
+      "traits": "죽간을 들고 실무를 보는 일반 지원병. 제갈량의 큰 부채 안무와 구별한다.",
+      "mark": "죽간을 든다(부채 자리에).",
+      "body_standard": 111,
+      "reference": "art-source/characters/v1/tactician/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/tactician/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            67,
+            27,
+            237,
+            245
+          ],
+          "sha256": "f476688a0635ead8ac03298d4ca2f0f51cc9164198e281ebedfc7be46740c207",
+          "alignment": "bone-motion/art-in/tactician/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/tactician/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            27,
+            0,
+            222,
+            252
+          ],
+          "sha256": "80815a23294173fcc40b85bd71792470aa973fb6196b74152b6a1771df5ba1b3",
+          "alignment": "bone-motion/art-in/tactician/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/tactician/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            14,
+            9,
+            219,
+            256
+          ],
+          "sha256": "e1b45f49c67d4a4a42937aac9f467d39c3f569f666eb6094a7081d0707211867",
+          "alignment": "bone-motion/art-in/tactician/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "simayi",
+      "name": "사마의",
+      "family": "caster",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 0,
+      "weapon_head": 0,
+      "identity": "Sima Yi: severe elderly-thin strategist, long narrow face, hooded sharp eyes, slim moustache and long narrow gray-black beard. Tall angular BLACK official crown, high pale inner collar and enveloping black/navy robe with restrained purple trim. Hold compact dark-gray feather fan low. Outline must differ from Zhuge Liang's white loose robe and rounded blue cap.",
+      "traits": "움직임을 아끼다가 날카롭게 명령하는 책사. 검은 도포·현재 깃털부채 유지.",
+      "mark": "검은 도포, 깃털부채.",
+      "body_standard": 111,
+      "reference": "art-source/characters/v1/simayi/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/simayi/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            0,
+            60,
+            189,
+            226
+          ],
+          "sha256": "4449a41b0bcfe81a622a84e565a77ab4b101e0ae2df0b84ed2b6d7679df378f2",
+          "alignment": "bone-motion/art-in/simayi/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/simayi/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            17,
+            8,
+            250,
+            251
+          ],
+          "sha256": "fc3abef88ba605dc4e10e0322823f4e464d38450b6408e413f4fb36e52a44503",
+          "alignment": "bone-motion/art-in/simayi/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/simayi/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            60,
+            83,
+            185,
+            247
+          ],
+          "sha256": "49e8cf73856754445a60802897e24052e8558fed43b9f4ba3c5a6c8dda11a512",
+          "alignment": "bone-motion/art-in/simayi/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "dianwei",
+      "name": "전위",
+      "family": "dual",
+      "status": "user-approved-ground-aligned",
+      "height": 1.05,
+      "width": 1.15,
+      "weapon_length": 36,
+      "weapon_head": 26,
+      "identity": "Dian Wei: extremely muscular stocky bodyguard but same tallness class as Xu Chu, thick neck, broad square jaw, dark coarse sideburns and short bristly beard, black tied hair with simple headband. Dark iron chest armor, leather straps, thick exposed upper arms, blue-black sash. TWO heavy short iron ji halberds with side blades, one per hand. No shiny gold default shoulder lions.",
+      "traits": "쌍철극과 견고한 호위 태세. 허저와 같은 둔중함 안에서도 양팔의 대칭 방어가 특징.",
+      "mark": "허저와 같은 급의 큰 몸. 양손의 쌍철극이 굵고 무겁다.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/dianwei/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/dianwei/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            3,
+            21,
+            232,
+            255
+          ],
+          "sha256": "3aa802a92c689da803602717e2fb8f69dad1bb8f659613200948486d1f00e50d",
+          "alignment": "bone-motion/art-in/dianwei/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/dianwei/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            26,
+            17,
+            255,
+            253
+          ],
+          "sha256": "bb519f304aa7a5f8d90a00ca04e9a174a1fa84a3d9dc03af51ca3021a1eeab9a",
+          "alignment": "bone-motion/art-in/dianwei/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/dianwei/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            3,
+            2,
+            196,
+            247
+          ],
+          "sha256": "ddf203e9c0d9f8d0320a7891b402033c2c85c096d5d50445f4fb07d289ea0e1c",
+          "alignment": "bone-motion/art-in/dianwei/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "guojia",
+      "name": "곽가",
+      "family": "caster",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 0.92,
+      "weapon_length": 0,
+      "weapon_head": 0,
+      "identity": "Guo Jia: young slender clean-shaven strategist, pale warm skin, relaxed clever narrow eyes. Long dark hair tied loosely without tall official hat, blue-gray scholar robe with indigo collar and subtle bronze trim, soft draped sleeves. Hold bamboo slips. Physically fine-boned adult, not child, distinct from mature crowned Xun Yu.",
+      "traits": "마른 체격, 힘을 덜 쓰는 예리한 책사. 병약함은 작은 숨과 어깨로만 표현하고 반복 기침 개그 금지.",
+      "mark": "마른 체격. 죽간.",
+      "body_standard": 111,
+      "reference": "art-source/characters/v1/guojia/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/guojia/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            94,
+            22,
+            246,
+            247
+          ],
+          "sha256": "c267da709a5abd44388d7b08c220dee43cccc7e82cfb7cb43c75bdd79add4e5f",
+          "alignment": "bone-motion/art-in/guojia/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/guojia/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            64,
+            48,
+            208,
+            253
+          ],
+          "sha256": "4e98c23a2d2697ea384e29f4f184e1ce453cc81a03f052fabc81d74f62b82105",
+          "alignment": "bone-motion/art-in/guojia/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/guojia/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            36,
+            77,
+            157,
+            243
+          ],
+          "sha256": "217c64af23826b0d3bd01b14276053ee6e3a36138df9565784f103f41340a2d4",
+          "alignment": "bone-motion/art-in/guojia/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "xuchu",
+      "name": "허저",
+      "family": "heavy",
+      "status": "user-approved-ground-aligned",
+      "height": 1.06,
+      "width": 1.15,
+      "weapon_length": 78,
+      "weapon_head": 28,
+      "identity": "Xu Chu: very broad muscular stocky bodyguard, big forearms and rounded solid torso, fierce square eyes, broad black moustache and short full black beard, dark hair bun bound blue/gold. Preserve our recognizable NAVY armor, WHITE FUR shoulder collar, gold trim and lion belt, heavy spiked IRON MACE held upright. Keep bulky but not taller than cavalry. This established fur collar is his specific signature, not repeated on everyone.",
+      "traits": "큰 몸집과 짧은 폭발력의 철퇴장. 남색 갑옷·흰 털깃·현재 철퇴, 곤봉/대도로 교체 금지.",
+      "mark": "큰 몸집. 어깨·몸통·팔을 넓게. 머리는 키우지 않는다. 철퇴의 머리를 크고 무겁게.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/xuchu/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/xuchu/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            62,
+            14,
+            249,
+            251
+          ],
+          "sha256": "0cb269caaddf7bb952a6b4fe9f36d7b0f2b0802451fe445266215c9fcc1f60c5",
+          "alignment": "bone-motion/art-in/xuchu/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/xuchu/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            84,
+            64,
+            161,
+            249
+          ],
+          "sha256": "0e96f01cc3829071740272b297d04c7d7449af764c868d3312290889847ceff6",
+          "alignment": "bone-motion/art-in/xuchu/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/xuchu/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            21,
+            36,
+            195,
+            249
+          ],
+          "sha256": "462cab6f62391c40847004fb7c11eb9dcb31381a01b153b68930f281129633ba",
+          "alignment": "bone-motion/art-in/xuchu/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "xiahouyuan",
+      "name": "하후연",
+      "family": "bow",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 0,
+      "weapon_head": 0,
+      "identity": "Xiahou Yuan: hardy middle-aged archer general, short bristly beard, intense alert eyes, low rounded DARK STEEL helmet with cheek flaps, BLUE scarf, practical dark lamellar armor and modest leather bracers. Wooden recurve bow and quiver. Broad normal warrior body, no fur mantle and no eye patch. Distinct from old white-bearded Huang Zhong.",
+      "traits": "준비와 회수가 짧은 민첩한 궁수. 황충의 긴 조준과 반대로 빠르고 실용적.",
+      "mark": "민첩한 궁수.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/xiahouyuan/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/xiahouyuan/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            10,
+            28,
+            239,
+            253
+          ],
+          "sha256": "cd4e103aff7e5fc5933de59b61cea989134bea88880a771c4c05a208094b4be1",
+          "alignment": "bone-motion/art-in/xiahouyuan/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/xiahouyuan/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            21,
+            95,
+            240,
+            256
+          ],
+          "sha256": "462c8bf643c0b0880efe8b364a07f62ccecc06f8b0d15536631e58487fc07d0b",
+          "alignment": "bone-motion/art-in/xiahouyuan/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/xiahouyuan/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            8,
+            3,
+            185,
+            252
+          ],
+          "sha256": "574cf1bf20034e9eeb12b121a0adafea86429d79f5c4a391b3821d744100f562",
+          "alignment": "bone-motion/art-in/xiahouyuan/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "xuhuang",
+      "name": "서황",
+      "family": "heavy",
+      "status": "user-approved-ground-aligned",
+      "height": 1.03,
+      "width": 1.08,
+      "weapon_length": 78,
+      "weapon_head": 30,
+      "identity": "Xu Huang: resolute mature warrior with squarish face, long dark moustache and angular goatee. Distinctive PLUM/PURPLE WRAPPED HEADSCARF covering crown and tied behind, no common topknot. Heavy black-iron armor with muted bronze edges, broad layered shoulders, short plum cape. Hold LARGE SINGLE AXE, entire curved blade visible. Stout strong infantry.",
+      "traits": "큰 도끼 무게를 두손과 허리로 다루는 단단한 무장. 허저의 짧은 철퇴와 다른 긴 준비.",
+      "mark": "큰 도끼. 도끼머리를 넓고 크게.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/xuhuang/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/xuhuang/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            10,
+            6,
+            252,
+            253
+          ],
+          "sha256": "371734c6e23489b9163dffe22e1d162f8df669e5241df0ab2d82e69468519230",
+          "alignment": "bone-motion/art-in/xuhuang/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/xuhuang/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            34,
+            37,
+            232,
+            248
+          ],
+          "sha256": "7c62ac8b53656381865f9a331d3ef44604d684fde7687b658aac440c6be7a3ce",
+          "generation": "bone-motion/art-in/xuhuang/base-final-v1/side-generation.json",
+          "alignment": "bone-motion/art-in/xuhuang/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/xuhuang/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            10,
+            19,
+            232,
+            249
+          ],
+          "sha256": "9d158d2335b560d4b46fbb524f2e9c4c0dde259afb5380611110a70c2e8efe53",
+          "generation": "bone-motion/art-in/xuhuang/base-final-v1/back-generation.json",
+          "alignment": "bone-motion/art-in/xuhuang/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "xunyu",
+      "name": "순욱",
+      "family": "caster",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 0,
+      "weapon_head": 0,
+      "identity": "Xun Yu: refined composed mature court adviser, neat small moustache, upright posture. Distinctive TALL RECTANGULAR gold-trimmed dark court crown, ivory outer robe, dark blue inner panel with subtle jade accent. Hold narrow ceremonial tablet upright in both hands. Elegant slender adult, no fan or armor or shared generic square scholar cap.",
+      "traits": "관모와 홀을 단정히 받친 내정형 조력자. 마법사처럼 팔을 크게 휘두르지 않는다.",
+      "mark": "홀(笏)을 든다(부채 자리에).",
+      "body_standard": 111,
+      "reference": "art-source/characters/v1/xunyu/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/xunyu/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            8,
+            24,
+            224,
+            247
+          ],
+          "sha256": "df3d4add6ad182742d7e82fd4a78c87596720b62a825baa34b02f307c24948b3",
+          "alignment": "bone-motion/art-in/xunyu/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/xunyu/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            50,
+            25,
+            209,
+            230
+          ],
+          "sha256": "c1b70d22646d90de40d6a86e96a6268a975555060e3a1012b11f03ed399bf5e5",
+          "generation": "bone-motion/art-in/xunyu/base-final-v1/side-generation.json",
+          "alignment": "bone-motion/art-in/xunyu/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/xunyu/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "sha256": "8c51c9b9bcc1dfd180cb3a3c23022b3d75a31284f306092dc521a3cdd13252e6",
+          "generation": "bone-motion/art-in/xunyu/base-final-v1/back-generation.json",
+          "alignment": "bone-motion/art-in/xunyu/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "yuejin",
+      "name": "악진",
+      "family": "sword",
+      "status": "user-approved-ground-aligned",
+      "height": 0.96,
+      "width": 1.0,
+      "weapon_length": 34,
+      "weapon_head": 24,
+      "identity": "Yue Jin: shorter compact sturdy assault warrior, broad determined clean-shaven jaw, low rounded BRONZE helmet, ochre scarf over navy dark iron armor. Hold short sturdy sword. Low broad center of mass, simple boots, no fur collar or extravagant cape. Small but adult muscular, not child.",
+      "traits": "작고 다부진 몸에서 나오는 짧은 폭발. 원화 단검과 낮은 중심을 유지.",
+      "mark": "작고 다부진 몸. 단검.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/yuejin/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/yuejin/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            17,
+            60,
+            241,
+            247
+          ],
+          "sha256": "99a45eab88850106ca0467145cb9b0f06a96668e3b07edca80de4d40ba016818",
+          "alignment": "bone-motion/art-in/yuejin/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/yuejin/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            72,
+            17,
+            160,
+            226
+          ],
+          "sha256": "e0c72b7815cc092cfc3b5930918994125aad89df00e4d954dc1282de9d161d85",
+          "alignment": "bone-motion/art-in/yuejin/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/yuejin/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            16,
+            1,
+            230,
+            253
+          ],
+          "sha256": "96dcbb26b11edf479234544275a83660e1b32abfede91f69392731338d05bc4a",
+          "alignment": "bone-motion/art-in/yuejin/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "caohong",
+      "name": "조홍",
+      "family": "spear_shield",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 104,
+      "weapon_head": 20,
+      "identity": "Cao Hong: stout mature defensive guard, broad dependable face, small moustache, dark hair under low plain blue-steel helmet. Heavy navy armor with bronze trim, leather shoulder straps, gold-brown shield boss. Hold full large rectangular/rounded defensive shield and spear. More armored than generic infantry, no fur collar; grounded guarded stance.",
+      "traits": "방패로 길을 막는 호위장. 원화에는 창과 방패가 함께 있으므로 창을 없애지 않는다.",
+      "mark": "창과 방패.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/caohong/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/caohong/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            17,
+            22,
+            247,
+            247
+          ],
+          "sha256": "9542eb3b0fee28a93f845da9631189a71254d5b564d3c6092d5e3682280a3aad",
+          "alignment": "bone-motion/art-in/caohong/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/caohong/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            8,
+            48,
+            247,
+            256
+          ],
+          "sha256": "faa44b52fa290bc00bba55476457f5d06f1777c4283eb4d73bb5650dd04159fd",
+          "alignment": "bone-motion/art-in/caohong/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/caohong/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            12,
+            7,
+            232,
+            249
+          ],
+          "sha256": "57896d9a6fd97e133abe04bd85a6d9fcda9d4cdb7a4db66489e14d466f6e9dae",
+          "alignment": "bone-motion/art-in/caohong/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "machao",
+      "name": "마초",
+      "family": "mounted_spear",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 140,
+      "weapon_head": 22,
+      "identity": "Ma Chao: youthful fierce frontier cavalry hero, clean-shaven angular face, sharp eyes. VERY DISTINCT SILVER LION/BEAST-FACED helmet with sculpted brow and swept side wings, compact white mane plume, thick WHITE FUR collar, silver armor with charcoal etched large panels and teal-green undercloth, pale cape. Mounted on existing WHITE horse holding long silver spear. Broader fiercer shoulders than Zhao Yun but same cavalry scale. Lion brow and fur must differentiate him from Zhao Yun's smooth silver helmet and cloth scarf. No white face mask.",
+      "traits": "기세와 추진력이 강한 은갑 기마 창장. 승인된 넓어진 말 가슴과 사자투구 유지.",
+      "mark": "은갑과 사자투구, 가슴이 넓은 말.",
+      "body_standard": 163,
+      "reference": "art-source/characters/v1/machao/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/machao/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            6,
+            4,
+            247,
+            245
+          ],
+          "sha256": "ddd543e6d183c1eb5fd6e9d8a56f0639a24562cac18a2b2a166fd80f60449d75",
+          "alignment": "bone-motion/art-in/machao/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/machao/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            0,
+            3,
+            254,
+            245
+          ],
+          "sha256": "4187a60b70b26bf3e3d08cee56716d022cea6193eda5314ca548871dc601b327",
+          "generation": "bone-motion/art-in/machao/base-final-v1/side-generation.json",
+          "alignment": "bone-motion/art-in/machao/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/machao/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            7,
+            0,
+            248,
+            256
+          ],
+          "sha256": "dc502f672fefb06a6e93f6cae88ae58e49c72c12e99aeb373a511779127be479",
+          "generation": "bone-motion/art-in/machao/base-final-v1/back-generation.json",
+          "alignment": "bone-motion/art-in/machao/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "pangtong",
+      "name": "방통",
+      "family": "caster",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 0,
+      "weapon_head": 0,
+      "identity": "Rustic strategist with a neat brown cloth hat, short beard, ochre and olive layered scholar robe, pale inner sleeves, and a tied bundle of bamboo slips instead of a staff.",
+      "traits": "작고 구부정하지만 손짓은 확신 있는 책사. 지팡이·현재 체격 유지, 제갈량처럼 길게 펴지 않는다.",
+      "mark": "지팡이를 짚는다. 작고 구부정한 몸.",
+      "body_standard": 111,
+      "reference": "art-source/characters/v1/pangtong/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/pangtong/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            20,
+            19,
+            236,
+            253
+          ],
+          "sha256": "b1eca7e7978a704fe209447a532464de31045eb22f5ef08de8fe026be5fbdb5c",
+          "alignment": "bone-motion/art-in/pangtong/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/pangtong/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            37,
+            22,
+            248,
+            247
+          ],
+          "sha256": "d13827409beefef6f64c8a73a1ff4fce1f8e6f50d42fb00c721933c1d7b5b5f0",
+          "alignment": "bone-motion/art-in/pangtong/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/pangtong/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            18,
+            91,
+            176,
+            225
+          ],
+          "sha256": "973971b039c91e2817cdafa881e3a849b0b98b3e017265846ab0aa0c4fb4d12c",
+          "alignment": "bone-motion/art-in/pangtong/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "jiangwei",
+      "name": "강유",
+      "family": "foot_spear",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 128,
+      "weapon_head": 24,
+      "identity": "Jiang Wei: young intelligent military scholar, clean-shaven focused face, dark hair with modest flat gold-green forehead band, trailing green scarf, light steel lamellar chest armor and ivory-green long split tunic. Hold long spear. Slender athletic infantry with neat waist and shoulders, no giant golden plates or fur.",
+      "traits": "균형과 정밀함을 갖춘 젊은 창장. 장비보다 가볍고 계산된 발놀림, 현재 창 유지.",
+      "mark": "젊은 창장.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/jiangwei/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/jiangwei/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            21,
+            13,
+            249,
+            255
+          ],
+          "sha256": "0c652301ff052075107a9066cc6fc3a2bd2bfd1aebab33b059ba7dd644b10f20",
+          "alignment": "bone-motion/art-in/jiangwei/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/jiangwei/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            97,
+            58,
+            226,
+            224
+          ],
+          "sha256": "83809536f5faba6740810268492b1ede6d5ade7efed3d76d20961d8ef6153453",
+          "alignment": "bone-motion/art-in/jiangwei/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/jiangwei/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            69,
+            68,
+            226,
+            248
+          ],
+          "sha256": "5430c913daf971bb7c029ce46bd1b4b2b9611b8e74466dd232e4d7943027ebc1",
+          "alignment": "bone-motion/art-in/jiangwei/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "weiyan",
+      "name": "위연",
+      "family": "sword",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 50,
+      "weapon_head": 38,
+      "identity": "Wei Yan: fierce mature soldier, red-brown complexion, heavy upturned black brows, sharp eyes and black pointed beard. Dark steel helmet with strong angled brow, orange-red neck scarf, worn bronze/green armor, no full-face fantasy mask. Hold large curved glaive. Aggressive angular silhouette, strong normal infantry.",
+      "traits": "공격적인 낮은 중심과 큰 칼. 가면·기존 대도 유지, 피를 마시거나 유혈 연출 금지.",
+      "mark": "가면과 큰 칼. 낮은 중심.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/weiyan/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/weiyan/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            8,
+            9,
+            237,
+            254
+          ],
+          "sha256": "8dd66e4f5a3f521384322cbe7df189aac7d5f160719fb9592f06e6306c3e3c2e",
+          "alignment": "bone-motion/art-in/weiyan/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/weiyan/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            20,
+            21,
+            256,
+            246
+          ],
+          "sha256": "1bb22ca7954dd5f6885c3159c67acb323911d413a36d2e94ae3416f9ceeabefa",
+          "alignment": "bone-motion/art-in/weiyan/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/weiyan/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            9,
+            40,
+            212,
+            227
+          ],
+          "sha256": "a2090e665601300db92122e4d2190af81a80735f9bc49405458decce001117f0",
+          "alignment": "bone-motion/art-in/weiyan/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "liaohua",
+      "name": "요화",
+      "family": "sword",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 40,
+      "weapon_head": 30,
+      "identity": "Liao Hua: weathered older veteran, gray at temples and short salt-and-pepper beard, simple dark green headwrap, plain green-brown layered armor with cloth cloak. Hold practical sword. Upright resilient older soldier, adult normal build, understated equipment, no ornate gold crown.",
+      "traits": "화려함보다 버티는 전열의 실용 검술. 현재 검과 갑주 유지.",
+      "mark": "실용적인 검과 갑주.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/liaohua/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/liaohua/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            18,
+            40,
+            245,
+            235
+          ],
+          "sha256": "766998cc5420dd1ba849cfa735e4bd21fa7bcadec1ae2b2e78b857223d5aaf1d",
+          "alignment": "bone-motion/art-in/liaohua/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/liaohua/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            14,
+            6,
+            241,
+            246
+          ],
+          "sha256": "d849fc6e302c52b86f8d8b993f7d279c7f5ced29b77e580352566966eeced52a",
+          "alignment": "bone-motion/art-in/liaohua/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/liaohua/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            50,
+            12,
+            250,
+            225
+          ],
+          "sha256": "3577df87ec9a0fb5309e1e3d90de7269e18497e5c06115e341bbf0c119fac5ec",
+          "alignment": "bone-motion/art-in/liaohua/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "zhoucang",
+      "name": "주창",
+      "family": "sword",
+      "status": "user-approved-ground-aligned",
+      "height": 1.03,
+      "width": 1.08,
+      "weapon_length": 50,
+      "weapon_head": 38,
+      "identity": "Zhou Cang: rough rugged sturdy retainer, dark tanned face, broad unruly black beard, thick brows. Low brown cloth cap/headwrap, dark green rolled sleeves over practical bronze chest armor, coarse leather belt and exposed forearms. Hold large curved blade. Wild retainer silhouette unlike noble Guan Yu, no huge gold epaulets.",
+      "traits": "몸으로 동료의 길을 막아 주는 우직한 호위장. 큰 칼과 보행 체격 유지.",
+      "mark": "우직한 호위장. 큰 칼.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/zhoucang/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/zhoucang/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            20,
+            93,
+            236,
+            245
+          ],
+          "sha256": "9cdb7ee975860a05bbb765a0d5c5f51ab35b00431143954c8101ac3ed175da41",
+          "alignment": "bone-motion/art-in/zhoucang/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/zhoucang/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            93,
+            35,
+            227,
+            225
+          ],
+          "sha256": "b5841ccf2d8c85196aa2846bffc65d00c53c58720b879193047a6ab2691cf7e2",
+          "alignment": "bone-motion/art-in/zhoucang/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/zhoucang/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            12,
+            3,
+            244,
+            256
+          ],
+          "sha256": "a71fb062908a4d305252bc3728fe2f676d9208e929475002d6b3779e1e01d042",
+          "alignment": "bone-motion/art-in/zhoucang/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "sunce",
+      "name": "손책",
+      "family": "dual",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 36,
+      "weapon_head": 26,
+      "identity": "Youthful Wu ruler with a low bronze-gold coronet and compact red ribbon, broad dark bronze and red armor trimmed in gold, a substantial vermilion command cloak, and two short ji halberds held asymmetrically (right upright, left low).",
+      "traits": "자신감과 젊은 추진력의 쌍극장. 기존 짧은 쌍극 유지, 전위보다 가볍고 탄력적인 자세.",
+      "mark": "짧은 쌍극.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/sunce/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/sunce/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            9,
+            77,
+            250,
+            252
+          ],
+          "sha256": "a4c825d6924be7edbb68fde4cc64b9bda58b83521ab3e9701c4258d463eb6504",
+          "alignment": "bone-motion/art-in/sunce/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/sunce/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            82,
+            0,
+            246,
+            256
+          ],
+          "sha256": "d86cbb7b538e4744d22781b63d01c11adc2c250ca8a6fc652c9aab1eb2fd3099",
+          "alignment": "bone-motion/art-in/sunce/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/sunce/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            9,
+            74,
+            241,
+            250
+          ],
+          "sha256": "e96729a37f535635808127064659899b664aca9f4b0ab4990bc33ec2211af2be",
+          "alignment": "bone-motion/art-in/sunce/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "luxun",
+      "name": "육손",
+      "family": "caster",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 0,
+      "weapon_head": 0,
+      "identity": "Lu Xun: youthful but clearly ADULT scholarly commander, smooth clean-shaven oval face, focused fine brows, small close-fitting blue steel cap/helmet, green neck scarf. Slim silver-gray light chest armor over ivory robe with crimson waist sash, red cape edge. Hold small torch as established game equipment. Slim adult shoulders, not a child or plain white-robed magician.",
+      "traits": "젊지만 침착한 화공 책사. 보정된 성인 체격과 기존 횃불 유지, 아이처럼 머리/어깨 축소 금지.",
+      "mark": "횃불을 든다(부채 자리에).",
+      "body_standard": 111,
+      "reference": "art-source/characters/v1/luxun/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/luxun/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            8,
+            6,
+            252,
+            253
+          ],
+          "sha256": "a960063ef04d4ddce0403d431f59e9b64d82361565c6c444b27f6b445b177366",
+          "alignment": "bone-motion/art-in/luxun/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/luxun/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            96,
+            28,
+            232,
+            225
+          ],
+          "sha256": "b557a2e18660ed8041f19c08494f566988a203dc150ce935a3f5ab35c2b61d18",
+          "alignment": "bone-motion/art-in/luxun/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/luxun/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            14,
+            7,
+            226,
+            254
+          ],
+          "sha256": "6e2d320137af04553bdec461ea8134c717741f5328336c590827d563f95634b7",
+          "alignment": "bone-motion/art-in/luxun/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "sunquan",
+      "name": "손권",
+      "family": "command",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 36,
+      "weapon_head": 26,
+      "identity": "Sun Quan: mature dignified ruler, broad face, long FULL REDDISH-BROWN beard, thick eyebrows. Low gold crown on brown-black tied hair, rich burgundy court robe over understated armor, purple-patterned central panel simplified to large blocks, wide draped sleeves. Hold straight sword by hilt. Distinct from Cao Cao's short forked dark beard and navy armor; average lord body.",
+      "traits": "흔들리지 않는 수성 군주의 지휘. 붉은 복식·원화 검 유지, 조조의 높은 군령 동작과 구별.",
+      "mark": "붉은 복식, 검.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/sunquan/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/sunquan/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            45,
+            66,
+            193,
+            225
+          ],
+          "sha256": "5d4d94b9b1fc317f148a57537e07f77a78183b1c7b4a9810129b813c6e204c46",
+          "alignment": "bone-motion/art-in/sunquan/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/sunquan/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            20,
+            38,
+            229,
+            245
+          ],
+          "sha256": "2cb87cadac31cd9b257fc1aeeb55aa3c7cc1e006b7e9bab35fb2ede15e3a20fc",
+          "generation": "bone-motion/art-in/sunquan/base-final-v1/side-generation.json",
+          "alignment": "bone-motion/art-in/sunquan/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/sunquan/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            20,
+            14,
+            234,
+            250
+          ],
+          "sha256": "134f91a59759e804de3322166e811628a3d8dab37b2503847b9d0199da2d376a",
+          "generation": "bone-motion/art-in/sunquan/base-final-v1/back-generation.json",
+          "alignment": "bone-motion/art-in/sunquan/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "ganning",
+      "name": "감녕",
+      "family": "sickle",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 30,
+      "weapon_head": 14,
+      "identity": "Gan Ning: roguish athletic pirate warrior, tanned face, unruly swept black hair with red headband, confident grin and stubble. Asymmetric open red/black vest and leather straps with exposed muscular shoulder, conspicuous few GOLD BELLS at belt. Hold curved chain sickle with a clear slack chain. Bold red scarf, no symmetric default gold armor and no large fur collar.",
+      "traits": "방울 장식과 사슬낫의 낮고 민첩한 기습. 모든 사슬 마디와 낫손 관계를 유지, 사슬을 여러 칸 뻗지 않는다.",
+      "mark": "방울 장식. 오른손에 낫, 사슬은 왼손에 모아 쥔다.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/ganning/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/ganning/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            42,
+            20,
+            237,
+            242
+          ],
+          "sha256": "ad761a8664835394a6bca40630205287eb9bd9c6f5b3eca634434b80942281a7",
+          "alignment": "bone-motion/art-in/ganning/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/ganning/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            8,
+            47,
+            247,
+            225
+          ],
+          "sha256": "e1deb439215c3a6613355a7dc50ad6b81c42a730988f145715c7f26817954594",
+          "generation": "bone-motion/art-in/ganning/base-final-v1/side-generation.json",
+          "alignment": "bone-motion/art-in/ganning/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/ganning/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            36,
+            13,
+            252,
+            254
+          ],
+          "sha256": "71cd2455ad12fa6dd4e7f1bba46d6055c638bdbea7038deac0b36176f741d471",
+          "generation": "bone-motion/art-in/ganning/base-final-v1/back-generation.json",
+          "alignment": "bone-motion/art-in/ganning/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "taishici",
+      "name": "태사자",
+      "family": "bow",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 0,
+      "weapon_head": 0,
+      "identity": "Taishi Ci: disciplined powerful archer warrior, square tan face, short neatly trimmed beard. Bronze/steel helmet with red tie, strong shoulders under dark red practical armor. Hold one short ji halberd and recurve bow, second short ji secured visibly at belt/back. Arrow quiver behind. Clear archer-warrior identity with mature stern face.",
+      "traits": "무장다운 단단한 자세의 궁수. 원화의 활과 장병기/쌍극 장비를 모두 보존한다. 손에 든 보조 무기는 실제로 등/허리 거치에 옮기는 준비를 보여 주거나 활을 양손으로 쓸 수 있는 기존 자세를 사용한다. 소품 순간 삭제 금지.",
+      "mark": "활을 들고, 보조 무기(쌍극)는 등에 멘다.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/taishici/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/taishici/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            6,
+            20,
+            201,
+            246
+          ],
+          "sha256": "8f1405bb70340b134cee0c7d7ead8fddd2910ad03ab9d81a1c404d8fcec8802f",
+          "alignment": "bone-motion/art-in/taishici/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/taishici/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            5,
+            6,
+            246,
+            250
+          ],
+          "sha256": "416353d0f9ab06242e9d1c6ed01cdc66584e49d5e361add54bb56296e29f66b0",
+          "generation": "bone-motion/art-in/taishici/base-final-v1/side-generation.json",
+          "alignment": "bone-motion/art-in/taishici/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/taishici/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            7,
+            14,
+            237,
+            247
+          ],
+          "sha256": "2239a5e9efa23b2411282c3a1af1fb8d69d52966f850bdf1606f7def4a71d5c0",
+          "generation": "bone-motion/art-in/taishici/base-final-v1/back-generation.json",
+          "alignment": "bone-motion/art-in/taishici/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "lumeng",
+      "name": "여몽",
+      "family": "foot_spear",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 128,
+      "weapon_head": 24,
+      "identity": "Lu Meng: mature capable commander, broad thoughtful face, neat black moustache and medium squared beard, practical angular SILVER helmet with modest short pale crest. White surcoat/cape over dark iron armor, crimson sash, long spear. WHITE garment should read from far away; not generic red-gold warrior. Sturdy normal infantry.",
+      "traits": "흰옷과 절제된 창, 준비를 숨기는 침투형 무장. 장비를 새 도적 복장으로 바꾸지 않는다.",
+      "mark": "흰옷, 절제된 창.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/lumeng/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/lumeng/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            9,
+            0,
+            248,
+            252
+          ],
+          "sha256": "2999bb2699ac6cd5b016759d85f017d76af8171183bc21485ac9cd0f115f7874",
+          "alignment": "bone-motion/art-in/lumeng/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/lumeng/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            43,
+            63,
+            165,
+            225
+          ],
+          "sha256": "e7f8a1cdc1b5c2ec92ff33661ccbbc7f46cb7d39a20c319b6bf4d9c3ff8557c4",
+          "alignment": "bone-motion/art-in/lumeng/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/lumeng/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            21,
+            63,
+            239,
+            225
+          ],
+          "sha256": "26fcaee9bfe003a3ec6f227bd8712d061556c384e7d48cf370ca8e255cb38006",
+          "alignment": "bone-motion/art-in/lumeng/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "huanggai",
+      "name": "황개",
+      "family": "flexible",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 0,
+      "weapon_head": 0,
+      "identity": "Huang Gai: old muscular veteran, WHITE beard and brows, white hair bound with red headband, rugged tanned BARE CHEST and thick arms with subtle readable battle scars. Dark red waist armor and bronze belt. Hold heavy iron whip/flail from existing design. Muscular but not giant, no helmet or cloak.",
+      "traits": "맨상체의 노장과 원화 쇠채찍. 굽히지 않는 몸의 힘으로 표현하며 자해·상처 묘사를 넣지 않는다.",
+      "mark": "맨상체의 노장. 쇠채찍(마디가 있는 굵은 채찍).",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/huanggai/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/huanggai/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            24,
+            15,
+            220,
+            253
+          ],
+          "sha256": "36a0822fb12c83ae4ae4624b03c8f4ddfa2de601e400070fa95974ba2147cb2a",
+          "alignment": "bone-motion/art-in/huanggai/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/huanggai/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            19,
+            26,
+            250,
+            253
+          ],
+          "sha256": "5f35f9d27f1aa5f644fb7b5144aa5bb8be1c96ad9d290835e138a39c56237472",
+          "alignment": "bone-motion/art-in/huanggai/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/huanggai/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            32,
+            37,
+            181,
+            246
+          ],
+          "sha256": "426078be7384eba4cebfc545590d0b94f22d71a269a6ce5ba17de21ae1b9eb4b",
+          "alignment": "bone-motion/art-in/huanggai/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "lusu",
+      "name": "노숙",
+      "family": "caster",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 0,
+      "weapon_head": 0,
+      "identity": "Lu Su: middle-aged calm generous diplomat, broader softer face, small dark moustache, substantial but not muscular scholar body. Modest rounded bronze-brown official cap, muted TEAL outer robe with cream inner collar and brown sash, wide sleeves. Hold rolled scroll with both hands. Distinct from thin youthful blue Guo Jia and tall-crowned Xun Yu.",
+      "traits": "두루마리를 펼쳐 조율하는 온건한 지원가. 곽가의 날카로운 지목과 달리 열린 손과 안정된 몸.",
+      "mark": "두루마리를 든다(부채 자리에).",
+      "body_standard": 111,
+      "reference": "art-source/characters/v1/lusu/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/lusu/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            53,
+            61,
+            237,
+            251
+          ],
+          "sha256": "65959d06ae2d6d132bd2788cbe3b8c9f24286d17d1c1887a71f3b98e083e0a4d",
+          "alignment": "bone-motion/art-in/lusu/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/lusu/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            23,
+            43,
+            242,
+            249
+          ],
+          "sha256": "ad49d746fc7e1a40ce51b5506428055e4df75d4e6dd38b4afab49d8088a6d0ad",
+          "alignment": "bone-motion/art-in/lusu/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/lusu/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "sha256": "f4cb2d01343366ea0b13aa747909941db961259be29955287535d49d569018f6",
+          "alignment": "bone-motion/art-in/lusu/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "sunshangxiang",
+      "name": "손상향",
+      "family": "bow",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 0.92,
+      "weapon_length": 0,
+      "weapon_head": 0,
+      "identity": "Sun Shangxiang: spirited young female archer, tied high dark ponytail with short red ribbon, confident eyes, compact reddish bronze shoulder armor over crimson/ivory tunic, fitted waist and practical boots. Hold recurve bow and wear quiver. Athletic slender woman, no long court gown, no enormous gold floral crown.",
+      "traits": "균형 잡힌 힘과 당당함을 가진 여성 궁수. 붉은 옷·원래 활, 과장된 춤/성적 포즈 금지.",
+      "mark": "여성 궁수. 어깨를 좁게, 과장 없이 단단하게.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/sunshangxiang/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/sunshangxiang/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            14,
+            12,
+            215,
+            253
+          ],
+          "sha256": "c6ad37c19824013e3195f34999d4355964f0367b9b4881403e84692952cbe5aa",
+          "alignment": "bone-motion/art-in/sunshangxiang/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/sunshangxiang/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "sha256": "0e9706bc37cc1b79cb60c2cdd4b298be3b3b73c85a3573b240905702263998ea",
+          "generation": "bone-motion/art-in/sunshangxiang/base-final-v1/side-generation.json",
+          "alignment": "bone-motion/art-in/sunshangxiang/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/sunshangxiang/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            8,
+            5,
+            162,
+            225
+          ],
+          "sha256": "25cd193a588526c9f60e8e95f39d4a0f825c07d763d05d7a8d46ed6935e903c2",
+          "generation": "bone-motion/art-in/sunshangxiang/base-final-v1/back-generation.json",
+          "alignment": "bone-motion/art-in/sunshangxiang/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "dingfeng",
+      "name": "정봉",
+      "family": "sword",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 34,
+      "weapon_head": 24,
+      "identity": "Ding Feng: hardy stocky older assault fighter, short cropped dark-gray beard, red wrapped headscarf, thick forearms exposed beneath simple iron-red chest armor. Hold short broad saber low, other fist ready. Compact rugged veteran, short cloak or none, avoid noble golden armor.",
+      "traits": "짧은 칼과 기민한 한 번의 결단. 악진과 달리 좌우 휘두름보다 낮은 전방 절단을 강조한다.",
+      "mark": "짧은 단도.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/dingfeng/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/dingfeng/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            36,
+            43,
+            245,
+            250
+          ],
+          "sha256": "9dd1055d06b4e4c55dfdc488098e258e32401d210563e9e126395012b77aa041",
+          "alignment": "bone-motion/art-in/dingfeng/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/dingfeng/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            37,
+            34,
+            255,
+            238
+          ],
+          "sha256": "61bec79365bd55d52d40cdba333f432691cb2f458418d9a9c470acff434d7bee",
+          "alignment": "bone-motion/art-in/dingfeng/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/dingfeng/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            90,
+            49,
+            246,
+            233
+          ],
+          "sha256": "8ab541d72bbfd5c189b49cf576e25a364a9dc2d1cf575ad54503908d827e3a00",
+          "alignment": "bone-motion/art-in/dingfeng/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "panzhang",
+      "name": "반장",
+      "family": "flexible",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 0,
+      "weapon_head": 0,
+      "identity": "Pan Zhang: intimidating mature stocky captor, heavy moustache, close dark headwrap with short red tail, dark bronze chest armor and red-brown cloth skirt. Hold conspicuous coil of tan ROPE and short practical sword at belt. Rough leather shoulders, no fur collar; rope and square jaw are identity.",
+      "traits": "밧줄을 다루는 포박형 보병. 새 정면의 밧줄과 잡은 손을 유지한다. 허리 보조검은 칼집에 둔 채 밧줄로 연기하며 새 무기를 생성하지 않는다.",
+      "mark": "감은 밧줄을 든다. 허리의 검은 칼집에 둔다.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/panzhang/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/panzhang/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            35,
+            63,
+            223,
+            239
+          ],
+          "sha256": "5fb6152f8c9d95f65a5b3f8b755758d53999caf2ef5ddca9a2f1c57f4d0535ec",
+          "alignment": "bone-motion/art-in/panzhang/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/panzhang/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            10,
+            52,
+            226,
+            230
+          ],
+          "sha256": "123df9839fa496f947743a7e7edf61eb83868151d1a446ef56a1cde1725f553e",
+          "alignment": "bone-motion/art-in/panzhang/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/panzhang/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            8,
+            28,
+            233,
+            247
+          ],
+          "sha256": "0db7ccd7f70393fbc57d55498945e115e2089245e212b2d9cd1f12ed6da66273",
+          "alignment": "bone-motion/art-in/panzhang/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "zhangjue",
+      "name": "장각",
+      "family": "caster",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 0,
+      "weapon_head": 0,
+      "identity": "Yellow Turban mystic with a yellow brow band, controlled long dark hair and beard, simple ochre and brown robes, cream sash, and one crook staff with a single yellow cloth.",
+      "traits": "누런 도포와 지팡이의 의식적인 술사. 사마의의 짧은 손목 명령보다 크고 느린 예고.",
+      "mark": "누런 도포, 지팡이.",
+      "body_standard": 111,
+      "reference": "art-source/characters/v1/zhangjue/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/zhangjue/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            18,
+            44,
+            221,
+            235
+          ],
+          "sha256": "22269548458a2f53b4850bcb7f62f007c5aa413f1197c191462bc584f351ce2a",
+          "alignment": "bone-motion/art-in/zhangjue/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/zhangjue/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            10,
+            24,
+            210,
+            224
+          ],
+          "sha256": "8c7e8fda02c43f14ae014764382d74c1531ef3391a7d79e23d087f19af08aa97",
+          "alignment": "bone-motion/art-in/zhangjue/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/zhangjue/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            7,
+            5,
+            216,
+            254
+          ],
+          "sha256": "63ce4252fe9ea9ed31d4b83d055b2a00ac565cd66b92a38458d497e3d1be7072",
+          "alignment": "bone-motion/art-in/zhangjue/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "dongzhuo",
+      "name": "동탁",
+      "family": "sword",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.22,
+      "weapon_length": 50,
+      "weapon_head": 38,
+      "identity": "Dong Zhuo: very fat imposing tyrant, huge round belly, thick short neck, broad heavy cheeks and bushy BLACK beard, smug hostile eyes. Low lavish dark-gold crown, rich purple robe and red-black armor stretched over belly, ornate but readable bronze belt. Hold heavy crescent blade. Broadest torso but not tallest; distinct obesity not muscle.",
+      "traits": "무겁고 거만한 비만 체형. 현재 넓은 몸통과 큰 칼 유지, 공격 때 몸을 풍선처럼 부풀리지 않는다.",
+      "mark": "비만 체형: 몸통과 배를 넓게. 키는 그대로. 큰 칼.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/dongzhuo/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/dongzhuo/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            10,
+            17,
+            247,
+            253
+          ],
+          "sha256": "62dbc6a32455b50d156fc403ae466c1bde34e250244bb8a5554a3da1d1086eb7",
+          "alignment": "bone-motion/art-in/dongzhuo/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/dongzhuo/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            38,
+            1,
+            229,
+            254
+          ],
+          "sha256": "e560c402f204a1f40821523f341003789ac626d51c3478489068357307fb472e",
+          "alignment": "bone-motion/art-in/dongzhuo/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/dongzhuo/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            6,
+            0,
+            247,
+            256
+          ],
+          "sha256": "8642d4e32cbcc868822a7741c6a8a2af8867a318b245569400edfe52e9c2b08c",
+          "alignment": "bone-motion/art-in/dongzhuo/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "yuanshao",
+      "name": "원소",
+      "family": "command",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 36,
+      "weapon_head": 26,
+      "identity": "Yuan Shao: proud aristocratic commander, dignified long face with neat moustache and pointed beard. Ornate angular GOLD helmet/crown without white pony plume, broad PURPLE shoulder mantle, gold/bronze chest armor over dark noble robe. Hold long spear. Refined noble silhouette and full purple mantle, not ordinary gold infantry.",
+      "traits": "격식과 권위를 드러내는 금갑 군주. 현재 원화는 창을 들고 있으므로 검/홀로 바꾸지 않는다.",
+      "mark": "금갑과 흰 투구깃. 원화에서는 검 대신 창을 세워 든다(손 위치는 같게).",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/yuanshao/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/yuanshao/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            25,
+            9,
+            247,
+            254
+          ],
+          "sha256": "7603bb5260cfa90d50e7412ae1d73f757828c34aa502b3529f3b0ac1d1c9d672",
+          "alignment": "bone-motion/art-in/yuanshao/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/yuanshao/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            16,
+            28,
+            211,
+            242
+          ],
+          "sha256": "7867473f9dc609f4bd6ac04887db512b11058265383757b3c5f643630e506e26",
+          "alignment": "bone-motion/art-in/yuanshao/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/yuanshao/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            36,
+            29,
+            247,
+            253
+          ],
+          "sha256": "a5c493dfb098e189bc42f8e8b7ab9ade55a2bc97a048d18cd5978dbc3c814874",
+          "alignment": "bone-motion/art-in/yuanshao/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "huatuo",
+      "name": "화타",
+      "family": "caster",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 0,
+      "weapon_head": 0,
+      "identity": "Hua Tuo: frail gentle elderly physician, long WHITE eyebrows and wispy white beard, white hair in small bun, slight stoop, cream and muted sage robe. Wooden walking staff and green-brown medicine box with simple strap. Slim old body, no armor or martial weapon, clear doctor silhouette.",
+      "traits": "구부정한 노의원의 섬세한 손. 원화 지팡이·약상자 유지, 무술가로 만들지 않는다.",
+      "mark": "지팡이와 약상자.",
+      "body_standard": 111,
+      "reference": "art-source/characters/v1/huatuo/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/huatuo/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            13,
+            53,
+            202,
+            254
+          ],
+          "sha256": "feea1a4a3a9483bf1d3618662cf048fe722d14456a7d5167cac42625b10be24a",
+          "alignment": "bone-motion/art-in/huatuo/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/huatuo/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            21,
+            37,
+            228,
+            238
+          ],
+          "sha256": "5dd0c2cdf96adada7331e7f5dfb19400e894de277f32fd21a4d5f402f4c103e8",
+          "alignment": "bone-motion/art-in/huatuo/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/huatuo/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            5,
+            2,
+            198,
+            225
+          ],
+          "sha256": "bb5f586ecc4afd9d0110b5e378efb11b4b05740f14b9e8c3d04e02711581de94",
+          "alignment": "bone-motion/art-in/huatuo/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "yanliang",
+      "name": "안량",
+      "family": "sword",
+      "status": "user-approved-ground-aligned",
+      "height": 1.03,
+      "width": 1.08,
+      "weapon_length": 50,
+      "weapon_head": 38,
+      "identity": "Yan Liang: large strong mature fighter, long angular face with hooked black moustache and pointed beard, angular dark steel helmet with green small plume. Brown-green heavy armor and muted plum cloth at waist, broad armored shoulders. Hold large crescent saber. More angular and tall-necked than Wen Chou, not identical purple recolor.",
+      "traits": "전선을 밀어붙이는 대도 무장. 문추의 창과 구별되는 날의 넓은 면을 유지.",
+      "mark": "날의 넓은 면이 보이는 대도.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/yanliang/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/yanliang/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            10,
+            0,
+            249,
+            255
+          ],
+          "sha256": "ded7e7097813cee693fd096207ed50207b381e1c11c5acb10141ebe97d345f64",
+          "alignment": "bone-motion/art-in/yanliang/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/yanliang/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            6,
+            0,
+            247,
+            249
+          ],
+          "sha256": "2c4b11668aa1a73454696c35d8b7033cda2481ad6d51f0c9570246795d35c09c",
+          "alignment": "bone-motion/art-in/yanliang/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/yanliang/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            6,
+            13,
+            256,
+            253
+          ],
+          "sha256": "9b51d5bdfff6bf716be8af663518205edb9228f800a3e3f07a6dbc291879312c",
+          "alignment": "bone-motion/art-in/yanliang/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "wenchou",
+      "name": "문추",
+      "family": "foot_spear",
+      "status": "user-approved-ground-aligned",
+      "height": 1.03,
+      "width": 1.08,
+      "weapon_length": 128,
+      "weapon_head": 24,
+      "identity": "Wen Chou: broad squat fierce fighter, round heavy brow, square jaw and wide black beard, rounded bronze helmet with ochre scarf around neck. Heavy dark iron and bronze armor, plum waist sash. Hold long spear. Stockier broader face than Yan Liang, distinct rounded helmet and large shoulder blocks.",
+      "traits": "끝까지 몰아붙이는 창장. 안량의 무거운 내려베기와 구별되는 빠른 회수/재찌르기.",
+      "mark": "끝까지 몰아붙이는 창장.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/wenchou/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/wenchou/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            6,
+            17,
+            252,
+            251
+          ],
+          "sha256": "a67f8dadf4e8e69d07f65688a793f4afcf480999078b6413046b83b8abf9761b",
+          "alignment": "bone-motion/art-in/wenchou/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/wenchou/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            38,
+            2,
+            242,
+            249
+          ],
+          "sha256": "e268b214e7f4b1f994966ced43a58a7c9f3d865d6b88458e3bca438eca1b5101",
+          "alignment": "bone-motion/art-in/wenchou/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/wenchou/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            10,
+            30,
+            242,
+            226
+          ],
+          "sha256": "8ce34247bce9a458c9efc0211f966da63697b72eff5cb52ae0f786107aa2b0b9",
+          "alignment": "bone-motion/art-in/wenchou/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "diaochan",
+      "name": "초선",
+      "family": "caster",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 0.92,
+      "weapon_length": 0,
+      "weapon_head": 0,
+      "identity": "Diao Chan: graceful young dancer, gentle almond-like square-pixel eyes, black hair in elegant double-loop updo with GOLD FLOWER ornaments, pink and soft ivory long flowing dress, plum waist sash and delicate ribbon. Hold small white hand fan. Slim adult feminine body, no armor, no exaggerated proportions.",
+      "traits": "작은 부채와 절제된 우아함. 원화 얼굴·금색 꽃장식·긴 분홍 의상 유지, 과한 회전·치마 확장 금지.",
+      "mark": "작은 부채, 긴 분홍 의상, 금색 꽃장식.",
+      "body_standard": 111,
+      "reference": "art-source/characters/v1/diaochan/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/diaochan/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            92,
+            80,
+            231,
+            225
+          ],
+          "sha256": "19eb3d300ea30ffaafef706839ec12eade2bcf671d126c9cc886712e8e4aff79",
+          "alignment": "bone-motion/art-in/diaochan/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/diaochan/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            14,
+            46,
+            240,
+            254
+          ],
+          "sha256": "989b86ac141cdb2f8540ee592699034d3d19b3291bc31d57354ec7fe24695bea",
+          "generation": "bone-motion/art-in/diaochan/base-final-v1/side-generation.json",
+          "alignment": "bone-motion/art-in/diaochan/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/diaochan/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            29,
+            11,
+            163,
+            225
+          ],
+          "sha256": "3d87f951a2721b7aa741c29cfc8ad5fe8a9447f56a404ebefd3221572690cc92",
+          "generation": "bone-motion/art-in/diaochan/base-final-v1/back-generation.json",
+          "alignment": "bone-motion/art-in/diaochan/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "huaxiong",
+      "name": "화웅",
+      "family": "sword",
+      "status": "user-approved-ground-aligned",
+      "height": 1.03,
+      "width": 1.08,
+      "weapon_length": 50,
+      "weapon_head": 38,
+      "identity": "Hua Xiong: brutal large frontier warrior, dark tan square face, thick bristly black beard, low dark iron helmet with angular cheek guards, heavy IRON/BLACK armor and brown fur edging confined to short shoulder pads, dark plum cape. Hold massive crescent blade. Rough heavier silhouette distinct from Yan Liang and Wen Chou; avoid common gold lions.",
+      "traits": "관문을 지키는 거친 대도 무장. 높은 준비와 짧은 강타, 위연의 낮은 기습과 구별.",
+      "mark": "거친 대도 무장. 큰 칼.",
+      "body_standard": 124,
+      "reference": "art-source/characters/v1/huaxiong/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/huaxiong/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            20,
+            27,
+            219,
+            254
+          ],
+          "sha256": "451c9bc33b6fe12c3ee35b311ff2e9f245c55105253b44d82a318db6431e6e2a",
+          "alignment": "bone-motion/art-in/huaxiong/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/huaxiong/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            28,
+            23,
+            227,
+            241
+          ],
+          "sha256": "191eb6059d16dd76f26b88e15f679785b92fcc9baf695a835156401d9b1039d0",
+          "alignment": "bone-motion/art-in/huaxiong/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/huaxiong/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            39,
+            23,
+            250,
+            248
+          ],
+          "sha256": "fe1825835edb8c808da8c735faf219232871a0f9bed7dec9fe4a10bae04da50d",
+          "alignment": "bone-motion/art-in/huaxiong/base-final-v1/back-alignment.json"
+        }
+      }
+    },
+    {
+      "id": "gongsunzan",
+      "name": "공손찬",
+      "family": "mounted_spear",
+      "status": "user-approved-ground-aligned",
+      "height": 1.0,
+      "width": 1.0,
+      "weapon_length": 140,
+      "weapon_head": 22,
+      "identity": "Gongsun Zan: mature northern cavalry commander with neatly trimmed moustache and short beard, practical simple STEEL helmet with compact dark crest (NO giant white plume), red neck scarf, gray-iron armor and white shoulder cloak. Mounted on WHITE horse with plain dark leather tack, long spear. Distinct adult bearded commander versus young silver Zhao Yun and lion-helmet Ma Chao.",
+      "traits": "백마와 창의 경쾌한 기동 지휘관. 조운의 정밀 관통과 달리 도착 시 짧은 속도 제어를 강조.",
+      "mark": "백마.",
+      "body_standard": 163,
+      "reference": "art-source/characters/v1/gongsunzan/front.png",
+      "views": {
+        "front": {
+          "path": "bone-motion/art-in/gongsunzan/base-final-v1/front.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            16,
+            18,
+            214,
+            244
+          ],
+          "sha256": "6ec1ee505ebe5fd1d9f138501aa550a32ed6ca2c82bcdf7dfb6e7ca69d91230e",
+          "alignment": "bone-motion/art-in/gongsunzan/base-final-v1/front-alignment.json"
+        },
+        "side": {
+          "path": "bone-motion/art-in/gongsunzan/base-final-v1/side.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            11,
+            8,
+            252,
+            256
+          ],
+          "sha256": "5cf09e64541d3a9f48b52666c9aeea24bc78d6e83ac4c50dddc17356ba3beff2",
+          "alignment": "bone-motion/art-in/gongsunzan/base-final-v1/side-alignment.json"
+        },
+        "back": {
+          "path": "bone-motion/art-in/gongsunzan/base-final-v1/back.png",
+          "size": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            5,
+            22,
+            201,
+            254
+          ],
+          "sha256": "6e3fe7182eb2d7a0dd5109a9aa9a93331fdaa41140564e91e41fd4320d3b985f",
+          "alignment": "bone-motion/art-in/gongsunzan/base-final-v1/back-alignment.json"
+        }
+      }
+    }
+  ]
+}

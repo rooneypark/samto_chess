@@ -1,0 +1,48 @@
+{
+  "id": "panzhang",
+  "view": "side",
+  "source": "bone-motion/art-in/panzhang/base-draft-v1/side.png",
+  "source_sha256": "9B4703C748ED1733EEA8B9AD4056A8F018259A0FB21744E459DFDF19F41B2636",
+  "path": "bone-motion/art-in/panzhang/base-final-v1/side.png",
+  "size": [
+    256,
+    256
+  ],
+  "offset": [
+    2,
+    12
+  ],
+  "foot_roi": [
+    100,
+    164
+  ],
+  "source_foot_y": 212,
+  "target_foot_y": 224.0,
+  "pivot": [
+    128.0,
+    224.0
+  ],
+  "logical_pivot": [
+    128,
+    224
+  ],
+  "source_foot_center": 126.0,
+  "pixel_match": true,
+  "visible_clipped_pixels": 0,
+  "preserved_wrapped_alpha1_speckles": 0,
+  "sha256": "123DF9839FA496F947743A7E7EDF61EB83868151D1A446EF56A1CDE1725F553E",
+  "approval": "user-approved-2026-11-18",
+  "scope": "standing artwork and ground alignment only; full rig/motion verification separate",
+  "generation_provenance": {
+    "hero": "panzhang",
+    "name": "반장",
+    "view": "side",
+    "status": "generated-awaiting-cross-review",
+    "generator": "built-in image_gen",
+    "source": "C:/Users/pms10/.codex/generated_images/01a1edec-e7a8-7b30-a481-c6294875f061/exec-3005f577-1f26-4c71-a764-312253454084.png",
+    "prompt": "Create ONE productionpixelart BASICNEUTRAL 반장 sprite, side view. Identity: Pan Zhang: intimidating mature stocky captor, heavy moustache, close dark headwrap with short red tail, dark bronze chest armor and red-brown cloth skirt. Hold conspicuous coil of tan ROPE and short practical sword at belt. Rough leather shoulders, no fur collar; rope and square jaw are identity. Charactertrait: 감은 밧줄을 든다. 허리의 검은 칼집에 둔다.. Reference1 newfront identity/design andbodyproportions tokeep exactly. Reference2 approved ZhangFei/ZhangLiao STYLE: thick confident1-2logicalpixel outline, simple square eyes, broadflat2-3toneclusters, few largehair/beardgroups, sparsegoldbands, no ornatefiligree/finehairlines or repeatingtinypattern. RIGHT hand holds short handle with slack hanging tanrope coil; left hand emptyrelaxed. Tool66px alongits centerline, naturalgravity, nofloating chain. Keepidentityequipment. Pure LEFT-FACING PROFILE, camera sees anatomicalLEFT side. NearLEFTarm overlapsfarRIGHT naturally. Do not switchhands: RIGHTweaponhand isfar and canbe partlyhidden. Forbow, nearLEFTarm visiblyconnects tobowgrip, FARrightemptyhand isoccluded. Forhorse nearLEFThand holdsreins andfarRIGHThand weapon. Naturalstill upright relaxed standingpose, feetparallel, shoulderslevel, no combatgesture. Logical256x256 SQUAREtransparentcanvas. Groundpivot128224. Anatomicalbodyheight124.0px, excludingcrown/plume/weapon, headtop~y100, groundy224. Warrior shoulderjointspan38px timeswidth1. Keepnormalheadsize, fullnessfromtorso notgianthead. Generous margins, DO NOTenlargecharactertofillcanvas. Fullweapon feet cape decorations intact. Orthographic18degreedowncamera, no perspectiveextremes. TRUEtransparentbackground no shadow floor checkerboard text watermark grid labels oradditionalviews. CrispPIXELstepedges; do notswitchto smoothvectorart."
+  },
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

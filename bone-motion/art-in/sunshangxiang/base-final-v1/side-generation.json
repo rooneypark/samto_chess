@@ -1,0 +1,26 @@
+{
+  "id": "sunshangxiang",
+  "view": "side",
+  "source": "C:/Users/pms10/.codex/generated_images/01a1edec-e7a8-7b30-a481-c6294875f061/exec-fe8492ff-6f6d-4570-84fa-6376db3382de.png",
+  "prompt": "Use case: precise-object-edit. This is a strict THREE-VIEW CHARACTER SIZE CONSISTENCY correction for a pixel-art game, not a redesign.\nImage 1 is the FRONT master: the same hero's exact body scale, head size, torso volume, limb thickness, outfit and drawing style. Image 2 is the TARGET VIEW to redraw. Reconstruct target view at EXACTLY the same physical scale as the front master, same camera elevation and ground plane. Match anatomical head top (exclude tall hats, plumes, hair crests and weapon tips), neck, shoulder, waist, knee and sole heights as projected from the same character. Back view must not become shorter, narrower or childlike. Side view must not become thinner or smaller; naturally it shows body depth instead of frontal shoulder width. Keep the approved frontal design and same chunky bold contours, simple faces, broad flat shadow planes and sparse details. Preserve target camera direction, weapon holding hand, consistent physical weapon blade edge and grip, clothing layer construction and character identity. Rear view never copies front facial features, front belt buckle, breastplate or front apron ornaments.\nCanvas: square transparent, logical 256x256. Foot-ground pivot (128,224). Preserve generous empty canvas surrounding sprite. Do not contain-fit character into a new frame; preserve the FRONT master's exact on-canvas subject scale. No text or guide marks. Output ONLY the requested target view, one character, not a sheet.\nSpecial constraints: Sun Shangxiang Young adult female archer in red-gold armor, brown-black high ponytail red bow, quiver and bow. Match skull/head top y=109, shoulder height y=143, belt y=177, feet224, ponytail hair knot rises to y=88. Match front youthful adult head size, compact torso width/depth, arm and leg length. Side must not shrink and rear must not elongate torso, body heights identical. Rear quiver/bow in correct hands and no front chest ornaments copied. TARGET VIEW: strict LEFT SIDE facing screen left. Output exactly one sprite.",
+  "status": "user-approved",
+  "generator": "built-in image_gen",
+  "ground_alignment": {
+    "status": "body-review-pending",
+    "foot": [
+      128,
+      224
+    ],
+    "offset": [
+      0,
+      6
+    ],
+    "sha256": "0E9706BC37CC1B79CB60C2CDD4B298BE3B3B73C85A3573B240905702263998EA",
+    "pixelPreserved": true,
+    "wrappedAlpha1": 381,
+    "source": "side.png"
+  },
+  "comparison": "Frontal master unchanged; anatomical size and proportions visually compared at common ground. Not a full rig pass.",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

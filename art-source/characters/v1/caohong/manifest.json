@@ -1,192 +1,56 @@
 {
+  "sideFacing": "left",
+  "artRevision": "ground-body-v1",
   "id": "caohong",
-  "name": "조홍",
   "faction": "위",
-  "order": 23,
-  "identity": "Cao Hong: stout mature defensive guard, broad dependable face, small moustache, dark hair under low plain blue-steel helmet. Heavy navy armor with bronze trim, leather shoulder straps, gold-brown shield boss. Hold full large rectangular/rounded defensive shield and spear. More armored than generic infantry, no fur collar; grounded guarded stance.",
+  "directions": {
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/caohong/base-final-v1/side.png",
+      "sha256": "faa44b52fa290bc00bba55476457f5d06f1777c4283eb4d73bb5650dd04159fd",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/caohong/base-final-v1/front.png",
+      "sha256": "9542eb3b0fee28a93f845da9631189a71254d5b564d3c6092d5e3682280a3aad",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/caohong/base-final-v1/back.png",
+      "sha256": "57896d9a6fd97e133abe04bd85a6d9fcda9d4cdb7a4db66489e14d466f6e9dae",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    }
+  },
   "folder": "caohong",
-  "identityDesign": "Cao Hong: stout mature defensive guard, broad dependable face, small moustache, dark hair under low plain blue-steel helmet. Heavy navy armor with bronze trim, leather shoulder straps, gold-brown shield boss. Hold full large rectangular/rounded defensive shield and spear. More armored than generic infantry, no fur collar; grounded guarded stance.",
-  "artRevision": "pixel256-v1",
-  "canvas": [
-    256,
-    256
-  ],
-  "foot": [
+  "right": "mirror-side",
+  "runtimeApplied": false,
+  "logicalFoot": [
     128,
     224
   ],
-  "schemaVersion": 2,
-  "status": "ready-for-review",
-  "runtimeApplied": false,
   "motionComplete": false,
-  "sideFacing": "left",
-  "right": "mirror-side",
-  "directions": {
-    "front": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "caohong",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "sourceCanvas": [
-          1254,
-          1254
-        ],
-        "bodyTopVirtual256": 87,
-        "bodyHeightTarget": 128,
-        "sourceFootVirtual256": 228,
-        "sourceToFinalScale": 0.18532469148370603,
-        "wholeImageOffset": [
-          12,
-          17
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          80,
-          52,
-          184,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
-        "weaponContainFit": false,
-        "runtimeApplied": false,
-        "sha256": "736028236678a6cd59659496207d08133ea98c2a4a43b447c5a4233b2c218cd8"
-      }
-    },
-    "back": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "caohong",
-        "direction": "back",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 96,
-        "bodyHeightTarget": 128,
-        "sourceFootVirtual256": 219,
-        "sourceToFinalScale": 0.21244537804229718,
-        "wholeImageOffset": [
-          -5,
-          -4
-        ],
-        "groundRoundingCorrection": 1,
-        "visibleBounds": [
-          78,
-          51,
-          175,
-          226
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "ac1ebfc52b7679a1bd93e978c34437803e2e0b2e69b1dc092660027d2040b254"
-      }
-    },
-    "side": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "caohong",
-        "direction": "side",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 94,
-        "bodyHeightTarget": 128,
-        "sourceFootVirtual256": 216,
-        "sourceToFinalScale": 0.21418673360002094,
-        "wholeImageOffset": [
-          -6,
-          -3
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          87,
-          53,
-          170,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "c29e80d9830fd6d1490b264c3b0378dc7d4ad36fc0e37c73c26218977f8899c6"
-      }
-    }
-  },
-  "files": {
-    "front": {
-      "path": "front.png",
-      "sha256": "736028236678a6cd59659496207d08133ea98c2a4a43b447c5a4233b2c218cd8"
-    },
-    "back": {
-      "path": "back.png",
-      "sha256": "ac1ebfc52b7679a1bd93e978c34437803e2e0b2e69b1dc092660027d2040b254"
-    },
-    "side": {
-      "path": "side.png",
-      "sha256": "c29e80d9830fd6d1490b264c3b0378dc7d4ad36fc0e37c73c26218977f8899c6"
-    }
-  },
-  "sourceProvider": "built-in image_gen",
-  "provenanceFile": "generation.json",
-  "bodyMetrics": {
-    "shoulderWidth": null,
-    "anatomicalHeight": null,
-    "riderJoints": null
-  },
-  "approval": {
-    "frontApproved": false,
-    "fullSetApproved": false
-  }
+  "name": "조홍",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
 }

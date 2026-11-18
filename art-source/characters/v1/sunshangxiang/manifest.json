@@ -1,192 +1,56 @@
 {
+  "sideFacing": "left",
+  "artRevision": "ground-body-v1",
   "id": "sunshangxiang",
-  "name": "손상향",
   "faction": "오",
-  "order": 38,
-  "identity": "Sun Shangxiang: spirited young female archer, tied high dark ponytail with short red ribbon, confident eyes, compact reddish bronze shoulder armor over crimson/ivory tunic, fitted waist and practical boots. Hold recurve bow and wear quiver. Athletic slender woman, no long court gown, no enormous gold floral crown.",
+  "directions": {
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/sunshangxiang/base-final-v1/side.png",
+      "sha256": "0e9706bc37cc1b79cb60c2cdd4b298be3b3b73c85a3573b240905702263998ea",
+      "foot": [
+        128,
+        224
+      ]
+    },
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/sunshangxiang/base-final-v1/front.png",
+      "sha256": "c6ad37c19824013e3195f34999d4355964f0367b9b4881403e84692952cbe5aa",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/sunshangxiang/base-final-v1/back.png",
+      "sha256": "25cd193a588526c9f60e8e95f39d4a0f825c07d763d05d7a8d46ed6935e903c2",
+      "foot": [
+        128,
+        224
+      ]
+    }
+  },
   "folder": "sunshangxiang",
-  "identityDesign": "Sun Shangxiang: spirited young female archer, tied high dark ponytail with short red ribbon, confident eyes, compact reddish bronze shoulder armor over crimson/ivory tunic, fitted waist and practical boots. Hold recurve bow and wear quiver. Athletic slender woman, no long court gown, no enormous gold floral crown.",
-  "artRevision": "pixel256-v1",
-  "canvas": [
-    256,
-    256
-  ],
-  "foot": [
+  "right": "mirror-side",
+  "runtimeApplied": false,
+  "logicalFoot": [
     128,
     224
   ],
-  "schemaVersion": 2,
-  "status": "ready-for-review",
-  "runtimeApplied": false,
   "motionComplete": false,
-  "sideFacing": "left",
-  "right": "mirror-side",
-  "directions": {
-    "front": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "sunshangxiang",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "sourceCanvas": [
-          1254,
-          1254
-        ],
-        "bodyTopVirtual256": 76,
-        "bodyHeightTarget": 122,
-        "sourceFootVirtual256": 231,
-        "sourceToFinalScale": 0.16068323300920925,
-        "wholeImageOffset": [
-          27,
-          42
-        ],
-        "groundRoundingCorrection": 1,
-        "visibleBounds": [
-          91,
-          89,
-          164,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
-        "weaponContainFit": false,
-        "runtimeApplied": false,
-        "sha256": "4552068c3aefb6460dcb33b464cfd042764b32320d22df8c320f540e8bf67bc5"
-      }
-    },
-    "back": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "sunshangxiang",
-        "direction": "back",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 73,
-        "bodyHeightTarget": 122,
-        "sourceFootVirtual256": 216,
-        "sourceToFinalScale": 0.1741671406743177,
-        "wholeImageOffset": [
-          19,
-          40
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          94,
-          103,
-          158,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "155f1268ad7cccad18696ede75aae4bc913671b8f08b333f986a8cf6973d5d68"
-      }
-    },
-    "side": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "sunshangxiang",
-        "direction": "side",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 74,
-        "bodyHeightTarget": 122,
-        "sourceFootVirtual256": 214,
-        "sourceToFinalScale": 0.1778992936887674,
-        "wholeImageOffset": [
-          16,
-          38
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          101,
-          103,
-          157,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "54fe548afc39a76b98bd8cd6900538f6e348f25ad982cb876aa92af1449f3ac5"
-      }
-    }
-  },
-  "files": {
-    "front": {
-      "path": "front.png",
-      "sha256": "4552068c3aefb6460dcb33b464cfd042764b32320d22df8c320f540e8bf67bc5"
-    },
-    "back": {
-      "path": "back.png",
-      "sha256": "155f1268ad7cccad18696ede75aae4bc913671b8f08b333f986a8cf6973d5d68"
-    },
-    "side": {
-      "path": "side.png",
-      "sha256": "54fe548afc39a76b98bd8cd6900538f6e348f25ad982cb876aa92af1449f3ac5"
-    }
-  },
-  "sourceProvider": "built-in image_gen",
-  "provenanceFile": "generation.json",
-  "bodyMetrics": {
-    "shoulderWidth": null,
-    "anatomicalHeight": null,
-    "riderJoints": null
-  },
-  "approval": {
-    "frontApproved": false,
-    "fullSetApproved": false
-  }
+  "name": "손상향",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
 }

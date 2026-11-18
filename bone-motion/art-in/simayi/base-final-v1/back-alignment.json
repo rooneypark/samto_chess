@@ -1,0 +1,39 @@
+{
+  "id": "simayi",
+  "view": "back",
+  "source": "bone-motion/art-in/simayi/base-review-v1/back.png",
+  "source_sha256": "C5BF53FA6A26126E50DE84B176D3CF8CFE85C921866EDAF6D4A83DD2FB36FCC9",
+  "path": "bone-motion/art-in/simayi/base-final-v1/back.png",
+  "size": [
+    256,
+    256
+  ],
+  "offset": [
+    0,
+    -1
+  ],
+  "foot_roi": [
+    100,
+    164
+  ],
+  "source_foot_y": 225,
+  "target_foot_y": 224.0,
+  "pivot": [
+    128.0,
+    224.0
+  ],
+  "logical_pivot": [
+    128,
+    224
+  ],
+  "source_foot_center": 128.0,
+  "pixel_match": true,
+  "visible_clipped_pixels": 0,
+  "preserved_wrapped_alpha1_speckles": 0,
+  "sha256": "49E8CF73856754445A60802897E24052E8558FED43B9F4BA3C5A6C8DDA11A512",
+  "approval": "user-approved-2026-11-18",
+  "scope": "standing artwork and ground alignment only; full rig/motion verification separate",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

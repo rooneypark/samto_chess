@@ -1,192 +1,56 @@
 {
+  "sideFacing": "left",
+  "artRevision": "ground-body-v1",
   "id": "77",
-  "name": "주유",
   "faction": "오",
-  "order": 10,
-  "identity": "Zhou Yu: youthful elegant clean-shaven commander, long dark hair behind shoulders with small red-gold hair binding, composed handsome square-pixel face. White/ivory broad shoulder cape, deep crimson inner robe and narrow dark armor at chest, restrained gold trim. Hold elegant straight commander sword by hilt. Slender normal warrior, not bulky fur-collared soldier.",
+  "directions": {
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/77/base-final-v1/side.png",
+      "sha256": "71ccf0edd09add80301f58ad92d42cca9293fcfd2e178a00ca5df41949a81aba",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/77/base-final-v1/front.png",
+      "sha256": "cef6d752d90b98930d25b67cddb183d2b0f295bc04b05b3e6278f502c62f40ae",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/77/base-final-v1/back.png",
+      "sha256": "a5f370a0aa40b3d5c5ac536a475005c995a165c872324b370e3949fe6dd4a673",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    }
+  },
   "folder": "77",
-  "identityDesign": "Zhou Yu: youthful elegant clean-shaven commander, long dark hair behind shoulders with small red-gold hair binding, composed handsome square-pixel face. White/ivory broad shoulder cape, deep crimson inner robe and narrow dark armor at chest, restrained gold trim. Hold elegant straight commander sword by hilt. Slender normal warrior, not bulky fur-collared soldier.",
-  "artRevision": "pixel256-v1",
-  "canvas": [
-    256,
-    256
-  ],
-  "foot": [
+  "right": "mirror-side",
+  "runtimeApplied": false,
+  "logicalFoot": [
     128,
     224
   ],
-  "schemaVersion": 2,
-  "status": "ready-for-review",
-  "runtimeApplied": false,
   "motionComplete": false,
-  "sideFacing": "left",
-  "right": "mirror-side",
-  "directions": {
-    "front": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "77",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "sourceCanvas": [
-          1254,
-          1254
-        ],
-        "bodyTopVirtual256": 55,
-        "bodyHeightTarget": 126,
-        "sourceFootVirtual256": 229,
-        "sourceToFinalScale": 0.1478303910245834,
-        "wholeImageOffset": [
-          35,
-          58
-        ],
-        "groundRoundingCorrection": 1,
-        "visibleBounds": [
-          87,
-          90,
-          166,
-          226
-        ],
-        "clippedVisiblePixels": 0,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
-        "weaponContainFit": false,
-        "runtimeApplied": false,
-        "sha256": "f3c93afa323cc2c648de7b9ca0480344caa523a0c46407542cf0117c5f405f91"
-      }
-    },
-    "back": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "77",
-        "direction": "back",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 80,
-        "bodyHeightTarget": 126,
-        "sourceFootVirtual256": 206,
-        "sourceToFinalScale": 0.20414673046251994,
-        "wholeImageOffset": [
-          0,
-          18
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          88,
-          90,
-          165,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "eff44034fd0748f5991327c0c521a753f7a9301096c3e67f214a2be2ec43fcde"
-      }
-    },
-    "side": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "77",
-        "direction": "side",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 80,
-        "bodyHeightTarget": 126,
-        "sourceFootVirtual256": 209,
-        "sourceToFinalScale": 0.19939913207967064,
-        "wholeImageOffset": [
-          3,
-          20
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          96,
-          93,
-          157,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "2cfea776065adbba954802d24ecdc548a731d7469cfce5d5550f1033c460fb64"
-      }
-    }
-  },
-  "files": {
-    "front": {
-      "path": "front.png",
-      "sha256": "f3c93afa323cc2c648de7b9ca0480344caa523a0c46407542cf0117c5f405f91"
-    },
-    "back": {
-      "path": "back.png",
-      "sha256": "eff44034fd0748f5991327c0c521a753f7a9301096c3e67f214a2be2ec43fcde"
-    },
-    "side": {
-      "path": "side.png",
-      "sha256": "2cfea776065adbba954802d24ecdc548a731d7469cfce5d5550f1033c460fb64"
-    }
-  },
-  "sourceProvider": "built-in image_gen",
-  "provenanceFile": "generation.json",
-  "bodyMetrics": {
-    "shoulderWidth": null,
-    "anatomicalHeight": null,
-    "riderJoints": null
-  },
-  "approval": {
-    "frontApproved": false,
-    "fullSetApproved": false
-  }
+  "name": "주유",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
 }

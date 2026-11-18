@@ -1,0 +1,26 @@
+{
+  "id": "xunyu",
+  "view": "back",
+  "source": "C:/Users/pms10/.codex/generated_images/01a1edec-e7a8-7b30-a481-c6294875f061/exec-6c1d84de-34b8-4d87-b07b-5662053d69d8.png",
+  "prompt": "Use case: precise-object-edit. This is a strict THREE-VIEW CHARACTER SIZE CONSISTENCY correction for a pixel-art game, not a redesign.\nImage 1 is the FRONT master: the same hero's exact body scale, head size, torso volume, limb thickness, outfit and drawing style. Image 2 is the TARGET VIEW to redraw. Reconstruct target view at EXACTLY the same physical scale as the front master, same camera elevation and ground plane. Match anatomical head top (exclude tall hats, plumes, hair crests and weapon tips), neck, shoulder, waist, knee and sole heights as projected from the same character. Back view must not become shorter, narrower or childlike. Side view must not become thinner or smaller; naturally it shows body depth instead of frontal shoulder width. Keep the approved frontal design and same chunky bold contours, simple faces, broad flat shadow planes and sparse details. Preserve target camera direction, weapon holding hand, consistent physical weapon blade edge and grip, clothing layer construction and character identity. Rear view never copies front facial features, front belt buckle, breastplate or front apron ornaments.\nCanvas: square transparent, logical 256x256. Foot-ground pivot (128,224). Preserve generous empty canvas surrounding sprite. Do not contain-fit character into a new frame; preserve the FRONT master's exact on-canvas subject scale. No text or guide marks. Output ONLY the requested target view, one character, not a sheet.\nSpecial constraints: Xun Yu Ivory and navy scholar robe, tall black gold hat. Match skull/head top y=98, shoulders y=127, belt y=163, feet224; tall hat goes up to y=67. Rear currently much too short/narrow; restore full adult body and matching hat height. Rear robe plain ivory, NO frontal navy apron or green jade copied onto back. Preserve calm slim adult build, two hands holding slender ceremonial tablet at front. TARGET VIEW: strict REAR facing away. Output exactly one sprite.",
+  "status": "user-approved",
+  "generator": "built-in image_gen",
+  "ground_alignment": {
+    "sha256": "8C51C9B9BCC1DFD180CB3A3C23022B3D75A31284F306092DC521A3CDD13252E6",
+    "source": "back.png",
+    "pixelPreserved": true,
+    "wrappedAlpha1": 71,
+    "offset": [
+      0,
+      -1
+    ],
+    "status": "body-review-pending",
+    "foot": [
+      128,
+      224
+    ]
+  },
+  "comparison": "Frontal master unchanged; anatomical size and proportions visually compared at common ground. Not a full rig pass.",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

@@ -1,192 +1,56 @@
 {
+  "sideFacing": "left",
+  "artRevision": "ground-body-v1",
   "id": "35",
-  "name": "제갈량",
   "faction": "촉",
-  "order": 5,
-  "identity": "Zhuge Liang: slender mature scholar, tall but modest navy-blue folded scholar cap, thin long black moustache and narrow pointed beard, calm intelligent eyes, ivory robe with muted jade/green trim. Hold WHITE feather fan at chest. Small plain jade belt, flowing long sleeves. No gold warrior shoulders, not oversized cap.",
+  "directions": {
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/35/base-final-v1/side.png",
+      "sha256": "6f77cfb1c4379f7bc0ea97d451c51c1e5bcec4275d4fe9ac9ad78799b32bc113",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/35/base-final-v1/front.png",
+      "sha256": "d437d7820a34166daa71b52a2a8529f91d66fcd9bd9290cc9dd83bbbeedde71c",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/35/base-final-v1/back.png",
+      "sha256": "ae9204d38099f98fcc8429196badfe74fa9d65ce162947ff3666d6af108b02fa",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    }
+  },
   "folder": "35",
-  "identityDesign": "Zhuge Liang: slender mature scholar, tall but modest navy-blue folded scholar cap, thin long black moustache and narrow pointed beard, calm intelligent eyes, ivory robe with muted jade/green trim. Hold WHITE feather fan at chest. Small plain jade belt, flowing long sleeves. No gold warrior shoulders, not oversized cap.",
-  "artRevision": "pixel256-v1",
-  "canvas": [
-    256,
-    256
-  ],
-  "foot": [
+  "right": "mirror-side",
+  "runtimeApplied": false,
+  "logicalFoot": [
     128,
     224
   ],
-  "schemaVersion": 2,
-  "status": "ready-for-review",
-  "runtimeApplied": false,
   "motionComplete": false,
-  "sideFacing": "left",
-  "right": "mirror-side",
-  "directions": {
-    "front": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "35",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "sourceCanvas": [
-          1254,
-          1254
-        ],
-        "bodyTopVirtual256": 52,
-        "bodyHeightTarget": 122,
-        "sourceFootVirtual256": 233,
-        "sourceToFinalScale": 0.1376016636266709,
-        "wholeImageOffset": [
-          42,
-          67
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          102,
-          102,
-          153,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
-        "weaponContainFit": false,
-        "runtimeApplied": false,
-        "sha256": "6460c0052082a41792d9b2a9c6cd14b13d9f4c834c00de337af8a593a4325e3c"
-      }
-    },
-    "back": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "35",
-        "direction": "back",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 85,
-        "bodyHeightTarget": 122,
-        "sourceFootVirtual256": 205,
-        "sourceToFinalScale": 0.2075491759702286,
-        "wholeImageOffset": [
-          -2,
-          16
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          100,
-          104,
-          156,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "4d7c395091227688c86c403666be809809861bef377d7fdca8af21c84899bd6c"
-      }
-    },
-    "side": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "35",
-        "direction": "side",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 84,
-        "bodyHeightTarget": 122,
-        "sourceFootVirtual256": 209,
-        "sourceToFinalScale": 0.19924720893141945,
-        "wholeImageOffset": [
-          3,
-          20
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          104,
-          103,
-          151,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "79da9c6fffbf41c8925f2b70997770d4205caef59bfd563e101d7e2eb92480ce"
-      }
-    }
-  },
-  "files": {
-    "front": {
-      "path": "front.png",
-      "sha256": "6460c0052082a41792d9b2a9c6cd14b13d9f4c834c00de337af8a593a4325e3c"
-    },
-    "back": {
-      "path": "back.png",
-      "sha256": "4d7c395091227688c86c403666be809809861bef377d7fdca8af21c84899bd6c"
-    },
-    "side": {
-      "path": "side.png",
-      "sha256": "79da9c6fffbf41c8925f2b70997770d4205caef59bfd563e101d7e2eb92480ce"
-    }
-  },
-  "sourceProvider": "built-in image_gen",
-  "provenanceFile": "generation.json",
-  "bodyMetrics": {
-    "shoulderWidth": null,
-    "anatomicalHeight": null,
-    "riderJoints": null
-  },
-  "approval": {
-    "frontApproved": false,
-    "fullSetApproved": false
-  }
+  "name": "제갈량",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
 }

@@ -293,12 +293,49 @@ def restore(root, overwrite=False):
                     Path(name).replace(destination)
                 finally:
                     Path(name).unlink(missing_ok=True)
+    restore_character_aliases(root, receipt, overwrite)
     # Files removed from the catalog are reported, never silently deleted.
     stale = sorted(set(receipt)-set(desired))
     (root/'.asset-state.json').write_text(json.dumps({'schemaVersion': 1, 'files': desired}, indent=2)+'\n', encoding='utf-8')
     print(f'Restored {len(changes)} assets; {len(desired)-len(changes)} already match; {len(stale)} retired paths left for review')
     if conflicts:
         print('Local edits backed up to:', backup)
+
+
+def restore_character_aliases(root, receipt=None, overwrite=False):
+    """Rebuild local art-in compatibility paths from the one packaged character set."""
+    roster = read_json(root/'art-source/characters/v1/manifest.json', {})
+    if roster.get('artRevision') != 'ground-body-v1':
+        return
+    receipt = receipt or {}
+    pending = []
+    for hero in roster.get('entries', []):
+        ident = str(hero['id'])
+        if not ident.isascii() or not ident.isalnum():
+            raise ValueError('Invalid character alias ID')
+        for view in ('front', 'side', 'back'):
+            relative = f'art-source/characters/v1/{ident}/{view}.png'
+            source = safe_path(root, relative)
+            expected = digest(source.read_bytes())
+            for sub in ('', 'base-final-v1/'):
+                target = safe_path(root, f'bone-motion/art-in/{ident}/{sub}{view}.png')
+                if target.exists() and source.samefile(target):
+                    continue
+                actual = digest(target.read_bytes()) if target.exists() else None
+                if actual not in (None, expected, receipt.get(relative)) and not overwrite:
+                    raise ValueError('Local character alias edit preserved: '+str(target))
+                pending.append((source, target, actual, expected))
+    for source, target, actual, expected in pending:
+        target.parent.mkdir(parents=True, exist_ok=True)
+        if actual not in (None, expected) and overwrite:
+            backup = root/'.asset-backups'/datetime.now().strftime('%Y%m%d-%H%M%S-%f')/target.relative_to(root)
+            backup.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(target, backup)
+        target.unlink(missing_ok=True)
+        try:
+            os.link(source, target)
+        except OSError:
+            shutil.copy2(source, target)
 
 
 def verify(root, archives_only=False):

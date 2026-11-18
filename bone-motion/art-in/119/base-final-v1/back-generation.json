@@ -1,0 +1,26 @@
+{
+  "id": "119",
+  "view": "back",
+  "source": "C:/Users/pms10/.codex/generated_images/01a1edec-e7a8-7b30-a481-c6294875f061/exec-7021023c-3446-4231-837e-cd271ad26d20.png",
+  "prompt": "Use case: precise-object-edit. This is a strict THREE-VIEW CHARACTER SIZE CONSISTENCY correction for a pixel-art game, not a redesign.\nImage 1 is the FRONT master: the same hero's exact body scale, head size, torso volume, limb thickness, outfit and drawing style. Image 2 is the TARGET VIEW to redraw. Reconstruct target view at EXACTLY the same physical scale as the front master, same camera elevation and ground plane. Match anatomical head top (exclude tall hats, plumes, hair crests and weapon tips), neck, shoulder, waist, knee and sole heights as projected from the same character. Back view must not become shorter, narrower or childlike. Side view must not become thinner or smaller; naturally it shows body depth instead of frontal shoulder width. Keep the approved frontal design and same chunky bold contours, simple faces, broad flat shadow planes and sparse details. Preserve target camera direction, weapon holding hand, consistent physical weapon blade edge and grip, clothing layer construction and character identity. Rear view never copies front facial features, front belt buckle, breastplate or front apron ornaments.\nCanvas: square transparent, logical 256x256. Foot-ground pivot (128,224). Preserve generous empty canvas surrounding sprite. Do not contain-fit character into a new frame; preserve the FRONT master's exact on-canvas subject scale. No text or guide marks. Output ONLY the requested target view, one character, not a sheet.\nSpecial constraints: Hero LU BU, target REAR facing away. This horse-and-rider currently shrinks relative to front. On the logical 256 canvas lock RIDER skull/helmet body top near y=52 (exclude the long red plumes), shoulder line near y=80, belt/pelvis near y=121, hoof ground y=224. Do not count feathers as body height. Match the front rider's head width and upper body mass; enlarge/redraw the too-small rider accordingly. Horse physical size and sturdy legs must match front master, four anatomically plausible hooves, red-brown coat and same gold tack. Keep long twin red plumes, red-black-gold armor, red cape, identical halberd blade orientation in 3D and correct grip. Rear shows broad shoulder armor above the cape; keep cape from hiding all horse anatomy. Do not add extra patterns.",
+  "status": "user-approved",
+  "generator": "built-in image_gen",
+  "ground_alignment": {
+    "sha256": "3B35001D80A2262823CB606CA7E95D7E01B8B547534DD402921499B456DCA1D1",
+    "source": "back.png",
+    "pixelPreserved": true,
+    "wrappedAlpha1": 0,
+    "offset": [
+      0,
+      -3
+    ],
+    "status": "body-review-pending",
+    "foot": [
+      128,
+      224
+    ]
+  },
+  "comparison": "Frontal master unchanged; anatomical size and proportions visually compared at common ground. Not a full rig pass.",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

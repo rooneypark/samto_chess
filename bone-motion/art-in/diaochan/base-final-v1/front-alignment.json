@@ -1,0 +1,47 @@
+{
+  "id": "diaochan",
+  "view": "front",
+  "source": "bone-motion/art-in/diaochan/base-draft-v2/front.png",
+  "source_sha256": "B9E7FB0EBD36EC9222C657DCA2E1990EB7D8D4D3452F907DD9D081EF4DA392A4",
+  "path": "bone-motion/art-in/diaochan/base-final-v1/front.png",
+  "size": [
+    256,
+    256
+  ],
+  "offset": [
+    0,
+    2
+  ],
+  "foot_roi": [
+    100,
+    164
+  ],
+  "source_foot_y": 222,
+  "target_foot_y": 224.0,
+  "pivot": [
+    128.0,
+    224.0
+  ],
+  "logical_pivot": [
+    128,
+    224
+  ],
+  "source_foot_center": 128.0,
+  "pixel_match": true,
+  "visible_clipped_pixels": 0,
+  "preserved_wrapped_alpha1_speckles": 0,
+  "sha256": "19EB3D300EA30FFAAFEF706839EC12EADE2BCF671D126C9CC886712E8E4AFF79",
+  "approval": "user-approved-2026-11-18",
+  "scope": "standing artwork and ground alignment only; full rig/motion verification separate",
+  "generation_provenance": {
+    "hero": "diaochan",
+    "view": "front",
+    "status": "generated-awaiting-user-review",
+    "source": "C:/Users/pms10/.codex/generated_images/01a1edec-e7a8-7b30-a481-c6294875f061/exec-9b92cc42-02ba-4d6e-918c-47697ce30730.png",
+    "prompt": "Use case: precise-object-edit. Edit target: image 1, diaochan front game sprite. Correct ONLY the two front-facing eyes. Give Diao Chan two clearly readable matching small dark almond eyes, on the same horizontal baseline, balanced width and pupil placement, looking straight ahead. Simple confident bold pixel shapes like the rest of the roster, gentle calm expression. Remove uneven squint or misplaced dark strokes. Keep eyebrows separate from eyes. Preserve face shape, mouth, headdress, hair and everything else. Invariants: preserve all unrequested parts, exact existing canvas framing and character scale, body proportions, clothing, weapons, hands, feet, bold outlines and limited flat colors. Full square canvas with actual transparent background. Match 256x256 logical pixel-art grid; do not zoom to fill canvas. No text, no extra figures.",
+    "generator": "built-in image_gen"
+  },
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

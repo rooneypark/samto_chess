@@ -1,0 +1,26 @@
+{
+  "id": "xuhuang",
+  "view": "back",
+  "source": "C:/Users/pms10/.codex/generated_images/01a1edec-e7a8-7b30-a481-c6294875f061/exec-f1403721-fa24-40d6-9eca-95335c6096e3.png",
+  "prompt": "Use case: stylized-concept. Attached is FRONT MASTER, character design and exact physical scale reference. Draw ONE matching view of the SAME character, a coherent turnaround, on the SAME 256x256 logical transparent square canvas. Do not output front or a sheet. Bold chunky pixel art, simple facial marks, large flat color/shadow planes, no added tiny ornamentation. Matching body SIZE across views is the main requirement. Actual head/body independent of hats, hair crests, plumes and weapons. Foot pivot (128,224); preserve generous blank canvas. Draw XU HUANG in strict REAR view at exactly FRONT master's size. Purple head wrap skull TOP at logical y=94, shoulders at y=134, waist at y=174, shoes bottom y=224. Head-wrap width ~32px, shoulder armor spans ~72px. Front's adult solid stocky frame must remain; no shrunken child body. Keep same very large axe physical scale: axe top around y=42 and bottom y=219; metal blade about70px high as in front. Blade and shaft mirrored in perspective of same carried weapon, no arbitrary shrinking. Purple scarf tails, dark steel back armor sparse gold, purple cape. Back not front, no face/buckle/apron.",
+  "status": "user-approved",
+  "generator": "built-in image_gen",
+  "ground_alignment": {
+    "pixelPreserved": true,
+    "wrappedAlpha1": 0,
+    "source": "back.png",
+    "foot": [
+      128,
+      224
+    ],
+    "offset": [
+      2,
+      5
+    ],
+    "status": "body-review-pending",
+    "sha256": "9D158D2335B560D4B46FBB524F2E9C4C0DDE259AFB5380611110A70C2E8EFE53"
+  },
+  "comparison": "Frontal master unchanged; anatomical size and proportions visually compared at common ground. Not a full rig pass.",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

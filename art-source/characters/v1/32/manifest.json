@@ -1,192 +1,56 @@
 {
+  "sideFacing": "left",
+  "artRevision": "ground-body-v1",
   "id": "32",
-  "name": "조조",
   "faction": "위",
-  "order": 7,
-  "identity": "Cao Cao: mature ambitious lord with broad authoritative brow, sharp eyes, neat moustache and divided pointed beard. Low gold crown on black hair, dark navy and black gold-trimmed court armor, deep red shoulder cape, dignified layered tabard. Hold ONE straight sword by its hilt, other hand empty. Average body, not giant.",
+  "directions": {
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/32/base-final-v1/side.png",
+      "sha256": "8abd25aa248aa44460097f676d3d625f150e25de83cdd352f9ff68819bc3be0b",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/32/base-final-v1/front.png",
+      "sha256": "920598a94d648a6c06aff919d2c55da19b282046c0fa1fdf7c1e7321107cee9d",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/32/base-final-v1/back.png",
+      "sha256": "b06b15f5130449bfb891056bde50384622ad0e2b1b8dba2ea2fc8475a56759ec",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    }
+  },
   "folder": "32",
-  "identityDesign": "Cao Cao: mature ambitious lord with broad authoritative brow, sharp eyes, neat moustache and divided pointed beard. Low gold crown on black hair, dark navy and black gold-trimmed court armor, deep red shoulder cape, dignified layered tabard. Hold ONE straight sword by its hilt, other hand empty. Average body, not giant.",
-  "artRevision": "pixel256-v1",
-  "canvas": [
-    256,
-    256
-  ],
-  "foot": [
+  "right": "mirror-side",
+  "runtimeApplied": false,
+  "logicalFoot": [
     128,
     224
   ],
-  "schemaVersion": 2,
-  "status": "ready-for-review",
-  "runtimeApplied": false,
   "motionComplete": false,
-  "sideFacing": "left",
-  "right": "mirror-side",
-  "directions": {
-    "front": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "32",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "sourceCanvas": [
-          1254,
-          1254
-        ],
-        "bodyTopVirtual256": 52,
-        "bodyHeightTarget": 128,
-        "sourceFootVirtual256": 231,
-        "sourceToFinalScale": 0.14598201954861761,
-        "wholeImageOffset": [
-          36,
-          59
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          85,
-          97,
-          168,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
-        "weaponContainFit": false,
-        "runtimeApplied": false,
-        "sha256": "dc815ae692ab72a25dbf6bf966841b60c02c8a95cd1ac8315cd299663240d73d"
-      }
-    },
-    "back": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "32",
-        "direction": "back",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 83,
-        "bodyHeightTarget": 128,
-        "sourceFootVirtual256": 213,
-        "sourceToFinalScale": 0.20100601153232733,
-        "wholeImageOffset": [
-          2,
-          14
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          88,
-          97,
-          163,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "8b2c48746f29f6108c720d0edd93f632b7bd73d5109eeb8aa5f88ffae0c5a0e0"
-      }
-    },
-    "side": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "32",
-        "direction": "side",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 79,
-        "bodyHeightTarget": 128,
-        "sourceFootVirtual256": 208,
-        "sourceToFinalScale": 0.20256419766823683,
-        "wholeImageOffset": [
-          1,
-          18
-        ],
-        "groundRoundingCorrection": -1,
-        "visibleBounds": [
-          94,
-          97,
-          158,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "eef0c3d83855041a821d788e8ac55a3b20c8a76f76535565d5bdc29d051fae15"
-      }
-    }
-  },
-  "files": {
-    "front": {
-      "path": "front.png",
-      "sha256": "dc815ae692ab72a25dbf6bf966841b60c02c8a95cd1ac8315cd299663240d73d"
-    },
-    "back": {
-      "path": "back.png",
-      "sha256": "8b2c48746f29f6108c720d0edd93f632b7bd73d5109eeb8aa5f88ffae0c5a0e0"
-    },
-    "side": {
-      "path": "side.png",
-      "sha256": "eef0c3d83855041a821d788e8ac55a3b20c8a76f76535565d5bdc29d051fae15"
-    }
-  },
-  "sourceProvider": "built-in image_gen",
-  "provenanceFile": "generation.json",
-  "bodyMetrics": {
-    "shoulderWidth": null,
-    "anatomicalHeight": null,
-    "riderJoints": null
-  },
-  "approval": {
-    "frontApproved": false,
-    "fullSetApproved": false
-  }
+  "name": "조조",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
 }

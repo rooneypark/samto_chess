@@ -1,192 +1,56 @@
 {
+  "sideFacing": "left",
+  "artRevision": "ground-body-v1",
   "id": "archer",
-  "name": "의용궁병",
   "faction": "군웅",
-  "order": 13,
-  "identity": "Volunteer archer: ordinary adult foot soldier, broad woven STRAW HAT, plain tan/brown cloth tunic with modest iron chest vest, muted red sash. Simple wooden bow and arrow quiver. Slim average rank-and-file body, few ornaments, no gold noble shoulders or giant beard.",
+  "directions": {
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/archer/base-final-v1/side.png",
+      "sha256": "f9bca878b098288dbdca87124096c8de53789dee9529175d4671f9a4f4766ecf",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/archer/base-final-v1/front.png",
+      "sha256": "92105b491eaeb52cb0b1cb1d5e5cbbeec934335554225434fc2ac2cf95d1a8d4",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/archer/base-final-v1/back.png",
+      "sha256": "7cbc054b4097c3bcb55410d3b910b2667db889c49943753d7cdf9e5727b0ac0e",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    }
+  },
   "folder": "archer",
-  "identityDesign": "Volunteer archer: ordinary adult foot soldier, broad woven STRAW HAT, plain tan/brown cloth tunic with modest iron chest vest, muted red sash. Simple wooden bow and arrow quiver. Slim average rank-and-file body, few ornaments, no gold noble shoulders or giant beard.",
-  "artRevision": "pixel256-v1",
-  "canvas": [
-    256,
-    256
-  ],
-  "foot": [
+  "right": "mirror-side",
+  "runtimeApplied": false,
+  "logicalFoot": [
     128,
     224
   ],
-  "schemaVersion": 2,
-  "status": "ready-for-review",
-  "runtimeApplied": false,
   "motionComplete": false,
-  "sideFacing": "left",
-  "right": "mirror-side",
-  "directions": {
-    "front": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "archer",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "sourceCanvas": [
-          1254,
-          1254
-        ],
-        "bodyTopVirtual256": 82,
-        "bodyHeightTarget": 125,
-        "sourceFootVirtual256": 232,
-        "sourceToFinalScale": 0.17012227538543329,
-        "wholeImageOffset": [
-          21,
-          31
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          89,
-          99,
-          168,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
-        "weaponContainFit": false,
-        "runtimeApplied": false,
-        "sha256": "285c77aa0477e83fe5e2299062e9c7602860722308088befdb352a6165dd66c3"
-      }
-    },
-    "back": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "archer",
-        "direction": "back",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 83,
-        "bodyHeightTarget": 125,
-        "sourceFootVirtual256": 211,
-        "sourceToFinalScale": 0.19936204146730463,
-        "wholeImageOffset": [
-          3,
-          18
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          90,
-          100,
-          166,
-          226
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "11e918595d96304431c96fc84bf06e2a3e405d20bee0467559aa9ee4355b9cbe"
-      }
-    },
-    "side": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "archer",
-        "direction": "side",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 84,
-        "bodyHeightTarget": 125,
-        "sourceFootVirtual256": 213,
-        "sourceToFinalScale": 0.19781659928538753,
-        "wholeImageOffset": [
-          4,
-          18
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          99,
-          101,
-          161,
-          226
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "4dc17edabab38bcbde9be06dbcd0423a7de88cea8ab64a61680d9be6806bb414"
-      }
-    }
-  },
-  "files": {
-    "front": {
-      "path": "front.png",
-      "sha256": "285c77aa0477e83fe5e2299062e9c7602860722308088befdb352a6165dd66c3"
-    },
-    "back": {
-      "path": "back.png",
-      "sha256": "11e918595d96304431c96fc84bf06e2a3e405d20bee0467559aa9ee4355b9cbe"
-    },
-    "side": {
-      "path": "side.png",
-      "sha256": "4dc17edabab38bcbde9be06dbcd0423a7de88cea8ab64a61680d9be6806bb414"
-    }
-  },
-  "sourceProvider": "built-in image_gen",
-  "provenanceFile": "generation.json",
-  "bodyMetrics": {
-    "shoulderWidth": null,
-    "anatomicalHeight": null,
-    "riderJoints": null
-  },
-  "approval": {
-    "frontApproved": false,
-    "fullSetApproved": false
-  }
+  "name": "의용궁병",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
 }

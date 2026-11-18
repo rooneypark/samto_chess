@@ -1,0 +1,39 @@
+{
+  "id": "2",
+  "view": "front",
+  "source": "bone-motion/art-in/2/front.png",
+  "source_sha256": "57D96A7012840238516B1F239307E7CF5C4249E1BBF22AB544C7A07FF5A1B259",
+  "path": "bone-motion/art-in/2/base-final-v1/front.png",
+  "size": [
+    1254,
+    1254
+  ],
+  "offset": [
+    0,
+    13
+  ],
+  "foot_roi": [
+    96,
+    163
+  ],
+  "source_foot_y": 1084,
+  "target_foot_y": 1097.0,
+  "pivot": [
+    627.0,
+    1097.0
+  ],
+  "logical_pivot": [
+    128,
+    224
+  ],
+  "source_foot_center": 627.0,
+  "pixel_match": true,
+  "visible_clipped_pixels": 0,
+  "preserved_wrapped_alpha1_speckles": 0,
+  "sha256": "F87A88309AECC8FE6E4D12F526D2ABAC63B407BA6C5BB189A46B62EAD9E0D600",
+  "approval": "user-approved-2026-11-18",
+  "scope": "standing artwork and ground alignment only; full rig/motion verification separate",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

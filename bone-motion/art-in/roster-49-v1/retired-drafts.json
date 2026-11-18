@@ -1,0 +1,633 @@
+{
+  "deleted": [
+    {
+      "path": "bone-motion/art-in/1/base-review-v1",
+      "pngs": 3,
+      "files": 4
+    },
+    {
+      "path": "art-source/characters/v1/1",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/2/base-pose-review-v1",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "art-source/characters/v1/2",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/15/base-review-v1",
+      "pngs": 3,
+      "files": 4
+    },
+    {
+      "path": "art-source/characters/v1/15",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/16/base-review-v1",
+      "pngs": 3,
+      "files": 4
+    },
+    {
+      "path": "art-source/characters/v1/16",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/35/base-review-v1",
+      "pngs": 3,
+      "files": 4
+    },
+    {
+      "path": "art-source/characters/v1/35",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/0/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "bone-motion/art-in/0/base-draft-v2",
+      "pngs": 1,
+      "files": 2
+    },
+    {
+      "path": "bone-motion/art-in/0/base-draft-v3",
+      "pngs": 1,
+      "files": 2
+    },
+    {
+      "path": "bone-motion/art-in/0/base-draft-v4",
+      "pngs": 3,
+      "files": 4
+    },
+    {
+      "path": "bone-motion/art-in/0/body-review-v1",
+      "pngs": 4,
+      "files": 8
+    },
+    {
+      "path": "art-source/characters/v1/0",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/32/base-review-v1",
+      "pngs": 3,
+      "files": 4
+    },
+    {
+      "path": "art-source/characters/v1/32",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/33/base-review-v1",
+      "pngs": 3,
+      "files": 4
+    },
+    {
+      "path": "art-source/characters/v1/33",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/34/base-v1",
+      "pngs": 3,
+      "files": 7
+    },
+    {
+      "path": "art-source/characters/v1/34",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/77/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/77",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/119/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "bone-motion/art-in/119/body-review-v1",
+      "pngs": 4,
+      "files": 8
+    },
+    {
+      "path": "bone-motion/art-in/119/body-review-v2",
+      "pngs": 2,
+      "files": 4
+    },
+    {
+      "path": "art-source/characters/v1/119",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/infantry/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/infantry",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/archer/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/archer",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/tactician/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/tactician",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/simayi/base-review-v1",
+      "pngs": 3,
+      "files": 4
+    },
+    {
+      "path": "art-source/characters/v1/simayi",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/dianwei/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/dianwei",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/guojia/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "bone-motion/art-in/guojia/base-draft-v2",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/guojia",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/xuchu/base-review-v1",
+      "pngs": 3,
+      "files": 4
+    },
+    {
+      "path": "art-source/characters/v1/xuchu",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/xiahouyuan/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/xiahouyuan",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/xuhuang/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "bone-motion/art-in/xuhuang/body-review-v1",
+      "pngs": 4,
+      "files": 8
+    },
+    {
+      "path": "bone-motion/art-in/xuhuang/body-review-v2",
+      "pngs": 2,
+      "files": 4
+    },
+    {
+      "path": "art-source/characters/v1/xuhuang",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/xunyu/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "bone-motion/art-in/xunyu/base-draft-v2",
+      "pngs": 1,
+      "files": 2
+    },
+    {
+      "path": "bone-motion/art-in/xunyu/body-review-v1",
+      "pngs": 4,
+      "files": 8
+    },
+    {
+      "path": "art-source/characters/v1/xunyu",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/yuejin/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/yuejin",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/caohong/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/caohong",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/machao/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "bone-motion/art-in/machao/body-review-v1",
+      "pngs": 4,
+      "files": 8
+    },
+    {
+      "path": "bone-motion/art-in/machao/body-review-v2",
+      "pngs": 2,
+      "files": 4
+    },
+    {
+      "path": "art-source/characters/v1/machao",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/pangtong/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "bone-motion/art-in/pangtong/base-draft-v2",
+      "pngs": 2,
+      "files": 4
+    },
+    {
+      "path": "art-source/characters/v1/pangtong",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/jiangwei/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/jiangwei",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/weiyan/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/weiyan",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/liaohua/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/liaohua",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/zhoucang/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/zhoucang",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/sunce/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/sunce",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/luxun/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/luxun",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/sunquan/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "bone-motion/art-in/sunquan/body-review-v1",
+      "pngs": 4,
+      "files": 8
+    },
+    {
+      "path": "bone-motion/art-in/sunquan/body-review-v2",
+      "pngs": 4,
+      "files": 8
+    },
+    {
+      "path": "art-source/characters/v1/sunquan",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/ganning/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "bone-motion/art-in/ganning/base-draft-v2",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "bone-motion/art-in/ganning/base-draft-v3",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "bone-motion/art-in/ganning/body-review-v1",
+      "pngs": 4,
+      "files": 8
+    },
+    {
+      "path": "art-source/characters/v1/ganning",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/taishici/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "bone-motion/art-in/taishici/body-review-v1",
+      "pngs": 4,
+      "files": 8
+    },
+    {
+      "path": "art-source/characters/v1/taishici",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/lumeng/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/lumeng",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/huanggai/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/huanggai",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/lusu/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/lusu",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/sunshangxiang/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "bone-motion/art-in/sunshangxiang/body-review-v1",
+      "pngs": 4,
+      "files": 8
+    },
+    {
+      "path": "art-source/characters/v1/sunshangxiang",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/dingfeng/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/dingfeng",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/panzhang/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/panzhang",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/zhangjue/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/zhangjue",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/dongzhuo/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/dongzhuo",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/yuanshao/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/yuanshao",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/huatuo/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/huatuo",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/yanliang/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/yanliang",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/wenchou/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/wenchou",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/diaochan/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "bone-motion/art-in/diaochan/base-draft-v2",
+      "pngs": 1,
+      "files": 2
+    },
+    {
+      "path": "bone-motion/art-in/diaochan/body-review-v1",
+      "pngs": 4,
+      "files": 8
+    },
+    {
+      "path": "art-source/characters/v1/diaochan",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/huaxiong/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/huaxiong",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/gongsunzan/base-draft-v1",
+      "pngs": 3,
+      "files": 6
+    },
+    {
+      "path": "art-source/characters/v1/gongsunzan",
+      "pngs": 3,
+      "files": 5
+    },
+    {
+      "path": "bone-motion/art-in/review-5v5-v1",
+      "pngs": 17,
+      "files": 22
+    },
+    {
+      "path": "bone-motion/out/guanyu-base-v2-guides",
+      "pngs": 6,
+      "files": 8
+    },
+    {
+      "path": "bone-motion/out/zhangliao-base-v2-guides",
+      "pngs": 6,
+      "files": 7
+    },
+    {
+      "path": "bone-motion/out/base-art-measurement-20261118",
+      "pngs": 9,
+      "files": 9
+    }
+  ],
+  "compatibility": "art-in/<id> and art-source/characters/v1/<id> PNG paths are hardlinks to current canonical files",
+  "reason": "User requested retirement of previous 49-hero artwork and drafts; current set verified before removal",
+  "motionsAndGameAssetsPreserved": true,
+  "current": "bone-motion/art-in/<id>/base-final-v1"
+}

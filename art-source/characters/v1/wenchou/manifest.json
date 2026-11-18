@@ -1,192 +1,56 @@
 {
+  "sideFacing": "left",
+  "artRevision": "ground-body-v1",
   "id": "wenchou",
-  "name": "문추",
   "faction": "군웅",
-  "order": 46,
-  "identity": "Wen Chou: broad squat fierce fighter, round heavy brow, square jaw and wide black beard, rounded bronze helmet with ochre scarf around neck. Heavy dark iron and bronze armor, plum waist sash. Hold long spear. Stockier broader face than Yan Liang, distinct rounded helmet and large shoulder blocks.",
+  "directions": {
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/wenchou/base-final-v1/side.png",
+      "sha256": "e268b214e7f4b1f994966ced43a58a7c9f3d865d6b88458e3bca438eca1b5101",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/wenchou/base-final-v1/front.png",
+      "sha256": "a67f8dadf4e8e69d07f65688a793f4afcf480999078b6413046b83b8abf9761b",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/wenchou/base-final-v1/back.png",
+      "sha256": "8ce34247bce9a458c9efc0211f966da63697b72eff5cb52ae0f786107aa2b0b9",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    }
+  },
   "folder": "wenchou",
-  "identityDesign": "Wen Chou: broad squat fierce fighter, round heavy brow, square jaw and wide black beard, rounded bronze helmet with ochre scarf around neck. Heavy dark iron and bronze armor, plum waist sash. Hold long spear. Stockier broader face than Yan Liang, distinct rounded helmet and large shoulder blocks.",
-  "artRevision": "pixel256-v1",
-  "canvas": [
-    256,
-    256
-  ],
-  "foot": [
+  "right": "mirror-side",
+  "runtimeApplied": false,
+  "logicalFoot": [
     128,
     224
   ],
-  "schemaVersion": 2,
-  "status": "ready-for-review",
-  "runtimeApplied": false,
   "motionComplete": false,
-  "sideFacing": "left",
-  "right": "mirror-side",
-  "directions": {
-    "front": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "wenchou",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "sourceCanvas": [
-          1254,
-          1254
-        ],
-        "bodyTopVirtual256": 78,
-        "bodyHeightTarget": 131,
-        "sourceFootVirtual256": 227,
-        "sourceToFinalScale": 0.17948470933281954,
-        "wholeImageOffset": [
-          15,
-          24
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          71,
-          46,
-          178,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
-        "weaponContainFit": false,
-        "runtimeApplied": false,
-        "sha256": "7b561942201caa677429f8c2443609784138609c2b0810e42442d582bcfb8b6b"
-      }
-    },
-    "back": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "wenchou",
-        "direction": "back",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 93,
-        "bodyHeightTarget": 131,
-        "sourceFootVirtual256": 223,
-        "sourceToFinalScale": 0.20571708992761623,
-        "wholeImageOffset": [
-          -1,
-          -1
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          78,
-          47,
-          183,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "f69f8df0a1786503dcb8d85a841a73807d21bab41351f642c4c1f1afa03afb5e"
-      }
-    },
-    "side": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "wenchou",
-        "direction": "side",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 91,
-        "bodyHeightTarget": 131,
-        "sourceFootVirtual256": 218,
-        "sourceToFinalScale": 0.21057654874480403,
-        "wholeImageOffset": [
-          -4,
-          -1
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          75,
-          47,
-          164,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "7b0b69c2a29d93ad1f673c42f3858f1490354a54bb7f30145c9767124a71bc74"
-      }
-    }
-  },
-  "files": {
-    "front": {
-      "path": "front.png",
-      "sha256": "7b561942201caa677429f8c2443609784138609c2b0810e42442d582bcfb8b6b"
-    },
-    "back": {
-      "path": "back.png",
-      "sha256": "f69f8df0a1786503dcb8d85a841a73807d21bab41351f642c4c1f1afa03afb5e"
-    },
-    "side": {
-      "path": "side.png",
-      "sha256": "7b0b69c2a29d93ad1f673c42f3858f1490354a54bb7f30145c9767124a71bc74"
-    }
-  },
-  "sourceProvider": "built-in image_gen",
-  "provenanceFile": "generation.json",
-  "bodyMetrics": {
-    "shoulderWidth": null,
-    "anatomicalHeight": null,
-    "riderJoints": null
-  },
-  "approval": {
-    "frontApproved": false,
-    "fullSetApproved": false
-  }
+  "name": "문추",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
 }

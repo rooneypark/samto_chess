@@ -1,0 +1,48 @@
+{
+  "id": "dianwei",
+  "view": "back",
+  "source": "bone-motion/art-in/dianwei/base-draft-v1/back.png",
+  "source_sha256": "3DCC68760C78BFDD77ED554868283F2A9344F99DE89BB8CD1B75F14825CFF3AD",
+  "path": "bone-motion/art-in/dianwei/base-final-v1/back.png",
+  "size": [
+    256,
+    256
+  ],
+  "offset": [
+    -5,
+    12
+  ],
+  "foot_roi": [
+    99,
+    166
+  ],
+  "source_foot_y": 212,
+  "target_foot_y": 224.0,
+  "pivot": [
+    128.0,
+    224.0
+  ],
+  "logical_pivot": [
+    128,
+    224
+  ],
+  "source_foot_center": 133.0,
+  "pixel_match": true,
+  "visible_clipped_pixels": 0,
+  "preserved_wrapped_alpha1_speckles": 1,
+  "sha256": "DDF203E9C0D9F8D0320A7891B402033C2C85C096D5D50445F4FB07D289EA0E1C",
+  "approval": "user-approved-2026-11-18",
+  "scope": "standing artwork and ground alignment only; full rig/motion verification separate",
+  "generation_provenance": {
+    "hero": "dianwei",
+    "name": "전위",
+    "view": "back",
+    "status": "generated-awaiting-cross-review",
+    "generator": "built-in image_gen",
+    "source": "C:/Users/pms10/.codex/generated_images/01a1edec-e7a8-7b30-a481-c6294875f061/exec-c66f2a7e-f6b6-40ea-9a6b-01aac4e8a56c.png",
+    "prompt": "Create ONE productionpixelart BASICNEUTRAL 전위 sprite, back view. Identity: Dian Wei: extremely muscular stocky bodyguard but same tallness class as Xu Chu, thick neck, broad square jaw, dark coarse sideburns and short bristly beard, black tied hair with simple headband. Dark iron chest armor, leather straps, thick exposed upper arms, blue-black sash. TWO heavy short iron ji halberds with side blades, one per hand. No shiny gold default shoulder lions. Charactertrait: 허저와 같은 급의 큰 몸. 양손의 쌍철극이 굵고 무겁다.. Reference1 newfront identity/design andbodyproportions tokeep exactly. Reference2 approved ZhangFei/ZhangLiao STYLE: thick confident1-2logicalpixel outline, simple square eyes, broadflat2-3toneclusters, few largehair/beardgroups, sparsegoldbands, no ornatefiligree/finehairlines or repeatingtinypattern. TWO separate short weapons36px each, one perhand. RIGHT andLEFT hands each firmly wraptheir ownhilt6pxfrombutt. Both pointDOWN relaxed, except SunCe rightupright leftlow peridentity. DianWei andSunCe shortji heads, LiuBei straightblades. Pure REAR, anatomicalRIGHT appears screenRIGHT, LEFT screenLEFT. No face/beard onback. Props heldinfrontofchest naturallyhidden. Singlebladecurvature appears horizontallyreversed fromfront; do notswapweaponhands. Naturalstill upright relaxed standingpose, feetparallel, shoulderslevel, no combatgesture. Logical256x256 SQUAREtransparentcanvas. Groundpivot128224. Anatomicalbodyheight130.2px, excludingcrown/plume/weapon, headtop~y94, groundy224. Warrior shoulderjointspan38px timeswidth1.15. Keepnormalheadsize, fullnessfromtorso notgianthead. Generous margins, DO NOTenlargecharactertofillcanvas. Fullweapon feet cape decorations intact. Orthographic18degreedowncamera, no perspectiveextremes. TRUEtransparentbackground no shadow floor checkerboard text watermark grid labels oradditionalviews. CrispPIXELstepedges; do notswitchto smoothvectorart."
+  },
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

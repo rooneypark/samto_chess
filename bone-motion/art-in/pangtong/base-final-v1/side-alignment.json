@@ -1,0 +1,47 @@
+{
+  "id": "pangtong",
+  "view": "side",
+  "source": "bone-motion/art-in/pangtong/base-draft-v2/side.png",
+  "source_sha256": "046F819249AFEB5761810B1D770714464F315A2318577AB3494BEA0A1A07E984",
+  "path": "bone-motion/art-in/pangtong/base-final-v1/side.png",
+  "size": [
+    256,
+    256
+  ],
+  "offset": [
+    1,
+    10
+  ],
+  "foot_roi": [
+    100,
+    164
+  ],
+  "source_foot_y": 214,
+  "target_foot_y": 224.0,
+  "pivot": [
+    128.0,
+    224.0
+  ],
+  "logical_pivot": [
+    128,
+    224
+  ],
+  "source_foot_center": 127.0,
+  "pixel_match": true,
+  "visible_clipped_pixels": 0,
+  "preserved_wrapped_alpha1_speckles": 0,
+  "sha256": "D13827409BEEFEF6F64C8A73A1FF4FCE1F8E6F50D42FB00C721933C1D7B5B5F0",
+  "approval": "user-approved-2026-11-18",
+  "scope": "standing artwork and ground alignment only; full rig/motion verification separate",
+  "generation_provenance": {
+    "hero": "pangtong",
+    "view": "side",
+    "status": "generated-awaiting-cross-review",
+    "source": "C:/Users/pms10/.codex/generated_images/01a1edec-e7a8-7b30-a481-c6294875f061/exec-fb8aea25-531c-4222-a168-66e269da0d19.png",
+    "prompt": "Correct Pang Tong side view in reference1 to match reference2 FRONT equipment. REMOVE the invented walking STAFF completely. His only prop is bamboo slips held with BOTH hands in FRONT of waist, same as reference2. In left profile show bamboo slips edge in front of waist, both hands supporting it; no staff. Preserve face if visible, brown cloth cap, hair, robe palette, physique, scale, exact canvas position, feet, thick bold pixel art. Square transparent canvas no shadow no text.",
+    "generator": "built-in image_gen"
+  },
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
+}

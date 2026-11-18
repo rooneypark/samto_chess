@@ -1,192 +1,56 @@
 {
+  "sideFacing": "left",
+  "artRevision": "ground-body-v1",
   "id": "liaohua",
-  "name": "요화",
   "faction": "촉",
-  "order": 28,
-  "identity": "Liao Hua: weathered older veteran, gray at temples and short salt-and-pepper beard, simple dark green headwrap, plain green-brown layered armor with cloth cloak. Hold practical sword. Upright resilient older soldier, adult normal build, understated equipment, no ornate gold crown.",
+  "directions": {
+    "side": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/liaohua/base-final-v1/side.png",
+      "sha256": "d849fc6e302c52b86f8d8b993f7d279c7f5ced29b77e580352566966eeced52a",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "front": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/liaohua/base-final-v1/front.png",
+      "sha256": "766998cc5420dd1ba849cfa735e4bd21fa7bcadec1ae2b2e78b857223d5aaf1d",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    },
+    "back": {
+      "canvas": [
+        256,
+        256
+      ],
+      "path": "bone-motion/art-in/liaohua/base-final-v1/back.png",
+      "sha256": "3577df87ec9a0fb5309e1e3d90de7269e18497e5c06115e341bbf0c119fac5ec",
+      "foot": [
+        128.0,
+        224.0
+      ]
+    }
+  },
   "folder": "liaohua",
-  "identityDesign": "Liao Hua: weathered older veteran, gray at temples and short salt-and-pepper beard, simple dark green headwrap, plain green-brown layered armor with cloth cloak. Hold practical sword. Upright resilient older soldier, adult normal build, understated equipment, no ornate gold crown.",
-  "artRevision": "pixel256-v1",
-  "canvas": [
-    256,
-    256
-  ],
-  "foot": [
+  "right": "mirror-side",
+  "runtimeApplied": false,
+  "logicalFoot": [
     128,
     224
   ],
-  "schemaVersion": 2,
-  "status": "ready-for-review",
-  "runtimeApplied": false,
   "motionComplete": false,
-  "sideFacing": "left",
-  "right": "mirror-side",
-  "directions": {
-    "front": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "liaohua",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "sourceCanvas": [
-          1254,
-          1254
-        ],
-        "bodyTopVirtual256": 88,
-        "bodyHeightTarget": 124,
-        "sourceFootVirtual256": 226,
-        "sourceToFinalScale": 0.18343619258951066,
-        "wholeImageOffset": [
-          13,
-          21
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          90,
-          84,
-          167,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon and plume; foot measured within central foot region",
-        "weaponContainFit": false,
-        "runtimeApplied": false,
-        "sha256": "f49c7ccb2aa7812871a964b993ec24a57f4bf42ac09b0071e5c368daf39202df"
-      }
-    },
-    "back": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "liaohua",
-        "direction": "back",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 83,
-        "bodyHeightTarget": 124,
-        "sourceFootVirtual256": 212,
-        "sourceToFinalScale": 0.19623406649110445,
-        "wholeImageOffset": [
-          5,
-          20
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          92,
-          85,
-          166,
-          225
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "60bd407410f94e568e6dc919777bc633918774aa35c03520581ece404f04373f"
-      }
-    },
-    "side": {
-      "canvas": [
-        256,
-        256
-      ],
-      "foot": [
-        128,
-        224
-      ],
-      "trimOffset": [
-        0,
-        0
-      ],
-      "bodyCalibration": {
-        "id": "liaohua",
-        "direction": "side",
-        "canvas": [
-          256,
-          256
-        ],
-        "foot": [
-          128,
-          224
-        ],
-        "bodyTopVirtual256": 97,
-        "bodyHeightTarget": 124,
-        "sourceFootVirtual256": 223,
-        "sourceToFinalScale": 0.20090630616946406,
-        "wholeImageOffset": [
-          2,
-          5
-        ],
-        "groundRoundingCorrection": 0,
-        "visibleBounds": [
-          96,
-          88,
-          164,
-          226
-        ],
-        "clippedVisiblePixels": 0,
-        "weaponContainFit": false,
-        "bodyAnchorMethod": "visually inspected head/body top excluding weapon/plume, matching same-character front target",
-        "runtimeApplied": false,
-        "sha256": "498fdffa7898d559f7aa47fc4730f20eb7ea902cbb15a52a211daff0f963aa51"
-      }
-    }
-  },
-  "files": {
-    "front": {
-      "path": "front.png",
-      "sha256": "f49c7ccb2aa7812871a964b993ec24a57f4bf42ac09b0071e5c368daf39202df"
-    },
-    "back": {
-      "path": "back.png",
-      "sha256": "60bd407410f94e568e6dc919777bc633918774aa35c03520581ece404f04373f"
-    },
-    "side": {
-      "path": "side.png",
-      "sha256": "498fdffa7898d559f7aa47fc4730f20eb7ea902cbb15a52a211daff0f963aa51"
-    }
-  },
-  "sourceProvider": "built-in image_gen",
-  "provenanceFile": "generation.json",
-  "bodyMetrics": {
-    "shoulderWidth": null,
-    "anatomicalHeight": null,
-    "riderJoints": null
-  },
-  "approval": {
-    "frontApproved": false,
-    "fullSetApproved": false
-  }
+  "name": "요화",
+  "status": "user-approved",
+  "approvedAt": "2026-11-18",
+  "approvalScope": "standing artwork only; motion excluded"
 }
