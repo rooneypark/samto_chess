@@ -1,0 +1,44 @@
+{
+  "status": "user_approved",
+  "approvedDate": "2026-11-19",
+  "files": [
+    "01.png",
+    "02.png",
+    "03.png",
+    "04.png",
+    "05.png",
+    "06.png",
+    "07.png",
+    "08.png",
+    "09.png",
+    "10.png",
+    "11.png",
+    "12.png",
+    "13.png",
+    "14.png",
+    "15.png"
+  ],
+  "durations_ms": [
+    100,
+    90,
+    90,
+    100,
+    150,
+    45,
+    40,
+    55,
+    70,
+    170,
+    90,
+    90,
+    80,
+    80,
+    100
+  ],
+  "pivot": [
+    160,
+    224
+  ],
+  "source_history": "a1-left-recovery-fix-v1/manifest.json",
+  "pixel_changes_during_finalization": false
+}

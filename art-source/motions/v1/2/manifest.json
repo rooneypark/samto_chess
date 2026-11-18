@@ -3,36 +3,17 @@
   "id": "2",
   "name": "장비",
   "pathBase": "repository-root",
-  "guideRevision": "pixel256-rig-first-v1",
-  "inputArtRevision": "pixel256-v1",
-  "inputSha256": {
-    "front": "5ea0b626aef016fb32efbe0abec07341a70c2d60664373c914b09d7fd573b91c",
-    "side": "66e1914a81416a3f63772f8f018b0c0ffaa22617310244c8defa83909839f79a",
-    "back": "b8f8dfb6c1ddc69bc9a91ab33d2189d16e232789c038ea22167e944098b938e9"
-  },
   "reviewStatus": "approved",
-  "approvedDate": "2026-11-17",
-  "approvedScope": "전·측·후면의 허리 높이 평타, 걷기, 장판의 함성 복귀 수정본 총 9개. 숨쉬기·피격·쓰러짐·별도 효과와 게임 연결 제외.",
-  "runtimeApplied": true,
+  "approvedDate": "2026-11-19",
+  "approvedScope": "최신 대기/공격1/2/3/이동/스킬 3방향 18클립. 후면 공격1 v4 포함 최종 사용자 확정. 측면/후면 이동15 제외.",
+  "simulatorApplied": true,
   "clips": [
     {
-      "clipId": "front-attack",
+      "clipId": "front-idle",
+      "motion": "idle",
       "view": "front",
-      "state": "attack",
-      "sourceProvider": "PixelLab animate-with-skeleton-v3",
-      "request": {
-        "parametersFile": "art-source/motions/v1/2/rigs/front-attack.json",
-        "first_frame": "art-source/characters/v1/2/front.png",
-        "firstFrameSha256": "5ea0b626aef016fb32efbe0abec07341a70c2d60664373c914b09d7fd573b91c"
-      },
-      "job": {
-        "status": "completed",
-        "background_job_id": "0a6b7d2e-cf1b-4faa-bfd6-9bbde632b093",
-        "usage": {
-          "type": "generations",
-          "generations": 3.0
-        }
-      },
+      "state": "idle",
+      "reviewStatus": "approved",
       "canvas": [
         256,
         256
@@ -41,376 +22,538 @@
         128,
         224
       ],
-      "logicalAnchor": [
+      "loop": true,
+      "frames": [
+        {
+          "file": "art-source/motions/v1/2/final/idle/front/01.png",
+          "durationMs": 92,
+          "sha256": "d2210e0e8797cd24faedcd29269103e2d43a4723d689b798d024aff2c5c13050",
+          "sourceFrame": "02.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/front/02.png",
+          "durationMs": 92,
+          "sha256": "eb39761c04ced254b7f7689ecea903837b44f47b0d51f13b4e547896d6468130",
+          "sourceFrame": "03.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/front/03.png",
+          "durationMs": 92,
+          "sha256": "fbcc48270823cadf3e80bf6c52bde2d0078b083faa5b9cb224a429bbcfe02426",
+          "sourceFrame": "04.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/front/04.png",
+          "durationMs": 92,
+          "sha256": "5121e3cb319afcffab163ebd2a04f378aa7e949f414e41fe9bf38fe60196411f",
+          "sourceFrame": "05.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/front/05.png",
+          "durationMs": 92,
+          "sha256": "8db635f0966179910d7d3216f7ff8bf7dbd2e07ded1a9fcafae4c409cf88eed7",
+          "sourceFrame": "06.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/front/06.png",
+          "durationMs": 92,
+          "sha256": "74ab87427bbbfe5fa51f51d58df0cd2f4accd912d7fab8155e00b220ce89c6cc",
+          "sourceFrame": "07.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/front/07.png",
+          "durationMs": 92,
+          "sha256": "397c49ac15c175ac1912fa3a3d08776b4b0450c9654d1a1309cdcaca70e0654e",
+          "sourceFrame": "08.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/front/08.png",
+          "durationMs": 92,
+          "sha256": "a262f2de96e9a7a32d5e1794602e63b2870668a93c498788dd8dadccd88b707c",
+          "sourceFrame": "09.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/front/09.png",
+          "durationMs": 92,
+          "sha256": "7dd7721d5d5304deffcb713463df0d7bb93e07a86d01ccb3a872be5400ff6375",
+          "sourceFrame": "10.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/front/10.png",
+          "durationMs": 92,
+          "sha256": "297bf755f43fab51d00f356cb2631c6a820fb33d1c71ed1562958ea747be0169",
+          "sourceFrame": "11.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/front/11.png",
+          "durationMs": 92,
+          "sha256": "ceffe0e2273d9979f47f1615270279848e0a9584ac2fcd14799256742d6b9e25",
+          "sourceFrame": "12.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/front/12.png",
+          "durationMs": 92,
+          "sha256": "fc256384cd6370ab2e78f046dbdaeb2dcad00a9ca7ddfdc3b990a4ace568462c",
+          "sourceFrame": "13.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/front/13.png",
+          "durationMs": 92,
+          "sha256": "c84a66b9cc18a42111362e12bd0fc3a6922154b0f19f50137d553b27d5f754c4",
+          "sourceFrame": "14.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/front/14.png",
+          "durationMs": 92,
+          "sha256": "a2ad9d400f0c618da7e3ded1c5cf8e99b4c7595f38c31fc0694c06832b82d4f0",
+          "sourceFrame": "15.png"
+        }
+      ]
+    },
+    {
+      "clipId": "side-idle",
+      "motion": "idle",
+      "view": "side",
+      "state": "idle",
+      "reviewStatus": "approved",
+      "canvas": [
+        256,
+        256
+      ],
+      "anchor": [
+        160,
+        224
+      ],
+      "loop": true,
+      "frames": [
+        {
+          "file": "art-source/motions/v1/2/final/idle/left/01.png",
+          "durationMs": 92,
+          "sha256": "b7cb5ca1bcd4690d76bbdc11aba4ae1790eca25f8c5f877f3957eedacd3020b2",
+          "sourceFrame": "01.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/left/02.png",
+          "durationMs": 92,
+          "sha256": "f4e2094c9bc85fd7a9d45b7725ca4ef6e0006fe2c04d2d4259543de08d454dfa",
+          "sourceFrame": "02.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/left/03.png",
+          "durationMs": 92,
+          "sha256": "bbe76b7087d131da270a95729d947e173624e72d9eed7f37497aa635c3e49420",
+          "sourceFrame": "03.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/left/04.png",
+          "durationMs": 92,
+          "sha256": "b174e554d4235bc7bcb700a8baa326c9d8c51f25c84a2e3012708a43756f1a39",
+          "sourceFrame": "04.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/left/05.png",
+          "durationMs": 92,
+          "sha256": "cdab63d15170a6b39d89d74b4143f6a0543f6af379acf745e31fa4bbc0565055",
+          "sourceFrame": "05.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/left/06.png",
+          "durationMs": 92,
+          "sha256": "a7370072bdcfadcc33c5c50a7b2e9ec3c0806bc3580c276a9b520241b1cdd7b5",
+          "sourceFrame": "06.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/left/07.png",
+          "durationMs": 92,
+          "sha256": "a79aa77169331e52df639bc35276388f089b069404493eef684972f8c4c0dc20",
+          "sourceFrame": "07.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/left/08.png",
+          "durationMs": 92,
+          "sha256": "77f16965cfe66766185456c599db9ca517489ef6b5e353a7a2968835f26ccbca",
+          "sourceFrame": "08.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/left/09.png",
+          "durationMs": 92,
+          "sha256": "d6551c861783deea83ee4758f36660c38ed25aebeaefdeeac62302e3e12d3559",
+          "sourceFrame": "09.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/left/10.png",
+          "durationMs": 92,
+          "sha256": "47a02804631d8a019864e650e7f6fcb4ed6953add1fc066f3ee2451649cf5f12",
+          "sourceFrame": "10.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/left/11.png",
+          "durationMs": 92,
+          "sha256": "0297923428da20cd40f29325b208f39519988a50ab27ec98394b5096a41c4d11",
+          "sourceFrame": "11.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/left/12.png",
+          "durationMs": 92,
+          "sha256": "db5422fd6dc93d22e17506bf06fdb0cb2f775203e1c4ef2602079a34c3da4536",
+          "sourceFrame": "12.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/left/13.png",
+          "durationMs": 92,
+          "sha256": "ab932cfa6038068ba4fb41e52ce465c34a15fbef35a8716380a342987f70e983",
+          "sourceFrame": "13.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/left/14.png",
+          "durationMs": 92,
+          "sha256": "2a55f260bce83fda2cc7662e024fcbd7ef153e844e3e3d8dd25bd2b923738b3b",
+          "sourceFrame": "14.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/left/15.png",
+          "durationMs": 92,
+          "sha256": "1a5135f38774200579b6f7cad2c83c8f96222d53e17048a9331210a3cc9add95",
+          "sourceFrame": "15.png"
+        }
+      ]
+    },
+    {
+      "clipId": "back-idle",
+      "motion": "idle",
+      "view": "back",
+      "state": "idle",
+      "reviewStatus": "approved",
+      "canvas": [
+        256,
+        256
+      ],
+      "anchor": [
         128,
         224
       ],
-      "drawOffset": [
-        0,
-        0
-      ],
-      "reviewStatus": "approved",
-      "approvedDate": "2026-11-17",
-      "runtimeApplied": true,
-      "loop": false,
-      "markers": {
-        "contact": 6
-      },
-      "assetVersion": "pixel256-rig-v1",
+      "loop": true,
       "frames": [
         {
-          "file": "art-source/motions/v1/2/sequences/front/attack/0000.png",
-          "sourceFrameIndex": 0,
-          "durationMs": 95,
-          "visibleBounds": [
-            77,
-            76,
-            169,
-            225
-          ],
-          "sha256": "8f91007e7d051493410f4a33a92d4cecf1adc53738d22cb6c65dae08fd74cc46"
+          "file": "art-source/motions/v1/2/final/idle/rear/01.png",
+          "durationMs": 92,
+          "sha256": "17ada5d798440318915fed8ebe0afb7c8fa51105eee014fe3fe11d118fe5043a",
+          "sourceFrame": "01.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/attack/0001.png",
-          "sourceFrameIndex": 1,
-          "durationMs": 90,
-          "visibleBounds": [
-            56,
-            90,
-            169,
-            225
-          ],
-          "sha256": "9d0ca3172afcc4f3b63eda93791614205beab66fac6fa1ff111663004c2a6747"
+          "file": "art-source/motions/v1/2/final/idle/rear/02.png",
+          "durationMs": 92,
+          "sha256": "46684927d81e74e6cf4dd69961d06cf087acb3e5914947c83ebb91e14d5f0eb4",
+          "sourceFrame": "02.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/attack/0002.png",
-          "sourceFrameIndex": 2,
-          "durationMs": 115,
-          "visibleBounds": [
-            72,
-            87,
-            169,
-            225
-          ],
-          "sha256": "e1bf1ef35605023461fa711dfe0de85e52cbe04bd2566829a6811d4abe9d5f70"
+          "file": "art-source/motions/v1/2/final/idle/rear/03.png",
+          "durationMs": 92,
+          "sha256": "bf8097f26084c66acbd01c8dc6e28d79e582ba772a899543b0ace9de8530a270",
+          "sourceFrame": "03.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/attack/0003.png",
-          "sourceFrameIndex": 3,
-          "durationMs": 105,
-          "visibleBounds": [
-            74,
-            86,
-            169,
-            225
-          ],
-          "sha256": "e5da278f72a2f0c35d5d19c1abd3a15f3c38303439164cfae3a936de208ddfcc"
+          "file": "art-source/motions/v1/2/final/idle/rear/04.png",
+          "durationMs": 92,
+          "sha256": "ab48fb7cf82ce83f81cf44931fefca53f9981cebdf51913a9180d0d6b8c812e7",
+          "sourceFrame": "04.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/attack/0004.png",
-          "sourceFrameIndex": 4,
-          "durationMs": 38,
-          "visibleBounds": [
-            77,
-            94,
-            169,
-            227
-          ],
-          "sha256": "d6f893121e08293339e5f66fd213f176962005b1d325d042a9ac00cf99be8f37"
+          "file": "art-source/motions/v1/2/final/idle/rear/05.png",
+          "durationMs": 92,
+          "sha256": "a75732978016b663d765203439dd6efd8e92c92468fda3ecc07c557ad65cefe2",
+          "sourceFrame": "05.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/attack/0005.png",
-          "sourceFrameIndex": 5,
-          "durationMs": 36,
-          "visibleBounds": [
-            81,
-            103,
-            168,
-            231
-          ],
-          "sha256": "ac42f90ed5925d2aff105f33e273e16a3aeabfb6a75ec6d240e8b4d8c08aae30"
+          "file": "art-source/motions/v1/2/final/idle/rear/06.png",
+          "durationMs": 92,
+          "sha256": "aca7de67a268f435bb0a8dd022c6e59039fd32688237f1bd16cb3d4280e513b7",
+          "sourceFrame": "06.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/attack/0006.png",
-          "sourceFrameIndex": 6,
-          "durationMs": 66,
-          "visibleBounds": [
-            83,
-            108,
-            166,
-            233
-          ],
-          "sha256": "f2b520c6491c4ebaa5b2c66b188de6186cea3d2326eb32dc4cc181f8383576cf"
+          "file": "art-source/motions/v1/2/final/idle/rear/07.png",
+          "durationMs": 92,
+          "sha256": "7a58595fa9fcfd524a21d1095efac671d288ab740e99c0916987b60b717f94ff",
+          "sourceFrame": "07.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/attack/0007.png",
-          "sourceFrameIndex": 7,
-          "durationMs": 68,
-          "visibleBounds": [
-            82,
-            107,
-            166,
-            233
-          ],
-          "sha256": "5d845b583be7b35ac82a6698f34ce63c2e211ada4e786ba603b9cece21700ad0"
+          "file": "art-source/motions/v1/2/final/idle/rear/08.png",
+          "durationMs": 92,
+          "sha256": "e2f9ade5b35064f638f35e5497364bdfed2ba0fde949fca53bbe8b14052ce43d",
+          "sourceFrame": "08.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/attack/0008.png",
-          "sourceFrameIndex": 8,
-          "durationMs": 61,
-          "visibleBounds": [
-            77,
-            98,
-            169,
-            229
-          ],
-          "sha256": "bc6c79d04d7c41c62c175086934a20bdae6b04bc7eb3b6ffbc96617b16817927"
+          "file": "art-source/motions/v1/2/final/idle/rear/09.png",
+          "durationMs": 92,
+          "sha256": "4858abab0131f036c1cb08dca0d6b217250023090a85cf153c3164248da1d5f5",
+          "sourceFrame": "09.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/attack/0009.png",
-          "sourceFrameIndex": 9,
-          "durationMs": 77,
-          "visibleBounds": [
-            68,
-            92,
-            169,
-            225
-          ],
-          "sha256": "6980d71b593d096fce24e242810b5b0ce1d51df4930f4026ccead0a560a32d43"
+          "file": "art-source/motions/v1/2/final/idle/rear/10.png",
+          "durationMs": 92,
+          "sha256": "0978829ce5e9d36cf784122cf3cec171efd0c37187f8d3825d9bed1a83467736",
+          "sourceFrame": "10.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/attack/0010.png",
-          "sourceFrameIndex": 10,
-          "durationMs": 90,
-          "visibleBounds": [
-            74,
-            90,
-            169,
-            225
-          ],
-          "sha256": "e79b48802164be27c5a4be76c6b06f193b6d649060e01418af9dbbb6dbe1677a"
+          "file": "art-source/motions/v1/2/final/idle/rear/11.png",
+          "durationMs": 92,
+          "sha256": "a42924acf693dccc23fd89f45de9ced9d42f6a346a99c4baac49d724eb508138",
+          "sourceFrame": "11.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/attack/0011.png",
-          "sourceFrameIndex": 11,
-          "durationMs": 138,
-          "visibleBounds": [
-            85,
-            51,
-            169,
-            225
-          ],
-          "sha256": "e3f919172c085d5e43a0389698b87014741ca91fc2f69819978e2b9cb5a15b1f"
+          "file": "art-source/motions/v1/2/final/idle/rear/12.png",
+          "durationMs": 92,
+          "sha256": "0ef446e9cb79ea0a1ee33579eae6cafddc48a23835095a2c546f2ce9cf39e415",
+          "sourceFrame": "12.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/rear/13.png",
+          "durationMs": 92,
+          "sha256": "f6fa4b3a6cebe8a2a0f18ad07e270b14ffa342b441d734ad0b1175f2f40e6ab2",
+          "sourceFrame": "13.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/rear/14.png",
+          "durationMs": 92,
+          "sha256": "518c852981856455cd1c73b8a0221b84b16057b5d55d6d98aa8a7b5976b70e4f",
+          "sourceFrame": "14.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/idle/rear/15.png",
+          "durationMs": 92,
+          "sha256": "31c9bdc69bc0002e4dce16b2bd3fb3daf9b73506f3933ad6bbaa124b8ed1e094",
+          "sourceFrame": "15.png"
         }
       ]
+    },
+    {
+      "clipId": "front-attack",
+      "motion": "a1",
+      "view": "front",
+      "state": "attack",
+      "reviewStatus": "approved",
+      "canvas": [
+        256,
+        256
+      ],
+      "anchor": [
+        128,
+        224
+      ],
+      "loop": false,
+      "frames": [
+        {
+          "file": "art-source/motions/v1/2/final/a1/front/01.png",
+          "durationMs": 100,
+          "sha256": "a8f1e3747e27934d0923f493af1bfeb62f135cc2853849a9f4da86f9bfb8e335",
+          "sourceFrame": "01.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/front/02.png",
+          "durationMs": 90,
+          "sha256": "718d23c4cc3d735b91ff30a9c377978ca7ccd1a9cf2c3f66140fd9622e17689a",
+          "sourceFrame": "02.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/front/03.png",
+          "durationMs": 90,
+          "sha256": "5b5d9a4a7650a1079cbfc58d8b673ebd11a552a2f14f670a8b730c0f9972b5a0",
+          "sourceFrame": "03.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/front/04.png",
+          "durationMs": 100,
+          "sha256": "7a3c1ac035cd0aad83c85060415170a889cc8f1f32707486f86e1c17a2638c65",
+          "sourceFrame": "04.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/front/05.png",
+          "durationMs": 150,
+          "sha256": "e5e5e70c1d5abd567e2ae8457ec5373620cca99922bed977f8557fc0a2246155",
+          "sourceFrame": "05.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/front/06.png",
+          "durationMs": 45,
+          "sha256": "47c3b96a606652a2385f1608d92ddd07982cd94766720268b230c5a3dc6d329f",
+          "sourceFrame": "06.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/front/07.png",
+          "durationMs": 40,
+          "sha256": "2d7799eb8faf7cc23b33bd48022933c7f7859fe409c69ccac319783067928499",
+          "sourceFrame": "07.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/front/08.png",
+          "durationMs": 55,
+          "sha256": "64b10a28cef87a04de9d37ab1cf54b651da19cd5682ad91101aff4216c16597f",
+          "sourceFrame": "08.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/front/09.png",
+          "durationMs": 70,
+          "sha256": "4ea88a21db163e1d732a84f474a0f1a88ba3ee2501ff61951aee7c73420209c8",
+          "sourceFrame": "09.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/front/10.png",
+          "durationMs": 170,
+          "sha256": "347fd3f03f2d1711e08b9382cb82176f124465a70714dd5b0cd673eb8805088c",
+          "sourceFrame": "10.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/front/11.png",
+          "durationMs": 90,
+          "sha256": "9f592813852745edbcb9c21398121f7e830877a4368a417e383fd5b6dc0f2160",
+          "sourceFrame": "11.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/front/12.png",
+          "durationMs": 90,
+          "sha256": "a1c4e99bc29b1a869e6581ed98bc55ecab7d48cb2115ce4df4c4514f03e57b0f",
+          "sourceFrame": "12.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/front/13.png",
+          "durationMs": 80,
+          "sha256": "093c9283105f04e0d56dbe248b41d1ebbda46acd1031b6f631cc5efb912d2f4f",
+          "sourceFrame": "13.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/front/14.png",
+          "durationMs": 80,
+          "sha256": "f565faec10e6e386784a400df9a5d44de164e6dfef399e3a4888284e2224a10e",
+          "sourceFrame": "14.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/front/15.png",
+          "durationMs": 100,
+          "sha256": "947a7fefff2ba580b299e49a09cafb6d7f67c11b84e02b69c6f1bdb6463fb86e",
+          "sourceFrame": "15.png"
+        }
+      ],
+      "markers": {
+        "contact": 7
+      }
     },
     {
       "clipId": "side-attack",
+      "motion": "a1",
       "view": "side",
       "state": "attack",
-      "sourceProvider": "PixelLab animate-with-skeleton-v3",
-      "request": {
-        "parametersFile": "art-source/motions/v1/2/rigs/side-attack.json",
-        "first_frame": "art-source/motions/v1/2/references/side-attack-input.png",
-        "firstFrameSha256": "b8b9e91ae93a82bdc339953323d0833806fa21f170775f3ade09bdb3fa73f2a1"
-      },
-      "job": {
-        "status": "completed",
-        "background_job_id": "220abf2a-1170-4667-8a14-063fea15b4b1",
-        "usage": {
-          "type": "generations",
-          "generations": 3.0
-        }
-      },
+      "reviewStatus": "approved",
       "canvas": [
         256,
         256
       ],
       "anchor": [
-        168,
+        160,
         224
       ],
-      "logicalAnchor": [
-        128,
-        224
-      ],
-      "drawOffset": [
-        -40,
-        0
-      ],
-      "reviewStatus": "approved",
-      "approvedDate": "2026-11-17",
-      "runtimeApplied": true,
       "loop": false,
-      "markers": {
-        "contact": 6
-      },
-      "assetVersion": "pixel256-rig-v1",
       "frames": [
         {
-          "file": "art-source/motions/v1/2/sequences/side/attack/0000.png",
-          "sourceFrameIndex": 0,
-          "durationMs": 95,
-          "visibleBounds": [
-            102,
-            67,
-            211,
-            225
-          ],
-          "sha256": "56bb62d3cb9252ee40c8305807db2d05fca0140be696f63431eee0b6a6c1aef4"
+          "file": "art-source/motions/v1/2/final/a1/left/01.png",
+          "durationMs": 100,
+          "sha256": "3ad3931627c693579751baaa3bf502ffff2cf32a5fc0e488d8a1b4fa2627800f",
+          "sourceFrame": "01.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/side/attack/0001.png",
-          "sourceFrameIndex": 1,
+          "file": "art-source/motions/v1/2/final/a1/left/02.png",
           "durationMs": 90,
-          "visibleBounds": [
-            59,
-            94,
-            211,
-            225
-          ],
-          "sha256": "dca5553f4eecbf4e1580f76b93d27de151d5885ec789a166db51eb2a1e8640d4"
+          "sha256": "933053634d0d29490c4fee100d651a0c2c0ae06a94a39e54fdb4b6a67df7e72a",
+          "sourceFrame": "02.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/side/attack/0002.png",
-          "sourceFrameIndex": 2,
-          "durationMs": 115,
-          "visibleBounds": [
-            54,
-            94,
-            222,
-            225
-          ],
-          "sha256": "69b31120851aab2e0bba91cf9b7bff9e93f05835e1b932e81c8151725ffe733a"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/side/attack/0003.png",
-          "sourceFrameIndex": 3,
-          "durationMs": 105,
-          "visibleBounds": [
-            53,
-            94,
-            221,
-            225
-          ],
-          "sha256": "5198c3c48f183f752ba9bd163724236f41e681d82d82d7dfcda43721ed9f1df9"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/side/attack/0004.png",
-          "sourceFrameIndex": 4,
-          "durationMs": 38,
-          "visibleBounds": [
-            44,
-            95,
-            213,
-            225
-          ],
-          "sha256": "4ce2f209cf81f7c78f4489b17c8a36217c47be5577c9c5e44d6374b13086aac5"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/side/attack/0005.png",
-          "sourceFrameIndex": 5,
-          "durationMs": 36,
-          "visibleBounds": [
-            24,
-            98,
-            195,
-            225
-          ],
-          "sha256": "cf6404b5226c2df3df8ffc0a387569b00e533d5b5129251f3313c9e86ef33e54"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/side/attack/0006.png",
-          "sourceFrameIndex": 6,
-          "durationMs": 66,
-          "visibleBounds": [
-            15,
-            99,
-            191,
-            225
-          ],
-          "sha256": "d345322225cea6b2e2949c755104cfef8722e46475f81c3a143337b3e11cb66a"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/side/attack/0007.png",
-          "sourceFrameIndex": 7,
-          "durationMs": 68,
-          "visibleBounds": [
-            15,
-            99,
-            191,
-            225
-          ],
-          "sha256": "6b1ebfe49647f08a872f6ab635ba578d3cab89a6316d7ba6bb5d77b6346e74d1"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/side/attack/0008.png",
-          "sourceFrameIndex": 8,
-          "durationMs": 61,
-          "visibleBounds": [
-            41,
-            95,
-            208,
-            225
-          ],
-          "sha256": "7419b1951b0b04c2dcb39983a708a535a4f4356f285bf9fba70f5e8f012e21ba"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/side/attack/0009.png",
-          "sourceFrameIndex": 9,
-          "durationMs": 77,
-          "visibleBounds": [
-            70,
-            94,
-            207,
-            225
-          ],
-          "sha256": "bf6c49ad8bc5591147a8a3fb4c233892ef406561a792a256dbeab4794869d96c"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/side/attack/0010.png",
-          "sourceFrameIndex": 10,
+          "file": "art-source/motions/v1/2/final/a1/left/03.png",
           "durationMs": 90,
-          "visibleBounds": [
-            94,
-            72,
-            210,
-            225
-          ],
-          "sha256": "e61e7b573aedbcccce5a15202637b2d88d840a460d2eaedb52fb1682d1ebdb21"
+          "sha256": "005284b313e06af5fa12f46109ea01dfb19a21848c1a918bdb100b1a136aee0f",
+          "sourceFrame": "03.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/side/attack/0011.png",
-          "sourceFrameIndex": 11,
-          "durationMs": 138,
-          "visibleBounds": [
-            128,
-            57,
-            211,
-            225
-          ],
-          "sha256": "1432d7d9b63cda9b405c905f9ac2bc1cab841ed4fc86d8cbb4495b7493e5c465"
+          "file": "art-source/motions/v1/2/final/a1/left/04.png",
+          "durationMs": 100,
+          "sha256": "354328d47811940ef7343eef6424504a5d845db01c405a3916db9f5bd273b0c8",
+          "sourceFrame": "04.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/left/05.png",
+          "durationMs": 150,
+          "sha256": "1ed6995da6e1c7e25602310f1a251a9c5387129094025982e32f8bcd5d831097",
+          "sourceFrame": "05.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/left/06.png",
+          "durationMs": 45,
+          "sha256": "e6679bb568d7be320fd53332c8b4a7c285d25d627b14b0bcb524fc7bfdd4257f",
+          "sourceFrame": "06.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/left/07.png",
+          "durationMs": 40,
+          "sha256": "7317656ff916c3a76df5784c65bbebc0b0ee66fb93a197f86a2db90837b393fd",
+          "sourceFrame": "07.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/left/08.png",
+          "durationMs": 55,
+          "sha256": "0189781260feed25e55851b4161b7cf46f00ea147ea4375a037771c342491b10",
+          "sourceFrame": "08.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/left/09.png",
+          "durationMs": 70,
+          "sha256": "8a9b63146502644ede96c7efd28d73704ca748b135d586406d76fd0dd759fe50",
+          "sourceFrame": "09.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/left/10.png",
+          "durationMs": 170,
+          "sha256": "3fabae87aba24041977b0adf344fbc24c85e3d579007c365d46b883848970381",
+          "sourceFrame": "10.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/left/11.png",
+          "durationMs": 90,
+          "sha256": "d30c006216065a367334b729aa59cb42775d9fddbda58de8556687736bc92ad2",
+          "sourceFrame": "11.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/left/12.png",
+          "durationMs": 90,
+          "sha256": "4d9597f83778c94940ac0f3b06234c03b8a4f88f7933a57f46d069967902b496",
+          "sourceFrame": "12.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/left/13.png",
+          "durationMs": 80,
+          "sha256": "93de1a79fdf3993d283e5b75507d1502258256c05d8ed6a296f81eaee6fb47e6",
+          "sourceFrame": "13.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/left/14.png",
+          "durationMs": 80,
+          "sha256": "f0e112ba5d2cc0945d271cef3d789a8ee01cb5860e969cfdaa0e794ea28a7ba6",
+          "sourceFrame": "14.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/left/15.png",
+          "durationMs": 100,
+          "sha256": "b7cb5ca1bcd4690d76bbdc11aba4ae1790eca25f8c5f877f3957eedacd3020b2",
+          "sourceFrame": "15.png"
         }
-      ]
+      ],
+      "markers": {
+        "contact": 7
+      }
     },
     {
       "clipId": "back-attack",
+      "motion": "a1",
       "view": "back",
       "state": "attack",
-      "sourceProvider": "PixelLab animate-with-skeleton-v3",
-      "request": {
-        "parametersFile": "art-source/motions/v1/2/rigs/back-attack.json",
-        "first_frame": "art-source/characters/v1/2/back.png",
-        "firstFrameSha256": "b8f8dfb6c1ddc69bc9a91ab33d2189d16e232789c038ea22167e944098b938e9"
-      },
-      "job": {
-        "status": "completed",
-        "background_job_id": "844f54c0-af99-4e17-a39b-60fd17b54093",
-        "usage": {
-          "type": "generations",
-          "generations": 3.0
-        }
-      },
+      "reviewStatus": "approved",
       "canvas": [
         256,
         256
@@ -419,187 +562,775 @@
         128,
         224
       ],
-      "logicalAnchor": [
+      "loop": false,
+      "frames": [
+        {
+          "file": "art-source/motions/v1/2/final/a1/rear/01.png",
+          "durationMs": 100,
+          "sha256": "13d120aae1cf62700a77f230446e7e645b174b12efbb92aebdcf9ae5f2d28045",
+          "sourceFrame": "01.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/rear/02.png",
+          "durationMs": 90,
+          "sha256": "963304af3c1a8d9175120a7e635eaa2d6bad34b8b067821d3dc3b660aad6f86c",
+          "sourceFrame": "02.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/rear/03.png",
+          "durationMs": 90,
+          "sha256": "333fb45fbfa66cb67ee2e9dfcee5d31394836b5cc1981de712bf64a48586c3d8",
+          "sourceFrame": "03.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/rear/04.png",
+          "durationMs": 100,
+          "sha256": "39b79b172549adb920d25aac69c7a44b8142a9715844685b54990129515037c3",
+          "sourceFrame": "04.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/rear/05.png",
+          "durationMs": 150,
+          "sha256": "3bd456777edcab20b43765c604f137808b270ef0f2d59006492e3018076345d8",
+          "sourceFrame": "05.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/rear/06.png",
+          "durationMs": 45,
+          "sha256": "9710247c6d01800178aed2a465202dd05791b947482161fcdba5359c638e4b15",
+          "sourceFrame": "06.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/rear/07.png",
+          "durationMs": 40,
+          "sha256": "0b7588960c3170555002bd15cac5bdc588561c989817c2dbc945126e14348f46",
+          "sourceFrame": "07.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/rear/08.png",
+          "durationMs": 55,
+          "sha256": "8c08a65a5c19439c092c5279e333384cccf44a43858349d8ec7d2cf7bf72872c",
+          "sourceFrame": "08.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/rear/09.png",
+          "durationMs": 70,
+          "sha256": "3a53b9cc58b79b8f5acb3789d85473fe6b2b56aff246a71ff47e3dedbeb2bc3e",
+          "sourceFrame": "09.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/rear/10.png",
+          "durationMs": 170,
+          "sha256": "c8c937fbc4bb09112a3a3d2bb94e60ad2956ee63fac7ce5431108a099f23534f",
+          "sourceFrame": "10.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/rear/11.png",
+          "durationMs": 90,
+          "sha256": "de46b3b2289c0b5abb6e463242cf0373e344b8dfcc4fd0349b293bf25af16e8d",
+          "sourceFrame": "11.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/rear/12.png",
+          "durationMs": 90,
+          "sha256": "5421a63af44571c763058aa2c40381f49029296cc8d24107187175483a277371",
+          "sourceFrame": "12.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/rear/13.png",
+          "durationMs": 80,
+          "sha256": "bf487c99a98ada9f91c66dd4cdd0aa11040a964a3bcddf83fa0104dd586da839",
+          "sourceFrame": "13.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/rear/14.png",
+          "durationMs": 80,
+          "sha256": "44451ced21ac307db7d1d77f5fc9b8a6de3f550567b9980a9079a103ef209799",
+          "sourceFrame": "14.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a1/rear/15.png",
+          "durationMs": 100,
+          "sha256": "48c88ccb5805d28159dc8532bc3bc3228be5466782027dac7889a4da32034015",
+          "sourceFrame": "15.png"
+        }
+      ],
+      "markers": {
+        "contact": 7
+      }
+    },
+    {
+      "clipId": "front-attack2",
+      "motion": "a2",
+      "view": "front",
+      "state": "attack2",
+      "reviewStatus": "approved",
+      "canvas": [
+        256,
+        256
+      ],
+      "anchor": [
         128,
         224
       ],
-      "drawOffset": [
-        0,
-        0
-      ],
-      "reviewStatus": "approved",
-      "approvedDate": "2026-11-17",
-      "runtimeApplied": true,
       "loop": false,
-      "markers": {
-        "contact": 6
-      },
-      "assetVersion": "pixel256-rig-v1",
       "frames": [
         {
-          "file": "art-source/motions/v1/2/sequences/back/attack/0000.png",
-          "sourceFrameIndex": 0,
-          "durationMs": 95,
-          "visibleBounds": [
-            87,
-            60,
-            173,
-            225
-          ],
-          "sha256": "6c808cb6d97acff983c8995774643119c87e75af574c280cef7278195a7799d6"
+          "file": "art-source/motions/v1/2/final/a2/front/01.png",
+          "durationMs": 100,
+          "sha256": "5a7c34d5c812db967dce21feb25fead07f2fce5850208a0f44b913194ab3ae8f",
+          "sourceFrame": "01.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/back/attack/0001.png",
-          "sourceFrameIndex": 1,
+          "file": "art-source/motions/v1/2/final/a2/front/02.png",
           "durationMs": 90,
-          "visibleBounds": [
-            87,
-            82,
-            176,
-            225
-          ],
-          "sha256": "507689f6429ad0ca193592f961824f983ac1a4379c65683b41870ff699d9bcac"
+          "sha256": "d042b1cf5879668cc5c4868458a27aeac254ce43500d0ffad70352f5e33a707c",
+          "sourceFrame": "02.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/back/attack/0002.png",
-          "sourceFrameIndex": 2,
-          "durationMs": 115,
-          "visibleBounds": [
-            87,
-            102,
-            176,
-            256
-          ],
-          "sha256": "3581694a8d3b7cb778e7745b1b888b8ae5740ea480a8de25b662371827a6876a"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/back/attack/0003.png",
-          "sourceFrameIndex": 3,
-          "durationMs": 105,
-          "visibleBounds": [
-            87,
-            101,
-            175,
-            254
-          ],
-          "sha256": "73d751a8ff25cbb224aab1c5629c56e044d14ebeef8328c5a3f4d0279337485d"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/back/attack/0004.png",
-          "sourceFrameIndex": 4,
-          "durationMs": 38,
-          "visibleBounds": [
-            87,
-            85,
-            172,
-            236
-          ],
-          "sha256": "9603f816033d66c813df1d297c19f12aa9a4ef291e67a204cb10a94bf9f4cb93"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/back/attack/0005.png",
-          "sourceFrameIndex": 5,
-          "durationMs": 36,
-          "visibleBounds": [
-            88,
-            69,
-            169,
-            225
-          ],
-          "sha256": "fa691dfba7aca8f0fa177734a72f85cd0aec58c43d06d52955c9b81eb3018172"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/back/attack/0006.png",
-          "sourceFrameIndex": 6,
-          "durationMs": 66,
-          "visibleBounds": [
-            88,
-            63,
-            168,
-            225
-          ],
-          "sha256": "5ceb24efe62e83542f619e473ef99206dcd261b4449a8e4b63ae4471a687877b"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/back/attack/0007.png",
-          "sourceFrameIndex": 7,
-          "durationMs": 68,
-          "visibleBounds": [
-            88,
-            64,
-            168,
-            225
-          ],
-          "sha256": "76de538a2be198f25a18a0d48a300a3b9ee5a86e5109785fef67fe5303dcb04e"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/back/attack/0008.png",
-          "sourceFrameIndex": 8,
-          "durationMs": 61,
-          "visibleBounds": [
-            87,
-            84,
-            172,
-            240
-          ],
-          "sha256": "45eacaf7e8b0374661c42f4204f8be60c26ce3ab25beaa1a546599f7eec301d8"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/back/attack/0009.png",
-          "sourceFrameIndex": 9,
-          "durationMs": 77,
-          "visibleBounds": [
-            87,
-            82,
-            175,
-            225
-          ],
-          "sha256": "dec79231a35820a2503e61e9dacc8e33c36d4f41aea02fddd183a7f515978678"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/back/attack/0010.png",
-          "sourceFrameIndex": 10,
+          "file": "art-source/motions/v1/2/final/a2/front/03.png",
           "durationMs": 90,
-          "visibleBounds": [
-            87,
-            60,
-            173,
-            225
-          ],
-          "sha256": "d6c6809171a74baa3fcbef97c057ed4b1c7e5092685fb0e0ac93bf9ed227f12d"
+          "sha256": "966105b369ca935e21504d70fa946ae4ad78124749b884872ae82e9bd9949beb",
+          "sourceFrame": "03.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/back/attack/0011.png",
-          "sourceFrameIndex": 11,
-          "durationMs": 138,
-          "visibleBounds": [
-            87,
-            51,
-            171,
-            225
-          ],
-          "sha256": "d4ddf17d119296d70c7261a1ae03cab5eeffbbaa739a0a2891fae6a04d1288f7"
+          "file": "art-source/motions/v1/2/final/a2/front/04.png",
+          "durationMs": 100,
+          "sha256": "a3e69543954fceff7c420cf1a4af8b2fe7523c1f915d9df3419221f78bbbdbca",
+          "sourceFrame": "04.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/front/05.png",
+          "durationMs": 150,
+          "sha256": "faf61dbc146a6d01cdfa100d9c21003d1edcb92ddb4f0510923690f39521947a",
+          "sourceFrame": "05.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/front/06.png",
+          "durationMs": 45,
+          "sha256": "a50165d17876a28087c8f0462a7af8adcf4ad95b0e25613f27c0c2bc6783734d",
+          "sourceFrame": "06.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/front/07.png",
+          "durationMs": 40,
+          "sha256": "973871526242327e5954d8129cd378fcb6b2602698b02b8063d7136b53f4327e",
+          "sourceFrame": "07.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/front/08.png",
+          "durationMs": 55,
+          "sha256": "7d4ab753935f28917c7e337431bd93da89c694cb86b39443d645109f4fc74231",
+          "sourceFrame": "08.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/front/09.png",
+          "durationMs": 70,
+          "sha256": "42f5118d4670a5fe6ebfc4b26f0892d3e53c35ac84254353348812a8c17ed5c5",
+          "sourceFrame": "09.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/front/10.png",
+          "durationMs": 170,
+          "sha256": "1a912e502f65087afadbf80262fb0e6bdfdc91afb98cd7363504b03bd22a46c0",
+          "sourceFrame": "10.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/front/11.png",
+          "durationMs": 90,
+          "sha256": "122c4fd75d18e3b6c0e606727592559ecbd4c152d032edad934eab0fd13497ce",
+          "sourceFrame": "11.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/front/12.png",
+          "durationMs": 90,
+          "sha256": "303784a1ac76378e8d0e5c9b5c1bf2c9ecfd8918c43900e8b619ffe0c8407704",
+          "sourceFrame": "12.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/front/13.png",
+          "durationMs": 80,
+          "sha256": "7dbfe9c9ed971f77cb34bb72c4dd14b4f09ed98ddbb8539f7e726ea4c8e82de4",
+          "sourceFrame": "13.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/front/14.png",
+          "durationMs": 80,
+          "sha256": "c0607eba5ee24df1d1231d1f10081029b533dda66df514566e91eae6e9c661de",
+          "sourceFrame": "14.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/front/15.png",
+          "durationMs": 100,
+          "sha256": "9866b35f8b6c8b26d724063a5e2ec909355a285aa1692faed06655215a4f07b7",
+          "sourceFrame": "15.png"
         }
-      ]
+      ],
+      "markers": {
+        "contact": 7
+      }
+    },
+    {
+      "clipId": "side-attack2",
+      "motion": "a2",
+      "view": "side",
+      "state": "attack2",
+      "reviewStatus": "approved",
+      "canvas": [
+        256,
+        256
+      ],
+      "anchor": [
+        160,
+        224
+      ],
+      "loop": false,
+      "frames": [
+        {
+          "file": "art-source/motions/v1/2/final/a2/left/01.png",
+          "durationMs": 100,
+          "sha256": "e8ccdafa242b9f36186a6516885d07e29b3e899613595b831f7b0352c526bccb",
+          "sourceFrame": "01.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/left/02.png",
+          "durationMs": 90,
+          "sha256": "e6cfe82a3c7a25536e8b3e08e96001ff7d8442cae59de04d66bee20eae19d131",
+          "sourceFrame": "02.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/left/03.png",
+          "durationMs": 90,
+          "sha256": "1448491160c9bcfb7aad6f08df1435a8c6d3937568121aa2ae724910b30be738",
+          "sourceFrame": "03.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/left/04.png",
+          "durationMs": 100,
+          "sha256": "44f8567a65dcd50986d9cafa33c6af76b2823dd99c943154f49b88d6e05d5746",
+          "sourceFrame": "04.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/left/05.png",
+          "durationMs": 150,
+          "sha256": "cf876d2fdbe0ae34292acaa0a149dc03ee598651a7a6ba8a66712123d706fb64",
+          "sourceFrame": "05.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/left/06.png",
+          "durationMs": 45,
+          "sha256": "743407a1c9af0ba303bea3cd8e986c8a2721fa1487e3600e6384a8642a27d12b",
+          "sourceFrame": "06.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/left/07.png",
+          "durationMs": 40,
+          "sha256": "c9810b98dc99aaff77bda119c08ba81ca5c908d3553e39d6e70fd466878aa79c",
+          "sourceFrame": "07.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/left/08.png",
+          "durationMs": 55,
+          "sha256": "101ff2b6022e66f8160727166055e5d98b6428931ca120f376aefd8f5ce2a418",
+          "sourceFrame": "08.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/left/09.png",
+          "durationMs": 70,
+          "sha256": "aa253eaf0d6794a05ed643a93fe9db74e1f8f9e63223a645c5b4b87c7ce9570c",
+          "sourceFrame": "09.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/left/10.png",
+          "durationMs": 170,
+          "sha256": "c0b96cb06499dd96619a1e16ade8d109db6fc72931ca6c41d126db0a7f6bae33",
+          "sourceFrame": "10.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/left/11.png",
+          "durationMs": 90,
+          "sha256": "baca94f76524cc33d8244caa9127eb8cc954f990fd2004f35e6b3f21d6da468b",
+          "sourceFrame": "11.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/left/12.png",
+          "durationMs": 90,
+          "sha256": "0da8fbd19539f9382674cf7c2817cedcfb38ee003e73bc39664b064f8a0b0c64",
+          "sourceFrame": "12.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/left/13.png",
+          "durationMs": 80,
+          "sha256": "89394b28cd86f5fdc9da9511331b1167cbb85d198fd04024a4abcc48ecb8dc43",
+          "sourceFrame": "13.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/left/14.png",
+          "durationMs": 80,
+          "sha256": "4db7f2d943ff1470e23f9df7360ab2865db3268f6de9162f5ff531b3428538d6",
+          "sourceFrame": "14.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/left/15.png",
+          "durationMs": 100,
+          "sha256": "19d33606d5a76111c70a5c095faaa3e19739b089130432ac20f2b4ccac979b1a",
+          "sourceFrame": "15.png"
+        }
+      ],
+      "markers": {
+        "contact": 7
+      }
+    },
+    {
+      "clipId": "back-attack2",
+      "motion": "a2",
+      "view": "back",
+      "state": "attack2",
+      "reviewStatus": "approved",
+      "canvas": [
+        256,
+        256
+      ],
+      "anchor": [
+        128,
+        224
+      ],
+      "loop": false,
+      "frames": [
+        {
+          "file": "art-source/motions/v1/2/final/a2/rear/01.png",
+          "durationMs": 100,
+          "sha256": "5b07966eef63d27f2152d042601b26ca5c9c0ff9edda5b728465bbf12b43a978",
+          "sourceFrame": "01.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/rear/02.png",
+          "durationMs": 90,
+          "sha256": "abf4f269d84de96c4cc8d18f39eef2b49295054384a7e14f97ac82a8af89f25e",
+          "sourceFrame": "02.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/rear/03.png",
+          "durationMs": 90,
+          "sha256": "53c9a716c462a41c71689c08b72177f632f49aa7fc03f9fc202a46622bbdf07c",
+          "sourceFrame": "03.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/rear/04.png",
+          "durationMs": 100,
+          "sha256": "c504949fe865dca10d5b6328af3938c323cc587b7f223a25a5959d0e7087c211",
+          "sourceFrame": "04.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/rear/05.png",
+          "durationMs": 150,
+          "sha256": "292c990294de7b406440e02798c527d877a0516d720ff020efdd4d799e225638",
+          "sourceFrame": "05.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/rear/06.png",
+          "durationMs": 45,
+          "sha256": "6df308dbb83f1d543df057bc77701ed65066937884e93aff7f38ff6838706f79",
+          "sourceFrame": "06.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/rear/07.png",
+          "durationMs": 40,
+          "sha256": "b5e4b1493cb565383f77ec69b41870f44c1b0d70f4e1231b40a30482ad8df57f",
+          "sourceFrame": "07.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/rear/08.png",
+          "durationMs": 55,
+          "sha256": "17664ee4b959c5e876f6358b980a04104d7534450ffa822862ab9f8c13c1910e",
+          "sourceFrame": "08.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/rear/09.png",
+          "durationMs": 70,
+          "sha256": "d1bcf3f4d7016da5869aac1b50c7c727ed29221005317be26501951a17928b2b",
+          "sourceFrame": "09.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/rear/10.png",
+          "durationMs": 170,
+          "sha256": "7154c871ef58e7ac3af2d50076e7678d1f1de9c4769d56ef8f4d443434635326",
+          "sourceFrame": "10.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/rear/11.png",
+          "durationMs": 90,
+          "sha256": "79bd65f476f83fba24e0aaccf9254ae4396f4cf9f2ac9eb2f5d2e690bbaec080",
+          "sourceFrame": "11.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/rear/12.png",
+          "durationMs": 90,
+          "sha256": "04e7b664d89443f94b51f009aec07d9ecade0aa9e9324f9cb6d3faf05eacf52a",
+          "sourceFrame": "12.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/rear/13.png",
+          "durationMs": 80,
+          "sha256": "ec675139926af522c65403464ddd0d5f2918cef2a529669aecab01a2739f470c",
+          "sourceFrame": "13.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/rear/14.png",
+          "durationMs": 80,
+          "sha256": "6da4f4739ab306e18f3aec3d637645d9d3437565a93fa048a16efe8587b2880d",
+          "sourceFrame": "14.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a2/rear/15.png",
+          "durationMs": 100,
+          "sha256": "3b6a2d7f74f36e3486d8689ad06c0ca39343b2e69d00e30b2c1246a0457dcf28",
+          "sourceFrame": "15.png"
+        }
+      ],
+      "markers": {
+        "contact": 7
+      }
+    },
+    {
+      "clipId": "front-attack3",
+      "motion": "a3",
+      "view": "front",
+      "state": "attack3",
+      "reviewStatus": "approved",
+      "canvas": [
+        256,
+        256
+      ],
+      "anchor": [
+        128,
+        224
+      ],
+      "loop": false,
+      "frames": [
+        {
+          "file": "art-source/motions/v1/2/final/a3/front/01.png",
+          "durationMs": 100,
+          "sha256": "6cd501d9efbecdcb0b61563f2288049c410f91bca2abf1cef324c2fe26afbbc3",
+          "sourceFrame": "01.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/front/02.png",
+          "durationMs": 90,
+          "sha256": "edde75f1d0cc1bdd6af2943836743fe7d822ca6bd246e83f751f18c89b68df61",
+          "sourceFrame": "02.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/front/03.png",
+          "durationMs": 100,
+          "sha256": "bcb9a827a83261da3c3342d52629553c1f981aaa011602efe2cb28ba5ba9641c",
+          "sourceFrame": "03.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/front/04.png",
+          "durationMs": 130,
+          "sha256": "1c39334c89894f72a0eaa7351912664bbaea7f78214ca483bfe2bb98e4787d7c",
+          "sourceFrame": "04.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/front/05.png",
+          "durationMs": 90,
+          "sha256": "8da8283cf8f2a0144befea44987ec0c7118d19f9f433a8ecb1ba9973877485b6",
+          "sourceFrame": "05.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/front/06.png",
+          "durationMs": 90,
+          "sha256": "8cf007c863501af4c749e1d8e8003c9f83561d6997d16c4a3dd8865fefde6e3f",
+          "sourceFrame": "06.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/front/07.png",
+          "durationMs": 110,
+          "sha256": "4643cd046077bcfa258de38be27c83f3f9996041556bb46b823098a4a86deca4",
+          "sourceFrame": "07.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/front/08.png",
+          "durationMs": 45,
+          "sha256": "75fdbf9c0a90ef4b3d6e24c5eb3e1ff1dbf2282affcc22b03da06fdbf0488402",
+          "sourceFrame": "08.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/front/09.png",
+          "durationMs": 60,
+          "sha256": "7222deaec387524595430febf6b8ceccbb3528370acc2f43e03ff1aec97ee2e4",
+          "sourceFrame": "09.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/front/10.png",
+          "durationMs": 190,
+          "sha256": "cd5390cc07ef8b477a953456951db18b9099edd5147ca4ac08296b14eb5a7c78",
+          "sourceFrame": "10.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/front/11.png",
+          "durationMs": 100,
+          "sha256": "122c4fd75d18e3b6c0e606727592559ecbd4c152d032edad934eab0fd13497ce",
+          "sourceFrame": "11.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/front/12.png",
+          "durationMs": 90,
+          "sha256": "16223dcaba7c97345a02a294a031e943ce6a762d4caf05bfa42c929e55a3a07a",
+          "sourceFrame": "12.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/front/13.png",
+          "durationMs": 80,
+          "sha256": "761ad68b3ccf44545eccb12e685a2cc3864164433c0226710fe0e0c7623dea31",
+          "sourceFrame": "13.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/front/14.png",
+          "durationMs": 80,
+          "sha256": "8ac38a0f34055118feb25a7391292fb12d3efb7241c18b3ce5b411a2869ef12d",
+          "sourceFrame": "14.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/front/15.png",
+          "durationMs": 100,
+          "sha256": "430bd2800337f55014088acabe9adad244d57d35d87c16527441c65d618de4a2",
+          "sourceFrame": "15.png"
+        }
+      ],
+      "markers": {
+        "contact": 7
+      }
+    },
+    {
+      "clipId": "side-attack3",
+      "motion": "a3",
+      "view": "side",
+      "state": "attack3",
+      "reviewStatus": "approved",
+      "canvas": [
+        256,
+        256
+      ],
+      "anchor": [
+        160,
+        224
+      ],
+      "loop": false,
+      "frames": [
+        {
+          "file": "art-source/motions/v1/2/final/a3/left/01.png",
+          "durationMs": 100,
+          "sha256": "05ccd56da65cfb2c0b8aeee5ff7ff65322dc0b00c49efbaff7eff10f2c80cc5b",
+          "sourceFrame": "01.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/left/02.png",
+          "durationMs": 90,
+          "sha256": "8f562cb5018a074885516fe5d79fae26ce0831b5bc71ce6b6f81e036ea759c70",
+          "sourceFrame": "02.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/left/03.png",
+          "durationMs": 100,
+          "sha256": "9f24820bd583725ab22206659cb4e9bdd65740d12736b5f10183817a12f00346",
+          "sourceFrame": "03.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/left/04.png",
+          "durationMs": 130,
+          "sha256": "c31e1f17de46b07f033908ae82edef66c745d0639e75a42ebe196cce4aeb3c65",
+          "sourceFrame": "04.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/left/05.png",
+          "durationMs": 90,
+          "sha256": "e4f9ff0dba5ac35dc9025f8d2f17ca923215aeafe3c6b2503bcd9a9c6ad3fc54",
+          "sourceFrame": "05.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/left/06.png",
+          "durationMs": 90,
+          "sha256": "668aa666b90b1c77abb6fb3b8d19593fe68fef387fe3995ea3ce45adaacc702d",
+          "sourceFrame": "06.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/left/07.png",
+          "durationMs": 110,
+          "sha256": "7c0b1fd2fda1952173c206e303e685102a97a0adf81ecfa47bd468eebd9d64c4",
+          "sourceFrame": "07.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/left/08.png",
+          "durationMs": 45,
+          "sha256": "ddd5a396d4a47a01a406508d695ce4bc371e2bd705159875e7f19917d42d1948",
+          "sourceFrame": "08.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/left/09.png",
+          "durationMs": 60,
+          "sha256": "2972cea3063c24fb4c39a7b17dab07504c35c216f2c4a6cb11416792c9c246de",
+          "sourceFrame": "09.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/left/10.png",
+          "durationMs": 190,
+          "sha256": "70e4f66c2d8af5abadf504ffbc14334877e5e7f4bd55419622b2b7a03928ef1c",
+          "sourceFrame": "10.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/left/11.png",
+          "durationMs": 100,
+          "sha256": "18e02e84947dfab14835487ce82c6cdf2551092b4ed9eff1a42d83fdafd2676b",
+          "sourceFrame": "11.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/left/12.png",
+          "durationMs": 90,
+          "sha256": "8ff4704b6f298b62950139e3cf00f4c74b658fc5754e86814a7c72dca07edead",
+          "sourceFrame": "12.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/left/13.png",
+          "durationMs": 80,
+          "sha256": "9da370359e4cba6a053fb19f41c08916d9d457ad296bea203e3aa032e40eb6e4",
+          "sourceFrame": "13.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/left/14.png",
+          "durationMs": 80,
+          "sha256": "515ccd9f612fe392d2eee4420e3a9ed30dfb99b5c15df1510f4a4e8792a09cda",
+          "sourceFrame": "14.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/left/15.png",
+          "durationMs": 100,
+          "sha256": "d85168382d5f5a929bfc9a0c7d8ec0c282ad0d33dcaee4ef2d73a6752ce3ac4e",
+          "sourceFrame": "15.png"
+        }
+      ],
+      "markers": {
+        "contact": 7
+      }
+    },
+    {
+      "clipId": "back-attack3",
+      "motion": "a3",
+      "view": "back",
+      "state": "attack3",
+      "reviewStatus": "approved",
+      "canvas": [
+        256,
+        256
+      ],
+      "anchor": [
+        128,
+        224
+      ],
+      "loop": false,
+      "frames": [
+        {
+          "file": "art-source/motions/v1/2/final/a3/rear/01.png",
+          "durationMs": 100,
+          "sha256": "48e47868f9200a78dfbfd3e5b0687e92694af5a7b2860aea81b5fdb72bfe09b9",
+          "sourceFrame": "01.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/rear/02.png",
+          "durationMs": 90,
+          "sha256": "22525e6befdfe82d4edf581ab00cfade9e34430946a72b60d086f508fee06225",
+          "sourceFrame": "02.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/rear/03.png",
+          "durationMs": 100,
+          "sha256": "f5412a15227c43d072b659c5b2e5b1b5a0737ef81ec20a40967050ca5320a8d5",
+          "sourceFrame": "03.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/rear/04.png",
+          "durationMs": 130,
+          "sha256": "bc3abf1442b798cc9be70a0a89b4800713253e8b24aa34f430ed8f1aed88ecd9",
+          "sourceFrame": "04.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/rear/05.png",
+          "durationMs": 90,
+          "sha256": "acde6e3052d529802cbce1c537d90641640e195eec897389e232cbca88517714",
+          "sourceFrame": "05.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/rear/06.png",
+          "durationMs": 90,
+          "sha256": "cc775aca5561d8fe3341232e4a5459eed355b0adff0abbbf2b294fed8b502f24",
+          "sourceFrame": "06.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/rear/07.png",
+          "durationMs": 110,
+          "sha256": "8ebd78461e77cebe3f021f7f9876aeca306d943bf1e63ba4004b84f6f6472b8b",
+          "sourceFrame": "07.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/rear/08.png",
+          "durationMs": 45,
+          "sha256": "45b80362328ee2dd0dae0cefb31744123e2c3b3e6b3d77ddc82a255c926112e6",
+          "sourceFrame": "08.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/rear/09.png",
+          "durationMs": 60,
+          "sha256": "02cc6b2c147e1042ad7ada5c58cfd465b1c768f177c07cff5151db30f8253a26",
+          "sourceFrame": "09.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/rear/10.png",
+          "durationMs": 190,
+          "sha256": "f33181f8588405dbdd9d62eeb22198acd7034388e7a5a553278e3cf6aa03421d",
+          "sourceFrame": "10.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/rear/11.png",
+          "durationMs": 100,
+          "sha256": "f3a4789176817a696984de9dc79a2a141486eeae465f23e90f16be5525216872",
+          "sourceFrame": "11.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/rear/12.png",
+          "durationMs": 90,
+          "sha256": "b62ba848ce85c5b2f905c6238897187f2ee49d3e48a536ec6ce2c1b11b365666",
+          "sourceFrame": "12.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/rear/13.png",
+          "durationMs": 80,
+          "sha256": "f135e80ce6b122edf76ce357fcacc3d5ff1137efa2f9e1969ad4d5a08235f83b",
+          "sourceFrame": "13.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/rear/14.png",
+          "durationMs": 80,
+          "sha256": "cd0692c4783aae3b4a2922d6639ce51613b6e34c582f4a101d4713b86d1c23e5",
+          "sourceFrame": "14.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/a3/rear/15.png",
+          "durationMs": 100,
+          "sha256": "b0d73b54b2b4681437075c6ee02a4e72103d1bc071c92e808cb181e71cbb6e9d",
+          "sourceFrame": "15.png"
+        }
+      ],
+      "markers": {
+        "contact": 7
+      }
     },
     {
       "clipId": "front-move",
+      "motion": "move",
       "view": "front",
       "state": "move",
-      "sourceProvider": "PixelLab animate-with-skeleton-v3",
-      "request": {
-        "parametersFile": "art-source/motions/v1/2/rigs/front-move.json",
-        "first_frame": "art-source/characters/v1/2/front.png",
-        "firstFrameSha256": "5ea0b626aef016fb32efbe0abec07341a70c2d60664373c914b09d7fd573b91c"
-      },
-      "job": {
-        "status": "completed",
-        "background_job_id": "80271649-2676-48f3-9ecc-1ceec21278d4",
-        "usage": {
-          "type": "generations",
-          "generations": 3.0
-        }
-      },
+      "reviewStatus": "approved",
       "canvas": [
         256,
         256
@@ -608,382 +1339,208 @@
         128,
         224
       ],
-      "logicalAnchor": [
-        128,
-        224
-      ],
-      "drawOffset": [
-        0,
-        0
-      ],
-      "reviewStatus": "approved",
-      "approvedDate": "2026-11-17",
-      "runtimeApplied": true,
       "loop": true,
-      "markers": {
-        "leftContact": 0,
-        "rightContact": 6
-      },
-      "assetVersion": "pixel256-rig-v1",
       "frames": [
         {
-          "file": "art-source/motions/v1/2/sequences/front/move/0000.png",
-          "sourceFrameIndex": 0,
-          "durationMs": 95,
-          "visibleBounds": [
-            85,
-            51,
-            169,
-            229
-          ],
-          "sha256": "c7c219930e736c7c01f461aa8b753728ba8fc4bd24ca94c07f506829decbf28a"
+          "file": "art-source/motions/v1/2/final/move/front/01.png",
+          "durationMs": 46,
+          "sha256": "76da9ae2a624310fb21aa4fc26a337dcc49fe132f15a6ae701c37878386cb006",
+          "sourceFrame": "01.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/move/0001.png",
-          "sourceFrameIndex": 1,
-          "durationMs": 82,
-          "visibleBounds": [
-            83,
-            52,
-            169,
-            229
-          ],
-          "sha256": "cfb9ea43890da95dc5f540916087e4e0488e574a3dc124b741cc416180819f0a"
+          "file": "art-source/motions/v1/2/final/move/front/02.png",
+          "durationMs": 46,
+          "sha256": "dbfb6e02d8e56331b3d17612656790d42c11a308ebeb6feefb2a8b4e282ec901",
+          "sourceFrame": "02.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/move/0002.png",
-          "sourceFrameIndex": 2,
-          "durationMs": 72,
-          "visibleBounds": [
-            81,
-            51,
-            169,
-            228
-          ],
-          "sha256": "d3367aef34655c954bd7c2733b7fbd50358be96b686a05b627374dd06cb50410"
+          "file": "art-source/motions/v1/2/final/move/front/03.png",
+          "durationMs": 46,
+          "sha256": "6b8874b9270f8c79d17c7cbd4e43375c964c70472902d1f8c21b1f946de44f83",
+          "sourceFrame": "03.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/move/0003.png",
-          "sourceFrameIndex": 3,
-          "durationMs": 69,
-          "visibleBounds": [
-            81,
-            50,
-            169,
-            226
-          ],
-          "sha256": "7d1ffab113fb36cbdd0c4ba28d33dda3ddde1c706c94ced5e1853e7b38941a27"
+          "file": "art-source/motions/v1/2/final/move/front/04.png",
+          "durationMs": 46,
+          "sha256": "385f23c6d0e1c2f312f8478205f2ec6ffa1a73748ee2e461de15cd60b943bb94",
+          "sourceFrame": "04.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/move/0004.png",
-          "sourceFrameIndex": 4,
-          "durationMs": 69,
-          "visibleBounds": [
-            81,
-            49,
-            169,
-            226
-          ],
-          "sha256": "28471f7a33bd01ad86183294907500a1b9f7df394b5e1ef6fa418a61545002cd"
+          "file": "art-source/motions/v1/2/final/move/front/05.png",
+          "durationMs": 46,
+          "sha256": "ab7ad7c64f2bb1481af5ec768886adf3f2dd1121f02a2c324d94b5f3a76fa4c0",
+          "sourceFrame": "05.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/move/0005.png",
-          "sourceFrameIndex": 5,
-          "durationMs": 73,
-          "visibleBounds": [
-            83,
-            50,
-            168,
-            228
-          ],
-          "sha256": "c0b132d525a1974224b6709a3df838130e0d76574abc194999dccb34d1853c3d"
+          "file": "art-source/motions/v1/2/final/move/front/06.png",
+          "durationMs": 46,
+          "sha256": "9522d480b5bac2dae6f30ed4a7339576efa6719b60b3d10ab38d7b21e085861f",
+          "sourceFrame": "06.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/move/0006.png",
-          "sourceFrameIndex": 6,
-          "durationMs": 95,
-          "visibleBounds": [
-            85,
-            51,
-            168,
-            230
-          ],
-          "sha256": "5cc8a78e4b933d5094c5c5c57edcf835c946e965c74b1545580939268954cd53"
+          "file": "art-source/motions/v1/2/final/move/front/07.png",
+          "durationMs": 46,
+          "sha256": "e15c8515e87607e2f15252d7f2f8039052f3fd45b5d7bed6a69a64b0b23da25d",
+          "sourceFrame": "07.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/move/0007.png",
-          "sourceFrameIndex": 7,
-          "durationMs": 82,
-          "visibleBounds": [
-            84,
-            52,
-            167,
-            229
-          ],
-          "sha256": "130ad6b20f97a0f2c22ec1fa84042b83593cd693ef7288ad9aabdff8254e476e"
+          "file": "art-source/motions/v1/2/final/move/front/08.png",
+          "durationMs": 46,
+          "sha256": "5b3a722141189c49724387cd60478f8557b740641c2940fe45d54fd85dbb6482",
+          "sourceFrame": "08.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/move/0008.png",
-          "sourceFrameIndex": 8,
-          "durationMs": 72,
-          "visibleBounds": [
-            84,
-            52,
-            167,
-            228
-          ],
-          "sha256": "3448ffc2b8174effce7f5a428d87ca8680a5e7b6122318c28e2118334f53f169"
+          "file": "art-source/motions/v1/2/final/move/front/09.png",
+          "durationMs": 46,
+          "sha256": "99616d1a89a21f685162a539dc02172a3abb32a3396ea997df00966a9850bfb8",
+          "sourceFrame": "09.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/move/0009.png",
-          "sourceFrameIndex": 9,
-          "durationMs": 69,
-          "visibleBounds": [
-            84,
-            51,
-            167,
-            226
-          ],
-          "sha256": "3b1270976629e7eed32cb4fb945d595db4687b1a38f5dc0b4683ea41216f0d9c"
+          "file": "art-source/motions/v1/2/final/move/front/10.png",
+          "durationMs": 46,
+          "sha256": "f9807e11ca3a302347abd5f4b7b2ec616fb1d015005c10b82c0f9317e3b962ba",
+          "sourceFrame": "10.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/move/0010.png",
-          "sourceFrameIndex": 10,
-          "durationMs": 69,
-          "visibleBounds": [
-            84,
-            50,
-            167,
-            226
-          ],
-          "sha256": "564abf8d27d574bfd3f2c686969a6ebc82e1ec7efb9ede90bf654eec007d2fdd"
+          "file": "art-source/motions/v1/2/final/move/front/11.png",
+          "durationMs": 46,
+          "sha256": "a65784b631079dbb9f3c92b5a0fed4b03e894a38d19cf2f0159adfea91072250",
+          "sourceFrame": "11.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/move/0011.png",
-          "sourceFrameIndex": 11,
-          "durationMs": 73,
-          "visibleBounds": [
-            85,
-            50,
-            168,
-            228
-          ],
-          "sha256": "dd68c30079862d2a97c6344b7faa0adab3efadc0440697b07cbc45771c4150b1"
+          "file": "art-source/motions/v1/2/final/move/front/12.png",
+          "durationMs": 46,
+          "sha256": "ca0a126316584c4ad712597540f9ee2fe0921619bc70cabbfda18a70c8171850",
+          "sourceFrame": "12.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/move/front/13.png",
+          "durationMs": 46,
+          "sha256": "1edcaab55e405d5d59ee9a6badcb72b4d9c136deaa769073805278fcc1ac35f0",
+          "sourceFrame": "13.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/move/front/14.png",
+          "durationMs": 46,
+          "sha256": "aeae85a5d69f0cfdf304cd12b8e4f180df9adbf4034ae3ed0d4842befa69a6aa",
+          "sourceFrame": "14.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/move/front/15.png",
+          "durationMs": 46,
+          "sha256": "0e2da276e6641de1384d5ddbdedc1a0075dc4a8472cb59b6fea237ab672ff259",
+          "sourceFrame": "15.png"
         }
-      ],
-      "loopStart": 0,
-      "loopEnd": 11
+      ]
     },
     {
       "clipId": "side-move",
+      "motion": "move",
       "view": "side",
       "state": "move",
-      "sourceProvider": "PixelLab animate-with-skeleton-v3",
-      "request": {
-        "parametersFile": "art-source/motions/v1/2/rigs/side-move.json",
-        "first_frame": "art-source/characters/v1/2/side.png",
-        "firstFrameSha256": "66e1914a81416a3f63772f8f018b0c0ffaa22617310244c8defa83909839f79a"
-      },
-      "job": {
-        "status": "completed",
-        "background_job_id": "2568997e-07f7-4960-9787-bf506222f0f6",
-        "usage": {
-          "type": "generations",
-          "generations": 3.0
-        }
-      },
+      "reviewStatus": "approved",
       "canvas": [
         256,
         256
       ],
       "anchor": [
-        128,
+        160,
         224
       ],
-      "logicalAnchor": [
-        128,
-        224
-      ],
-      "drawOffset": [
-        0,
-        0
-      ],
-      "reviewStatus": "approved",
-      "approvedDate": "2026-11-17",
-      "runtimeApplied": true,
       "loop": true,
-      "markers": {
-        "leftContact": 0,
-        "rightContact": 6
-      },
-      "assetVersion": "pixel256-rig-v1",
       "frames": [
         {
-          "file": "art-source/motions/v1/2/sequences/side/move/0000.png",
-          "sourceFrameIndex": 0,
-          "durationMs": 95,
-          "visibleBounds": [
-            87,
-            57,
-            171,
-            225
-          ],
-          "sha256": "54d35a0db487ad49f6eaa3766cf53301922871b861fa396986741c31044fda9f"
+          "file": "art-source/motions/v1/2/final/move/left/01.png",
+          "durationMs": 46,
+          "sha256": "fce83cc19437ce2e8f365ce30cd7a6d45870846a37b78622f15d667a436adf30",
+          "sourceFrame": "01.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/side/move/0001.png",
-          "sourceFrameIndex": 1,
-          "durationMs": 82,
-          "visibleBounds": [
-            85,
-            58,
-            171,
-            225
-          ],
-          "sha256": "3d41ee4693f332a73459f0e06e13c7d51aa5a94bbe8dd40c806efd05dd978794"
+          "file": "art-source/motions/v1/2/final/move/left/02.png",
+          "durationMs": 46,
+          "sha256": "b7be042458148bed9f1afa196e9e7bad997e1f3560ebf614d22a5630436ce141",
+          "sourceFrame": "02.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/side/move/0002.png",
-          "sourceFrameIndex": 2,
-          "durationMs": 72,
-          "visibleBounds": [
-            84,
-            57,
-            171,
-            226
-          ],
-          "sha256": "4bd0ff8f1e2a1817814fb147c825de7e94b9792154bda1c34166cdb2d1096e37"
+          "file": "art-source/motions/v1/2/final/move/left/03.png",
+          "durationMs": 46,
+          "sha256": "8eff3a7150167601c4d28c659a2e2918d3fbfa1ef796e35bf024006ad29b1841",
+          "sourceFrame": "03.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/side/move/0003.png",
-          "sourceFrameIndex": 3,
-          "durationMs": 69,
-          "visibleBounds": [
-            84,
-            56,
-            171,
-            226
-          ],
-          "sha256": "b8856dbc28db08f13e6a927aa9a92708f274d45c03a35a03d3ce37cf6d05358b"
+          "file": "art-source/motions/v1/2/final/move/left/04.png",
+          "durationMs": 46,
+          "sha256": "7665498bbc89b70d1d24fb30165fdfc30b9751475570cee05f6ae77fdda41382",
+          "sourceFrame": "04.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/side/move/0004.png",
-          "sourceFrameIndex": 4,
-          "durationMs": 69,
-          "visibleBounds": [
-            85,
-            56,
-            171,
-            225
-          ],
-          "sha256": "9c9220978cef4364d4ce86d5d4a209cb8ed39b8c864224714f01fb091aed9ca6"
+          "file": "art-source/motions/v1/2/final/move/left/05.png",
+          "durationMs": 46,
+          "sha256": "b557b1a1f77be114cdf51b796651f2bf11001d2a0ca33fcf80fe81ebaa1374d3",
+          "sourceFrame": "05.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/side/move/0005.png",
-          "sourceFrameIndex": 5,
-          "durationMs": 73,
-          "visibleBounds": [
-            87,
-            56,
-            172,
-            225
-          ],
-          "sha256": "6b44ea20bb00814c30bed40778a712ac7dc468bf0f516efb176569f0c0ee4871"
+          "file": "art-source/motions/v1/2/final/move/left/06.png",
+          "durationMs": 46,
+          "sha256": "969afd8f3c026080ba28b3b1285d4636c3796a59ca8e75264b8a420da9f1f785",
+          "sourceFrame": "06.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/side/move/0006.png",
-          "sourceFrameIndex": 6,
-          "durationMs": 95,
-          "visibleBounds": [
-            88,
-            57,
-            171,
-            225
-          ],
-          "sha256": "643d2b6deac96896c66736bc054d286a320ff36877afdcb2d64cef0c7fcfc346"
+          "file": "art-source/motions/v1/2/final/move/left/07.png",
+          "durationMs": 46,
+          "sha256": "65ef64b5dd9150471fcd7028970d5fbe00e2857858827351628f11787cf817a4",
+          "sourceFrame": "07.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/side/move/0007.png",
-          "sourceFrameIndex": 7,
-          "durationMs": 82,
-          "visibleBounds": [
-            90,
-            58,
-            171,
-            226
-          ],
-          "sha256": "c87a37302922f96915a670c7881f0b92c2bd491388555db1c8c9adf8865dd97a"
+          "file": "art-source/motions/v1/2/final/move/left/08.png",
+          "durationMs": 46,
+          "sha256": "a7ff38cb2e94ac3d44c43734bd33586d4fb36dbd952704b00519f0d516511365",
+          "sourceFrame": "08.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/side/move/0008.png",
-          "sourceFrameIndex": 8,
-          "durationMs": 72,
-          "visibleBounds": [
-            91,
-            58,
-            170,
-            225
-          ],
-          "sha256": "201adea8f428a9747810266f52e2090c8a592dd72d851dbe50c9350f82219293"
+          "file": "art-source/motions/v1/2/final/move/left/09.png",
+          "durationMs": 46,
+          "sha256": "0870537c117e203ee11686e268cc49e8c590b58968b3e88c8a71eeb7050caef1",
+          "sourceFrame": "09.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/side/move/0009.png",
-          "sourceFrameIndex": 9,
-          "durationMs": 69,
-          "visibleBounds": [
-            91,
-            57,
-            170,
-            225
-          ],
-          "sha256": "e7dd5ad62a93a67847b5d894fc52efbb97fa5c603e8d8e0b679d06c11cc9030f"
+          "file": "art-source/motions/v1/2/final/move/left/10.png",
+          "durationMs": 46,
+          "sha256": "7025b1da34cdfacb421387e0c1b41af6784155144b7123276d3d8c2b85478316",
+          "sourceFrame": "10.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/side/move/0010.png",
-          "sourceFrameIndex": 10,
-          "durationMs": 69,
-          "visibleBounds": [
-            91,
-            56,
-            171,
-            225
-          ],
-          "sha256": "e97ceeae413822d9b569a3e8efdc0eedec8c39bdfa15ba70268b32a38be883df"
+          "file": "art-source/motions/v1/2/final/move/left/11.png",
+          "durationMs": 46,
+          "sha256": "6684c74dccd2a70cfa49d6e52413ff583d8cab079c670991b665f0ac05611403",
+          "sourceFrame": "11.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/side/move/0011.png",
-          "sourceFrameIndex": 11,
-          "durationMs": 73,
-          "visibleBounds": [
-            89,
-            57,
-            172,
-            225
-          ],
-          "sha256": "e112108311421cf88ca08f55b68934e561aeb89a938a4228022636d545152149"
+          "file": "art-source/motions/v1/2/final/move/left/12.png",
+          "durationMs": 46,
+          "sha256": "8c8aeeb03d4bccaf62c2b4950b5f06bce907b74c8b9b89464abbfd72b9593ede",
+          "sourceFrame": "12.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/move/left/13.png",
+          "durationMs": 46,
+          "sha256": "5ccf885d762589221590f562702f0373fd0418170985ccb8cc3f3f220817119b",
+          "sourceFrame": "13.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/move/left/14.png",
+          "durationMs": 46,
+          "sha256": "d01ffd9c1fd1326f2bf1b745ddfb5367cfc2943c5be8e1ef54975ff77bc40bfa",
+          "sourceFrame": "14.png"
         }
-      ],
-      "loopStart": 0,
-      "loopEnd": 11
+      ]
     },
     {
       "clipId": "back-move",
+      "motion": "move",
       "view": "back",
       "state": "move",
-      "sourceProvider": "PixelLab animate-with-skeleton-v3",
-      "request": {
-        "parametersFile": "art-source/motions/v1/2/rigs/back-move.json",
-        "first_frame": "art-source/characters/v1/2/back.png",
-        "firstFrameSha256": "b8f8dfb6c1ddc69bc9a91ab33d2189d16e232789c038ea22167e944098b938e9"
-      },
-      "job": {
-        "status": "completed",
-        "background_job_id": "4a258d55-4863-4939-8ab1-9177d2deae3e",
-        "usage": {
-          "type": "generations",
-          "generations": 3.0
-        }
-      },
+      "reviewStatus": "approved",
       "canvas": [
         256,
         256
@@ -992,190 +1549,100 @@
         128,
         224
       ],
-      "logicalAnchor": [
-        128,
-        224
-      ],
-      "drawOffset": [
-        0,
-        0
-      ],
-      "reviewStatus": "approved",
-      "approvedDate": "2026-11-17",
-      "runtimeApplied": true,
       "loop": true,
-      "markers": {
-        "leftContact": 0,
-        "rightContact": 6
-      },
-      "assetVersion": "pixel256-rig-v1",
       "frames": [
         {
-          "file": "art-source/motions/v1/2/sequences/back/move/0000.png",
-          "sourceFrameIndex": 0,
-          "durationMs": 95,
-          "visibleBounds": [
-            86,
-            51,
-            171,
-            227
-          ],
-          "sha256": "5978bfc30a6b0d526a045417a9859620ec5d088db8de4d075145a9c9e09b74e2"
+          "file": "art-source/motions/v1/2/final/move/rear/01.png",
+          "durationMs": 46,
+          "sha256": "ae641f8a761d06c79d347ead8d08944e36e1229d3a8666d550d15d9d0f87d517",
+          "sourceFrame": "01.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/back/move/0001.png",
-          "sourceFrameIndex": 1,
-          "durationMs": 82,
-          "visibleBounds": [
-            86,
-            52,
-            172,
-            228
-          ],
-          "sha256": "7c96b8ee62a78f4cc2722bc8cd25908b6268b92a27da8b3d1b355be8eaf71943"
+          "file": "art-source/motions/v1/2/final/move/rear/02.png",
+          "durationMs": 46,
+          "sha256": "6129d61968b2ce720057c6d14ac89e94b598f8e4cfebff18de548f06e683ff5a",
+          "sourceFrame": "02.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/back/move/0002.png",
-          "sourceFrameIndex": 2,
-          "durationMs": 72,
-          "visibleBounds": [
-            86,
-            51,
-            174,
-            227
-          ],
-          "sha256": "a6ba59ac92b4e63b8e81e4d89770b8677130f652107646bb399434fe696f63fb"
+          "file": "art-source/motions/v1/2/final/move/rear/03.png",
+          "durationMs": 46,
+          "sha256": "b3cb7fda547cea3ef0ce4c3bc5dbc967ac7c7247f5604ab707876e84e719f209",
+          "sourceFrame": "03.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/back/move/0003.png",
-          "sourceFrameIndex": 3,
-          "durationMs": 69,
-          "visibleBounds": [
-            86,
-            50,
-            174,
-            224
-          ],
-          "sha256": "e2407860c34f2d155e01bdea789ca2616c77d3098540b50d30eaa7ea71d660c2"
+          "file": "art-source/motions/v1/2/final/move/rear/04.png",
+          "durationMs": 46,
+          "sha256": "58e6b540148f56a1406094ce1a083e0c2eea72270afbb3f1fe039a429736a99a",
+          "sourceFrame": "04.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/back/move/0004.png",
-          "sourceFrameIndex": 4,
-          "durationMs": 69,
-          "visibleBounds": [
-            86,
-            50,
-            173,
-            226
-          ],
-          "sha256": "0629ddbec164a12f02c378d2000b0f363125bf14b389b0b6581ca21dc0d262aa"
+          "file": "art-source/motions/v1/2/final/move/rear/05.png",
+          "durationMs": 46,
+          "sha256": "09129b8fee7a166fabcc0d5954002d2c30f8b8785845a53b2a3389fe5202146a",
+          "sourceFrame": "05.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/back/move/0005.png",
-          "sourceFrameIndex": 5,
-          "durationMs": 73,
-          "visibleBounds": [
-            87,
-            50,
-            172,
-            227
-          ],
-          "sha256": "7881dff77d1b40b078afcc63ed9cf84411056677aebc05b1e683ace1b3c0d4d8"
+          "file": "art-source/motions/v1/2/final/move/rear/06.png",
+          "durationMs": 46,
+          "sha256": "f3c1c2e4b5823b29b755b5261ea5203f69e2855423632a276f45d09487d3762c",
+          "sourceFrame": "06.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/back/move/0006.png",
-          "sourceFrameIndex": 6,
-          "durationMs": 95,
-          "visibleBounds": [
-            87,
-            51,
-            170,
-            228
-          ],
-          "sha256": "b3a4dc8bdc7761c410f94b08c74a34bb2be9430abc09f855c549ed0fd55f2dd7"
+          "file": "art-source/motions/v1/2/final/move/rear/07.png",
+          "durationMs": 46,
+          "sha256": "4d519477a0c7a00bf01416b80774bdd6a5b3d206c9155e1d9b79659e95505e53",
+          "sourceFrame": "07.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/back/move/0007.png",
-          "sourceFrameIndex": 7,
-          "durationMs": 82,
-          "visibleBounds": [
-            88,
-            52,
-            170,
-            228
-          ],
-          "sha256": "55babc35781be75865b80f6eb9fe58d09a6e36470370b9d93b39bf8bd3ae8985"
+          "file": "art-source/motions/v1/2/final/move/rear/08.png",
+          "durationMs": 46,
+          "sha256": "058643cbe9a672d00b28c4ff7e7791d3d57b7ac6f302b882d83a55831fd9ce85",
+          "sourceFrame": "08.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/back/move/0008.png",
-          "sourceFrameIndex": 8,
-          "durationMs": 72,
-          "visibleBounds": [
-            88,
-            52,
-            170,
-            227
-          ],
-          "sha256": "106f9cc0b5a335da6826eb944e2ee48a4f7f801a76efe554e4c17187fd6580e6"
+          "file": "art-source/motions/v1/2/final/move/rear/09.png",
+          "durationMs": 46,
+          "sha256": "1f44c03114c2c0ab3d1c2492a72a74e35a591cf42a21ef8dff7d67340fe41dc3",
+          "sourceFrame": "09.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/back/move/0009.png",
-          "sourceFrameIndex": 9,
-          "durationMs": 69,
-          "visibleBounds": [
-            88,
-            51,
-            170,
-            225
-          ],
-          "sha256": "c079bedcc52f1458402564aff7a77adbbc1355cf16ffcc3e932303f4b414651d"
+          "file": "art-source/motions/v1/2/final/move/rear/10.png",
+          "durationMs": 46,
+          "sha256": "5f87528c514e563554c6d98649bb9b7698d51e741aaea03978ee806d5b98bb90",
+          "sourceFrame": "10.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/back/move/0010.png",
-          "sourceFrameIndex": 10,
-          "durationMs": 69,
-          "visibleBounds": [
-            88,
-            51,
-            170,
-            226
-          ],
-          "sha256": "14c583d3c5a9002c324187e73bd2a78e28d9372928f3f5c5260bfee3574383f9"
+          "file": "art-source/motions/v1/2/final/move/rear/11.png",
+          "durationMs": 46,
+          "sha256": "9b10d9fec6687f7cf3ec81125ceabf0ce122e28524874bd27528b13118ca9b12",
+          "sourceFrame": "11.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/back/move/0011.png",
-          "sourceFrameIndex": 11,
-          "durationMs": 73,
-          "visibleBounds": [
-            87,
-            51,
-            170,
-            228
-          ],
-          "sha256": "4f632f82dae4bcda4b5d8e3cd019491b3d01689656201b93c4decfc50c10ef10"
+          "file": "art-source/motions/v1/2/final/move/rear/12.png",
+          "durationMs": 46,
+          "sha256": "383cd4997e71b0122ecf72565f4fdfb866efd9df92a995a8b1f57bb5b666b017",
+          "sourceFrame": "12.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/move/rear/13.png",
+          "durationMs": 46,
+          "sha256": "6ec8f66248476315d1de65a2610b8007b4fe19265a61bf0cd59c8b129d8b93e3",
+          "sourceFrame": "13.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/move/rear/14.png",
+          "durationMs": 46,
+          "sha256": "ba4dba0bf6e9f470fd43b26cbbdf11de8cceb8ee405c44e79c91fa42fd59379e",
+          "sourceFrame": "14.png"
         }
-      ],
-      "loopStart": 0,
-      "loopEnd": 11
+      ]
     },
     {
       "clipId": "front-skill",
+      "motion": "s1",
       "view": "front",
       "state": "skill",
-      "sourceProvider": "PixelLab animate-with-skeleton-v3",
-      "request": {
-        "parametersFile": "art-source/motions/v1/2/rigs/front-skill.json",
-        "first_frame": "art-source/characters/v1/2/front.png",
-        "firstFrameSha256": "5ea0b626aef016fb32efbe0abec07341a70c2d60664373c914b09d7fd573b91c"
-      },
-      "job": {
-        "status": "completed",
-        "background_job_id": "bdc84b6d-8e6f-4c3b-81be-7957179a6e57",
-        "usage": {
-          "type": "generations",
-          "generations": 3.0
-        }
-      },
+      "reviewStatus": "approved",
       "canvas": [
         256,
         256
@@ -1184,378 +1651,220 @@
         128,
         224
       ],
-      "logicalAnchor": [
-        128,
-        224
-      ],
-      "drawOffset": [
-        0,
-        0
-      ],
-      "reviewStatus": "approved",
-      "approvedDate": "2026-11-17",
-      "runtimeApplied": true,
       "loop": false,
-      "markers": {
-        "stomp": 4,
-        "release": 5
-      },
-      "assetVersion": "pixel256-rig-v1",
       "frames": [
         {
-          "file": "art-source/motions/v1/2/sequences/front/skill/0000.png",
-          "sourceFrameIndex": 0,
+          "file": "art-source/motions/v1/2/final/s1/front/01.png",
+          "durationMs": 100,
+          "sha256": "46aafb5e54495d2d59a927b3871c5663f562ccdca1ba9fb8b1ba30b15e84f5eb",
+          "sourceFrame": "01.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/front/02.png",
+          "durationMs": 100,
+          "sha256": "a5201d9b2851e19580e50bbcb71ced28680f0e8347ecfee8d3abf321386433f1",
+          "sourceFrame": "02.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/front/03.png",
+          "durationMs": 110,
+          "sha256": "4152a0344e652f89c48485e06b330f021873551d77d535787015e049676d7f10",
+          "sourceFrame": "03.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/front/04.png",
+          "durationMs": 120,
+          "sha256": "e7390fa9d5f92b328b638184f1d74395d60e4912db5933732c78d69343c06958",
+          "sourceFrame": "04.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/front/05.png",
+          "durationMs": 110,
+          "sha256": "4e100f8335f6fde95b25c085f6063840cc41ab4a00c38c7ac5ef865e15fefd46",
+          "sourceFrame": "05.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/front/06.png",
+          "durationMs": 100,
+          "sha256": "cbe9503c1df0c94f33dd3a43b798984738a18695163c8d9c8c7f03de3e80c141",
+          "sourceFrame": "06.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/front/07.png",
+          "durationMs": 60,
+          "sha256": "d350347df33fbe56450ea2c26fb6014f728491f6595b516cf8289b3e7574556c",
+          "sourceFrame": "07.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/front/08.png",
+          "durationMs": 50,
+          "sha256": "273d191e372293196e99a1a327ce9e840646e66efbc609de2edb28b6f868cad1",
+          "sourceFrame": "08.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/front/09.png",
           "durationMs": 90,
-          "visibleBounds": [
-            85,
-            51,
-            169,
-            225
-          ],
-          "sha256": "f1e677d2c9fa01f5de41645c5ca287da6af7c5cd537bd31073d2c97f205d8f5d"
+          "sha256": "6916ed4bd7387f01faf42a14589ec9093b2c70ddf86c62607a2d9d257f6086ac",
+          "sourceFrame": "09.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/skill/0001.png",
-          "sourceFrameIndex": 1,
-          "durationMs": 80,
-          "visibleBounds": [
-            83,
-            51,
-            172,
-            225
-          ],
-          "sha256": "c95e65779e58205c6adfa70ab17d4990b8267f14417206d9db6037018fa5dbed"
+          "file": "art-source/motions/v1/2/final/s1/front/10.png",
+          "durationMs": 150,
+          "sha256": "d6ade403a5b80defb5444d51bbc787483f0d79a24020f7662bade1baf388d9b9",
+          "sourceFrame": "10.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/skill/0002.png",
-          "sourceFrameIndex": 2,
-          "durationMs": 125,
-          "visibleBounds": [
-            81,
-            51,
-            172,
-            225
-          ],
-          "sha256": "7e3404f7b278ad589840557a39d1fe5f3d778930a4cec96ff2976e6e8c9470c1"
+          "file": "art-source/motions/v1/2/final/s1/front/11.png",
+          "durationMs": 220,
+          "sha256": "654b19c72a9c594e933b5bac90f37d12c0c5f79a52b3ce0ac5d3660d38f7c5dd",
+          "sourceFrame": "11.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/skill/0003.png",
-          "sourceFrameIndex": 3,
+          "file": "art-source/motions/v1/2/final/s1/front/12.png",
+          "durationMs": 110,
+          "sha256": "ecc82ffafa1a27fefdcd5e9528e371db52849b222eb7c99d07c418c1bc9288fd",
+          "sourceFrame": "12.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/front/13.png",
           "durationMs": 100,
-          "visibleBounds": [
-            80,
-            51,
-            169,
-            225
-          ],
-          "sha256": "894938cd6c724416336987291c38d4ca2ac54a79be7bf377204437058d9e6a86"
+          "sha256": "ef0617b3b6a156685a3e285c9b122ca22956eadcf5a7482a1660f4c62b76d78b",
+          "sourceFrame": "13.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/skill/0004.png",
-          "sourceFrameIndex": 4,
-          "durationMs": 45,
-          "visibleBounds": [
-            79,
-            51,
-            168,
-            226
-          ],
-          "sha256": "ebc3557ff7024d70ec7a78ce0acd005aec6b444fbe413b8129bb18efe049631a"
+          "file": "art-source/motions/v1/2/final/s1/front/14.png",
+          "durationMs": 90,
+          "sha256": "044019587eb0b537171e4564f3284fdb6153014748531e273fa2885c37c7e2e0",
+          "sourceFrame": "14.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/front/skill/0005.png",
-          "sourceFrameIndex": 5,
-          "durationMs": 80,
-          "visibleBounds": [
-            79,
-            51,
-            178,
-            226
-          ],
-          "sha256": "54ca0d6b11d096bf3992430f9ae145ddb2b0c54447f9736c9e95bc9763ede652"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/front/skill/0006.png",
-          "sourceFrameIndex": 6,
+          "file": "art-source/motions/v1/2/final/s1/front/15.png",
           "durationMs": 100,
-          "visibleBounds": [
-            79,
-            51,
-            178,
-            226
-          ],
-          "sha256": "3e1a9d6e0043192fa070ae9d5fc1157be5e49cc44840f9701bcbdf4e7dfa28b8"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/front/skill/0007.png",
-          "sourceFrameIndex": 7,
-          "durationMs": 125,
-          "visibleBounds": [
-            80,
-            51,
-            173,
-            226
-          ],
-          "sha256": "dfe4c4d1a3ec6e1047182007ea2258b65b88fd070f68fb9afb9fb8c89f9c404b"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/front/skill/0008.png",
-          "sourceFrameIndex": 8,
-          "durationMs": 75,
-          "visibleBounds": [
-            81,
-            51,
-            169,
-            226
-          ],
-          "sha256": "6d99e1985cb07da60ba05493cc6a0f150c5004a5c731e58284e1faa770c4102b"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/front/skill/0009.png",
-          "sourceFrameIndex": 9,
-          "durationMs": 85,
-          "visibleBounds": [
-            83,
-            51,
-            174,
-            225
-          ],
-          "sha256": "f1e51bbdb47a9d1be93dd7c148235907a5bdaed1a7b41493d5abec97da6b249f"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/front/skill/0010.png",
-          "sourceFrameIndex": 10,
-          "durationMs": 74,
-          "visibleBounds": [
-            84,
-            51,
-            172,
-            225
-          ],
-          "sha256": "c1ccc2cff0a02cf6eb1292604ae6bc9d3e365eeb4ce6d0b14f7ac012523a5d0f"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/front/skill/0011.png",
-          "sourceFrameIndex": 11,
-          "durationMs": 100,
-          "visibleBounds": [
-            85,
-            51,
-            169,
-            225
-          ],
-          "sha256": "8737df6c98c62dc47a594e557f46d0747e17567ff67df7a664cfdfe7c63a9315"
+          "sha256": "662486c064f0b22801a5e566c6c10a5e1e902c6cb459170b4f01c80526be11e4",
+          "sourceFrame": "15.png"
         }
-      ]
+      ],
+      "markers": {
+        "release": 7
+      }
     },
     {
       "clipId": "side-skill",
+      "motion": "s1",
       "view": "side",
       "state": "skill",
-      "sourceProvider": "PixelLab animate-with-skeleton-v3",
-      "request": {
-        "parametersFile": "art-source/motions/v1/2/rigs/side-skill.json",
-        "first_frame": "art-source/characters/v1/2/side.png",
-        "firstFrameSha256": "66e1914a81416a3f63772f8f018b0c0ffaa22617310244c8defa83909839f79a"
-      },
-      "job": {
-        "status": "completed",
-        "background_job_id": "9937134e-e33b-4a6b-ac94-36c7e561f5bd",
-        "usage": {
-          "type": "generations",
-          "generations": 3.0
-        }
-      },
+      "reviewStatus": "approved",
       "canvas": [
         256,
         256
       ],
       "anchor": [
-        128,
+        160,
         224
       ],
-      "logicalAnchor": [
-        128,
-        224
-      ],
-      "drawOffset": [
-        0,
-        0
-      ],
-      "reviewStatus": "approved",
-      "approvedDate": "2026-11-17",
-      "runtimeApplied": true,
       "loop": false,
-      "markers": {
-        "stomp": 4,
-        "release": 5
-      },
-      "assetVersion": "pixel256-rig-v1",
       "frames": [
         {
-          "file": "art-source/motions/v1/2/sequences/side/skill/0000.png",
-          "sourceFrameIndex": 0,
+          "file": "art-source/motions/v1/2/final/s1/left/01.png",
+          "durationMs": 100,
+          "sha256": "8310ab046b1f08a972e9b0fec0a75eacffc3affc8dcfdfec376a3c89837663c0",
+          "sourceFrame": "01.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/left/02.png",
+          "durationMs": 100,
+          "sha256": "2991a07dd39d1b19f8a7c54126705fba64fbc4c707c623ee42183c61116ce890",
+          "sourceFrame": "02.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/left/03.png",
+          "durationMs": 110,
+          "sha256": "c0f9d8d769d542fabff0cfb4e35b080134235a66e491efab58acf39f0093ff2b",
+          "sourceFrame": "03.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/left/04.png",
+          "durationMs": 120,
+          "sha256": "026b35842c931c95c75dcabb3b69782711ad3b188edb6038f5ad8b61e5b17b25",
+          "sourceFrame": "04.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/left/05.png",
+          "durationMs": 110,
+          "sha256": "c54c86163e4968eda9f20382401b7ee75e62a9b87007903204b5acee919ed13d",
+          "sourceFrame": "05.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/left/06.png",
+          "durationMs": 100,
+          "sha256": "76d2f309ea8abfd7bffdce82cc846810b1fccd4cbabaad44e0cc58f33dfb540d",
+          "sourceFrame": "06.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/left/07.png",
+          "durationMs": 60,
+          "sha256": "92f803e51c04aaa982459df8acd546a367d514a4bc8684026541aa4d68e9f543",
+          "sourceFrame": "07.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/left/08.png",
+          "durationMs": 50,
+          "sha256": "c8ea91020c3ead686f4b2695bc353370861a6d3bae2956927768644e67ca2dcb",
+          "sourceFrame": "08.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/left/09.png",
           "durationMs": 90,
-          "visibleBounds": [
-            88,
-            57,
-            171,
-            225
-          ],
-          "sha256": "1118de1f6478749f7460574e52498d829387cc59ae181432963ed11bf48c6a9c"
+          "sha256": "7a95f215572f489d33767926d708e70af54552bd135ef9f987b63811715a016a",
+          "sourceFrame": "09.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/side/skill/0001.png",
-          "sourceFrameIndex": 1,
-          "durationMs": 80,
-          "visibleBounds": [
-            85,
-            57,
-            169,
-            225
-          ],
-          "sha256": "ef6a5422c2b60b0d9dc75976bd8aebcda05d3634ce651808804142e84fc65a66"
+          "file": "art-source/motions/v1/2/final/s1/left/10.png",
+          "durationMs": 150,
+          "sha256": "5eac2fac35286aad22490ee39ceeedcdbea04b52871fd57095a2d5fa7b76d1ae",
+          "sourceFrame": "10.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/side/skill/0002.png",
-          "sourceFrameIndex": 2,
-          "durationMs": 125,
-          "visibleBounds": [
-            83,
-            57,
-            166,
-            225
-          ],
-          "sha256": "9dc814f4c41491548b600bd8b96ac258a17fd5d08f53ca3605db4fb3f0c3a67d"
+          "file": "art-source/motions/v1/2/final/s1/left/11.png",
+          "durationMs": 220,
+          "sha256": "b8475eafb69818dbbd5832a363a5f4eec8360fe41061ea7f2f2c4c6aaf61a48e",
+          "sourceFrame": "11.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/side/skill/0003.png",
-          "sourceFrameIndex": 3,
+          "file": "art-source/motions/v1/2/final/s1/left/12.png",
+          "durationMs": 110,
+          "sha256": "f76c45ed5096e0075e1772bf1f94c1ae39deeadffa2f635e3cdefc08586706d6",
+          "sourceFrame": "12.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/left/13.png",
           "durationMs": 100,
-          "visibleBounds": [
-            82,
-            57,
-            166,
-            225
-          ],
-          "sha256": "4d1dcfa959d55fa1be6507d573ab36769fab7ef4f076e3afc059e648cd3641dd"
+          "sha256": "fadc3428ba13ada3311239b2a73d59a4f370d6bbe2039fb70f845c94b8962b58",
+          "sourceFrame": "13.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/side/skill/0004.png",
-          "sourceFrameIndex": 4,
-          "durationMs": 45,
-          "visibleBounds": [
-            81,
-            57,
-            169,
-            225
-          ],
-          "sha256": "ee7d1ce473d798aec3144c9e35ef3e6ed8380c1638bfe0099aafc217c66e0c58"
+          "file": "art-source/motions/v1/2/final/s1/left/14.png",
+          "durationMs": 90,
+          "sha256": "d14f7ae89df6d21a99c5cf4bd5090b9b3ed006f7eedc177bfc52778436c1f8e8",
+          "sourceFrame": "14.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/side/skill/0005.png",
-          "sourceFrameIndex": 5,
-          "durationMs": 80,
-          "visibleBounds": [
-            80,
-            57,
-            172,
-            225
-          ],
-          "sha256": "1f77c80664b0a3c8cada412d96ea1a58642170d323cefdcb238e28cf71811e88"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/side/skill/0006.png",
-          "sourceFrameIndex": 6,
+          "file": "art-source/motions/v1/2/final/s1/left/15.png",
           "durationMs": 100,
-          "visibleBounds": [
-            80,
-            57,
-            172,
-            225
-          ],
-          "sha256": "c2910ad3b6f0a08a917e7ca714aeabb2f4da723e66939d1f32467379226a21b0"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/side/skill/0007.png",
-          "sourceFrameIndex": 7,
-          "durationMs": 125,
-          "visibleBounds": [
-            81,
-            57,
-            172,
-            225
-          ],
-          "sha256": "5547b92d51fb06fe0348f8002720cfbc4547ff3e1f4d5489cb101ed04f194554"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/side/skill/0008.png",
-          "sourceFrameIndex": 8,
-          "durationMs": 75,
-          "visibleBounds": [
-            83,
-            57,
-            171,
-            225
-          ],
-          "sha256": "66f80cf6c35b9bf3a2c6b32355d8592806379790b709d1ab538d2e84c2593c52"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/side/skill/0009.png",
-          "sourceFrameIndex": 9,
-          "durationMs": 85,
-          "visibleBounds": [
-            85,
-            57,
-            170,
-            225
-          ],
-          "sha256": "98be67d20ec8ef7336e8c8f718b773fcc6ce130ddbcd5bb2aba263e7385234e7"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/side/skill/0010.png",
-          "sourceFrameIndex": 10,
-          "durationMs": 74,
-          "visibleBounds": [
-            87,
-            57,
-            170,
-            225
-          ],
-          "sha256": "ebe6bf126e9199fa016966207946f843cc11fb0c88d122c255ee543abd9edb60"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/side/skill/0011.png",
-          "sourceFrameIndex": 11,
-          "durationMs": 100,
-          "visibleBounds": [
-            88,
-            57,
-            170,
-            225
-          ],
-          "sha256": "edb58f6155dd0930c32fd1333f437595549ca88f1e38dfde3e51cbed2587b0a8"
+          "sha256": "9fed309dc30d195a1d0c4c2175d2ab20d028c10af1a6794b02fa58c4691b6435",
+          "sourceFrame": "15.png"
         }
-      ]
+      ],
+      "markers": {
+        "release": 7
+      }
     },
     {
       "clipId": "back-skill",
+      "motion": "s1",
       "view": "back",
       "state": "skill",
-      "sourceProvider": "PixelLab animate-with-skeleton-v3",
-      "request": {
-        "parametersFile": "art-source/motions/v1/2/rigs/back-skill.json",
-        "first_frame": "art-source/characters/v1/2/back.png",
-        "firstFrameSha256": "b8f8dfb6c1ddc69bc9a91ab33d2189d16e232789c038ea22167e944098b938e9"
-      },
-      "job": {
-        "status": "completed",
-        "background_job_id": "7aed34af-0559-41a5-8702-b8aa8a26a516",
-        "usage": {
-          "type": "generations",
-          "generations": 3.0
-        }
-      },
+      "reviewStatus": "approved",
       "canvas": [
         256,
         256
@@ -1564,187 +1873,102 @@
         128,
         224
       ],
-      "logicalAnchor": [
-        128,
-        224
-      ],
-      "drawOffset": [
-        0,
-        0
-      ],
-      "reviewStatus": "approved",
-      "approvedDate": "2026-11-17",
-      "runtimeApplied": true,
       "loop": false,
-      "markers": {
-        "stomp": 4,
-        "release": 5
-      },
-      "assetVersion": "pixel256-rig-v1",
       "frames": [
         {
-          "file": "art-source/motions/v1/2/sequences/back/skill/0000.png",
-          "sourceFrameIndex": 0,
+          "file": "art-source/motions/v1/2/final/s1/rear/01.png",
+          "durationMs": 100,
+          "sha256": "ecdc07d6c16a32237ea543465e93a3f6d332df5147db8025e15d41a25d34e922",
+          "sourceFrame": "01.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/rear/02.png",
+          "durationMs": 100,
+          "sha256": "ce19aece5c1f51f052be3f75e9f2510f05667721cf50a2f83efdc4a820db98f7",
+          "sourceFrame": "02.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/rear/03.png",
+          "durationMs": 110,
+          "sha256": "cc6520c10e0b2e23e0875ef75dc82ec6c20e062c595c7cf4dadb06f5b3bc2ce7",
+          "sourceFrame": "03.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/rear/04.png",
+          "durationMs": 120,
+          "sha256": "1857e3ac5bef205b1c98b7b17a5503bde4a11cdcc0454dc80f000cf2bf419570",
+          "sourceFrame": "04.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/rear/05.png",
+          "durationMs": 110,
+          "sha256": "e38c4cffc77b5e158578fb27757409c1d9f3ac21827393654016dc3ceed5f6b1",
+          "sourceFrame": "05.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/rear/06.png",
+          "durationMs": 100,
+          "sha256": "a1cc75f35b29f739913e4a453def918ee5475baa626661d10cfa681283c93cd0",
+          "sourceFrame": "06.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/rear/07.png",
+          "durationMs": 60,
+          "sha256": "72884bc9af692e9c745b9e47cba0b99f4be47bcecda0259e6be8bb5b00c64703",
+          "sourceFrame": "07.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/rear/08.png",
+          "durationMs": 50,
+          "sha256": "5726c1b0ab79775a3c34ae07d63919fdfd1122b1d41bce308a539d10b9c9356e",
+          "sourceFrame": "08.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/rear/09.png",
           "durationMs": 90,
-          "visibleBounds": [
-            87,
-            51,
-            171,
-            225
-          ],
-          "sha256": "58cd23ab579ffb9ba07975497a69b4fd256e03c7bdd25bffa5af03d7faff228d"
+          "sha256": "bd3655780ebb0958b56e56e4e582e2a4d510b59873c705ba3e1cd5452dde795f",
+          "sourceFrame": "09.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/back/skill/0001.png",
-          "sourceFrameIndex": 1,
-          "durationMs": 80,
-          "visibleBounds": [
-            84,
-            51,
-            173,
-            225
-          ],
-          "sha256": "1cd88c8fbb1466f3db54a2a4794522cafa7eed5a04bb81292c96451ea1bfeff6"
+          "file": "art-source/motions/v1/2/final/s1/rear/10.png",
+          "durationMs": 150,
+          "sha256": "5bfb4d39101b55beb6d6987faf36a9f5a1536e32e0b7c2cc9175738ab9208151",
+          "sourceFrame": "10.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/back/skill/0002.png",
-          "sourceFrameIndex": 2,
-          "durationMs": 125,
-          "visibleBounds": [
-            83,
-            51,
-            174,
-            225
-          ],
-          "sha256": "c90a59a00ac5c6afaeb4233cf0c88ceb15dd11085e3061ce4af390ac58811333"
+          "file": "art-source/motions/v1/2/final/s1/rear/11.png",
+          "durationMs": 220,
+          "sha256": "28b6db2c51fa9c5332072ce69c067d7afd52531318f6a39ce9f3068c1bcf8143",
+          "sourceFrame": "11.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/back/skill/0003.png",
-          "sourceFrameIndex": 3,
+          "file": "art-source/motions/v1/2/final/s1/rear/12.png",
+          "durationMs": 110,
+          "sha256": "e4b4fd4fd8b315aa8f3cb94dd4df73ac7281c5589c442542f06fe50aef2f7f6b",
+          "sourceFrame": "12.png"
+        },
+        {
+          "file": "art-source/motions/v1/2/final/s1/rear/13.png",
           "durationMs": 100,
-          "visibleBounds": [
-            84,
-            51,
-            175,
-            225
-          ],
-          "sha256": "06a325ee31e54907972408566b66655e871cea010dbc90ac58c1642fe9915c9c"
+          "sha256": "91ff14720e48e838d84649b59f71d2c55e6add7f67d64567d7910b435b1ced81",
+          "sourceFrame": "13.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/back/skill/0004.png",
-          "sourceFrameIndex": 4,
-          "durationMs": 45,
-          "visibleBounds": [
-            84,
-            51,
-            175,
-            225
-          ],
-          "sha256": "260f431224602301e18df2c280bc97fa530b5d592dd0ad03ce1f3f022eddb8d4"
+          "file": "art-source/motions/v1/2/final/s1/rear/14.png",
+          "durationMs": 90,
+          "sha256": "9dd0a84a1ed93c6aeae783669907f7e104a246778b9009e754d6315fa390f6e1",
+          "sourceFrame": "14.png"
         },
         {
-          "file": "art-source/motions/v1/2/sequences/back/skill/0005.png",
-          "sourceFrameIndex": 5,
-          "durationMs": 80,
-          "visibleBounds": [
-            78,
-            51,
-            176,
-            225
-          ],
-          "sha256": "c6c5efc3621d04abfa354e7b657d0acc4be155f7adf1b0ebd340be1450a65146"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/back/skill/0006.png",
-          "sourceFrameIndex": 6,
+          "file": "art-source/motions/v1/2/final/s1/rear/15.png",
           "durationMs": 100,
-          "visibleBounds": [
-            78,
-            51,
-            176,
-            225
-          ],
-          "sha256": "9f6b3fc86ea53d86499cc9dfa23804c10331944b856873a7dcdd24dcbc80752b"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/back/skill/0007.png",
-          "sourceFrameIndex": 7,
-          "durationMs": 125,
-          "visibleBounds": [
-            81,
-            51,
-            175,
-            225
-          ],
-          "sha256": "397ff0a1e573cd2d1d9166c4baedd4fc18a199f2478928ea2daf7f0473fa63f7"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/back/skill/0008.png",
-          "sourceFrameIndex": 8,
-          "durationMs": 75,
-          "visibleBounds": [
-            84,
-            51,
-            173,
-            225
-          ],
-          "sha256": "fc367e54e297dd8ef2d3404ed89eef7eddd698de9f9d76b35461c132bf7ff9a1"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/back/skill/0009.png",
-          "sourceFrameIndex": 9,
-          "durationMs": 85,
-          "visibleBounds": [
-            82,
-            51,
-            172,
-            225
-          ],
-          "sha256": "cf0a0fff06930b5bb5cbf03dfeb2b039621c92f475718d7e5eb1aef3320cfffd"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/back/skill/0010.png",
-          "sourceFrameIndex": 10,
-          "durationMs": 74,
-          "visibleBounds": [
-            84,
-            51,
-            171,
-            225
-          ],
-          "sha256": "7f7db7b560e7c9c74d75501434d43e95c1b41cf751904a5dd54f7d201cac2a7d"
-        },
-        {
-          "file": "art-source/motions/v1/2/sequences/back/skill/0011.png",
-          "sourceFrameIndex": 11,
-          "durationMs": 100,
-          "visibleBounds": [
-            87,
-            51,
-            170,
-            225
-          ],
-          "sha256": "fb53b2fe8fe59e144a467b1dc088653eed49d397affff4e86404673049b24d58"
+          "sha256": "ca3305105676828077ad0c65430686f3731aaab4b42b30b7bc81f82221bfc31f",
+          "sourceFrame": "15.png"
         }
-      ]
+      ],
+      "markers": {
+        "release": 7
+      }
     }
-  ],
-  "previews": {
-    "attack": {
-      "file": "art-source/motions/v1/2/preview/attack.gif",
-      "sha256": "0227135255a8150c97ffb139cfbd82b6e250d2a82120e3ece295f3ef0c1984e7",
-      "label": "기본 공격"
-    },
-    "move": {
-      "file": "art-source/motions/v1/2/preview/move.gif",
-      "sha256": "8c595205ed0bdf23e853c7eed7fb01d96dff9d01a7378bad7b7d2aeb56e344b5",
-      "label": "걷기"
-    },
-    "skill": {
-      "file": "art-source/motions/v1/2/preview/skill.gif",
-      "sha256": "821ee02feabf5e34fb4d60bc1bc291e29d8bc2985de8e42743e59de343df3a71",
-      "label": "장판의 함성"
-    }
-  },
-  "runtimeAppliedDate": "2026-11-17"
+  ]
 }

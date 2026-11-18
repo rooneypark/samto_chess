@@ -5,6 +5,14 @@ const assert=require('node:assert/strict');
  const errors=[];page.on('pageerror',e=>{errors.push(e.message);console.error(e.message);});
  page.on('response',r=>{if(r.status()>=400)errors.push(r.status()+' '+r.url());});
  try{await start(page);}catch(error){await page.screenshot({path:artifact('gate-lobby','startup-failure.png')});console.error('Startup DOM:',await page.locator('body').innerText());throw error;}
+ const fallback=page.locator('.party .gate-fallback').first();
+ await fallback.hover();
+ const label=await fallback.evaluate(button=>{
+  const box=button.getBoundingClientRect(),name=button.querySelector('.hero-label');
+  return {gap:box.bottom-box.width-name.getBoundingClientRect().bottom,opacity:getComputedStyle(name).opacity};
+ });
+ assert.ok(label.gap>0&&label.gap<6&&label.opacity==='1','The name sits immediately above the drawn square sprite');
+ await page.mouse.move(0,0);
  await seed(page,(s,{services})=>{
   s.order=['xuchu','1','32','35','diaochan','119'];for(const id of s.order)s.heroes[id].owned=true;
   s.gold=12450;s.diamonds=320;s.freeDiamonds=320;s.paidDiamonds=0;s.reducedMotion=true;

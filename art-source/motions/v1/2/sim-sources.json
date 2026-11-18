@@ -1,0 +1,32 @@
+{
+  "idle": {
+    "front": "art-source/motions/v1/2/final/idle/front/manifest.json",
+    "left": "art-source/motions/v1/2/final/idle/left/manifest.json",
+    "rear": "art-source/motions/v1/2/final/idle/rear/manifest.json"
+  },
+  "a1": {
+    "front": "art-source/motions/v1/2/final/a1/front/manifest.json",
+    "left": "art-source/motions/v1/2/final/a1/left/manifest.json",
+    "rear": "art-source/motions/v1/2/final/a1/rear/manifest.json"
+  },
+  "a2": {
+    "front": "art-source/motions/v1/2/final/a2/front/manifest.json",
+    "left": "art-source/motions/v1/2/final/a2/left/manifest.json",
+    "rear": "art-source/motions/v1/2/final/a2/rear/manifest.json"
+  },
+  "a3": {
+    "front": "art-source/motions/v1/2/final/a3/front/manifest.json",
+    "left": "art-source/motions/v1/2/final/a3/left/manifest.json",
+    "rear": "art-source/motions/v1/2/final/a3/rear/manifest.json"
+  },
+  "move": {
+    "front": "art-source/motions/v1/2/final/move/front/manifest.json",
+    "left": "art-source/motions/v1/2/final/move/left/manifest.json",
+    "rear": "art-source/motions/v1/2/final/move/rear/manifest.json"
+  },
+  "s1": {
+    "front": "art-source/motions/v1/2/final/s1/front/manifest.json",
+    "left": "art-source/motions/v1/2/final/s1/left/manifest.json",
+    "rear": "art-source/motions/v1/2/final/s1/rear/manifest.json"
+  }
+}

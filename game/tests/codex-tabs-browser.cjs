@@ -15,15 +15,28 @@ const catalog=require('../../art-source/treasures/v1/catalog.json');
   const root=page.locator('.codex-runtime'),ready=()=>root.and(page.locator('[aria-busy=false]')).waitFor();
   await ready();await root.locator('.header-lettering img').waitFor();
   const before=await savedState(page);
-  for(const width of [941,390,320]){
+  for(const width of [941,390,320,280]){
    await page.setViewportSize({width,height:width===941?1672:844});
    await root.locator('[data-kind=treasures]').click();await ready();
    assert.equal(await root.locator('.summary-title b').textContent(),'32종');
    assert.ok(await root.locator('.reward-amount').isHidden());
    assert.ok(await root.locator('.source-button').isHidden());
+   const aligned=await root.evaluate(el=>{
+    const rect=selector=>{
+     const range=document.createRange();
+     range.selectNodeContents(el.querySelector(selector));
+     return range.getBoundingClientRect();
+    };
+    const title=rect('.reward-title'),copy=rect('.reward-copy');
+    const panel=el.querySelector('.collection-reward').getBoundingClientRect();
+    return title.bottom<copy.top&&copy.bottom<panel.bottom&&
+     Math.abs(title.left-copy.left)<1&&copy.right<panel.right;
+   });
+   assert.ok(aligned,'Treasure guide title and text fit and align at '+width+'px');
    for(const [id,name] of [['tr-002','청공검'],['tr-003','청룡언월도']]){
     await root.locator('[data-treasure='+id+']').click();await ready();
     assert.equal(await root.locator('.detail-title').textContent(),name);
+    assert.equal(await root.locator('.detail-skill').textContent(),id==='tr-002'?'공격 +10% · 1성 기준':'전법 피해 +15% · 1성 기준');
     const art=await root.locator('.detail-art img').evaluate(img=>[img.src,img.naturalWidth,img.naturalHeight]);
     assert.ok(art[0].endsWith('/'+id+'.png'));assert.deepEqual(art.slice(1),[256,256]);
    }
@@ -45,6 +58,6 @@ const catalog=require('../../art-source/treasures/v1/catalog.json');
   }
   assert.deepEqual(await savedState(page),before);
   assert.deepEqual(errors,[]);
-  console.log('PASS 32 treasure originals, detail images, categories and pages at 3 widths, existing inventory unchanged');
+  console.log('PASS 32 treasure originals, trait details, guide alignment, categories and pages at 4 widths, existing inventory unchanged');
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exitCode=1;});

@@ -1,0 +1,377 @@
+{
+  "status": "preflight_verified",
+  "source": "bone-motion\\out\\pixellab\\2\\idle-rear-straight-color-fix-v1\\01.png",
+  "source_sha256": "17ada5d798440318915fed8ebe0afb7c8fa51105eee014fe3fe11d118fe5043a",
+  "rig": [
+    {
+      "name": "pelvis",
+      "parent": null,
+      "side": "mid"
+    },
+    {
+      "name": "NECK",
+      "parent": "pelvis",
+      "side": "mid",
+      "estimate": "NECK"
+    },
+    {
+      "name": "back of skull",
+      "parent": "NECK",
+      "side": "mid"
+    },
+    {
+      "name": "RIGHT SHOULDER",
+      "parent": "NECK",
+      "side": "near",
+      "estimate": "RIGHT SHOULDER"
+    },
+    {
+      "name": "RIGHT ELBOW",
+      "parent": "RIGHT SHOULDER",
+      "side": "near",
+      "estimate": "RIGHT ELBOW"
+    },
+    {
+      "name": "RIGHT ARM",
+      "parent": "RIGHT ELBOW",
+      "side": "near",
+      "estimate": "RIGHT ARM"
+    },
+    {
+      "name": "LEFT SHOULDER",
+      "parent": "NECK",
+      "side": "far",
+      "estimate": "LEFT SHOULDER"
+    },
+    {
+      "name": "LEFT ELBOW",
+      "parent": "LEFT SHOULDER",
+      "side": "far",
+      "estimate": "LEFT ELBOW"
+    },
+    {
+      "name": "LEFT ARM",
+      "parent": "LEFT ELBOW",
+      "side": "far",
+      "estimate": "LEFT ARM"
+    },
+    {
+      "name": "RIGHT HIP",
+      "parent": "pelvis",
+      "side": "near",
+      "estimate": "RIGHT HIP"
+    },
+    {
+      "name": "RIGHT KNEE",
+      "parent": "RIGHT HIP",
+      "side": "near",
+      "estimate": "RIGHT KNEE"
+    },
+    {
+      "name": "RIGHT LEG",
+      "parent": "RIGHT KNEE",
+      "side": "near",
+      "estimate": "RIGHT LEG"
+    },
+    {
+      "name": "LEFT HIP",
+      "parent": "pelvis",
+      "side": "far",
+      "estimate": "LEFT HIP"
+    },
+    {
+      "name": "LEFT KNEE",
+      "parent": "LEFT HIP",
+      "side": "far",
+      "estimate": "LEFT KNEE"
+    },
+    {
+      "name": "LEFT LEG",
+      "parent": "LEFT KNEE",
+      "side": "far",
+      "estimate": "LEFT LEG"
+    },
+    {
+      "name": "weapon butt",
+      "parent": "RIGHT ARM",
+      "side": "mid"
+    },
+    {
+      "name": "weapon tip",
+      "parent": "weapon butt",
+      "side": "mid"
+    },
+    {
+      "name": "front grip",
+      "parent": "LEFT ARM",
+      "side": "mid"
+    },
+    {
+      "name": "rear grip",
+      "parent": "RIGHT ARM",
+      "side": "mid"
+    },
+    {
+      "name": "weapon collar",
+      "parent": "weapon butt",
+      "side": "mid"
+    },
+    {
+      "name": "head center",
+      "parent": "NECK",
+      "side": "mid"
+    },
+    {
+      "name": "headband root",
+      "parent": "head center",
+      "side": "mid"
+    },
+    {
+      "name": "headband upper tip",
+      "parent": "headband root",
+      "side": "mid"
+    },
+    {
+      "name": "headband lower tip",
+      "parent": "headband root",
+      "side": "mid"
+    }
+  ],
+  "first_frame_keypoints": [
+    {
+      "label": "pelvis",
+      "x": 0.5,
+      "y": 0.7115371612617705,
+      "depth": 128.0
+    },
+    {
+      "label": "NECK",
+      "x": 0.5,
+      "y": 0.5603552020767444,
+      "depth": 126.82262699388227
+    },
+    {
+      "label": "back of skull",
+      "x": 0.5,
+      "y": 0.5031254212175749,
+      "depth": 129.32262699388227
+    },
+    {
+      "label": "RIGHT SHOULDER",
+      "x": 0.57421875,
+      "y": 0.5982573788844006,
+      "depth": 127.17140936260289
+    },
+    {
+      "label": "RIGHT ELBOW",
+      "x": 0.614476236214139,
+      "y": 0.6617275286181826,
+      "depth": 130.4746312736179
+    },
+    {
+      "label": "RIGHT ARM",
+      "x": 0.5801810794576504,
+      "y": 0.6852634832903381,
+      "depth": 124.67023895538804
+    },
+    {
+      "label": "LEFT SHOULDER",
+      "x": 0.42578125,
+      "y": 0.5982573788844006,
+      "depth": 127.17140936260289
+    },
+    {
+      "label": "LEFT ELBOW",
+      "x": 0.4912225172200803,
+      "y": 0.6241124103190308,
+      "depth": 124.88143967052649
+    },
+    {
+      "label": "LEFT ARM",
+      "x": 0.5553359622697629,
+      "y": 0.6224124175675214,
+      "depth": 121.64478660456568
+    },
+    {
+      "label": "RIGHT HIP",
+      "x": 0.546875,
+      "y": 0.7190470182612886,
+      "depth": 128.0348994967025
+    },
+    {
+      "label": "RIGHT KNEE",
+      "x": 0.5635523981969145,
+      "y": 0.7921079423086377,
+      "depth": 130.1083524932936
+    },
+    {
+      "label": "RIGHT LEG",
+      "x": 0.53515625,
+      "y": 0.8560495909603242,
+      "depth": 134.0
+    },
+    {
+      "label": "LEFT HIP",
+      "x": 0.453125,
+      "y": 0.7190470182612886,
+      "depth": 128.0348994967025
+    },
+    {
+      "label": "LEFT KNEE",
+      "x": 0.45675698040844126,
+      "y": 0.7608151413808395,
+      "depth": 122.08147971339359
+    },
+    {
+      "label": "LEFT LEG",
+      "x": 0.46484375,
+      "y": 0.8246650524691186,
+      "depth": 121.0
+    },
+    {
+      "label": "weapon butt",
+      "x": 0.5637535544244876,
+      "y": 0.8244713798575255,
+      "depth": 127.31908477453223
+    },
+    {
+      "label": "weapon tip",
+      "x": 0.5952750752197442,
+      "y": 0.1880027934740478,
+      "depth": 106.5620714757509
+    },
+    {
+      "label": "front grip",
+      "x": 0.5737848829517418,
+      "y": 0.6219232373119878,
+      "depth": 120.71342570760059
+    },
+    {
+      "label": "rear grip",
+      "x": 0.5703125,
+      "y": 0.6920360558854433,
+      "depth": 123.0
+    },
+    {
+      "label": "weapon collar",
+      "x": 0.5846457251841344,
+      "y": 0.4026259214405693,
+      "depth": 113.56152944859576
+    },
+    {
+      "label": "head center",
+      "x": 0.5,
+      "y": 0.4958828354119121,
+      "depth": 126.32262699388227
+    },
+    {
+      "label": "headband root",
+      "x": 0.4921875,
+      "y": 0.4607265854119121,
+      "depth": 126.32262699388227
+    },
+    {
+      "label": "headband upper tip",
+      "x": 0.40234375,
+      "y": 0.437289085411912,
+      "depth": 126.32262699388227
+    },
+    {
+      "label": "headband lower tip",
+      "x": 0.359375,
+      "y": 0.488070335411912,
+      "depth": 126.32262699388227
+    }
+  ],
+  "durations_ms": [
+    100,
+    90,
+    100,
+    130,
+    90,
+    90,
+    110,
+    45,
+    60,
+    190,
+    100,
+    90,
+    80,
+    80,
+    100
+  ],
+  "support": [
+    [
+      "L",
+      "R"
+    ],
+    [
+      "L",
+      "R"
+    ],
+    [
+      "L",
+      "R"
+    ],
+    [
+      "L",
+      "R"
+    ],
+    [],
+    [],
+    [],
+    [
+      "L",
+      "R"
+    ],
+    [
+      "L",
+      "R"
+    ],
+    [
+      "L",
+      "R"
+    ],
+    [
+      "L",
+      "R"
+    ],
+    [
+      "L",
+      "R"
+    ],
+    [
+      "R"
+    ],
+    [
+      "R"
+    ],
+    [
+      "L",
+      "R"
+    ]
+  ],
+  "pivot": [
+    128,
+    224
+  ],
+  "extra_inward_grip_adjustments": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "max_grip_error": 2.5125404263476333e-14,
+  "api_calls": 0
+}

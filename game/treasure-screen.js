@@ -7,11 +7,10 @@ import {generalPortrait,portraitCrops} from './general-portraits.js';
 import {treasureDefs,treasureQuote,manageTreasure} from './treasures.js';
 import {treasureTemplate} from './treasure-template.js';
 import {heroes} from './heroes.js';
-const positions={gold:'33.333% 100%',scroll:'66.667% 50%',helmet:'33.333% 0',gem:'66.667% 100%',banner:'100% 0',swords:'0 50%',gate:'66.667% 0'};
 const definition=item=>treasureDefs.find(d=>d.id===item.defId);
 const ownerOf=(s,id)=>heroes.find(h=>s.heroes[h.id]?.treasure===id);
 const materialsFor=(s,item)=>s.treasures.filter(m=>m.id!==item.id&&m.defId===item.defId&&m.star===1&&!m.locked&&!m.favorite&&!ownerOf(s,m.id));
-const icon=d=>`<i class="symbol" style="background-position:${positions[d.icon]}"></i>`;
+const icon=d=>`<i class="symbol" style="background-image:url(${d.artwork});background-size:contain;background-position:center;background-repeat:no-repeat"></i>`;
 export function initTreasureScreen({host,store,navigate,toast,onWallet,dialog}){
  const root=createArtworkScreen({host,sharedShell:true,className:'treasure-runtime',label:'보물함',template:treasureTemplate,navigate,onWallet}),$=s=>root.querySelector(s);
  const ready=paintArtworkLayout(root,{stablePixels:true});let chosen=null,filter='all',busy=false,revision=0;
@@ -28,7 +27,7 @@ export function initTreasureScreen({host,store,navigate,toast,onWallet,dialog}){
  for(const b of root.querySelectorAll('[data-filter]')){b.setAttribute('aria-pressed',String(b.dataset.filter===filter));jobs.push(nineSlice(b,b.dataset.filter===filter?'green':'blue',{stablePixels:true}));}
  $('.owner').replaceChildren();$('.detail-icon').hidden=!chosen;
  if(chosen){const {item,def,value,copies,gold}=treasureQuote(state,chosen),owner=ownerOf(state,item.id),materials=materialsFor(state,item),max=item.star===5;
- $('.title').textContent=def.name+' · '+def.grade;$('.stars').textContent='★'.repeat(item.star)+'☆'.repeat(5-item.star);$('.detail-icon').style.backgroundPosition=positions[def.icon];$('.effect').textContent=def.effect.split('+')[0]+'+'+Math.round(value*100)+'%';$('.next').textContent=max?'최대 성급':item.star+'성 → '+(item.star+1)+'성 · +'+Math.round(def.value*(1+.25*item.star)*100)+'%';
+ $('.title').textContent=def.name+' · '+def.grade;$('.stars').textContent='★'.repeat(item.star)+'☆'.repeat(5-item.star);$('.detail-icon').style.backgroundImage='url('+def.artwork+')';$('.effect').textContent=def.effect.split('+')[0]+'+'+Number((value*100).toFixed(2))+'%';$('.next').textContent=max?'최대 성급':item.star+'성 → '+(item.star+1)+'성 · +'+Number((def.value*(1+.25*item.star)*100).toFixed(2))+'%';
  if(owner){if(portraitCrops[owner.id])$('.owner').append(generalPortrait(owner.id));else{const img=new Image();img.className='fallback';img.src=owner.portrait;img.alt=owner.name;$('.owner').append(img);}$('.owner').append(document.createTextNode('장착 장수 · '+owner.name));}else $('.owner').textContent='미장착 · 장수를 선택해 장착';
  $('.equip').textContent=owner?'장착 관리':'장수 선택';$('.material').innerHTML=max?'최대 5성에 도달했습니다.':icon(def)+`동일 보물 1성 · 필요 ${copies}개 / 가능 ${materials.length}개`;
  $('.cost').textContent=max?'추가 강화 비용 없음':'강화 비용 · '+gold.toLocaleString()+' 골드 / 보유 '+state.gold.toLocaleString();

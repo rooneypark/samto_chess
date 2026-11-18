@@ -15,7 +15,8 @@ const sharp=require('../../design-delivery/v1/a-production/tools/node_modules/sh
   for(const width of [941,390,320]){
    await page.setViewportSize({width,height:width===941?1672:844});
    const box=await toast.boundingBox(),game=await page.locator('.game').boundingBox();
-   assert.ok(Math.abs(box.y-game.y-8)<1);
+   const scale=await page.locator('.game-stack').evaluate(el=>el.getBoundingClientRect().width/el.offsetWidth);
+   assert.ok(Math.abs(box.y-game.y-8*scale)<1,JSON.stringify({width,box,game,scale}));
    assert.ok(box.y+box.height<game.y+game.height);
    assert.ok(Math.abs(box.x-game.x-game.width*20/941)<1, JSON.stringify({box,game}));
    assert.equal(await toast.evaluate(el=>getComputedStyle(el).pointerEvents),'none');
@@ -26,12 +27,13 @@ const sharp=require('../../design-delivery/v1/a-production/tools/node_modules/sh
    const {createToast}=await import('./toast.js');
    const el=document.querySelector('#toast'),toast=createToast(el);
    const results=[];
-   for(const text of ['군공이 부족합니다.','주간 갱신을 확인하세요.']){
-    toast.show(text);results.push(el.dataset.state);
+   for(const text of ['보상 수령 완료','군공이 부족합니다.','주간 갱신을 확인하세요.']){
+    toast.show(text);
+    results.push([el.dataset.state,...Array.from(el.querySelectorAll('strong,span'),node=>getComputedStyle(node).color)]);
    }
    return results;
   });
-  assert.deepEqual(result,['error','info']);
+  assert.deepEqual(result,['success','error','info'].map(state=>[state,'rgb(255, 255, 255)','rgb(255, 255, 255)']));
   await toast.waitFor();
   await page.waitForFunction(()=>document.querySelector('#toast').dataset.nineSlice==='blue');
   const data=await toast.evaluate(el=>el.style.backgroundImage.slice(5,-2).split(',')[1]);

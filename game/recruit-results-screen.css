@@ -11,4 +11,5 @@
 
 @scope (.recruit-results-runtime.treasure-result){
 .symbol{display:block;background-image:url('assets/ui/icons.png');background-size:400% 300%;image-rendering:pixelated}.recruit-award-card .symbol{width:9cqw;height:9cqw}.recruit-award-card strong{white-space:normal;font-size:max(2.5cqw,9px);line-height:1.2;min-height:6cqw}.treasure-emblem{position:absolute;display:grid;place-items:center}.treasure-emblem .symbol{width:20cqw;height:20cqw}
+.symbol.treasure-art{background:none;object-fit:contain}
 }

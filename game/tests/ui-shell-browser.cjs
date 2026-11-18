@@ -10,6 +10,22 @@ async function capture(page,name){
  const page=await browser.newPage({viewport:{width:941,height:1672},deviceScaleFactor:1}),errors=[];
  page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)errors.push(r.status()+' '+r.url())});
  await start(page);
+ const titleFrames=await page.evaluate(()=>{
+  const frames=[];
+  for(const action of ['barracks','shop','home','shop','barracks','home']){
+   document.querySelector('.game > .bottom-nav [data-action="'+action+'"]').click();
+   const titles=[...document.querySelectorAll('.art-header-title')].filter(el=>el.getClientRects().length);
+   frames.push(titles.map(el=>({
+    title:el.getAttribute('aria-label'),
+    glyphsReady:[...el.querySelectorAll('img')].every(img=>img.complete&&img.naturalWidth>0),
+    glyphCount:el.querySelectorAll('img').length
+   })));
+  }
+  return frames;
+ });
+ assert.deepEqual(titleFrames,['병영','상점','삼토체스','상점','병영','삼토체스'].map(title=>[
+  {title,glyphsReady:true,glyphCount:1}
+ ]),'Every tab switch paints one decoded title immediately');
  const initial=await savedState(page);await page.locator('[data-action=barracks]:visible').click();
  assert.deepEqual((await page.locator('.roster-card').evaluateAll(es=>es.map(e=>e.dataset.hero))).sort(),Object.keys(initial.heroes).filter(id=>initial.heroes[id].owned).sort(),'Only recruited heroes appear');
  assert.ok(await page.locator('.hero-stage img').evaluate((img,heroes)=>Object.keys(heroes).some(id=>heroes[id].owned&&(img.getAttribute('src')==='assets/generals-v2/'+id+'-front.png'||img.getAttribute('src')==='assets/heroes/'+id+'-idle.png')),initial.heroes),'Initial detail belongs to an owned hero');

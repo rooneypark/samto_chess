@@ -1,0 +1,2058 @@
+{
+  "description": "stocky Chinese warrior Zhang Fei, black beard and topknot, red headband with long tails, dark gold-trimmed armor and red clothing, black boots, long dark spear shaft with a large silver wavy serpent blade",
+  "action": "two-handed battle guard with gentle breathing; right hand rear grip and left hand forward grip. Preserve the large serpent spear and body proportions. Keep the exact neutral face and open eyes, no blinking or expression change. Fixed camera, no attack, no effects; headband follows head with subtle settling. Keep both hands firmly attached to their grip points without finger or wrist jitter.",
+  "direction": "south",
+  "view": "low top-down",
+  "first_frame_keypoints": [
+    {
+      "label": "pelvis",
+      "x": 0.5,
+      "y": 0.6953125
+    },
+    {
+      "label": "NECK",
+      "x": 0.5,
+      "y": 0.54296875
+    },
+    {
+      "label": "NOSE",
+      "x": 0.5,
+      "y": 0.49609375
+    },
+    {
+      "label": "RIGHT SHOULDER",
+      "x": 0.421875,
+      "y": 0.5625
+    },
+    {
+      "label": "RIGHT ELBOW",
+      "x": 0.375,
+      "y": 0.62109375
+    },
+    {
+      "label": "RIGHT ARM",
+      "x": 0.34375,
+      "y": 0.625
+    },
+    {
+      "label": "LEFT SHOULDER",
+      "x": 0.578125,
+      "y": 0.5625
+    },
+    {
+      "label": "LEFT ELBOW",
+      "x": 0.62890625,
+      "y": 0.64453125
+    },
+    {
+      "label": "LEFT ARM",
+      "x": 0.640625,
+      "y": 0.70703125
+    },
+    {
+      "label": "RIGHT HIP",
+      "x": 0.4453125,
+      "y": 0.703125
+    },
+    {
+      "label": "RIGHT KNEE",
+      "x": 0.43359375,
+      "y": 0.7890625
+    },
+    {
+      "label": "RIGHT LEG",
+      "x": 0.43359375,
+      "y": 0.84765625
+    },
+    {
+      "label": "LEFT HIP",
+      "x": 0.55078125,
+      "y": 0.703125
+    },
+    {
+      "label": "LEFT KNEE",
+      "x": 0.5625,
+      "y": 0.7890625
+    },
+    {
+      "label": "LEFT LEG",
+      "x": 0.5625,
+      "y": 0.84765625
+    },
+    {
+      "label": "weapon butt",
+      "x": 0.341796875,
+      "y": 0.87109375
+    },
+    {
+      "label": "weapon tip",
+      "x": 0.3671875,
+      "y": 0.234375
+    },
+    {
+      "label": "weapon collar",
+      "x": 0.341796875,
+      "y": 0.44921875
+    },
+    {
+      "label": "headband root",
+      "x": 0.55859375,
+      "y": 0.453125
+    },
+    {
+      "label": "headband tip",
+      "x": 0.64453125,
+      "y": 0.4765625
+    }
+  ],
+  "keypoints": [
+    [
+      {
+        "x": 0.5,
+        "y": 0.7115,
+        "label": "pelvis",
+        "depth": 128.0
+      },
+      {
+        "x": 0.4872,
+        "y": 0.568,
+        "label": "NECK",
+        "depth": 131.3
+      },
+      {
+        "x": 0.4776,
+        "y": 0.5422,
+        "label": "NOSE",
+        "depth": 149.9
+      },
+      {
+        "x": 0.4436,
+        "y": 0.5862,
+        "label": "RIGHT SHOULDER",
+        "depth": 115.9
+      },
+      {
+        "x": 0.423,
+        "y": 0.6574,
+        "label": "RIGHT ELBOW",
+        "depth": 118.2
+      },
+      {
+        "x": 0.4039,
+        "y": 0.703,
+        "label": "RIGHT ARM",
+        "depth": 133.6
+      },
+      {
+        "x": 0.5391,
+        "y": 0.6213,
+        "label": "LEFT SHOULDER",
+        "depth": 145.0
+      },
+      {
+        "x": 0.483,
+        "y": 0.6694,
+        "label": "LEFT ELBOW",
+        "depth": 145.1
+      },
+      {
+        "x": 0.4146,
+        "y": 0.6599,
+        "label": "LEFT ARM",
+        "depth": 143.1
+      },
+      {
+        "x": 0.4597,
+        "y": 0.7116,
+        "label": "RIGHT HIP",
+        "depth": 121.9
+      },
+      {
+        "x": 0.4329,
+        "y": 0.7787,
+        "label": "RIGHT KNEE",
+        "depth": 122.1
+      },
+      {
+        "x": 0.4648,
+        "y": 0.8271,
+        "label": "RIGHT LEG",
+        "depth": 116.0
+      },
+      {
+        "x": 0.5409,
+        "y": 0.726,
+        "label": "LEFT HIP",
+        "depth": 133.9
+      },
+      {
+        "x": 0.5411,
+        "y": 0.797,
+        "label": "LEFT KNEE",
+        "depth": 145.6
+      },
+      {
+        "x": 0.5352,
+        "y": 0.8585,
+        "label": "LEFT LEG",
+        "depth": 142.0
+      },
+      {
+        "x": 0.405,
+        "y": 0.8278,
+        "label": "weapon butt",
+        "depth": 129.4
+      },
+      {
+        "x": 0.3735,
+        "y": 0.2915,
+        "label": "weapon tip",
+        "depth": 170.9
+      },
+      {
+        "x": 0.38412209302325584,
+        "y": 0.4723453488372093,
+        "label": "weapon collar",
+        "depth": 129.4
+      },
+      {
+        "x": 0.53619375,
+        "y": 0.49923125,
+        "label": "headband root",
+        "depth": 149.9
+      },
+      {
+        "x": 0.62213125,
+        "y": 0.52266875,
+        "label": "headband tip",
+        "depth": 149.9
+      }
+    ],
+    [
+      {
+        "x": 0.5,
+        "y": 0.7118,
+        "label": "pelvis",
+        "depth": 128.0
+      },
+      {
+        "x": 0.4871,
+        "y": 0.5684,
+        "label": "NECK",
+        "depth": 131.4
+      },
+      {
+        "x": 0.4775,
+        "y": 0.5426,
+        "label": "NOSE",
+        "depth": 150.0
+      },
+      {
+        "x": 0.4436,
+        "y": 0.5865,
+        "label": "RIGHT SHOULDER",
+        "depth": 115.9
+      },
+      {
+        "x": 0.4229,
+        "y": 0.6577,
+        "label": "RIGHT ELBOW",
+        "depth": 118.2
+      },
+      {
+        "x": 0.4039,
+        "y": 0.7034,
+        "label": "RIGHT ARM",
+        "depth": 133.6
+      },
+      {
+        "x": 0.539,
+        "y": 0.6216,
+        "label": "LEFT SHOULDER",
+        "depth": 145.0
+      },
+      {
+        "x": 0.483,
+        "y": 0.6698,
+        "label": "LEFT ELBOW",
+        "depth": 145.1
+      },
+      {
+        "x": 0.4146,
+        "y": 0.6603,
+        "label": "LEFT ARM",
+        "depth": 143.2
+      },
+      {
+        "x": 0.4597,
+        "y": 0.7118,
+        "label": "RIGHT HIP",
+        "depth": 121.9
+      },
+      {
+        "x": 0.4327,
+        "y": 0.7789,
+        "label": "RIGHT KNEE",
+        "depth": 122.1
+      },
+      {
+        "x": 0.4648,
+        "y": 0.8271,
+        "label": "RIGHT LEG",
+        "depth": 116.0
+      },
+      {
+        "x": 0.5409,
+        "y": 0.7263,
+        "label": "LEFT HIP",
+        "depth": 133.9
+      },
+      {
+        "x": 0.5411,
+        "y": 0.7971,
+        "label": "LEFT KNEE",
+        "depth": 145.7
+      },
+      {
+        "x": 0.5352,
+        "y": 0.8585,
+        "label": "LEFT LEG",
+        "depth": 142.0
+      },
+      {
+        "x": 0.4051,
+        "y": 0.828,
+        "label": "weapon butt",
+        "depth": 129.3
+      },
+      {
+        "x": 0.3732,
+        "y": 0.2925,
+        "label": "weapon tip",
+        "depth": 171.2
+      },
+      {
+        "x": 0.38395697674418605,
+        "y": 0.47307558139534883,
+        "label": "weapon collar",
+        "depth": 129.3
+      },
+      {
+        "x": 0.53609375,
+        "y": 0.49963124999999997,
+        "label": "headband root",
+        "depth": 150.0
+      },
+      {
+        "x": 0.62203125,
+        "y": 0.52306875,
+        "label": "headband tip",
+        "depth": 150.0
+      }
+    ],
+    [
+      {
+        "x": 0.5,
+        "y": 0.7126,
+        "label": "pelvis",
+        "depth": 128.0
+      },
+      {
+        "x": 0.4868,
+        "y": 0.5692,
+        "label": "NECK",
+        "depth": 131.4
+      },
+      {
+        "x": 0.4772,
+        "y": 0.5436,
+        "label": "NOSE",
+        "depth": 150.1
+      },
+      {
+        "x": 0.4434,
+        "y": 0.5873,
+        "label": "RIGHT SHOULDER",
+        "depth": 116.0
+      },
+      {
+        "x": 0.4229,
+        "y": 0.6586,
+        "label": "RIGHT ELBOW",
+        "depth": 118.3
+      },
+      {
+        "x": 0.4039,
+        "y": 0.7043,
+        "label": "RIGHT ARM",
+        "depth": 133.7
+      },
+      {
+        "x": 0.5388,
+        "y": 0.6225,
+        "label": "LEFT SHOULDER",
+        "depth": 145.1
+      },
+      {
+        "x": 0.483,
+        "y": 0.6709,
+        "label": "LEFT ELBOW",
+        "depth": 145.3
+      },
+      {
+        "x": 0.4145,
+        "y": 0.6615,
+        "label": "LEFT ARM",
+        "depth": 143.4
+      },
+      {
+        "x": 0.4597,
+        "y": 0.7126,
+        "label": "RIGHT HIP",
+        "depth": 121.9
+      },
+      {
+        "x": 0.432,
+        "y": 0.7795,
+        "label": "RIGHT KNEE",
+        "depth": 122.2
+      },
+      {
+        "x": 0.4648,
+        "y": 0.8271,
+        "label": "RIGHT LEG",
+        "depth": 116.0
+      },
+      {
+        "x": 0.5409,
+        "y": 0.7271,
+        "label": "LEFT HIP",
+        "depth": 133.9
+      },
+      {
+        "x": 0.5412,
+        "y": 0.7976,
+        "label": "LEFT KNEE",
+        "depth": 145.9
+      },
+      {
+        "x": 0.5352,
+        "y": 0.8585,
+        "label": "LEFT LEG",
+        "depth": 142.0
+      },
+      {
+        "x": 0.4052,
+        "y": 0.8285,
+        "label": "weapon butt",
+        "depth": 129.2
+      },
+      {
+        "x": 0.3727,
+        "y": 0.2952,
+        "label": "weapon tip",
+        "depth": 172.1
+      },
+      {
+        "x": 0.3836593023255814,
+        "y": 0.4750337209302326,
+        "label": "weapon collar",
+        "depth": 129.2
+      },
+      {
+        "x": 0.5357937500000001,
+        "y": 0.50063125,
+        "label": "headband root",
+        "depth": 150.1
+      },
+      {
+        "x": 0.6217312500000001,
+        "y": 0.52406875,
+        "label": "headband tip",
+        "depth": 150.1
+      }
+    ],
+    [
+      {
+        "x": 0.5,
+        "y": 0.7136,
+        "label": "pelvis",
+        "depth": 128.0
+      },
+      {
+        "x": 0.4864,
+        "y": 0.5704,
+        "label": "NECK",
+        "depth": 131.5
+      },
+      {
+        "x": 0.4768,
+        "y": 0.5449,
+        "label": "NOSE",
+        "depth": 150.2
+      },
+      {
+        "x": 0.4432,
+        "y": 0.5884,
+        "label": "RIGHT SHOULDER",
+        "depth": 116.0
+      },
+      {
+        "x": 0.4228,
+        "y": 0.6598,
+        "label": "RIGHT ELBOW",
+        "depth": 118.4
+      },
+      {
+        "x": 0.4039,
+        "y": 0.7056,
+        "label": "RIGHT ARM",
+        "depth": 133.8
+      },
+      {
+        "x": 0.5386,
+        "y": 0.6236,
+        "label": "LEFT SHOULDER",
+        "depth": 145.1
+      },
+      {
+        "x": 0.4829,
+        "y": 0.6723,
+        "label": "LEFT ELBOW",
+        "depth": 145.4
+      },
+      {
+        "x": 0.4144,
+        "y": 0.6631,
+        "label": "LEFT ARM",
+        "depth": 143.6
+      },
+      {
+        "x": 0.4597,
+        "y": 0.7136,
+        "label": "RIGHT HIP",
+        "depth": 121.9
+      },
+      {
+        "x": 0.431,
+        "y": 0.7803,
+        "label": "RIGHT KNEE",
+        "depth": 122.3
+      },
+      {
+        "x": 0.4648,
+        "y": 0.8271,
+        "label": "RIGHT LEG",
+        "depth": 116.0
+      },
+      {
+        "x": 0.5409,
+        "y": 0.7281,
+        "label": "LEFT HIP",
+        "depth": 133.9
+      },
+      {
+        "x": 0.5413,
+        "y": 0.7981,
+        "label": "LEFT KNEE",
+        "depth": 146.1
+      },
+      {
+        "x": 0.5352,
+        "y": 0.8585,
+        "label": "LEFT LEG",
+        "depth": 142.0
+      },
+      {
+        "x": 0.4054,
+        "y": 0.8291,
+        "label": "weapon butt",
+        "depth": 129.0
+      },
+      {
+        "x": 0.3719,
+        "y": 0.2989,
+        "label": "weapon tip",
+        "depth": 173.2
+      },
+      {
+        "x": 0.38319651162790697,
+        "y": 0.47768837209302323,
+        "label": "weapon collar",
+        "depth": 129.0
+      },
+      {
+        "x": 0.53539375,
+        "y": 0.50193125,
+        "label": "headband root",
+        "depth": 150.2
+      },
+      {
+        "x": 0.62133125,
+        "y": 0.52536875,
+        "label": "headband tip",
+        "depth": 150.2
+      }
+    ],
+    [
+      {
+        "x": 0.5,
+        "y": 0.7147,
+        "label": "pelvis",
+        "depth": 128.0
+      },
+      {
+        "x": 0.486,
+        "y": 0.5718,
+        "label": "NECK",
+        "depth": 131.6
+      },
+      {
+        "x": 0.4764,
+        "y": 0.5464,
+        "label": "NOSE",
+        "depth": 150.3
+      },
+      {
+        "x": 0.4429,
+        "y": 0.5897,
+        "label": "RIGHT SHOULDER",
+        "depth": 116.1
+      },
+      {
+        "x": 0.4227,
+        "y": 0.6612,
+        "label": "RIGHT ELBOW",
+        "depth": 118.5
+      },
+      {
+        "x": 0.4039,
+        "y": 0.707,
+        "label": "RIGHT ARM",
+        "depth": 133.9
+      },
+      {
+        "x": 0.5383,
+        "y": 0.6248,
+        "label": "LEFT SHOULDER",
+        "depth": 145.2
+      },
+      {
+        "x": 0.4828,
+        "y": 0.6739,
+        "label": "LEFT ELBOW",
+        "depth": 145.6
+      },
+      {
+        "x": 0.4143,
+        "y": 0.6648,
+        "label": "LEFT ARM",
+        "depth": 143.9
+      },
+      {
+        "x": 0.4597,
+        "y": 0.7147,
+        "label": "RIGHT HIP",
+        "depth": 121.9
+      },
+      {
+        "x": 0.4301,
+        "y": 0.7811,
+        "label": "RIGHT KNEE",
+        "depth": 122.4
+      },
+      {
+        "x": 0.4648,
+        "y": 0.8271,
+        "label": "RIGHT LEG",
+        "depth": 116.0
+      },
+      {
+        "x": 0.5409,
+        "y": 0.7292,
+        "label": "LEFT HIP",
+        "depth": 133.9
+      },
+      {
+        "x": 0.5415,
+        "y": 0.7987,
+        "label": "LEFT KNEE",
+        "depth": 146.4
+      },
+      {
+        "x": 0.5352,
+        "y": 0.8585,
+        "label": "LEFT LEG",
+        "depth": 142.0
+      },
+      {
+        "x": 0.4056,
+        "y": 0.8299,
+        "label": "weapon butt",
+        "depth": 128.9
+      },
+      {
+        "x": 0.371,
+        "y": 0.3029,
+        "label": "weapon tip",
+        "depth": 174.5
+      },
+      {
+        "x": 0.38266744186046514,
+        "y": 0.48060930232558147,
+        "label": "weapon collar",
+        "depth": 128.9
+      },
+      {
+        "x": 0.5349937499999999,
+        "y": 0.50343125,
+        "label": "headband root",
+        "depth": 150.3
+      },
+      {
+        "x": 0.6209312499999999,
+        "y": 0.52686875,
+        "label": "headband tip",
+        "depth": 150.3
+      }
+    ],
+    [
+      {
+        "x": 0.5,
+        "y": 0.7157,
+        "label": "pelvis",
+        "depth": 128.0
+      },
+      {
+        "x": 0.4856,
+        "y": 0.573,
+        "label": "NECK",
+        "depth": 131.7
+      },
+      {
+        "x": 0.476,
+        "y": 0.5478,
+        "label": "NOSE",
+        "depth": 150.4
+      },
+      {
+        "x": 0.4427,
+        "y": 0.5908,
+        "label": "RIGHT SHOULDER",
+        "depth": 116.2
+      },
+      {
+        "x": 0.4226,
+        "y": 0.6624,
+        "label": "RIGHT ELBOW",
+        "depth": 118.7
+      },
+      {
+        "x": 0.4038,
+        "y": 0.7083,
+        "label": "RIGHT ARM",
+        "depth": 134.1
+      },
+      {
+        "x": 0.5381,
+        "y": 0.626,
+        "label": "LEFT SHOULDER",
+        "depth": 145.3
+      },
+      {
+        "x": 0.4828,
+        "y": 0.6753,
+        "label": "LEFT ELBOW",
+        "depth": 145.8
+      },
+      {
+        "x": 0.4142,
+        "y": 0.6664,
+        "label": "LEFT ARM",
+        "depth": 144.1
+      },
+      {
+        "x": 0.4597,
+        "y": 0.7157,
+        "label": "RIGHT HIP",
+        "depth": 121.9
+      },
+      {
+        "x": 0.4292,
+        "y": 0.7819,
+        "label": "RIGHT KNEE",
+        "depth": 122.5
+      },
+      {
+        "x": 0.4648,
+        "y": 0.8271,
+        "label": "RIGHT LEG",
+        "depth": 116.0
+      },
+      {
+        "x": 0.5409,
+        "y": 0.7302,
+        "label": "LEFT HIP",
+        "depth": 133.9
+      },
+      {
+        "x": 0.5416,
+        "y": 0.7992,
+        "label": "LEFT KNEE",
+        "depth": 146.6
+      },
+      {
+        "x": 0.5352,
+        "y": 0.8585,
+        "label": "LEFT LEG",
+        "depth": 142.0
+      },
+      {
+        "x": 0.4058,
+        "y": 0.8305,
+        "label": "weapon butt",
+        "depth": 128.7
+      },
+      {
+        "x": 0.3702,
+        "y": 0.3067,
+        "label": "weapon tip",
+        "depth": 175.6
+      },
+      {
+        "x": 0.3822046511627907,
+        "y": 0.48333023255813956,
+        "label": "weapon collar",
+        "depth": 128.7
+      },
+      {
+        "x": 0.53459375,
+        "y": 0.50483125,
+        "label": "headband root",
+        "depth": 150.4
+      },
+      {
+        "x": 0.62053125,
+        "y": 0.52826875,
+        "label": "headband tip",
+        "depth": 150.4
+      }
+    ],
+    [
+      {
+        "x": 0.5,
+        "y": 0.7165,
+        "label": "pelvis",
+        "depth": 128.0
+      },
+      {
+        "x": 0.4853,
+        "y": 0.5738,
+        "label": "NECK",
+        "depth": 131.8
+      },
+      {
+        "x": 0.4757,
+        "y": 0.5488,
+        "label": "NOSE",
+        "depth": 150.5
+      },
+      {
+        "x": 0.4425,
+        "y": 0.5917,
+        "label": "RIGHT SHOULDER",
+        "depth": 116.2
+      },
+      {
+        "x": 0.4225,
+        "y": 0.6633,
+        "label": "RIGHT ELBOW",
+        "depth": 118.8
+      },
+      {
+        "x": 0.4038,
+        "y": 0.7092,
+        "label": "RIGHT ARM",
+        "depth": 134.1
+      },
+      {
+        "x": 0.5379,
+        "y": 0.6268,
+        "label": "LEFT SHOULDER",
+        "depth": 145.3
+      },
+      {
+        "x": 0.4827,
+        "y": 0.6763,
+        "label": "LEFT ELBOW",
+        "depth": 145.9
+      },
+      {
+        "x": 0.4142,
+        "y": 0.6675,
+        "label": "LEFT ARM",
+        "depth": 144.3
+      },
+      {
+        "x": 0.4597,
+        "y": 0.7165,
+        "label": "RIGHT HIP",
+        "depth": 121.9
+      },
+      {
+        "x": 0.4286,
+        "y": 0.7824,
+        "label": "RIGHT KNEE",
+        "depth": 122.5
+      },
+      {
+        "x": 0.4648,
+        "y": 0.8271,
+        "label": "RIGHT LEG",
+        "depth": 116.0
+      },
+      {
+        "x": 0.5409,
+        "y": 0.731,
+        "label": "LEFT HIP",
+        "depth": 133.9
+      },
+      {
+        "x": 0.5416,
+        "y": 0.7996,
+        "label": "LEFT KNEE",
+        "depth": 146.8
+      },
+      {
+        "x": 0.5352,
+        "y": 0.8585,
+        "label": "LEFT LEG",
+        "depth": 142.0
+      },
+      {
+        "x": 0.406,
+        "y": 0.831,
+        "label": "weapon butt",
+        "depth": 128.6
+      },
+      {
+        "x": 0.3697,
+        "y": 0.3094,
+        "label": "weapon tip",
+        "depth": 176.5
+      },
+      {
+        "x": 0.38194069767441857,
+        "y": 0.4852883720930233,
+        "label": "weapon collar",
+        "depth": 128.6
+      },
+      {
+        "x": 0.53429375,
+        "y": 0.50583125,
+        "label": "headband root",
+        "depth": 150.5
+      },
+      {
+        "x": 0.62023125,
+        "y": 0.52926875,
+        "label": "headband tip",
+        "depth": 150.5
+      }
+    ],
+    [
+      {
+        "x": 0.5,
+        "y": 0.7167,
+        "label": "pelvis",
+        "depth": 128.0
+      },
+      {
+        "x": 0.4852,
+        "y": 0.5742,
+        "label": "NECK",
+        "depth": 131.8
+      },
+      {
+        "x": 0.4756,
+        "y": 0.5492,
+        "label": "NOSE",
+        "depth": 150.6
+      },
+      {
+        "x": 0.4424,
+        "y": 0.592,
+        "label": "RIGHT SHOULDER",
+        "depth": 116.2
+      },
+      {
+        "x": 0.4225,
+        "y": 0.6636,
+        "label": "RIGHT ELBOW",
+        "depth": 118.8
+      },
+      {
+        "x": 0.4038,
+        "y": 0.7096,
+        "label": "RIGHT ARM",
+        "depth": 134.2
+      },
+      {
+        "x": 0.5379,
+        "y": 0.6271,
+        "label": "LEFT SHOULDER",
+        "depth": 145.3
+      },
+      {
+        "x": 0.4827,
+        "y": 0.6767,
+        "label": "LEFT ELBOW",
+        "depth": 145.9
+      },
+      {
+        "x": 0.4141,
+        "y": 0.668,
+        "label": "LEFT ARM",
+        "depth": 144.4
+      },
+      {
+        "x": 0.4597,
+        "y": 0.7168,
+        "label": "RIGHT HIP",
+        "depth": 121.9
+      },
+      {
+        "x": 0.4284,
+        "y": 0.7826,
+        "label": "RIGHT KNEE",
+        "depth": 122.6
+      },
+      {
+        "x": 0.4648,
+        "y": 0.8271,
+        "label": "RIGHT LEG",
+        "depth": 116.0
+      },
+      {
+        "x": 0.5409,
+        "y": 0.7312,
+        "label": "LEFT HIP",
+        "depth": 133.9
+      },
+      {
+        "x": 0.5417,
+        "y": 0.7997,
+        "label": "LEFT KNEE",
+        "depth": 146.9
+      },
+      {
+        "x": 0.5352,
+        "y": 0.8585,
+        "label": "LEFT LEG",
+        "depth": 142.0
+      },
+      {
+        "x": 0.4061,
+        "y": 0.8312,
+        "label": "weapon butt",
+        "depth": 128.6
+      },
+      {
+        "x": 0.3694,
+        "y": 0.3105,
+        "label": "weapon tip",
+        "depth": 176.8
+      },
+      {
+        "x": 0.38177558139534884,
+        "y": 0.4860848837209303,
+        "label": "weapon collar",
+        "depth": 128.6
+      },
+      {
+        "x": 0.53419375,
+        "y": 0.50623125,
+        "label": "headband root",
+        "depth": 150.6
+      },
+      {
+        "x": 0.62013125,
+        "y": 0.52966875,
+        "label": "headband tip",
+        "depth": 150.6
+      }
+    ],
+    [
+      {
+        "x": 0.5,
+        "y": 0.7165,
+        "label": "pelvis",
+        "depth": 128.0
+      },
+      {
+        "x": 0.4853,
+        "y": 0.5738,
+        "label": "NECK",
+        "depth": 131.8
+      },
+      {
+        "x": 0.4757,
+        "y": 0.5488,
+        "label": "NOSE",
+        "depth": 150.5
+      },
+      {
+        "x": 0.4425,
+        "y": 0.5917,
+        "label": "RIGHT SHOULDER",
+        "depth": 116.2
+      },
+      {
+        "x": 0.4225,
+        "y": 0.6633,
+        "label": "RIGHT ELBOW",
+        "depth": 118.8
+      },
+      {
+        "x": 0.4038,
+        "y": 0.7092,
+        "label": "RIGHT ARM",
+        "depth": 134.1
+      },
+      {
+        "x": 0.5379,
+        "y": 0.6268,
+        "label": "LEFT SHOULDER",
+        "depth": 145.3
+      },
+      {
+        "x": 0.4827,
+        "y": 0.6763,
+        "label": "LEFT ELBOW",
+        "depth": 145.9
+      },
+      {
+        "x": 0.4142,
+        "y": 0.6675,
+        "label": "LEFT ARM",
+        "depth": 144.3
+      },
+      {
+        "x": 0.4597,
+        "y": 0.7165,
+        "label": "RIGHT HIP",
+        "depth": 121.9
+      },
+      {
+        "x": 0.4286,
+        "y": 0.7824,
+        "label": "RIGHT KNEE",
+        "depth": 122.5
+      },
+      {
+        "x": 0.4648,
+        "y": 0.8271,
+        "label": "RIGHT LEG",
+        "depth": 116.0
+      },
+      {
+        "x": 0.5409,
+        "y": 0.731,
+        "label": "LEFT HIP",
+        "depth": 133.9
+      },
+      {
+        "x": 0.5416,
+        "y": 0.7996,
+        "label": "LEFT KNEE",
+        "depth": 146.8
+      },
+      {
+        "x": 0.5352,
+        "y": 0.8585,
+        "label": "LEFT LEG",
+        "depth": 142.0
+      },
+      {
+        "x": 0.406,
+        "y": 0.831,
+        "label": "weapon butt",
+        "depth": 128.6
+      },
+      {
+        "x": 0.3697,
+        "y": 0.3094,
+        "label": "weapon tip",
+        "depth": 176.5
+      },
+      {
+        "x": 0.38194069767441857,
+        "y": 0.4852883720930233,
+        "label": "weapon collar",
+        "depth": 128.6
+      },
+      {
+        "x": 0.53429375,
+        "y": 0.50583125,
+        "label": "headband root",
+        "depth": 150.5
+      },
+      {
+        "x": 0.62023125,
+        "y": 0.52926875,
+        "label": "headband tip",
+        "depth": 150.5
+      }
+    ],
+    [
+      {
+        "x": 0.5,
+        "y": 0.7157,
+        "label": "pelvis",
+        "depth": 128.0
+      },
+      {
+        "x": 0.4856,
+        "y": 0.573,
+        "label": "NECK",
+        "depth": 131.7
+      },
+      {
+        "x": 0.476,
+        "y": 0.5478,
+        "label": "NOSE",
+        "depth": 150.4
+      },
+      {
+        "x": 0.4427,
+        "y": 0.5908,
+        "label": "RIGHT SHOULDER",
+        "depth": 116.2
+      },
+      {
+        "x": 0.4226,
+        "y": 0.6624,
+        "label": "RIGHT ELBOW",
+        "depth": 118.7
+      },
+      {
+        "x": 0.4038,
+        "y": 0.7083,
+        "label": "RIGHT ARM",
+        "depth": 134.1
+      },
+      {
+        "x": 0.5381,
+        "y": 0.626,
+        "label": "LEFT SHOULDER",
+        "depth": 145.3
+      },
+      {
+        "x": 0.4828,
+        "y": 0.6753,
+        "label": "LEFT ELBOW",
+        "depth": 145.8
+      },
+      {
+        "x": 0.4142,
+        "y": 0.6664,
+        "label": "LEFT ARM",
+        "depth": 144.1
+      },
+      {
+        "x": 0.4597,
+        "y": 0.7157,
+        "label": "RIGHT HIP",
+        "depth": 121.9
+      },
+      {
+        "x": 0.4292,
+        "y": 0.7819,
+        "label": "RIGHT KNEE",
+        "depth": 122.5
+      },
+      {
+        "x": 0.4648,
+        "y": 0.8271,
+        "label": "RIGHT LEG",
+        "depth": 116.0
+      },
+      {
+        "x": 0.5409,
+        "y": 0.7302,
+        "label": "LEFT HIP",
+        "depth": 133.9
+      },
+      {
+        "x": 0.5416,
+        "y": 0.7992,
+        "label": "LEFT KNEE",
+        "depth": 146.6
+      },
+      {
+        "x": 0.5352,
+        "y": 0.8585,
+        "label": "LEFT LEG",
+        "depth": 142.0
+      },
+      {
+        "x": 0.4058,
+        "y": 0.8305,
+        "label": "weapon butt",
+        "depth": 128.7
+      },
+      {
+        "x": 0.3702,
+        "y": 0.3067,
+        "label": "weapon tip",
+        "depth": 175.6
+      },
+      {
+        "x": 0.3822046511627907,
+        "y": 0.48333023255813956,
+        "label": "weapon collar",
+        "depth": 128.7
+      },
+      {
+        "x": 0.53459375,
+        "y": 0.50483125,
+        "label": "headband root",
+        "depth": 150.4
+      },
+      {
+        "x": 0.62053125,
+        "y": 0.52826875,
+        "label": "headband tip",
+        "depth": 150.4
+      }
+    ],
+    [
+      {
+        "x": 0.5,
+        "y": 0.7147,
+        "label": "pelvis",
+        "depth": 128.0
+      },
+      {
+        "x": 0.486,
+        "y": 0.5718,
+        "label": "NECK",
+        "depth": 131.6
+      },
+      {
+        "x": 0.4764,
+        "y": 0.5464,
+        "label": "NOSE",
+        "depth": 150.3
+      },
+      {
+        "x": 0.4429,
+        "y": 0.5897,
+        "label": "RIGHT SHOULDER",
+        "depth": 116.1
+      },
+      {
+        "x": 0.4227,
+        "y": 0.6612,
+        "label": "RIGHT ELBOW",
+        "depth": 118.5
+      },
+      {
+        "x": 0.4039,
+        "y": 0.707,
+        "label": "RIGHT ARM",
+        "depth": 133.9
+      },
+      {
+        "x": 0.5383,
+        "y": 0.6248,
+        "label": "LEFT SHOULDER",
+        "depth": 145.2
+      },
+      {
+        "x": 0.4828,
+        "y": 0.6739,
+        "label": "LEFT ELBOW",
+        "depth": 145.6
+      },
+      {
+        "x": 0.4143,
+        "y": 0.6648,
+        "label": "LEFT ARM",
+        "depth": 143.9
+      },
+      {
+        "x": 0.4597,
+        "y": 0.7147,
+        "label": "RIGHT HIP",
+        "depth": 121.9
+      },
+      {
+        "x": 0.4301,
+        "y": 0.7811,
+        "label": "RIGHT KNEE",
+        "depth": 122.4
+      },
+      {
+        "x": 0.4648,
+        "y": 0.8271,
+        "label": "RIGHT LEG",
+        "depth": 116.0
+      },
+      {
+        "x": 0.5409,
+        "y": 0.7292,
+        "label": "LEFT HIP",
+        "depth": 133.9
+      },
+      {
+        "x": 0.5415,
+        "y": 0.7987,
+        "label": "LEFT KNEE",
+        "depth": 146.4
+      },
+      {
+        "x": 0.5352,
+        "y": 0.8585,
+        "label": "LEFT LEG",
+        "depth": 142.0
+      },
+      {
+        "x": 0.4056,
+        "y": 0.8299,
+        "label": "weapon butt",
+        "depth": 128.9
+      },
+      {
+        "x": 0.371,
+        "y": 0.3029,
+        "label": "weapon tip",
+        "depth": 174.5
+      },
+      {
+        "x": 0.38266744186046514,
+        "y": 0.48060930232558147,
+        "label": "weapon collar",
+        "depth": 128.9
+      },
+      {
+        "x": 0.5349937499999999,
+        "y": 0.50343125,
+        "label": "headband root",
+        "depth": 150.3
+      },
+      {
+        "x": 0.6209312499999999,
+        "y": 0.52686875,
+        "label": "headband tip",
+        "depth": 150.3
+      }
+    ],
+    [
+      {
+        "x": 0.5,
+        "y": 0.7136,
+        "label": "pelvis",
+        "depth": 128.0
+      },
+      {
+        "x": 0.4864,
+        "y": 0.5704,
+        "label": "NECK",
+        "depth": 131.5
+      },
+      {
+        "x": 0.4768,
+        "y": 0.5449,
+        "label": "NOSE",
+        "depth": 150.2
+      },
+      {
+        "x": 0.4432,
+        "y": 0.5884,
+        "label": "RIGHT SHOULDER",
+        "depth": 116.0
+      },
+      {
+        "x": 0.4228,
+        "y": 0.6598,
+        "label": "RIGHT ELBOW",
+        "depth": 118.4
+      },
+      {
+        "x": 0.4039,
+        "y": 0.7056,
+        "label": "RIGHT ARM",
+        "depth": 133.8
+      },
+      {
+        "x": 0.5386,
+        "y": 0.6236,
+        "label": "LEFT SHOULDER",
+        "depth": 145.1
+      },
+      {
+        "x": 0.4829,
+        "y": 0.6723,
+        "label": "LEFT ELBOW",
+        "depth": 145.4
+      },
+      {
+        "x": 0.4144,
+        "y": 0.6631,
+        "label": "LEFT ARM",
+        "depth": 143.6
+      },
+      {
+        "x": 0.4597,
+        "y": 0.7136,
+        "label": "RIGHT HIP",
+        "depth": 121.9
+      },
+      {
+        "x": 0.431,
+        "y": 0.7803,
+        "label": "RIGHT KNEE",
+        "depth": 122.3
+      },
+      {
+        "x": 0.4648,
+        "y": 0.8271,
+        "label": "RIGHT LEG",
+        "depth": 116.0
+      },
+      {
+        "x": 0.5409,
+        "y": 0.7281,
+        "label": "LEFT HIP",
+        "depth": 133.9
+      },
+      {
+        "x": 0.5413,
+        "y": 0.7981,
+        "label": "LEFT KNEE",
+        "depth": 146.1
+      },
+      {
+        "x": 0.5352,
+        "y": 0.8585,
+        "label": "LEFT LEG",
+        "depth": 142.0
+      },
+      {
+        "x": 0.4054,
+        "y": 0.8291,
+        "label": "weapon butt",
+        "depth": 129.0
+      },
+      {
+        "x": 0.3719,
+        "y": 0.2989,
+        "label": "weapon tip",
+        "depth": 173.2
+      },
+      {
+        "x": 0.38319651162790697,
+        "y": 0.47768837209302323,
+        "label": "weapon collar",
+        "depth": 129.0
+      },
+      {
+        "x": 0.53539375,
+        "y": 0.50193125,
+        "label": "headband root",
+        "depth": 150.2
+      },
+      {
+        "x": 0.62133125,
+        "y": 0.52536875,
+        "label": "headband tip",
+        "depth": 150.2
+      }
+    ],
+    [
+      {
+        "x": 0.5,
+        "y": 0.7126,
+        "label": "pelvis",
+        "depth": 128.0
+      },
+      {
+        "x": 0.4868,
+        "y": 0.5692,
+        "label": "NECK",
+        "depth": 131.4
+      },
+      {
+        "x": 0.4772,
+        "y": 0.5436,
+        "label": "NOSE",
+        "depth": 150.1
+      },
+      {
+        "x": 0.4434,
+        "y": 0.5873,
+        "label": "RIGHT SHOULDER",
+        "depth": 116.0
+      },
+      {
+        "x": 0.4229,
+        "y": 0.6586,
+        "label": "RIGHT ELBOW",
+        "depth": 118.3
+      },
+      {
+        "x": 0.4039,
+        "y": 0.7043,
+        "label": "RIGHT ARM",
+        "depth": 133.7
+      },
+      {
+        "x": 0.5388,
+        "y": 0.6225,
+        "label": "LEFT SHOULDER",
+        "depth": 145.1
+      },
+      {
+        "x": 0.483,
+        "y": 0.6709,
+        "label": "LEFT ELBOW",
+        "depth": 145.3
+      },
+      {
+        "x": 0.4145,
+        "y": 0.6615,
+        "label": "LEFT ARM",
+        "depth": 143.4
+      },
+      {
+        "x": 0.4597,
+        "y": 0.7126,
+        "label": "RIGHT HIP",
+        "depth": 121.9
+      },
+      {
+        "x": 0.432,
+        "y": 0.7795,
+        "label": "RIGHT KNEE",
+        "depth": 122.2
+      },
+      {
+        "x": 0.4648,
+        "y": 0.8271,
+        "label": "RIGHT LEG",
+        "depth": 116.0
+      },
+      {
+        "x": 0.5409,
+        "y": 0.7271,
+        "label": "LEFT HIP",
+        "depth": 133.9
+      },
+      {
+        "x": 0.5412,
+        "y": 0.7976,
+        "label": "LEFT KNEE",
+        "depth": 145.9
+      },
+      {
+        "x": 0.5352,
+        "y": 0.8585,
+        "label": "LEFT LEG",
+        "depth": 142.0
+      },
+      {
+        "x": 0.4052,
+        "y": 0.8285,
+        "label": "weapon butt",
+        "depth": 129.2
+      },
+      {
+        "x": 0.3727,
+        "y": 0.2952,
+        "label": "weapon tip",
+        "depth": 172.1
+      },
+      {
+        "x": 0.3836593023255814,
+        "y": 0.4750337209302326,
+        "label": "weapon collar",
+        "depth": 129.2
+      },
+      {
+        "x": 0.5357937500000001,
+        "y": 0.50063125,
+        "label": "headband root",
+        "depth": 150.1
+      },
+      {
+        "x": 0.6217312500000001,
+        "y": 0.52406875,
+        "label": "headband tip",
+        "depth": 150.1
+      }
+    ],
+    [
+      {
+        "x": 0.5,
+        "y": 0.7118,
+        "label": "pelvis",
+        "depth": 128.0
+      },
+      {
+        "x": 0.4871,
+        "y": 0.5684,
+        "label": "NECK",
+        "depth": 131.4
+      },
+      {
+        "x": 0.4775,
+        "y": 0.5426,
+        "label": "NOSE",
+        "depth": 150.0
+      },
+      {
+        "x": 0.4436,
+        "y": 0.5865,
+        "label": "RIGHT SHOULDER",
+        "depth": 115.9
+      },
+      {
+        "x": 0.4229,
+        "y": 0.6577,
+        "label": "RIGHT ELBOW",
+        "depth": 118.2
+      },
+      {
+        "x": 0.4039,
+        "y": 0.7034,
+        "label": "RIGHT ARM",
+        "depth": 133.6
+      },
+      {
+        "x": 0.539,
+        "y": 0.6216,
+        "label": "LEFT SHOULDER",
+        "depth": 145.0
+      },
+      {
+        "x": 0.483,
+        "y": 0.6698,
+        "label": "LEFT ELBOW",
+        "depth": 145.1
+      },
+      {
+        "x": 0.4146,
+        "y": 0.6603,
+        "label": "LEFT ARM",
+        "depth": 143.2
+      },
+      {
+        "x": 0.4597,
+        "y": 0.7118,
+        "label": "RIGHT HIP",
+        "depth": 121.9
+      },
+      {
+        "x": 0.4327,
+        "y": 0.7789,
+        "label": "RIGHT KNEE",
+        "depth": 122.1
+      },
+      {
+        "x": 0.4648,
+        "y": 0.8271,
+        "label": "RIGHT LEG",
+        "depth": 116.0
+      },
+      {
+        "x": 0.5409,
+        "y": 0.7263,
+        "label": "LEFT HIP",
+        "depth": 133.9
+      },
+      {
+        "x": 0.5411,
+        "y": 0.7971,
+        "label": "LEFT KNEE",
+        "depth": 145.7
+      },
+      {
+        "x": 0.5352,
+        "y": 0.8585,
+        "label": "LEFT LEG",
+        "depth": 142.0
+      },
+      {
+        "x": 0.4051,
+        "y": 0.828,
+        "label": "weapon butt",
+        "depth": 129.3
+      },
+      {
+        "x": 0.3732,
+        "y": 0.2925,
+        "label": "weapon tip",
+        "depth": 171.2
+      },
+      {
+        "x": 0.38395697674418605,
+        "y": 0.47307558139534883,
+        "label": "weapon collar",
+        "depth": 129.3
+      },
+      {
+        "x": 0.53609375,
+        "y": 0.49963124999999997,
+        "label": "headband root",
+        "depth": 150.0
+      },
+      {
+        "x": 0.62203125,
+        "y": 0.52306875,
+        "label": "headband tip",
+        "depth": 150.0
+      }
+    ],
+    [
+      {
+        "x": 0.5,
+        "y": 0.7115,
+        "label": "pelvis",
+        "depth": 128.0
+      },
+      {
+        "x": 0.4872,
+        "y": 0.568,
+        "label": "NECK",
+        "depth": 131.3
+      },
+      {
+        "x": 0.4776,
+        "y": 0.5422,
+        "label": "NOSE",
+        "depth": 149.9
+      },
+      {
+        "x": 0.4436,
+        "y": 0.5862,
+        "label": "RIGHT SHOULDER",
+        "depth": 115.9
+      },
+      {
+        "x": 0.423,
+        "y": 0.6574,
+        "label": "RIGHT ELBOW",
+        "depth": 118.2
+      },
+      {
+        "x": 0.4039,
+        "y": 0.703,
+        "label": "RIGHT ARM",
+        "depth": 133.6
+      },
+      {
+        "x": 0.5391,
+        "y": 0.6213,
+        "label": "LEFT SHOULDER",
+        "depth": 145.0
+      },
+      {
+        "x": 0.483,
+        "y": 0.6694,
+        "label": "LEFT ELBOW",
+        "depth": 145.1
+      },
+      {
+        "x": 0.4146,
+        "y": 0.6599,
+        "label": "LEFT ARM",
+        "depth": 143.1
+      },
+      {
+        "x": 0.4597,
+        "y": 0.7116,
+        "label": "RIGHT HIP",
+        "depth": 121.9
+      },
+      {
+        "x": 0.4329,
+        "y": 0.7787,
+        "label": "RIGHT KNEE",
+        "depth": 122.1
+      },
+      {
+        "x": 0.4648,
+        "y": 0.8271,
+        "label": "RIGHT LEG",
+        "depth": 116.0
+      },
+      {
+        "x": 0.5409,
+        "y": 0.726,
+        "label": "LEFT HIP",
+        "depth": 133.9
+      },
+      {
+        "x": 0.5411,
+        "y": 0.797,
+        "label": "LEFT KNEE",
+        "depth": 145.6
+      },
+      {
+        "x": 0.5352,
+        "y": 0.8585,
+        "label": "LEFT LEG",
+        "depth": 142.0
+      },
+      {
+        "x": 0.405,
+        "y": 0.8278,
+        "label": "weapon butt",
+        "depth": 129.4
+      },
+      {
+        "x": 0.3735,
+        "y": 0.2915,
+        "label": "weapon tip",
+        "depth": 170.9
+      },
+      {
+        "x": 0.38412209302325584,
+        "y": 0.4723453488372093,
+        "label": "weapon collar",
+        "depth": 129.4
+      },
+      {
+        "x": 0.53619375,
+        "y": 0.49923125,
+        "label": "headband root",
+        "depth": 149.9
+      },
+      {
+        "x": 0.62213125,
+        "y": 0.52266875,
+        "label": "headband tip",
+        "depth": 149.9
+      }
+    ]
+  ],
+  "rig": [
+    {
+      "name": "pelvis",
+      "parent": null,
+      "side": "mid"
+    },
+    {
+      "name": "NECK",
+      "parent": "pelvis",
+      "side": "mid",
+      "estimate": "NECK"
+    },
+    {
+      "name": "NOSE",
+      "parent": "NECK",
+      "side": "mid",
+      "estimate": "NOSE"
+    },
+    {
+      "name": "RIGHT SHOULDER",
+      "parent": "NECK",
+      "side": "far",
+      "estimate": "RIGHT SHOULDER"
+    },
+    {
+      "name": "RIGHT ELBOW",
+      "parent": "RIGHT SHOULDER",
+      "side": "far",
+      "estimate": "RIGHT ELBOW"
+    },
+    {
+      "name": "RIGHT ARM",
+      "parent": "RIGHT ELBOW",
+      "side": "far",
+      "estimate": "RIGHT ARM"
+    },
+    {
+      "name": "LEFT SHOULDER",
+      "parent": "NECK",
+      "side": "near",
+      "estimate": "LEFT SHOULDER"
+    },
+    {
+      "name": "LEFT ELBOW",
+      "parent": "LEFT SHOULDER",
+      "side": "near",
+      "estimate": "LEFT ELBOW"
+    },
+    {
+      "name": "LEFT ARM",
+      "parent": "LEFT ELBOW",
+      "side": "near",
+      "estimate": "LEFT ARM"
+    },
+    {
+      "name": "RIGHT HIP",
+      "parent": "pelvis",
+      "side": "far",
+      "estimate": "RIGHT HIP"
+    },
+    {
+      "name": "RIGHT KNEE",
+      "parent": "RIGHT HIP",
+      "side": "far",
+      "estimate": "RIGHT KNEE"
+    },
+    {
+      "name": "RIGHT LEG",
+      "parent": "RIGHT KNEE",
+      "side": "far",
+      "estimate": "RIGHT LEG"
+    },
+    {
+      "name": "LEFT HIP",
+      "parent": "pelvis",
+      "side": "near",
+      "estimate": "LEFT HIP"
+    },
+    {
+      "name": "LEFT KNEE",
+      "parent": "LEFT HIP",
+      "side": "near",
+      "estimate": "LEFT KNEE"
+    },
+    {
+      "name": "LEFT LEG",
+      "parent": "LEFT KNEE",
+      "side": "near",
+      "estimate": "LEFT LEG"
+    },
+    {
+      "name": "weapon butt",
+      "parent": "RIGHT ARM",
+      "side": "mid"
+    },
+    {
+      "name": "weapon tip",
+      "parent": "weapon butt",
+      "side": "mid"
+    },
+    {
+      "name": "weapon collar",
+      "parent": "weapon butt",
+      "side": "mid"
+    },
+    {
+      "name": "headband root",
+      "parent": "NOSE",
+      "side": "mid"
+    },
+    {
+      "name": "headband tip",
+      "parent": "headband root",
+      "side": "mid"
+    }
+  ],
+  "template_id": "mannequin",
+  "no_background": true
+}

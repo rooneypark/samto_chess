@@ -201,7 +201,7 @@ test('save size stops growing under long play',()=>{
 });
 
 test('treasures cannot be equipped, removed or changed during a run',()=>{
- let s=createGameStore(memory()).get();s.treasures=[{id:'a',defId:'iron',star:1},{id:'b',defId:'book',star:1}];
+ let s=createGameStore(memory()).get();s.treasures=[{id:'a',defId:'tr-090',star:1},{id:'b',defId:'tr-085',star:1}];
  s=manageTreasure(s,{type:'equip',id:'a',hero:'15'});assert.equal(s.heroes['15'].treasure,'a');
  assert.throws(()=>manageTreasure(s,{type:'equip',id:'a',hero:'0'}),/다른 장수/);
  assert.throws(()=>manageTreasure(s,{type:'equip',id:'b',hero:'1'}),/보유한 장수/);

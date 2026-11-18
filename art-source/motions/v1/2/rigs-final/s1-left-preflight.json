@@ -1,0 +1,49 @@
+{
+  "source": "bone-motion\\out\\pixellab\\2\\idle-basic-v1\\left-hand-fix-v1\\01.png",
+  "source_sha256": "b7cb5ca1bcd4690d76bbdc11aba4ae1790eca25f8c5f877f3957eedacd3020b2",
+  "frames": 15,
+  "rig_points": 24,
+  "pivot": [
+    160,
+    224
+  ],
+  "durations_ms": [
+    100,
+    100,
+    110,
+    120,
+    110,
+    100,
+    60,
+    50,
+    90,
+    150,
+    220,
+    110,
+    100,
+    90,
+    100
+  ],
+  "right_grip_axis_error": 1.7776054015095464e-14,
+  "right_support_fixed": true,
+  "left_contact_frames": [
+    1,
+    2,
+    3,
+    4,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15
+  ],
+  "first_last_equal": true,
+  "headband": "head-local rigid attachment; all points inside canvas",
+  "status": "validated_single_trial",
+  "limitations": [
+    "Occluded joints inferred. Spear held upright, butt is not planted on ground. Generated pixel continuity requires review."
+  ]
+}

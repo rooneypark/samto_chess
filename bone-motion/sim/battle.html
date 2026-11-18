@@ -33,10 +33,19 @@
     <button id="start" class="go">전투 시작</button>
     <button id="pause">멈춤</button>
     <label>속도 <select id="speed"><option value="1">1배</option><option value="0.5">0.5배</option><option value="2">2배</option></select></label>
+    <label>전투 템포 <select id="tempo" title="설정을 바꾸면 전투를 처음부터 다시 시작합니다"><option value="lively">빠르게 · 공속 +35% / 이동 +20% / 공격력 −15%</option><option value="original">기존 설정</option></select></label>
     <button id="edit">편성 바꾸기</button>
     <button id="random">무작위 편성</button>
+    <label><input type="checkbox" id="attackReview"> 장비 3방향 공격 반복보기</label>
+    <label><input type="checkbox" id="sideReview"> 장비 측면 1대1</label>
     <label><input type="checkbox" id="names" checked> 이름 표시</label>
+    <label><input type="checkbox" id="zhangfeiArt"> 장비 정지 시안</label>
+    <label><input type="checkbox" id="zhangfeiLong"> 장비 큰 사모 본 시안</label>
+    <label><input type="checkbox" id="zhangfeiCanvas"> 장비 캔버스 표시</label>
+    <label>시안 방향 <select id="artView"><option value="front">정면</option><option value="left">왼쪽 측면</option><option value="rear">후면</option><option value="auto">전투 방향</option></select></label>
+    <label><input type="checkbox" id="artRig"> 장비 대기 본 겹치기</label>
   </div>
+  <p style="color:#93a4b8;margin:0 0 8px">공통 배율 1.00 · 기본 5대5 전투. 장비 대기·공격 1·2·3·이동·스킬 3방향 모두 확정 그림으로 재생합니다. ‘장비 3방향 공격 반복보기’로 나란히 확인하세요. 후면 이동은 원본 15번을 제외한 14프레임입니다.</p>
   <div id="setup" class="hide">
     <div class="bar" style="margin:0 0 6px"><span>고를 쪽:</span><button id="pickMine" class="on">아군 (아래)</button><button id="pickFoe">적군 (위)</button><span id="count"></span></div>
     <div id="groups"></div>
@@ -46,14 +55,18 @@
 </main>
 <script src="data.js"></script>
 <script src="heroes.js"></script>
+<script src="zhangfei-preview.js"></script>
+<script src="zhangfei-clips.js"></script>
 <script src="sprites/index.js"></script>
 <script>
 const D = window.SIM_DATA, HEROES = window.SIM_HEROES, FAM = Object.fromEntries(D.families.map(f => [f.id, f]));
-const T = 100, MX = 100, MY = 120, N = 8, SCALE = 0.8, FEET = 0.74;
+const T = 100, MX = 100, MY = 120, N = 8, SCALE = 1.0, FEET = 0.74;
 const GAP = 100 * (1 - Math.sin(18 * Math.PI / 180)) * 0.6;       // how far a melee attacker closes in when striking up or down the board
 const cv = document.getElementById('board'), g = cv.getContext('2d'), logEl = document.getElementById('log');
 const VIEW = { up: ['rear', 1], down: ['front', 1], left: ['left', 1], right: ['left', -1] };
 const sum = a => a.reduce((x, y) => x + y, 0);
+const TEMPOS={original:{attack:1,move:1,power:1,idleGap:700},lively:{attack:1.35,move:1.2,power:0.85,idleGap:250}};
+const tempo=()=>TEMPOS[document.getElementById('tempo').value];
 let teams = [['관우', '장비', '조운', '황충', '제갈량'], ['조조', '하후돈', '장료', '허저', '사마의']];      // 촉 5 대 위 5
 let units = [], floats = [], shots = [], running = false, paused = false, speed = 1, last = null, result = '', pick = 0, clockMs = 0;
 const byName = n => HEROES.find(h => h.name === n);
@@ -61,6 +74,14 @@ const byName = n => HEROES.find(h => h.name === n);
 // ---- setup ------------------------------------------------------------------------------------------------------
 function place() {
   units = []; floats = []; shots = []; result = ''; clockMs = 0;
+  if (document.getElementById('sideReview').checked) {
+    const zhangfei = make(byName('장비'), 0, 5, 4);
+    const opponent = make(byName('하후돈'), 1, 2, 4);
+    zhangfei.dir = 'left'; opponent.dir = 'right';
+    units = [zhangfei, opponent];
+    logEl.textContent = '측면 검토: 장비(오른쪽) 대 하후돈(왼쪽) · 같은 줄에서 접근 후 공격합니다.\n체크를 해제하면 기존 편성으로 돌아갑니다.';
+    return;
+  }
   teams.forEach((names, side) => {
     const list = names.map(byName), front = list.filter(h => h.range <= 1), back = list.filter(h => h.range > 1);
     const rows = side === 0 ? [5, 7] : [2, 0];
@@ -72,7 +93,9 @@ function place() {
   logEl.textContent = '편성: 아군 ' + teams[0].join(', ') + '\n        적군 ' + teams[1].join(', ');
 }
 function make(h, side, x, y) {
-  return { h, fam: FAM[h.family], side, x, y, px: x, py: y, hp: h.hp, max: h.hp, mana: 0, state: 'idle', clip: 'idle', t: Math.random() * 900, dir: side === 0 ? 'up' : 'down',
+  h={...h,atk:Math.round(h.atk*tempo().power)};
+  const fam = String(h.id) === '2' ? {...FAM[h.family], clips:Object.fromEntries(Object.entries(FAM[h.family].clips).map(([id,c]) => [id, window.ZHANGFEI_CLIPS?.[id] ? {...c,durations:window.ZHANGFEI_CLIPS[id].left.durations} : c]))} : FAM[h.family];
+  return { h, fam, side, x, y, px: x, py: y, hp: h.hp, max: h.hp, mana: 0, state: 'idle', clip: 'idle', t: Math.random() * 900, dir: side === 0 ? 'up' : 'down',
            combo: 0, cool: 300 + Math.random() * 300, rate: 1, done: false, done2: false, target: null, flash: 0, fade: 1, buff: 0 };
 }
 function buildSetup() {
@@ -105,7 +128,10 @@ function nearest(u) {
 function play(u, clip, target) {
   const c = u.fam.clips[clip], total = sum(c.durations);
   u.state = clip.startsWith('s') ? 'skill' : 'attack'; u.clip = clip; u.t = 0; u.done = false; u.done2 = false; u.target = target; face(u, target);
-  const want = u.state === 'skill' ? total : u.h.interval * 1000; u.rate = Math.max(1, total / want); u.cool = Math.max(0, want - total / u.rate);
+  const want = u.state === 'skill' ? total : u.h.interval * 1000;
+  const originalRate=String(u.h.id)==='2' && window.ZHANGFEI_CLIPS?.[clip] ? 1 : Math.max(1,total/want);
+  const attackSpeed=u.state==='attack'?tempo().attack:1;
+  u.rate=originalRate*attackSpeed;u.cool=Math.max(0,want-total/originalRate)/attackSpeed;
 }
 function think(u) {
   const v = nearest(u); if (!v) return;
@@ -121,7 +147,7 @@ function think(u) {
     const d = u.h.range <= 1 ? Math.abs(v.x - x) + Math.abs(v.y - y) : Math.max(Math.abs(v.x - x), Math.abs(v.y - y)) + (Math.abs(v.x - x) + Math.abs(v.y - y)) / 100;
     if (d < bd) { bd = d; best = [x, y]; }
   }
-  if (best) { u.state = 'move'; u.clip = 'move'; u.t = 0; u.tx = best[0]; u.ty = best[1]; u.fx = u.x; u.fy = u.y; u.dur = sum(u.fam.clips.move.durations);
+  if (best) { u.state = 'move'; u.clip = 'move'; u.t = 0; u.tx = best[0]; u.ty = best[1]; u.fx = u.x; u.fy = u.y; u.dur = sum(u.fam.clips.move.durations)/tempo().move;
     u.dir = best[0] > u.x ? 'right' : best[0] < u.x ? 'left' : best[1] > u.y ? 'down' : 'up'; }
 }
 function hurt(u, v, mult, magic) {
@@ -179,15 +205,74 @@ function loopFrame(c, t) { const total = sum(c.durations); return frameOf(c, ((t
 const cx = x => MX + x * T + T / 2, cy = y => MY + y * T + T * FEET;
 // Finished PixelLab sprites (sim/sprites/<hero id>/<clip>-<view>.png, 15 frames in a strip) replace the bone figure where they exist.
 const SPRITES = window.SIM_SPRITES || {}, images = {};
+const zhangfeiFrames = {};
+const zhangfeiReady = Promise.all(Object.values(window.ZHANGFEI_CLIPS || {}).flatMap(views => Object.values(views).flatMap(c => c.files.map(src => {
+  if (zhangfeiFrames[src]) return zhangfeiFrames[src].decode();
+  const img = new Image(); zhangfeiFrames[src] = img; img.src = src; return img.decode();
+})))).catch(error => { console.error(error); logEl.textContent = '장비 모션 파일을 불러오지 못했습니다. 원본 파일 경로를 확인하세요.'; });
+const zhangfeiCanvas = document.createElement('canvas');
+zhangfeiCanvas.width = zhangfeiCanvas.height = 256;
+const zg = zhangfeiCanvas.getContext('2d');
+const baseArt = Object.fromEntries(Object.entries({front:'front',left:'side',rear:'back'}).map(([view,file]) => {
+  const img = new Image(); img.src = `../art-in/2/${file}.png`; return [view,img];
+}));
 function sheet(u, view) {
   const have = SPRITES[u.h.id] && SPRITES[u.h.id][u.clip]; if (!have || !have.includes(view)) return null;
   const key = `${u.h.id}/${u.clip}-${view}`; if (!images[key]) { images[key] = new Image(); images[key].src = `sprites/${key}.png?v=${Date.now() % 100000}`; }
   return images[key].complete && images[key].naturalWidth ? images[key] : null;
 }
 function sprite(u) {
-  const c = u.fam.clips[u.clip], looping = u.state === 'idle' || u.state === 'move' || u.state === 'dead', f = looping ? loopFrame(c, u.t) : frameOf(c, u.t), [view, flip] = VIEW[u.dir];
+  if (String(u.h.id) === '2' && document.getElementById('zhangfeiArt').checked) {
+    const selected = document.getElementById('artView').value;
+    const [view, flip] = selected === 'auto' ? VIEW[u.dir] : [selected,1];
+    const img = baseArt[view];
+    if (img.complete && img.naturalWidth) {
+      g.save(); g.translate(cx(u.px),cy(u.py)); g.scale(flip*SCALE,SCALE);
+      g.globalAlpha = u.fade; g.imageSmoothingEnabled = false;
+      // Map the whole source canvas uniformly; do not fit the silhouette or move individual body parts.
+      g.drawImage(img,-128,-224,256,256);
+      if (document.getElementById('artRig').checked) {
+        g.globalAlpha = u.fade * 0.85; g.lineCap = 'round';
+        for (const p of u.fam.clips.idle.views[view][0]) {
+          g.strokeStyle = '#56ffff'; g.lineWidth = 1.5;
+          g.beginPath(); g.moveTo(p[0],p[1]); g.lineTo(p[2],p[3]); g.stroke();
+        }
+      }
+      g.restore(); return;
+    }
+  }
+  const c = u.fam.clips[u.clip], looping = u.state === 'idle' || u.state === 'move' || u.state === 'dead', renderTime=u.state==='move'?u.t*tempo().move:u.t, f = looping ? loopFrame(c, renderTime) : frameOf(c, renderTime), [view, flip] = VIEW[u.dir];
+  const art = String(u.h.id) === '2' && window.ZHANGFEI_CLIPS?.[u.clip]?.[view];
+  if (art && !document.getElementById('zhangfeiLong').checked) {
+    const index = looping ? loopFrame(art,renderTime) : frameOf(art,u.t);
+    const img = zhangfeiFrames[art.files[index]];
+    if (img?.complete && img.naturalWidth) {
+      g.save();g.translate(cx(u.px),cy(u.py));g.scale(flip*SCALE,SCALE);g.globalAlpha=u.fade;g.imageSmoothingEnabled=false;
+      if (u.flash > 0) g.filter='brightness(2.4)';
+      g.drawImage(img,-art.pivot[0],-art.pivot[1],256,256);g.restore();return;
+    }
+  }
   let go = 0; if (!looping && c.advance && (u.dir === 'up' || u.dir === 'down')) go = c.advance[f] * GAP * SCALE * (u.dir === 'down' ? 1 : -1);
   g.save(); g.translate(cx(u.px), cy(u.py) + go); g.scale(flip * SCALE, SCALE); g.globalAlpha = u.fade; g.lineCap = 'round';
+  const preview = String(u.h.id) === '2' && document.getElementById('zhangfeiLong').checked && window.ZHANGFEI_PREVIEW?.clips[u.clip];
+  if (preview) {
+    const pivotX = view === 'left' ? 160 : 128;
+    zg.clearRect(0, 0, 256, 256); zg.lineCap = 'round';
+    for (const p of preview[view][f]) {
+      const col = u.flash > 0 ? '#ffffff' : `rgb(${p[5]},${p[6]},${p[7]})`;
+      for (const [w,k] of [[p[4]+1.8,'#101622'],[p[4],col]]) {
+        zg.strokeStyle=k; zg.lineWidth=w; zg.beginPath();
+        zg.moveTo(p[0]+pivotX,p[1]+224); zg.lineTo(p[2]+pivotX+0.01,p[3]+224); zg.stroke();
+      }
+    }
+    g.imageSmoothingEnabled=false;
+    g.drawImage(zhangfeiCanvas,-pivotX,-224);
+    if (document.getElementById('zhangfeiCanvas').checked) {
+      g.strokeStyle='#c8d5dd'; g.lineWidth=0.8; g.strokeRect(-pivotX,-224,256,256);
+      g.fillStyle='#66ffb0'; g.beginPath(); g.arc(0,0,2,0,Math.PI*2); g.fill();
+    }
+    g.restore(); return;
+  }
   const img = sheet(u, view);
   if (img) { g.imageSmoothingEnabled = false; if (u.flash > 0) g.filter = 'brightness(2.4)'; g.drawImage(img, f * 256, 0, 256, 256, -128, -224, 256, 256); g.restore(); return; }
   for (const p of c.views[view][f]) {
@@ -222,18 +307,39 @@ function draw() {
   else if (!running) { g.font = 'bold 20px "Malgun Gothic", sans-serif'; g.fillStyle = '#93a4b8'; g.fillText('전투 시작을 누르세요', MX + N * T / 2, MY + 4 * T - 12); }
 }
 function tick(now) {
-  if (last !== null) { let dt = Math.min(50, now - last) * speed; if (running && !paused) update(dt); else for (const u of units) if (u.state === 'idle') u.t += dt; }
+  if (last !== null) { let dt = Math.min(50, now - last) * speed; if (running && !paused) { if (document.getElementById('attackReview').checked) updateAttackReview(dt); else update(dt); } else for (const u of units) if (u.state === 'idle' && !paused) u.t += dt; }
   last = now; draw(); requestAnimationFrame(tick);
 }
-document.getElementById('start').onclick = e => { place(); running = true; paused = false; e.target.textContent = '다시 시작'; document.getElementById('pause').textContent = '멈춤'; };
+let reviewTime = 0;
+function placeAttackReview() {
+  reviewTime=0;floats=[];shots=[];result='';
+  units=['down','left','up'].map((dir,i)=>{const u=make(byName('장비'),0,[1,3,6][i],4);u.dir=dir;u.t=0;return u;});
+  document.getElementById('sideReview').checked=false;
+  for(const id of ['zhangfeiArt','zhangfeiLong','artRig']) document.getElementById(id).checked=false;
+  running=true;paused=false;updateAttackReview(0);
+}
+function updateAttackReview(dt) {
+  reviewTime+=dt;
+  const tuning=tempo();
+  const stages=[['idle',tuning.idleGap],['a1',sum(window.ZHANGFEI_CLIPS.a1.left.durations)/tuning.attack],['idle',tuning.idleGap],['a2',sum(window.ZHANGFEI_CLIPS.a2.left.durations)/tuning.attack],['idle',tuning.idleGap],['a3',sum(window.ZHANGFEI_CLIPS.a3.left.durations)/tuning.attack]];
+  let t=reviewTime%stages.reduce((n,s)=>n+s[1],0), clip='idle';
+  for(const [id,duration] of stages){if(t<duration){clip=id;break;}t-=duration;}
+  for(const u of units){u.clip=clip;u.state=clip==='idle'?'idle':'attack';u.t=t*(clip==='idle'?1:tuning.attack);}
+  logEl.textContent=`장비 정면 · 측면 · 후면 | ${clip==='idle'?'대기':'공격 '+clip.slice(1)}\n대기 → 공격 1 → 대기 → 공격 2 → 대기 → 공격 3 반복 · 공속 ${tuning.attack}배 / 대기 ${tuning.idleGap}ms`;
+}
+document.getElementById('attackReview').onchange=async e=>{await zhangfeiReady;if(e.target.checked)placeAttackReview();else{running=false;paused=false;place();}document.getElementById('pause').textContent='멈춤';};
+document.getElementById('start').onclick = async e => { await zhangfeiReady; if(document.getElementById('attackReview').checked)placeAttackReview();else place(); running = true; paused = false; e.target.textContent = '다시 시작'; document.getElementById('pause').textContent = '멈춤'; };
+document.getElementById('sideReview').onchange = () => { document.getElementById('attackReview').checked=false; running=false; paused=false; place(); document.getElementById('start').textContent='전투 시작'; document.getElementById('pause').textContent='멈춤'; };
 document.getElementById('pause').onclick = e => { paused = !paused; e.target.textContent = paused ? '재생' : '멈춤'; };
 document.getElementById('speed').onchange = e => { speed = Number(e.target.value); };
-document.getElementById('edit').onclick = () => { document.getElementById('setup').classList.toggle('hide'); buildSetup(); };
-document.getElementById('random').onclick = () => { const pool = [...HEROES].sort(() => Math.random() - 0.5); teams = [pool.slice(0, 6).map(h => h.name), pool.slice(6, 12).map(h => h.name)]; running = false; place(); buildSetup();
+document.getElementById('tempo').onchange=()=>{const resume=running;if(document.getElementById('attackReview').checked)placeAttackReview();else{place();running=resume;paused=false;}document.getElementById('pause').textContent='멈춤';};
+document.getElementById('edit').onclick = () => { if(document.getElementById('attackReview').checked){document.getElementById('attackReview').checked=false;running=false;place();} document.getElementById('setup').classList.toggle('hide'); buildSetup(); };
+document.getElementById('random').onclick = () => { document.getElementById('attackReview').checked=false; const pool = [...HEROES].sort(() => Math.random() - 0.5); teams = [pool.slice(0, 6).map(h => h.name), pool.slice(6, 12).map(h => h.name)]; running = false; place(); buildSetup();
   document.getElementById('start').textContent = '전투 시작'; };
 document.getElementById('pickMine').onclick = e => { pick = 0; e.target.classList.add('on'); document.getElementById('pickFoe').classList.remove('on'); };
 document.getElementById('pickFoe').onclick = e => { pick = 1; e.target.classList.add('on'); document.getElementById('pickMine').classList.remove('on'); };
 place(); requestAnimationFrame(tick);
+if(location.hash==='#zhangfei-attacks')zhangfeiReady.then(()=>{document.getElementById('attackReview').checked=true;placeAttackReview();});
 </script>
 </body>
 </html>

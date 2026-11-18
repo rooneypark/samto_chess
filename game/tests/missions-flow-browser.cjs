@@ -12,6 +12,11 @@ const assert=require('node:assert/strict'),fs=require('node:fs/promises');
  // Both synchronous clicks reach the handler; the controller submits only one transaction.
  await root.locator('.attendance-claim').evaluate(b=>{b.click();b.click();});await waitForSave(page,s=>s.services.attendance.index===5);await ready();
  let saved=await savedState(page);assert.equal(saved.trainingTickets,(initial.trainingTickets??0)+1);assert.equal(saved.revision,initial.revision+1);assert.ok(await root.locator('.attendance-claim').isDisabled());
+ const seal=await root.locator('.attendance-claim .polish-stamp').evaluate(stamp=>({
+  aboveMask:+getComputedStyle(stamp).zIndex>+getComputedStyle(stamp.parentElement,'::after').zIndex,
+  fill:getComputedStyle(stamp).backgroundColor
+ }));
+ assert.deepEqual(seal,{aboveMask:true,fill:'rgb(246, 230, 200)'});
  // A real IndexedDB write failure must not display success or change the receipt/profile.
  const beforeFailure=await savedState(page);
  await page.evaluate(()=>{const original=IDBObjectStore.prototype.put;IDBObjectStore.prototype.put=function(...args){IDBObjectStore.prototype.put=original;this.transaction.abort();return undefined;};});

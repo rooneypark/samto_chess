@@ -17,7 +17,7 @@ test('quest event replay does not duplicate progress and tutorial battle events 
  c.battleRun.tutorial={step:5};c.battleRun.battle.log.push({type:'skill',id:'r:2',source:1});trackServices(b,c,1000);assert.equal(c.services.quests.daily_skill.progress,1);
 });
 test('treasure materials cannot consume protected or equipped instances; upgrading is atomic',()=>{
- let s=fresh();s.treasures=[{id:'a',defId:'iron',star:1},{id:'b',defId:'iron',star:1,locked:true},{id:'c',defId:'iron',star:1}];
+ let s=fresh();s.treasures=[{id:'a',defId:'tr-090',star:1},{id:'b',defId:'tr-090',star:1,locked:true},{id:'c',defId:'tr-090',star:1}];
  assert.throws(()=>manageTreasure(s,{type:'upgrade',id:'a',materials:['b','c']}));assert.equal(s.gold,500);
  s=manageTreasure(s,{type:'lock',id:'b'});s=manageTreasure(s,{type:'upgrade',id:'a',materials:['b','c']});assert.equal(s.gold,450);assert.equal(s.treasures.length,1);assert.equal(s.treasures[0].star,2);
  s.heroes['15'].treasure='a';assert.throws(()=>manageTreasure(s,{type:'dismantle',id:'a'}));

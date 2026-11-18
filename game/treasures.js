@@ -1,18 +1,35 @@
-export const treasureDefs = [
- ['iron','흑철 호심경','C','HP +8%','helmet','hp',.08],
- ['horse','백마 인장','C','이동속도 +5%','banner','move',.05],
- ['book','청룡 병서','C','스킬 피해 +5%','scroll','skill',.05],
- ['bronze','청동 검장식','B','공격 +10%','swords','atk',.10],
- ['guard','수비 인장','B','방어 +12%','gate','def',.12],
- ['wisdom','지략 두루마리','B','마법방어 +12%','scroll','mdef',.12],
- ['jade','회춘옥','A','주는 회복 +12%','gem','heal',.12],
- ['haste','신속부','A','공격속도 +10%','banner','speed',.10],
- ['barrier','수호부','A','주는 보호막 +12%','helmet','shield',.12],
- ['dragon','용문 인장','S','공격 +15%','gold','atk',.15],
- ['tiger','호문 호심경','S','HP +18%','helmet','hp',.18],
- ['strategy','군략 비전','S','스킬 피해 +15%','scroll','skill',.15]
-].map(([id,name,grade,effect,icon,stat,value])=>({id,name,grade,effect,icon,stat,value}));
-export function equippedTreasure(state,heroId){const item=state.treasures.find(t=>t.id===state.heroes[heroId]?.treasure);return item?{...treasureDefs.find(d=>d.id===item.defId),...item}:null;}
+import {treasureTraits} from './treasure-traits.js';
+
+const icons={atk:'swords',speed:'banner',skill:'scroll',move:'banner',hp:'helmet',def:'gate',mdef:'scroll',heal:'gem',shield:'helmet'};
+export const treasureDefs=Object.entries(treasureTraits).map(([id,{name,grade,stat,percent,label}])=>({
+ id,name,grade,stat,value:percent/100,icon:icons[stat],effect:label+' +'+percent+'%',
+ artwork:new URL('../art-source/treasures/v1/'+id+'.png',import.meta.url).href
+}));
+const byId=new Map(treasureDefs.map(def=>[def.id,def]));
+const oldIds={
+ iron:'tr-090',horse:'tr-034',book:'tr-085',bronze:'tr-002',guard:'tr-011',wisdom:'tr-048',
+ jade:'tr-046',haste:'tr-089',barrier:'tr-042',dragon:'tr-004',tiger:'tr-083',strategy:'tr-003'
+};
+export function migrateTreasures(state){
+ for(const item of state.treasures??[]){
+  if(item&&Object.hasOwn(oldIds,item.defId))item.defId=oldIds[item.defId];
+ }
+ const pending=state.shop?.pending;
+ if(pending?.pool==='treasure')for(const result of pending.results??[]){
+  if(Object.hasOwn(oldIds,result.id)){
+   result.id=oldIds[result.id];
+   result.grade=byId.get(result.id).grade;
+  }
+ }
+ return state;
+}
+export function equippedTreasure(state,heroId){
+ const item=state.treasures.find(t=>t.id===state.heroes[heroId]?.treasure);
+ if(!item)return null;
+ // Existing run snapshots retain the movement bonus they started with.
+ const def=byId.get(item.defId)??byId.get(oldIds[item.defId]);
+ return def?{...def,...item,value:item.defId==='horse'?.05:def.value}:null;
+}
 export function treasureQuote(state,id){const item=state.treasures.find(t=>t.id===id);if(!item)throw Error('보물을 찾지 못했습니다.');const def=treasureDefs.find(d=>d.id===item.defId);return {item,def,copies:[2,4,8,16][item.star-1]??0,gold:Math.ceil(([50,150,400,1000][item.star-1]??0)*({C:1,B:1.5,A:2,S:3}[def.grade])),value:def.value*(1+.25*(item.star-1))};}
 export function manageTreasure(state,c){
  const s=structuredClone(state),{item,def,copies,gold}=treasureQuote(s,c.id),equipped=id=>Object.values(s.heroes).some(h=>h.treasure===id);

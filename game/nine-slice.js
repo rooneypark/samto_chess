@@ -16,6 +16,9 @@ async function sourceFor(tone){
  if(!sources.has(tone))sources.set(tone,(async()=>{const image=new Image();image.src=new URL('./assets/ui-scalable/'+nineSliceFrames[tone].file,import.meta.url).href;await image.decode();return image;})());
  return sources.get(tone);
 }
+export function preloadNineSliceFrames(){
+ return Promise.all(Object.keys(nineSliceFrames).map(tone=>sourceFor(tone).catch(()=>sources.delete(tone))));
+}
 export async function renderNineSlice(tone,width,height,{corner=nineSliceFrames[tone]?.corner??28,center=true,stablePixels=false}={}){
  const image=await sourceFor(tone),s=nineSliceFrames[tone].slice;
  width=Math.round(width);height=Math.round(height);corner=Math.round(corner);

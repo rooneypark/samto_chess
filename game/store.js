@@ -4,7 +4,7 @@ import {loadProgress,legacyTreasureIds} from './progression.js';
 import {compactSave} from './retention.js';
 import {SAVE_KEY,RULESET,LEGACY_PROGRESS_KEY,LEGACY_LOBBY_KEY} from './versions.js';
 import {factions,defaultStarter} from './factions.js';
-import {treasureDefs} from './treasures.js';
+import {migrateTreasures,treasureDefs} from './treasures.js';
 const KEY=SAVE_KEY;
 const ids=heroes.map(h=>h.id),legacyIds=['1','2','15','16','35','0'];
 const starter=defaultStarter;
@@ -17,6 +17,7 @@ function validate(s){
  const nonnegative=n=>Number.isSafeInteger(n)&&n>=0;
  if(![s.gold,s.diamonds,s.freeDiamonds,s.paidDiamonds,s.heroTokens,s.treasureTokens,s.revision].every(nonnegative)||s.diamonds!==s.freeDiamonds+s.paidDiamonds||![s.sShards??0,s.merit??0,s.provisions??0].every(nonnegative))throw Error('재화 저장 데이터 오류');
  if(!Array.isArray(s.treasures)||new Set(s.treasures.map(t=>t.id)).size!==s.treasures.length)throw Error('보물 저장 데이터 오류');
+ migrateTreasures(s);
  for(const t of s.treasures)if(typeof t.id!=='string'||!/^[A-Za-z0-9:_-]+$/.test(t.id)||!treasureDefs.some(d=>d.id===t.defId)||!Number.isInteger(t.star)||t.star<1||t.star>5)throw Error('보물 정보 오류');
  const equipped=new Set();for(const id of ids){const h=s.heroes[id];if(!h||typeof h.owned!=='boolean'||!Number.isInteger(h.level)||h.level<1||h.level>20||!Number.isInteger(h.star)||h.star<1||h.star>5||!nonnegative(h.cards))throw Error('장수 저장 데이터 오류');if(h.treasure!==null){if(!h.owned||equipped.has(h.treasure)||!s.treasures.some(t=>t.id===h.treasure))throw Error('장착 정보 오류');equipped.add(h.treasure);}}
  if(!validOrder(s.order,s.heroes))throw Error('편성 저장 데이터 오류');

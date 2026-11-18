@@ -100,7 +100,8 @@ body{background:#16273d;background-image:repeating-linear-gradient(45deg,#ffffff
 /* 6. Missions. */
 .missions-v1 .progress-bar{scale:1 1.9}
 .missions-v1 .progress-bar[data-done=true]{filter:saturate(1.6) brightness(1.25) hue-rotate(-15deg)}
-.polish-stamp{position:absolute;right:-.6cqw;top:-1cqw;width:4.6cqw;height:4.6cqw;border-radius:50%;border:.35cqw solid #c2452f;color:#c2452f;background:#f6e6c8e6;font-size:max(2.6cqw,9px);line-height:3.9cqw;text-align:center;font-style:normal;font-weight:bold;rotate:-14deg;pointer-events:none;z-index:3}
+/* Keep the seal above the button's disabled artwork mask. */
+.polish-stamp{position:absolute;right:-.6cqw;top:-1cqw;width:4.6cqw;height:4.6cqw;border-radius:50%;border:.35cqw solid #c2452f;color:#c2452f;background:#f6e6c8;font-size:max(2.6cqw,9px);line-height:3.9cqw;text-align:center;font-style:normal;font-weight:bold;rotate:-14deg;pointer-events:none;z-index:31}
 .polish-stamp::before{content:'完'}
 
 /* 8. Campaign. */

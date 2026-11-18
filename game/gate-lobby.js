@@ -10,6 +10,7 @@ import {serviceAlerts} from './service-alerts.js';
 
 const {width:W,height:H}=artboard,base='assets/gate-lobby/';
 const centers=[110,263,406,548,676,817];
+const fallbackSpriteWidth=156;
 const rect=(el,x,y,w,h)=>{
  for(const [key,value] of Object.entries({x:x/W*100,y:y/H*100,w:w/W*100,h:h/H*100}))el.style.setProperty('--g'+key,value+'%');
 };
@@ -71,7 +72,10 @@ export function initGateLobby(game,store){
    image.src=s?base+id+'.png':heroes.find(h=>h.id===id).sprite;
    button.classList.toggle('gate-fallback',!s);
    if(s)rect(button,centers[i]+s[0]-s[4],s[1],s[2],s[3]);
-   else rect(button,centers[i]-78,769,156,248);
+   else{
+    rect(button,centers[i]-fallbackSpriteWidth/2,769,fallbackSpriteWidth,248);
+    button.style.setProperty('--gate-label-anchor',fallbackSpriteWidth/W*100+'cqw');
+   }
   }
  }
  store.subscribe(render);

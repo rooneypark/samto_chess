@@ -1,0 +1,91 @@
+{
+  "source": "bone-motion\\out\\pixellab\\2\\idle-basic-v1\\front\\02.png",
+  "source_sha256": "d2210e0e8797cd24faedcd29269103e2d43a4723d689b798d024aff2c5c13050",
+  "frames": 15,
+  "rig_points": 24,
+  "pivot": [
+    128,
+    224
+  ],
+  "durations_ms": [
+    46,
+    46,
+    46,
+    46,
+    46,
+    46,
+    46,
+    46,
+    46,
+    46,
+    46,
+    46,
+    46,
+    46,
+    46
+  ],
+  "right_grip_axis_error": 1.4868700975141997e-14,
+  "support": [
+    [
+      "L"
+    ],
+    [
+      "L"
+    ],
+    [
+      "L"
+    ],
+    [
+      "L"
+    ],
+    [
+      "L"
+    ],
+    [
+      "L"
+    ],
+    [
+      "L"
+    ],
+    [],
+    [
+      "R"
+    ],
+    [
+      "R"
+    ],
+    [
+      "R"
+    ],
+    [
+      "R"
+    ],
+    [
+      "R"
+    ],
+    [
+      "R"
+    ],
+    []
+  ],
+  "loop_seam_distances": {
+    "toe.L": 3.9663447109181256,
+    "toe.R": 3.644190098707508,
+    "hand.L": 0.8868186171309486,
+    "hand.R": 0.42546661473920067,
+    "head": 0.465655399457957
+  },
+  "maximum_internal_steps": {
+    "toe.L": 6.251334396009494,
+    "toe.R": 6.171845695960266,
+    "hand.L": 3.728059927956874,
+    "hand.R": 0.8523497819046353,
+    "head": 1.2936443203611414
+  },
+  "loop": true,
+  "headband": "head-local rigid attachment; all points inside canvas",
+  "status": "validated_single_trial",
+  "limitations": [
+    "Occluded joints inferred. Spear held upright, butt is not planted on ground. Generated pixel continuity requires review."
+  ]
+}

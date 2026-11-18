@@ -15,8 +15,7 @@ export function initRecruitResultsScreen({host,store,navigate,toast,onWallet}){
 const root=createArtworkScreen({host,sharedShell:true,className:'recruit-results-runtime',label:'장수 등용 결과',template:recruitResultsTemplate,navigate,onWallet}),$=s=>root.querySelector(s);
 $('#barracks-back').id='shop-back';const ready=paintArtworkLayout(root,{stablePixels:true});let selected=0,revision=0,receipt=null,busy=false,cardsKey='';const revealed=new Set();
 
-const treasurePositions={gold:'33.333% 100%',scroll:'66.667% 50%',helmet:'33.333% 0',gem:'66.667% 100%',banner:'100% 0',swords:'0 50%',gate:'66.667% 0'};
-function treasureSymbol(def){const icon=document.createElement('i');icon.className='symbol';icon.style.backgroundPosition=treasurePositions[def.icon];return icon;}
+function treasureSymbol(def){const image=new Image();image.className='symbol treasure-art';image.alt='';image.src=def.artwork;return image;}
 function paintTreasureDetail(pending,index){const result=pending.results[index],def=treasureDefs.find(t=>t.id===result.id),count=pending.results.filter(r=>r.id===result.id).length;
  root.querySelector('[data-box="50,286,841,44"]').textContent=pending.results.length+(pending.type==='recruit'?'회 보물 모집 결과':'개 보물 획득 결과');$('.receipt-note').textContent='총 '+pending.results.length+'개 획득 · 같은 보물도 각각 보관됩니다.';
  $('.detail-title').textContent=def.name+' · '+def.grade;$('.result-status').textContent='1성 · 획득 당시 미장착 · 이번 모집 '+count+'개';$('.skill').textContent='능력치 · '+def.effect;$('.skill-text').textContent='보물함에서 장수에게 장착할 수 있습니다. 같은 보물은 별도 개체로 보관되며, 조건에 맞으면 강화 재료로 사용할 수 있습니다.';

@@ -9,6 +9,7 @@ import {heroes} from './heroes.js';
 import {specs} from './progression.js';
 import {heroSources,factionRoster,codexReward,factionTitles} from './collection.js';
 import {codexTemplate} from './codex-template.js';
+import {treasureTraits} from './treasure-traits.js';
 import {prepareServices,serviceCommand} from './services.js';
 export function initCodex({host,store,navigate,toast,onWallet,showSources}){
 const game=createArtworkScreen({host,className:'gate-lobby codex-runtime',label:'도감',template:codexTemplate,navigate,onWallet});const $=s=>game.querySelector(s);let owned=new Set(),busy=false,revision=0;
@@ -92,11 +93,12 @@ async function renderTreasures(token){
  const item=visible.find(entry=>entry.catalogId===selected),image=treasureImage(item);
  $('.detail-art').replaceChildren(image);
  $('.detail-title').textContent=item.name;
- $('.detail-role').textContent=treasureCategory[item.category];
- $('.detail-skill').textContent='';
+ const trait=treasureTraits[item.catalogId];
+ $('.detail-role').textContent=trait?treasureCategory[item.category]+' · '+trait.grade+'등급':treasureCategory[item.category];
+ $('.detail-skill').textContent=trait?trait.label+' +'+trait.percent+'% · 1성 기준':'';
  $('.detail-source').textContent='';
  $('.reward-title').textContent='보물함';
- $('.reward-copy').textContent='보유한 보물의 장착과 강화는 병영의 보물함에서 할 수 있습니다.';
+ $('.reward-copy').textContent='장착·강화는 병영 보물함에서 가능합니다.';
  await Promise.all([...jobs,image.decode(),document.fonts.ready]);
  if(token===revision&&!game.hidden){game.inert=false;game.setAttribute('aria-busy','false');}
 }

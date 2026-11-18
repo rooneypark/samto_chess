@@ -28,6 +28,8 @@ import {initMissions} from './missions.js';
 import {missionsArtwork} from './missions-ui.js';
 import {campaignArtwork,campaignReady} from './campaign-ui.js';
 import {preloadArtwork,uiComponentsReady} from './art-controls.js';
+import {headerLetteringReady} from './header-lettering.js';
+import {preloadNineSliceFrames} from './nine-slice.js';
 import {arenaReady} from './arena-ui.js';
 import {allianceReady} from './alliance-ui.js';
 import {shopReady} from './shop-ui.js';
@@ -308,6 +310,6 @@ const initialArtwork={barracks:barracksReady,shop:shopReady,alliance:allianceRea
 const gateArtwork=currentTab==='home'&&artSet==='a'
  ?preloadArtwork(['assets/gate-lobby/scene.png'])
  :undefined;
-await Promise.all([uiComponentsReady,initialArtwork[currentTab],gateArtwork,battle.resume()]);
+await Promise.all([uiComponentsReady,headerLetteringReady,preloadNineSliceFrames(),initialArtwork[currentTab],gateArtwork,battle.resume()]);
 delete game.dataset.booting;
 game.inert=false;game.setAttribute('aria-busy','false');

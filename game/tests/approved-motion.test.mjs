@@ -19,7 +19,7 @@ test('all directions map the engine hit/release tick to the approved event frame
 test('side attack preserves authored pivot on either facing; movement follows destination',()=>{
  for(const dx of [-1,1]){
   const u={...unit,action:{start:0,at:10,target:2}},p=approvedMotionFrame(u,run(5,{id:2,x:3+dx,y:3}),data);
-  assert.deepEqual(p.anchor,[168,224]);assert.equal(p.flip,dx>0);
+  assert.deepEqual(p.anchor,[160,224]);assert.equal(p.flip,dx>0);
   const m=approvedMotionFrame({...unit,move:{x:3+dx,y:3,start:0,at:10}},run(5),data);
   assert.equal(m.state,'move');assert.equal(m.view,'side');assert.equal(m.flip,dx>0);
  }

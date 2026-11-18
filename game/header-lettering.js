@@ -43,6 +43,21 @@ const titles = {
   "층": "floor"
 };
 const assetRoot = new URL('./assets/ui-common/header-lettering/', import.meta.url);
+const glyphs = new Map();
+const glyphIds = [...new Set([...Object.values(titles), ...Array.from({length: 10}, (_, digit) => 'digit-' + digit)])];
+export const headerLetteringReady = typeof Image === 'undefined' ? Promise.resolve() : Promise.all(
+ glyphIds.map(async id => {
+  const image = new Image();
+  image.alt = '';
+  image.src = new URL(id === 'home' ? '../gate-title-samto.png' : id + '.png', assetRoot);
+  try {
+   await image.decode();
+   glyphs.set(id, image);
+  } catch {
+   // Keep the text label if its artwork is unavailable.
+  }
+ })
+);
 
 export function headerLettering(title) {
  const tower = /^연무탑 (\d+)층$/.exec(title);
@@ -58,27 +73,27 @@ export function headerLettering(title) {
 export function paintHeaderLettering(label, title) {
  const parts = headerLettering(title);
  if (!parts) return;
- const row = document.createElement('span');
- row.className = 'header-lettering';
- const images = [];
- for (const id of parts) {
-  if (id === 'dot') {
-   const dot = document.createElement('i');
-   dot.className = 'header-lettering-dot';
-   row.append(dot);
-   continue;
+ const paint = () => {
+  const row = document.createElement('span');
+  row.className = 'header-lettering';
+  let aspect = 0;
+  for (const id of parts) {
+   if (id === 'dot') {
+    const dot = document.createElement('i');
+    dot.className = 'header-lettering-dot';
+    row.append(dot);
+    continue;
+   }
+   const image = glyphs.get(id);
+   if (!image) return;
+   aspect += image.naturalWidth / image.naturalHeight;
+   row.append(image.cloneNode());
   }
-  const image = new Image();
-  image.alt = '';
-  image.src = new URL(id === 'home' ? '../gate-title-samto.png' : id + '.png', assetRoot);
-  row.append(image);
-  images.push(image);
- }
- Promise.all(images.map(image => image.decode())).then(() => {
-  const aspect = images.reduce((sum, image) => sum + image.naturalWidth / image.naturalHeight, 0);
   const height = Math.min(63, 250 / (aspect + (parts.length - 1) * .26));
   row.style.setProperty('--lettering-height', height / 941 * 100 + 'cqw');
   label.setAttribute('aria-label', title);
   label.replaceChildren(row);
- }).catch(() => {});
+ };
+ if (parts.every(id => id === 'dot' || glyphs.has(id))) paint();
+ else headerLetteringReady.then(paint);
 }
