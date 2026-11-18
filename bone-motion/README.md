@@ -14,8 +14,8 @@
 | 전투 대기 자세 | 확정 후 4종 수정 (보행 창, 창·방패, 중무기, 궁: 무기가 몸을 관통하지 않게, 세 방향에서 보이게) |
 | 장수 49명 배정 (유형, 평타 세트, 전법 클립) | 완료 (`HERO-MOTIONS.md`) |
 | 장수별 원화 요청서와 가이드 그림 | 49명 완료 (`art-in/<ID>/guide/`) |
-| 원화 | 장비 원화 시안 전부 폐기. 새 방향 미정. 기존 그림·측정값은 모션 입력으로 사용하지 않는다 |
-| PixelLab 모션 | 장비 1차 원화로 시험(12건). 창 길이 문제로 폐기. 새 원화 대기 |
+| 원화 | 장비 원화 시안 전부 폐기. 새 방식: 정면 기본 자세 1장만 받는다 (`PIXELLAB-WORKFLOW.md`). 기존 그림·측정값은 모션 입력으로 사용하지 않는다 |
+| PixelLab 모션 | 장비 1차 원화로 시험(12건). 창 길이 문제로 폐기. 정면 기본 자세 원화 대기 |
 | 게임 적용 | 시작 전 |
 
 ## 폴더
@@ -68,6 +68,8 @@ python -X utf8 bone-motion/engine/export.py
 
 ## 원화가 들어오면
 
+2026-11-18에 방식이 바뀌었다. 원화는 정면 기본 자세 1장만 받고, 측면·후면과 전투 대기는 PixelLab으로 만든다. 순서는 `PIXELLAB-WORKFLOW.md`를 따른다. 아래는 세 방향 전투 대기 원화를 직접 받았을 때의 예전 순서다.
+
 1. `art-in/<ID>/`에 `front.png`, `side.png`, `back.png` (256×256, 투명 배경).
 2. `python -X utf8 bone-motion/engine/artcheck.py <ID> --estimate` 로 검사 (0.3회분).
 3. 통과하면 `art-in/<ID>/pixellab.json`을 만들고 한 클립만 시험: `pixellab.py animate <ID> a1 left` (4회분).
@@ -83,4 +85,8 @@ python -X utf8 bone-motion/engine/export.py
 
 ## 집에서 이어받기 (2026-11-18)
 
-저장소 루트에서 git pull --ff-only 후 python tools/asset_packs.py restore 및 python tools/asset_packs.py verify를 실행한다. 49명 요청서와 1:1·4배 가이드 294장, 표준 본 원본을 받는다. 본과 대기 가이드는 유지하며 장비 포함 이번 원화 시안은 재사용하지 않는다. art-in 안의 과거 notes.txt와 장비 pixellab.json은 검수 이력이며 새 원화 기준으로 다시 측정해야 한다. 다음 원화의 방향은 아직 결정하지 않았다. 시뮬레이터의 생성 데이터는 위 재생성 절차를 따른다.
+저장소 루트에서 git pull --ff-only 후 python tools/asset_packs.py restore 및 python tools/asset_packs.py verify를 실행한다. 49명 요청서와 1:1·4배 가이드 294장, 표준 본 원본을 받는다. 본과 대기 가이드는 유지하며 장비 포함 이번 원화 시안은 재사용하지 않는다. art-in 안의 과거 notes.txt와 장비 pixellab.json은 검수 이력이며 새 원화 기준으로 다시 측정해야 한다. 다음 원화는 정면 기본 자세 1장으로 받기로 했다 (`PIXELLAB-WORKFLOW.md`). 시뮬레이터의 생성 데이터는 위 재생성 절차를 따른다.
+
+## PixelLab 작업 순서
+
+기본 자세 원화에서 전투 대기, 공격, 전법 모션까지의 순서와 API, 아직 구현하지 않은 부분은 `PIXELLAB-WORKFLOW.md`에 있다.
