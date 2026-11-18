@@ -5,6 +5,1494 @@
   "compression": "lossless-zip-deflate",
   "archives": [
     {
+      "path": "asset-packs/v1/bone-motion-guides-v1-001.zip",
+      "category": "bone-motion-guides",
+      "bytes": 12337953,
+      "sha256": "f7b9a8d68e5705a63ed8c43eeca7ac2501467239b0eb69c7a2a8ab20013d8b88",
+      "files": [
+        {
+          "path": "bone-motion/art-in/0/guide/guide-back-256.png",
+          "bytes": 9827,
+          "sha256": "b78385cf6fae0842ffe4ab590a715b86ebcddc05bc2b8845ed8f85204a6fbf4f"
+        },
+        {
+          "path": "bone-motion/art-in/0/guide/guide-back.png",
+          "bytes": 76701,
+          "sha256": "05d3be3d73ed8f416ff50e7961f64a1b47d9987ce07845822ab44bb1ac361d35"
+        },
+        {
+          "path": "bone-motion/art-in/0/guide/guide-front-256.png",
+          "bytes": 9587,
+          "sha256": "7894628afc9c28f2354269605a7219afe1dcdd879bac4401ab71efd716b9bee4"
+        },
+        {
+          "path": "bone-motion/art-in/0/guide/guide-front.png",
+          "bytes": 77075,
+          "sha256": "a7cdcf081ba7f27882ee56c17f6681a04cad19bd60e4b9f4fc03863ad1d59379"
+        },
+        {
+          "path": "bone-motion/art-in/0/guide/guide-side-256.png",
+          "bytes": 9253,
+          "sha256": "f61ac25e2a616df488ef410bbf5e81a85c35b65bc774e6442a24b8ba6a599d1c"
+        },
+        {
+          "path": "bone-motion/art-in/0/guide/guide-side.png",
+          "bytes": 75824,
+          "sha256": "6acd7f9ff02c1778d7c86e794c4269b640a354b0aace7b8e3caa77c7968257e4"
+        },
+        {
+          "path": "bone-motion/art-in/1/guide/guide-back-256.png",
+          "bytes": 13076,
+          "sha256": "d3d572850abda695d721359c2c6f1c1f41cca9eb0003269a89055ec869360ceb"
+        },
+        {
+          "path": "bone-motion/art-in/1/guide/guide-back.png",
+          "bytes": 98650,
+          "sha256": "56280b38a71671106a20cd42e0b035a95d0bed762fb7ee56e0eef1582f317d3c"
+        },
+        {
+          "path": "bone-motion/art-in/1/guide/guide-front-256.png",
+          "bytes": 12838,
+          "sha256": "dbe80838ee8688836bdb6b472670c2abd04d70e730a5cd3057c966099b4bb748"
+        },
+        {
+          "path": "bone-motion/art-in/1/guide/guide-front.png",
+          "bytes": 99311,
+          "sha256": "044a6c2c07f8e3a9fe7bf28fc8a24dd4fe8e02e62a8388b15b36b5fc9eb25e27"
+        },
+        {
+          "path": "bone-motion/art-in/1/guide/guide-side-256.png",
+          "bytes": 17526,
+          "sha256": "fcc2b9ac5d98a0be41d8a5ce77bb1bbb6e9e308b8bbba2ea176639c966a1597e"
+        },
+        {
+          "path": "bone-motion/art-in/1/guide/guide-side.png",
+          "bytes": 132594,
+          "sha256": "8639b5b30b8a4939e37079a93dab0a0643713db366f1a596115ef86ff7723664"
+        },
+        {
+          "path": "bone-motion/art-in/119/guide/guide-back-256.png",
+          "bytes": 13076,
+          "sha256": "d3d572850abda695d721359c2c6f1c1f41cca9eb0003269a89055ec869360ceb"
+        },
+        {
+          "path": "bone-motion/art-in/119/guide/guide-back.png",
+          "bytes": 98640,
+          "sha256": "628c1c94df74a8b8fc3a3a5dd6ac41ad65cf2859414c688fbb54d7f5e252144c"
+        },
+        {
+          "path": "bone-motion/art-in/119/guide/guide-front-256.png",
+          "bytes": 12838,
+          "sha256": "dbe80838ee8688836bdb6b472670c2abd04d70e730a5cd3057c966099b4bb748"
+        },
+        {
+          "path": "bone-motion/art-in/119/guide/guide-front.png",
+          "bytes": 99314,
+          "sha256": "f8e3332c6d8d1721767ad62853262bb7f3eaa9a57fc36a1bf279743394b7db09"
+        },
+        {
+          "path": "bone-motion/art-in/119/guide/guide-side-256.png",
+          "bytes": 17526,
+          "sha256": "fcc2b9ac5d98a0be41d8a5ce77bb1bbb6e9e308b8bbba2ea176639c966a1597e"
+        },
+        {
+          "path": "bone-motion/art-in/119/guide/guide-side.png",
+          "bytes": 132574,
+          "sha256": "a84ceab29ce5a7fb49219dd5080bbd451db9bf33307867d50548ecb3681ab761"
+        },
+        {
+          "path": "bone-motion/art-in/15/guide/guide-back-256.png",
+          "bytes": 13006,
+          "sha256": "deb247facf90f7662b1026339d95a4378f41cbe22eb2beb508cb36c76f174d80"
+        },
+        {
+          "path": "bone-motion/art-in/15/guide/guide-back.png",
+          "bytes": 98982,
+          "sha256": "d5870567922f4ad6f877866d77a3c356096d65b8527deac98d6bfdf4cb37c2c7"
+        },
+        {
+          "path": "bone-motion/art-in/15/guide/guide-front-256.png",
+          "bytes": 12746,
+          "sha256": "69896c40cc6c6d0e1a9794f388980878c3a3d8d7773f2a52b46bcd6c2eddbccf"
+        },
+        {
+          "path": "bone-motion/art-in/15/guide/guide-front.png",
+          "bytes": 98192,
+          "sha256": "ed73149774c58f16eb391f3daff0f522205e140e60767ba0c7690fcb0b8fbc68"
+        },
+        {
+          "path": "bone-motion/art-in/15/guide/guide-side-256.png",
+          "bytes": 17731,
+          "sha256": "7d29edfec484f5502ce0d50c2523135fb4cbec8cb532993daa7aaa65b7105192"
+        },
+        {
+          "path": "bone-motion/art-in/15/guide/guide-side.png",
+          "bytes": 133207,
+          "sha256": "ad2104e17bb362102a29b041dab6759c059b573e90f91b26bedd2d46765f5327"
+        },
+        {
+          "path": "bone-motion/art-in/16/guide/guide-back-256.png",
+          "bytes": 9016,
+          "sha256": "cde1014f27ee8f83165ed8175ad6729a46a5f78bc34732427150fd948a4f279d"
+        },
+        {
+          "path": "bone-motion/art-in/16/guide/guide-back.png",
+          "bytes": 71723,
+          "sha256": "905138bc71a0d5b166c4d95fa5062b1fc6f4315b70281673168dadb2069b90f8"
+        },
+        {
+          "path": "bone-motion/art-in/16/guide/guide-front-256.png",
+          "bytes": 9321,
+          "sha256": "39171381230ae36aabe10d4f0f2cf70002d9ad8b7ba32cb8c2eb2d49e8ce045e"
+        },
+        {
+          "path": "bone-motion/art-in/16/guide/guide-front.png",
+          "bytes": 75527,
+          "sha256": "4b570a4d01bbf271a875f6687dd65451427fc450b42cca8b255ac3e648445b6e"
+        },
+        {
+          "path": "bone-motion/art-in/16/guide/guide-side-256.png",
+          "bytes": 8864,
+          "sha256": "a90631531be432024e306c25583dce5b71425dbb71367225446c5c194417d3ad"
+        },
+        {
+          "path": "bone-motion/art-in/16/guide/guide-side.png",
+          "bytes": 70585,
+          "sha256": "9118817ae5ca732b8dcd04e9d6ba9b2ea26100f1acd036c11f0f30e66fffe90b"
+        },
+        {
+          "path": "bone-motion/art-in/2/guide/guide-back-256.png",
+          "bytes": 9541,
+          "sha256": "d62c88351666c6520104f5eac3bba31de86f9d1f0a35653964a213d4d61f822d"
+        },
+        {
+          "path": "bone-motion/art-in/2/guide/guide-back.png",
+          "bytes": 74653,
+          "sha256": "503c33e87a1f7afa2c266d724ac57274e63df88ab9b9f030efb9786d0e93fcd7"
+        },
+        {
+          "path": "bone-motion/art-in/2/guide/guide-front-256.png",
+          "bytes": 9729,
+          "sha256": "f12456fbb2eab5a34d337a583f0dfb437d8de8be8782a03552fc7b0aaa494b48"
+        },
+        {
+          "path": "bone-motion/art-in/2/guide/guide-front.png",
+          "bytes": 78454,
+          "sha256": "41c07da40b3ed58ea7e8dcad577718be0fe7f93b793f3aba91fd7efc3a511a2a"
+        },
+        {
+          "path": "bone-motion/art-in/2/guide/guide-side-256.png",
+          "bytes": 9437,
+          "sha256": "b6866380d9dfa975464a36e6781c4c879a06229ac342876ee4137fce1ed248c2"
+        },
+        {
+          "path": "bone-motion/art-in/2/guide/guide-side.png",
+          "bytes": 76573,
+          "sha256": "b8a6ceef52732a52f42eb6c7f4210756f74a5b8a71904abc007bd564a907bf18"
+        },
+        {
+          "path": "bone-motion/art-in/32/guide/guide-back-256.png",
+          "bytes": 9486,
+          "sha256": "4d16012cbba6a75d9de8128844a8e580371e7534ae00b43229dccf922eb34ac6"
+        },
+        {
+          "path": "bone-motion/art-in/32/guide/guide-back.png",
+          "bytes": 74695,
+          "sha256": "7590b9be966c20c8b1e20fff3db4fdfafa56955afbd431949807cbf1597dd33d"
+        },
+        {
+          "path": "bone-motion/art-in/32/guide/guide-front-256.png",
+          "bytes": 9305,
+          "sha256": "202cc456dc64a8425a471a5efd0a41066b1061ae8aea2c14ce8ad9718dfb69d0"
+        },
+        {
+          "path": "bone-motion/art-in/32/guide/guide-front.png",
+          "bytes": 73624,
+          "sha256": "559de36ae964b18530dec8239672318a9b6edaebb4ffdbca64398315a49234f4"
+        },
+        {
+          "path": "bone-motion/art-in/32/guide/guide-side-256.png",
+          "bytes": 8102,
+          "sha256": "1aec5c35f14b0f6a2cbba84856b801cb2bd434a8474f2d740a7b29dc96150fe1"
+        },
+        {
+          "path": "bone-motion/art-in/32/guide/guide-side.png",
+          "bytes": 69167,
+          "sha256": "799d20200ab6b104b64a05e62b6b717ca8e0aead6e692bdf76d5cbe6fe24681b"
+        },
+        {
+          "path": "bone-motion/art-in/33/guide/guide-back-256.png",
+          "bytes": 9385,
+          "sha256": "acf438fca7bc1bcfbc273ef084e09088ece69bee0afda6f3a27fac315603f2cb"
+        },
+        {
+          "path": "bone-motion/art-in/33/guide/guide-back.png",
+          "bytes": 74356,
+          "sha256": "f561e6e9485aa75900f412250cfdfd8b6d6f9e4a636ab447e33a689a6478988f"
+        },
+        {
+          "path": "bone-motion/art-in/33/guide/guide-front-256.png",
+          "bytes": 9722,
+          "sha256": "d9b0d0aff4802754ab9b59fa1b3f5a4b39abbea56ad0c112532ab8148ea84913"
+        },
+        {
+          "path": "bone-motion/art-in/33/guide/guide-front.png",
+          "bytes": 79093,
+          "sha256": "6187359a796042a5a4e9c5fc7e12ac38abce2f3d3cbf25d5d377fc83323cfbf2"
+        },
+        {
+          "path": "bone-motion/art-in/33/guide/guide-side-256.png",
+          "bytes": 9153,
+          "sha256": "eb76f6b90a73cc5f7dbe3556cb597c59ef8b5e2f513ff142f7476c1fd8346974"
+        },
+        {
+          "path": "bone-motion/art-in/33/guide/guide-side.png",
+          "bytes": 75140,
+          "sha256": "a4bf8a9de3bb6edaa897af3ad37f8d53f3d133c2ea394103cfb01ef27001e152"
+        },
+        {
+          "path": "bone-motion/art-in/34/guide/guide-back-256.png",
+          "bytes": 13070,
+          "sha256": "748119b63ee64e197e864928717e69f6d4208269709083e234b7f077a2de62d6"
+        },
+        {
+          "path": "bone-motion/art-in/34/guide/guide-back.png",
+          "bytes": 99075,
+          "sha256": "8eb9a17ff9fdfa065079a5875b1cf07c318e0635a10b21530e4ced69f837a1b9"
+        },
+        {
+          "path": "bone-motion/art-in/34/guide/guide-front-256.png",
+          "bytes": 12850,
+          "sha256": "2cd01831702f4312dcc8dd316f739e0f12b3239109d03875164de2519d7c52de"
+        },
+        {
+          "path": "bone-motion/art-in/34/guide/guide-front.png",
+          "bytes": 98960,
+          "sha256": "14cc3609273c4084f4d9c35668bd4848376c6cf23eca80b54216a9d1e49a94c1"
+        },
+        {
+          "path": "bone-motion/art-in/34/guide/guide-side-256.png",
+          "bytes": 17616,
+          "sha256": "2cbb5e092e8f9512ccdf283a7f5e9f847a0bf4268543d173d5bee9180bd247c1"
+        },
+        {
+          "path": "bone-motion/art-in/34/guide/guide-side.png",
+          "bytes": 133745,
+          "sha256": "2c003830205ee4a005dddca0d609dd3b1b3ceeb81d9d1b10bfa6a2cc9e1b0a74"
+        },
+        {
+          "path": "bone-motion/art-in/35/guide/guide-back-256.png",
+          "bytes": 8312,
+          "sha256": "8990434e2e7710210f5c4ac67fb9d123a4c197715ec1363b7454001351cf8417"
+        },
+        {
+          "path": "bone-motion/art-in/35/guide/guide-back.png",
+          "bytes": 68713,
+          "sha256": "bfe4fd3ff96cb98acfe4a1563f5496d9d4a9bcec6ce2f8c135a0343f42bba965"
+        },
+        {
+          "path": "bone-motion/art-in/35/guide/guide-front-256.png",
+          "bytes": 8572,
+          "sha256": "9f5c752e0265d6f67f9c290fd88561d272273908d05d04dc451ec9d9d7715e5e"
+        },
+        {
+          "path": "bone-motion/art-in/35/guide/guide-front.png",
+          "bytes": 70996,
+          "sha256": "eb4848ce1ca2da2eb65a68c6bb0cb37f0bba77d893c57e0daf3708463545a687"
+        },
+        {
+          "path": "bone-motion/art-in/35/guide/guide-side-256.png",
+          "bytes": 7439,
+          "sha256": "c5279eef4c3d461a6778af587966467f19f5ba7f21991234c66966d768103cfe"
+        },
+        {
+          "path": "bone-motion/art-in/35/guide/guide-side.png",
+          "bytes": 64849,
+          "sha256": "def21717689a8bf5adf161a0b4b9453e2cf735e18f025f33e8aac60c5ab4b305"
+        },
+        {
+          "path": "bone-motion/art-in/77/guide/guide-back-256.png",
+          "bytes": 9489,
+          "sha256": "3154df14466c981ac092e56289bfd71530e9e77a571204ce57e98ee316564aa4"
+        },
+        {
+          "path": "bone-motion/art-in/77/guide/guide-back.png",
+          "bytes": 72979,
+          "sha256": "380095ab67d85e56c174ab49076e623eca56b5970e42e72f17ac526be9485ac4"
+        },
+        {
+          "path": "bone-motion/art-in/77/guide/guide-front-256.png",
+          "bytes": 9592,
+          "sha256": "28d1922695f87c07f0b854a4ac042462b5b1309d1a68358665cf22d0796212a4"
+        },
+        {
+          "path": "bone-motion/art-in/77/guide/guide-front.png",
+          "bytes": 76343,
+          "sha256": "226deb066270e19cfbe78c16bf952e2432b35f3800af2eb53043e4923dfae892"
+        },
+        {
+          "path": "bone-motion/art-in/77/guide/guide-side-256.png",
+          "bytes": 8587,
+          "sha256": "cb5ae9b71cfef6828999b0fad501bbd29917298f8897f8f8a62891d3dc23499c"
+        },
+        {
+          "path": "bone-motion/art-in/77/guide/guide-side.png",
+          "bytes": 71217,
+          "sha256": "50e2420a29c0e8f1592ca9c6226759e72ccf905e5400e0e75f195c2c2f6f8c49"
+        },
+        {
+          "path": "bone-motion/art-in/archer/guide/guide-back-256.png",
+          "bytes": 9016,
+          "sha256": "cde1014f27ee8f83165ed8175ad6729a46a5f78bc34732427150fd948a4f279d"
+        },
+        {
+          "path": "bone-motion/art-in/archer/guide/guide-back.png",
+          "bytes": 71975,
+          "sha256": "83b9fa4aeb03370b20a3897f271c437158250fa36415e340da3ccc2a80570a21"
+        },
+        {
+          "path": "bone-motion/art-in/archer/guide/guide-front-256.png",
+          "bytes": 9321,
+          "sha256": "39171381230ae36aabe10d4f0f2cf70002d9ad8b7ba32cb8c2eb2d49e8ce045e"
+        },
+        {
+          "path": "bone-motion/art-in/archer/guide/guide-front.png",
+          "bytes": 75698,
+          "sha256": "ebd84d2aba05a8a047a28f49f3c56a425c5953666c422bf538743944a12fcd22"
+        },
+        {
+          "path": "bone-motion/art-in/archer/guide/guide-side-256.png",
+          "bytes": 8864,
+          "sha256": "a90631531be432024e306c25583dce5b71425dbb71367225446c5c194417d3ad"
+        },
+        {
+          "path": "bone-motion/art-in/archer/guide/guide-side.png",
+          "bytes": 70833,
+          "sha256": "f2dc2a74f1fc94bdafc1767786ab76095ff24afc251537700844bafa596138c1"
+        },
+        {
+          "path": "bone-motion/art-in/caohong/guide/guide-back-256.png",
+          "bytes": 9765,
+          "sha256": "c6f3e79a1a0eddce2eebfc52792bc5d1e447b7723e3bbd8e46352ea18c0a226c"
+        },
+        {
+          "path": "bone-motion/art-in/caohong/guide/guide-back.png",
+          "bytes": 75984,
+          "sha256": "3a7fa1dae129389ca944d4780f178736a070d77e726d1ec96961b72ee5d785a2"
+        },
+        {
+          "path": "bone-motion/art-in/caohong/guide/guide-front-256.png",
+          "bytes": 9778,
+          "sha256": "0ee885e23b6224241da6ea274e160c8331fbec9bb7c4746bdd417f5dc4e43f7d"
+        },
+        {
+          "path": "bone-motion/art-in/caohong/guide/guide-front.png",
+          "bytes": 78538,
+          "sha256": "568aac8059dbc4820acaef943cc0149c395c1489a1df83aecce54c015ba572b0"
+        },
+        {
+          "path": "bone-motion/art-in/caohong/guide/guide-side-256.png",
+          "bytes": 9199,
+          "sha256": "846f9f70b8e7e311dda320021d1f0d1b1f9a88fec9ef5d5e48425f9bea516adf"
+        },
+        {
+          "path": "bone-motion/art-in/caohong/guide/guide-side.png",
+          "bytes": 75812,
+          "sha256": "ae24b149304a35267d058d2add6937fa6efb91d25fb47a1ba0953ea47afbd07c"
+        },
+        {
+          "path": "bone-motion/art-in/dianwei/guide/guide-back-256.png",
+          "bytes": 10199,
+          "sha256": "880c078cc0f5c6dcc8e9e92668563d310f00e68bd667af1d73fdefb7a9e70ef1"
+        },
+        {
+          "path": "bone-motion/art-in/dianwei/guide/guide-back.png",
+          "bytes": 79149,
+          "sha256": "5dc5c225ff816ae0751aaf0355f76af05b595fab3d7cb520df364c8722592bd8"
+        },
+        {
+          "path": "bone-motion/art-in/dianwei/guide/guide-front-256.png",
+          "bytes": 10030,
+          "sha256": "2e5f9e968c3eeb5c1eebf76843c3f9d1e81ad726778973f3ce29ac979393ec38"
+        },
+        {
+          "path": "bone-motion/art-in/dianwei/guide/guide-front.png",
+          "bytes": 81588,
+          "sha256": "71265810b8b57b77ef30241047f2d6d302cc7019362bca890d74f18990af6b65"
+        },
+        {
+          "path": "bone-motion/art-in/dianwei/guide/guide-side-256.png",
+          "bytes": 9782,
+          "sha256": "148d46639cc8700a68b8c8944c4faba290af1c646bd012e628bcd13c6a5235a8"
+        },
+        {
+          "path": "bone-motion/art-in/dianwei/guide/guide-side.png",
+          "bytes": 80025,
+          "sha256": "19b94b2766d664fe11d32e305745349beafa50f4544fe0e1fbab27fd255bfbe9"
+        },
+        {
+          "path": "bone-motion/art-in/diaochan/guide/guide-back-256.png",
+          "bytes": 8381,
+          "sha256": "806f983347176e12682c062e374b33492ac0a165caa51d8211fc7f38ed71c9d3"
+        },
+        {
+          "path": "bone-motion/art-in/diaochan/guide/guide-back.png",
+          "bytes": 69315,
+          "sha256": "fdf15ea36b8efff029c17a328ce54941102e77d79ba9d6395ff7b3459c8ffae2"
+        },
+        {
+          "path": "bone-motion/art-in/diaochan/guide/guide-front-256.png",
+          "bytes": 8465,
+          "sha256": "7b25c8a6415fda9ffa651394df2adbac55383e970b7aa4390484f2becedc6f27"
+        },
+        {
+          "path": "bone-motion/art-in/diaochan/guide/guide-front.png",
+          "bytes": 69925,
+          "sha256": "6f40f4f0742fdaefddf7c6b3437fb2fd44b71f27a79e9c5f26210e23ef4c3d02"
+        },
+        {
+          "path": "bone-motion/art-in/diaochan/guide/guide-side-256.png",
+          "bytes": 7331,
+          "sha256": "5cca10e1d90f9c8a9650555dbfba7edd970cae90c909aa6e01f6a9cb58e9ff4e"
+        },
+        {
+          "path": "bone-motion/art-in/diaochan/guide/guide-side.png",
+          "bytes": 64614,
+          "sha256": "c8c73f3a9062239a5bb3fbdc7c04384505ac4bf0c6a6ad37dfa3698aab2a7aa6"
+        },
+        {
+          "path": "bone-motion/art-in/dingfeng/guide/guide-back-256.png",
+          "bytes": 9456,
+          "sha256": "ac57c6c98b4c088f2dc7a419939a5d53a7817da7ce46173df83762cb9900604a"
+        },
+        {
+          "path": "bone-motion/art-in/dingfeng/guide/guide-back.png",
+          "bytes": 72940,
+          "sha256": "32cce51773b512d9d13bfab450abefe91a8547d061d809b79c7fc87d2054e6a7"
+        },
+        {
+          "path": "bone-motion/art-in/dingfeng/guide/guide-front-256.png",
+          "bytes": 9508,
+          "sha256": "90fdfef1ec4a07412a84f6fbd8d7b73f9f227f6b0afdd36f569cdabc99fd9941"
+        },
+        {
+          "path": "bone-motion/art-in/dingfeng/guide/guide-front.png",
+          "bytes": 75733,
+          "sha256": "2261c07d03ed063e0677bdce4343438194be7589034d9e7720aa91f8311bd314"
+        },
+        {
+          "path": "bone-motion/art-in/dingfeng/guide/guide-side-256.png",
+          "bytes": 8457,
+          "sha256": "d3cb7f1d62b6f118e082813ebd99b24a5ca5ee1ec36aa9e3b24f161fbf81d007"
+        },
+        {
+          "path": "bone-motion/art-in/dingfeng/guide/guide-side.png",
+          "bytes": 70825,
+          "sha256": "2762f2fc146ac7c272b048a183e340fa8433dae577d38e1c773fe5b7be7ac733"
+        },
+        {
+          "path": "bone-motion/art-in/dongzhuo/guide/guide-back-256.png",
+          "bytes": 9743,
+          "sha256": "43be519290e10cc593d57705bd4cc66ac81d1dc1c1ff6a948df0789a15a2ac43"
+        },
+        {
+          "path": "bone-motion/art-in/dongzhuo/guide/guide-back.png",
+          "bytes": 74799,
+          "sha256": "c6a7b048b878c8c5c68edc695f4a2a45f28e855d58410e2d6a8f4383d672e21a"
+        },
+        {
+          "path": "bone-motion/art-in/dongzhuo/guide/guide-front-256.png",
+          "bytes": 9798,
+          "sha256": "5993ef7a9b8c08effaf9704bed5ff1b07be00343768ca786605cf36b0b442e04"
+        },
+        {
+          "path": "bone-motion/art-in/dongzhuo/guide/guide-front.png",
+          "bytes": 79574,
+          "sha256": "8d345dd6e8de59f4f6e1c4d1d169de3a722baab8858b1c21f1709884d1816a7c"
+        },
+        {
+          "path": "bone-motion/art-in/dongzhuo/guide/guide-side-256.png",
+          "bytes": 8821,
+          "sha256": "178ef2b40e36eff74064a11b12e4afb3ca2ce91667c0a294464348b23a35549d"
+        },
+        {
+          "path": "bone-motion/art-in/dongzhuo/guide/guide-side.png",
+          "bytes": 73091,
+          "sha256": "0cb9393b588ff49eae6b53fdb63828e77adb7a7973147703cea111f2d96ba75c"
+        },
+        {
+          "path": "bone-motion/art-in/ganning/guide/guide-back-256.png",
+          "bytes": 9442,
+          "sha256": "532b32e3423d991ec0d51007a0c4ad2d6995afa881a9981a06659cf04615cc27"
+        },
+        {
+          "path": "bone-motion/art-in/ganning/guide/guide-back.png",
+          "bytes": 74284,
+          "sha256": "136f1e3493e1732fe8d03678637518c044429d9fde5720ea4f2051b6002e0c3d"
+        },
+        {
+          "path": "bone-motion/art-in/ganning/guide/guide-front-256.png",
+          "bytes": 9626,
+          "sha256": "4aef0a01200adf7c7d5be8ed126ab3ca93ec3e7d509a6cec72983be0fb3b0f02"
+        },
+        {
+          "path": "bone-motion/art-in/ganning/guide/guide-front.png",
+          "bytes": 77388,
+          "sha256": "cf03008f0353c3a941d4e617b7e2bab445e228bf5a4d449ee9db9b44c4068489"
+        },
+        {
+          "path": "bone-motion/art-in/ganning/guide/guide-side-256.png",
+          "bytes": 8446,
+          "sha256": "fcbdd37d551a40eae83163e9de4d14fefc995da40adff6f465ed1ec8d0fe4e2b"
+        },
+        {
+          "path": "bone-motion/art-in/ganning/guide/guide-side.png",
+          "bytes": 71118,
+          "sha256": "e496c90e8d212d870c7a4bad274de77ba033b953f43e66d28eef800b6a394bf1"
+        },
+        {
+          "path": "bone-motion/art-in/gongsunzan/guide/guide-back-256.png",
+          "bytes": 13006,
+          "sha256": "deb247facf90f7662b1026339d95a4378f41cbe22eb2beb508cb36c76f174d80"
+        },
+        {
+          "path": "bone-motion/art-in/gongsunzan/guide/guide-back.png",
+          "bytes": 99063,
+          "sha256": "1208903471a8efeeb6a1f44f12d4854449857d79c6ae8609697eda3ff5e944ae"
+        },
+        {
+          "path": "bone-motion/art-in/gongsunzan/guide/guide-front-256.png",
+          "bytes": 12746,
+          "sha256": "69896c40cc6c6d0e1a9794f388980878c3a3d8d7773f2a52b46bcd6c2eddbccf"
+        },
+        {
+          "path": "bone-motion/art-in/gongsunzan/guide/guide-front.png",
+          "bytes": 98305,
+          "sha256": "70b2b454213a6844bd27a8167eb19d23b89a3abba32df2e3715416443b957e55"
+        },
+        {
+          "path": "bone-motion/art-in/gongsunzan/guide/guide-side-256.png",
+          "bytes": 17731,
+          "sha256": "7d29edfec484f5502ce0d50c2523135fb4cbec8cb532993daa7aaa65b7105192"
+        },
+        {
+          "path": "bone-motion/art-in/gongsunzan/guide/guide-side.png",
+          "bytes": 133046,
+          "sha256": "51d2ff5016cfeaef78a8751a303056abacce3f09db7891c115b2509faa9e8ea0"
+        },
+        {
+          "path": "bone-motion/art-in/guojia/guide/guide-back-256.png",
+          "bytes": 8381,
+          "sha256": "806f983347176e12682c062e374b33492ac0a165caa51d8211fc7f38ed71c9d3"
+        },
+        {
+          "path": "bone-motion/art-in/guojia/guide/guide-back.png",
+          "bytes": 69316,
+          "sha256": "20bb08b789cd9041ff0f11bde6a97f639d647bbad12a96a52e953b2d7e7c7c45"
+        },
+        {
+          "path": "bone-motion/art-in/guojia/guide/guide-front-256.png",
+          "bytes": 8465,
+          "sha256": "7b25c8a6415fda9ffa651394df2adbac55383e970b7aa4390484f2becedc6f27"
+        },
+        {
+          "path": "bone-motion/art-in/guojia/guide/guide-front.png",
+          "bytes": 69817,
+          "sha256": "b989233050c02dbcb709645d4439c0a48b467d8545490ca1c112089ae370d15a"
+        },
+        {
+          "path": "bone-motion/art-in/guojia/guide/guide-side-256.png",
+          "bytes": 7331,
+          "sha256": "5cca10e1d90f9c8a9650555dbfba7edd970cae90c909aa6e01f6a9cb58e9ff4e"
+        },
+        {
+          "path": "bone-motion/art-in/guojia/guide/guide-side.png",
+          "bytes": 64513,
+          "sha256": "37178689ac13d986af815671c036d7679d6ede120291af595bdc947a509a7d40"
+        },
+        {
+          "path": "bone-motion/art-in/huanggai/guide/guide-back-256.png",
+          "bytes": 9774,
+          "sha256": "effbe0365b8ac9cd0e59d3c304f8cea7c044e9420267feab3e064d9fac00f647"
+        },
+        {
+          "path": "bone-motion/art-in/huanggai/guide/guide-back.png",
+          "bytes": 75935,
+          "sha256": "bc2e0c0757b980769562bee64bd00d59fb0118599d172e5228df47fa27d6ec79"
+        },
+        {
+          "path": "bone-motion/art-in/huanggai/guide/guide-front-256.png",
+          "bytes": 10160,
+          "sha256": "83276ad2c0efaf4c671dface742a8a3623654dc2f89a8b8f697e9b2136a8c6a7"
+        },
+        {
+          "path": "bone-motion/art-in/huanggai/guide/guide-front.png",
+          "bytes": 80827,
+          "sha256": "0f3740a30e6f37b62aa4e57d9f8af4383ae395de0ac63bb42171be7745c8a351"
+        },
+        {
+          "path": "bone-motion/art-in/huanggai/guide/guide-side-256.png",
+          "bytes": 8416,
+          "sha256": "73368477ac22f45ff15989fd2b2a23f356938650b22858a2812707e1edd01a0e"
+        },
+        {
+          "path": "bone-motion/art-in/huanggai/guide/guide-side.png",
+          "bytes": 70216,
+          "sha256": "6172ce16b1c6a1d0b8ffef8e2d4844263b00ae41211f0f82beed4536c3a6b4d4"
+        },
+        {
+          "path": "bone-motion/art-in/huatuo/guide/guide-back-256.png",
+          "bytes": 8312,
+          "sha256": "8990434e2e7710210f5c4ac67fb9d123a4c197715ec1363b7454001351cf8417"
+        },
+        {
+          "path": "bone-motion/art-in/huatuo/guide/guide-back.png",
+          "bytes": 68250,
+          "sha256": "5437cf3a55c68eaaba96857d5cb8a43550771893948b4f152e64a177201e1658"
+        },
+        {
+          "path": "bone-motion/art-in/huatuo/guide/guide-front-256.png",
+          "bytes": 8572,
+          "sha256": "9f5c752e0265d6f67f9c290fd88561d272273908d05d04dc451ec9d9d7715e5e"
+        },
+        {
+          "path": "bone-motion/art-in/huatuo/guide/guide-front.png",
+          "bytes": 70435,
+          "sha256": "cdacaa754f0c09fd031924b8829f97bb3b8049e5c7e84fbc84cee895386bfce6"
+        },
+        {
+          "path": "bone-motion/art-in/huatuo/guide/guide-side-256.png",
+          "bytes": 7439,
+          "sha256": "c5279eef4c3d461a6778af587966467f19f5ba7f21991234c66966d768103cfe"
+        },
+        {
+          "path": "bone-motion/art-in/huatuo/guide/guide-side.png",
+          "bytes": 64447,
+          "sha256": "332b1bc785da397d21e76b8c1922c503953b823b08de2193a40239d143903651"
+        },
+        {
+          "path": "bone-motion/art-in/huaxiong/guide/guide-back-256.png",
+          "bytes": 9772,
+          "sha256": "ac8b7942b3c6b174f7169a58838a228c969b0c7f4c5a32606716767ea16b2817"
+        },
+        {
+          "path": "bone-motion/art-in/huaxiong/guide/guide-back.png",
+          "bytes": 75258,
+          "sha256": "0dbc1eaaeeca071cf37251fcfee763b703271acf412641a26309ffd5f6585f61"
+        },
+        {
+          "path": "bone-motion/art-in/huaxiong/guide/guide-front-256.png",
+          "bytes": 10003,
+          "sha256": "55eda154ec33e08f5fa18aab38950dd94aa4a96b120197f0b2ef1961e54128b6"
+        },
+        {
+          "path": "bone-motion/art-in/huaxiong/guide/guide-front.png",
+          "bytes": 79458,
+          "sha256": "cb52533eab3b330f0143457b61fbb4a79323e0b0b495b26f4c050271e9d1c963"
+        },
+        {
+          "path": "bone-motion/art-in/huaxiong/guide/guide-side-256.png",
+          "bytes": 8989,
+          "sha256": "59f38123e10c1b05c40bf1b9a88769567bd1e224333dd5c4e4f7a6d46746a9b1"
+        },
+        {
+          "path": "bone-motion/art-in/huaxiong/guide/guide-side.png",
+          "bytes": 74038,
+          "sha256": "79de6e0356943aa446a08d149565fad03b4e2bce4e08f2e0449ce4a8d9832f79"
+        },
+        {
+          "path": "bone-motion/art-in/infantry/guide/guide-back-256.png",
+          "bytes": 9765,
+          "sha256": "c6f3e79a1a0eddce2eebfc52792bc5d1e447b7723e3bbd8e46352ea18c0a226c"
+        },
+        {
+          "path": "bone-motion/art-in/infantry/guide/guide-back.png",
+          "bytes": 75909,
+          "sha256": "c5efe3139429fcae4c3dafda97a853eaa8f8b4162ac8421621ea5bb621d0f1e7"
+        },
+        {
+          "path": "bone-motion/art-in/infantry/guide/guide-front-256.png",
+          "bytes": 9778,
+          "sha256": "0ee885e23b6224241da6ea274e160c8331fbec9bb7c4746bdd417f5dc4e43f7d"
+        },
+        {
+          "path": "bone-motion/art-in/infantry/guide/guide-front.png",
+          "bytes": 78435,
+          "sha256": "8aaff735504fff5982134b46d3341b0e7544876ccc0b5c7f22b46284801f6b77"
+        },
+        {
+          "path": "bone-motion/art-in/infantry/guide/guide-side-256.png",
+          "bytes": 9199,
+          "sha256": "846f9f70b8e7e311dda320021d1f0d1b1f9a88fec9ef5d5e48425f9bea516adf"
+        },
+        {
+          "path": "bone-motion/art-in/infantry/guide/guide-side.png",
+          "bytes": 75414,
+          "sha256": "702acf8dbdf6a8dc1896eb45b1a4440f21dd229ed1f82306d4935a28698faf50"
+        },
+        {
+          "path": "bone-motion/art-in/jiangwei/guide/guide-back-256.png",
+          "bytes": 9385,
+          "sha256": "acf438fca7bc1bcfbc273ef084e09088ece69bee0afda6f3a27fac315603f2cb"
+        },
+        {
+          "path": "bone-motion/art-in/jiangwei/guide/guide-back.png",
+          "bytes": 74404,
+          "sha256": "4a92665e30dc06ffdb0baeeee924731d8cc57d1519c83e860ab6c6b917bdb7a8"
+        },
+        {
+          "path": "bone-motion/art-in/jiangwei/guide/guide-front-256.png",
+          "bytes": 9722,
+          "sha256": "d9b0d0aff4802754ab9b59fa1b3f5a4b39abbea56ad0c112532ab8148ea84913"
+        },
+        {
+          "path": "bone-motion/art-in/jiangwei/guide/guide-front.png",
+          "bytes": 78896,
+          "sha256": "e11976e8bdc61a4e39f813f49da2462a6d2384a4e2f7b43da300a14a184a3c6d"
+        },
+        {
+          "path": "bone-motion/art-in/jiangwei/guide/guide-side-256.png",
+          "bytes": 9153,
+          "sha256": "eb76f6b90a73cc5f7dbe3556cb597c59ef8b5e2f513ff142f7476c1fd8346974"
+        },
+        {
+          "path": "bone-motion/art-in/jiangwei/guide/guide-side.png",
+          "bytes": 75317,
+          "sha256": "845b9d41896448b97a5dcb341cd885e59f7b7d717ab8315df658c8228d062d2d"
+        },
+        {
+          "path": "bone-motion/art-in/liaohua/guide/guide-back-256.png",
+          "bytes": 9489,
+          "sha256": "3154df14466c981ac092e56289bfd71530e9e77a571204ce57e98ee316564aa4"
+        },
+        {
+          "path": "bone-motion/art-in/liaohua/guide/guide-back.png",
+          "bytes": 72975,
+          "sha256": "83c21299046a0ec94cf7d9f18937707fc178eab93b37b4f1e96a0f6305c71e58"
+        },
+        {
+          "path": "bone-motion/art-in/liaohua/guide/guide-front-256.png",
+          "bytes": 9592,
+          "sha256": "28d1922695f87c07f0b854a4ac042462b5b1309d1a68358665cf22d0796212a4"
+        },
+        {
+          "path": "bone-motion/art-in/liaohua/guide/guide-front.png",
+          "bytes": 76432,
+          "sha256": "f5c37906a066bc9bd5fe06febcf8268d0adc75b84d8171d68e81a66faaa7ef95"
+        },
+        {
+          "path": "bone-motion/art-in/liaohua/guide/guide-side-256.png",
+          "bytes": 8587,
+          "sha256": "cb5ae9b71cfef6828999b0fad501bbd29917298f8897f8f8a62891d3dc23499c"
+        },
+        {
+          "path": "bone-motion/art-in/liaohua/guide/guide-side.png",
+          "bytes": 71030,
+          "sha256": "01a84d9f98397ba7a3d34fefbe45d8e528c3815a72cd713c968de3f797c68316"
+        },
+        {
+          "path": "bone-motion/art-in/lumeng/guide/guide-back-256.png",
+          "bytes": 9385,
+          "sha256": "acf438fca7bc1bcfbc273ef084e09088ece69bee0afda6f3a27fac315603f2cb"
+        },
+        {
+          "path": "bone-motion/art-in/lumeng/guide/guide-back.png",
+          "bytes": 74481,
+          "sha256": "1c24946884797493b106754b73d2a3e039e8aeea7b2c8d9d06c9b14abdd38cef"
+        },
+        {
+          "path": "bone-motion/art-in/lumeng/guide/guide-front-256.png",
+          "bytes": 9722,
+          "sha256": "d9b0d0aff4802754ab9b59fa1b3f5a4b39abbea56ad0c112532ab8148ea84913"
+        },
+        {
+          "path": "bone-motion/art-in/lumeng/guide/guide-front.png",
+          "bytes": 78964,
+          "sha256": "460e45fb9a2ca7a706c758c139a0479d2a0dc8c021999e5af716c3295a294fd2"
+        },
+        {
+          "path": "bone-motion/art-in/lumeng/guide/guide-side-256.png",
+          "bytes": 9153,
+          "sha256": "eb76f6b90a73cc5f7dbe3556cb597c59ef8b5e2f513ff142f7476c1fd8346974"
+        },
+        {
+          "path": "bone-motion/art-in/lumeng/guide/guide-side.png",
+          "bytes": 75366,
+          "sha256": "dbfb32e469b4bc57a441c9951d26cdf9d141b3ad881fd8c555f10261422c06f1"
+        },
+        {
+          "path": "bone-motion/art-in/lusu/guide/guide-back-256.png",
+          "bytes": 8312,
+          "sha256": "8990434e2e7710210f5c4ac67fb9d123a4c197715ec1363b7454001351cf8417"
+        },
+        {
+          "path": "bone-motion/art-in/lusu/guide/guide-back.png",
+          "bytes": 68395,
+          "sha256": "ed974f56d2a080b4595aa373e0831712a22ffe3fe2ae450c1bf0d6461de76f3a"
+        },
+        {
+          "path": "bone-motion/art-in/lusu/guide/guide-front-256.png",
+          "bytes": 8572,
+          "sha256": "9f5c752e0265d6f67f9c290fd88561d272273908d05d04dc451ec9d9d7715e5e"
+        },
+        {
+          "path": "bone-motion/art-in/lusu/guide/guide-front.png",
+          "bytes": 70470,
+          "sha256": "63ef11d919dc369961bedddc5d2bd09e6f1f28d0a74e6e3fb66fc45bcf313e58"
+        },
+        {
+          "path": "bone-motion/art-in/lusu/guide/guide-side-256.png",
+          "bytes": 7439,
+          "sha256": "c5279eef4c3d461a6778af587966467f19f5ba7f21991234c66966d768103cfe"
+        },
+        {
+          "path": "bone-motion/art-in/lusu/guide/guide-side.png",
+          "bytes": 64582,
+          "sha256": "6f09b2dd07943fdf07a381220d1291ed032f5e1852773e4260a042dc344922f2"
+        },
+        {
+          "path": "bone-motion/art-in/luxun/guide/guide-back-256.png",
+          "bytes": 8312,
+          "sha256": "8990434e2e7710210f5c4ac67fb9d123a4c197715ec1363b7454001351cf8417"
+        },
+        {
+          "path": "bone-motion/art-in/luxun/guide/guide-back.png",
+          "bytes": 68420,
+          "sha256": "1a91f4917324af245db96dacab880b7b419776e93c47e2569bc55e8fe21ab386"
+        },
+        {
+          "path": "bone-motion/art-in/luxun/guide/guide-front-256.png",
+          "bytes": 8572,
+          "sha256": "9f5c752e0265d6f67f9c290fd88561d272273908d05d04dc451ec9d9d7715e5e"
+        },
+        {
+          "path": "bone-motion/art-in/luxun/guide/guide-front.png",
+          "bytes": 70541,
+          "sha256": "1f90682f8490c543452998ded6dbfa59897831d5ae33b8c66a3b4ded5bdadeed"
+        },
+        {
+          "path": "bone-motion/art-in/luxun/guide/guide-side-256.png",
+          "bytes": 7439,
+          "sha256": "c5279eef4c3d461a6778af587966467f19f5ba7f21991234c66966d768103cfe"
+        },
+        {
+          "path": "bone-motion/art-in/luxun/guide/guide-side.png",
+          "bytes": 64816,
+          "sha256": "1a138c49ea659e7a27d24bff602d6e5dc3aaf09db70c3c9bba380b8e1e000b84"
+        },
+        {
+          "path": "bone-motion/art-in/machao/guide/guide-back-256.png",
+          "bytes": 13006,
+          "sha256": "deb247facf90f7662b1026339d95a4378f41cbe22eb2beb508cb36c76f174d80"
+        },
+        {
+          "path": "bone-motion/art-in/machao/guide/guide-back.png",
+          "bytes": 98782,
+          "sha256": "aa9b3d7e31a5c4a9a36b50b46c9885fc5e9e078f700e227e4d30e4a6eb3ecbc6"
+        },
+        {
+          "path": "bone-motion/art-in/machao/guide/guide-front-256.png",
+          "bytes": 12746,
+          "sha256": "69896c40cc6c6d0e1a9794f388980878c3a3d8d7773f2a52b46bcd6c2eddbccf"
+        },
+        {
+          "path": "bone-motion/art-in/machao/guide/guide-front.png",
+          "bytes": 98017,
+          "sha256": "0c9b599b136ddcde909db96d8d9f25966d32400e3e7791ecf1297f1351b5e74c"
+        },
+        {
+          "path": "bone-motion/art-in/machao/guide/guide-side-256.png",
+          "bytes": 17731,
+          "sha256": "7d29edfec484f5502ce0d50c2523135fb4cbec8cb532993daa7aaa65b7105192"
+        },
+        {
+          "path": "bone-motion/art-in/machao/guide/guide-side.png",
+          "bytes": 132999,
+          "sha256": "3c355e35cfd7b909b6978f011679a0c1a107a8bf6c682245790e60880f669514"
+        },
+        {
+          "path": "bone-motion/art-in/pangtong/guide/guide-back-256.png",
+          "bytes": 8312,
+          "sha256": "8990434e2e7710210f5c4ac67fb9d123a4c197715ec1363b7454001351cf8417"
+        },
+        {
+          "path": "bone-motion/art-in/pangtong/guide/guide-back.png",
+          "bytes": 68626,
+          "sha256": "5d9e2ed86484b9ba42067755503ec2552d7010d3f9c3c83249d23d9b1f6f1b98"
+        },
+        {
+          "path": "bone-motion/art-in/pangtong/guide/guide-front-256.png",
+          "bytes": 8572,
+          "sha256": "9f5c752e0265d6f67f9c290fd88561d272273908d05d04dc451ec9d9d7715e5e"
+        },
+        {
+          "path": "bone-motion/art-in/pangtong/guide/guide-front.png",
+          "bytes": 70791,
+          "sha256": "53c326dbc98d5c2de5f97ec4725b5aa9e51cd1bb6bc71d2445ee0c496e80cb57"
+        },
+        {
+          "path": "bone-motion/art-in/pangtong/guide/guide-side-256.png",
+          "bytes": 7439,
+          "sha256": "c5279eef4c3d461a6778af587966467f19f5ba7f21991234c66966d768103cfe"
+        },
+        {
+          "path": "bone-motion/art-in/pangtong/guide/guide-side.png",
+          "bytes": 64870,
+          "sha256": "223d010977077dd9d1baf9faf0966174236116407e3a39aa786d45ab8bdcc7d6"
+        },
+        {
+          "path": "bone-motion/art-in/panzhang/guide/guide-back-256.png",
+          "bytes": 9774,
+          "sha256": "effbe0365b8ac9cd0e59d3c304f8cea7c044e9420267feab3e064d9fac00f647"
+        },
+        {
+          "path": "bone-motion/art-in/panzhang/guide/guide-back.png",
+          "bytes": 76071,
+          "sha256": "288fcf3bf3b706a0335499a3a01ed80ee525a2d147543ca1055a92a74b9cd6bb"
+        },
+        {
+          "path": "bone-motion/art-in/panzhang/guide/guide-front-256.png",
+          "bytes": 10160,
+          "sha256": "83276ad2c0efaf4c671dface742a8a3623654dc2f89a8b8f697e9b2136a8c6a7"
+        },
+        {
+          "path": "bone-motion/art-in/panzhang/guide/guide-front.png",
+          "bytes": 80966,
+          "sha256": "1dbd8293f37b28879d5451801a4b9fb24600b9646ee8c591243235154ac077b4"
+        },
+        {
+          "path": "bone-motion/art-in/panzhang/guide/guide-side-256.png",
+          "bytes": 8416,
+          "sha256": "73368477ac22f45ff15989fd2b2a23f356938650b22858a2812707e1edd01a0e"
+        },
+        {
+          "path": "bone-motion/art-in/panzhang/guide/guide-side.png",
+          "bytes": 70094,
+          "sha256": "904485a12b12c9aa46ad176adf1a3d1fd81c013864b5d80766ef99d6a2229f5e"
+        },
+        {
+          "path": "bone-motion/art-in/simayi/guide/guide-back-256.png",
+          "bytes": 8312,
+          "sha256": "8990434e2e7710210f5c4ac67fb9d123a4c197715ec1363b7454001351cf8417"
+        },
+        {
+          "path": "bone-motion/art-in/simayi/guide/guide-back.png",
+          "bytes": 68060,
+          "sha256": "0ee4ae4e82d321aad059f09d3ef63902aabce46f54e0d6fdd52b5c5b46052f2e"
+        },
+        {
+          "path": "bone-motion/art-in/simayi/guide/guide-front-256.png",
+          "bytes": 8572,
+          "sha256": "9f5c752e0265d6f67f9c290fd88561d272273908d05d04dc451ec9d9d7715e5e"
+        },
+        {
+          "path": "bone-motion/art-in/simayi/guide/guide-front.png",
+          "bytes": 70366,
+          "sha256": "00ef084246757b7f53c56fcc7e56f2f796ee2d71cda1466397f82751a7ea2618"
+        },
+        {
+          "path": "bone-motion/art-in/simayi/guide/guide-side-256.png",
+          "bytes": 7439,
+          "sha256": "c5279eef4c3d461a6778af587966467f19f5ba7f21991234c66966d768103cfe"
+        },
+        {
+          "path": "bone-motion/art-in/simayi/guide/guide-side.png",
+          "bytes": 64266,
+          "sha256": "b42770c6bbdd2a689864bd88f4cb21c0fcc007855d668a1d503727d6fb2e0f45"
+        },
+        {
+          "path": "bone-motion/art-in/sunce/guide/guide-back-256.png",
+          "bytes": 9827,
+          "sha256": "b78385cf6fae0842ffe4ab590a715b86ebcddc05bc2b8845ed8f85204a6fbf4f"
+        },
+        {
+          "path": "bone-motion/art-in/sunce/guide/guide-back.png",
+          "bytes": 76688,
+          "sha256": "f44b89eeba3ff790b6acb6e040ac89aea83e54ad48d78a0333f0714a5fa0c9bd"
+        },
+        {
+          "path": "bone-motion/art-in/sunce/guide/guide-front-256.png",
+          "bytes": 9587,
+          "sha256": "7894628afc9c28f2354269605a7219afe1dcdd879bac4401ab71efd716b9bee4"
+        },
+        {
+          "path": "bone-motion/art-in/sunce/guide/guide-front.png",
+          "bytes": 77077,
+          "sha256": "98dec2f8749693b1da150f56e0131f686714359c5bdf58976c4b13a372d64906"
+        },
+        {
+          "path": "bone-motion/art-in/sunce/guide/guide-side-256.png",
+          "bytes": 9253,
+          "sha256": "f61ac25e2a616df488ef410bbf5e81a85c35b65bc774e6442a24b8ba6a599d1c"
+        },
+        {
+          "path": "bone-motion/art-in/sunce/guide/guide-side.png",
+          "bytes": 75967,
+          "sha256": "069cd2f3f911e0cd9bbdbb7cc01bc6e1b17ca0b7e6c1a0397785501bd482530a"
+        },
+        {
+          "path": "bone-motion/art-in/sunquan/guide/guide-back-256.png",
+          "bytes": 9486,
+          "sha256": "4d16012cbba6a75d9de8128844a8e580371e7534ae00b43229dccf922eb34ac6"
+        },
+        {
+          "path": "bone-motion/art-in/sunquan/guide/guide-back.png",
+          "bytes": 74666,
+          "sha256": "3787a5c3e7d0aa068bed83bb990427188a748d17cf44a72844cc8d909713a0ed"
+        },
+        {
+          "path": "bone-motion/art-in/sunquan/guide/guide-front-256.png",
+          "bytes": 9305,
+          "sha256": "202cc456dc64a8425a471a5efd0a41066b1061ae8aea2c14ce8ad9718dfb69d0"
+        },
+        {
+          "path": "bone-motion/art-in/sunquan/guide/guide-front.png",
+          "bytes": 73603,
+          "sha256": "a31c1810fcaa6ce8e648e8445347e9bf883464a04c1e4097a279c9baaa62b9c2"
+        },
+        {
+          "path": "bone-motion/art-in/sunquan/guide/guide-side-256.png",
+          "bytes": 8102,
+          "sha256": "1aec5c35f14b0f6a2cbba84856b801cb2bd434a8474f2d740a7b29dc96150fe1"
+        },
+        {
+          "path": "bone-motion/art-in/sunquan/guide/guide-side.png",
+          "bytes": 69186,
+          "sha256": "7cd76d54ea2a17fd0848a6996a0d3c6a5ce4b9589d1d1faf0a33d355a8d86194"
+        },
+        {
+          "path": "bone-motion/art-in/sunshangxiang/guide/guide-back-256.png",
+          "bytes": 9090,
+          "sha256": "c2888a2a7df98740c77e983d84d46d13e146d82ea05ae6bb28bae6a256999ad2"
+        },
+        {
+          "path": "bone-motion/art-in/sunshangxiang/guide/guide-back.png",
+          "bytes": 73532,
+          "sha256": "1f09938021fb9db4c2ee2ba475b78b80766aaa417edf53fee44cd4384b7e9bbe"
+        },
+        {
+          "path": "bone-motion/art-in/sunshangxiang/guide/guide-front-256.png",
+          "bytes": 9175,
+          "sha256": "c27b063d23348d4c60da07875999221e97c0d529c8c9af93bd02f73abd700bc8"
+        },
+        {
+          "path": "bone-motion/art-in/sunshangxiang/guide/guide-front.png",
+          "bytes": 74889,
+          "sha256": "f62cac7ba99a12f2dc783dfddf5832d117399fb8fd9e7b584a2ef07ecf86b5ee"
+        },
+        {
+          "path": "bone-motion/art-in/sunshangxiang/guide/guide-side-256.png",
+          "bytes": 8898,
+          "sha256": "715ecd31a0e02c4b5cb2bdfebddd8e4b2144693805297e0fdacbe8e7ede53a6b"
+        },
+        {
+          "path": "bone-motion/art-in/sunshangxiang/guide/guide-side.png",
+          "bytes": 71853,
+          "sha256": "d7413feefaa4d751ca087481c1456b795ec7fbf19dfa29e793403f1f2e14ea8c"
+        },
+        {
+          "path": "bone-motion/art-in/tactician/guide/guide-back-256.png",
+          "bytes": 8312,
+          "sha256": "8990434e2e7710210f5c4ac67fb9d123a4c197715ec1363b7454001351cf8417"
+        },
+        {
+          "path": "bone-motion/art-in/tactician/guide/guide-back.png",
+          "bytes": 68526,
+          "sha256": "845744fb1799951587f7ab277cdfd3ef5ec89d1975ca0d64a5713b92ab623880"
+        },
+        {
+          "path": "bone-motion/art-in/tactician/guide/guide-front-256.png",
+          "bytes": 8572,
+          "sha256": "9f5c752e0265d6f67f9c290fd88561d272273908d05d04dc451ec9d9d7715e5e"
+        },
+        {
+          "path": "bone-motion/art-in/tactician/guide/guide-front.png",
+          "bytes": 70719,
+          "sha256": "1f67063abb572d94fb1e28ed8198583b2d8db510b649bb42025db52155455259"
+        },
+        {
+          "path": "bone-motion/art-in/tactician/guide/guide-side-256.png",
+          "bytes": 7439,
+          "sha256": "c5279eef4c3d461a6778af587966467f19f5ba7f21991234c66966d768103cfe"
+        },
+        {
+          "path": "bone-motion/art-in/tactician/guide/guide-side.png",
+          "bytes": 64878,
+          "sha256": "2145e40d57f94f1eea6a4e5053dd513077b13ee8079815b4104bb0f757277376"
+        },
+        {
+          "path": "bone-motion/art-in/taishici/guide/guide-back-256.png",
+          "bytes": 9016,
+          "sha256": "cde1014f27ee8f83165ed8175ad6729a46a5f78bc34732427150fd948a4f279d"
+        },
+        {
+          "path": "bone-motion/art-in/taishici/guide/guide-back.png",
+          "bytes": 71806,
+          "sha256": "76a622008d28ae0a706432d24ebce3c720ef9f7d13c4efecb089180017280b61"
+        },
+        {
+          "path": "bone-motion/art-in/taishici/guide/guide-front-256.png",
+          "bytes": 9321,
+          "sha256": "39171381230ae36aabe10d4f0f2cf70002d9ad8b7ba32cb8c2eb2d49e8ce045e"
+        },
+        {
+          "path": "bone-motion/art-in/taishici/guide/guide-front.png",
+          "bytes": 75631,
+          "sha256": "e6802feb604cb3ba21401bc82c4ceb5172d8bcf5131e62d3a418dc7567278ade"
+        },
+        {
+          "path": "bone-motion/art-in/taishici/guide/guide-side-256.png",
+          "bytes": 8864,
+          "sha256": "a90631531be432024e306c25583dce5b71425dbb71367225446c5c194417d3ad"
+        },
+        {
+          "path": "bone-motion/art-in/taishici/guide/guide-side.png",
+          "bytes": 70816,
+          "sha256": "db24ba1255ea5430a672bc0ebd7b6d57fbe92d9865ef916ff30e5a8c92952101"
+        },
+        {
+          "path": "bone-motion/art-in/weiyan/guide/guide-back-256.png",
+          "bytes": 9600,
+          "sha256": "20fe777a8512fbabebf014c9f575cd1368ae9cc982fc8663a769f43fbcb6c17a"
+        },
+        {
+          "path": "bone-motion/art-in/weiyan/guide/guide-back.png",
+          "bytes": 73841,
+          "sha256": "69947c3ae35c9ed71095f7606f0fc220aa79843d7ea6d147950ff912968af97b"
+        },
+        {
+          "path": "bone-motion/art-in/weiyan/guide/guide-front-256.png",
+          "bytes": 9735,
+          "sha256": "59b477afef008385c788cde3f79f7f97f54d0fb711c7362c24f18915f16d2f1e"
+        },
+        {
+          "path": "bone-motion/art-in/weiyan/guide/guide-front.png",
+          "bytes": 78125,
+          "sha256": "b4b92693b58847070c0cd3b763e2de1275eb1e204207ef2a6ed8305412184631"
+        },
+        {
+          "path": "bone-motion/art-in/weiyan/guide/guide-side-256.png",
+          "bytes": 8749,
+          "sha256": "d03e55b409c485a50ec489fdbbf7bddb7fdff3a3368865a090edfd69d49829b5"
+        },
+        {
+          "path": "bone-motion/art-in/weiyan/guide/guide-side.png",
+          "bytes": 72279,
+          "sha256": "60ec90689077415e5c9e6f835916352d91e3deee70db8b1e828cac029fbcd9fc"
+        },
+        {
+          "path": "bone-motion/art-in/wenchou/guide/guide-back-256.png",
+          "bytes": 9508,
+          "sha256": "2ceadd33c7ae39c20bf8e5d000dc346c3220f59d541d53bd6609db32004ce896"
+        },
+        {
+          "path": "bone-motion/art-in/wenchou/guide/guide-back.png",
+          "bytes": 75527,
+          "sha256": "96fceb02eae05dacd29eaeaed62c6930aefd2a228d04791da18a94fb7f7fa884"
+        },
+        {
+          "path": "bone-motion/art-in/wenchou/guide/guide-front-256.png",
+          "bytes": 9830,
+          "sha256": "f2bb6b2b3d55131ea7e34c655618fb12cca8b8a1175419de58f488f86d909be9"
+        },
+        {
+          "path": "bone-motion/art-in/wenchou/guide/guide-front.png",
+          "bytes": 80040,
+          "sha256": "508cab0549e052fa6b5e74d5536ffb86831a3f39edbfa55d86b002922fe18496"
+        },
+        {
+          "path": "bone-motion/art-in/wenchou/guide/guide-side-256.png",
+          "bytes": 9450,
+          "sha256": "5987174b86bc11f333e89f1ef98afd3b732b782011d3f561eb1bda0ede372dfe"
+        },
+        {
+          "path": "bone-motion/art-in/wenchou/guide/guide-side.png",
+          "bytes": 76587,
+          "sha256": "382b5ace62e0d0ff0c807f28508e4c9757340db0fb93af86f100886218caeb83"
+        },
+        {
+          "path": "bone-motion/art-in/xiahouyuan/guide/guide-back-256.png",
+          "bytes": 9016,
+          "sha256": "cde1014f27ee8f83165ed8175ad6729a46a5f78bc34732427150fd948a4f279d"
+        },
+        {
+          "path": "bone-motion/art-in/xiahouyuan/guide/guide-back.png",
+          "bytes": 71842,
+          "sha256": "d533ca6c8152d6b20201a64d681409d2a167a93133aca8b7139a27de0bb9f762"
+        },
+        {
+          "path": "bone-motion/art-in/xiahouyuan/guide/guide-front-256.png",
+          "bytes": 9321,
+          "sha256": "39171381230ae36aabe10d4f0f2cf70002d9ad8b7ba32cb8c2eb2d49e8ce045e"
+        },
+        {
+          "path": "bone-motion/art-in/xiahouyuan/guide/guide-front.png",
+          "bytes": 75940,
+          "sha256": "d2a65e2956b17fa02bee6d302d26816cc88b4db7fe124fa3d63936f149fb5df3"
+        },
+        {
+          "path": "bone-motion/art-in/xiahouyuan/guide/guide-side-256.png",
+          "bytes": 8864,
+          "sha256": "a90631531be432024e306c25583dce5b71425dbb71367225446c5c194417d3ad"
+        },
+        {
+          "path": "bone-motion/art-in/xiahouyuan/guide/guide-side.png",
+          "bytes": 71008,
+          "sha256": "0dd563e57937eb520342e72687dc63ba9c0894a5e9f8aa1b6693e90042b33b72"
+        },
+        {
+          "path": "bone-motion/art-in/xuchu/guide/guide-back-256.png",
+          "bytes": 9223,
+          "sha256": "e76a1e65df788af1c30c179291d3fd27778635b4d7761fece66feffe0cca9375"
+        },
+        {
+          "path": "bone-motion/art-in/xuchu/guide/guide-back.png",
+          "bytes": 73096,
+          "sha256": "76d0b363f8f8ec8c585b77f4c3ad77ecc5bb03b91997d0d8e7c3fea1033a5510"
+        },
+        {
+          "path": "bone-motion/art-in/xuchu/guide/guide-front-256.png",
+          "bytes": 9987,
+          "sha256": "1d8454326f6280a89d8d73e228159bbdc6d6ca16f29fc7a3c3ae02704b4e4746"
+        },
+        {
+          "path": "bone-motion/art-in/xuchu/guide/guide-front.png",
+          "bytes": 81385,
+          "sha256": "beb61b5529085e85e35e7b68163619bda403b8cb3b1810e8dcdff3ba1eefe110"
+        },
+        {
+          "path": "bone-motion/art-in/xuchu/guide/guide-side-256.png",
+          "bytes": 10132,
+          "sha256": "f71a19624ea820c1ff0ce6b8dc4e41655a40f887fc333952f3e8671ac8105095"
+        },
+        {
+          "path": "bone-motion/art-in/xuchu/guide/guide-side.png",
+          "bytes": 80907,
+          "sha256": "6c377ef5d49314faad3dedd19565d0af073912bafadc0427639468a37f0a180d"
+        },
+        {
+          "path": "bone-motion/art-in/xuhuang/guide/guide-back-256.png",
+          "bytes": 8948,
+          "sha256": "0e0d05c2392a1416de09aa054f39a70972dcd9325512ea187f69ac5eb1470387"
+        },
+        {
+          "path": "bone-motion/art-in/xuhuang/guide/guide-back.png",
+          "bytes": 70926,
+          "sha256": "a8fb67f5993e7e1c50e9d16d61643bd0ea262afbb2a7e649fe2a550029a3c1db"
+        },
+        {
+          "path": "bone-motion/art-in/xuhuang/guide/guide-front-256.png",
+          "bytes": 9785,
+          "sha256": "b828877512eadc9a7e8e053cb0fd7596ba2892189e8239849c2d00192d5f373c"
+        },
+        {
+          "path": "bone-motion/art-in/xuhuang/guide/guide-front.png",
+          "bytes": 79726,
+          "sha256": "868288697a342e0870448576f613c6b7a2d28688bf8e0ee3a6d5943ef257ec46"
+        },
+        {
+          "path": "bone-motion/art-in/xuhuang/guide/guide-side-256.png",
+          "bytes": 9891,
+          "sha256": "95a6c33625c5dae3d129a88a81301619ccf9d22b32f315d1657c948a2088205d"
+        },
+        {
+          "path": "bone-motion/art-in/xuhuang/guide/guide-side.png",
+          "bytes": 80833,
+          "sha256": "07024ebe1d92c493ee0f623c663e3a16366e14b55da67af7219d1fa142ef1c51"
+        },
+        {
+          "path": "bone-motion/art-in/xunyu/guide/guide-back-256.png",
+          "bytes": 8312,
+          "sha256": "8990434e2e7710210f5c4ac67fb9d123a4c197715ec1363b7454001351cf8417"
+        },
+        {
+          "path": "bone-motion/art-in/xunyu/guide/guide-back.png",
+          "bytes": 68524,
+          "sha256": "4202dd9329263384a832787800fcb1748b06bfcd98be25753ed43e74a5bae07e"
+        },
+        {
+          "path": "bone-motion/art-in/xunyu/guide/guide-front-256.png",
+          "bytes": 8572,
+          "sha256": "9f5c752e0265d6f67f9c290fd88561d272273908d05d04dc451ec9d9d7715e5e"
+        },
+        {
+          "path": "bone-motion/art-in/xunyu/guide/guide-front.png",
+          "bytes": 70643,
+          "sha256": "dce3f1a4a13cdbc87a8a9dbc11e4b44fe30dfb0fe7b6c87ff033e70fdb557d02"
+        },
+        {
+          "path": "bone-motion/art-in/xunyu/guide/guide-side-256.png",
+          "bytes": 7439,
+          "sha256": "c5279eef4c3d461a6778af587966467f19f5ba7f21991234c66966d768103cfe"
+        },
+        {
+          "path": "bone-motion/art-in/xunyu/guide/guide-side.png",
+          "bytes": 64797,
+          "sha256": "ed3683fcea0b7a0f0364660d69192e38c07377bd39d60ed968aca9feb1963c91"
+        },
+        {
+          "path": "bone-motion/art-in/yanliang/guide/guide-back-256.png",
+          "bytes": 9772,
+          "sha256": "ac8b7942b3c6b174f7169a58838a228c969b0c7f4c5a32606716767ea16b2817"
+        },
+        {
+          "path": "bone-motion/art-in/yanliang/guide/guide-back.png",
+          "bytes": 75152,
+          "sha256": "0442ec7e02ddb7f5a8b4081ead931f1973cff3828c11c6ec6a9ddce00b53ba5a"
+        },
+        {
+          "path": "bone-motion/art-in/yanliang/guide/guide-front-256.png",
+          "bytes": 10003,
+          "sha256": "55eda154ec33e08f5fa18aab38950dd94aa4a96b120197f0b2ef1961e54128b6"
+        },
+        {
+          "path": "bone-motion/art-in/yanliang/guide/guide-front.png",
+          "bytes": 79529,
+          "sha256": "2b29fb7d59f8beca5708536280c4c305b01fb788d3ddeeb09941f60ee4f0f5df"
+        },
+        {
+          "path": "bone-motion/art-in/yanliang/guide/guide-side-256.png",
+          "bytes": 8989,
+          "sha256": "59f38123e10c1b05c40bf1b9a88769567bd1e224333dd5c4e4f7a6d46746a9b1"
+        },
+        {
+          "path": "bone-motion/art-in/yanliang/guide/guide-side.png",
+          "bytes": 74133,
+          "sha256": "570373623df92d2843329a5df45b5a0d47152c9140ad6f23b9884400ce20f5a2"
+        },
+        {
+          "path": "bone-motion/art-in/yuanshao/guide/guide-back-256.png",
+          "bytes": 9486,
+          "sha256": "4d16012cbba6a75d9de8128844a8e580371e7534ae00b43229dccf922eb34ac6"
+        },
+        {
+          "path": "bone-motion/art-in/yuanshao/guide/guide-back.png",
+          "bytes": 74844,
+          "sha256": "246f9e7dedd7dc9303b0869bd5469dbdf07bd9e08c58052d446fb236dba78f45"
+        },
+        {
+          "path": "bone-motion/art-in/yuanshao/guide/guide-front-256.png",
+          "bytes": 9305,
+          "sha256": "202cc456dc64a8425a471a5efd0a41066b1061ae8aea2c14ce8ad9718dfb69d0"
+        },
+        {
+          "path": "bone-motion/art-in/yuanshao/guide/guide-front.png",
+          "bytes": 73865,
+          "sha256": "dcd94dfaade28d5177139fcb1bf6ce8da602c051e8e324f482b09c5fd59579d9"
+        },
+        {
+          "path": "bone-motion/art-in/yuanshao/guide/guide-side-256.png",
+          "bytes": 8102,
+          "sha256": "1aec5c35f14b0f6a2cbba84856b801cb2bd434a8474f2d740a7b29dc96150fe1"
+        },
+        {
+          "path": "bone-motion/art-in/yuanshao/guide/guide-side.png",
+          "bytes": 69332,
+          "sha256": "78ee5ff2a49b0e23d077a34fbac34246ff5585c33af9209ae392f924af5389ba"
+        },
+        {
+          "path": "bone-motion/art-in/yuejin/guide/guide-back-256.png",
+          "bytes": 9178,
+          "sha256": "219b196555dc79755a0e8cd0dc2d9246f69ca8d4a0e743459186013aad8be05c"
+        },
+        {
+          "path": "bone-motion/art-in/yuejin/guide/guide-back.png",
+          "bytes": 72061,
+          "sha256": "8f0d7c871f7d23ec7d7a5ea008a349ac12fd01f9c724813fc2524e8cd40e3aaa"
+        },
+        {
+          "path": "bone-motion/art-in/yuejin/guide/guide-front-256.png",
+          "bytes": 9272,
+          "sha256": "6cd1ece183d93a8661f12aa297b7c116493e9b7946e4e85fa33b5b8b4dce1cb6"
+        },
+        {
+          "path": "bone-motion/art-in/yuejin/guide/guide-front.png",
+          "bytes": 75511,
+          "sha256": "f8f425fbf8b437a21c4d53dea784eeb48f82a01181ca69d186ae23e75998cfb8"
+        },
+        {
+          "path": "bone-motion/art-in/yuejin/guide/guide-side-256.png",
+          "bytes": 8118,
+          "sha256": "e5d84474fdb28738dd1cb66d769b80373bc0fb0f01d2097fa92734cbe2d5cc05"
+        },
+        {
+          "path": "bone-motion/art-in/yuejin/guide/guide-side.png",
+          "bytes": 69678,
+          "sha256": "b3f90d8e997bb07380ac813309bbad4b26ad88d09928791fc48d0af46afe96e7"
+        },
+        {
+          "path": "bone-motion/art-in/zhangjue/guide/guide-back-256.png",
+          "bytes": 8312,
+          "sha256": "8990434e2e7710210f5c4ac67fb9d123a4c197715ec1363b7454001351cf8417"
+        },
+        {
+          "path": "bone-motion/art-in/zhangjue/guide/guide-back.png",
+          "bytes": 68822,
+          "sha256": "cf9effb4367f4c09a476b9c09ed6de892c5ff78eba110c7e4bdeba8e8141484f"
+        },
+        {
+          "path": "bone-motion/art-in/zhangjue/guide/guide-front-256.png",
+          "bytes": 8572,
+          "sha256": "9f5c752e0265d6f67f9c290fd88561d272273908d05d04dc451ec9d9d7715e5e"
+        },
+        {
+          "path": "bone-motion/art-in/zhangjue/guide/guide-front.png",
+          "bytes": 70867,
+          "sha256": "1a2415470ef7484f293ddc463f0c7232cb405adcf9543d375732b1b1c7f0d18a"
+        },
+        {
+          "path": "bone-motion/art-in/zhangjue/guide/guide-side-256.png",
+          "bytes": 7439,
+          "sha256": "c5279eef4c3d461a6778af587966467f19f5ba7f21991234c66966d768103cfe"
+        },
+        {
+          "path": "bone-motion/art-in/zhangjue/guide/guide-side.png",
+          "bytes": 64993,
+          "sha256": "19c26c98be09c13d519267bb0fe6b22c1c98a133bce47b3f3b850043b7fb5891"
+        },
+        {
+          "path": "bone-motion/art-in/zhoucang/guide/guide-back-256.png",
+          "bytes": 9772,
+          "sha256": "ac8b7942b3c6b174f7169a58838a228c969b0c7f4c5a32606716767ea16b2817"
+        },
+        {
+          "path": "bone-motion/art-in/zhoucang/guide/guide-back.png",
+          "bytes": 75245,
+          "sha256": "be7d00842544e78733aeb2170eecb5973e24444b2df14652b15d616a0ffb20a7"
+        },
+        {
+          "path": "bone-motion/art-in/zhoucang/guide/guide-front-256.png",
+          "bytes": 10003,
+          "sha256": "55eda154ec33e08f5fa18aab38950dd94aa4a96b120197f0b2ef1961e54128b6"
+        },
+        {
+          "path": "bone-motion/art-in/zhoucang/guide/guide-front.png",
+          "bytes": 79447,
+          "sha256": "e6881aaa28153f8f50ee9a2fd62b534be43c5252b44c02fa825035847e125302"
+        },
+        {
+          "path": "bone-motion/art-in/zhoucang/guide/guide-side-256.png",
+          "bytes": 8989,
+          "sha256": "59f38123e10c1b05c40bf1b9a88769567bd1e224333dd5c4e4f7a6d46746a9b1"
+        },
+        {
+          "path": "bone-motion/art-in/zhoucang/guide/guide-side.png",
+          "bytes": 74203,
+          "sha256": "e993bc4e0eca45438e0b1398db7d67cfa77e7fbb1a3760f0abedcb68c24d65c4"
+        },
+        {
+          "path": "bone-motion/inputs/request/삼토체스_보병_책사_기마병_표준본.png",
+          "bytes": 57444,
+          "sha256": "11f34fd025c586c2d90dcd794d69ed8fbf6e49f033b63024810fed07da614cf9"
+        },
+        {
+          "path": "bone-motion/inputs/standard-bones/samto-class-neutral.blend",
+          "bytes": 573812,
+          "sha256": "954ba3e35e10020c86f20a6ee0a8e5ac3db73114c485cd0e32947643f87b3f0b"
+        }
+      ]
+    },
+    {
       "path": "asset-packs/v1/characters-qun-v1-001.zip",
       "category": "characters-qun",
       "bytes": 952741,
@@ -9305,8 +10793,8 @@
     {
       "path": "asset-packs/v1/ui-build-reference-v1-002.zip",
       "category": "ui-build-reference",
-      "bytes": 26176482,
-      "sha256": "0d08ec38c09e09c184bc1a73faa7dd1bb88745a5177d8070437ec3fbd5fddefb",
+      "bytes": 26826899,
+      "sha256": "527891669829f5c24fc38210050f03894b7f15d9d825bd585fa043a2835511bc",
       "files": [
         {
           "path": "design-delivery/v2/05-mockups/battle-preparation-v1.png",
@@ -9442,6 +10930,11 @@
           "path": "design-delivery/v2/06-components/scroll/paper-repair-source.png",
           "bytes": 807520,
           "sha256": "9f71843048427bf3cc172b8882520c8e49910ca6dc571c3094f1baefe0917ee3"
+        },
+        {
+          "path": "design-delivery/v2/07-worklog/2026-11-18-idle-registration.png",
+          "bytes": 653840,
+          "sha256": "0a210d7dd49fd80df0fb578605487292fc63b2454f8c3912f2167c85c9d76301"
         }
       ]
     },

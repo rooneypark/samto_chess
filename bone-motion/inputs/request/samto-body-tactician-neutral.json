@@ -1,0 +1,414 @@
+{
+  "status": "neutral tactician body fit only; hats, garments and equipment excluded; not a PixelLab request",
+  "canvas": [
+    256,
+    256
+  ],
+  "foot_pivot": [
+    128,
+    224
+  ],
+  "units": "1 neutral front pixel",
+  "sample_references": [
+    "제갈량",
+    "곽가",
+    "노숙",
+    "방통"
+  ],
+  "sizing": {
+    "height": 111,
+    "head_height": 34,
+    "shoulder_joint_span": 30,
+    "pelvis_to_neck": 34
+  },
+  "coordinates": {
+    "pelvis": [
+      0,
+      0,
+      44
+    ],
+    "chest": [
+      0,
+      1,
+      66
+    ],
+    "neck": [
+      0,
+      0,
+      78
+    ],
+    "head": [
+      0,
+      2,
+      94
+    ],
+    "head_top": [
+      0,
+      0,
+      111
+    ],
+    "shoulder.R": [
+      -15,
+      0,
+      72
+    ],
+    "elbow.R": [
+      -20,
+      0,
+      54
+    ],
+    "wrist.R": [
+      -21,
+      3,
+      38
+    ],
+    "hand.R": [
+      -21,
+      5,
+      33
+    ],
+    "hip.R": [
+      -10,
+      0,
+      42
+    ],
+    "knee.R": [
+      -11,
+      2,
+      25
+    ],
+    "ankle.R": [
+      -12,
+      0,
+      9
+    ],
+    "toe.R": [
+      -12,
+      7,
+      4
+    ],
+    "shoulder.L": [
+      15,
+      0,
+      72
+    ],
+    "elbow.L": [
+      20,
+      0,
+      54
+    ],
+    "wrist.L": [
+      21,
+      3,
+      38
+    ],
+    "hand.L": [
+      21,
+      5,
+      33
+    ],
+    "hip.L": [
+      10,
+      0,
+      42
+    ],
+    "knee.L": [
+      11,
+      2,
+      25
+    ],
+    "ankle.L": [
+      12,
+      0,
+      9
+    ],
+    "toe.L": [
+      12,
+      7,
+      4
+    ]
+  },
+  "parents": {
+    "pelvis": null,
+    "chest": "pelvis",
+    "neck": "chest",
+    "head": "neck",
+    "head_top": "head",
+    "shoulder.R": "chest",
+    "elbow.R": "shoulder.R",
+    "wrist.R": "elbow.R",
+    "hand.R": "wrist.R",
+    "hip.R": "pelvis",
+    "knee.R": "hip.R",
+    "ankle.R": "knee.R",
+    "toe.R": "ankle.R",
+    "shoulder.L": "chest",
+    "elbow.L": "shoulder.L",
+    "wrist.L": "elbow.L",
+    "hand.L": "wrist.L",
+    "hip.L": "pelvis",
+    "knee.L": "hip.L",
+    "ankle.L": "knee.L",
+    "toe.L": "ankle.L"
+  },
+  "projections": {
+    "front": {
+      "pelvis": [
+        128,
+        180
+      ],
+      "chest": [
+        128,
+        158
+      ],
+      "neck": [
+        128,
+        146
+      ],
+      "head": [
+        128,
+        130
+      ],
+      "head_top": [
+        128,
+        113
+      ],
+      "shoulder.R": [
+        113,
+        152
+      ],
+      "elbow.R": [
+        108,
+        170
+      ],
+      "wrist.R": [
+        107,
+        186
+      ],
+      "hand.R": [
+        107,
+        191
+      ],
+      "hip.R": [
+        118,
+        182
+      ],
+      "knee.R": [
+        117,
+        199
+      ],
+      "ankle.R": [
+        116,
+        215
+      ],
+      "toe.R": [
+        116,
+        220
+      ],
+      "shoulder.L": [
+        143,
+        152
+      ],
+      "elbow.L": [
+        148,
+        170
+      ],
+      "wrist.L": [
+        149,
+        186
+      ],
+      "hand.L": [
+        149,
+        191
+      ],
+      "hip.L": [
+        138,
+        182
+      ],
+      "knee.L": [
+        139,
+        199
+      ],
+      "ankle.L": [
+        140,
+        215
+      ],
+      "toe.L": [
+        140,
+        220
+      ]
+    },
+    "side": {
+      "pelvis": [
+        128,
+        180
+      ],
+      "chest": [
+        127,
+        158
+      ],
+      "neck": [
+        128,
+        146
+      ],
+      "head": [
+        126,
+        130
+      ],
+      "head_top": [
+        128,
+        113
+      ],
+      "shoulder.R": [
+        128,
+        152
+      ],
+      "elbow.R": [
+        128,
+        170
+      ],
+      "wrist.R": [
+        125,
+        186
+      ],
+      "hand.R": [
+        123,
+        191
+      ],
+      "hip.R": [
+        128,
+        182
+      ],
+      "knee.R": [
+        126,
+        199
+      ],
+      "ankle.R": [
+        128,
+        215
+      ],
+      "toe.R": [
+        121,
+        220
+      ],
+      "shoulder.L": [
+        128,
+        152
+      ],
+      "elbow.L": [
+        128,
+        170
+      ],
+      "wrist.L": [
+        125,
+        186
+      ],
+      "hand.L": [
+        123,
+        191
+      ],
+      "hip.L": [
+        128,
+        182
+      ],
+      "knee.L": [
+        126,
+        199
+      ],
+      "ankle.L": [
+        128,
+        215
+      ],
+      "toe.L": [
+        121,
+        220
+      ]
+    },
+    "back": {
+      "pelvis": [
+        128,
+        180
+      ],
+      "chest": [
+        128,
+        158
+      ],
+      "neck": [
+        128,
+        146
+      ],
+      "head": [
+        128,
+        130
+      ],
+      "head_top": [
+        128,
+        113
+      ],
+      "shoulder.R": [
+        143,
+        152
+      ],
+      "elbow.R": [
+        148,
+        170
+      ],
+      "wrist.R": [
+        149,
+        186
+      ],
+      "hand.R": [
+        149,
+        191
+      ],
+      "hip.R": [
+        138,
+        182
+      ],
+      "knee.R": [
+        139,
+        199
+      ],
+      "ankle.R": [
+        140,
+        215
+      ],
+      "toe.R": [
+        140,
+        220
+      ],
+      "shoulder.L": [
+        113,
+        152
+      ],
+      "elbow.L": [
+        108,
+        170
+      ],
+      "wrist.L": [
+        107,
+        186
+      ],
+      "hand.L": [
+        107,
+        191
+      ],
+      "hip.L": [
+        118,
+        182
+      ],
+      "knee.L": [
+        117,
+        199
+      ],
+      "ankle.L": [
+        116,
+        215
+      ],
+      "toe.L": [
+        116,
+        220
+      ]
+    }
+  }
+}

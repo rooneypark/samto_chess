@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>본 모션 격자 시뮬레이터</title>
+<style>
+  :root { --bg:#0f1622; --panel:#17212f; --line:#2b3d52; --text:#e6edf5; --dim:#93a4b8; --accent:#f0dba4; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:14px/1.5 "Malgun Gothic", system-ui, sans-serif; }
+  main { max-width:980px; margin:0 auto; padding:16px; }
+  h1 { font-size:18px; margin:0 0 4px; }
+  p { margin:0 0 12px; color:var(--dim); }
+  .bar { display:flex; flex-wrap:wrap; gap:8px 14px; align-items:center; background:var(--panel); border:1px solid var(--line); padding:10px 12px; margin-bottom:12px; }
+  .bar label { display:flex; gap:6px; align-items:center; color:var(--dim); }
+  select, button { background:#22364d; color:var(--text); border:1px solid var(--line); padding:5px 10px; font:inherit; cursor:pointer; }
+  button.on { background:#3d5f85; border-color:var(--accent); }
+  canvas { display:block; width:100%; height:auto; background:#132033; border:1px solid var(--line); }
+  #status { color:var(--accent); min-height:1.5em; margin-top:8px; }
+  .hide { display:none !important; }
+</style>
+</head>
+<body>
+<main>
+  <h1>본 모션 격자 시뮬레이터</h1>
+  <p>8×8 전장, 한 칸 100px. 아래쪽 네 줄이 아군, 위쪽 네 줄이 적군입니다. 타격 프레임에 맞는 칸이 번쩍입니다.</p>
+  <div class="bar">
+    <label>장면
+      <select id="scene">
+        <option value="battle1">전투: 보병 8종</option>
+        <option value="battle2">전투: 책사·기마 포함</option>
+        <option value="all">공격만: 11병종 전체</option>
+      </select>
+    </label>
+    <label id="dirbox" class="hide">공격 방향
+      <span id="dirs">
+        <button data-dir="up" class="on">위</button><button data-dir="down">아래</button><button data-dir="left">왼쪽</button><button data-dir="right">오른쪽</button>
+      </span>
+    </label>
+    <label>속도
+      <select id="speed"><option value="1">1배</option><option value="0.5">0.5배</option><option value="0.25">0.25배</option></select>
+    </label>
+    <label>위·아래 다가서기
+      <select id="lunge"><option value="0">없음</option><option value="0.4">조금 (28px)</option><option value="0.6" selected>보통 (41px)</option><option value="0.8">많이 (55px)</option><option value="1">끝까지 (69px)</option></select>
+    </label>
+    <button id="pause">멈춤</button>
+    <button id="step">한 프레임</button>
+    <button id="restart">처음부터</button>
+  </div>
+  <canvas id="board" width="1100" height="1100"></canvas>
+  <div id="status"></div>
+</main>
+<script src="data.js"></script>
+<script>
+const D = window.SIM_DATA, T = 100, M = 150, N = 8;
+const BY = Object.fromEntries(D.families.map(f => [f.id, f]));
+const cv = document.getElementById('board'), g = cv.getContext('2d'), status = document.getElementById('status');
+const sceneSel = document.getElementById('scene');
+D.families.forEach(f => { const o = document.createElement('option'); o.value = f.id; o.textContent = '공격만: ' + f.title; sceneSel.appendChild(o); });
+let dir = 'up', speed = 1, paused = false, clock = 0, last = null, lunge = 0.6;
+// The sprites are drawn from a low camera (18 degrees): 100 px forward is only about 31 px on screen, but the board's
+// rows are 100 px apart. For attacks up or down the board a melee attacker is carried part of the missing 69 px toward
+// the target, in step with its own weapon (clip.advance). Ranged attacks stay put and send a projectile instead.
+const GAP = 100 * (1 - Math.sin(18 * Math.PI / 180));
+const FEET = 0.69;                         // where the feet stand inside a cell (the game's ground shadow is at 64-74%)
+const VIEW = { up: ['rear', 1], down: ['front', 1], left: ['left', 1], right: ['left', -1] };
+const STEP = { up: [0, -1], down: [0, 1], left: [-1, 0], right: [1, 0] };
+const OPP = { up: 'down', down: 'up', left: 'right', right: 'left' };
+const BATTLES = {
+  battle1: ['foot_spear', 'sword', 'spear_shield', 'dual', 'heavy', 'flexible', 'bow', 'command'],
+  battle2: ['caster', 'mounted_blade', 'mounted_spear', 'foot_spear', 'bow', 'mounted_blade', 'heavy', 'mounted_spear'],
+};
+const sum = a => a.reduce((x, y) => x + y, 0);
+
+function frameAt(clip, t) {                 // t in ms -> frame index, looping
+  const total = sum(clip.durations); let r = ((t % total) + total) % total;
+  for (let i = 0; i < clip.durations.length; i++) { if (r < clip.durations[i]) return i; r -= clip.durations[i]; }
+  return 0;
+}
+
+function sprite(prims, cx, cy, flip, tint) {
+  g.save(); g.translate(cx, cy); g.scale(flip, 1); g.lineCap = 'round';
+  for (const p of prims) {
+    const col = tint ? `rgb(${Math.min(255, p[5] * 0.75 + 70) | 0},${p[6] * 0.6 | 0},${p[7] * 0.6 | 0})` : `rgb(${p[5]},${p[6]},${p[7]})`;
+    for (const [w, c] of [[p[4] + 1.6, '#101622'], [p[4], col]]) {
+      g.strokeStyle = c; g.lineWidth = w; g.beginPath(); g.moveTo(p[0], p[1]); g.lineTo(p[2] + 0.01, p[3]); g.stroke();
+    }
+  }
+  g.restore();
+}
+
+function board() {
+  g.fillStyle = '#132033'; g.fillRect(0, 0, cv.width, cv.height);
+  for (let y = 0; y < N; y++) for (let x = 0; x < N; x++) {
+    g.fillStyle = (x + y) % 2 ? '#1c2f42' : '#192a3c'; g.fillRect(M + x * T, M + y * T, T, T);
+    g.strokeStyle = '#283d53'; g.lineWidth = 1; g.strokeRect(M + x * T + 0.5, M + y * T + 0.5, T, T);
+  }
+  g.strokeStyle = '#e8ddae'; g.lineWidth = 2; g.beginPath(); g.moveTo(M, M + 4 * T); g.lineTo(M + N * T, M + 4 * T); g.stroke();
+}
+
+// One unit on the board. cell = [x, y] may be fractional while walking.
+function unit(fam, clipName, t, cell, facing, enemy, out, target) {
+  const clip = fam.clips[clipName === 'attack' ? fam.attack : clipName], f = frameAt(clip, t), dy = STEP[facing][1], [v, flip] = VIEW[facing];
+  let go = 0;
+  if (clipName === 'attack') {
+    if (dy && clip.advance) go = clip.advance[f] * GAP * lunge * dy;
+    if (clip.impact && (f === clip.impact - 1 || f === clip.impact) && target) out.flashes.push(target);
+    if (fam.id === 'bow' && dy && target && (f === clip.arrive - 1 || f === clip.impact - 1)) {
+      const far = f === clip.arrive - 1, x0 = M + cell[0] * T + T / 2, y0 = M + cell[1] * T + T * FEET - 55, y1 = M + target[1] * T + T * FEET - 43;
+      out.shots.push(far ? [x0, y1 - dy * 50, x0, y1] : [x0, y0 + dy * 5, x0, y0 + dy * 55]);
+    }
+  }
+  out.units.push({ y: cell[1] + go / T, prims: clip.views[v][f], cx: M + cell[0] * T + T / 2, cy: M + cell[1] * T + T * FEET + go, flip, tint: enemy });
+  return { clip, f };
+}
+
+function battle(ids, out) {
+  ids.forEach((id, col) => {
+    const fam = BY[id], mv = sum(fam.clips.move.durations), at = sum(fam.clips[fam.attack].durations);
+    const walk = 2 * mv, round = at + 350, total = walk + 4 * round + 900, t = clock % total;
+    const home = [col, 4], foe = [col, 3];
+    if (t < walk) {                                   // both sides walk two tiles to the middle line
+      const k = t / walk;
+      unit(fam, 'move', t, [col, 6 - 2 * k], 'up', false, out);
+      unit(fam, 'move', t + mv / 2, [col, 1 + 2 * k], 'down', true, out);
+    } else {
+      const r = t - walk, n = Math.floor(r / round), inRound = r - n * round, mine = n % 2 === 0, busy = n < 4 && inRound < at;
+      unit(fam, busy && mine ? 'attack' : 'idle', busy && mine ? inRound : clock, home, 'up', false, out, foe);
+      unit(fam, busy && !mine ? 'attack' : 'idle', busy && !mine ? inRound : clock + 300, foe, 'down', true, out, home);
+    }
+    out.labels.push([fam.title, M + col * T + T / 2, M + 8 * T + 22], [fam.title, M + col * T + T / 2, M - 60]);
+  });
+}
+
+function attackOnly(out) {
+  const fams = sceneSel.value === 'all' ? D.families : [BY[sceneSel.value]], [dx, dy] = STEP[dir];
+  fams.forEach((fam, i) => {
+    let x, y;
+    if (fams.length === 1) { x = dx ? (dx > 0 ? 3 : 4) : 3; y = dy ? (dy > 0 ? 3 : 4) : 3; }
+    else if (dy) { const row = Math.floor(i / 4), col = i % 4; x = col * 2 + (row % 2); y = row * 3 + (dy < 0 ? 1 : 0); if (row === 2) { x = col * 2 + 1; y = 6 + (dy < 0 ? 1 : 0); } }
+    else { const row = Math.floor(i / 3), col = i % 3; x = col * 3 + (dx < 0 ? 1 : 0); y = row * 2; }
+    const atk = fam.clips[fam.attack], total = sum(atk.durations), t = clock % (total + 900), attacking = t < total, target = [x + dx, y + dy];
+    out.frames.push([x, y, '#5aa7e0'], [target[0], target[1], '#d06a5c']);
+    const u = unit(fam, attacking ? 'attack' : 'idle', attacking ? t : t - total, [x, y], dir, false, out, target);
+    unit(D.families[0], 'idle', clock, target, OPP[dir], true, out);
+    out.labels.push([fam.title, M + x * T + T / 2, M + y * T + T - 5]);
+    if (fams.length === 1) status.textContent = `${fam.title} · ${u.clip.title} · ${String(u.f + 1).padStart(2, '0')} / ${u.clip.durations.length}`;
+  });
+}
+
+function draw() {
+  board();
+  const out = { units: [], shots: [], flashes: [], labels: [], frames: [] }, isBattle = sceneSel.value in BATTLES;
+  document.getElementById('dirbox').classList.toggle('hide', isBattle);
+  if (isBattle) { battle(BATTLES[sceneSel.value], out); status.textContent = '두 칸 걸어와 가운데 줄에서 만난 뒤, 아군과 적군이 번갈아 두 번씩 공격하고 처음으로 돌아갑니다. 적군은 같은 병종을 붉게 칠한 것입니다.'; }
+  else { attackOnly(out); if (sceneSel.value === 'all') status.textContent = '11병종이 같은 방향으로 동시에 공격합니다.'; }
+  for (const [x, y, c] of out.frames) { g.strokeStyle = c; g.lineWidth = 3; g.strokeRect(M + x * T + 2, M + y * T + 2, T - 4, T - 4); }
+  for (const c of out.flashes) { g.fillStyle = '#ffd9a8aa'; g.fillRect(M + c[0] * T + 2, M + c[1] * T + 2, T - 4, T - 4); }
+  out.units.sort((a, b) => a.y - b.y).forEach(u => sprite(u.prims, u.cx, u.cy, u.flip, u.tint));
+  for (const s of out.shots) { g.lineCap = 'round'; for (const [w, c] of [[4, '#101622'], [2, '#f4dea0']]) { g.strokeStyle = c; g.lineWidth = w; g.beginPath(); g.moveTo(s[0], s[1]); g.lineTo(s[2], s[3]); g.stroke(); } }
+  g.font = 'bold 15px "Malgun Gothic", sans-serif'; g.textAlign = 'center';
+  for (const [text, x, y] of out.labels) { g.fillStyle = '#101622'; g.fillText(text, x + 1, y + 1); g.fillStyle = '#f0dba4'; g.fillText(text, x, y); }
+}
+
+function tick(now) {
+  if (last !== null && !paused) clock += (now - last) * speed;
+  last = now; draw(); requestAnimationFrame(tick);
+}
+document.getElementById('dirs').addEventListener('click', e => {
+  if (!e.target.dataset.dir) return; dir = e.target.dataset.dir;
+  document.querySelectorAll('#dirs button').forEach(b => b.classList.toggle('on', b === e.target));
+});
+document.getElementById('lunge').addEventListener('change', e => { lunge = Number(e.target.value); });
+document.getElementById('speed').addEventListener('change', e => { speed = Number(e.target.value); });
+document.getElementById('pause').addEventListener('click', e => { paused = !paused; e.target.textContent = paused ? '재생' : '멈춤'; });
+document.getElementById('step').addEventListener('click', () => { paused = true; document.getElementById('pause').textContent = '재생'; clock += 50; });
+document.getElementById('restart').addEventListener('click', () => { clock = 0; });
+sceneSel.addEventListener('change', () => { clock = 0; });
+requestAnimationFrame(tick);
+</script>
+</body>
+</html>

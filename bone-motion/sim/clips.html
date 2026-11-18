@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>모션 클립 보기</title>
+<style>
+  :root { --bg:#0f1622; --panel:#17212f; --line:#2b3d52; --text:#e6edf5; --dim:#93a4b8; --accent:#f0dba4; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:14px/1.5 "Malgun Gothic", system-ui, sans-serif; }
+  main { max-width:1000px; margin:0 auto; padding:16px; }
+  h1 { font-size:18px; margin:0 0 10px; }
+  .bar { display:flex; flex-wrap:wrap; gap:6px 8px; align-items:center; background:var(--panel); border:1px solid var(--line); padding:8px 10px; margin-bottom:8px; }
+  .bar span.l { color:var(--dim); margin-right:4px; min-width:44px; }
+  button, select { background:#22364d; color:var(--text); border:1px solid var(--line); padding:5px 10px; font:inherit; cursor:pointer; }
+  button.on { background:#3d5f85; border-color:var(--accent); }
+  .views { display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:8px; }
+  figure { margin:0; } figcaption { color:var(--dim); font-size:13px; margin-bottom:2px; }
+  canvas { display:block; width:100%; height:auto; background:#1a2534; border:1px solid var(--line); }
+  #info { color:var(--accent); margin:8px 0 2px; min-height:1.5em; font-size:15px; }
+  #notes { color:var(--dim); min-height:1.5em; }
+  #strip { display:flex; gap:3px; margin-top:8px; }
+  #strip i { flex:1; height:16px; background:#22364d; border:1px solid var(--line); font-style:normal; font-size:10px; text-align:center; line-height:14px; color:var(--dim); cursor:pointer; }
+  #strip i.now { background:#3d5f85; color:#fff; } #strip i.hit { border-color:#e0a060; color:#ffd9a8; }
+</style>
+</head>
+<body>
+<main>
+  <h1>모션 클립 보기</h1>
+  <div class="bar"><span class="l">유형</span><span id="fams"></span></div>
+  <div class="bar"><span class="l">클립</span><span id="clips"></span></div>
+  <div class="bar">
+    <span class="l">재생</span>
+    <button id="pause">멈춤</button><button id="prev">◀ 한 컷</button><button id="next">한 컷 ▶</button>
+    <select id="speed"><option value="1">1배</option><option value="0.5">0.5배</option><option value="0.25">0.25배</option></select>
+    <button id="combo">A 연속(1·2·3타)</button><button id="combo2">B 연속(1·2·3타)</button>
+  </div>
+  <div class="views" id="views"></div>
+  <div id="strip"></div>
+  <div id="info"></div>
+  <div id="notes"></div>
+</main>
+<script src="data.js"></script>
+<script>
+const D = window.SIM_DATA, S = 2, VIEWS = [['front', '정면'], ['left', '왼쪽 측면'], ['rear', '후면']];
+let fam = D.families[0], queue = ['a1'], qi = 0, t = 0, paused = false, speed = 1, last = null;
+const ctx = VIEWS.map(([v, name]) => { const fig = document.createElement('figure'), cv = document.createElement('canvas'); cv.width = cv.height = 256 * S;
+  fig.innerHTML = `<figcaption>${name}</figcaption>`; fig.appendChild(cv); document.getElementById('views').appendChild(fig); return [v, cv.getContext('2d')]; });
+const sum = a => a.reduce((x, y) => x + y, 0);
+const clip = () => fam.clips[queue[qi]];
+function frameOf(c, time) { let r = time; for (let i = 0; i < c.durations.length; i++) { if (r < c.durations[i]) return i; r -= c.durations[i]; } return c.durations.length - 1; }
+function startOf(c, i) { return sum(c.durations.slice(0, i)); }
+
+function buttons() {
+  const fb = document.getElementById('fams'); fb.innerHTML = '';
+  D.families.forEach((f, n) => { const b = document.createElement('button'); b.textContent = `${n + 1} ${f.title}`; b.className = f === fam ? 'on' : ''; b.onclick = () => { fam = f; pick(fam.clips[queue[0]] ? queue : ['idle']); }; fb.appendChild(b); });
+  const cb = document.getElementById('clips'); cb.innerHTML = '';
+  Object.entries(fam.clips).forEach(([id, c]) => { const b = document.createElement('button'); b.textContent = c.title; b.className = queue.length === 1 && queue[0] === id ? 'on' : ''; b.onclick = () => pick([id]); cb.appendChild(b); });
+  document.getElementById('combo').className = queue.join() === 'a1,a2,a3' ? 'on' : ''; document.getElementById('combo2').className = queue.join() === 'b1,b2,b3' ? 'on' : '';
+}
+function pick(q) { queue = q.filter(id => fam.clips[id]); if (!queue.length) queue = ['idle']; qi = 0; t = 0; buttons(); }
+
+function draw() {
+  const c = clip(), f = frameOf(c, t);
+  for (const [v, g] of ctx) {
+    g.setTransform(1, 0, 0, 1, 0, 0); g.fillStyle = '#1a2534'; g.fillRect(0, 0, 256 * S, 256 * S); g.setTransform(S, 0, 0, S, 128 * S, 224 * S);
+    const k = Math.sin(18 * Math.PI / 180), h = 50 * k; g.strokeStyle = '#3a485c'; g.lineWidth = 0.6;
+    const tile = (cx, cy, w, hh) => g.strokeRect(cx - w, cy - hh, 2 * w, 2 * hh);
+    let tx = 0, ty = 0;                                             // target tile and strike point as each camera sees them
+    if (v === 'front') { tile(0, 0, 50, h); tile(0, 2 * h, 50, h); ty = 100 * k - 45 * Math.cos(18 * Math.PI / 180); }
+    else if (v === 'rear') { tile(0, 0, 50, h); tile(0, -2 * h, 50, h); ty = -100 * k - 45 * Math.cos(18 * Math.PI / 180); }
+    else { tile(0, 0, 50, h); tile(-100, 0, 50, h); tx = -100; ty = -45 * Math.cos(18 * Math.PI / 180); }
+    const hit = c.impact && (f === c.impact - 1) || c.impact2 && (f === c.impact2 - 1) || c.arrive && (f === c.arrive - 1);
+    g.strokeStyle = hit ? '#ffd9a8' : '#96775a'; g.lineWidth = hit ? 2 : 1; g.beginPath(); g.arc(tx, ty, hit ? 7 : 4, 0, 7); g.stroke();
+    g.lineCap = 'round';
+    for (const p of c.views[v][f]) for (const [w, col] of [[p[4] + 1.6, '#101622'], [p[4], `rgb(${p[5]},${p[6]},${p[7]})`]]) {
+      g.strokeStyle = col; g.lineWidth = w; g.beginPath(); g.moveTo(p[0], p[1]); g.lineTo(p[2] + 0.01, p[3]); g.stroke();
+    }
+  }
+  const strip = document.getElementById('strip');
+  if (strip.children.length !== c.durations.length) { strip.innerHTML = ''; c.durations.forEach((_, i) => { const e = document.createElement('i'); e.textContent = i + 1; e.onclick = () => { paused = true; document.getElementById('pause').textContent = '재생'; t = startOf(clip(), i); }; strip.appendChild(e); }); }
+  [...strip.children].forEach((e, i) => { e.className = (i === f ? 'now ' : '') + ((c.impact === i + 1 || c.impact2 === i + 1 || c.arrive === i + 1) ? 'hit' : ''); });
+  const mark = c.impact === f + 1 ? `  ◀ ${c.event}` : c.impact2 === f + 1 ? '  ◀ 2타' : c.arrive === f + 1 ? '  ◀ 도달' : '';
+  const feet = (c.support[f] || []).join('·') || '없음';
+  document.getElementById('info').textContent = `${fam.title} · ${c.title} · ${String(f + 1).padStart(2, '0')} / ${c.durations.length} · ${c.durations[f]}ms · 딛는 발: ${feet}${mark}`;
+  document.getElementById('notes').textContent = c.notes || '';
+}
+function tick(now) {
+  if (last !== null && !paused) { t += (now - last) * speed; const total = sum(clip().durations); if (t >= total) { t -= total; qi = (qi + 1) % queue.length; } }
+  last = now; draw(); requestAnimationFrame(tick);
+}
+function step(d) { paused = true; document.getElementById('pause').textContent = '재생'; const c = clip(); let f = frameOf(c, t) + d;
+  if (f < 0) { qi = (qi + queue.length - 1) % queue.length; f = clip().durations.length - 1; } else if (f >= c.durations.length) { qi = (qi + 1) % queue.length; f = 0; } t = startOf(clip(), f); }
+document.getElementById('pause').onclick = e => { paused = !paused; e.target.textContent = paused ? '재생' : '멈춤'; };
+document.getElementById('prev').onclick = () => step(-1); document.getElementById('next').onclick = () => step(1);
+document.getElementById('speed').onchange = e => { speed = Number(e.target.value); };
+document.getElementById('combo').onclick = () => pick(['a1', 'a2', 'a3']); document.getElementById('combo2').onclick = () => pick(['b1', 'b2', 'b3']);
+buttons(); requestAnimationFrame(tick);
+</script>
+</body>
+</html>

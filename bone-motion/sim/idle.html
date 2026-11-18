@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>전투 대기 자세 확인</title>
+<style>
+  :root { --bg:#0f1622; --panel:#17212f; --line:#2b3d52; --text:#e6edf5; --dim:#93a4b8; --accent:#f0dba4; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:14px/1.5 "Malgun Gothic", system-ui, sans-serif; }
+  main { max-width:1000px; margin:0 auto; padding:16px; }
+  h1 { font-size:18px; margin:0 0 4px; }
+  p { margin:0 0 12px; color:var(--dim); }
+  .bar { display:flex; flex-wrap:wrap; gap:8px 14px; align-items:center; background:var(--panel); border:1px solid var(--line); padding:10px 12px; margin-bottom:12px; position:sticky; top:0; z-index:2; }
+  button { background:#22364d; color:var(--text); border:1px solid var(--line); padding:5px 10px; font:inherit; cursor:pointer; }
+  button.on { background:#3d5f85; border-color:var(--accent); }
+  section { background:var(--panel); border:1px solid var(--line); margin-bottom:14px; padding:10px 12px; }
+  h2 { font-size:16px; margin:0 0 2px; color:var(--accent); }
+  .note { color:var(--dim); margin:0 0 8px; }
+  .views { display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:8px; }
+  figure { margin:0; }
+  figcaption { color:var(--dim); font-size:13px; margin-bottom:2px; }
+  canvas { display:block; width:100%; height:auto; background:#1a2534; border:1px solid var(--line); }
+</style>
+</head>
+<body>
+<main>
+  <h1>전투 대기 자세 확인</h1>
+  <p>11유형 × 3방향. 하늘색은 캐릭터의 왼쪽 팔다리, 분홍은 오른쪽, 얼굴의 점은 코입니다. 바닥의 사각형은 자기 칸(100px)입니다.</p>
+  <div class="bar">
+    <button id="play" class="on">호흡 재생</button>
+    <button id="still">첫 프레임 정지</button>
+    <span style="color:var(--dim)">번호로 말씀해 주세요. 예: "5번 중무기 정면에서 무기를 더 세워"</span>
+  </div>
+  <div id="list"></div>
+</main>
+<script src="data.js"></script>
+<script>
+const D = window.SIM_DATA, S = 2, VIEWS = [['front', '정면'], ['left', '왼쪽 측면'], ['rear', '후면']];
+const NOTE = {
+  foot_spear: '보병 본 124px · 두 손 창, 왼손이 앞 · 창은 몸 오른쪽', sword: '보병 본 · 오른손 검, 왼손은 균형', spear_shield: '보병 본 · 왼팔 방패, 오른손 창',
+  dual: '보병 본 · 양손에 하나씩', heavy: '보병 본 · 두 손(왼손이 자루 끝)', flexible: '보병 본 · 오른손 손잡이, 사슬은 늘어뜨림', bow: '보병 본 · 왼손 활, 몸을 옆으로',
+  command: '보병 본 · 검을 내려 쥠', caster: '책사 본 111px · 오른손 부채', mounted_blade: '기마 본 163px · 오른손이 자루를 길게 잡음, 왼손 고삐', mounted_spear: '기마 본 163px · 오른손 창, 왼손 고삐',
+};
+let playing = true, clock = 0, last = null; const items = [];
+const sum = a => a.reduce((x, y) => x + y, 0);
+function frameAt(clip, t) { let r = t % sum(clip.durations); for (let i = 0; i < clip.durations.length; i++) { if (r < clip.durations[i]) return i; r -= clip.durations[i]; } return 0; }
+
+D.families.forEach((fam, n) => {
+  const sec = document.createElement('section');
+  sec.innerHTML = `<h2>${n + 1}. ${fam.title}</h2><p class="note">${NOTE[fam.id] || ''}</p><div class="views"></div>`;
+  VIEWS.forEach(([v, name]) => {
+    const fig = document.createElement('figure'), cv = document.createElement('canvas'); cv.width = cv.height = 256 * S;
+    fig.innerHTML = `<figcaption>${name}</figcaption>`; fig.appendChild(cv); sec.querySelector('.views').appendChild(fig);
+    items.push({ fam, v, g: cv.getContext('2d') });
+  });
+  document.getElementById('list').appendChild(sec);
+});
+
+function draw() {
+  for (const { fam, v, g } of items) {
+    const clip = fam.clips.idle, f = playing ? frameAt(clip, clock) : 0;
+    g.setTransform(1, 0, 0, 1, 0, 0); g.fillStyle = '#1a2534'; g.fillRect(0, 0, 256 * S, 256 * S);
+    g.setTransform(S, 0, 0, S, 128 * S, 224 * S);
+    const k = Math.sin(18 * Math.PI / 180), h = 50 * k;                    // own tile as the low camera sees it
+    g.strokeStyle = '#3a485c'; g.lineWidth = 0.6; g.strokeRect(-50, -h, 100, 2 * h);
+    g.strokeStyle = '#56657a'; g.beginPath(); g.moveTo(-4, 0); g.lineTo(4, 0); g.moveTo(0, -3); g.lineTo(0, 3); g.stroke();   // ground pivot
+    g.lineCap = 'round';
+    for (const p of clip.views[v][f]) for (const [w, c] of [[p[4] + 1.6, '#101622'], [p[4], `rgb(${p[5]},${p[6]},${p[7]})`]]) {
+      g.strokeStyle = c; g.lineWidth = w; g.beginPath(); g.moveTo(p[0], p[1]); g.lineTo(p[2] + 0.01, p[3]); g.stroke();
+    }
+  }
+}
+function tick(now) { if (last !== null && playing) clock += now - last; last = now; draw(); requestAnimationFrame(tick); }
+document.getElementById('play').onclick = e => { playing = true; e.target.classList.add('on'); document.getElementById('still').classList.remove('on'); };
+document.getElementById('still').onclick = e => { playing = false; e.target.classList.add('on'); document.getElementById('play').classList.remove('on'); };
+requestAnimationFrame(tick);
+</script>
+</body>
+</html>

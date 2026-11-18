@@ -1,0 +1,15 @@
+# Everything here is rebuilt from engine/:
+#   python -X utf8 bone-motion/engine/buildall.py      -> out/<type>/  (GIF, key sheets, tracks, QA)
+#   python -X utf8 bone-motion/engine/export.py        -> out/idle-reference/, sim/data.js
+#   python -X utf8 bone-motion/engine/overview.py      -> out/overview-idle.png, out/size-compare.png
+out/
+sim/data.js
+sim/sprites/*/
+__pycache__/
+
+# Received from another session for comparison only (22 MB); not the basis of this work.
+inputs/checker-11/
+
+# Binary guides and neutral source assets are restored from assets-v1.
+*.png
+*.blend

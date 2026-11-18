@@ -20,7 +20,7 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 MEDIA = {'.png', '.jpg', '.jpeg', '.webp', '.gif', '.mp4', '.wav', '.ico'}
-PREFIXES = ('art-source/', 'game/assets/', 'game/previews/', 'design-delivery/')
+PREFIXES = ('art-source/', 'game/assets/', 'game/previews/', 'design-delivery/', 'bone-motion/art-in/', 'bone-motion/inputs/request/', 'bone-motion/inputs/standard-bones/')
 LIMIT = 40 * 1024 * 1024
 CHUNK = 38 * 1024 * 1024
 
@@ -40,7 +40,7 @@ def safe_path(root, relative, archive=False):
     if archive:
         if len(p.parts) != 3 or p.parts[:2] != ('asset-packs', 'v1') or p.suffix != '.zip':
             raise ValueError('Invalid archive path: ' + relative)
-    elif not relative.startswith(PREFIXES) or p.suffix.lower() not in MEDIA:
+    elif not relative.startswith(PREFIXES) or (p.suffix.lower() not in MEDIA and relative != 'bone-motion/inputs/standard-bones/samto-class-neutral.blend'):
         raise ValueError('Not an asset path: ' + relative)
     target = root.joinpath(*p.parts).resolve()
     if not target.is_relative_to(root.resolve()) or any(x.is_symlink() for x in [root.joinpath(*p.parts[:i]) for i in range(1, len(p.parts)+1)]):
@@ -50,6 +50,8 @@ def safe_path(root, relative, archive=False):
 
 def category(relative, factions):
     p = relative.split('/')
+    if relative.startswith('bone-motion/'):
+        return 'bone-motion-guides'
     if relative.startswith('art-source/critical-cutins/v1/'):
         return 'critical-cutins'
     if relative.startswith('art-source/characters/v1/'):
@@ -91,9 +93,16 @@ def pack(root, allow_removals=False):
             dirs[:] = sorted(d for d in dirs if d not in {'node_modules', '__pycache__', '.git', 'test-artifacts'} and not (Path(directory)/d).is_symlink())
             for name in sorted(files):
                 file = Path(directory)/name
-                if file.suffix.lower() not in MEDIA:
-                    continue
                 relative = file.relative_to(root).as_posix()
+                if file.suffix.lower() not in MEDIA and relative != 'bone-motion/inputs/standard-bones/samto-class-neutral.blend':
+                    continue
+                if relative.startswith('bone-motion/art-in/') and '/guide/' not in relative:
+                    continue
+                # Discarded idle-art iterations stay local.
+                if relative.startswith(('design-delivery/v2/05-mockups/class11-', 'design-delivery/v2/05-mockups/liaohua-sword-idle-', 'design-delivery/v2/05-mockups/zhangfei-')):
+                    continue
+                if relative.endswith('/zhangfei-front-grip-check.png') or 'node_modules' in file.parts:
+                    continue
                 safe_path(root, relative)
                 size = file.stat().st_size
                 if size > CHUNK:

@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>본 캐릭터 전투 시뮬레이션</title>
+<style>
+  :root { --bg:#0f1622; --panel:#17212f; --line:#2b3d52; --text:#e6edf5; --dim:#93a4b8; --accent:#f0dba4; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:14px/1.5 "Malgun Gothic", system-ui, sans-serif; }
+  main { max-width:900px; margin:0 auto; padding:14px; }
+  h1 { font-size:18px; margin:0 0 8px; }
+  .bar { display:flex; flex-wrap:wrap; gap:6px 10px; align-items:center; background:var(--panel); border:1px solid var(--line); padding:8px 10px; margin-bottom:8px; }
+  button, select { background:#22364d; color:var(--text); border:1px solid var(--line); padding:5px 10px; font:inherit; cursor:pointer; }
+  button.on { background:#3d5f85; border-color:var(--accent); }
+  button.go { background:#195e50; border-color:#9de5bb; }
+  canvas { display:block; width:100%; height:auto; background:#132033; border:1px solid var(--line); }
+  #setup { background:var(--panel); border:1px solid var(--line); padding:8px 10px; margin-bottom:8px; }
+  #setup h2 { font-size:14px; margin:6px 0 4px; color:var(--accent); }
+  .chips { display:flex; flex-wrap:wrap; gap:4px; }
+  .chips button { padding:3px 7px; font-size:13px; }
+  .chips button.mine { background:#1f4d7a; border-color:#7fb8ee; } .chips button.foe { background:#7a2a26; border-color:#f09a8c; }
+  .chips small { color:var(--dim); margin-left:3px; }
+  #log { color:var(--dim); margin-top:8px; min-height:3em; white-space:pre-line; }
+  .hide { display:none; }
+</style>
+</head>
+<body>
+<main>
+  <h1>본 캐릭터 전투 시뮬레이션</h1>
+  <p style="margin:0 0 8px;color:#93a4b8">PixelLab 스프라이트가 완성된 장수는 그림으로, 나머지는 본 캐릭터로 나옵니다.</p>
+  <div class="bar">
+    <button id="start" class="go">전투 시작</button>
+    <button id="pause">멈춤</button>
+    <label>속도 <select id="speed"><option value="1">1배</option><option value="0.5">0.5배</option><option value="2">2배</option></select></label>
+    <button id="edit">편성 바꾸기</button>
+    <button id="random">무작위 편성</button>
+    <label><input type="checkbox" id="names" checked> 이름 표시</label>
+  </div>
+  <div id="setup" class="hide">
+    <div class="bar" style="margin:0 0 6px"><span>고를 쪽:</span><button id="pickMine" class="on">아군 (아래)</button><button id="pickFoe">적군 (위)</button><span id="count"></span></div>
+    <div id="groups"></div>
+  </div>
+  <canvas id="board" width="1000" height="1040"></canvas>
+  <div id="log"></div>
+</main>
+<script src="data.js"></script>
+<script src="heroes.js"></script>
+<script src="sprites/index.js"></script>
+<script>
+const D = window.SIM_DATA, HEROES = window.SIM_HEROES, FAM = Object.fromEntries(D.families.map(f => [f.id, f]));
+const T = 100, MX = 100, MY = 120, N = 8, SCALE = 0.8, FEET = 0.74;
+const GAP = 100 * (1 - Math.sin(18 * Math.PI / 180)) * 0.6;       // how far a melee attacker closes in when striking up or down the board
+const cv = document.getElementById('board'), g = cv.getContext('2d'), logEl = document.getElementById('log');
+const VIEW = { up: ['rear', 1], down: ['front', 1], left: ['left', 1], right: ['left', -1] };
+const sum = a => a.reduce((x, y) => x + y, 0);
+let teams = [['관우', '장비', '조운', '황충', '제갈량'], ['조조', '하후돈', '장료', '허저', '사마의']];      // 촉 5 대 위 5
+let units = [], floats = [], shots = [], running = false, paused = false, speed = 1, last = null, result = '', pick = 0, clockMs = 0;
+const byName = n => HEROES.find(h => h.name === n);
+
+// ---- setup ------------------------------------------------------------------------------------------------------
+function place() {
+  units = []; floats = []; shots = []; result = ''; clockMs = 0;
+  teams.forEach((names, side) => {
+    const list = names.map(byName), front = list.filter(h => h.range <= 1), back = list.filter(h => h.range > 1);
+    const rows = side === 0 ? [5, 7] : [2, 0];
+    [front, back].forEach((grp, r) => {
+      const start = Math.max(0, Math.floor((N - grp.length) / 2));
+      grp.slice(0, N).forEach((h, i) => units.push(make(h, side, start + i, rows[r])));
+    });
+  });
+  logEl.textContent = '편성: 아군 ' + teams[0].join(', ') + '\n        적군 ' + teams[1].join(', ');
+}
+function make(h, side, x, y) {
+  return { h, fam: FAM[h.family], side, x, y, px: x, py: y, hp: h.hp, max: h.hp, mana: 0, state: 'idle', clip: 'idle', t: Math.random() * 900, dir: side === 0 ? 'up' : 'down',
+           combo: 0, cool: 300 + Math.random() * 300, rate: 1, done: false, done2: false, target: null, flash: 0, fade: 1, buff: 0 };
+}
+function buildSetup() {
+  const box = document.getElementById('groups'); box.innerHTML = '';
+  D.families.forEach(f => {
+    const hs = HEROES.filter(h => h.family === f.id); if (!hs.length) return;
+    const h2 = document.createElement('h2'); h2.textContent = f.title; box.appendChild(h2);
+    const row = document.createElement('div'); row.className = 'chips'; box.appendChild(row);
+    hs.forEach(h => { const b = document.createElement('button'); b.innerHTML = `${h.name}<small>${h.skill}</small>`;
+      b.className = teams[0].includes(h.name) ? 'mine' : teams[1].includes(h.name) ? 'foe' : '';
+      b.onclick = () => { const other = 1 - pick; teams[other] = teams[other].filter(n => n !== h.name);
+        if (teams[pick].includes(h.name)) teams[pick] = teams[pick].filter(n => n !== h.name); else if (teams[pick].length < 8) teams[pick].push(h.name);
+        running = false; place(); buildSetup(); };
+      row.appendChild(b); });
+  });
+  document.getElementById('count').textContent = `아군 ${teams[0].length}명 · 적군 ${teams[1].length}명 (한 쪽 최대 8명, 다시 누르면 빠짐)`;
+}
+
+// ---- rules (simplified from the game: nearest target, range, attack interval, mana, one skill) --------------------
+const alive = u => u.state !== 'dead';
+const cheb = (a, b) => Math.max(Math.abs(a.x - b.x), Math.abs(a.y - b.y)), manh = (a, b) => Math.abs(a.x - b.x) + Math.abs(a.y - b.y);
+const inRange = (u, v) => u.h.range <= 1 ? manh(u, v) === 1 : cheb(u, v) <= u.h.range;
+const occupied = (x, y, me) => units.some(o => o !== me && alive(o) && ((o.x === x && o.y === y) || (o.state === 'move' && o.tx === x && o.ty === y)));
+function face(u, v) { const dx = v.x - u.x, dy = v.y - u.y; u.dir = Math.abs(dx) > Math.abs(dy) ? (dx > 0 ? 'right' : 'left') : (dy > 0 ? 'down' : 'up'); }
+function nearest(u) {
+  let best = null, bd = 1e9;
+  for (const v of units) if (alive(v) && v.side !== u.side) { const d = manh(u, v) + v.hp / 1e5; if (d < bd) { bd = d; best = v; } }
+  return best;
+}
+function play(u, clip, target) {
+  const c = u.fam.clips[clip], total = sum(c.durations);
+  u.state = clip.startsWith('s') ? 'skill' : 'attack'; u.clip = clip; u.t = 0; u.done = false; u.done2 = false; u.target = target; face(u, target);
+  const want = u.state === 'skill' ? total : u.h.interval * 1000; u.rate = Math.max(1, total / want); u.cool = Math.max(0, want - total / u.rate);
+}
+function think(u) {
+  const v = nearest(u); if (!v) return;
+  if (inRange(u, v)) {
+    if (u.cool > 0) { face(u, v); return; }
+    if (u.mana >= u.h.mana) { u.mana = 0; play(u, u.h.skillClip, v); note(`${u.h.name}: ${u.h.skill}`); return; }
+    const set = u.h.set === 'B' ? ['b1', 'b2', 'b3'] : ['a1', 'a2', 'a3']; play(u, set[u.combo % 3], v); u.combo++; return;
+  }
+  // step toward the target: the free neighbour that gets closest
+  let best = null, bd = (u.h.range <= 1 ? manh(u, v) : cheb(u, v) + manh(u, v) / 100);
+  for (const [dx, dy] of [[0, -1], [0, 1], [-1, 0], [1, 0]]) {
+    const x = u.x + dx, y = u.y + dy; if (x < 0 || y < 0 || x >= N || y >= N || occupied(x, y, u)) continue;
+    const d = u.h.range <= 1 ? Math.abs(v.x - x) + Math.abs(v.y - y) : Math.max(Math.abs(v.x - x), Math.abs(v.y - y)) + (Math.abs(v.x - x) + Math.abs(v.y - y)) / 100;
+    if (d < bd) { bd = d; best = [x, y]; }
+  }
+  if (best) { u.state = 'move'; u.clip = 'move'; u.t = 0; u.tx = best[0]; u.ty = best[1]; u.fx = u.x; u.fy = u.y; u.dur = sum(u.fam.clips.move.durations);
+    u.dir = best[0] > u.x ? 'right' : best[0] < u.x ? 'left' : best[1] > u.y ? 'down' : 'up'; }
+}
+function hurt(u, v, mult, magic) {
+  if (!alive(v)) return;
+  const dmg = Math.round(u.h.atk * mult * (u.buff > 0 ? 1.2 : 1) * 100 / (100 + (magic ? v.h.mdef : v.h.def)));
+  v.hp -= dmg; v.flash = 160; v.mana = Math.min(v.h.mana, v.mana + 5); floats.push({ x: v.px, y: v.py, text: '-' + dmg, t: 0, col: magic ? '#b9a2ff' : '#ffd9a8' });
+  if (v.hp <= 0) { v.hp = 0; v.state = 'dead'; v.t = 0; note(`${v.h.name} 쓰러짐`); }
+}
+function strike(u, second) {
+  const c = u.fam.clips[u.clip], v = u.target, skill = u.state === 'skill', casterType = u.h.family === 'caster';
+  const noTouch = c.event === '발동' || (c.event || '').startsWith('지시') || (c.event || '').startsWith('지목');
+  if (u.h.family === 'bow' || casterType) shots.push({ a: u, b: v, t: 0, col: casterType ? '#b9a2ff' : '#f4dea0' });
+  if (!skill) { if (!noTouch || casterType || u.h.family === 'command') hurt(u, v, second ? 0.6 : 1, casterType); u.mana = Math.min(u.h.mana, u.mana + (second ? 0 : 20)); return; }
+  if (noTouch && !['책사', '화공'].includes(u.h.role)) {          // support skills: heal the side and strengthen it for a while
+    for (const a of units) if (alive(a) && a.side === u.side) { const heal = Math.round(a.max * 0.12); a.hp = Math.min(a.max, a.hp + heal); a.buff = 4000;
+      floats.push({ x: a.px, y: a.py, text: '+' + heal, t: 0, col: '#8ee6a8' }); }
+    return;
+  }
+  if (casterType) {                                                  // area spell: the target and the two enemies nearest to it
+    const foes = units.filter(o => alive(o) && o.side !== u.side).sort((p, q) => manh(p, v) - manh(q, v)).slice(0, 3);
+    foes.forEach((f, i) => { shots.push({ a: u, b: f, t: 0, col: '#b9a2ff' }); hurt(u, f, [1.8, 1.45, 1.15][i], true); }); return;
+  }
+  hurt(u, v, second ? 1.0 : 2.2, false);
+}
+function update(dt) {
+  clockMs += dt;
+  for (const u of units) {
+    u.flash = Math.max(0, u.flash - dt); u.buff = Math.max(0, u.buff - dt);
+    if (u.state === 'dead') { u.t += dt; u.fade = Math.max(0, 1 - u.t / 700); continue; }
+    if (u.state === 'attack' || u.state === 'skill') {
+      const c = u.fam.clips[u.clip]; u.t += dt * u.rate; const f = frameOf(c, u.t);
+      const hitFrame = c.arrive || c.impact;
+      if (!u.done && hitFrame && f >= hitFrame - 1) { u.done = true; if (alive(u.target) || u.state === 'skill') strike(u, false); }
+      if (!u.done2 && c.impact2 && f >= c.impact2 - 1) { u.done2 = true; if (alive(u.target)) strike(u, true); }
+      if (u.t >= sum(c.durations)) { u.state = 'idle'; u.clip = 'idle'; u.t = 0; }
+      continue;
+    }
+    if (u.state === 'move') {
+      u.t += dt; const k = Math.min(1, u.t / u.dur); u.px = u.fx + (u.tx - u.fx) * k; u.py = u.fy + (u.ty - u.fy) * k;
+      if (k >= 1) { u.x = u.tx; u.y = u.ty; u.px = u.x; u.py = u.y; u.state = 'idle'; u.clip = 'idle'; u.t = 0; }
+      continue;
+    }
+    u.t += dt; u.cool -= dt; think(u);
+  }
+  for (const f of floats) f.t += dt; floats = floats.filter(f => f.t < 900);
+  for (const s of shots) s.t += dt; shots = shots.filter(s => s.t < 160);
+  const left = [0, 1].map(s => units.filter(u => alive(u) && u.side === s).length);
+  if (running && (left[0] === 0 || left[1] === 0)) { running = false; result = left[0] ? '아군 승리' : left[1] ? '적군 승리' : '무승부'; note(`${result} · ${(clockMs / 1000).toFixed(1)}초`); document.getElementById('start').textContent = '다시 시작'; }
+}
+function note(text) { const lines = logEl.textContent.split('\n').slice(-5); lines.push(text); logEl.textContent = lines.join('\n'); }
+
+// ---- drawing ----------------------------------------------------------------------------------------------------
+function frameOf(c, t) { let r = t; for (let i = 0; i < c.durations.length; i++) { if (r < c.durations[i]) return i; r -= c.durations[i]; } return c.durations.length - 1; }
+function loopFrame(c, t) { const total = sum(c.durations); return frameOf(c, ((t % total) + total) % total); }
+const cx = x => MX + x * T + T / 2, cy = y => MY + y * T + T * FEET;
+// Finished PixelLab sprites (sim/sprites/<hero id>/<clip>-<view>.png, 15 frames in a strip) replace the bone figure where they exist.
+const SPRITES = window.SIM_SPRITES || {}, images = {};
+function sheet(u, view) {
+  const have = SPRITES[u.h.id] && SPRITES[u.h.id][u.clip]; if (!have || !have.includes(view)) return null;
+  const key = `${u.h.id}/${u.clip}-${view}`; if (!images[key]) { images[key] = new Image(); images[key].src = `sprites/${key}.png?v=${Date.now() % 100000}`; }
+  return images[key].complete && images[key].naturalWidth ? images[key] : null;
+}
+function sprite(u) {
+  const c = u.fam.clips[u.clip], looping = u.state === 'idle' || u.state === 'move' || u.state === 'dead', f = looping ? loopFrame(c, u.t) : frameOf(c, u.t), [view, flip] = VIEW[u.dir];
+  let go = 0; if (!looping && c.advance && (u.dir === 'up' || u.dir === 'down')) go = c.advance[f] * GAP * SCALE * (u.dir === 'down' ? 1 : -1);
+  g.save(); g.translate(cx(u.px), cy(u.py) + go); g.scale(flip * SCALE, SCALE); g.globalAlpha = u.fade; g.lineCap = 'round';
+  const img = sheet(u, view);
+  if (img) { g.imageSmoothingEnabled = false; if (u.flash > 0) g.filter = 'brightness(2.4)'; g.drawImage(img, f * 256, 0, 256, 256, -128, -224, 256, 256); g.restore(); return; }
+  for (const p of c.views[view][f]) {
+    let col = u.side ? `rgb(${Math.min(255, p[5] * 0.75 + 70) | 0},${p[6] * 0.6 | 0},${p[7] * 0.6 | 0})` : `rgb(${p[5]},${p[6]},${p[7]})`;
+    if (u.flash > 0) col = '#ffffff';
+    for (const [w, k] of [[p[4] + 1.8, '#101622'], [p[4], col]]) { g.strokeStyle = k; g.lineWidth = w; g.beginPath(); g.moveTo(p[0], p[1]); g.lineTo(p[2] + 0.01, p[3]); g.stroke(); }
+  }
+  g.restore();
+}
+function bars(u) {
+  if (!alive(u)) return; const x = cx(u.px) - 34, w = 68, top = u.side ? MY + u.py * T - 16 : MY + u.py * T + T - 14;
+  g.fillStyle = '#0f2135'; g.fillRect(x - 1, top - 1, w + 2, 8); g.fillStyle = '#253c51'; g.fillRect(x, top, w, 6);
+  g.fillStyle = u.side ? '#df796e' : '#60d98b'; g.fillRect(x, top, w * u.hp / u.max, 6);
+  g.fillStyle = '#0f2135'; g.fillRect(x - 1, top + 8, w + 2, 6); g.fillStyle = '#54a5e5'; g.fillRect(x, top + 9, w * u.mana / u.h.mana, 4);
+  if (document.getElementById('names').checked) { g.font = 'bold 13px "Malgun Gothic", sans-serif'; g.textAlign = 'center'; const ty = u.side ? top - 5 : top + 27;
+    g.fillStyle = '#101622'; g.fillText(u.h.name, cx(u.px) + 1, ty + 1); g.fillStyle = u.buff > 0 ? '#8ee6a8' : '#f0dba4'; g.fillText(u.h.name, cx(u.px), ty); }
+}
+function draw() {
+  g.fillStyle = '#132033'; g.fillRect(0, 0, cv.width, cv.height);
+  for (let y = 0; y < N; y++) for (let x = 0; x < N; x++) { g.fillStyle = (x + y) % 2 ? '#1c2f42' : '#192a3c'; g.fillRect(MX + x * T, MY + y * T, T, T);
+    g.strokeStyle = '#283d53'; g.lineWidth = 1; g.strokeRect(MX + x * T + 0.5, MY + y * T + 0.5, T, T); }
+  g.strokeStyle = '#e8ddae'; g.lineWidth = 2; g.beginPath(); g.moveTo(MX, MY + 4 * T); g.lineTo(MX + N * T, MY + 4 * T); g.stroke();
+  for (const u of units) if (alive(u)) { g.fillStyle = '#0e293966'; g.beginPath(); g.ellipse(cx(u.px), cy(u.py) + 2, 26, 8, 0, 0, 7); g.fill(); }
+  [...units].filter(u => u.fade > 0).sort((a, b) => a.py - b.py).forEach(sprite);
+  for (const s of shots) { const k = Math.min(1, s.t / 120), ax = cx(s.a.px), ay = cy(s.a.py) - 50, bx = cx(s.b.px), by = cy(s.b.py) - 36, x = ax + (bx - ax) * k, y = ay + (by - ay) * k;
+    g.strokeStyle = s.col; g.lineWidth = 3; g.lineCap = 'round'; g.beginPath(); g.moveTo(ax + (bx - ax) * Math.max(0, k - 0.3), ay + (by - ay) * Math.max(0, k - 0.3)); g.lineTo(x, y); g.stroke(); }
+  units.forEach(bars);
+  g.font = 'bold 18px "Malgun Gothic", sans-serif'; g.textAlign = 'center';
+  for (const f of floats) { g.globalAlpha = 1 - f.t / 900; g.fillStyle = '#101622'; g.fillText(f.text, cx(f.x) + 1, cy(f.y) - 86 - f.t / 18 + 1); g.fillStyle = f.col; g.fillText(f.text, cx(f.x), cy(f.y) - 86 - f.t / 18); }
+  g.globalAlpha = 1;
+  if (result) { g.fillStyle = '#0b1220cc'; g.fillRect(MX, MY + 3.4 * T, N * T, 1.2 * T); g.font = 'bold 44px "Malgun Gothic", sans-serif'; g.fillStyle = '#f0dba4'; g.fillText(result, MX + N * T / 2, MY + 4.15 * T); }
+  else if (!running) { g.font = 'bold 20px "Malgun Gothic", sans-serif'; g.fillStyle = '#93a4b8'; g.fillText('전투 시작을 누르세요', MX + N * T / 2, MY + 4 * T - 12); }
+}
+function tick(now) {
+  if (last !== null) { let dt = Math.min(50, now - last) * speed; if (running && !paused) update(dt); else for (const u of units) if (u.state === 'idle') u.t += dt; }
+  last = now; draw(); requestAnimationFrame(tick);
+}
+document.getElementById('start').onclick = e => { place(); running = true; paused = false; e.target.textContent = '다시 시작'; document.getElementById('pause').textContent = '멈춤'; };
+document.getElementById('pause').onclick = e => { paused = !paused; e.target.textContent = paused ? '재생' : '멈춤'; };
+document.getElementById('speed').onchange = e => { speed = Number(e.target.value); };
+document.getElementById('edit').onclick = () => { document.getElementById('setup').classList.toggle('hide'); buildSetup(); };
+document.getElementById('random').onclick = () => { const pool = [...HEROES].sort(() => Math.random() - 0.5); teams = [pool.slice(0, 6).map(h => h.name), pool.slice(6, 12).map(h => h.name)]; running = false; place(); buildSetup();
+  document.getElementById('start').textContent = '전투 시작'; };
+document.getElementById('pickMine').onclick = e => { pick = 0; e.target.classList.add('on'); document.getElementById('pickFoe').classList.remove('on'); };
+document.getElementById('pickFoe').onclick = e => { pick = 1; e.target.classList.add('on'); document.getElementById('pickMine').classList.remove('on'); };
+place(); requestAnimationFrame(tick);
+</script>
+</body>
+</html>
