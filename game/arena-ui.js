@@ -3,7 +3,7 @@ import {arenaTemplate} from './arena-ui-template.js';
 import {artworkShell} from './ui-shell.js';
 import {preloadArtwork} from './art-controls.js';
 import {disposeNineSlices} from './nine-slice.js';
-import {generals} from './assets/generals-v2/generals.js';
+import {generals} from './character-art.js';
 import {arenaRules} from './battle-data.js';
 import {meritRules} from './arena-state.js';
 import {generalArtwork,appendGeneralArtwork} from './general-art.js';

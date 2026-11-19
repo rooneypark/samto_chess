@@ -4,10 +4,12 @@ import {artworkShell} from './ui-shell.js';
 import {placeArtwork,preloadArtwork} from './art-controls.js';
 import {disposeNineSlices} from './nine-slice.js';
 import {paintArtworkLayout} from './art-layout.js';
-import {generals} from './assets/generals-v2/generals.js';
+import {generals} from './character-art.js';
+import {generalArtwork} from './general-art.js';
+import {decorativeLineup} from './decorative-lineup.js';
 import {attendReward} from './alliance-state.js';
 export const allianceArtwork=artSet==='a';
-export const allianceReady=allianceArtwork?preloadArtwork(['assets/alliance-v2/headquarters.png',...['1','35'].map(id=>'assets/generals-v2/'+id+'-front.png')]):Promise.resolve();
+export const allianceReady=allianceArtwork?preloadArtwork(['assets/alliance-v2/headquarters.png',...['1','35'].map(id=>generals[id].views.front.url)]):Promise.resolve();
 let revision=0;
 export async function renderAllianceArtwork(root,{state,status,actions}){
  disposeNineSlices(root);const token=++revision,{guild,eligible,preparation,claimed,supply,donations}=status;
@@ -45,7 +47,7 @@ export async function renderAllianceArtwork(root,{state,status,actions}){
  for(const [id,key] of [['guild-shop','shop'],['guild-research','research'],['guild-manage','manage']])bind(id,actions[key],{disabled:!guild});
  artworkShell(root,{screen:'alliance',title:'동맹',progress:state});
  const painting=paintArtworkLayout(root,{hollow:'.headquarters'});
- for(const [id,center,height] of [['1',142,232],['35',798,195]]){const art=generals[id].views.front,w=height*art.width/art.height,img=document.createElement('img');img.className='general-original';img.alt=generals[id].name;img.src='assets/generals-v2/'+art.file;placeArtwork(img,[center-w/2,691-height*art.foot[1]/art.height,w,height]);$('.general-lineup').append(img);}
- try{await Promise.all([allianceReady,painting,document.fonts.ready,...[...root.querySelectorAll('img')].map(i=>i.decode())]);}
+ const images=decorativeLineup(root,2).map(async(id,i)=>{const img=await generalArtwork(id,{center:[142,798][i],height:232,feet:691});if(img&&token===revision)$('.general-lineup').append(img);});
+ try{await Promise.all([allianceReady,painting,...images,document.fonts.ready,...[...root.querySelectorAll('img')].map(i=>i.decode())]);}
  finally{if(token===revision){root.inert=false;root.setAttribute('aria-busy','false');}}
 }

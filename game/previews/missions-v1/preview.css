@@ -15,3 +15,6 @@
 .bonus-title{font-size:3.5cqw;z-index:3}.bonus-rewards{display:flex;align-items:center;gap:1cqw;font-size:3.3cqw;color:#ffe0a0;z-index:3}.bonus-rewards .reward-space{width:2cqw}.bonus-copy{font-size:2.5cqw;color:#b1c5d2;z-index:3;display:flex;align-items:center}.bonus-claim{font-size:3cqw}
 .mail-note{text-align:center;display:flex;justify-content:center;align-items:center;font-size:2.25cqw;color:#9db0c4}.home-back{font-size:3.4cqw}
 .achievement-description{font-size:2.7cqw;color:#c4d1db;line-height:1.6}.mission.achievement h3{font-size:3.5cqw}.mission.achievement .reward{font-size:2.5cqw}
+
+.mission-claim-status{position:absolute;display:grid;place-items:center;color:#bfced5;font:inherit;font-size:clamp(10px,3cqw,22px);text-align:center}
+.mission-claim-status[hidden],.mission button[hidden],.attendance-claim[hidden],.bonus-claim[hidden]{display:none!important}

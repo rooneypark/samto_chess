@@ -63,6 +63,8 @@ const modal = document.querySelector('#modal');
 const body = document.querySelector('#modal-body');
 const gameDialog = createGameDialog(modal,{artwork:artSet==='a'});
 const store = await bootStore(gameDialog);
+const {initSceneMotion}=await import('./scene-motion-controller.js');
+initSceneMotion(game,store);
 initPolish({store,game});initFit(game);
 let state = store.get();
 const gateLobby = initGateLobby(game,store);

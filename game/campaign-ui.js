@@ -8,6 +8,7 @@ import {landmarkArtwork} from './campaign-landmarks.js';
 import {stages,stageOrder,stageName,stageStatus,stageCleared,hardCleared,hardUnlocked,hardRules} from './stages.js';
 import {lordLevel} from './services.js';
 import {periods} from './economy.js';
+import {playCampaignUnlocks} from './scene-motion-controller.js';
 export const campaignArtwork=artSet==='a';
 export const campaignReady=campaignArtwork?preloadArtwork(['assets/campaign-v4/map.png']):Promise.resolve();
 export const campaignMapIds=stageOrder.slice(0,9);
@@ -53,5 +54,5 @@ export async function renderCampaignArtwork(root,{state,selected,difficulty,busy
  $('#campaign-difficulty strong').textContent=hard?'어려움':'일반';$('#campaign-difficulty small').textContent=hard?'일반으로 변경':hardUnlocked(state,selected)?'어려움 · 도전 가능':'어려움 · 잠김';$('#campaign-difficulty').onclick=onDifficulty;
  $('#campaign-catalog').onclick=onCatalog;$('#campaign-back').onclick=onHome;
  $('.reset-note').textContent='진군 경로에서 전투를 선택하세요 · 군주 Lv.'+lordLevel(state).level;
- await Promise.all([campaignReady,...painting,...Array.from(root.querySelectorAll('img'),img=>img.decode())]);if(token===revision&&!root.hidden){root.inert=false;root.setAttribute('aria-busy','false');}
+ await Promise.all([campaignReady,...painting,...Array.from(root.querySelectorAll('img'),img=>img.decode())]);if(token===revision&&!root.hidden){root.inert=false;root.setAttribute('aria-busy','false');playCampaignUnlocks(root);}
 }

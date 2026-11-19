@@ -5,7 +5,7 @@ button{position:absolute;box-shadow:none;border-image:none;filter:none;translate
 [data-box]{position:absolute;margin:0;padding:0}
 .scroll-heading,.pity-scroll{display:flex;align-items:center;justify-content:center;color:#14283a;font-weight:bold}
 .scroll-heading{font-size:5.2cqw;z-index:3}.pool-tabs button{font-size:4cqw}
-.recruit-stage{z-index:0}.hall{position:absolute;inset:1.5%;background:url('/game/assets/shop-v2/recruitment-hall.png') center 57%/100% auto;opacity:1}
+.recruit-stage{z-index:0}.hall{position:absolute;inset:1.5%;background:url('/game/assets/shop-v2/pickup-hall-v3.png') center 57%/100% auto;opacity:1}
 .stage-frame{position:absolute;inset:0;pointer-events:none}
 .stage-caption{display:flex;align-items:center;justify-content:center;color:#f9e5b2;font-size:3cqw;font-weight:bold;letter-spacing:.1cqw;text-shadow:0 2px 2px #091626,0 0 10px #091626;z-index:2}
 .general-lineup{display:contents}.general-original{position:absolute;object-fit:contain;image-rendering:pixelated;z-index:3;pointer-events:none}
@@ -23,6 +23,6 @@ button{position:absolute;box-shadow:none;border-image:none;filter:none;translate
 }
 
 .shop-v2 .hall[data-recruit-art]{background-size:cover;background-position:center}
-.shop-v2 .hall[data-recruit-art=hero]{background-image:url('assets/shop-v2/recruit-hall-v3.png')}
+.shop-v2 .hall[data-recruit-art=hero]{background-image:url('assets/shop-v2/pickup-hall-v3.png')}
 .shop-v2 .hall[data-recruit-art=pickup]{background-image:url('assets/shop-v2/pickup-hall-v3.png')}
 .shop-v2 .hall[data-recruit-art=treasure]{background-image:url('assets/shop-v2/treasure-hall-v3.png')}

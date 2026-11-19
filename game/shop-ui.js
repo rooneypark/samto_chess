@@ -1,13 +1,15 @@
 import {artSet} from './art.js';
 import {heroes} from './heroes.js';
-import {generals} from './assets/generals-v2/generals.js';
+import {generalArtwork} from './general-art.js';
+import {decorativeLineup} from './decorative-lineup.js';
+import {generals} from './character-art.js';
 import {pickupOf,S_SELECT_COST} from './collection.js';
 import {poolEntries} from './economy.js';
 import {artworkShell} from './ui-shell.js';
 import {placeArtwork,preloadArtwork} from './art-controls.js';
 import {nineSlice,disposeNineSlices} from './nine-slice.js';
 export const shopArtwork=artSet==='a';
-export const shopReady=shopArtwork?preloadArtwork(['recruit-hall-v3','pickup-hall-v3','treasure-hall-v3','coin','gem'].map(id=>'assets/shop-v2/'+id+'.png').concat(['blue','green'].map(id=>'assets/ui-scalable/'+id+'.png'),Object.keys(generals).map(id=>'assets/generals-v2/'+id+'-front.png'))):Promise.resolve();
+export const shopReady=shopArtwork?preloadArtwork(['pickup-hall-v3','treasure-hall-v3','coin','gem'].map(id=>'assets/shop-v2/'+id+'.png').concat(['blue','green'].map(id=>'assets/ui-scalable/'+id+'.png'),Object.keys(generals).map(id=>generals[id].views.front.url))):Promise.resolve();
 let revision=0;
 export function renderShopArtwork(root,{state,pool,pickup,currency,onPool,onCurrency,onRecruit,onProbabilities,onExchange,onSelectS,onProducts,onBack,onPending}){
  disposeNineSlices(root);const token=++revision,pity=state.shop.pity[pool],up=pickupOf(Date.now()),isHero=pool==='hero',title=pickup?'픽업 등용':isHero?'장수 등용':'보물 모집';
@@ -28,11 +30,13 @@ export function renderShopArtwork(root,{state,pool,pickup,currency,onPool,onCurr
  artworkShell(root,{screen:'shop',title:'상점',progress:state});
  root.querySelectorAll('[data-box]').forEach(el=>placeArtwork(el,el.dataset.box.split(',').map(Number)));
  const painted=[...root.querySelectorAll('[data-tone]')].map(el=>nineSlice(el,el.dataset.tone));painted.push(nineSlice(root.querySelector('.stage-frame'),'blue',{button:false,center:false}));
- if(pickup){
-  const list=[up.s,...up.a].map((id,i)=>[id,220+i*250,330]);
-  for(const [id,center,height] of list){const hero=heroes.find(h=>h.id===id),art=generals[id]?.views.front,img=document.createElement('img');img.alt=hero.name;img.dataset.hero=id;img.className='general-original';img.src=art?'assets/generals-v2/'+art.file:hero.sprite;const w=art?height*art.width/art.height:210,top=art?810-height*art.foot[1]/art.height:810-height;placeArtwork(img,[center-w/2,top,w,height]);root.querySelector('.general-lineup').append(img);}
+ const imageJobs=[];
+ if(isHero){
+  const ids=pickup?[up.s,...up.a]:decorativeLineup(root,6);
+  const step=pickup?250:139,start=pickup?220:122,height=pickup?300:235;
+  for(const [i,id]of ids.entries())imageJobs.push(generalArtwork(id,{center:start+i*step,height,feet:810}).then(img=>{if(img&&token===revision)root.querySelector('.general-lineup').append(img);}));
  }
  root.querySelector('#shop-back').onclick=onBack;root.querySelector('#probabilities').onclick=onProbabilities;root.querySelector('#shop-exchange').onclick=onExchange;root.querySelector('#s-select').onclick=onSelectS;root.querySelector('#iap-open').onclick=onProducts;root.querySelector('#pending-result')?.addEventListener('click',onPending);
  root.querySelectorAll('[data-pool]').forEach(b=>b.onclick=()=>onPool(b.dataset.pool));root.querySelectorAll('[data-select-currency]').forEach(b=>b.onclick=()=>onCurrency(b.dataset.selectCurrency));root.querySelectorAll('[data-count]').forEach(b=>b.onclick=()=>onRecruit(b.dataset.currency,Number(b.dataset.count)));
- return Promise.all([...painted,shopReady,...[...root.querySelectorAll('img')].map(i=>i.decode())]).finally(()=>{if(token===revision){root.inert=false;root.setAttribute('aria-busy','false');}});
+ return Promise.all([...painted,shopReady,...imageJobs,...[...root.querySelectorAll('img')].map(i=>i.decode())]).finally(()=>{if(token===revision){root.inert=false;root.setAttribute('aria-busy','false');}});
 }

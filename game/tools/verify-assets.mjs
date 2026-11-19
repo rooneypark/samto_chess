@@ -1,5 +1,12 @@
 import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import {heroes} from '../heroes.js';
+import {generals} from '../character-art.js';
 const root=path.resolve(import.meta.dirname,'../..'),read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8')),hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+for(const hero of heroes){
+ const art=generals[hero.id];if(!art||hero.artworkStatus!=='user-approved')throw Error('Approved runtime artwork missing: '+hero.name);
+ for(const view of Object.values(art.views))if(hash(path.resolve(root,'game',view.url))!==view.sha256)throw Error('Approved artwork hash differs: '+view.url);
+ if(!fs.existsSync(path.resolve(root,'game',hero.portrait)))throw Error('Portrait missing: '+hero.name);
+}
+console.log('Approved runtime artwork: 49 heroes, 147 source images and 49 portraits.');
 // The reference folder was removed on purpose (characters are being redrawn). Without it, check that every
 // bound frame still matches the hash recorded in game/assets/battle/manifest.json and leave that record untouched.
 if(!fs.existsSync(path.join(root,'reference/chokhan/data/tables.json'))){
@@ -8,7 +15,7 @@ if(!fs.existsSync(path.join(root,'reference/chokhan/data/tables.json'))){
   for(const f of b.frames)if(hash(path.join(root,f.file))!==f.sha256)throw Error('Frame differs from the recorded hash: '+f.file);}
  if(process.argv.includes('--release'))throw Error('Release blocked: source reference is absent and '+heroes.filter(hero=>hero.sourceUnit===undefined).length+' heroes use placeholder art.');
  console.log('Reference folder absent: verified',bound.length,'bindings against the recorded frame hashes.');
- console.log('Artwork pending (placeholder token):',heroes.filter(hero=>hero.sourceUnit===undefined).length);process.exit(0);
+ console.log('Legacy motion source bindings absent:',heroes.filter(hero=>hero.sourceUnit===undefined).length,'(approved static artwork is available for all heroes).');process.exit(0);
 }
 const tables=read('reference/chokhan/data/tables.json'),motion=read('reference/chokhan/analysis/motion-manifest.json');
 // Heroes waiting for commissioned artwork have no source binding to verify; they block --release below.

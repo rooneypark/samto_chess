@@ -4,19 +4,28 @@ import {artSet} from './art.js';
 import {renderSynergy} from './synergy-chips.js';
 import {artworkHeader} from './ui-shell.js';
 import {battleSprites} from './assets/battle-v2/sprites.js';
+import {characterFacing,characterView} from './character-art.js';
+import {designPortrait} from './art.js';
 import {chapters,stageOf,stageName} from './stages.js';
 import {roundCount} from './battle-data.js';
 
 export const battleV2=artSet==='a';
 const silverCoin='<img class="battle-silver-coin" src="assets/battle-v2/silver-coin.svg" alt="">';
 export function rankIndicator(rank){
- return battleV2?Array.from({length:5},(_,i)=>`<i class="rank-diamond ${i<rank?'filled':''}" aria-hidden="true"></i>`).join(''):['','Ⅰ','Ⅱ','Ⅲ','Ⅳ','Ⅴ'][rank];
+ return battleV2?Array.from({length:5},(_,i)=>`<i class="rank-diamond ${i<rank?'filled':''}" style="--diamond-index:${i}" aria-hidden="true"></i>`).join(''):['','Ⅰ','Ⅱ','Ⅲ','Ⅳ','Ⅴ'][rank];
 }
-export const battleUIReady=battleV2&&typeof Image!=='undefined'?Promise.all(['scene','summon','start','help','capacity','scroll-empty','sword','armor','bow','bench',...Object.keys(battleSprites)].map(id=>{const image=new Image();image.src='assets/battle-v2/'+id+'.png';return image.decode().catch(()=>{});})):Promise.resolve();
+export const battleUIReady=battleV2&&typeof Image!=='undefined'?Promise.all(['scene','summon','start','help','capacity','scroll-empty','sword','armor','bow','bench',...Object.keys(battleSprites).filter(id=>!characterView(id.replace(/-(front|back)$/,'')))].map(id=>{const image=new Image();image.src='assets/battle-v2/'+id+'.png';return image.decode().catch(()=>{});})):Promise.resolve();
 // Source silhouettes stay consistent through preparation, combat and results.
 // Engine positions drive movement; native motion sheets remain the fallback for other heroes.
 export function preparationSprite(u,phase,battle,reduced=false){
  if(!battleV2)return '';
+ const facing=characterFacing(u,battle),original=characterView(u.hero,facing.view);
+ if(original){
+  const bench=u.y<0,slotWidth=bench?[114,108,105,105,105,105,105,102][u.x]:88,slotHeight=bench?130:91;
+  const scale=bench?95/256:1,w=256*scale,h=w*slotWidth/slotHeight;
+  const x=50-128*scale,y=(bench?88:70)-224*scale*slotWidth/slotHeight;
+  return `<img class="unit-sprite approved-unit" data-character-art="${u.hero}-${facing.view}" draggable="false" src="${original.url}" alt="" style="left:${x}%;top:${y}%;width:${w}%;height:${h}%;max-width:none;transform:scaleX(${facing.flip?-1:1});transform-origin:50% 87.5%">`;
+ }
  const id=u.y<0?(u.hero==='32'?'32-front':u.hero==='archer'?'archer-front':u.hero+'-back'):u.side===1?(u.hero==='raider'?'raider-front':u.hero==='bow'?'bow-front':null):u.hero+'-back';
  const s=battleSprites[id];if(!s)return '';
  const slotWidth=u.y<0?[114,108,105,105,105,105,105,102][u.x]:88;
@@ -86,7 +95,7 @@ export function skinBattle(root,run,bonds,selected=null){
  root.querySelectorAll('[data-gear]').forEach((button,i)=>{const gear=run.gear[i];artButton(button,'battle-'+gear.type,{position:false});button.style.backgroundImage=`url('assets/battle-v2/${gear.type}.png')`;button.innerHTML='<small>'+['','Ⅰ','Ⅱ','Ⅲ'][gear.rank]+'</small>';button.setAttribute('aria-label',button.title);});
  if(run.phase==='fighting'){
   const portrait=root.querySelector('.combat-portrait'),chosen=run.battle?.units.find(u=>u.hero===portrait?.dataset.hero);
-  if(portrait&&chosen&&battleSprites[chosen.hero+'-back']){portrait.src='assets/battle-v2/'+(chosen.hero==='32'?'32-front':chosen.hero+'-back')+'.png';portrait.style.objectFit='contain';}
+  if(portrait&&chosen&&designPortrait(chosen.hero)){portrait.src=designPortrait(chosen.hero);portrait.style.objectFit='contain';}
   const timer=root.querySelector('.battle-timer');root.querySelector('.battle-status>span').replaceChildren(timer);
   timer.setAttribute('aria-label','남은 시간 '+timer.textContent);
   const counter=root.querySelector('.battle-status>strong');place(counter,[640,251,245,45]);counter.classList.add('battle-live-count');

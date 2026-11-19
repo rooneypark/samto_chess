@@ -1,11 +1,12 @@
 #modal.art-dialog{
-  width:min(87.25vw,49.1svh,560px);
+  width:min(calc(100vw - 24px), max(49.1svh, 320px), 560px);
+  box-sizing:border-box;
   max-height:88svh;
   padding:0;
-  border:0;
-  border-image:none;
-  background-color:transparent;
-  box-shadow:none;
+  border:var(--modal-panel-width) solid transparent;
+  border-image:var(--modal-panel-image) 240 / var(--modal-panel-width) / 0 stretch;
+  background:var(--modal-panel-color);
+  box-shadow:var(--modal-panel-shadow);
   container-type:inline-size;
   color:#d4e0e8;
 }
@@ -56,3 +57,35 @@
 
 /* Recruit-source action aligns with the full-width dialog footer. */
 #modal.art-dialog #codex-recruit-shop{display:block;width:100%;box-sizing:border-box;margin-top:2.44cqw}
+
+#modal.art-dialog .game-dialog-hero {
+  background:none;
+  border:0;
+  box-shadow:none;
+  padding:2cqw 0;
+}
+
+#modal.art-dialog .game-dialog-hero {
+ display:grid;
+ grid-template-columns:clamp(40px,17cqw,68px) minmax(0,1fr);
+ align-items:center;
+ gap:clamp(7px,3cqw,14px);
+}
+#modal.art-dialog .game-dialog-hero img {width:100%;height:auto;aspect-ratio:4/5;object-fit:contain}
+#modal.art-dialog .game-dialog-hero h3 {margin:0;font-size:clamp(15px,5.2cqw,23px);word-break:keep-all}
+#modal.art-dialog .game-dialog-stars {white-space:nowrap}
+#modal.art-dialog .game-dialog-hero small {word-break:keep-all}
+#modal.art-dialog .game-dialog-hero.dialog-art-panel {padding:clamp(4px,2cqw,10px)}
+#modal.art-dialog #modal-title {min-width:0;word-break:keep-all}
+#modal.art-dialog #close-modal {flex:none}
+#modal.art-dialog .game-dialog-row {
+ display:grid;
+ grid-template-columns:fit-content(40%) minmax(0,1fr);
+ gap:clamp(6px,2cqw,12px);
+ word-break:keep-all;
+ overflow-wrap:anywhere;
+}
+#modal.art-dialog .modal-actions button.action[data-dialog-role] {
+ padding-inline:clamp(4px,1.6cqw,10px);
+ word-break:keep-all;
+}

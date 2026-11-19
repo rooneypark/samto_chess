@@ -1,0 +1,7 @@
+:root {
+  --modal-panel-image: url("assets/ui/panel.png");
+  --modal-panel-color: #233950;
+  --modal-panel-shadow: 0 10px 40px #091322aa;
+  --modal-panel-width: 12px;
+}
+@media(max-width:400px){:root{--modal-panel-width:9px}}

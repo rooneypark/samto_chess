@@ -2,26 +2,32 @@
 .game-stack>.game{grid-column:1}
 .game-toast{
  position:absolute;
- left:2.125%;
- right:2.125%;
+ left:0;
+ right:0;
  top:8px;
  z-index:100;
  box-sizing:border-box;
  justify-self:center;
- min-height:40px;
- max-height:68px;
+ width:max-content;max-width:min(90%,400px);margin-inline:auto;min-height:36px;
+
  overflow:hidden;
- display:flex;
+ display:grid;
+ grid-template-columns:minmax(0,1fr);
  align-items:center;
  gap:10px;
- padding:8px 12px;
+ border:0;
+ border-radius:8px;
+ background:#161616;
+ padding:8px 14px;
  color:#fff;
- font:clamp(12px,3.25vw,15px)/1.35 GamePixel,'Malgun Gothic',sans-serif;
+ font:clamp(12px,3.25vw,15px)/1.35 GamePixel,Neo,'Malgun Gothic',sans-serif;
  pointer-events:none;
 }
 .game-toast[hidden]{display:none}
-.game-toast strong{flex:none}
-.game-toast span{overflow-wrap:anywhere;min-width:0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.game-toast strong{font-weight:normal;color:inherit;font-size:inherit;white-space:nowrap}
+.game-toast .toast-copy{display:flex;align-items:baseline;justify-content:center;gap:.6em;min-width:0;grid-column:1;line-height:1.35}
+.game-toast .toast-copy>span{overflow-wrap:anywhere;min-width:0;word-break:keep-all}
 
-.game-toast .toast-close{pointer-events:auto;margin-left:auto}
-.game-toast{width:95.75%;justify-self:stretch}
+/* The mobile game is laid out at 480px and then scaled as a whole. */
+.game-stack[data-fit] > .game-toast {font-size:18px}
+.game-toast .toast-copy > span {text-align:start}

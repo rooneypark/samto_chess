@@ -25,9 +25,8 @@ test('roster has 49 heroes with the planned faction and grade spread, specs and 
  assert.deepEqual(count(h=>h.faction),{'촉':12,'위':12,'오':12,'군웅':13});
  assert.deepEqual(count(h=>specs[h.id].grade),{S:12,A:16,B:12,C:9});
  for(const h of heroes){assert.equal(specs[h.id].stats.length,7,h.name);assert.ok(specs[h.id].skill&&specs[h.id].description&&awakening5[h.id],h.name);assert.ok(h.sprite&&h.portrait,h.name);}
- // Heroes without commissioned art are marked and use a placeholder that says so.
- const pending=heroes.filter(h=>h.art==='pending');assert.equal(pending.length,35);
- assert.ok(pending.every(h=>h.mappingStatus==='ART_PENDING'&&decodeURIComponent(h.sprite).includes('임시')));
+ // Every hero now has approved full-body art and an independent portrait.
+ assert.ok(heroes.every(h=>h.artworkStatus==='user-approved'&&h.sprite===`../art-source/characters/v1/${h.id}/front.png`));
  for(const f of Object.values(factions)){assert.equal(f.starter.length,6);assert.ok(f.starter.every(id=>specs[id]),f.id);assert.equal(heroes.find(h=>h.id===f.lord).faction,f.id);
   assert.deepEqual(f.starter.slice(0,3).map(id=>specs[id].grade),['A','B','B']);}
 });

@@ -30,3 +30,5 @@ button:disabled{color:#9eb1c5;cursor:default;filter:none;opacity:1}
 .summary-rewards.many-rewards{font-size:max(2.5cqw,9px);flex-wrap:wrap;gap:.5cqw 1cqw}.reward-other{font-size:.8em;white-space:nowrap}
 }
 .game.mail-art>.toast{z-index:80}.game.in-battle>.mail-v1{display:none}
+
+.mail-v1 :is(.delete-mail,.claim-mail)[hidden]{display:none!important}

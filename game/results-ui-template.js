@@ -9,11 +9,11 @@ export const resultsTemplate=`
  <h2 class="victory-title" data-box="200,370,541,116">승리</h2>
  <p class="round-summary" data-box="160,539,621,31">5 / 5 라운드 완료</p>
  <div class="victory-generals" aria-label="기존 6장수 독립 원화"></div>
- <section class="reward-panel" data-box="${contentBounds.left},804,${contentBounds.width},254"><div class="panel-frame" data-frame="blue"></div></section>
+ <section class="reward-panel report-sheet" data-box="${contentBounds.left},804,${contentBounds.width},254"></section>
  <h2 class="section-title" data-box="52,827,550,42">획득 보상</h2><span class="paid-label" data-box="650,827,238,42">✓ 지급 완료</span>
- <div class="reward-item" data-box="52,890,240,140"><div class="panel-frame" data-frame="blue"></div><div class="reward-value"><img src="assets/shop-v2/coin.png" alt=""><strong id="gold-reward">+100</strong></div><small>골드</small></div>
- <div class="reward-item" data-box="350,890,240,140"><div class="panel-frame" data-frame="blue"></div><div class="reward-value"><img src="assets/shop-v2/gem.png" alt=""><strong id="gem-reward">+30</strong></div><small>무료 다이아</small></div>
- <div class="reward-item" data-box="648,890,240,140"><div class="panel-frame" data-frame="blue"></div><div class="reward-value"><strong id="material-reward">+5</strong></div><small>장수 교환재료</small></div>
+ <div class="reward-item" data-box="52,890,240,140"><div class="reward-value"><img src="assets/shop-v2/coin.png" alt=""><strong id="gold-reward">+100</strong></div><small>골드</small></div>
+ <div class="reward-item" data-box="350,890,240,140"><div class="reward-value"><img src="assets/shop-v2/gem.png" alt=""><strong id="gem-reward">+30</strong></div><small>무료 다이아</small></div>
+ <div class="reward-item" data-box="648,890,240,140"><div class="reward-value"><img src="assets/ui-temp/reward-hero-token.png" alt=""><strong id="material-reward">+5</strong></div><small>장수 교환재료</small></div>
  <section class="next-stage" data-box="${contentBounds.left},1076,${contentBounds.width},130"><div class="panel-frame" data-frame="blue"></div></section>
  <img class="next-landmark" data-box="49,1090,120,100" alt="사수관 성벽">
  <h2 class="next-title" data-box="194,1093,660,42">다음 전역 · 사수관</h2>

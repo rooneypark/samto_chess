@@ -23,8 +23,7 @@ export function createGameDialog(dialog,{artwork=false}={}) {
     styleDialogContent(body);
     const corner=Math.max(7,Math.round(dialog.clientWidth*28/821));
     const paint=(element,tone,button)=>nineSlice(element,tone,{button,corner,stablePixels:true,fitCorner:true}).catch(error=>console.error(error));
-    paint(dialog,'blue',false);
-    body.querySelectorAll('.game-dialog-inset:not(.dialog-message),.dialog-art-panel,.guild-modal-row,.treasure-card,.result-card,.product-row,.rate-list section').forEach(panel=>paint(panel,'blue',false));
+    body.querySelectorAll('.game-dialog-inset:not(.dialog-message),.guild-modal-row,.treasure-card,.result-card,.product-row,.rate-list section').forEach(panel=>paint(panel,'blue',false));
     body.querySelectorAll(dialogButtonSelector).forEach(button=>paint(button,button.dataset.dialogRole==='primary'?'green':'blue',true));
   }
   const observer = new MutationObserver(records=>{

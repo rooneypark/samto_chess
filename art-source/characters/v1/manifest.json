@@ -9,7 +9,7 @@
   ],
   "motionComplete": false,
   "count": 49,
-  "runtimeApplied": false,
+  "runtimeApplied": true,
   "entries": [
     {
       "sideFacing": "left",
@@ -56,7 +56,7 @@
       },
       "folder": "1",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -112,7 +112,7 @@
       },
       "folder": "2",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -168,7 +168,7 @@
       },
       "folder": "15",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -224,7 +224,7 @@
       },
       "folder": "16",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -280,7 +280,7 @@
       },
       "folder": "35",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -336,7 +336,7 @@
       },
       "folder": "0",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -392,7 +392,7 @@
       },
       "folder": "32",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -448,7 +448,7 @@
       },
       "folder": "33",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -504,7 +504,7 @@
       },
       "folder": "34",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -560,7 +560,7 @@
       },
       "folder": "77",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -616,7 +616,7 @@
       },
       "folder": "119",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -672,7 +672,7 @@
       },
       "folder": "infantry",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -728,7 +728,7 @@
       },
       "folder": "archer",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -784,7 +784,7 @@
       },
       "folder": "tactician",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -840,7 +840,7 @@
       },
       "folder": "simayi",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -896,7 +896,7 @@
       },
       "folder": "dianwei",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -952,7 +952,7 @@
       },
       "folder": "guojia",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -1008,7 +1008,7 @@
       },
       "folder": "xuchu",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -1064,7 +1064,7 @@
       },
       "folder": "xiahouyuan",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -1120,7 +1120,7 @@
       },
       "folder": "xuhuang",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -1176,7 +1176,7 @@
       },
       "folder": "xunyu",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -1232,7 +1232,7 @@
       },
       "folder": "yuejin",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -1288,7 +1288,7 @@
       },
       "folder": "caohong",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -1344,7 +1344,7 @@
       },
       "folder": "machao",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -1400,7 +1400,7 @@
       },
       "folder": "pangtong",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -1456,7 +1456,7 @@
       },
       "folder": "jiangwei",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -1512,7 +1512,7 @@
       },
       "folder": "weiyan",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -1568,7 +1568,7 @@
       },
       "folder": "liaohua",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -1624,7 +1624,7 @@
       },
       "folder": "zhoucang",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -1680,7 +1680,7 @@
       },
       "folder": "sunce",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -1736,7 +1736,7 @@
       },
       "folder": "luxun",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -1792,7 +1792,7 @@
       },
       "folder": "sunquan",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -1848,7 +1848,7 @@
       },
       "folder": "ganning",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -1904,7 +1904,7 @@
       },
       "folder": "taishici",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -1960,7 +1960,7 @@
       },
       "folder": "lumeng",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -2016,7 +2016,7 @@
       },
       "folder": "huanggai",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -2072,7 +2072,7 @@
       },
       "folder": "lusu",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -2128,7 +2128,7 @@
       },
       "folder": "sunshangxiang",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -2184,7 +2184,7 @@
       },
       "folder": "dingfeng",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -2240,7 +2240,7 @@
       },
       "folder": "panzhang",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -2296,7 +2296,7 @@
       },
       "folder": "zhangjue",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -2352,7 +2352,7 @@
       },
       "folder": "dongzhuo",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -2408,7 +2408,7 @@
       },
       "folder": "yuanshao",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -2464,7 +2464,7 @@
       },
       "folder": "huatuo",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -2520,7 +2520,7 @@
       },
       "folder": "yanliang",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -2576,7 +2576,7 @@
       },
       "folder": "wenchou",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -2632,7 +2632,7 @@
       },
       "folder": "diaochan",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -2688,7 +2688,7 @@
       },
       "folder": "huaxiong",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224
@@ -2744,7 +2744,7 @@
       },
       "folder": "gongsunzan",
       "right": "mirror-side",
-      "runtimeApplied": false,
+      "runtimeApplied": true,
       "logicalFoot": [
         128,
         224

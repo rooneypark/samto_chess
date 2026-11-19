@@ -1,3 +1,4 @@
+@import url("./modal-panel.css");
 @font-face{font-family:GamePixel;src:url('assets/ui/neodgm.woff2') format('woff2');font-display:swap}
 :root{color-scheme:dark;--ink:#172538;--paper:#fff5d9;--teal:#0b887e;--line:#849ab6}
 *{box-sizing:border-box}
@@ -87,7 +88,7 @@ dialog::backdrop{background:#081322b8}.dialog-header{display:flex;align-items:ce
 .guild-coop .icon{width:7cqw;height:7cqw}.guild-coop h4{font-size:3.1cqw;margin:0}.guild-coop progress{width:100%;height:1.7cqw;accent-color:#36c3ab}.guild-coop .shop-reset{margin:1cqw 0 0}.guild-coop button{font-size:max(2.5cqw,9px)}
 .guild-modal-row{display:flex;align-items:center;gap:8px;border-bottom:1px solid #718ba7;padding:8px 0}.guild-modal-row .guild-avatar{width:38px;height:38px}.guild-modal-row>div,.guild-modal-row>strong{flex:1}.guild-modal-row .action{font-size:14px;padding:5px}.guild-field{display:flex;align-items:center;gap:8px;margin-bottom:12px}.guild-field input{flex:1}.guild-error{color:#ffd0a1}
 .arena-panel{padding:1.5cqw;margin-bottom:1.5cqw}.arena-panel h3{font-size:3.5cqw;margin:0}.arena-intro,.arena-bar{display:flex;align-items:center;justify-content:space-between;gap:1cqw}.arena-intro{padding:1cqw 0 2cqw}.arena-intro>.icon{width:16cqw;height:16cqw}.arena-intro p{margin:.8cqw 0;font-size:max(2.45cqw,9px)}.arena-intro button,.arena-next{padding:.35em .65em}.arena-bar{background:#192e46;border:1px solid #829bb7;padding:1cqw;margin-bottom:1cqw}.arena-lineup{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:2px;background:#172c43;padding:2px}.arena-lineup>div{position:relative;min-width:0;background:#2c4764;text-align:center;display:grid;justify-items:center;padding:2px}.arena-lineup img{width:100%;height:clamp(28px,10cqw,80px);object-fit:contain}.arena-lineup span{font-size:clamp(8px,2.2cqw,15px);white-space:nowrap}.arena-lineup b{position:absolute;top:2px;right:2px;font-size:10px;background:#172c43;padding:1px 3px}.arena-versus{text-align:center;color:#f7d58a;margin:1cqw 0;font-size:3.5cqw}.arena-next{display:block;margin:1cqw auto}.arena-start{display:block;width:100%;height:9cqw;padding:0;font-size:4cqw}.arena-rewards{text-align:center}.arena-rewards>div{display:grid;grid-template-columns:repeat(3,1fr);gap:1cqw;margin:1cqw 0}.arena-rewards span{display:flex;align-items:center;justify-content:center;gap:.5cqw;background:#192e46;border:1px solid #829bb7;padding:1cqw 0}.arena-rewards .icon{width:3cqw;height:3cqw}.arena-rewards p{margin:1cqw 0}.arena-rank-list li{padding:8px;border-bottom:1px solid #617b98}.arena-rank-list span{float:right}
-#modal{border:9px solid transparent;border-image:url('assets/ui/panel.png') 240 / 9px / 0 stretch;background:#22364c;background-clip:padding-box;box-shadow:0 10px 40px #091322aa}
+#modal{border:9px solid transparent;border-image:var(--modal-panel-image) 240 / 9px / 0 stretch;background:#22364c;background-clip:padding-box;box-shadow:var(--modal-panel-shadow)}
 #modal::backdrop{background:#091321b8}
 #modal .dialog-header{background:#1b3048;border-bottom:2px solid #839bb9;padding:10px 14px;gap:12px}
 #modal .dialog-header h2{font-size:clamp(18px,4vw,24px);color:#f5e6be}
@@ -97,7 +98,7 @@ dialog::backdrop{background:#081322b8}.dialog-header{display:flex;align-items:ce
 #modal .modal-actions{flex-wrap:wrap}
 #modal .dialog-message{word-break:keep-all;overflow-wrap:anywhere}
 /* Approved dialog layouts, shared by every in-game popup. */
-#modal{width:min(92vw,460px);max-height:88svh;border-width:12px;border-image-width:12px;background:#233950}
+#modal{width:min(92vw,460px);max-height:88svh;border-width:var(--modal-panel-width);border-image-width:var(--modal-panel-width);background:var(--modal-panel-color)}
 #modal .dialog-header{padding:10px 12px;background:#182d43;border-bottom:2px solid #6e89a5}
 #modal .dialog-header>.icon{width:26px;height:26px}
 #modal .dialog-header h2{font-size:21px;color:#f4dfab}

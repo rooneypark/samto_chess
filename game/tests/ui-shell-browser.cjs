@@ -28,7 +28,7 @@ async function capture(page,name){
  ]),'Every tab switch paints one decoded title immediately');
  const initial=await savedState(page);await page.locator('[data-action=barracks]:visible').click();
  assert.deepEqual((await page.locator('.roster-card').evaluateAll(es=>es.map(e=>e.dataset.hero))).sort(),Object.keys(initial.heroes).filter(id=>initial.heroes[id].owned).sort(),'Only recruited heroes appear');
- assert.ok(await page.locator('.hero-stage img').evaluate((img,heroes)=>Object.keys(heroes).some(id=>heroes[id].owned&&(img.getAttribute('src')==='assets/generals-v2/'+id+'-front.png'||img.getAttribute('src')==='assets/heroes/'+id+'-idle.png')),initial.heroes),'Initial detail belongs to an owned hero');
+ assert.ok(await page.locator('.hero-stage img').evaluate((img,heroes)=>Object.keys(heroes).some(id=>heroes[id].owned&&img.getAttribute('src')==='../art-source/characters/v1/'+id+'/front.png'),initial.heroes),'Initial detail belongs to an owned hero');
  await seed(page,s=>{for(const id of ['1','xuchu','32','35','diaochan','119'])s.heroes[id].owned=true;return s;});
  await page.locator('[data-action=home]:visible').click();const before=await savedState(page),gate=await capture(page,'gate');
  const slots=await page.locator('.bottom-nav button:visible').evaluateAll(es=>es.map(e=>e.getBoundingClientRect().toJSON()));
@@ -38,7 +38,7 @@ async function capture(page,name){
  for(const id of ids){
   const card=page.locator('.hero-roster [data-hero="'+id+'"]'),box=await card.boundingBox();
   assert.ok(box.y>=bounds.y&&box.y+box.height<=bounds.y+bounds.height,'All six originals fit without scrolling');
-  await card.click();assert.equal(await page.locator('.hero-stage img').getAttribute('src'),'assets/generals-v2/'+id+'-front.png');
+  await card.click();assert.equal(await page.locator('.hero-stage img').getAttribute('src'),'../art-source/characters/v1/'+id+'/front.png');
   assert.equal(await page.locator('#train').isEnabled(),before.heroes[id].owned);
   assert.equal(await page.locator('#awaken').isEnabled(),before.heroes[id].owned);
   assert.equal(await page.locator('#treasure-open').isEnabled(),before.heroes[id].owned);
@@ -77,11 +77,12 @@ async function capture(page,name){
   const fixedPortraits=await portraitBoxes();
   for(const id of ids){
    await page.locator('.hero-roster [data-hero="'+id+'"]').click();
-   const geometry=await page.evaluate(async id=>{const {generals}=await import('./assets/generals-v2/generals.js');const source=generals[id].views.front,measure=(img,box)=>{const r=img.getBoundingClientRect(),p=box.getBoundingClientRect();return {height:r.height,width:r.width,foot:r.y-p.y+r.height*source.foot[1]/source.height,inside:r.x>=p.x-.1&&r.right<=p.right+.1&&r.y>=p.y-.1&&r.bottom<=p.bottom+.1,aspect:r.width/r.height};};return {detail:measure(document.querySelector('.hero-stage img'),document.querySelector('.hero-stage')),cards:measure(document.querySelector('.roster-card[data-hero="'+id+'"] img'),document.querySelector('.roster-card[data-hero="'+id+'"]')),aspect:source.width/source.height};},id);
+   await page.evaluate(()=>Promise.all(document.getAnimations().map(a=>a.finished.catch(()=>{}))));
+   const geometry=await page.evaluate(async id=>{const {generals}=await import('./assets/generals-v2/generals.js');const source=generals[id].views.front,measure=(img,box)=>{const r=img.getBoundingClientRect(),p=box.getBoundingClientRect();return {height:r.height,width:r.width,foot:r.y-p.y+r.height*source.foot[1]/source.height,inside:r.x+r.width*source.visible[0]/256>=p.x-.1&&r.x+r.width*(source.visible[0]+source.visible[2])/256<=p.right+.1&&r.y+r.height*source.visible[1]/256>=p.y-.1&&r.y+r.height*(source.visible[1]+source.visible[3])/256<=p.bottom+.1,aspect:r.width/r.height};};return {detail:measure(document.querySelector('.hero-stage img'),document.querySelector('.hero-stage')),cards:measure(document.querySelector('.roster-card[data-hero="'+id+'"] img'),document.querySelector('.roster-card[data-hero="'+id+'"]')),aspect:source.width/source.height};},id);
    assert.deepEqual(await portraitBoxes(),fixedPortraits,'Selection preserves all portrait windows');
    for(const key of ['detail']){assert.ok(geometry[key].inside,id+' complete silhouette '+key);assert.ok(Math.abs(geometry[key].aspect-geometry.aspect)<.003,id+' aspect '+key);measured[key].push(geometry[key]);}
   }
-  for(const key of ['detail'])for(let i=0;i<ids.length;i++){const ratio=['1','119'].includes(ids[i])?1:ids[i]==='xuchu'?.85:.7;assert.ok(Math.abs(measured[key][i].height/measured[key][0].height-ratio)<.003,ids[i]+' shared stature '+key);assert.ok(Math.abs(measured[key][i].foot-measured[key][0].foot)<.1,ids[i]+' shared foot baseline '+key);}
+  for(const key of ['detail'])for(let i=0;i<ids.length;i++){const ratio=1;assert.ok(Math.abs(measured[key][i].height/measured[key][0].height-ratio)<.003,ids[i]+' shared stature '+key);assert.ok(Math.abs(measured[key][i].foot-measured[key][0].foot)<.1,ids[i]+' shared foot baseline '+key);}
   // Eye rows measured on the six approved 96×120 portrait PNGs.
   const eyeRows={'1':56,xuchu:63,'32':58,'35':60,diaochan:61,'119':65};
   const portraits=await page.locator('.general-card-art .portrait-viewport').evaluateAll(async (slots,eyes)=>{

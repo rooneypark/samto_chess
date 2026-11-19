@@ -3,7 +3,6 @@ export const heroes = [
     "id": "1",
     "name": "관우",
     "role": "전열 공격",
-    "sprite": "assets/heroes/1-idle.png",
     "portrait": "assets/portraits-v4/1.png",
     "sourceUnit": 142,
     "sourceHero": 1,
@@ -14,7 +13,6 @@ export const heroes = [
     "id": "2",
     "name": "장비",
     "role": "방어",
-    "sprite": "assets/heroes/2-idle.png",
     "portrait": "assets/portraits-v4/2.png",
     "sourceUnit": 145,
     "sourceHero": 2,
@@ -25,7 +23,6 @@ export const heroes = [
     "id": "15",
     "name": "조운",
     "role": "기동 전사",
-    "sprite": "assets/heroes/15-idle.png",
     "portrait": "assets/portraits-v4/15.png",
     "sourceUnit": 148,
     "sourceHero": 15,
@@ -36,7 +33,6 @@ export const heroes = [
     "id": "16",
     "name": "황충",
     "role": "궁수",
-    "sprite": "assets/heroes/16-idle.png",
     "portrait": "assets/portraits-v4/16.png",
     "sourceUnit": 209,
     "sourceHero": 16,
@@ -47,7 +43,6 @@ export const heroes = [
     "id": "35",
     "name": "제갈량",
     "role": "책사",
-    "sprite": "assets/heroes/35-idle.png",
     "portrait": "assets/portraits-v4/35.png",
     "sourceUnit": 215,
     "sourceHero": 35,
@@ -58,7 +53,6 @@ export const heroes = [
     "id": "0",
     "name": "유비",
     "role": "지원",
-    "sprite": "assets/heroes/0-idle.png",
     "portrait": "assets/portraits-v4/0.png",
     "sourceUnit": 139,
     "sourceHero": 0,
@@ -70,7 +64,6 @@ export const heroes = [
     "name": "조조",
     "role": "지휘",
     "faction": "위",
-    "sprite": "assets/heroes/32-idle.png",
     "portrait": "assets/portraits-v4/32.png",
     "sourceHero": 32,
     "sourceUnit": 154,
@@ -83,7 +76,6 @@ export const heroes = [
     "name": "하후돈",
     "role": "반격",
     "faction": "위",
-    "sprite": "assets/heroes/33-idle.png",
     "portrait": "assets/portraits-v4/33.png",
     "sourceHero": 33,
     "sourceUnit": 244,
@@ -96,7 +88,6 @@ export const heroes = [
     "name": "장료",
     "role": "기동",
     "faction": "위",
-    "sprite": "assets/heroes/34-idle.png",
     "portrait": "assets/portraits-v4/34.png",
     "sourceHero": 34,
     "sourceUnit": 158,
@@ -109,7 +100,6 @@ export const heroes = [
     "name": "주유",
     "role": "화공",
     "faction": "오",
-    "sprite": "assets/heroes/77-idle.png",
     "portrait": "assets/portraits-v4/77.png",
     "sourceHero": 77,
     "sourceUnit": 176,
@@ -122,7 +112,6 @@ export const heroes = [
     "name": "여포",
     "role": "광전사",
     "faction": "군웅",
-    "sprite": "assets/heroes/119-idle.png",
     "portrait": "assets/portraits-v4/119.png",
     "sourceHero": 119,
     "sourceUnit": 163,
@@ -135,7 +124,6 @@ export const heroes = [
     "name": "의용보병",
     "role": "근접",
     "faction": "군웅",
-    "sprite": "assets/heroes/infantry-idle.png",
     "portrait": "assets/portraits-v4/infantry.png",
     "sourceHero": 210,
     "sourceUnit": 0,
@@ -148,7 +136,6 @@ export const heroes = [
     "name": "의용궁병",
     "role": "원거리",
     "faction": "군웅",
-    "sprite": "assets/heroes/archer-idle.png",
     "portrait": "assets/portraits-v4/archer.png",
     "sourceHero": 234,
     "sourceUnit": 18,
@@ -161,7 +148,6 @@ export const heroes = [
     "name": "군영참모",
     "role": "지원",
     "faction": "군웅",
-    "sprite": "assets/heroes/tactician-idle.png",
     "portrait": "assets/portraits-v4/tactician.png",
     "sourceHero": 334,
     "sourceUnit": 63,
@@ -171,8 +157,9 @@ export const heroes = [
   }
 ];
 
-// Heroes whose commissioned artwork has not arrived: playable with a visibly marked placeholder token.
-import {extraHeroes,tokenImage} from './roster-data.js';
-heroes.push(...extraHeroes.map(hero=>({...hero,sprite:tokenImage(hero),portrait:tokenImage(hero,true),mappingStatus:'ART_PENDING'})));
+// Additional roster entries share the same approved artwork resolver below.
+import {extraHeroes} from './roster-data.js';
+heroes.push(...extraHeroes.map(hero=>({...hero})));
 import {designPortrait} from './art.js';
-for(const hero of heroes){const portrait=designPortrait(hero.id);if(portrait)hero.portrait=portrait;}
+import {characterSource} from './character-art.js';
+for(const hero of heroes){const portrait=designPortrait(hero.id);if(portrait)hero.portrait=portrait;const source=characterSource(hero.id);if(source){hero.sprite=source;hero.artworkStatus='user-approved';hero.art='approved';}}

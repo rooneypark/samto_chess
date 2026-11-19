@@ -1,3 +1,4 @@
+import {clearDecorativeLineup} from './decorative-lineup.js';
 import {dialogEmpty,dialogRow,dialogInset,escapeHtml as escape} from './dialog-content.js';
 import {allianceStatus,allianceCommand,guilds,raidStatus,raidRules,allianceShop,allianceBought,attendReward,research,researchCosts,CREATE_COST} from './alliance-state.js';
 import {heroes} from './heroes.js';
@@ -163,5 +164,5 @@ export function initAlliance({store,open,toast,navigate}) {
   }
   store.subscribe(()=>{if(!root.hidden)render();});
   window.addEventListener('focus',()=>{if(!root.hidden)render();});
-  return {show(visible){root.hidden=!visible;root.closest('.game').classList.toggle('alliance-art',visible&&allianceArtwork);if(visible)render();else disposeNineSlices(root);}};
+  return {show(visible){if(!visible)clearDecorativeLineup(root);root.hidden=!visible;root.closest('.game').classList.toggle('alliance-art',visible&&allianceArtwork);if(visible)render();else disposeNineSlices(root);}};
 }

@@ -1,0 +1,36 @@
+const {launch,start,seed,savedState,waitForSave,artifact,baseUrl}=require('./browser-env.cjs');
+const assert=require('node:assert/strict');
+(async()=>{const browser=await launch();try{
+ const page=await browser.newPage({viewport:{width:1180,height:960}}),errors=[];
+ page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)errors.push(r.status()+' '+r.url());});
+ await page.goto(baseUrl+'previews/scene-motion-v1/');await page.locator('body[data-ready=true]').waitFor();
+ const storage=await page.evaluate(()=>({...localStorage}));
+ await page.evaluate(()=>window.motionPreview.play('reward'));assert.equal(await page.locator('.scene-reward').count(),6);
+ assert.equal(await page.locator('[data-motion-overlay]').evaluateAll(es=>es.every(e=>getComputedStyle(e).pointerEvents==='none')),true);
+ await page.waitForTimeout(650);assert.equal(await page.locator('[data-motion-overlay]').count(),0);
+ await page.screenshot({path:artifact('scene-motion','preview-desktop.png')});
+ for(const id of ['select','growth','campaign','battle','result']){await page.evaluate(id=>window.motionPreview.play(id,true),id);await page.waitForTimeout(650);}
+ await page.locator('#reduce').check();await page.evaluate(()=>window.motionPreview.play('reward'));assert.equal(await page.locator('[data-motion-overlay]').count(),0);assert.equal(await page.evaluate(()=>document.getAnimations().filter(a=>a.playState==='running').length),0);
+ await page.locator('#reduce').uncheck();await page.setViewportSize({width:390,height:844});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.screenshot({path:artifact('scene-motion','preview-mobile.png'),fullPage:true});
+ assert.deepEqual(await page.evaluate(()=>({...localStorage})),storage,'Preview never writes user storage');
+ await page.addInitScript(()=>{const native=Element.prototype.animate;window.motionCalls=[];Element.prototype.animate=function(...args){window.motionCalls.push({target:this.className,options:args[1]});return native.apply(this,args);};});
+ await start(page);await seed(page,s=>{s.gold=100000;s.heroes['1'].owned=true;s.heroes['1'].cards=99;s.heroes['1'].level=1;s.heroes['1'].star=1;return s;});
+ await page.locator('.game[aria-busy=false]').waitFor();await page.locator('[data-action=barracks]:visible').click();await page.locator('.roster-card[data-hero="1"]').click();
+ await page.locator('#train').click();await page.locator('#growth-confirm').click();await waitForSave(page,s=>s.heroes['1'].level===2);await page.waitForTimeout(80);
+ assert.ok(await page.evaluate(()=>window.motionCalls.some(c=>String(c.target).includes('hero-stat'))),'Stats animate only after training commits');
+ await page.waitForTimeout(500);await page.evaluate(()=>{window.motionCalls=[];const put=IDBObjectStore.prototype.put;IDBObjectStore.prototype.put=function(){IDBObjectStore.prototype.put=put;this.transaction.abort();};});
+ await page.getByRole('dialog',{name:'훈련 성공'}).getByRole('button',{name:'닫기'}).last().click();
+ const before=await savedState(page);await page.locator('#train').click();await page.locator('#growth-confirm').click();await page.locator('#toast').filter({hasText:'저장하지 못했습니다'}).waitFor();
+ assert.deepEqual(await savedState(page),before);assert.equal(await page.evaluate(()=>window.motionCalls.filter(c=>String(c.target).includes('hero-stat')).length),0,'No success effect on failed save');await page.keyboard.press('Escape');
+ await page.locator('#awaken').click();await page.locator('#growth-confirm').click();await waitForSave(page,s=>s.heroes['1'].star===2);await page.waitForTimeout(80);assert.ok(await page.evaluate(()=>window.motionCalls.some(c=>String(c.target).includes('lit'))));
+ await page.getByRole('dialog',{name:'각성 성공'}).getByRole('button',{name:'닫기'}).last().click();
+ await page.waitForTimeout(650);await page.evaluate(()=>window.motionCalls=[]);await page.emulateMedia({reducedMotion:'reduce'});await page.locator('.roster-card[data-hero="1"]').click();assert.equal(await page.evaluate(()=>window.motionCalls.length),0);
+ await page.emulateMedia({reducedMotion:'no-preference'});
+ await seed(page,(s,{services})=>{const q=services.prepareServices(s);for(const p of Object.values(q.quests)){p.progress=p.target;p.claimed=false;}return s;});
+ await page.goto(baseUrl+'#missions');await page.locator('.missions-v1[aria-busy=false]').waitFor();await page.evaluate(()=>window.motionCalls=[]);
+ const beforeReward=await savedState(page);await page.locator('[data-quest=daily_run] button').click();await waitForSave(page,s=>s.services.quests.daily_run.claimed);await page.waitForTimeout(180);
+ assert.ok((await savedState(page)).gold>beforeReward.gold);assert.ok(await page.evaluate(()=>window.motionCalls.some(c=>c.target==='scene-reward')),'Real committed reward starts the flight');
+ await page.waitForTimeout(650);await page.evaluate(()=>window.motionCalls=[]);assert.ok(await page.locator('[data-quest=daily_run] button').isDisabled());await page.locator('[data-quest=daily_run] button').evaluate(b=>b.click());assert.equal(await page.evaluate(()=>window.motionCalls.length),0,'Disabled claims do not celebrate');
+ assert.deepEqual(errors,[]);
+ console.log('PASS preview desktop/mobile, all six scenes, no storage writes, overlay cleanup/input passthrough, committed training/awakening, failed-save suppression, reduced-motion suppression');
+}finally{await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1;});

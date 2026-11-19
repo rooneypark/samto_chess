@@ -1,0 +1,27 @@
+/* Effects never receive input or move the approved UI frames. */
+[data-motion-overlay]{position:absolute;pointer-events:none!important;z-index:75;image-rendering:pixelated}
+.scene-reward{width:18px;height:18px}.scene-reward img{width:100%;height:100%;object-fit:contain}
+.scene-depart-veil{inset:15% 2% 12%;background:linear-gradient(100deg,transparent,#e7c884,transparent)}
+.motion-shield-break{position:absolute;left:38%;top:24%;width:24%;height:30%;border-left:2px solid #d6e5e7;border-right:2px solid #d6e5e7;pointer-events:none}
+.unit-rank.motion-merge .rank-diamond.filled{animation:scene-merge .26s both;animation-delay:calc(var(--diamond-index,0)*45ms - var(--merge-age,0ms))}
+@keyframes scene-merge{0%{scale:.65;opacity:.4}65%{scale:1.16;opacity:1}100%{scale:1;opacity:1}}
+.reduce-motion .motion-merge .rank-diamond,.reduced-fx .motion-merge .rank-diamond{animation:none!important}
+@media(prefers-reduced-motion:reduce){[data-motion-overlay],.motion-shield-break{display:none!important}.unit-rank.motion-merge .rank-diamond{animation:none!important}}
+
+
+.report-sheet,
+#modal.art-dialog .dialog-art-panel.report-sheet,
+.demo-stage .report-sheet {
+  border: 12px solid transparent;
+  border-image: url("./assets/ui-common/ledger-imagegen.png") 14% fill / 13px stretch;
+  background: none;
+}
+.scene-reward-glint {
+  width: 46px;
+  height: 60px;
+  translate: -50% -50%;
+  opacity: 0;
+  background: url("./assets/ui-common/reward-glint-imagegen.png") 0 50% / 400% 100% no-repeat;
+}
+.scene-reward-glint.diamonds {filter:hue-rotate(100deg)}
+.scene-reward {opacity:0}

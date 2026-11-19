@@ -1,6 +1,7 @@
+import {clearDecorativeLineup} from './decorative-lineup.js';
 import {shopArtwork,renderShopArtwork} from './shop-ui.js';
 import {disposeNineSlices} from './nine-slice.js';
-import {generals} from './assets/generals-v2/generals.js';
+import {generals} from './character-art.js';
 import {dialogRow,dialogInset} from './dialog-content.js';
 import {dialogArtworkCallout} from './dialog-art-content.js';
 import {heroes} from './heroes.js';
@@ -15,7 +16,7 @@ export function initShop({store,open,toast,navigate}){
  const money=n=>n.toLocaleString();
  function resultView(){const pending=store.get().shop.pending;if(!pending)return;
  if(shopArtwork&&['hero','treasure'].includes(pending.pool)){queueMicrotask(()=>navigate('recruitResults'));return;}
- open(pending.results.length===10?'10회 모집 결과':'획득 결과',`<div class="recruit-results">${pending.results.map(r=>{const item=pending.pool==='hero'?heroes.find(h=>h.id===r.id):pending.pool==='treasure'?treasureDefs.find(t=>t.id===r.id):null;return `<div class="result-card grade-${r.grade??'C'}">${r.grade?`<b>${r.grade}</b>`:''}${item?.portrait?`<img src="${generals[item.id]?'assets/generals-v2/'+item.id+'-front.png':item.portrait}" alt="">`:`<i class="icon icon-${item?.icon??'gold'}"></i>`}<strong>${item?.name??'골드 '+r.amount}</strong><span>${r.status==='new'?'신규 획득':r.status==='duplicate'?'중복 카드 +1':r.status==='converted'?`장수 교환재료 +${r.amount}`:'구매 완료'}</span></div>`}).join('')}</div><div class="modal-actions"><button class="action secondary" id="result-barracks">병영으로</button><button class="action" id="result-confirm">확인</button></div>`);
+ open(pending.results.length===10?'10회 모집 결과':'획득 결과',`<div class="recruit-results">${pending.results.map(r=>{const item=pending.pool==='hero'?heroes.find(h=>h.id===r.id):pending.pool==='treasure'?treasureDefs.find(t=>t.id===r.id):null;return `<div class="result-card grade-${r.grade??'C'}">${r.grade?`<b>${r.grade}</b>`:''}${item?.portrait?`<img src="${item.portrait}" alt="">`:`<i class="icon icon-${item?.icon??'gold'}"></i>`}<strong>${item?.name??'골드 '+r.amount}</strong><span>${r.status==='new'?'신규 획득':r.status==='duplicate'?'중복 카드 +1':r.status==='converted'?`장수 교환재료 +${r.amount}`:'구매 완료'}</span></div>`}).join('')}</div><div class="modal-actions"><button class="action secondary" id="result-barracks">병영으로</button><button class="action" id="result-confirm">확인</button></div>`);
  const acknowledge=async(go)=>{if(busy)return;busy=true;document.querySelectorAll('#result-confirm,#result-barracks').forEach(b=>b.disabled=true);try{await store.transact(s=>{s.shop.pending=null;return s;});document.querySelector('#modal').close();if(go)navigate('barracks',pending.pool==='hero'?pending.results[0].id:undefined);}catch(e){toast(e.message);document.querySelectorAll('#result-confirm,#result-barracks').forEach(b=>b.disabled=false);}finally{busy=false;}};
  document.querySelector('#result-confirm').onclick=()=>acknowledge(false);document.querySelector('#result-barracks').onclick=()=>acknowledge(true);
  }
@@ -77,5 +78,5 @@ export function initShop({store,open,toast,navigate}){
  store.subscribe(()=>{if(!root.hidden)render();});
  // Update period limits when the application regains focus, without a refresh.
  window.addEventListener('focus',()=>{if(!root.hidden)render();});
- return {exchange,buy,selectS,chooseS(id){const s=store.get(),e=poolEntries('hero').find(e=>e.id===id&&e.grade==='S');if(!e||poolLocked(s,id)){toast('고를 수 없는 장수입니다.');return;}const h=s.heroes[id];confirm({type:'s-select',choice:id},'S등급 장수 선택',dialogRow('사용','S 선택 조각 '+S_SELECT_COST)+'<p><strong>'+e.name+'</strong> '+(!h.owned?'신규 합류':h.star===5?'장수 교환재료 8개':'중복 카드 1장')+'</p>');},show(visible){root.hidden=!visible;root.closest('.game').classList.toggle('shop-art',visible&&shopArtwork);if(visible){render();if(store.get().shop.pending)resultView();}else disposeNineSlices(root);}};
+ return {exchange,buy,selectS,chooseS(id){const s=store.get(),e=poolEntries('hero').find(e=>e.id===id&&e.grade==='S');if(!e||poolLocked(s,id)){toast('고를 수 없는 장수입니다.');return;}const h=s.heroes[id];confirm({type:'s-select',choice:id},'S등급 장수 선택',dialogRow('사용','S 선택 조각 '+S_SELECT_COST)+'<p><strong>'+e.name+'</strong> '+(!h.owned?'신규 합류':h.star===5?'장수 교환재료 8개':'중복 카드 1장')+'</p>');},show(visible){if(!visible)clearDecorativeLineup(root);root.hidden=!visible;root.closest('.game').classList.toggle('shop-art',visible&&shopArtwork);if(visible){render();if(store.get().shop.pending)resultView();}else disposeNineSlices(root);}};
 }

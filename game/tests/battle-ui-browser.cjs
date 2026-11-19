@@ -22,7 +22,7 @@ const assert=require('node:assert/strict');
  // Merge the bench Cao Cao into deployed Cao Cao, preserving rank and equipment.
  await page.locator('.battle-position [data-unit="4"]').click();
  await page.locator('.bench-cell [data-unit="7"]').click();await page.locator('.battle-position [data-unit="4"]').click();
- await waitForSave(page,s=>s.battleRun.units.find(u=>u.id===4).rank===2);assert.equal(await page.locator('.bench-heading>span').innerText(),'대기 1/8');
+ await waitForSave(page,s=>s.battleRun.units.find(u=>u.id===4).rank===2);assert.equal(await page.locator('.bench-heading>span').innerText(),'대기 1/8');assert.ok(await page.locator('[data-unit="4"] .unit-rank').evaluate(e=>e.classList.contains('motion-merge')),'Committed merge lights the rank diamonds');
  await page.locator('.bench-cell [data-unit="8"]').click();await page.locator('#battle-sell').click();await waitForSave(page,s=>!s.battleRun.units.some(u=>u.id===8));
  await page.locator('#battle-summon').click();await waitForSave(page,s=>s.battleRun.units.some(u=>u.id===9));
  for(const viewport of [{width:360,height:640},{width:390,height:844},{width:1440,height:900}]){
@@ -31,7 +31,7 @@ const assert=require('node:assert/strict');
  }
  await page.locator('#battle-start').click();await page.locator('#battle-header-pause').click();
  // The approved heroes must retain their independent art when combat starts.
- for(const [index,id] of ['xuchu','1','119','32','35','diaochan'].entries())assert.match(await page.locator(`.battle-position [data-unit="${index+1}"] img`).getAttribute('src'),new RegExp('/'+id+'-back\\.png$'));
+ for(const [index,id] of ['xuchu','1','119','32','35','diaochan'].entries())assert.match(await page.locator(`.battle-position [data-unit="${index+1}"] img`).getAttribute('src'),new RegExp('/characters/v1/'+id+'/(front|side|back)\\.png$'));
  await page.screenshot({path:artifact('battle-v2','live-paused.png')});
  assert.match(await page.locator('.battle-auto').innerText(),/일시 정지/);assert.equal(await page.locator('.battle-cell').count(),64);
  await page.locator('#battle-header-pause').click();await page.locator('[data-speed="3"]').click();await page.locator('.battle-result').waitFor({timeout:60000});

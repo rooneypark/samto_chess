@@ -19,3 +19,5 @@
 .bond-row small{display:block;font-size:max(2.2cqw,8px)}
 .bond-mark{width:2.4cqw;height:2.4cqw;border:1px solid #c7a46a;transform:rotate(45deg);flex:none;margin:.75cqw .5cqw 0 .4cqw}
 }
+
+.formation-runtime .formation-saved{display:grid;place-items:center;color:#b6c9c3;font-size:3.1cqw}.formation-runtime :is(.formation-saved,.save)[hidden]{display:none!important}

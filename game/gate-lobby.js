@@ -1,16 +1,14 @@
 import {artSet} from './art.js';
-import {heroes} from './heroes.js';
 import {lordLevel} from './services.js';
 import {chapters,currentStage,stages,stageOrder} from './stages.js';
-import {gateSprites as sprites} from './assets/gate-lobby/sprites.js';
+import {characterSource} from './character-art.js';
 import {artButton,initArtPress} from './art-controls.js';
 import {artworkShell,artworkWallet} from './ui-shell.js';
 import {artboard} from './ui-spec.js';
 import {serviceAlerts} from './service-alerts.js';
 
-const {width:W,height:H}=artboard,base='assets/gate-lobby/';
-const centers=[110,263,406,548,676,817];
-const fallbackSpriteWidth=156;
+const {width:W,height:H}=artboard;
+const centers=[93,244,395,546,697,848];
 const rect=(el,x,y,w,h)=>{
  for(const [key,value] of Object.entries({x:x/W*100,y:y/H*100,w:w/W*100,h:h/H*100}))el.style.setProperty('--g'+key,value+'%');
 };
@@ -67,15 +65,11 @@ export function initGateLobby(game,store){
   const ratio=l.next?Math.min(1,l.xp/l.next):1;fill.style.width=ratio*100+'%';
   game.querySelector('.party-toolbar strong').textContent=state.order.length+' / 6';
   for(const [i,button] of [...game.querySelectorAll('.party .hero')].entries()){
-   const id=state.order[i],image=button.querySelector('img'),s=sprites[id];button.classList.add('gate-hero');button.dataset.gateHero=id;
-   // Reset the fallback on every render: changing the order must also change the art.
-   image.src=s?base+id+'.png':heroes.find(h=>h.id===id).sprite;
-   button.classList.toggle('gate-fallback',!s);
-   if(s)rect(button,centers[i]+s[0]-s[4],s[1],s[2],s[3]);
-   else{
-    rect(button,centers[i]-fallbackSpriteWidth/2,769,fallbackSpriteWidth,248);
-    button.style.setProperty('--gate-label-anchor',fallbackSpriteWidth/W*100+'cqw');
-   }
+   const id=state.order[i],image=button.querySelector('img');button.classList.add('gate-hero');button.dataset.gateHero=id;
+   image.src=characterSource(id);button.classList.remove('gate-fallback');
+   // All canvases share one scale and ground baseline; transparent margins remain.
+   const size=256,slot=150;rect(button,centers[i]-slot/2,1034-size*224/256,slot,size);
+
   }
  }
  store.subscribe(render);

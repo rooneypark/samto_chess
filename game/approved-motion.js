@@ -45,14 +45,14 @@ export function approvedMotionFrame(unit,run,data){
 export function approvedMotionSprite(unit,run){
  if(!manifest)return '';
  const p=approvedMotionFrame(unit,run,manifest);if(!p)return '';
- // 1 source pixel = tile width / 100 * 0.80. Flip around the actual foot pivot.
- const scale=p.bench?95/256:.80,[x,y]=p.anchor;
+ // 1 logical pixel = tile width / 100, shared with all approved static artwork.
+ const scale=p.bench?95/256:1,[x,y]=p.anchor;
  return `<canvas class="unit-sprite" width="256" height="256" data-approved-motion="${p.view}-${p.state}" data-motion-frame="${p.file}" role="img" aria-label="장비" style="left:${50-x*scale}%;top:${p.bench?88:70}%;width:${256*scale}%;height:auto;max-width:none;transform:translateY(-${y/256*100}%) scaleX(${p.flip?-1:1});transform-origin:${x/256*100}% ${y/256*100}%"></canvas>`;
 }
 export function paintApprovedMotions(root){
  for(const canvas of root.querySelectorAll('canvas[data-approved-motion]')){
   const path=canvas.dataset.motionFrame;if(canvas.dataset.paintedFrame===path)continue;
   const image=assets.get(path);if(!image)continue;
-  const context=canvas.getContext('2d');context.clearRect(0,0,256,256);context.drawImage(image,0,0);canvas.dataset.paintedFrame=path;
+  const context=canvas.getContext('2d');context.clearRect(0,0,256,256);context.drawImage(image,0,0,256,256);canvas.dataset.paintedFrame=path;
  }
 }

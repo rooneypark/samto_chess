@@ -1,6 +1,6 @@
 import {artButton,placeArtwork,initArtPress,uiComponentsReady,preloadArtwork} from '../../art-controls.js';
 import {artworkHeader,artworkWallet} from '../../ui-shell.js';
-import {generals} from '../../assets/generals-v2/generals.js';
+import {generals} from '../../character-art.js';
 import {nineSlice} from '../../nine-slice.js';
 const game=document.querySelector('.game'),base='previews/shop-v1/';
 game.inert=true;game.setAttribute('aria-busy','true');
@@ -16,7 +16,7 @@ game.querySelectorAll('.bottom-nav button').forEach(el=>{artButton(el,'nav-'+el.
 const heroes=[['xuchu',115,240],['1',278,360],['32',427,265],['35',558,280],['diaochan',683,260],['119',817,330]];
 for(const [id,center,height] of heroes){
  const art=generals[id].views.front,w=height*art.width/art.height,top=810-height*art.foot[1]/art.height;
- const img=document.createElement('img');img.className='general-original';img.dataset.hero=id;img.alt=generals[id].name;img.src='assets/generals-v2/'+art.file;
+ const img=document.createElement('img');img.className='general-original';img.dataset.hero=id;img.alt=generals[id].name;img.src=art.url;
  placeArtwork(img,[center-w/2,top,w,height]);game.querySelector('.general-lineup').append(img);
 }
 initArtPress(game);

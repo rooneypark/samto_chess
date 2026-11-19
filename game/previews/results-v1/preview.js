@@ -1,7 +1,7 @@
 import {placeArtwork,uiComponentsReady} from '../../art-controls.js';
 import {artworkShell} from '../../ui-shell.js';
 import {nineSlice} from '../../nine-slice.js';
-import {generals} from '../../assets/generals-v2/generals.js';
+import {generals} from '../../character-art.js';
 import {characterHeight} from '../../character-scale.js';
 import {landmarkArtwork} from '../../campaign-landmarks.js';
 import {stages} from '../../stages.js';
@@ -13,7 +13,7 @@ const painting=[...game.querySelectorAll('[data-tone]')].map(el=>nineSlice(el,el
 game.querySelectorAll('[data-frame]').forEach(el=>painting.push(nineSlice(el,el.dataset.frame,{button:false,center:!el.closest('.victory-scene')})));
 // Existing independent originals; the mounted/standing proportions are shared.
 ['xuchu','35','1','119','32','diaochan'].forEach((id,i)=>{
- const original=generals[id].views.front,height=characterHeight(id,174),w=height*original.width/original.height,img=document.createElement('img');img.className='general-original';img.alt=generals[id].name;img.dataset.hero=id;img.src='assets/generals-v2/'+original.file;placeArtwork(img,[112+i*143-w/2,747-height*original.foot[1]/original.height,w,height]);game.querySelector('.victory-generals').append(img);
+ const original=generals[id].views.front,height=characterHeight(id,174),w=height*original.width/original.height,img=document.createElement('img');img.className='general-original';img.alt=generals[id].name;img.dataset.hero=id;img.src=original.url;placeArtwork(img,[112+i*143-w/2,747-height*original.foot[1]/original.height,w,height]);game.querySelector('.victory-generals').append(img);
 });
 // Values use the real stage reward definition, but this page never opens a store.
 const reward=stages.yellow_03.reward;game.querySelector('#gold-reward').textContent='+'+reward.firstClearGold;game.querySelector('#gem-reward').textContent='+'+reward.firstClearDiamonds;game.querySelector('#material-reward').textContent='+'+reward.extra.heroTokens;

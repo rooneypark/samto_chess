@@ -43,7 +43,7 @@
   },
   "folder": "32",
   "right": "mirror-side",
-  "runtimeApplied": false,
+  "runtimeApplied": true,
   "logicalFoot": [
     128,
     224

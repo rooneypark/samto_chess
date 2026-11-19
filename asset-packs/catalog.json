@@ -2566,10 +2566,10 @@
       ]
     },
     {
-      "path": "asset-packs/v1/effects-reference-v1-001.zip",
+      "path": "asset-packs/v1/effects-reference-v1-001-e9e0f6d555.zip",
       "category": "effects-reference",
-      "bytes": 1948204,
-      "sha256": "1b9505324501fc076d2e95e11f94c1bdaee850c52d5be7db1e80173884b61e97",
+      "bytes": 973353,
+      "sha256": "e9e0f6d555c242472637c48bbe7cb61fe9bf0085cfb5cff27715d90686b2c512",
       "files": [
         {
           "path": "art-source/effects/v1/reference/arrow-peak.png",
@@ -2820,386 +2820,6 @@
           "path": "art-source/effects/v1/reference/pierce.png",
           "bytes": 23103,
           "sha256": "c9db025e70f295c0a85705314592dd4757f222d405fb801fd52880a7508e9713"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/arrow-peak.png",
-          "bytes": 1342,
-          "sha256": "18512610fb860f2a73eb9ee206d6e58496f5b856f101c7852597b03aa550667c"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/arrow.png",
-          "bytes": 16877,
-          "sha256": "6775ba0dacef2c1378b874e20002cd446f1f5b4a78c08ffce407abbfaab6149e"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/aura-peak.png",
-          "bytes": 3732,
-          "sha256": "494751d14cde0b8e8e7dae3fcd6111ee800a14a060072dc36317dcd4a841f121"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/aura.png",
-          "bytes": 30081,
-          "sha256": "d2b326943bd46c5ae43eb4ffad882e139ca4f82ee78d978acff2a801eb3c1211"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/bind-peak.png",
-          "bytes": 4019,
-          "sha256": "2029c0d1791edc05c8d8dfa9c03ae1b0b012c9456a9d6555a0bdc624c4761817"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/bind.png",
-          "bytes": 28959,
-          "sha256": "a419ba29c8a4ce4242c66859389b25bba41f2833c0f24ba800b4db3945fbdf86"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/blink-peak.png",
-          "bytes": 4202,
-          "sha256": "b49f732f1f855e2f5449c81285d8a20dfec0c57b677e390c7d9d71b19cf9f4fa"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/blink.png",
-          "bytes": 28211,
-          "sha256": "18a54e603687151d1bbf6693ece25ec2e5611d3b3fc61b869863a3544a9660f9"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/bolt-peak.png",
-          "bytes": 8143,
-          "sha256": "11611271f74637e9118b30b48a04f76227f9f3184d915434b5c18d0bae34536e"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/bolt.png",
-          "bytes": 49129,
-          "sha256": "f203adef13dcd18efb3f8741aa2f6bada26e162240bc789d585c015b38105f6e"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/burst-peak.png",
-          "bytes": 6937,
-          "sha256": "71b60fd3d8eb062de39128876dc3ea2cefaef3a8cde38aaa1c7e8d51ad3c6146"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/burst.png",
-          "bytes": 42501,
-          "sha256": "edc87b085b64cfad68e9cefd3b24cf1badf1c07db1a4c469c9ba4c5de26944cc"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/cast-peak.png",
-          "bytes": 12399,
-          "sha256": "9cb58f59eed2833828ef076bac2d61d03ee81fee09d7fe5dc470f62ffda11b86"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/cast.png",
-          "bytes": 63580,
-          "sha256": "a35daf7abec4e53eaa929bfd8fd12f75e40c45f272d7bcd122d81bb7a706bd42"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/chain-peak.png",
-          "bytes": 1231,
-          "sha256": "edc6a9a60f2258386b3fc273460c9b9b5f36a5e1c1a715609b0fd96ab4ef2e87"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/chain.png",
-          "bytes": 16053,
-          "sha256": "dc939a6bdc73429dddfb4f34a76041463d54ee390d82ed93de1dbdb4c13a5809"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/chop-peak.png",
-          "bytes": 3531,
-          "sha256": "fbed9e8f2c18403df7818bd7b35f84fbe119541bfc9267e3402e2f2543dbe6bb"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/chop.png",
-          "bytes": 25743,
-          "sha256": "baaa15fa47bcee34ec5841d2c39c9a4a9ff882efe878e3d46fd0cc920a7b74f8"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/cross-peak.png",
-          "bytes": 2120,
-          "sha256": "dec22ba6c45343eeadbcf2ce08a7dd9a726206af0a28752f1b91ad4e992d7a73"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/cross.png",
-          "bytes": 21355,
-          "sha256": "0d1125397df696ada4aa363938f3e63e0361553f64d1f0a0013e8039c941056d"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/cut-peak.png",
-          "bytes": 3309,
-          "sha256": "f6f380584f8844907b11ceb9cc5df38b55cd93ddade54e5bf32e96dcb96d6b1a"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/cut.png",
-          "bytes": 23520,
-          "sha256": "6dd383a326c1576dd838cef02e97c574b71f70fbea35fdb9ef04d21b76633bb2"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/dash-peak.png",
-          "bytes": 3956,
-          "sha256": "2dad077ade562bb4f2b26ebd805d32bc8769dfc4763bf1389e82045034ec3be2"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/dash.png",
-          "bytes": 26864,
-          "sha256": "7a2c9e1c6c60a3b1f9556b1146de574daeeb9d91b6ac90129a7248bc706b7187"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/drain-peak.png",
-          "bytes": 2355,
-          "sha256": "372d61a9ff6bad83c2880113de22415b1423e36ad14a136bef0b8cbcf9ede96b"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/drain.png",
-          "bytes": 20659,
-          "sha256": "6053c93da25f26bc4f6c7f4ae7612ba4277941b275fca19613afba2dacf2eecb"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/fire-peak.png",
-          "bytes": 4732,
-          "sha256": "7d1720c8931fdcac93d1b1efdebaeedecf0799aae8d86a7214dcf47d1d8475cc"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/fire.png",
-          "bytes": 28198,
-          "sha256": "d798da83e0f9e2813682b78ab1e68c119ae71d5dc59f7e7bd07dc5e1aef59a1c"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/flurry-peak.png",
-          "bytes": 2304,
-          "sha256": "57b90aa0cf7cb73e8d9aa91e2f7663d46106a0c2ed70820cdbcc638efb363875"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/flurry.png",
-          "bytes": 21364,
-          "sha256": "5c49f707281a4589312145915490ab617e1f579508f2f55827748803fc7d8357"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/fury-peak.png",
-          "bytes": 3191,
-          "sha256": "ea85fdee38feb6f0fb7fcbcf53d0e3c54c83b26c30ea1fe7239e72a6408f0893"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/fury.png",
-          "bytes": 24440,
-          "sha256": "e362322dd9f25fb5619ea8d61d5ee4e17a846be47be45fcd0393c7f4ef2cfea2"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/heal-peak.png",
-          "bytes": 2016,
-          "sha256": "11e702b359f01ce4cee789e0c37b2236e20db7762a4e3c6240eb1a8892d8da81"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/heal.png",
-          "bytes": 18107,
-          "sha256": "efe1812c3f8afb8fb9ba794249d5fa3e28d95165bcf985bc0f7db5cc880a974a"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/ice-peak.png",
-          "bytes": 2458,
-          "sha256": "e99e32c92be519b55bdd0e509aaa884fc9da5dbdfaf44e86a89b8c771ffc27a9"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/ice.png",
-          "bytes": 21405,
-          "sha256": "6c49cc42dff29c3d3452076e82695ca9356e12473d6cdd8c2c0de3830862e6c9"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/jab-peak.png",
-          "bytes": 2215,
-          "sha256": "113f7b810d0857b845ec3cddc8a28898dcf07a7e6b21cc4deeb2747882710a7d"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/jab.png",
-          "bytes": 20742,
-          "sha256": "71a497eb04b41f3b48b8816dd8a0971d67ed0d8f9c815580f58cd5784f778cbe"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/missile-peak.png",
-          "bytes": 1439,
-          "sha256": "c0ddb0f146683afe7fa10daea26fec75a19166a9908c9f18f12c3b347b9c4af2"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/missile.png",
-          "bytes": 16038,
-          "sha256": "0301e641f2b23f56c65c12b740155db026912669ebf5df279403a33aef93f233"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/needle-peak.png",
-          "bytes": 1567,
-          "sha256": "afdf1b3cb48be3b46fa85dc8c79dd4d7c0e236b32264866dd4b6ab9d6dbcbcc6"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/needle.png",
-          "bytes": 15618,
-          "sha256": "0860f4772e8908f5ccff8a7ae256e275255a8e191a253b714efb1c77425fd8b5"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/orb-peak.png",
-          "bytes": 2132,
-          "sha256": "32522c03f410845c98da4987bbdfdb1ce2d154f58001e28d0d92388caf5f6f3d"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/orb.png",
-          "bytes": 21038,
-          "sha256": "fe07546e5f502620ac827d026a3f7cf421e77f2b687f160afb89623159fb275c"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/order-peak.png",
-          "bytes": 2858,
-          "sha256": "d6a4951ad5690d951d6a8e3914f28694ed6e83b20f77d850b135816eec07a2d5"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/order.png",
-          "bytes": 24573,
-          "sha256": "fdc3e0d7bc0594b2125d192cf54b85a35517bf7d5253801c30c3967bc22b6e8a"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/petal-peak.png",
-          "bytes": 1798,
-          "sha256": "465f49eb16e5887b56873ec56c1c4406206c4bc0eebb7a6b6bcc9716ec6b9996"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/petal.png",
-          "bytes": 19282,
-          "sha256": "17a55b79ca92876ef314836d141e324054338875c1c6a6c2a8743f85df458f90"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/pierce-peak.png",
-          "bytes": 2469,
-          "sha256": "9cb0d49867fcb3ceca58e8ca099c5df9e99323ab63fdef5eb098997a10b40a82"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/pierce.png",
-          "bytes": 23103,
-          "sha256": "c9db025e70f295c0a85705314592dd4757f222d405fb801fd52880a7508e9713"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/rise-peak.png",
-          "bytes": 3326,
-          "sha256": "c5120f9f4e581b36686de6eca38f567c5c744b0ed440b21f6d8160b96dfb0ffe"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/rise.png",
-          "bytes": 24879,
-          "sha256": "00e43f1521bf118de4c00c854acadcbdaf397d4cb3f031c2e53378a2da8478af"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/roar-peak.png",
-          "bytes": 9622,
-          "sha256": "b583ac07c896cbd1059151e0a58b5630c768f6314a861b59ffc2f343e2ea63a8"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/roar.png",
-          "bytes": 50273,
-          "sha256": "9ff5fc3c6a1edfed17ea05bc901330545291a6cb02bf0b6ad867815e0cc6cfe6"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/rock-peak.png",
-          "bytes": 2555,
-          "sha256": "f96d438aa776ae9ae60943c7574755ac3df5df69806c4e3885db92b77fbf81ce"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/rock.png",
-          "bytes": 22942,
-          "sha256": "701203cbb8b7b0e12a0408ea44dff6340932dd648c38bbc6002d64cb27e85211"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/rune-peak.png",
-          "bytes": 3794,
-          "sha256": "8c893a4236fd16ca66116052d87d7d5b4b33ae0346241a4795ea6c3362b8fdd9"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/rune.png",
-          "bytes": 30442,
-          "sha256": "7751a0d9d3db3964d54a4c97809561397de81861a71b2cfa053d68dfe4380f5f"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/shield-peak.png",
-          "bytes": 5399,
-          "sha256": "39555f63346063b56a417630d55541ae8ac4361bad70abd17641f889606ae3a1"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/shield.png",
-          "bytes": 29263,
-          "sha256": "2e6995620f393bd0b01127cc1ade4a2387502249830db1c81dae2b21bf9e1dd8"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/shock-peak.png",
-          "bytes": 4842,
-          "sha256": "33b1cdb0240c8e7ee93d9619c0f7017a9f8b45346c4e4f5744dbae50ec1cbce2"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/shock.png",
-          "bytes": 35857,
-          "sha256": "e466be8838ab8b83cd966e0842cb459d9be302f3aea0560853491f2d7f728992"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/slash-peak.png",
-          "bytes": 3664,
-          "sha256": "8e124180ff454bc7130d68365b1df2b130b92ead4cf316c23d80486cbb2a7d41"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/slash.png",
-          "bytes": 25186,
-          "sha256": "1dd485185035defbe1086546b658cab70b81eb5c96e0efed23e82bd97bb4d1e9"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/spark-peak.png",
-          "bytes": 2462,
-          "sha256": "b7ff8b8d12a3dcc5c6358dd88ed821e7b4449ff9efca6023e1a156e83f038fca"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/spark.png",
-          "bytes": 21398,
-          "sha256": "6d818e21257149500823cec727b9664dfbd56bfaa5a567b1ac2a538451993f16"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/spin-peak.png",
-          "bytes": 4729,
-          "sha256": "eeb0aff51fec0b36c4344b17663b91abc5a040ecf55cb8f1ce1928172ff46ece"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/spin.png",
-          "bytes": 35855,
-          "sha256": "5505dca26292b7e1a1b71e0f44df3bd6afdee27dc801b15664aba52bab1ed853"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/stun-peak.png",
-          "bytes": 1995,
-          "sha256": "8a7074ed258708dee21496577494d90ac7bd2abee4ad5ccc853ca8c69b5425c2"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/stun.png",
-          "bytes": 20450,
-          "sha256": "dc1c00f3fa40a7049fcb2042eb0d0d1d72025adaacab6f4db722ade37fda4b33"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/thud-peak.png",
-          "bytes": 3375,
-          "sha256": "883e516ddc2d3700da402b32b8f1ec9cc4d6ba537a7d03938507cd76fd62ed02"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/thud.png",
-          "bytes": 28838,
-          "sha256": "39447c747a5f916354a39f357c8e4cc158f494d7af8c58c0b6faf87a76fc268e"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/whip-peak.png",
-          "bytes": 3076,
-          "sha256": "c14b433a782cd3f5c73e3d52375e64c47db15e8c137d00372fb958e8461eb91b"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/whip.png",
-          "bytes": 26206,
-          "sha256": "3473814eb63397772424ade70c3cccb6223945b8ed0c4693e997bc36c6d50910"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/wind-peak.png",
-          "bytes": 5454,
-          "sha256": "5089ff79d2234d37fd3b2834bb3ab1a6002dac3ced4bee31b23b8cd0f41cbf7a"
-        },
-        {
-          "path": "art-source/effects/v1/reference/reference/wind.png",
-          "bytes": 42100,
-          "sha256": "79f5ad39175e834a54bd6331a8fe4afa706c62afb47c88f398546d5b13363c09"
         },
         {
           "path": "art-source/effects/v1/reference/rise-peak.png",
@@ -21379,174 +20999,6 @@
       ]
     },
     {
-      "path": "asset-packs/v1/runtime-generals-v1-001.zip",
-      "category": "runtime-generals",
-      "bytes": 9685171,
-      "sha256": "52b3a5602da851fa77ec373dea6c0c2748525a34e8aef168c04147200e30d2ed",
-      "files": [
-        {
-          "path": "game/assets/generals-v2/1-back.png",
-          "bytes": 553587,
-          "sha256": "b4e4ed8bb9b46984f655d66659e55ba633825f64c2d7ae3db60ef202028cec7a"
-        },
-        {
-          "path": "game/assets/generals-v2/1-front.png",
-          "bytes": 600667,
-          "sha256": "a66706f189a50f90ece12cccbefbc5470f49f9be740f60b6b9a4cce4358bca68"
-        },
-        {
-          "path": "game/assets/generals-v2/1-side.png",
-          "bytes": 757400,
-          "sha256": "5c17401876a248bfcf2a593ada55b3222b3a7ee161d16666e5ad6f6b55c01684"
-        },
-        {
-          "path": "game/assets/generals-v2/119-back.png",
-          "bytes": 600344,
-          "sha256": "b17d66b8eb48ad0261b98b05ffac0675e95d4b12dae98585fa393b6991dcf26d"
-        },
-        {
-          "path": "game/assets/generals-v2/119-front.png",
-          "bytes": 651298,
-          "sha256": "197af990acaa5b857c2f424b59a3062b571abbf3a5ec8824cafa9f79339598a8"
-        },
-        {
-          "path": "game/assets/generals-v2/119-side.png",
-          "bytes": 687588,
-          "sha256": "2355c86fefc0d56a0769e9190806d5ca16f41b9864a305d5ad183f18ea3e9904"
-        },
-        {
-          "path": "game/assets/generals-v2/32-back.png",
-          "bytes": 494116,
-          "sha256": "f99048a6db3a68bb09111aafd03c5bd97f3cad97f1fded6c903377a010d47f27"
-        },
-        {
-          "path": "game/assets/generals-v2/32-front.png",
-          "bytes": 590673,
-          "sha256": "e8072a94b2539e906d5aae3302bdd3db11b205f300f587c88df8d332817c71af"
-        },
-        {
-          "path": "game/assets/generals-v2/32-side.png",
-          "bytes": 471823,
-          "sha256": "78965a7f47a2eb26c7b979df808272e624e284009c9db5a75412f158eddb800a"
-        },
-        {
-          "path": "game/assets/generals-v2/35-back.png",
-          "bytes": 495749,
-          "sha256": "d79aa5820f28aa98de1ad7412d0af1ea518777a252eba3a81c9d01db9651863e"
-        },
-        {
-          "path": "game/assets/generals-v2/35-front.png",
-          "bytes": 438377,
-          "sha256": "e337dc8942d2b42e40cd8d5ac2f12c865114c2af688c6017cde596b9822f22a1"
-        },
-        {
-          "path": "game/assets/generals-v2/35-side.png",
-          "bytes": 426871,
-          "sha256": "7f5354c6945b309fbb5cba51c0295fb0fa03239e84f4a53a00000424b3f0c01a"
-        },
-        {
-          "path": "game/assets/generals-v2/diaochan-back.png",
-          "bytes": 456587,
-          "sha256": "aa0c29fd2221d27832396102ec2455516a6b67ecd8007522b752a3b31791f41f"
-        },
-        {
-          "path": "game/assets/generals-v2/diaochan-front.png",
-          "bytes": 462643,
-          "sha256": "e01f232119fe5160bdb9892a5778f0548db434c0b12dcdf4ca6026598d141c17"
-        },
-        {
-          "path": "game/assets/generals-v2/diaochan-side.png",
-          "bytes": 435876,
-          "sha256": "a861fcafe940d349f956522bd95dc5115557be806c1dd262da36b348b3daa1ce"
-        },
-        {
-          "path": "game/assets/generals-v2/xuchu-back.png",
-          "bytes": 555532,
-          "sha256": "96dd39213add5e3687a7d7fec1f88c57172b5cb6e9b341c3ce5500d9920d7c6a"
-        },
-        {
-          "path": "game/assets/generals-v2/xuchu-front.png",
-          "bytes": 567830,
-          "sha256": "73311571550b974f327e82b245d34d15ae87bfbe464c3309a040fd37b166faa1"
-        },
-        {
-          "path": "game/assets/generals-v2/xuchu-side.png",
-          "bytes": 384560,
-          "sha256": "b14c69166ffe87b0a2589dd206cfda43dfaf0fdfd23069bb68105df3af1ef5fb"
-        },
-        {
-          "path": "game/assets/heroes/0-idle.png",
-          "bytes": 4787,
-          "sha256": "79e682ed2beb624f61d229dffe1497c4843238bd5bf0fd4883517164b2f7c759"
-        },
-        {
-          "path": "game/assets/heroes/1-idle.png",
-          "bytes": 4363,
-          "sha256": "15b0ccd46bf1aefcc1f70ac4f6e5de7636d80f53a54a3fda4a23d8f122fd619e"
-        },
-        {
-          "path": "game/assets/heroes/119-idle.png",
-          "bytes": 4375,
-          "sha256": "b16284bd27499878d93ac15e8146ad230c7bfaa466462832c213c87d4df6b8dd"
-        },
-        {
-          "path": "game/assets/heroes/15-idle.png",
-          "bytes": 3779,
-          "sha256": "b574f1b8c251922e391a699a49c201d3a8911dff5920a71a85671921fcf6c2fc"
-        },
-        {
-          "path": "game/assets/heroes/16-idle.png",
-          "bytes": 3585,
-          "sha256": "4e51bff5158a84e131388682f74ebbf949027276d40c2f12e9ee0db7c7fdeeea"
-        },
-        {
-          "path": "game/assets/heroes/2-idle.png",
-          "bytes": 3801,
-          "sha256": "0bfc9f2c9ad487d6f10c2ef6de9a5a0552a2e4a9462239a72d0b5cfadaedfa89"
-        },
-        {
-          "path": "game/assets/heroes/32-idle.png",
-          "bytes": 4227,
-          "sha256": "70608d1c185d3b1089082ea8d32ecca70994d768ea2e8c59a12f8690443d5ddd"
-        },
-        {
-          "path": "game/assets/heroes/33-idle.png",
-          "bytes": 3882,
-          "sha256": "04ee320e30d6c190aa74d8c365e733b52eb81a751f053a44d16d55050e9efb95"
-        },
-        {
-          "path": "game/assets/heroes/34-idle.png",
-          "bytes": 3433,
-          "sha256": "e3818a2b67fcc1a314b6ad34fe55bdb39fb6f31d2282a667175922c6d880dadb"
-        },
-        {
-          "path": "game/assets/heroes/35-idle.png",
-          "bytes": 4307,
-          "sha256": "c9c6800e3b781aaa840c59126a98e5a3e0b5da16bca452947bb952fe088f9b40"
-        },
-        {
-          "path": "game/assets/heroes/77-idle.png",
-          "bytes": 4734,
-          "sha256": "12cdef8347971532c41e955e1498f32e92332e61dc1a8f7d174b260f590de989"
-        },
-        {
-          "path": "game/assets/heroes/archer-idle.png",
-          "bytes": 3635,
-          "sha256": "2e9182aca8646bce4d15bcca77de3aa8a1e1e605b76dbe9fa652b9f39cf586e3"
-        },
-        {
-          "path": "game/assets/heroes/infantry-idle.png",
-          "bytes": 3409,
-          "sha256": "de820e9eaa538115c73b511f77c7770048a261e1d2402f4668a19db5bffb2147"
-        },
-        {
-          "path": "game/assets/heroes/tactician-idle.png",
-          "bytes": 3550,
-          "sha256": "477f405700d8e19c18ad84171d13557ae45e9990e9d8db034926b4d82a392d48"
-        }
-      ]
-    },
-    {
       "path": "asset-packs/v1/runtime-reference-v1-001.zip",
       "category": "runtime-reference",
       "bytes": 10918009,
@@ -25815,10 +25267,10 @@
       ]
     },
     {
-      "path": "asset-packs/v1/runtime-ui-v1-001.zip",
+      "path": "asset-packs/v1/runtime-ui-v1-001-bfeba8ceef.zip",
       "category": "runtime-ui",
-      "bytes": 37818595,
-      "sha256": "b2f83e3356a777b3b3ac4aee56e35c53b172d8d76ddf365099fca192b3b8fff6",
+      "bytes": 34589112,
+      "sha256": "bfeba8ceefe5574d6861f7f5a4a7fd4f477c28670587611d86b67ce4c186b0cc",
       "files": [
         {
           "path": "game/assets/alliance-v2/headquarters.png",
@@ -25876,36 +25328,6 @@
           "sha256": "a3364499d85aae1c546962e363cc151d763f45be241bdb496ba2dae8d70e32df"
         },
         {
-          "path": "game/assets/battle-v2/1-back.png",
-          "bytes": 25834,
-          "sha256": "07efc1fd2f6e04f6c669ab62096280817db6316fec6b087280dd6c72348eac06"
-        },
-        {
-          "path": "game/assets/battle-v2/119-back.png",
-          "bytes": 26628,
-          "sha256": "6ddde8051d397117f3bbe9b3bfc839505395000ea6f3e846c490948797bd472f"
-        },
-        {
-          "path": "game/assets/battle-v2/32-back.png",
-          "bytes": 19160,
-          "sha256": "d3499628c3944bb6913923332991bc25892ebd61aa22c4cfc5f2b96a6d75689d"
-        },
-        {
-          "path": "game/assets/battle-v2/32-front.png",
-          "bytes": 14378,
-          "sha256": "908508259c8ee1b1f200b320aeb174db7c087dda300db256ae61c7b54022e84d"
-        },
-        {
-          "path": "game/assets/battle-v2/35-back.png",
-          "bytes": 19751,
-          "sha256": "f862ded94ef38e9e59487852b98a094324e62809b3cdddc50ccc87a4312fe29f"
-        },
-        {
-          "path": "game/assets/battle-v2/archer-front.png",
-          "bytes": 13413,
-          "sha256": "c0bd3a01e4cf26371986af3cba6c8f5bd1482dfb2693edf9f1943b990aa2c7e4"
-        },
-        {
           "path": "game/assets/battle-v2/armor.png",
           "bytes": 23389,
           "sha256": "f4a06f0134857740312948ac89a2ea57ec1bfbe148dabfafb40b6d0eb0f46b50"
@@ -25944,11 +25366,6 @@
           "path": "game/assets/battle-v2/capacity.png",
           "bytes": 19905,
           "sha256": "e0b51f816e2b12e49d65a2c3d60ac8da0df4e5af72e371dceb634566bb7748d2"
-        },
-        {
-          "path": "game/assets/battle-v2/diaochan-back.png",
-          "bytes": 19101,
-          "sha256": "a4f0602dcc2f9280ac5a73f14e6f344439024eebee374899bf297080e6cb9aef"
         },
         {
           "path": "game/assets/battle-v2/help.png",
@@ -26029,11 +25446,6 @@
           "path": "game/assets/battle-v2/title-blank.png",
           "bytes": 9721,
           "sha256": "ac821f7b8578e99d738c62f7558a01e86f273163629fff349f54597e04add331"
-        },
-        {
-          "path": "game/assets/battle-v2/xuchu-back.png",
-          "bytes": 22547,
-          "sha256": "73c28398f8470ed8678a382e9f17481c5b2b8357ddf37c22059f5ebd990d072e"
         },
         {
           "path": "game/assets/campaign-v4/hulao-gate-cleared.png",
@@ -26186,26 +25598,6 @@
           "sha256": "518166799d2f6445cf61d5c8ccd232805785abf4ecdf71e3f79917de3dc6fb95"
         },
         {
-          "path": "game/assets/gate-lobby/1.png",
-          "bytes": 160307,
-          "sha256": "95397abd1fac29821b3aee72a9119e0f44f93529426dbd8af101042aa7d223b4"
-        },
-        {
-          "path": "game/assets/gate-lobby/119.png",
-          "bytes": 202912,
-          "sha256": "f65dfcb07b674eb587c3aace7a45356184de9e4ff67aa4bb345da1e8749b93b4"
-        },
-        {
-          "path": "game/assets/gate-lobby/32.png",
-          "bytes": 105957,
-          "sha256": "f7be5ae61638ff3d213b3bbb4bb6e9c5cad98363c9f81d2e9725cf12c6b3dee5"
-        },
-        {
-          "path": "game/assets/gate-lobby/35.png",
-          "bytes": 86558,
-          "sha256": "4d30b20cb07646e7134a8a5e991ae5f529e95f30da282f56004d45838d4eeaf6"
-        },
-        {
           "path": "game/assets/gate-lobby/campaignPaper.png",
           "bytes": 5786,
           "sha256": "b13268e6cc8bb510cda211d91ab0f5d3bcaac8974f175285840b11470f684478"
@@ -26214,11 +25606,6 @@
           "path": "game/assets/gate-lobby/dark.png",
           "bytes": 857,
           "sha256": "fd3eadd093b8200bc9601a37ee64daef499470042470794f77bdb7c5f5a5b600"
-        },
-        {
-          "path": "game/assets/gate-lobby/diaochan.png",
-          "bytes": 85885,
-          "sha256": "68fa29fc43d2f157fc71fe715054bd16567f5aac8fb799355ea441ed02aa570b"
         },
         {
           "path": "game/assets/gate-lobby/level.png",
@@ -26244,11 +25631,6 @@
           "path": "game/assets/gate-lobby/xp.png",
           "bytes": 594,
           "sha256": "07bfca70a9e6293c93ffa8e5f5e41b4ed555cb480dd81e424b597369c482f677"
-        },
-        {
-          "path": "game/assets/gate-lobby/xuchu.png",
-          "bytes": 134874,
-          "sha256": "aed8a6196a5f54f7734b5d4d11bd66a6ff30fb83833d10a4f518b946d496e1d7"
         },
         {
           "path": "game/assets/government-v1/town.png",
@@ -26614,25 +25996,15 @@
           "path": "game/assets/shop-v2/recruit-confirm-v1.png",
           "bytes": 1683704,
           "sha256": "a42290b700136bcc4be5b94c82e81f7da9765aa0716d4dc1d27f50629ca20bbb"
-        },
-        {
-          "path": "game/assets/shop-v2/recruit-hall-v3.png",
-          "bytes": 2340452,
-          "sha256": "d4b144b311a6cb32a60b57e25ae0ec9ca123473000f54d626dedff31f84e2a84"
         }
       ]
     },
     {
-      "path": "asset-packs/v1/runtime-ui-v1-002.zip",
+      "path": "asset-packs/v1/runtime-ui-v1-002-16dabe910c.zip",
       "category": "runtime-ui",
-      "bytes": 39700316,
-      "sha256": "d6dafaf3e3dc4649dff5f315d1f91591e38d8753387acd9c8e45a6707f94ac0c",
+      "bytes": 37623618,
+      "sha256": "16dabe910c1358737d0118abce767745edaeb3a8ec3322101c6a449619f509e0",
       "files": [
-        {
-          "path": "game/assets/shop-v2/recruitment-hall.png",
-          "bytes": 2157208,
-          "sha256": "68fa41b39eb932d98d6f0b9169d5c4ee8daef9254ef00fd0da5cdf86f1f2d34b"
-        },
         {
           "path": "game/assets/shop-v2/treasure-hall-v3.png",
           "bytes": 2072375,
@@ -28732,6 +28104,24 @@
           "path": "game/previews/zhugeliang-attack-v1/side-7.png",
           "bytes": 10698,
           "sha256": "6fb2cded6b1c7c6809d1b1aca1decde8e72f57ed1230a3d72969a3e562589c26"
+        }
+      ]
+    },
+    {
+      "path": "asset-packs/v1/runtime-ui-scene-v1-9bdcd1733f.zip",
+      "category": "runtime-ui",
+      "bytes": 51995,
+      "sha256": "9bdcd1733fe77c4c553f4f6f999617a6826f0136ec996b9f8fbf891d1f52f656",
+      "files": [
+        {
+          "path": "game/assets/ui-common/ledger-imagegen.png",
+          "bytes": 41876,
+          "sha256": "db2de0293ae1eb47ce7497ec81a3402b39f49d1e36139dd6128771857bf9b9fc"
+        },
+        {
+          "path": "game/assets/ui-common/reward-glint-imagegen.png",
+          "bytes": 9944,
+          "sha256": "ec0800d58c251d7419bb2cf3421048636b2a3b4cd01b3671f4178a8493bba469"
         }
       ]
     }

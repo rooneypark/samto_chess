@@ -15,7 +15,7 @@
  .gate-hit:focus-visible,.gate-hero:focus-visible{outline:2px solid #ffe0a1;outline-offset:-2px}
  .gate-hit.gate-hit:active,.gate-hit.gate-hit:hover{background:none;box-shadow:none;translate:none}
  .gate-hero::before{display:none}
- .gate-hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;max-width:none;animation:none!important;transform:none!important;translate:none;filter:none!important;pointer-events:none}
+ .gate-hero img{position:absolute;inset:0 auto auto 50%;width:auto;aspect-ratio:1;height:100%;margin-left:0;object-fit:contain;max-width:none;animation:none!important;transform:translateX(-50%)!important;translate:none;filter:none!important;pointer-events:none}
  .gate-hero.gate-fallback img{object-fit:contain;object-position:center bottom}
  .gate-hero .hero-label{z-index:2;font-size:max(2.7cqw,9px);bottom:calc(100% - .8cqw);pointer-events:none}
  /* Square fallback sprites sit at the bottom of the taller hit area. */

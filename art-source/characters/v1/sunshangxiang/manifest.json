@@ -43,7 +43,7 @@
   },
   "folder": "sunshangxiang",
   "right": "mirror-side",
-  "runtimeApplied": false,
+  "runtimeApplied": true,
   "logicalFoot": [
     128,
     224

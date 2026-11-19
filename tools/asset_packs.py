@@ -83,6 +83,7 @@ def pack(root, allow_removals=False):
     roster = read_json(root/'art-source/characters/v1/manifest.json', {'entries': []})
     names = {'촉': 'shu', '위': 'wei', '오': 'wu', '군웅': 'qun'}
     factions = {str(e['id']): names[e['faction']] for e in roster['entries']}
+    retired = set(read_json(root/'asset-packs/retired-character-stills.json', {'paths': []})['paths'])
     groups = {}
     paths = set()
     for prefix in PREFIXES:
@@ -94,6 +95,8 @@ def pack(root, allow_removals=False):
             for name in sorted(files):
                 file = Path(directory)/name
                 relative = file.relative_to(root).as_posix()
+                if relative in retired:
+                    continue
                 if file.suffix.lower() not in MEDIA and relative != 'bone-motion/inputs/standard-bones/samto-class-neutral.blend':
                     continue
                 if relative.startswith('bone-motion/art-in/') and '/guide/' not in relative:

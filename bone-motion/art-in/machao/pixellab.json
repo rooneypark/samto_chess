@@ -9,7 +9,7 @@
   "idle": "Mounted fighting guard, horse standing still on four legs, breathing",
   "move": "Seamless gallop in place, rider carrying the spear, no attack. The four legs follow the skeleton. The last frame leads into the first, no pause",
   "a2": "Mounted VERTICAL overhead spear strike. Frames 3-5 the spear is raised above the head; frames 5-6 the horse lifts both front hooves; frames 7-8 the hooves come down and the spear is brought down from above, its point landing in front of the horse while the hands stay close to the chest; frames 9-11 hold.",
-  "b1": "Mounted RISING strike. Frames 3-6 the spear point hangs low behind on the right side of the horse; frames 7-8 it swings up from below through the target; frames 9-11 it finishes high.",
+  "b1": "Mounted UPWARD swing like a golf stroke, one hand, the grip on the pole never changes. Frames 2-6 the spear is carried back and up behind on the right side of the horse; frame 7 it comes down beside the horse and its point scrapes the ground in front; frame 8 it swings up from the ground through the target; frames 9-11 it finishes high in front; frames 12-15 return to the ready pose.",
   "s2": "Cavalry charge. Frames 2-8 the horse gallops in place, the spear lowered beside its neck; frame 9 a forehoof lifts; frame 10 it lands and the spear strikes; frames 11-12 hold.",
   "s3": "Entry and braking strike. Frames 1-6 the horse sits low on its haunches, the rider crouched over the saddle; frames 7-8 the horse brakes, lifting its forehand, and the spear strikes; frames 9-12 hold.",
   "a3": "Overhead turn with both hands. Frames 3-4 both hands come together at the middle of the pole and lift it above the head; frames 5-11 the spear makes ONE full level turn above the head like a propeller: the point goes back, then right, then FRONT at frame 8 (the blow), then left, then back again; frames 12-15 it is lowered to the ready pose. The horse stands still."
@@ -113,15 +113,15 @@
  "canvas_offset": {
   "front": [
    0,
-   11
+   7
   ],
   "left": [
    0,
-   8
+   10
   ],
   "rear": [
    0,
-   13
+   11
   ]
  }
 }

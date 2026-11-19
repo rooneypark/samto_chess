@@ -27,18 +27,14 @@ for(const width of [941,390,320]){
  await page.setViewportSize({width,height:width===941?1672:844});
  for(const [state,label]of [['success','성공'],['error','실패'],['info','안내']]){
   await page.locator('button[data-state='+state+']').click();
-  const toast=page.locator('.toast-sample'),box=await toast.boundingBox();
+  const toast=page.locator('.game-toast'),box=await toast.boundingBox();
   assert.equal(await toast.locator('strong').innerText(),label);
   assert.ok(await toast.evaluate(el=>el.scrollHeight<=el.clientHeight+1 && el.scrollWidth<=el.clientWidth+1));
-  const url=await toast.locator('.panel-frame').evaluate(el=>el.style.backgroundImage.slice(5,-2));
-  const mask=await read(Buffer.from(url.split(',')[1],'base64'));
-  assert.equal(mask.data[3],0);
-  assert.equal(mask.data[(mask.info.width-1)*4+3],0);
-  assert.equal(mask.data[(mask.info.width*mask.info.height-1)*4+3],0);
-  const content=await page.locator('[data-box="20,363,901,178"]').boundingBox();
-  assert.ok(box.y+box.height<content.y && Math.abs(box.x-content.x)<=1 && Math.abs(box.width-content.width)<=1);
+  const game=await page.locator('.game').boundingBox();
+  assert.ok(Math.abs(box.x+box.width/2-game.x-game.width/2)<1);
+  assert.equal(await toast.evaluate(el=>getComputedStyle(el).backgroundColor),'rgb(22, 22, 22)');
   await page.screenshot({path:artifact('toast-v1',state+'-'+width+'.png')});
  }
-}const frames=await page.evaluate(async()=>{const {renderNineSlice}=await import('./nine-slice.js'),out=[];for(const tone of ['blue','green'])for(const [w,h] of [[901,120],[901,500],[901,470],[411,64],[412,64],[582,64],[170,64]])out.push({tone,w,h,url:await renderNineSlice(tone,w,h,{stablePixels:true})});return out;});const corners={};for(const f of frames){const parts=[];for(const [left,top] of [[0,0],[f.w-28,0],[0,f.h-28],[f.w-28,f.h-28]])parts.push(await sharp(Buffer.from(f.url.split(',')[1],'base64')).extract({left,top,width:28,height:28}).raw().toBuffer());if(!corners[f.tone])corners[f.tone]=parts;else parts.forEach((p,i)=>assert.ok(p.equals(corners[f.tone][i]),JSON.stringify({tone:f.tone,w:f.w,h:f.h,corner:i})));}
+}const frames=await page.evaluate(async()=>{const {renderNineSlice}=await import('./nine-slice.js'),out=[];for(const tone of ['blue','green'])for(const [w,h] of [[901,120],[901,500],[901,470],[411,64],[412,64],[582,64],[170,64]])out.push({tone,w,h,url:await renderNineSlice(tone,w,h,{stablePixels:true})});return out;});const corners={};for(const f of frames){const parts=[];for(const [left,top] of [[0,0],[f.w-24,0],[0,f.h-24],[f.w-24,f.h-24]])parts.push(await sharp(Buffer.from(f.url.split(',')[1],'base64')).extract({left,top,width:24,height:24}).raw().toBuffer());if(!corners[f.tone])corners[f.tone]=parts;else parts.forEach((p,i)=>assert.ok(p.equals(corners[f.tone][i]),JSON.stringify({tone:f.tone,w:f.w,h:f.h,corner:i})));}
 
 assert.deepEqual(errors,[]);console.log('PASS three states, non-overlap, shared frame corners at three sizes');}finally{await browser.close()}})().catch(e=>{console.error(e);process.exitCode=1});

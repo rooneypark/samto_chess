@@ -2,7 +2,7 @@ import {artworkShell,featuredGenerals} from '../../ui-shell.js';
 import {artButton,placeArtwork,uiComponentsReady,artworkNavigation} from '../../art-controls.js';
 import {paintArtworkLayout} from '../../art-layout.js';
 import {nineSlice} from '../../nine-slice.js';
-import {generals} from '../../assets/generals-v2/generals.js';
+import {generals} from '../../character-art.js';
 import {generalPortrait as portrait} from '../../general-portraits.js';
 const game=document.querySelector('.game');let selected='1';
 artworkShell(game,{screen:'home',title:'초상화',progress:{gold:12450,diamonds:320}});artworkNavigation(game,'barracks');

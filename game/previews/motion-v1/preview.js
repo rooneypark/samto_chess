@@ -2,8 +2,8 @@ import {renderNineSlice,nineSlice} from '../../nine-slice.js';
 import {initArtPress} from '../../art-controls.js';
 
 // Preview-only deterministic timelines. No store, game engine, or transaction imports.
-const assets={header:'ui-common/header-frame.png',title:'ui-common/header-title.png',scroll:'ui-common/scroll-paper.png',hall:'shop-v2/pickup-hall-v3.png',guan:'generals-v2/1-front.png',lu:'generals-v2/119-front.png',cao:'generals-v2/32-front.png',xu:'generals-v2/xuchu-front.png',zhuge:'generals-v2/35-front.png',diao:'generals-v2/diaochan-front.png',board:'battle-v2/scene.png'};
-const art={};await Promise.all(Object.entries(assets).map(async([key,file])=>{const im=new Image();im.src='assets/'+file;await im.decode();art[key]=im}));
+const assets={header:'ui-common/header-frame.png',title:'ui-common/header-title.png',scroll:'ui-common/scroll-paper.png',hall:'shop-v2/pickup-hall-v3.png',guan:'../art-source/characters/v1/1/front.png',lu:'../art-source/characters/v1/119/front.png',cao:'../art-source/characters/v1/32/front.png',xu:'../art-source/characters/v1/xuchu/front.png',zhuge:'../art-source/characters/v1/35/front.png',diao:'../art-source/characters/v1/diaochan/front.png',board:'battle-v2/scene.png'};
+const art={};await Promise.all(Object.entries(assets).map(async([key,file])=>{const im=new Image();im.src=file.startsWith('../')?file:'assets/'+file;await im.decode();art[key]=im}));
 art.cutin=new Image();art.cutin.src='previews/motion-v1/assets/guan-skill-cutin-v2.png';await art.cutin.decode();
 async function frame(key,tone,w,h,center=true){const im=new Image();im.src=await renderNineSlice(tone,w*2,h*2,{corner:20,center,stablePixels:true});await im.decode();art[key]=im;}
 await Promise.all([frame('card','green',206,346),frame('cardEdge','green',206,346,false),frame('band','green',370,154),frame('info','blue',370,62),frame('seal','green',94,94)]);

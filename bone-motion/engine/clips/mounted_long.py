@@ -15,7 +15,7 @@ So the weapon here has its real length in the bone, and the hands do what a ride
      the shaft just far enough to keep both ends inside, and no further. That is the only time the grip shortens.
 In the ready pose nothing changes: the grip is the bone's.
 
-    build(base module, total length, pull, canvas shift) -> (WEAPON, convert, clip, spin)
+    build(base module, total length, pull, canvas shift) -> (WEAPON, convert, clip, spin, golf)
 """
 import math
 import cavalry
@@ -24,6 +24,10 @@ from samto_motion import add, mul, unit, project
 MARGIN = 7.0      # key poses are fitted with this much room: the frames in between swing a little wider than their keys
 
 def build(base, total, pull, shift, pulls=None):
+    return build_with_launcher(base, total, pull, shift, pulls)[:4]
+
+
+def build_with_launcher(base, total, pull, shift, pulls=None):
     grip = base.WEAPON.main_socket; reach = base.WEAPON.total - grip; extra = total - base.WEAPON.total
     weapon = cavalry.Glaive(total=total, main_socket=grip, collar=total - (base.WEAPON.total - base.WEAPON.collar))
     def outside(main, ax, socket):
@@ -70,4 +74,28 @@ def build(base, total, pull, shift, pulls=None):
                       (7, ring(360, chest_lean=8, h_root=(0, 3, 61.8), neck=-6), 'linear'), (8, ring(60, chest_turn=-12, chest_lean=6), 'linear'), (9, ring(125, chest_turn=-12), 'linear'),
                       (10, ring(180), 'out'), (11, over, 'inout'), (12, lift, 'inout'), (14, G, 'out')],
                 support=[('FL', 'FR', 'HL', 'HR')] * 15, durations=[100, 90, 90, 80, 70, 55, 45, 70, 60, 60, 80, 110, 100, 90, 100], sheet=[0, 4, 6, 7, 8, 10])
-    return weapon, convert, clip, spin
+    # ---- 쳐올리기: the launcher (user, 2026-11-19: 'the blade stays low; it scrapes the ground in a half circle and is swung
+    # straight up, the move that throws an enemy into the air. No turning the pole round, no changing the grip in an attack').
+    # One hand, the grip is the ready pose's all the way. The head is let down behind on the right, dragged along the ground
+    # in a half circle round the rider's right side (the hand hardly moves: the head is 79 px out from under it), and from
+    # the ground in front it goes up through the target and on up. Where the pole passes level the hand is at the hip.
+    def P(main, axis, **kw):
+        b = dict(main=main, axis=unit(axis), socket=G['socket'], support_on=0.0); b.update(kw); return base.pose(**b)
+    def to(main, tip, **kw):      # the pose whose head is at `tip` (the hand is moved along the pole if the distance is not the pole's)
+        d = (tip[0] - main[0], tip[1] - main[1], tip[2] - main[2]); return P(main, d, **kw)
+    H = (-38, 4, 124); low = dict(seat=(0, 1, 3), chest_lean=10, neck=-6)
+    golf = dict(title='쳐올리기', impact=8,
+                keys=[(0, G, 'linear'),
+                      (1, P((-38, 14, 98), (-0.10, -0.50, 0.86), h_root=(0, -1, 62.8), chest_turn=6), 'inout'),                      # the head tips back
+                      (2, P((-40, 23, 106), (-0.22, -0.975, 0.02), h_root=(0, -2, 62.4), chest_turn=14), 'inout'),                   # level, pointing back: the hand is forward so it stays on the canvas
+                      (3, to(H, (-74, -66, 3), h_root=(0, -3, 62), chest_turn=22, **low), 'inout'),                                  # the head is on the ground behind
+                      (4, to(H, (-80, -60, 2), h_root=(0, -3.5, 61.8), chest_turn=24, **low), 'out'),
+                      (5, to((-46, 6, 119), (-124, 6, 2), h_root=(0, -1, 61.8), chest_turn=12, **low), 'linear'),                                # dragged round the right side
+                      (6, to(H, (-70, 76, 2), h_root=(0, 2, 61.6), h_pitch=-2, chest_turn=0, **low), 'linear'),                      # to the ground in front
+                      (7, P((-43, -13, 128), (0.30, 0.77, -0.57), h_root=(0, 5, 61.2), h_pitch=-3.5, seat=(0, 1, 3), chest_turn=-8, chest_lean=12, neck=-12), 'snap'),   # up through the target
+                      (8, P((-42, -18, 122), (0.22, 0.97, 0.05), h_root=(0, 5, 61.4), h_pitch=-3, seat=(0, 1, 2.5), chest_turn=-12, chest_lean=6, neck=-8), 'linear'),
+                      (9, P((-38, -8, 120), (0.12, 0.80, 0.59), h_root=(0, 3, 62), h_pitch=-1, seat=(0, 0, 2), chest_turn=-10, chest_lean=-2), 'out'),
+                      (10, P((-38, -8, 121), (0.11, 0.78, 0.615), h_root=(0, 2.5, 62.2), seat=(0, 0, 2), chest_turn=-9, chest_lean=-3), 'inout'),
+                      (12, P((-33, 8, 92), (0.03, 0.40, 0.916), h_root=(0, 1, 62.8), chest_turn=-3), 'inout'), (14, G, 'out')],
+                support=[('FL', 'FR', 'HL', 'HR')] * 15, durations=[100, 90, 90, 110, 130, 70, 60, 40, 60, 180, 110, 90, 90, 90, 100], sheet=[0, 3, 5, 6, 7, 9])
+    return weapon, convert, clip, spin, golf

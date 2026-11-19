@@ -17,5 +17,5 @@ export function styleDialogContent(root){
     icon.style.backgroundRepeat='no-repeat';
     icon.setAttribute('aria-hidden','true');
   }
-  root.querySelectorAll('.game-dialog-empty,.game-dialog-hero').forEach(panel=>panel.classList.add('dialog-art-panel'));
+  root.querySelectorAll('.game-dialog-empty').forEach(panel=>panel.classList.add('dialog-art-panel','report-sheet'));
 }

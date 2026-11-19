@@ -43,7 +43,7 @@
   },
   "folder": "dongzhuo",
   "right": "mirror-side",
-  "runtimeApplied": false,
+  "runtimeApplied": true,
   "logicalFoot": [
     128,
     224

@@ -35,3 +35,6 @@ h2{display:flex;align-items:center;color:#f9e4b6;font-size:4.1cqw}
 }
 .game.missions-art>.toast{z-index:80}
 .game.in-battle>.missions-v1{display:none}
+
+.mission-claim-status{position:absolute;display:grid;place-items:center;color:#bfced5;font:inherit;font-size:clamp(10px,3cqw,22px);text-align:center}
+.mission-claim-status[hidden],.mission button[hidden],.attendance-claim[hidden],.bonus-claim[hidden]{display:none!important}

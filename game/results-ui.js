@@ -7,6 +7,7 @@ import {generalArtwork,appendGeneralArtwork} from './general-art.js';
 import {landmarkArtwork} from './campaign-landmarks.js';
 import {disposeNineSlices} from './nine-slice.js';
 import {roundCount} from './battle-data.js';
+import {resultScene} from './scene-motion.js';
 
 const revisions=new WeakMap();
 export function clearResultsArtwork(root){revisions.set(root,(revisions.get(root)??0)+1);disposeNineSlices(root);root.classList.remove('results-v1','battle-result');root.inert=false;}
@@ -28,7 +29,10 @@ export async function renderResultsArtwork(root,{run,state,error,onNext,onRetry,
   card.classList.toggle('compact',count>3);
   card.dataset.box=[52+i*(count>3?width+18:298),890,width,140].join(',');
   card.querySelectorAll('[id]').forEach(el=>el.removeAttribute('id'));
-  const img=card.querySelector('img');if(item?.icon)img.src='assets/shop-v2/'+item.icon+'.png';else img.remove();
+  const img=card.querySelector('img');const material={'장수 교환재료':'reward-hero-token','보물 교환재료':'reward-treasure-token','S 선택 조각':'reward-s-shard'}[item?.label];
+  if(item?.icon)img.src='assets/shop-v2/'+item.icon+'.png';
+  else if(material)img.src='assets/ui-temp/'+material+'.png';
+  else img.remove();
   const strong=card.querySelector('strong');strong.textContent=item?.value??'—';strong.classList.toggle('long-value',(item?.value.length??0)>5||count>3);
   card.querySelector('small').textContent=item?.label??'추가 보상 없음';root.append(card);
  }
@@ -53,5 +57,5 @@ export async function renderResultsArtwork(root,{run,state,error,onNext,onRetry,
  const background=new Image();background.src='assets/arena-v2/courtyard.png';
  try{
   await Promise.all([painting,background.decode(),...images,...Array.from(root.querySelectorAll('img:not(.next-landmark)'),img=>img.decode()),...(view.landmark?[landmarkArtwork(view.landmark).then(async url=>{landmark.src=url;landmark.alt=view.title;await landmark.decode();})]:[])]);
- }finally{if(revisions.get(root)===token){root.inert=false;root.setAttribute('aria-busy','false');}}
+ }finally{if(revisions.get(root)===token){root.inert=false;root.setAttribute('aria-busy','false');resultScene(root,{key:run.id+':'+run.round+':'+run.outcome,outcome:run.outcome,paid:!error&&!!(view.receipt||view.interim)});}}
 }

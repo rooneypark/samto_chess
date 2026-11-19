@@ -12,7 +12,7 @@ const assert=require('node:assert/strict');
  const canvas=page.locator('[data-unit="1"] canvas[data-approved-motion]');
  await canvas.waitFor();assert.match(await canvas.getAttribute('data-painted-frame'),/characters\/v1\/2\/back.png/);
  const geometry=await canvas.evaluate(el=>{const c=el.getBoundingClientRect(),tile=el.closest('.battle-position').getBoundingClientRect();return {scale:c.width/tile.width,foot:c.top+c.height*.875,target:tile.top+tile.height*.7};});
- assert.ok(Math.abs(geometry.scale-2.048)<.01);assert.ok(Math.abs(geometry.foot-geometry.target)<1);
+ assert.ok(Math.abs(geometry.scale-2.56)<.01);assert.ok(Math.abs(geometry.foot-geometry.target)<1);
  await page.screenshot({path:artifact('approved-motion','prepare.png')});
  await page.locator('#battle-start').click();
  await page.waitForFunction(()=>document.querySelector('[data-unit="1"] [data-approved-motion]')?.dataset.approvedMotion.endsWith('-attack'),{},{timeout:30000});
