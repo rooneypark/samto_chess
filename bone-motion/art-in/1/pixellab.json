@@ -1,0 +1,34 @@
+{
+ "hero": "관우",
+ "family": "mounted_blade",
+ "description": "Guan Yu, tall imposing chinese general in the supplied pixel art style, riding a brown war horse. Green robe over grey lamellar armor with gold trim, green head wrap with a gold ornament and long green cloth tails flowing on his left side. Brown horse with dark mane and tail, green and gold barding, gold bridle. Green Dragon Crescent Blade: a long dark pole with gold fittings and a large curved silver crescent blade, held in the right hand",
+ "face": "Red-brown face, stern narrow eyes, very long black beard down to the chest.",
+ "rear_detail": "Seen from behind: the back of the green head wrap with its long cloth tails, the green robe with gold-trimmed shoulder plates, and the horse's dark tail between its hind legs.",
+ "guard_action": "the rider brings the crescent blade from upright to a ready angle; the horse stands still on four legs",
+ "actions": {
+  "idle": "Mounted fighting guard, horse standing still on four legs, breathing",
+  "move": "Seamless gallop in place, rider carrying the crescent blade, no attack. The four legs follow the skeleton. The last frame leads into the first, no pause",
+  "b1": "Mounted THRUST with the crescent blade. Frames 3-5 the pole is laid level beside the right hip and drawn back; frame 8 it is driven straight forward, point first; frames 9-11 hold the reach. This is a straight thrust, not a cut. Frames 12-15 return to the supplied guard pose; the last pose matches the first. Follow the skeleton exactly. Keep the weapon rigid and the same length, the crescent blade keeps its shape. Rider stays seated, four horse legs always present",
+  "a2": "Mounted RISING cut. Frames 3-6 the blade hangs low behind the rider on the right side of the horse, pointing down and back; frames 7-8 it swings up from below through the target in front; frames 9-11 it finishes high. Frames 12-15 return to the supplied guard pose; the last pose matches the first. Follow the skeleton exactly. Keep the weapon rigid and the same length, the crescent blade keeps its shape. Rider stays seated, four horse legs always present",
+  "a3": "Mounted HORIZONTAL sweeping cut. The rider holds the pole near its butt end. Frames 3-5 the blade is swung far out to the right side and back, level with the ground, the torso twisting right; frames 6-8 it sweeps around from the side to the front in a wide flat arc. Frames 9-11 hold with the blade in front. The blade travels sideways. Frames 12-15 return to the supplied guard pose; the last pose matches the first. Follow the skeleton exactly. Keep the weapon rigid and the same length, the crescent blade keeps its shape. Rider stays seated, four horse legs always present",
+  "s1": "Green Dragon cleave. Frames 3-7 the horse REARS UP high on its hind legs, both front hooves in the air, the rider rising with it and lifting the crescent blade straight up above his head. Frame 8 the front hooves crash down and the blade comes down in one heavy vertical cut. Frames 9-12 hold the low finish. Frames 13-15 return to the supplied guard pose; the last pose matches the first. Follow the skeleton exactly. Keep the weapon rigid and the same length, the crescent blade keeps its shape. Rider stays in the saddle, four horse legs always present"
+ },
+ "weapon_length": 144,
+ "weapon_grip": 55,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "body_scale": 1.0,
+ "art_weapon": {
+  "front": {"weapon butt": [92, 172], "weapon tip": [104, 30]},
+  "left": {"weapon butt": [118, 174], "weapon tip": [128, 31]},
+  "rear": {"weapon butt": [162, 175], "weapon tip": [152, 31]}
+ },
+ "art_offset": {"left": {"rider": [7, 0]}},
+ "art_points": {"left": {"NOSE": [127, 82]}},
+ "cloth_rgb": [[[0, 0], [0, 0], [0, 0]]],
+ "streamers": [
+  {"name": "head wrap tail", "attach": "head", "root": [10, -4, 4], "hang": [14, -6, -3], "sway": 2.0},
+  {"name": "beard", "attach": "head", "root": [0, 12, -8], "hang": [0, 3, -22], "sway": 1.0, "lag": 0.5}
+ ],
+ "notes": "2026-11-19. 평타 b1(찌르기) → a2(올려베기) → a3(가로 베기), 전법 s1(솟구쳐 내려찍기). assign_attacks.py가 서로 가장 다른 조합으로 고름(가장 비슷한 두 클립 15.9px). 기본 자세 관절은 본의 기마 대기, 무기 좌표는 원화에서 눈으로 잰 값(±2px)."
+}

@@ -17,7 +17,7 @@ class Glaive:
     p['support'] = distance of the support hand's socket below the main hand, p['support_on'] = 1 while the left
     hand is on the shaft and 0 while it is free (a declared release), blended in between."""
     def __init__(self, total=148.0, main_socket=85.0, collar=112.0): self.total, self.main_socket, self.collar = total, main_socket, collar
-    def point(self, p, along): return add(p['main'], mul(unit(p['axis']), along - self.main_socket))
+    def point(self, p, along): return add(p['main'], mul(unit(p['axis']), along - p.get('socket', self.main_socket)))      # 'socket': the hand slides along the shaft (a wide swing is held near the butt)
     def sockets(self, p):
         return {'R': p['main'], 'L': lerp(p['hand.L'], self.point(p, self.main_socket - p['support']), p['support_on'])}
     def joints(self, p): return {'glaive_butt': self.point(p, 0), 'glaive_collar': self.point(p, self.collar), 'glaive_tip': self.point(p, self.total)}

@@ -1,0 +1,70 @@
+{
+ "hero": "정봉",
+ "family": "sword",
+ "description": "Ding Feng, sturdy chinese soldier in the supplied pixel art style. A red cloth head wrap with tails, grey armor with red trim, a red sash, dark boots. He holds a short curved blade in the right hand",
+ "face": "A short dark beard and steady eyes.",
+ "rear_detail": "Seen from behind: the red head wrap with its tails, grey armor with red trim, the short blade at his right side.",
+ "guard_action": "the right hand lifts the sword up in front of the body, the left hand stays free as a guard, the left foot steps forward and the knees bend",
+ "actions": {
+  "idle": "One-handed sword fighting guard, breathing",
+  "move": "Seamless combat run in place carrying the sword, no attack. The last frame leads into the first, no pause",
+  "a2": "One rising cut from low to high. Frames 1-5 lower the sword and coil; frame 8 the upward cut lands; frames 9-11 the sword finishes high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The short curved blade stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b2": "Thrust, then rising cut. Frames 1-5 draw back; frame 6 a straight thrust; frames 7-8 the sword drops low; frame 9 a rising cut; frames 10-11 the sword finishes high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The short curved blade stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b3": "Leaping downward cut. Frames 1-4 crouch and raise the sword; frames 5-7 both feet leave the ground; frame 8 he lands cutting straight down; frames 9-11 absorb the landing. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The short curved blade stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s3": "Low wide sweep. Frames 1-6 both knees fold and the sword is drawn far behind; frame 8 one broad level sweep at waist height from right to left; frames 9-12 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The short curved blade stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 30,
+ "weapon_grip": 6,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    94,
+    190
+   ],
+   "weapon tip": [
+    90,
+    220
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    106,
+    190
+   ],
+   "weapon tip": [
+    104,
+    218
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    160,
+    192
+   ],
+   "weapon tip": [
+    164,
+    218
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "headband tail",
+   "attach": "head",
+   "root": [
+    9,
+    -3,
+    5
+   ],
+   "hang": [
+    9,
+    -5,
+    -5
+   ],
+   "sway": 2.0
+  }
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 a2 → b2 → b3, 전법 s3. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. "
+}

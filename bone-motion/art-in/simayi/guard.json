@@ -1,0 +1,524 @@
+{
+ "front": {
+  "frame": 12,
+  "source": "out/pixellab/simayi/idle/front/12.png",
+  "keypoints": [
+   {
+    "x": 0.5,
+    "y": 0.6951,
+    "label": "pelvis",
+    "depth": 128.0
+   },
+   {
+    "x": 0.4971,
+    "y": 0.5481,
+    "label": "NECK",
+    "depth": 130.5
+   },
+   {
+    "x": 0.494,
+    "y": 0.5173,
+    "label": "NOSE",
+    "depth": 147.5
+   },
+   {
+    "x": 0.4315,
+    "y": 0.5666,
+    "label": "RIGHT SHOULDER",
+    "depth": 125.1
+   },
+   {
+    "x": 0.3867,
+    "y": 0.6369,
+    "label": "RIGHT ELBOW",
+    "depth": 124.7
+   },
+   {
+    "x": 0.4123,
+    "y": 0.6315,
+    "label": "RIGHT ARM",
+    "depth": 138.9
+   },
+   {
+    "x": 0.5666,
+    "y": 0.5778,
+    "label": "LEFT SHOULDER",
+    "depth": 132.9
+   },
+   {
+    "x": 0.6211,
+    "y": 0.6327,
+    "label": "LEFT ELBOW",
+    "depth": 128.4
+   },
+   {
+    "x": 0.5651,
+    "y": 0.6807,
+    "label": "LEFT ARM",
+    "depth": 135.3
+   },
+   {
+    "x": 0.4542,
+    "y": 0.7013,
+    "label": "RIGHT HIP",
+    "depth": 126.2
+   },
+   {
+    "x": 0.4383,
+    "y": 0.7796,
+    "label": "RIGHT KNEE",
+    "depth": 130.5
+   },
+   {
+    "x": 0.4628,
+    "y": 0.8279,
+    "label": "RIGHT LEG",
+    "depth": 123.0
+   },
+   {
+    "x": 0.5459,
+    "y": 0.7063,
+    "label": "LEFT HIP",
+    "depth": 129.7
+   },
+   {
+    "x": 0.5523,
+    "y": 0.7841,
+    "label": "LEFT KNEE",
+    "depth": 138.4
+   },
+   {
+    "x": 0.5372,
+    "y": 0.8423,
+    "label": "LEFT LEG",
+    "depth": 133.0
+   },
+   {
+    "x": 0.4505,
+    "y": 0.8594,
+    "label": "RIGHT TOE",
+    "depth": 129.5
+   },
+   {
+    "x": 0.5401,
+    "y": 0.8745,
+    "label": "LEFT TOE",
+    "depth": 140.0
+   },
+   {
+    "x": 0.4208,
+    "y": 0.6297,
+    "label": "weapon butt",
+    "depth": 143.6
+   },
+   {
+    "x": 0.4092,
+    "y": 0.5672,
+    "label": "weapon tip",
+    "depth": 153.5
+   },
+   {
+    "x": 0.4123,
+    "y": 0.6375,
+    "label": "right sleeve root",
+    "depth": 136.9
+   },
+   {
+    "x": 0.4123,
+    "y": 0.6817,
+    "label": "right sleeve mid",
+    "depth": 135.4
+   },
+   {
+    "x": 0.4123,
+    "y": 0.713,
+    "label": "right sleeve tip",
+    "depth": 133.9
+   },
+   {
+    "x": 0.5651,
+    "y": 0.6866,
+    "label": "left sleeve root",
+    "depth": 133.3
+   },
+   {
+    "x": 0.5651,
+    "y": 0.7308,
+    "label": "left sleeve mid",
+    "depth": 131.8
+   },
+   {
+    "x": 0.5651,
+    "y": 0.762,
+    "label": "left sleeve tip",
+    "depth": 130.3
+   },
+   {
+    "x": 0.5,
+    "y": 0.7101,
+    "label": "robe hem root",
+    "depth": 120.0
+   },
+   {
+    "x": 0.5,
+    "y": 0.7941,
+    "label": "robe hem mid",
+    "depth": 117.5
+   },
+   {
+    "x": 0.5,
+    "y": 0.8536,
+    "label": "robe hem tip",
+    "depth": 115.0
+   }
+  ]
+ },
+ "left": {
+  "frame": 12,
+  "source": "out/pixellab/simayi/idle/left/12.png",
+  "keypoints": [
+   {
+    "x": 0.5,
+    "y": 0.6951,
+    "label": "pelvis",
+    "depth": 128.0
+   },
+   {
+    "x": 0.4883,
+    "y": 0.5437,
+    "label": "NECK",
+    "depth": 127.4
+   },
+   {
+    "x": 0.4091,
+    "y": 0.4874,
+    "label": "NOSE",
+    "depth": 126.7
+   },
+   {
+    "x": 0.5135,
+    "y": 0.5495,
+    "label": "RIGHT SHOULDER",
+    "depth": 113.3
+   },
+   {
+    "x": 0.5153,
+    "y": 0.6067,
+    "label": "RIGHT ELBOW",
+    "depth": 103.7
+   },
+   {
+    "x": 0.4492,
+    "y": 0.5887,
+    "label": "RIGHT ARM",
+    "depth": 109.2
+   },
+   {
+    "x": 0.4772,
+    "y": 0.5913,
+    "label": "LEFT SHOULDER",
+    "depth": 142.3
+   },
+   {
+    "x": 0.4983,
+    "y": 0.6696,
+    "label": "LEFT ELBOW",
+    "depth": 154.0
+   },
+   {
+    "x": 0.466,
+    "y": 0.6902,
+    "label": "LEFT ARM",
+    "depth": 142.0
+   },
+   {
+    "x": 0.5085,
+    "y": 0.6897,
+    "label": "RIGHT HIP",
+    "depth": 118.2
+   },
+   {
+    "x": 0.4885,
+    "y": 0.7569,
+    "label": "RIGHT KNEE",
+    "depth": 114.8
+   },
+   {
+    "x": 0.5233,
+    "y": 0.8236,
+    "label": "RIGHT LEG",
+    "depth": 120.0
+   },
+   {
+    "x": 0.4922,
+    "y": 0.7181,
+    "label": "LEFT HIP",
+    "depth": 137.9
+   },
+   {
+    "x": 0.4517,
+    "y": 0.7853,
+    "label": "LEFT KNEE",
+    "depth": 139.2
+   },
+   {
+    "x": 0.4767,
+    "y": 0.8466,
+    "label": "LEFT LEG",
+    "depth": 136.0
+   },
+   {
+    "x": 0.4931,
+    "y": 0.842,
+    "label": "RIGHT TOE",
+    "depth": 117.4
+   },
+   {
+    "x": 0.4442,
+    "y": 0.8696,
+    "label": "LEFT TOE",
+    "depth": 136.6
+   },
+   {
+    "x": 0.4273,
+    "y": 0.5828,
+    "label": "weapon butt",
+    "depth": 111.0
+   },
+   {
+    "x": 0.3812,
+    "y": 0.5024,
+    "label": "weapon tip",
+    "depth": 108.5
+   },
+   {
+    "x": 0.4585,
+    "y": 0.5976,
+    "label": "right sleeve root",
+    "depth": 109.2
+   },
+   {
+    "x": 0.4654,
+    "y": 0.6439,
+    "label": "right sleeve mid",
+    "depth": 109.2
+   },
+   {
+    "x": 0.4724,
+    "y": 0.6773,
+    "label": "right sleeve tip",
+    "depth": 109.2
+   },
+   {
+    "x": 0.4753,
+    "y": 0.699,
+    "label": "left sleeve root",
+    "depth": 142.0
+   },
+   {
+    "x": 0.4822,
+    "y": 0.7454,
+    "label": "left sleeve mid",
+    "depth": 142.0
+   },
+   {
+    "x": 0.4893,
+    "y": 0.7788,
+    "label": "left sleeve tip",
+    "depth": 142.0
+   },
+   {
+    "x": 0.5372,
+    "y": 0.7217,
+    "label": "robe hem root",
+    "depth": 128.0
+   },
+   {
+    "x": 0.5489,
+    "y": 0.8091,
+    "label": "robe hem mid",
+    "depth": 128.0
+   },
+   {
+    "x": 0.5606,
+    "y": 0.8724,
+    "label": "robe hem tip",
+    "depth": 128.0
+   }
+  ]
+ },
+ "rear": {
+  "frame": 12,
+  "source": "out/pixellab/simayi/idle/rear/12.png",
+  "keypoints": [
+   {
+    "x": 0.5,
+    "y": 0.6951,
+    "label": "pelvis",
+    "depth": 128.0
+   },
+   {
+    "x": 0.5029,
+    "y": 0.541,
+    "label": "NECK",
+    "depth": 125.5
+   },
+   {
+    "x": 0.5014,
+    "y": 0.4711,
+    "label": "back of skull",
+    "depth": 133.1
+   },
+   {
+    "x": 0.5685,
+    "y": 0.575,
+    "label": "RIGHT SHOULDER",
+    "depth": 130.9
+   },
+   {
+    "x": 0.6133,
+    "y": 0.6464,
+    "label": "RIGHT ELBOW",
+    "depth": 131.3
+   },
+   {
+    "x": 0.5877,
+    "y": 0.6001,
+    "label": "RIGHT ARM",
+    "depth": 117.1
+   },
+   {
+    "x": 0.4334,
+    "y": 0.5637,
+    "label": "LEFT SHOULDER",
+    "depth": 123.1
+   },
+   {
+    "x": 0.3789,
+    "y": 0.6316,
+    "label": "LEFT ELBOW",
+    "depth": 127.6
+   },
+   {
+    "x": 0.4349,
+    "y": 0.6595,
+    "label": "LEFT ARM",
+    "depth": 120.7
+   },
+   {
+    "x": 0.5458,
+    "y": 0.7065,
+    "label": "RIGHT HIP",
+    "depth": 129.8
+   },
+   {
+    "x": 0.5617,
+    "y": 0.7724,
+    "label": "RIGHT KNEE",
+    "depth": 125.5
+   },
+   {
+    "x": 0.5372,
+    "y": 0.8423,
+    "label": "RIGHT LEG",
+    "depth": 133.0
+   },
+   {
+    "x": 0.4541,
+    "y": 0.7015,
+    "label": "LEFT HIP",
+    "depth": 126.3
+   },
+   {
+    "x": 0.4477,
+    "y": 0.7541,
+    "label": "LEFT KNEE",
+    "depth": 117.6
+   },
+   {
+    "x": 0.4628,
+    "y": 0.8279,
+    "label": "LEFT LEG",
+    "depth": 123.0
+   },
+   {
+    "x": 0.5495,
+    "y": 0.8551,
+    "label": "RIGHT TOE",
+    "depth": 126.5
+   },
+   {
+    "x": 0.4599,
+    "y": 0.84,
+    "label": "LEFT TOE",
+    "depth": 116.0
+   },
+   {
+    "x": 0.5792,
+    "y": 0.5849,
+    "label": "weapon butt",
+    "depth": 112.4
+   },
+   {
+    "x": 0.5908,
+    "y": 0.4937,
+    "label": "weapon tip",
+    "depth": 102.5
+   },
+   {
+    "x": 0.5877,
+    "y": 0.6118,
+    "label": "right sleeve root",
+    "depth": 119.1
+   },
+   {
+    "x": 0.5877,
+    "y": 0.6604,
+    "label": "right sleeve mid",
+    "depth": 120.6
+   },
+   {
+    "x": 0.5877,
+    "y": 0.6959,
+    "label": "right sleeve tip",
+    "depth": 122.1
+   },
+   {
+    "x": 0.4349,
+    "y": 0.6714,
+    "label": "left sleeve root",
+    "depth": 122.7
+   },
+   {
+    "x": 0.4349,
+    "y": 0.7199,
+    "label": "left sleeve mid",
+    "depth": 124.2
+   },
+   {
+    "x": 0.4349,
+    "y": 0.7555,
+    "label": "left sleeve tip",
+    "depth": 125.7
+   },
+   {
+    "x": 0.5,
+    "y": 0.7332,
+    "label": "robe hem root",
+    "depth": 136.0
+   },
+   {
+    "x": 0.5,
+    "y": 0.8243,
+    "label": "robe hem mid",
+    "depth": 138.5
+   },
+   {
+    "x": 0.5,
+    "y": 0.8911,
+    "label": "robe hem tip",
+    "depth": 141.0
+   }
+  ]
+ }
+}

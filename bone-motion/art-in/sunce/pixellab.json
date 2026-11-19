@@ -1,0 +1,96 @@
+{
+ "hero": "손책",
+ "family": "dual",
+ "description": "Sun Ce, young fiery chinese warlord in the supplied pixel art style. Spiky brown hair with a red plumed headband, red and black armor with gold trim, a long red cape, dark boots. He holds a short halberd upright in the right hand and a second short blade low in the left hand",
+ "face": "Bold confident young eyes, no beard.",
+ "rear_detail": "Seen from behind: spiky brown hair with the red plume, the long red cape covering the back, the halberd at his right side.",
+ "guard_action": "both hands lift their weapons up in front of the body, the left foot steps forward and the knees bend",
+ "actions": {
+  "idle": "Twin-weapon fighting guard, one weapon in each hand, breathing",
+  "move": "Seamless combat run in place with a weapon in each hand, no attack. The last frame leads into the first, no pause",
+  "a1": "Right-hand cut with the left weapon held as a guard. Frames 1-5 the right weapon is raised; frame 8 it cuts down diagonally while the left weapon stays up in front; frames 9-11 follow through. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The twin short halberds stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b1": "Two cuts, right then left. Frames 1-5 wind up; frame 7 the right weapon cuts; frame 9 the left weapon cuts; frames 10-11 follow through. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The twin short halberds stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a2": "Rising right-hand cut, left weapon blocking low. Frames 1-5 the right weapon drops low; frame 8 it cuts upward while the left weapon guards low; frames 9-11 finish high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The twin short halberds stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s3": "Conqueror surge. Frames 1-6 he winds back with both weapons to one side; frame 8 both weapons sweep around level in one wide arc; frames 9-12 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The twin short halberds stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 90,
+ "weapon_grip": 6,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    96,
+    182
+   ],
+   "weapon tip": [
+    94,
+    92
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    106,
+    180
+   ],
+   "weapon tip": [
+    104,
+    105
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    160,
+    175
+   ],
+   "weapon tip": [
+    160,
+    103
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "cape hem",
+   "attach": "neck",
+   "root": [
+    0,
+    -7,
+    -4
+   ],
+   "hang": [
+    0,
+    -7,
+    -42
+   ],
+   "sway": 1.5,
+   "lag": 0.3
+  },
+  {
+   "name": "helmet plume",
+   "attach": "head",
+   "root": [
+    0,
+    -2,
+    16
+   ],
+   "hang": [
+    0,
+    -9,
+    2
+   ],
+   "sway": 1.0
+  }
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 a1 → b1 → a2, 전법 s3. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. ",
+ "canvas_offset": {
+  "front": [
+   0,
+   -12
+  ],
+  "left": [
+   29,
+   0
+  ]
+ }
+}

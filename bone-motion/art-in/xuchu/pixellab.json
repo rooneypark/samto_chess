@@ -1,0 +1,71 @@
+{
+ "hero": "허저",
+ "family": "heavy",
+ "description": "Xu Chu, huge broad-shouldered chinese warrior in the supplied pixel art style. Black hair in a topknot, a white fur collar over dark armor with gold trim, bare muscular arms with gold bracers, blue loincloth, dark boots. He holds a heavy mace: a short thick dark shaft with a big round spiked iron head",
+ "face": "Fierce broad face with a thick black beard.",
+ "rear_detail": "Seen from behind: the black topknot, the white fur collar across the shoulders, the broad armored back and the blue loincloth, the mace at his right side.",
+ "guard_action": "both hands take the mace and hold it in front of the body, the feet spread and the knees bend",
+ "actions": {
+  "idle": "Heavy fighting guard, mace held in both hands in front, breathing",
+  "move": "Seamless heavy combat run in place carrying the mace, no attack. The last frame leads into the first, no pause",
+  "b1": "Short downward mace blow. Frames 1-5 the mace is lifted to shoulder height only; frames 6-8 a short hard blow straight down onto the target; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spiked mace stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a3": "Rising mace blow. Frames 1-6 the mace head drops low behind the body; frames 7-8 the knees straighten and the mace is swung up from below through the target; frames 9-11 the mace ends high above the head. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spiked mace stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b3": "Big circular overhead smash. Frames 1-6 the mace head drops low behind and is swung in one big circle back and up over the head; frame 8 it crashes straight down; frames 9-11 hold the low finish. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spiked mace stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s1": "Tiger fury. Frames 1-6 he pulls the mace in to his chest and curls into a deep crouch; frame 8 he pushes off the ground, throws the arms and mace wide open and thrusts the chest out with a roar; frames 9-12 hold. Nothing is struck. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spiked mace stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 74,
+ "weapon_grip": 20,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    80,
+    174
+   ],
+   "weapon tip": [
+    80,
+    100
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    99,
+    172
+   ],
+   "weapon tip": [
+    99,
+    112
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    176,
+    172
+   ],
+   "weapon tip": [
+    176,
+    100
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "loincloth",
+   "attach": "pelvis",
+   "root": [
+    0,
+    8,
+    -6
+   ],
+   "hang": [
+    0,
+    3,
+    -22
+   ],
+   "sway": 1.0,
+   "lag": 0.35
+  }
+ ],
+ "notes": "2026-11-19. 평타 b1(짧게 찍기) → a3(올려치기) → b3(크게 돌려 내려찍기), 전법 s1(호치). 철퇴 좌표는 원화에서 눈으로 잰 값(±2px)."
+}

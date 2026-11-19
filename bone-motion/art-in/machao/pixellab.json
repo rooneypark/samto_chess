@@ -1,0 +1,121 @@
+{
+ "hero": "마초",
+ "family": "mounted_spear",
+ "description": "Ma Chao, splendid chinese cavalry general in the supplied pixel art style, riding a white war horse. A silver lion-crested helmet with a tall white plume, white fur over silver armor, a teal sash, a long white cape. White horse with teal and gold tack. He holds a very long spear with a teal tassel in the right hand",
+ "face": "A proud handsome young face, no beard.",
+ "rear_detail": "Seen from behind: the silver helmet with the white plume, white fur shoulders, the long white cape hanging over the horse's rump, the horse's tail between its hind legs.",
+ "guard_action": "the rider brings the spear from upright to a ready angle; the horse stands still on four legs",
+ "actions": {
+  "idle": "Mounted fighting guard, horse standing still on four legs, breathing",
+  "move": "Seamless gallop in place, rider carrying the spear, no attack. The four legs follow the skeleton. The last frame leads into the first, no pause",
+  "b1": "Mounted RISING strike. Frames 3-6 the spear tip hangs low behind on the right side of the horse; frames 7-8 it swings up from below through the target; frames 9-11 it finishes high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time. Rider stays seated in the saddle, four horse legs always present.",
+  "a3": "Mounted HORIZONTAL spear sweep, held near the butt end. Frames 3-5 the spear is swung far out to the right and back, level; frames 6-8 it sweeps around from the side to the front in a wide flat arc; frames 9-11 hold in front. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time. Rider stays seated in the saddle, four horse legs always present.",
+  "b3": "Stamp and overhead strike. Frames 2-6 the horse lifts its front hooves high while the spear goes straight up; frame 8 the hooves stamp down and the spear comes down with them; frames 9-11 a long hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time. Rider stays seated in the saddle, four horse legs always present.",
+  "s2": "Cavalry charge. Frames 2-8 the horse gallops in place, the spear lowered beside its neck; frame 9 a forehoof lifts; frame 10 it lands and the spear strikes; frames 11-12 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time. Rider stays seated in the saddle, four horse legs always present."
+ },
+ "weapon_length": 196,
+ "weapon_grip": 50,
+ "weapon_mode": "slide",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    92,
+    206
+   ],
+   "weapon tip": [
+    92,
+    10
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    112,
+    172
+   ],
+   "weapon tip": [
+    112,
+    8
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    168,
+    193
+   ],
+   "weapon tip": [
+    168,
+    8
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "cape hem",
+   "attach": "neck",
+   "root": [
+    0,
+    -8,
+    -6
+   ],
+   "hang": [
+    0,
+    -12,
+    -36
+   ],
+   "sway": 2.0,
+   "lag": 0.3
+  },
+  {
+   "name": "helmet plume",
+   "attach": "head",
+   "root": [
+    0,
+    -2,
+    16
+   ],
+   "hang": [
+    0,
+    -9,
+    2
+   ],
+   "sway": 1.0
+  }
+ ],
+ "body_scale": 1.0,
+ "art_offset": {
+  "left": {
+   "rider": [
+    7,
+    0
+   ]
+  }
+ },
+ "cloth_rgb": [
+  [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ]
+  ]
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 b1 → a3 → b3, 전법 s2. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. 원화의 무기가 본보다 훨씬 길어(약 170~200px) 캔버스에 안 들어간다. weapon_mode slide: 무기 끝은 본의 위치 그대로, 남는 길이는 손 뒤로 보낸다. 공격 중에는 손이 자루 가운데쯤을 잡고, 대기에서는 원화의 그립으로 돌아온다.",
+ "canvas_offset": {
+  "left": [
+   0,
+   11
+  ],
+  "rear": [
+   0,
+   16
+  ]
+ }
+}

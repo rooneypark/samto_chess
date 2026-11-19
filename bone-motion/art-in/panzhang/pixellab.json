@@ -1,0 +1,70 @@
+{
+ "hero": "반장",
+ "family": "flexible",
+ "description": "Pan Zhang, rough chinese officer in the supplied pixel art style. A dark cloth head wrap with red tails, dark armor with brown fur shoulder pieces, a red skirt with gold trim, dark boots. He holds a thick coiled rope in the right hand",
+ "face": "A coarse face with a dark moustache.",
+ "rear_detail": "Seen from behind: the dark head wrap with red tails, fur shoulders, dark armor, the red skirt, the coiled rope at his right side.",
+ "guard_action": "the right hand holds the weapon ready at the side, the left hand comes forward, the knees bend",
+ "actions": {
+  "idle": "Guard with a coiled rope hanging from the right hand, breathing",
+  "move": "Seamless combat run in place carrying the coiled rope, no attack. The last frame leads into the first, no pause",
+  "b1": "Horizontal lash. Frames 1-7 the coiled rope is wound out to the right; frame 9 it is whipped across level; frames 10-11 follow through on the left. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The coiled rope stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b2": "Two lashes. Frames 1-6 wind up; frame 7 the first lash; frames 8-10 it swings back round; frame 11 the second lash. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The coiled rope stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a3": "Downward lash. Frames 1-7 the coiled rope is swung up over the head; frame 9 it is brought down hard; frames 10-11 hold low. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The coiled rope stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s3": "Binding throw. Frames 1-7 the coiled rope is circled once above the head; frame 9 it is cast out forward to bind the target; frames 10-12 he pulls it taut and holds. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The coiled rope stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 30,
+ "weapon_grip": 0,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    92,
+    160
+   ],
+   "weapon tip": [
+    88,
+    190
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    108,
+    165
+   ],
+   "weapon tip": [
+    104,
+    192
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    160,
+    162
+   ],
+   "weapon tip": [
+    164,
+    190
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "headband tail",
+   "attach": "head",
+   "root": [
+    9,
+    -3,
+    5
+   ],
+   "hang": [
+    9,
+    -5,
+    -5
+   ],
+   "sway": 2.0
+  }
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 b1 → b2 → a3, 전법 s3. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. "
+}

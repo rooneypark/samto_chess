@@ -1,0 +1,122 @@
+[
+ {
+  "clip": "a1",
+  "view": "front",
+  "frame": 5,
+  "rect": [
+   143,
+   88,
+   200,
+   132
+  ],
+  "kind": "grey"
+ },
+ {
+  "clip": "a1",
+  "view": "rear",
+  "frame": 6,
+  "rect": [
+   143,
+   30,
+   170,
+   95
+  ],
+  "kind": "tan"
+ },
+ {
+  "clip": "a1",
+  "view": "rear",
+  "frame": 6,
+  "rect": [
+   143,
+   30,
+   170,
+   50
+  ],
+  "kind": "grey"
+ },
+ {
+  "clip": "a1",
+  "view": "rear",
+  "frame": 7,
+  "rect": [
+   156,
+   30,
+   180,
+   142
+  ],
+  "kind": "grey"
+ },
+ {
+  "clip": "a1",
+  "view": "rear",
+  "frame": 9,
+  "rect": [
+   84,
+   128,
+   110,
+   170
+  ],
+  "kind": "grey"
+ },
+ {
+  "clip": "a1",
+  "view": "rear",
+  "frame": 7,
+  "rect": [
+   156,
+   90,
+   180,
+   128
+  ],
+  "kind": "any"
+ },
+ {
+  "clip": "s2",
+  "view": "front",
+  "frame": 11,
+  "rect": [
+   136,
+   60,
+   186,
+   108
+  ],
+  "kind": "grey"
+ },
+ {
+  "clip": "s2",
+  "view": "front",
+  "frame": 11,
+  "rect": [
+   152,
+   108,
+   186,
+   130
+  ],
+  "kind": "grey"
+ },
+ {
+  "clip": "a2",
+  "view": "front",
+  "frame": 8,
+  "rect": [
+   62,
+   158,
+   92,
+   186
+  ],
+  "kind": "grey"
+ },
+ {
+  "clip": "s2",
+  "view": "front",
+  "frame": 11,
+  "rect": [
+   138,
+   60,
+   186,
+   143
+  ],
+  "kind": "grey"
+ }
+]

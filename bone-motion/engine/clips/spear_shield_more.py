@@ -1,6 +1,6 @@
 """창·방패: 평타 A2, A3, B1, B2, B3 and 전법 S1..S6. The shield stays between the body and the target.
 
-    A2 방패 밀고 찌르기   A3 어깨 위 내리꽂기   B1 낮은 찌르기   B2 이단 찌르기   B3 깊은 돌진 찌르기
+    A2 방패 밀고 찌르기   A3 어깨 위 내리꽂기   B1 방패 치기   B2 가로 휘두르기   B3 올려치기   (B set reworked 2026-11-19)
     S1 굳건한 방어 (의용보병)   wide and low behind the shield, spear upright at the side. Nothing is struck.
     S2 사수 (조홍)              one step forward and the shield is planted. Nothing is struck.
     S3 돌파 찌르기   S4 도약 내리꽂기   S5 이연 찌르기   S6 돌려 찌르기   (공용)
@@ -69,6 +69,35 @@ def build(mod):
                                       C(28, 39, 3), C(0, 38, 1.5), C(-70, 39.5, 3), C(-140, 40, 4), C(-205, 40, 4), C(-265, 39.5, 3), C(-315, 40, 2), blend(C(14, 41, 1), G, 0.55), G],
                       impact=8, support=[('L', 'R')] * 6 + [()] * 8 + [('L', 'R')], durations=[100, 100, 110, 120, 140, 180, 50, 45, 50, 55, 60, 70, 90, 100, 100], sheet=[0, 4, 6, 7, 9, 11],
                       notes='공용 전법. 2~6번에 상체를 감고, 7~14번에 낮게 뜬 채 한 바퀴 돈다. 8번에 창끝이 정면을 지나며 친다. 방패도 몸과 함께 돈다.')
+
+    # ---- 2026-11-19: the B set is no longer three more thrusts ------------------------------------------------------------
+    # variety.py: all six basic attacks were thrusts, 1 to 8 px apart. The A set keeps the thrusts (straight, behind a shield
+    # push, over the shoulder). The B set is now what else a shield-and-spear soldier does:
+    #     B1 방패 치기       the shield itself is driven into the target with the whole body; the spear stays upright
+    #     B2 가로 휘두르기   the body winds to the right and the short spear is swung round level to the front
+    #     B3 올려치기        the tip drops low, scoops up through the target and finishes high
+    # B1 is an exception to the common strike point: a shield on the forearm reaches 66 px, not 100 (the game's approach
+    # step covers the rest for a unit above or below; beside the target the shield rim is what touches).
+    up = (-6, 72)
+    def bash(pelvis, sh, lean, **kw): return S(HIT, (-24, pelvis[1] - 6, 54), up, shield=sh, shield_aim=(0, 0), pelvis=pelvis, chest_lean=lean, **kw)
+    out['b1'] = clip('B1 방패 치기', [(0, G, 'linear'), (3, S(COIL, (-24, -10, 54), up, shield=(10, 12, 60), shield_aim=(0, 5), pelvis=(-1, -6, 41)), 'inout'),
+        (5, S(COIL, (-24, -14, 53), up, shield=(9, 6, 58), shield_aim=(0, 5), pelvis=(-2, -10, 38.5), chest_lean=6), 'inout'),
+        (6, S(STEP, (-23, -4, 54), up, shield=(8, 30, 58), shield_aim=(0, 0)), 'in'),
+        (7, bash((0, 17, 37), (4, 62, 54), 22), 'snap'), (8, bash((0, 19.5, 36.5), (4, 66, 53.5), 25), 'out'), (9, bash((0, 16, 37.5), (5, 58, 55), 20), 'inout'),
+        (11, PULL, 'inout'), (13, BACK, 'inout'), (14, G, 'out')], support=step, durations=[100, 100, 110, 110, 150, 150, 45, 40, 60, 200, 100, 90, 80, 80, 100],
+        notes='방패를 가슴 앞으로 당겨 웅크렸다가(4~6번) 한 발 내딛으며 방패로 들이받는다(8번). 창은 몸 옆에 세운 채다. 방패가 닿는 공격이라 창끝 타격점과 다르다(방패가 66px까지 나간다).')
+    out['b2'] = posed('B2 가로 휘두르기', [G, blend(G, C(25, 40, fixed=True), 0.6), C(48, 38.5, fixed=True), C(66, 37, fixed=True), C(72, 36.5, fixed=True), C(71, 36.5, fixed=True),
+                                        C(36, 37.5, fixed=True), C(0, 38, fixed=True), C(-10, 37.5, fixed=True), C(-7, 38, fixed=True), C(-4, 38.5, fixed=True),
+                                        blend(C(4, 39.5, fixed=True), G, 0.3), blend(C(10, 41, fixed=True), G, 0.6), blend(C(12, 42, fixed=True), G, 0.85), G],
+                      impact=8, support=[('L', 'R')] * 15, durations=[100, 90, 100, 110, 130, 160, 55, 45, 60, 180, 100, 90, 90, 90, 100], sheet=[0, 3, 5, 6, 7, 9],
+                      notes='두 발은 제자리. 2~6번에 상체를 오른쪽으로 크게 감고, 7~8번에 창을 수평으로 옆에서 앞으로 휘둘러 친다. 방패도 몸과 함께 돈다.')
+    rise = (15, 10)
+    out['b3'] = clip('B3 올려치기', [(0, G, 'linear'), (3, S(COIL, (-24, -10, 50), (6, -34), pelvis=(-1, -6, 37), chest_lean=12), 'inout'),
+        (5, S(COIL, (-24, -18, 46), (4, -30), pelvis=(-2, -10, 34), chest_lean=16), 'inout'), (6, S(STEP, (-21, -4, 42), (8, -10), pelvis=(-1, 3, 36)), 'in'),
+        (7, S(HIT, at(*rise), rise, pelvis=(0, 13, 36), chest_lean=22), 'snap'), (8, S(OVER, (-15, 44, 62), (15, 34), pelvis=(0, 15, 38.5), chest_lean=14), 'out'),
+        (9, S(SET, (-15.5, 42, 64), (15, 28), pelvis=(0, 13, 39), chest_lean=12), 'inout'), (11, PULL, 'inout'), (13, BACK, 'inout'), (14, G, 'out')], support=step,
+        durations=[100, 100, 110, 120, 130, 160, 50, 45, 80, 180, 100, 90, 90, 90, 100],
+        notes='창끝을 앞쪽 낮게 떨궜다가(4~6번) 아래에서 위로 쳐올린다. 8번에 표적을 지나 9번에 높이 올라가 멈춘다.')
 
     # ---- skills that used to be a basic attack played slower: now their own moves (user review 2026-11-18) -------
     out['s3'] = clip('S3 방패 올려치고 내리꽂기', [(0, G, 'linear'), (3, S(COIL, (-22, -18, 54), (4, 6), shield=(8, 22, 62)), 'inout'),

@@ -1,0 +1,129 @@
+{
+ "hero": "장각",
+ "family": "caster",
+ "description": "Zhang Jue, wild chinese mystic in the supplied pixel art style. Long loose black hair with a topknot and a yellow headband, a bright yellow robe with wide sleeves and a white inner robe, dark shoes. He holds a tall gnarled wooden staff with a curled top and a yellow tassel in the right hand",
+ "face": "Burning intense eyes and a long black beard.",
+ "rear_detail": "Seen from behind: long loose black hair down the back, the yellow robe, the tall gnarled staff at his right side.",
+ "guard_action": "the right hand lifts what it holds up beside the right shoulder, the left hand lowers, the left foot settles half a step forward",
+ "actions": {
+  "idle": "Calm ready stance holding the gnarled staff up, breathing",
+  "move": "Brisk walk in place with small steps, robe swaying, gnarled staff held up, seamless loop. The last frame leads into the first, no pause",
+  "b1": "Upward flick. Frames 3-6 the knees bend and the gnarled staff is lowered in front; frames 7-8 the body straightens up tall and it is flicked from below to high above the head; frames 9-11 hold high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The gnarled staff stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a2": "Open-palm push. The gnarled staff stays at his right side. Frames 3-6 the empty LEFT hand draws back; frames 7-8 the left shoulder turns forward, body side-on, and the open left palm pushes straight out; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The gnarled staff stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b3": "Two-handed push. Frames 3-6 both hands gather in front of the chest; frame 7 the left foot steps forward; frame 8 both hands push straight out together; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The gnarled staff stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s2": "Calling down. Frames 1-6 the gnarled staff is raised straight up high above the head and held; frame 7 a step forward; frame 8 the body drops low and it is struck down from above in front; frames 9-12 hold low. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The gnarled staff stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 78,
+ "weapon_grip": 0,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    94,
+    152
+   ],
+   "weapon tip": [
+    94,
+    74
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    106,
+    152
+   ],
+   "weapon tip": [
+    106,
+    80
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    152,
+    152
+   ],
+   "weapon tip": [
+    152,
+    82
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "right sleeve",
+   "attach": "wrist.R",
+   "root": [
+    0,
+    -2,
+    -2
+   ],
+   "hang": [
+    0,
+    -3,
+    -18
+   ],
+   "sway": 1.5,
+   "lag": 0.4
+  },
+  {
+   "name": "left sleeve",
+   "attach": "wrist.L",
+   "root": [
+    0,
+    -2,
+    -2
+   ],
+   "hang": [
+    0,
+    -3,
+    -18
+   ],
+   "sway": 1.5,
+   "lag": 0.4
+  },
+  {
+   "name": "robe hem",
+   "attach": "pelvis",
+   "root": [
+    0,
+    -8,
+    -6
+   ],
+   "hang": [
+    0,
+    -5,
+    -34
+   ],
+   "sway": 1.5,
+   "lag": 0.3
+  },
+  {
+   "name": "long hair",
+   "attach": "head",
+   "root": [
+    0,
+    -9,
+    0
+   ],
+   "hang": [
+    0,
+    -6,
+    -26
+   ],
+   "sway": 1.2,
+   "lag": 0.35
+  }
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 b1 → a2 → b3, 전법 s2. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. 지팡이는 손 위쪽만 뼈대에 넣었다(손~꼭대기). 손 아래 자루는 그림에서 따라온다.",
+ "canvas_offset": {
+  "front": [
+   0,
+   -12
+  ],
+  "left": [
+   2,
+   0
+  ]
+ }
+}

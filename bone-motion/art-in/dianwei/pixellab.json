@@ -1,0 +1,86 @@
+{
+ "hero": "전위",
+ "family": "dual",
+ "description": "Dian Wei, massive bare-armed chinese warrior in the supplied pixel art style. Black hair in a topknot, a blue headband with long tails, a dark studded leather harness over a bare muscular torso, a blue sash, dark trousers and boots. He holds a short crescent-bladed halberd in each hand",
+ "face": "Fierce scowling eyes and a rough black beard.",
+ "rear_detail": "Seen from behind: the black topknot, the blue headband tails, the bare muscular back under the dark harness, the blue sash, a short halberd at each side.",
+ "guard_action": "both hands lift their weapons up in front of the body, the left foot steps forward and the knees bend",
+ "actions": {
+  "idle": "Twin-weapon fighting guard, one weapon in each hand, breathing",
+  "move": "Seamless combat run in place with a weapon in each hand, no attack. The last frame leads into the first, no pause",
+  "b1": "Two cuts, right then left. Frames 1-5 wind up; frame 7 the right weapon cuts; frame 9 the left weapon cuts; frames 10-11 follow through. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The twin short halberds stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a2": "Rising right-hand cut, left weapon blocking low. Frames 1-5 the right weapon drops low; frame 8 it cuts upward while the left weapon guards low; frames 9-11 finish high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The twin short halberds stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a3": "Crossing cut with both weapons. Frames 1-5 both arms open wide; frame 8 both weapons cut inward and cross in front of the body; frames 9-11 hold crossed. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The twin short halberds stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s2": "Ferocious challenge. Frames 1-6 he sinks low with both weapons pulled in; frame 8 he bursts upright throwing both weapons out wide with the chest forward; frames 9-12 hold. Nothing is struck. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The twin short halberds stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 43,
+ "weapon_grip": 6,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    77,
+    172
+   ],
+   "weapon tip": [
+    72,
+    215
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    106,
+    178
+   ],
+   "weapon tip": [
+    100,
+    212
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    163,
+    178
+   ],
+   "weapon tip": [
+    170,
+    214
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "headband tail",
+   "attach": "head",
+   "root": [
+    9,
+    -3,
+    5
+   ],
+   "hang": [
+    9,
+    -5,
+    -5
+   ],
+   "sway": 2.0
+  },
+  {
+   "name": "sash ends",
+   "attach": "pelvis",
+   "root": [
+    0,
+    8,
+    -6
+   ],
+   "hang": [
+    0,
+    3,
+    -22
+   ],
+   "sway": 1.0,
+   "lag": 0.35
+  }
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 b1 → a2 → a3, 전법 s2. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. "
+}

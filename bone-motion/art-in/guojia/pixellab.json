@@ -1,0 +1,119 @@
+{
+ "hero": "곽가",
+ "family": "caster",
+ "description": "Guo Jia, slender young chinese strategist in the supplied pixel art style. Long black hair with a topknot tied by yellow ribbons, a blue robe with gold trim and wide white sleeves, dark shoes. He holds a bundle of bamboo slips in front of his chest",
+ "face": "A pale refined face, no beard.",
+ "rear_detail": "Seen from behind: long black hair with the yellow ribbons, the blue robe with gold trim, white sleeves at both sides. What he holds is in front of the body and hidden.",
+ "guard_action": "the right hand lifts what it holds up beside the right shoulder, the left hand lowers, the left foot settles half a step forward",
+ "actions": {
+  "idle": "Calm ready stance holding the bundle of bamboo slips up, breathing",
+  "move": "Brisk walk in place with small steps, robe swaying, bundle of bamboo slips held up, seamless loop. The last frame leads into the first, no pause",
+  "b1": "Upward flick. Frames 3-6 the knees bend and the bundle of bamboo slips is lowered in front; frames 7-8 the body straightens up tall and it is flicked from below to high above the head; frames 9-11 hold high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bundle of bamboo slips stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a2": "Open-palm push. The bundle of bamboo slips stays at his right side. Frames 3-6 the empty LEFT hand draws back; frames 7-8 the left shoulder turns forward, body side-on, and the open left palm pushes straight out; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bundle of bamboo slips stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a3": "Wide sweeping release. Frames 3-6 the bundle of bamboo slips is wound to the left chest; frame 7 the left foot steps out; frame 8 it is swept wide to the right; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bundle of bamboo slips stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s4": "Pointing out the target. Frames 3-6 the bundle of bamboo slips is held to the chest; frames 7-8 the body turns side-on, a deep step, and the arm extends fully, pointing it at one spot; frames 9-12 hold; the left hand goes behind the back. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bundle of bamboo slips stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 22,
+ "weapon_grip": 0,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    127,
+    172
+   ],
+   "weapon tip": [
+    127,
+    150
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    114,
+    174
+   ],
+   "weapon tip": [
+    114,
+    154
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    132,
+    170
+   ],
+   "weapon tip": [
+    132,
+    150
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "right sleeve",
+   "attach": "wrist.R",
+   "root": [
+    0,
+    -2,
+    -2
+   ],
+   "hang": [
+    0,
+    -3,
+    -18
+   ],
+   "sway": 1.5,
+   "lag": 0.4
+  },
+  {
+   "name": "left sleeve",
+   "attach": "wrist.L",
+   "root": [
+    0,
+    -2,
+    -2
+   ],
+   "hang": [
+    0,
+    -3,
+    -18
+   ],
+   "sway": 1.5,
+   "lag": 0.4
+  },
+  {
+   "name": "robe hem",
+   "attach": "pelvis",
+   "root": [
+    0,
+    -8,
+    -6
+   ],
+   "hang": [
+    0,
+    -5,
+    -34
+   ],
+   "sway": 1.5,
+   "lag": 0.3
+  },
+  {
+   "name": "long hair",
+   "attach": "head",
+   "root": [
+    0,
+    -9,
+    0
+   ],
+   "hang": [
+    0,
+    -6,
+    -26
+   ],
+   "sway": 1.2,
+   "lag": 0.35
+  }
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 b1 → a2 → a3, 전법 s4. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. "
+}

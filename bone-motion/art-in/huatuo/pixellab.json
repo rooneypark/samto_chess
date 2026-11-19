@@ -1,0 +1,103 @@
+{
+ "hero": "화타",
+ "family": "caster",
+ "description": "Hua Tuo, gentle old chinese physician in the supplied pixel art style. White hair in a bun, a long pale robe with green trim, a brown medicine satchel on a strap across the body. He holds a short wooden walking staff in the right hand",
+ "face": "A kind old face with a very long white beard.",
+ "rear_detail": "Seen from behind: the white hair bun, the pale robe, the satchel strap across the back and the satchel at his hip, the staff at his right side.",
+ "guard_action": "the right hand lifts what it holds up beside the right shoulder, the left hand lowers, the left foot settles half a step forward",
+ "actions": {
+  "idle": "Calm ready stance holding the wooden staff up, breathing",
+  "move": "Brisk walk in place with small steps, robe swaying, wooden staff held up, seamless loop. The last frame leads into the first, no pause",
+  "a2": "Open-palm push. The wooden staff stays at his right side. Frames 3-6 the empty LEFT hand draws back; frames 7-8 the left shoulder turns forward, body side-on, and the open left palm pushes straight out; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The wooden staff stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b2": "Downward stroke. Frames 3-6 he stands tall and raises the wooden staff above the head; frames 7-8 he drops into a deep knee bend and draws it straight down in front; frames 9-11 hold low. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The wooden staff stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b3": "Two-handed push. Frames 3-6 both hands gather in front of the chest; frame 7 the left foot steps forward; frame 8 both hands push straight out together; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The wooden staff stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s3": "Open-armed blessing. Frames 3-6 both hands gather low in front of the chest and he bows; frame 8 he rises and spreads both arms wide and up to the sides; frames 9-12 hold. Feet stay in place. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The wooden staff stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 33,
+ "weapon_grip": 0,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    98,
+    165
+   ],
+   "weapon tip": [
+    98,
+    132
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    104,
+    170
+   ],
+   "weapon tip": [
+    104,
+    140
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    152,
+    165
+   ],
+   "weapon tip": [
+    152,
+    132
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "right sleeve",
+   "attach": "wrist.R",
+   "root": [
+    0,
+    -2,
+    -2
+   ],
+   "hang": [
+    0,
+    -3,
+    -18
+   ],
+   "sway": 1.5,
+   "lag": 0.4
+  },
+  {
+   "name": "left sleeve",
+   "attach": "wrist.L",
+   "root": [
+    0,
+    -2,
+    -2
+   ],
+   "hang": [
+    0,
+    -3,
+    -18
+   ],
+   "sway": 1.5,
+   "lag": 0.4
+  },
+  {
+   "name": "robe hem",
+   "attach": "pelvis",
+   "root": [
+    0,
+    -8,
+    -6
+   ],
+   "hang": [
+    0,
+    -5,
+    -34
+   ],
+   "sway": 1.5,
+   "lag": 0.3
+  }
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 a2 → b2 → b3, 전법 s3. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. 지팡이는 손 위쪽만 뼈대에 넣었다."
+}

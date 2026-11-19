@@ -1,0 +1,86 @@
+{
+ "hero": "원소",
+ "family": "command",
+ "description": "Yuan Shao, proud chinese warlord in the supplied pixel art style. An ornate gold helmet with a tall white plume, gold and black armor, a long purple cape, dark boots. He holds a straight sword in the right hand",
+ "face": "A haughty face with a neat dark moustache and beard.",
+ "rear_detail": "Seen from behind: the gold helmet with the white plume, the long purple cape with gold edges covering the back, the sword at his right side.",
+ "guard_action": "the right hand lifts the sword up in front of the body, the left hand stays free, the left foot settles half a step forward",
+ "actions": {
+  "idle": "Commander ready stance with a one-handed sword, breathing",
+  "move": "Seamless combat run in place carrying the sword, no attack. The last frame leads into the first, no pause",
+  "a1": "Pointing the order. Frames 1-6 the sword is drawn back to the shoulder; frame 8 it is pointed sharply forward at the target; frames 9-11 hold. Nothing is struck. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a3": "Direct diagonal cut. Frames 1-5 the sword is raised to the upper right; frames 6-8 a big step and a cut from upper right to lower left; frames 9-11 follow through. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b3": "Direct thrust. Frames 1-5 the sword is drawn back beside the hip; frames 6-8 a big step and a straight thrust, point first; frames 9-11 hold the reach. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s3": "Noble authority. Frames 1-6 he draws himself up tall; frame 8 he thrusts the sword straight up high above his head, chest out; frames 9-12 hold. Nothing is struck. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 49,
+ "weapon_grip": 6,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    94,
+    178
+   ],
+   "weapon tip": [
+    94,
+    223
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    104,
+    173
+   ],
+   "weapon tip": [
+    104,
+    222
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    160,
+    180
+   ],
+   "weapon tip": [
+    160,
+    222
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "cape hem",
+   "attach": "neck",
+   "root": [
+    0,
+    -7,
+    -4
+   ],
+   "hang": [
+    0,
+    -7,
+    -42
+   ],
+   "sway": 1.5,
+   "lag": 0.3
+  },
+  {
+   "name": "helmet plume",
+   "attach": "head",
+   "root": [
+    0,
+    -2,
+    16
+   ],
+   "hang": [
+    0,
+    -9,
+    2
+   ],
+   "sway": 1.0
+  }
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 a1 → a3 → b3, 전법 s3. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. "
+}

@@ -105,7 +105,7 @@ class Spear:
         if 'axis' in p: return unit(p['axis'])          # a direction vector instead of (turn, pitch), for swings over the top
         t, e = math.radians(p['aim'][0]), math.radians(p['aim'][1])
         return (math.sin(t) * math.cos(e), math.cos(t) * math.cos(e), math.sin(e))
-    def point(self, p, along): return add(p['rear'], mul(self.axis(p), along - self.rear_socket))
+    def point(self, p, along): return add(p['rear'], mul(self.axis(p), along - p.get('socket', self.rear_socket)))      # 'socket': the rear hand slides along the shaft (clips/poleaxe.py)
     def sockets(self, p):
         front = self.point(p, p['front']); on = p.get('front_on', 1.0)      # front_on < 1: the front hand has let go (a declared release)
         return {self.rear_hand: p['rear'], self.front_hand: front if on >= 1.0 else lerp(p['hand.' + self.front_hand], front, on)}

@@ -16,7 +16,7 @@ def build(mod):
     def named(m, title, **kw): d = dict(moves[m]); d['title'] = title; d.update(kw); return d
     out = {'a2': named('rise', 'A2 올려베기'), 'a3': named('thrust', 'A3 전진 찌르기'), 'b1': named('level', 'B1 수평 베기'),
            'b2': named('double', 'B2 찌르고 올려베기'), 'b3': named('leap', 'B3 도약 내려베기'),
-           's1': named('ambush', 'S1 낮게 숨겼다 올려베기'), 's2': named('cleave', 'S2 강한 대각 내려베기'), 's3': named('sweep', 'S3 낮은 수평 휩쓸기'),
+           's1': named('ambush', 'S1 낮게 숨겼다 올려베기'), 's2': named('cleave', 'S2 막고 받아치기'), 's3': named('sweep', 'S3 낮은 수평 휩쓸기'),
            's6': named('spin', 'S6 돌아 베기')}
     for k, who in (('s1', '악진 선등, 위연 기습.'), ('s2', '요화 선봉 불퇴, 화웅 관문의 맹장, 안량 선봉 돌파.'), ('s3', '정봉 설중분단, 동탁 폭정.'), ('s6', '공용 전법.')):
         out[k]['notes'] = who + ' ' + out[k]['notes']

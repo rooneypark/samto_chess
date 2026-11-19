@@ -1,0 +1,87 @@
+{
+ "hero": "주유",
+ "family": "sword",
+ "description": "Zhou Yu, elegant chinese commander in the supplied pixel art style. Long black hair in a high ponytail with a red tie, a white fur collar, red and dark robe-armor with gold trim, dark boots. He holds a long straight sword in the right hand",
+ "face": "Handsome calm eyes, no beard.",
+ "rear_detail": "Seen from behind: the long black ponytail falling down the back, the white fur collar, the long red robe with gold hem, the sword at his right side.",
+ "guard_action": "the right hand lifts the sword up in front of the body, the left hand stays free as a guard, the left foot steps forward and the knees bend",
+ "actions": {
+  "idle": "One-handed sword fighting guard, breathing",
+  "move": "Seamless combat run in place carrying the sword, no attack. The last frame leads into the first, no pause",
+  "a1": "One diagonal downward cut. Frames 1-5 raise the sword and wind up; frame 8 the cut lands from upper right to lower left; frames 9-11 follow through. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b1": "One level horizontal cut. Frames 1-5 the sword is taken far out to the right at chest height; frame 8 it cuts across level to the left; frames 9-11 follow through on the left. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b2": "Thrust, then rising cut. Frames 1-5 draw back; frame 6 a straight thrust; frames 7-8 the sword drops low; frame 9 a rising cut; frames 10-11 the sword finishes high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s4": "Command with the sword. Frames 1-6 the sword is raised; frame 9 it is pointed sharply forward at the target, giving the order; frames 10-12 hold. Nothing is struck. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 56,
+ "weapon_grip": 6,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    94,
+    166
+   ],
+   "weapon tip": [
+    94,
+    222
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    111,
+    166
+   ],
+   "weapon tip": [
+    111,
+    222
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    161,
+    172
+   ],
+   "weapon tip": [
+    161,
+    222
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "long hair",
+   "attach": "head",
+   "root": [
+    0,
+    -9,
+    0
+   ],
+   "hang": [
+    0,
+    -6,
+    -26
+   ],
+   "sway": 1.2,
+   "lag": 0.35
+  },
+  {
+   "name": "robe hem",
+   "attach": "pelvis",
+   "root": [
+    0,
+    -8,
+    -6
+   ],
+   "hang": [
+    0,
+    -5,
+    -34
+   ],
+   "sway": 1.5,
+   "lag": 0.3
+  }
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 a1 → b1 → b2, 전법 s4. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. "
+}

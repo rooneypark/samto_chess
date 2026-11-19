@@ -8,7 +8,7 @@ from PIL import Image, ImageDraw
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import samto_motion as sm, render
 
-FAMILIES = ['foot_spear', 'sword', 'spear_shield', 'dual', 'heavy', 'flexible', 'bow', 'command', 'caster', 'mounted_blade', 'mounted_spear', 'sickle']      # sickle = 감녕's variant of 사슬·채찍, not a twelfth type
+FAMILIES = ['foot_spear', 'sword', 'spear_shield', 'dual', 'heavy', 'flexible', 'bow', 'command', 'caster', 'mounted_blade', 'mounted_spear', 'sickle', 'poleaxe']      # sickle = 감녕's variant of 사슬·채찍, not a twelfth type
 
 def solve(family, clip_id):
     m = importlib.import_module('clips.' + family); clip = m.CLIPS[clip_id]

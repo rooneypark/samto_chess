@@ -1,0 +1,54 @@
+{
+ "hero": "하후연",
+ "family": "bow",
+ "description": "Xiahou Yuan, swift chinese general in the supplied pixel art style. A grey iron helmet, a blue scarf, dark armor with gold trim, a quiver of arrows on his back, dark boots. He holds a brown recurve bow in the left hand",
+ "face": "Sharp eyes and a short dark beard.",
+ "rear_detail": "Seen from behind: the grey helmet, the blue scarf, dark armor with gold trim, the quiver across the back, the bow at his left side.",
+ "guard_action": "the left hand raises the bow in front of the body, the right hand comes to the string, the feet take an archer stance",
+ "actions": {
+  "idle": "Archer ready stance, bow held in front in the left hand, breathing",
+  "move": "Seamless combat run in place carrying the bow in the left hand, no shooting. The last frame leads into the first, no pause",
+  "b1": "Side-on shot. Frames 1-6 he turns the body fully side-on to the target and draws; frame 9 release; frames 10-11 hold side-on. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bow stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b2": "Two quick shots. Frames 1-5 a fast draw; frame 6 release; frames 7-9 a second fast draw; frame 10 release; frame 11 follow through. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bow stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b3": "Deep-drawn shot. Frames 1-7 a slow very deep draw, leaning back; frame 9 release; frames 10-11 a long follow-through. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bow stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s3": "Swiftness. Frames 1-5 a snap draw; frame 6 release, then the body resets fast and light on the feet; frames 7-11 he is already nocking again. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bow stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 103,
+ "weapon_grip": 35,
+ "weapon_mode": "bone",
+ "rear_hand": "L",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    160,
+    212
+   ],
+   "weapon tip": [
+    162,
+    109
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    103,
+    210
+   ],
+   "weapon tip": [
+    103,
+    114
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    93,
+    214
+   ],
+   "weapon tip": [
+    93,
+    116
+   ]
+  }
+ },
+ "streamers": [],
+ "notes": "2026-11-19 make_configs.py. 평타 b1 → b2 → b3, 전법 s3. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. "
+}

@@ -1,0 +1,106 @@
+{
+ "hero": "공손찬",
+ "family": "mounted_spear",
+ "description": "Gongsun Zan, seasoned chinese cavalry commander in the supplied pixel art style, riding a white war horse. A grey iron helmet with a black topknot, a red scarf, grey armor, a long white cape. White horse with red tack. He holds a very long spear with a red pennant in the right hand",
+ "face": "A weathered face with a dark moustache.",
+ "rear_detail": "Seen from behind: the grey helmet with the black topknot, the red scarf, the long white cape hanging over the horse's rump, the horse's tail between its hind legs.",
+ "guard_action": "the rider brings the spear from upright to a ready angle; the horse stands still on four legs",
+ "actions": {
+  "idle": "Mounted fighting guard, horse standing still on four legs, breathing",
+  "move": "Seamless gallop in place, rider carrying the spear, no attack. The four legs follow the skeleton. The last frame leads into the first, no pause",
+  "b1": "Mounted RISING strike. Frames 3-6 the spear tip hangs low behind on the right side of the horse; frames 7-8 it swings up from below through the target; frames 9-11 it finishes high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time. Rider stays seated in the saddle, four horse legs always present.",
+  "a2": "Mounted VERTICAL overhead spear strike. Frames 3-5 the spear is raised straight up above the head; frames 5-6 the horse lifts both front hooves; frames 7-8 the hooves come down and the spear is brought down from above; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time. Rider stays seated in the saddle, four horse legs always present.",
+  "a3": "Mounted HORIZONTAL spear sweep, held near the butt end. Frames 3-5 the spear is swung far out to the right and back, level; frames 6-8 it sweeps around from the side to the front in a wide flat arc; frames 9-11 hold in front. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time. Rider stays seated in the saddle, four horse legs always present.",
+  "s3": "Entry and braking strike. Frames 1-6 the horse sits low on its haunches, the rider crouched over the saddle; frames 7-8 the horse brakes, lifting its forehand, and the spear thrusts; frames 9-12 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time. Rider stays seated in the saddle, four horse legs always present."
+ },
+ "weapon_length": 194,
+ "weapon_grip": 50,
+ "weapon_mode": "slide",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    94,
+    220
+   ],
+   "weapon tip": [
+    94,
+    26
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    107,
+    172
+   ],
+   "weapon tip": [
+    107,
+    28
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    161,
+    210
+   ],
+   "weapon tip": [
+    161,
+    28
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "cape hem",
+   "attach": "neck",
+   "root": [
+    0,
+    -8,
+    -6
+   ],
+   "hang": [
+    0,
+    -12,
+    -36
+   ],
+   "sway": 2.0,
+   "lag": 0.3
+  }
+ ],
+ "body_scale": 1.0,
+ "art_offset": {
+  "left": {
+   "rider": [
+    7,
+    0
+   ]
+  }
+ },
+ "cloth_rgb": [
+  [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ]
+  ]
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 b1 → a2 → a3, 전법 s3. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. 원화의 무기가 본보다 훨씬 길어(약 170~200px) 캔버스에 안 들어간다. weapon_mode slide: 무기 끝은 본의 위치 그대로, 남는 길이는 손 뒤로 보낸다. 공격 중에는 손이 자루 가운데쯤을 잡고, 대기에서는 원화의 그립으로 돌아온다.",
+ "canvas_offset": {
+  "left": [
+   0,
+   9
+  ],
+  "rear": [
+   0,
+   14
+  ]
+ }
+}

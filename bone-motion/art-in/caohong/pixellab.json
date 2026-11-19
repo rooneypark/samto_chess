@@ -1,0 +1,68 @@
+{
+ "hero": "조홍",
+ "family": "spear_shield",
+ "description": "Cao Hong, solid chinese officer in the supplied pixel art style. A dark iron helmet, dark armor with gold trim and blue cloth, dark boots. A large rectangular shield with a gold rim and a gold boss on the left arm and a long spear in the right hand",
+ "face": "A stern face with a dark moustache.",
+ "rear_detail": "Seen from behind: the dark helmet, dark armor with gold trim, the large shield on his left arm, the spear at his right side.",
+ "guard_action": "the shield comes up in front of the body on the left arm, the spear is held ready at the right side, the left foot steps forward",
+ "actions": {
+  "idle": "Shield-and-spear guard, shield in front on the left arm, spear in the right hand, breathing",
+  "move": "Seamless combat run in place with shield and spear, no attack. The last frame leads into the first, no pause",
+  "b2": "HORIZONTAL spear sweep, feet planted. Frames 2-6 the upper body winds far to the right, shield turning with it; frames 7-8 the spear swings around level from the side to the front; frames 9-11 hold in front. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a3": "Overhand spear stab. Frames 1-5 the spear is lifted above the right shoulder; frame 8 it is driven down over the top of the shield; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b3": "RISING spear strike. Frames 3-6 the spear tip drops low in front; frames 7-8 it scoops up from below through the target; frame 9 it finishes high; frames 10-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s2": "Hold the line. Frames 1-6 one step forward, weight on the front foot; frame 8 the shield is planted hard in front, spear upright at the side; frames 9-12 hold. Nothing is struck. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 158,
+ "weapon_grip": 40,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    87,
+    220
+   ],
+   "weapon tip": [
+    87,
+    62
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    96,
+    220
+   ],
+   "weapon tip": [
+    96,
+    70
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    156,
+    220
+   ],
+   "weapon tip": [
+    156,
+    72
+   ]
+  }
+ },
+ "streamers": [],
+ "notes": "2026-11-19 make_configs.py. 평타 b2 → a3 → b3, 전법 s2. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. ",
+ "canvas_offset": {
+  "front": [
+   16,
+   -14
+  ],
+  "left": [
+   28,
+   0
+  ],
+  "rear": [
+   -16,
+   0
+  ]
+ }
+}

@@ -57,6 +57,8 @@
 <script src="heroes.js"></script>
 <script src="zhangfei-preview.js"></script>
 <script src="zhangfei-clips.js"></script>
+<script src="hero-clips.js"></script>
+<script src="effects.js"></script>
 <script src="sprites/index.js"></script>
 <script>
 const D = window.SIM_DATA, HEROES = window.SIM_HEROES, FAM = Object.fromEntries(D.families.map(f => [f.id, f]));
@@ -68,12 +70,12 @@ const sum = a => a.reduce((x, y) => x + y, 0);
 const TEMPOS={original:{attack:1,move:1,power:1,idleGap:700},lively:{attack:1.35,move:1.2,power:0.85,idleGap:250}};
 const tempo=()=>TEMPOS[document.getElementById('tempo').value];
 let teams = [['관우', '장비', '조운', '황충', '제갈량'], ['조조', '하후돈', '장료', '허저', '사마의']];      // 촉 5 대 위 5
-let units = [], floats = [], shots = [], running = false, paused = false, speed = 1, last = null, result = '', pick = 0, clockMs = 0;
+let units = [], floats = [], shots = [], running = false, paused = false, speed = 1, last = null, result = '', pick = 0, clockMs = 0, endAt = null, endText = '';
 const byName = n => HEROES.find(h => h.name === n);
 
 // ---- setup ------------------------------------------------------------------------------------------------------
 function place() {
-  units = []; floats = []; shots = []; result = ''; clockMs = 0;
+  units = []; floats = []; shots = []; result = ''; clockMs = 0; endAt = null; endText = '';
   if (document.getElementById('sideReview').checked) {
     const zhangfei = make(byName('장비'), 0, 5, 4);
     const opponent = make(byName('하후돈'), 1, 2, 4);
@@ -94,7 +96,7 @@ function place() {
 }
 function make(h, side, x, y) {
   h={...h,atk:Math.round(h.atk*tempo().power)};
-  const fam = String(h.id) === '2' ? {...FAM[h.family], clips:Object.fromEntries(Object.entries(FAM[h.family].clips).map(([id,c]) => [id, window.ZHANGFEI_CLIPS?.[id] ? {...c,durations:window.ZHANGFEI_CLIPS[id].left.durations} : c]))} : FAM[h.family];
+  const fam = ART(h.id) ? {...FAM[h.family], clips:Object.fromEntries(Object.entries(FAM[h.family].clips).map(([id,c]) => [id, ART(h.id)[id] ? {...c,durations:ART(h.id)[id].left.durations} : c]))} : FAM[h.family];
   return { h, fam, side, x, y, px: x, py: y, hp: h.hp, max: h.hp, mana: 0, state: 'idle', clip: 'idle', t: Math.random() * 900, dir: side === 0 ? 'up' : 'down',
            combo: 0, cool: 300 + Math.random() * 300, rate: 1, done: false, done2: false, target: null, flash: 0, fade: 1, buff: 0 };
 }
@@ -129,18 +131,41 @@ function play(u, clip, target) {
   const c = u.fam.clips[clip], total = sum(c.durations);
   u.state = clip.startsWith('s') ? 'skill' : 'attack'; u.clip = clip; u.t = 0; u.done = false; u.done2 = false; u.target = target; face(u, target);
   const want = u.state === 'skill' ? total : u.h.interval * 1000;
-  const originalRate=String(u.h.id)==='2' && window.ZHANGFEI_CLIPS?.[clip] ? 1 : Math.max(1,total/want);
+  const originalRate=ART(u.h.id)?.[clip] ? 1 : Math.max(1,total/want);
   const attackSpeed=u.state==='attack'?tempo().attack:1;
   u.rate=originalRate*attackSpeed;u.cool=Math.max(0,want-total/originalRate)/attackSpeed;
 }
+// Who to fight and where to step. An enemy already in reach is kept until it falls (no flipping between two targets).
+// Otherwise one breadth-first search over the free tiles gives the walking distance to every tile; the enemy whose
+// attack tile is fewest steps away is chosen, and the first step of that path is taken. Walking straight at the nearest
+// enemy (the old rule) left a unit standing still for good when that enemy was already surrounded.
+const reach = (u, x, y, v) => u.h.range <= 1 ? Math.abs(v.x - x) + Math.abs(v.y - y) === 1 : Math.max(Math.abs(v.x - x), Math.abs(v.y - y)) <= u.h.range;
+function choose(u) {
+  const foes = units.filter(v => alive(v) && v.side !== u.side); if (!foes.length) return null;
+  if (u.target && alive(u.target) && u.target.side !== u.side && inRange(u, u.target)) return { v: u.target };
+  const near = foes.filter(v => inRange(u, v)).sort((a, b) => manh(u, a) - manh(u, b) || a.hp - b.hp)[0]; if (near) return { v: near };
+  const dist = new Map([[u.x + ',' + u.y, 0]]), from = new Map(), queue = [[u.x, u.y]];
+  for (let i = 0; i < queue.length; i++) { const [x, y] = queue[i];
+    for (const [dx, dy] of [[0, -1], [0, 1], [-1, 0], [1, 0]]) { const a = x + dx, b = y + dy, k = a + ',' + b;
+      if (a < 0 || b < 0 || a >= N || b >= N || dist.has(k) || occupied(a, b, u)) continue;
+      dist.set(k, dist.get(x + ',' + y) + 1); from.set(k, x + ',' + y); queue.push([a, b]); } }
+  let best = null;
+  for (const v of foes) for (const [k, d] of dist) { const [x, y] = k.split(',').map(Number);
+    if (d > 0 && reach(u, x, y, v) && (!best || d < best.d || (d === best.d && (manh(u, v) < manh(u, best.v) || (manh(u, v) === manh(u, best.v) && v.hp < best.v.hp))))) best = { v, d, k }; }
+  if (!best) return { v: nearest(u), blocked: true };
+  let k = best.k; while (from.get(k) !== u.x + ',' + u.y) k = from.get(k);
+  return { v: best.v, step: k.split(',').map(Number) };
+}
 function think(u) {
-  const v = nearest(u); if (!v) return;
+  const got = choose(u); if (!got || !got.v) return; const v = got.v;
+  if (got.step) { u.target = v; u.state = 'move'; u.clip = 'move'; u.t = 0; u.tx = got.step[0]; u.ty = got.step[1]; u.fx = u.x; u.fy = u.y; u.dur = sum(u.fam.clips.move.durations)/tempo().move;
+    u.dir = u.tx > u.x ? 'right' : u.tx < u.x ? 'left' : u.ty > u.y ? 'down' : 'up'; return; }
   if (inRange(u, v)) {
     if (u.cool > 0) { face(u, v); return; }
     if (u.mana >= u.h.mana) { u.mana = 0; play(u, u.h.skillClip, v); note(`${u.h.name}: ${u.h.skill}`); return; }
-    const set = u.h.set === 'B' ? ['b1', 'b2', 'b3'] : ['a1', 'a2', 'a3']; play(u, set[u.combo % 3], v); u.combo++; return;
+    const set = u.h.attacks || (u.h.set === 'B' ? ['b1', 'b2', 'b3'] : ['a1', 'a2', 'a3']); play(u, set[u.combo % 3], v); u.combo++; return;
   }
-  // step toward the target: the free neighbour that gets closest
+  // no free path to anyone: close in as far as the crowd allows and wait for a tile to open
   let best = null, bd = (u.h.range <= 1 ? manh(u, v) : cheb(u, v) + manh(u, v) / 100);
   for (const [dx, dy] of [[0, -1], [0, 1], [-1, 0], [1, 0]]) {
     const x = u.x + dx, y = u.y + dy; if (x < 0 || y < 0 || x >= N || y >= N || occupied(x, y, u)) continue;
@@ -159,16 +184,22 @@ function hurt(u, v, mult, magic) {
 function strike(u, second) {
   const c = u.fam.clips[u.clip], v = u.target, skill = u.state === 'skill', casterType = u.h.family === 'caster';
   const noTouch = c.event === '발동' || (c.event || '').startsWith('지시') || (c.event || '').startsWith('지목');
-  if (u.h.family === 'bow' || casterType) shots.push({ a: u, b: v, t: 0, col: casterType ? '#b9a2ff' : '#f4dea0' });
+  const mine = SIM_FX.colour(u.h), fx = (slot, to, all) => { for (const spec of SIM_FX.what(u.h, slot)) shots.push(SIM_FX.make(spec, u, to, all, skill));
+    if (skill && slot === 'skill') shots.push(SIM_FX.make({ kind: 'burst', col: mine }, u, to, null, true)); };      // 임시 이펙트: sim/effects.js
+  if (!skill && (u.h.family === 'bow' || casterType || noTouch)) fx('attack', v);
+  if (skill && !second) { shots.push(SIM_FX.make({ kind: 'cast', col: mine }, u, u, null, true)); fx('self', u);
+    floats.push({ x: u.px, y: u.py - 0.35, text: u.h.skill, t: 0, col: mine }); }
+  if (skill && !casterType && !(noTouch && !['책사', '화공'].includes(u.h.role))) fx('skill', v);
+  if (!skill && !noTouch && !casterType && u.h.family !== 'bow') for (const spec of SIM_FX.melee(u.h, c.title)) shots.push(SIM_FX.make(spec, u, v));      // 근접 평타: 짧고 굵게
   if (!skill) { if (!noTouch || casterType || u.h.family === 'command') hurt(u, v, second ? 0.6 : 1, casterType); u.mana = Math.min(u.h.mana, u.mana + (second ? 0 : 20)); return; }
   if (noTouch && !['책사', '화공'].includes(u.h.role)) {          // support skills: heal the side and strengthen it for a while
     for (const a of units) if (alive(a) && a.side === u.side) { const heal = Math.round(a.max * 0.12); a.hp = Math.min(a.max, a.hp + heal); a.buff = 4000;
-      floats.push({ x: a.px, y: a.py, text: '+' + heal, t: 0, col: '#8ee6a8' }); }
+      floats.push({ x: a.px, y: a.py, text: '+' + heal, t: 0, col: '#8ee6a8' }); fx('support', a); }
     return;
   }
   if (casterType) {                                                  // area spell: the target and the two enemies nearest to it
     const foes = units.filter(o => alive(o) && o.side !== u.side).sort((p, q) => manh(p, v) - manh(q, v)).slice(0, 3);
-    foes.forEach((f, i) => { shots.push({ a: u, b: f, t: 0, col: '#b9a2ff' }); hurt(u, f, [1.8, 1.45, 1.15][i], true); }); return;
+    foes.forEach((f, i) => { for (const spec of SIM_FX.what(u.h, 'skill')) if (spec.kind !== 'chain' || i === 0) shots.push(SIM_FX.make(spec, u, f, foes, true)); shots.push(SIM_FX.make({ kind: 'burst', col: mine }, u, f, null, true)); hurt(u, f, [1.8, 1.45, 1.15][i], true); }); return;
   }
   hurt(u, v, second ? 1.0 : 2.2, false);
 }
@@ -193,9 +224,13 @@ function update(dt) {
     u.t += dt; u.cool -= dt; think(u);
   }
   for (const f of floats) f.t += dt; floats = floats.filter(f => f.t < 900);
-  for (const s of shots) s.t += dt; shots = shots.filter(s => s.t < 160);
+  for (const s of shots) s.t += dt; shots = shots.filter(s => s.t < s.dur);
   const left = [0, 1].map(s => units.filter(u => alive(u) && u.side === s).length);
-  if (running && (left[0] === 0 || left[1] === 0)) { running = false; result = left[0] ? '아군 승리' : left[1] ? '적군 승리' : '무승부'; note(`${result} · ${(clockMs / 1000).toFixed(1)}초`); document.getElementById('start').textContent = '다시 시작'; }
+  if (running && (left[0] === 0 || left[1] === 0)) {      // the last blow is shown to its end and the last unit is seen to fall before the result comes up
+    if (endAt === null) { endAt = clockMs + 900; endText = left[0] ? '아군 승리' : left[1] ? '적군 승리' : '무승부'; note(`${endText} · ${(clockMs / 1000).toFixed(1)}초`); }
+    const settled = units.every(u => alive(u) ? (u.state !== 'attack' && u.state !== 'skill') : u.fade <= 0);
+    if ((clockMs >= endAt && settled) || clockMs >= endAt + 3000) { running = false; result = endText; document.getElementById('start').textContent = '다시 시작'; }
+  }
 }
 function note(text) { const lines = logEl.textContent.split('\n').slice(-5); lines.push(text); logEl.textContent = lines.join('\n'); }
 
@@ -206,10 +241,12 @@ const cx = x => MX + x * T + T / 2, cy = y => MY + y * T + T * FEET;
 // Finished PixelLab sprites (sim/sprites/<hero id>/<clip>-<view>.png, 15 frames in a strip) replace the bone figure where they exist.
 const SPRITES = window.SIM_SPRITES || {}, images = {};
 const zhangfeiFrames = {};
-const zhangfeiReady = Promise.all(Object.values(window.ZHANGFEI_CLIPS || {}).flatMap(views => Object.values(views).flatMap(c => c.files.map(src => {
+// every hero that has generated sprites: Zhang Fei's approved list, and hero-clips.js (engine/export_hero_clips.py) for the rest
+function ART(id) { return String(id) === '2' ? window.ZHANGFEI_CLIPS : (window.HERO_CLIPS || {})[String(id)]; }
+const zhangfeiReady = Promise.all([window.ZHANGFEI_CLIPS || {}, ...Object.values(window.HERO_CLIPS || {})].flatMap(set => Object.values(set)).flatMap(views => Object.values(views).flatMap(c => c.files.map(src => {
   if (zhangfeiFrames[src]) return zhangfeiFrames[src].decode();
   const img = new Image(); zhangfeiFrames[src] = img; img.src = src; return img.decode();
-})))).catch(error => { console.error(error); logEl.textContent = '장비 모션 파일을 불러오지 못했습니다. 원본 파일 경로를 확인하세요.'; });
+})))).catch(error => { console.error(error); logEl.textContent = '장수 모션 파일을 불러오지 못했습니다. 파일 경로를 확인하세요.'; });
 const zhangfeiCanvas = document.createElement('canvas');
 zhangfeiCanvas.width = zhangfeiCanvas.height = 256;
 const zg = zhangfeiCanvas.getContext('2d');
@@ -242,7 +279,7 @@ function sprite(u) {
     }
   }
   const c = u.fam.clips[u.clip], looping = u.state === 'idle' || u.state === 'move' || u.state === 'dead', renderTime=u.state==='move'?u.t*tempo().move:u.t, f = looping ? loopFrame(c, renderTime) : frameOf(c, renderTime), [view, flip] = VIEW[u.dir];
-  const art = String(u.h.id) === '2' && window.ZHANGFEI_CLIPS?.[u.clip]?.[view];
+  const art = ART(u.h.id)?.[u.clip]?.[view];
   if (art && !document.getElementById('zhangfeiLong').checked) {
     const index = looping ? loopFrame(art,renderTime) : frameOf(art,u.t);
     const img = zhangfeiFrames[art.files[index]];
@@ -297,8 +334,7 @@ function draw() {
   g.strokeStyle = '#e8ddae'; g.lineWidth = 2; g.beginPath(); g.moveTo(MX, MY + 4 * T); g.lineTo(MX + N * T, MY + 4 * T); g.stroke();
   for (const u of units) if (alive(u)) { g.fillStyle = '#0e293966'; g.beginPath(); g.ellipse(cx(u.px), cy(u.py) + 2, 26, 8, 0, 0, 7); g.fill(); }
   [...units].filter(u => u.fade > 0).sort((a, b) => a.py - b.py).forEach(sprite);
-  for (const s of shots) { const k = Math.min(1, s.t / 120), ax = cx(s.a.px), ay = cy(s.a.py) - 50, bx = cx(s.b.px), by = cy(s.b.py) - 36, x = ax + (bx - ax) * k, y = ay + (by - ay) * k;
-    g.strokeStyle = s.col; g.lineWidth = 3; g.lineCap = 'round'; g.beginPath(); g.moveTo(ax + (bx - ax) * Math.max(0, k - 0.3), ay + (by - ay) * Math.max(0, k - 0.3)); g.lineTo(x, y); g.stroke(); }
+  for (const s of shots) SIM_FX.draw(g, s, (x, y) => [cx(x), cy(y)]);
   units.forEach(bars);
   g.font = 'bold 18px "Malgun Gothic", sans-serif'; g.textAlign = 'center';
   for (const f of floats) { g.globalAlpha = 1 - f.t / 900; g.fillStyle = '#101622'; g.fillText(f.text, cx(f.x) + 1, cy(f.y) - 86 - f.t / 18 + 1); g.fillStyle = f.col; g.fillText(f.text, cx(f.x), cy(f.y) - 86 - f.t / 18); }

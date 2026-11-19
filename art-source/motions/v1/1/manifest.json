@@ -1,0 +1,52 @@
+{
+ "schemaVersion": 1,
+ "id": "1",
+ "name": "관우",
+ "family": "mounted_blade",
+ "reviewStatus": "user_approved",
+ "canvas": [
+  256,
+  256
+ ],
+ "attacks": [
+  "b1",
+  "a2",
+  "a3"
+ ],
+ "skill": "s1",
+ "skillName": "청룡참",
+ "clips": {
+  "idle": {
+   "front": "art-source/motions/v1/1/final/idle/front/manifest.json",
+   "left": "art-source/motions/v1/1/final/idle/left/manifest.json",
+   "rear": "art-source/motions/v1/1/final/idle/rear/manifest.json"
+  },
+  "move": {
+   "front": "art-source/motions/v1/1/final/move/front/manifest.json",
+   "left": "art-source/motions/v1/1/final/move/left/manifest.json",
+   "rear": "art-source/motions/v1/1/final/move/rear/manifest.json"
+  },
+  "b1": {
+   "front": "art-source/motions/v1/1/final/b1/front/manifest.json",
+   "left": "art-source/motions/v1/1/final/b1/left/manifest.json",
+   "rear": "art-source/motions/v1/1/final/b1/rear/manifest.json"
+  },
+  "a2": {
+   "front": "art-source/motions/v1/1/final/a2/front/manifest.json",
+   "left": "art-source/motions/v1/1/final/a2/left/manifest.json",
+   "rear": "art-source/motions/v1/1/final/a2/rear/manifest.json"
+  },
+  "a3": {
+   "front": "art-source/motions/v1/1/final/a3/front/manifest.json",
+   "left": "art-source/motions/v1/1/final/a3/left/manifest.json",
+   "rear": "art-source/motions/v1/1/final/a3/rear/manifest.json"
+  },
+  "s1": {
+   "front": "art-source/motions/v1/1/final/s1/front/manifest.json",
+   "left": "art-source/motions/v1/1/final/s1/left/manifest.json",
+   "rear": "art-source/motions/v1/1/final/s1/rear/manifest.json"
+  }
+ },
+ "finalized": "2026-11-19",
+ "approvedDate": "2026-11-19"
+}

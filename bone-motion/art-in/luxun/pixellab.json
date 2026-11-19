@@ -1,0 +1,71 @@
+{
+ "hero": "육손",
+ "family": "caster",
+ "description": "Lu Xun, young chinese commander in the supplied pixel art style. A blue cap, a green scarf, light silver armor over a white robe with a red skirt and red cape, dark boots. He holds a burning torch upright in the right hand",
+ "face": "A young clear face, no beard.",
+ "rear_detail": "Seen from behind: the blue cap, the green scarf, silver shoulder armor, the red skirt and cape, the burning torch at his right side.",
+ "guard_action": "the right hand lifts what it holds up beside the right shoulder, the left hand lowers, the left foot settles half a step forward",
+ "actions": {
+  "idle": "Calm ready stance holding the torch up, breathing",
+  "move": "Brisk walk in place with small steps, robe swaying, torch held up, seamless loop. The last frame leads into the first, no pause",
+  "b1": "Upward flick. Frames 3-6 the knees bend and the torch is lowered in front; frames 7-8 the body straightens up tall and it is flicked from below to high above the head; frames 9-11 hold high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The torch stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a2": "Open-palm push. The torch stays at his right side. Frames 3-6 the empty LEFT hand draws back; frames 7-8 the left shoulder turns forward, body side-on, and the open left palm pushes straight out; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The torch stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b3": "Two-handed push. Frames 3-6 both hands gather in front of the chest; frame 7 the left foot steps forward; frame 8 both hands push straight out together; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The torch stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s6": "Circle and spread. Frames 3-5 the torch draws one full circle above the head; frame 6 he crouches; frames 7-8 a step forward and both hands spread wide and low in front; frames 9-12 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The torch stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 55,
+ "weapon_grip": 0,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    94,
+    150
+   ],
+   "weapon tip": [
+    94,
+    95
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    106,
+    152
+   ],
+   "weapon tip": [
+    106,
+    98
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    160,
+    150
+   ],
+   "weapon tip": [
+    160,
+    95
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "cape hem",
+   "attach": "neck",
+   "root": [
+    0,
+    -7,
+    -4
+   ],
+   "hang": [
+    0,
+    -7,
+    -42
+   ],
+   "sway": 1.5,
+   "lag": 0.3
+  }
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 b1 → a2 → b3, 전법 s6. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. 횃불은 손 위쪽만 뼈대에 넣었다(손~불꽃 끝). 손 아래 자루는 그림에서 따라온다."
+}

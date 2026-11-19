@@ -1,0 +1,96 @@
+{
+ "hero": "서황",
+ "family": "poleaxe",
+ "description": "Xu Huang, powerful chinese general in the supplied pixel art style. A maroon cloth head wrap with long tails, dark armor with gold trim, a long maroon cape, dark boots. He holds a very large battle axe with a long dark shaft, gold fittings and a huge crescent blade",
+ "face": "A grim face with a dark beard.",
+ "rear_detail": "Seen from behind: the maroon head wrap with its tails, dark armor, the long maroon cape, the great axe at his right side.",
+ "guard_action": "both hands bring the pole axe to a ready angle in front of the body, the feet spread and the knees bend",
+ "actions": {
+  "idle": "Two-handed pole axe guard, the axe held at the right side, breathing",
+  "move": "Seamless combat run in place carrying the pole axe, no attack. The last frame leads into the first, no pause",
+  "a1": "VERTICAL overhead axe blow. Frames 3-6 both hands raise the axe straight up above the head, the blade at the top; frames 7-8 it is brought down from above onto the target; frames 9-11 hold with the axe head low. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The great battle axe stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a2": "HORIZONTAL axe swing, feet planted. Frames 2-6 the whole upper body winds far to the right with the axe held level; frames 7-8 the axe swings around from the side to the front in a wide flat arc; frames 9-11 hold in front. The axe travels sideways. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The great battle axe stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a3": "RISING axe blow. Frames 3-6 the axe head drops low in front and the knees bend; frames 7-8 the head scoops up from below through the target; frame 9 it finishes high; frames 10-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The great battle axe stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s2": "Great axe blow with a leap. Frames 1-4 he sinks low; frames 5-7 both feet leave the ground with the axe swung up over the right shoulder; frame 8 he lands driving the axe down into the target; frames 9-11 absorb the landing. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The great battle axe stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 151,
+ "weapon_grip": 40,
+ "weapon_mode": "bone",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    104,
+    193
+   ],
+   "weapon tip": [
+    104,
+    46
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    101,
+    193
+   ],
+   "weapon tip": [
+    101,
+    42
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    161,
+    195
+   ],
+   "weapon tip": [
+    157,
+    48
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "cape hem",
+   "attach": "neck",
+   "root": [
+    0,
+    -7,
+    -4
+   ],
+   "hang": [
+    0,
+    -7,
+    -42
+   ],
+   "sway": 1.5,
+   "lag": 0.3
+  },
+  {
+   "name": "headband tail",
+   "attach": "head",
+   "root": [
+    9,
+    -3,
+    5
+   ],
+   "hang": [
+    9,
+    -5,
+    -5
+   ],
+   "sway": 2.0
+  }
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 a1 → a2 → a3, 전법 s2. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. 본이 이 장수의 도끼 길이(151px)로 만들어져 있어 본의 무기 끝을 그대로 보낸다(clips/poleaxe.py). [자루] 원화의 자루를 손 아래에서 21px 줄인 사본(short-*.png)을 쓴다. 후면은 자루 끝이 망토 뒤로 들어가 보이지 않는다(사용자 확인 2026-11-19). 승인 원본은 그대로다.",
+ "art": {
+  "front": "short-front.png",
+  "left": "short-left.png",
+  "rear": "short-rear.png"
+ },
+ "_shortened": 21,
+ "head": [
+  36,
+  42
+ ]
+}

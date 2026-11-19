@@ -1,0 +1,119 @@
+{
+ "hero": "조운",
+ "family": "mounted_spear",
+ "description": "Zhao Yun, young chinese general in the supplied pixel art style, riding a white war horse. Silver plate armor with gold trim and a blue scarf, silver helmet with a tall white plume, long white cape. White horse with dark grey mane and tail, blue and gold barding and saddle cloth, gold bridle. Long spear with a dark shaft, gold collar and a silver leaf-shaped blade, held in the right hand",
+ "face": "Young clean-shaven face with calm brown eyes.",
+ "rear_detail": "Seen from behind: the back of the silver helmet with the white plume, the blue scarf, the white cape hanging over the horse's rump, and the horse's dark grey tail between its hind legs.",
+ "guard_action": "the rider brings the spear from upright to a ready angle and takes it in both hands; the horse stands still on four legs",
+ "actions": {
+  "idle": "Mounted fighting guard, horse standing still on four legs, breathing",
+  "move": "Seamless gallop in place, rider carrying the spear, no attack. The four legs follow the skeleton. The last frame leads into the first, no pause",
+  "a1": "One straight mounted spear thrust forward. Frames 1-5 the horse sits back and the rider draws the spear back, frame 8 the horse drives forward and the thrust lands, frames 9-11 follow through. Frames 12-15 return to the supplied guard pose; the last pose matches the first. Follow the skeleton. Keep the spear rigid and the same length. Rider stays seated in the saddle, four horse legs always present",
+  "a2": "Mounted VERTICAL overhead spear strike. Frames 3-5 the rider raises the spear straight up above the head, pointing at the sky; frames 5-6 the horse lifts both front hooves off the ground; frame 7-8 the front hooves come down and the spear is brought down from above in a vertical arc onto the target in front, ending with the tip low. Frames 9-11 hold. Frames 12-15 return to the supplied guard pose; the last pose matches the first. Follow the skeleton exactly. Keep the spear rigid and the same length. Rider stays seated in the saddle, four horse legs always present",
+  "a3": "Mounted HORIZONTAL spear sweep. The rider holds the spear near its butt end. Frames 3-5 the spear is swung far out to the right side and back, level with the ground, the torso twisting right; frames 6-8 it sweeps around from the side to the front in a wide flat arc and strikes. Frames 9-11 hold with the spear across the front. Not a thrust: the spear travels sideways. Frames 12-15 return to the supplied guard pose; the last pose matches the first. Follow the skeleton exactly. Keep the spear rigid and the same length. Rider stays seated in the saddle, four horse legs always present",
+  "s1": "Heroic charge. Frames 3-7 the horse REARS UP high on its hind legs, both front hooves in the air, the rider rising with it with the spear couched under the arm pointing forward and up. Frame 8 the front hooves crash down and horse and rider plunge forward into one long deep spear thrust. Frames 9-12 hold the deepest reach. Frames 13-15 return to the supplied guard pose; the last pose matches the first. Follow the skeleton exactly. Keep the spear rigid and the same length. Rider stays in the saddle, four horse legs always present"
+ },
+ "weapon_length": 134,
+ "weapon_grip": 46,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "body_scale": 1.0,
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    96,
+    178
+   ],
+   "weapon tip": [
+    96,
+    46
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    120,
+    178
+   ],
+   "weapon tip": [
+    120,
+    44
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    159,
+    182
+   ],
+   "weapon tip": [
+    159,
+    39
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "helmet plume",
+   "attach": "head",
+   "root": [
+    0,
+    -3,
+    14
+   ],
+   "hang": [
+    0,
+    -11,
+    1
+   ],
+   "sway": 1.5
+  },
+  {
+   "name": "cape hem",
+   "attach": "neck",
+   "root": [
+    0,
+    -8,
+    -6
+   ],
+   "hang": [
+    0,
+    -12,
+    -38
+   ],
+   "sway": 2.0,
+   "lag": 0.3
+  }
+ ],
+ "notes": "2026-11-19 첫 기마 시험. 평타 a1 → a2 → a3, 전법 s1. 기본 자세 관절은 추정 없이 본의 기마 대기를 그대로 쓰고(원화에 겹쳐 확인), 창 좌표만 원화에서 눈으로 잰 값(±2px). 측면 창 아래 끝은 몸에 가려 추정.",
+ "art_offset": {
+  "left": {
+   "rider": [
+    7,
+    0
+   ]
+  }
+ },
+ "art_points": {
+  "left": {
+   "NOSE": [
+    126,
+    90
+   ]
+  }
+ },
+ "cloth_rgb": [
+  [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ]
+  ]
+ ]
+}

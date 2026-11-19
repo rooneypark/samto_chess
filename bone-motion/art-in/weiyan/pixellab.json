@@ -1,0 +1,70 @@
+{
+ "hero": "위연",
+ "family": "sword",
+ "description": "Wei Yan, fierce chinese general in the supplied pixel art style. Grey helmet with a long black horsehair crest, an orange scarf, olive and brown armor with gold trim, dark boots. He holds a great curved saber in the right hand",
+ "face": "Hard glaring eyes and a dark moustache.",
+ "rear_detail": "Seen from behind: the grey helmet with the long black crest, the orange scarf, olive armor, the curved saber at his right side.",
+ "guard_action": "the right hand lifts the sword up in front of the body, the left hand stays free as a guard, the left foot steps forward and the knees bend",
+ "actions": {
+  "idle": "One-handed sword fighting guard, breathing",
+  "move": "Seamless combat run in place carrying the sword, no attack. The last frame leads into the first, no pause",
+  "b2": "Thrust, then rising cut. Frames 1-5 draw back; frame 6 a straight thrust; frames 7-8 the sword drops low; frame 9 a rising cut; frames 10-11 the sword finishes high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The great curved saber stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a3": "One straight thrust. Frames 1-5 the sword is drawn back beside the hip; frames 6-8 a step forward and a straight thrust, point first; frames 9-11 hold the reach. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The great curved saber stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b3": "Leaping downward cut. Frames 1-4 crouch and raise the sword; frames 5-7 both feet leave the ground; frame 8 he lands cutting straight down; frames 9-11 absorb the landing. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The great curved saber stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s1": "Hidden low, then a rising cut. Frames 1-6 he folds the knees deep and hides the sword low behind the body; frame 8 the legs drive up and the sword cuts from below upward; frames 9-12 the body rises with it. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The great curved saber stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 53,
+ "weapon_grip": 6,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    90,
+    178
+   ],
+   "weapon tip": [
+    72,
+    226
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    118,
+    180
+   ],
+   "weapon tip": [
+    86,
+    222
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    157,
+    180
+   ],
+   "weapon tip": [
+    170,
+    223
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "helmet plume",
+   "attach": "head",
+   "root": [
+    0,
+    -2,
+    16
+   ],
+   "hang": [
+    0,
+    -9,
+    2
+   ],
+   "sway": 1.0
+  }
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 b2 → a3 → b3, 전법 s1. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. "
+}

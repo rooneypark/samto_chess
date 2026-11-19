@@ -1,0 +1,71 @@
+{
+ "hero": "손상향",
+ "family": "bow",
+ "description": "Sun Shangxiang, lively young chinese woman warrior in the supplied pixel art style. Brown hair in a high ponytail tied with a red ribbon, a red and tan outfit with gold trim and a white skirt panel, a quiver of arrows on her back, brown boots. She holds a brown recurve bow in the left hand",
+ "face": "Bright spirited eyes.",
+ "rear_detail": "Seen from behind: the brown ponytail with the red ribbon, the red outfit, the quiver across the back, the bow at her left side.",
+ "guard_action": "the left hand raises the bow in front of the body, the right hand comes to the string, the feet take an archer stance",
+ "actions": {
+  "idle": "Archer ready stance, bow held in front in the left hand, breathing",
+  "move": "Seamless combat run in place carrying the bow in the left hand, no shooting. The last frame leads into the first, no pause",
+  "a1": "One arrow shot. Frames 1-6 the bow is raised level and the right hand draws the string back to full draw; frame 9 release; frames 10-11 the bow arm stays out. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bow stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a2": "High shot. Frames 1-6 the bow is lifted high, level with the head, and drawn, aiming from above downward; frame 9 release; frames 10-11 follow through. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bow stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b3": "Deep-drawn shot. Frames 1-7 a slow very deep draw, leaning back; frame 9 release; frames 10-11 a long follow-through. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bow stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s5": "Graceful stunning shot. Frames 1-7 a light step back and a high elegant draw; frame 9 release; frames 10-12 hold the pose. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bow stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 92,
+ "weapon_grip": 35,
+ "weapon_mode": "bone",
+ "rear_hand": "L",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    154,
+    210
+   ],
+   "weapon tip": [
+    154,
+    123
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    106,
+    203
+   ],
+   "weapon tip": [
+    106,
+    128
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    98,
+    208
+   ],
+   "weapon tip": [
+    98,
+    116
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "long hair",
+   "attach": "head",
+   "root": [
+    0,
+    -9,
+    0
+   ],
+   "hang": [
+    0,
+    -6,
+    -26
+   ],
+   "sway": 1.2,
+   "lag": 0.35
+  }
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 a1 → a2 → b3, 전법 s5. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. "
+}

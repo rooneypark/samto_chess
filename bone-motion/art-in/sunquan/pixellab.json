@@ -1,0 +1,77 @@
+{
+ "hero": "손권",
+ "family": "command",
+ "description": "Sun Quan, stately chinese ruler in the supplied pixel art style. Brown hair in a topknot with a gold crown, a crimson robe with gold trim over dark armor, a long dark purple cape, dark boots. He holds a long straight sword in the right hand",
+ "face": "A broad face with a full reddish-brown beard.",
+ "rear_detail": "Seen from behind: brown hair with the gold crown, the long dark purple cape with crimson edges covering the back, the sword at his right side.",
+ "guard_action": "the right hand lifts the sword up in front of the body, the left hand stays free, the left foot settles half a step forward",
+ "actions": {
+  "idle": "Commander ready stance with a one-handed sword, breathing",
+  "move": "Seamless combat run in place carrying the sword, no attack. The last frame leads into the first, no pause",
+  "b1": "Left-hand signal. The sword stays low at the right side. Frames 1-6 the LEFT arm winds back; frame 8 the left hand is thrown forward, palm out, giving the signal; frames 9-11 hold. Nothing is struck. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a3": "Direct diagonal cut. Frames 1-5 the sword is raised to the upper right; frames 6-8 a big step and a cut from upper right to lower left; frames 9-11 follow through. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b3": "Direct thrust. Frames 1-5 the sword is drawn back beside the hip; frames 6-8 a big step and a straight thrust, point first; frames 9-11 hold the reach. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s2": "Lord of the east. Frames 1-6 he gathers, sword lowered across the body; frame 8 he sweeps the sword out level in a wide protective arc; frames 9-12 hold. Nothing is struck. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 62,
+ "weapon_grip": 6,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    90,
+    160
+   ],
+   "weapon tip": [
+    90,
+    222
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    103,
+    160
+   ],
+   "weapon tip": [
+    103,
+    214
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    170,
+    160
+   ],
+   "weapon tip": [
+    170,
+    216
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "cape hem",
+   "attach": "neck",
+   "root": [
+    0,
+    -7,
+    -4
+   ],
+   "hang": [
+    0,
+    -7,
+    -42
+   ],
+   "sway": 1.5,
+   "lag": 0.3
+  }
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 b1 → a3 → b3, 전법 s2. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. ",
+ "canvas_offset": {
+  "left": [
+   8,
+   0
+  ]
+ }
+}

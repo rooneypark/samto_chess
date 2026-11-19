@@ -1,9 +1,0 @@
-<!doctype html>
-<html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>조운 모션 시뮬레이션</title>
-<style>body{margin:0;background:#101b23;color:#e7ecea;font:16px system-ui}main{max-width:960px;margin:24px auto;padding:0 20px}h1{font-size:23px}video{width:min(100%,640px);image-rendering:pixelated;display:block;background:#17232b}button,select{font:inherit;padding:8px 14px;background:#263c43;color:#ecf4ef;border:1px solid #688b8c;border-radius:6px;margin:5px}p{color:#b7c9cc;line-height:1.7}.controls{margin:12px 0}</style>
-<main><h1>조운 · 이동 / 기본 공격 / 용맹돌진</h1>
-<p>정면 → 측면 → 후면 순서로 재생합니다. 적군 조조는 정지 원화이며, 스킬에 맞춰 적중 효과만 재생합니다.</p>
-<video id="video" src="simulation.mp4" poster="side-peak.png" controls autoplay muted loop playsinline></video>
-<div class="controls"><button onclick="video.currentTime=0;video.play()">처음부터</button><button onclick="video.currentTime=6.45;video.play()">측면</button><button onclick="video.currentTime=12.7;video.play()">후면</button><select aria-label="재생 속도" onchange="video.playbackRate=Number(this.value)"><option value="1">정상 속도</option><option value="0.5">0.5배 느리게</option><option value="0.25">0.25배 느리게</option></select></div>
-<p>64px 격자 · 원화 공통 배율 0.80 · 승인 모션 재생 검토용<br>실제 전투 판정·피해량·사용자 저장은 사용하지 않습니다. 대상 효과는 칸 중심에 표시합니다.</p></main></html>

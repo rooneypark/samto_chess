@@ -1,0 +1,109 @@
+{
+ "hero": "순욱",
+ "family": "caster",
+ "description": "Xun Yu, upright chinese minister in the supplied pixel art style. A tall black hat with gold bands, a long cream robe with wide sleeves and gold trim, a long blue and gold sash hanging down the front. He holds a narrow gold ceremonial tablet upright in front of his chest",
+ "face": "A calm dignified face, no beard.",
+ "rear_detail": "Seen from behind: the tall black and gold hat, the plain cream robe with a gold belt. What he holds is in front of the body and hidden.",
+ "guard_action": "the right hand lifts what it holds up beside the right shoulder, the left hand lowers, the left foot settles half a step forward",
+ "actions": {
+  "idle": "Calm ready stance holding the ceremonial tablet up, breathing",
+  "move": "Brisk walk in place with small steps, robe swaying, ceremonial tablet held up, seamless loop. The last frame leads into the first, no pause",
+  "b1": "Upward flick. Frames 3-6 the knees bend and the ceremonial tablet is lowered in front; frames 7-8 the body straightens up tall and it is flicked from below to high above the head; frames 9-11 hold high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The ceremonial tablet stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b2": "Downward stroke. Frames 3-6 he stands tall and raises the ceremonial tablet above the head; frames 7-8 he drops into a deep knee bend and draws it straight down in front; frames 9-11 hold low. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The ceremonial tablet stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a3": "Wide sweeping release. Frames 3-6 the ceremonial tablet is wound to the left chest; frame 7 the left foot steps out; frame 8 it is swept wide to the right; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The ceremonial tablet stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s3": "Open-armed blessing. Frames 3-6 both hands gather low in front of the chest and he bows; frame 8 he rises and spreads both arms wide and up to the sides; frames 9-12 hold. Feet stay in place. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The ceremonial tablet stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 54,
+ "weapon_grip": 0,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    127,
+    172
+   ],
+   "weapon tip": [
+    127,
+    134
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    109,
+    178
+   ],
+   "weapon tip": [
+    109,
+    124
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    132,
+    172
+   ],
+   "weapon tip": [
+    132,
+    134
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "right sleeve",
+   "attach": "wrist.R",
+   "root": [
+    0,
+    -2,
+    -2
+   ],
+   "hang": [
+    0,
+    -3,
+    -18
+   ],
+   "sway": 1.5,
+   "lag": 0.4
+  },
+  {
+   "name": "left sleeve",
+   "attach": "wrist.L",
+   "root": [
+    0,
+    -2,
+    -2
+   ],
+   "hang": [
+    0,
+    -3,
+    -18
+   ],
+   "sway": 1.5,
+   "lag": 0.4
+  },
+  {
+   "name": "robe hem",
+   "attach": "pelvis",
+   "root": [
+    0,
+    -8,
+    -6
+   ],
+   "hang": [
+    0,
+    -5,
+    -34
+   ],
+   "sway": 1.5,
+   "lag": 0.3
+  }
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 b1 → b2 → a3, 전법 s3. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. ",
+ "canvas_offset": {
+  "front": [
+   0,
+   -3
+  ]
+ }
+}

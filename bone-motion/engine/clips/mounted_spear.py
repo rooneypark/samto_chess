@@ -13,6 +13,7 @@ def pose(**kw):
                 seat=(0, 0, 0), hip_turn=0.0, hip_lean=0.0, hip_side=0.0, chest_turn=0.0, chest_lean=2.0, chest_side=0.0,
                 main=(-33, 10, 92), axis=(0.02, 0.25, 0.97), support=30.0, support_on=0.0)
     base['hand.L'] = (7, 18, 92)
+    base['socket'] = WEAPON.main_socket      # where the main hand holds the shaft, from the butt
     base.update(kw); return base
 
 GUARD = pose()

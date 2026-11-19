@@ -2,7 +2,7 @@
 
 평타 (basic attacks) stay basic: one clear idea each, no spins. Every hit lands on the common strike point.
     A1 정면 직창 (in foot_spear.py)   A2 상단 내리꽂기   A3 도약 내려찍기 (the finisher of the A combo)
-    B1 비껴 디뎌 찌르기               B2 이단 찌르기     B3 감아 찌르기 (stance switch, the finisher of the B combo)
+    B1 가로 휘두르기                  B2 세로 내려치기   B3 올려치기      (2026-11-19: no longer three more thrusts, see below)
 
 전법 (skills) follow the skills of the heroes who use this type (통합가이드 12절):
     S1 장판의 함성 (장비)   a shout: side step, spear planted, fist raised. Nothing is struck.
@@ -198,12 +198,46 @@ def build(pose, GUARD):
                      durations=[100, 100, 110, 120, 140, 180, 50, 45, 50, 55, 60, 70, 90, 100, 100], sheet=[0, 4, 6, 7, 9, 11],
                      notes='Frames 2-6 wind the upper body up to the right with the feet planted. Frames 7-14 are one full turn on a low hop: '
                            'the blade passes the front and strikes on frame 8, then the turn carries on round to the guard.')
+    # ---- 2026-11-19: the B set is no longer three more thrusts ------------------------------------------------------------
+    # variety.py: A1, A2, B1, B2, B3 were 3 to 9 px apart, five thrusts. User: "a spear can be swung across or brought
+    # down: show the different attacks." The A set stays (Zhang Fei's approved clips use it). The B set is now three other
+    # shapes, each with its own wind-up and its own way into the common strike point:
+    #     B1 가로 휘두르기   the whole upper body winds to the right with the spear level, and it is swung round to the front
+    #     B2 세로 내려치기   the spear goes straight up overhead in both hands and is brought down
+    #     B3 올려치기        the tip drops low in front, scoops up through the target and finishes high
+    sweep = [GUARD, blend(GUARD, spun(25, 40, fixed_feet=True), 0.6), spun(48, 38.5, fixed_feet=True), spun(70, 37, fixed_feet=True), spun(82, 36.5, fixed_feet=True),
+             spun(80, 36.5, fixed_feet=True), spun(40, 37.5, fixed_feet=True), spun(0, 38, fixed_feet=True, lean=12), spun(-10, 37.5, fixed_feet=True, lean=14), spun(-7, 38, fixed_feet=True, lean=13),
+             spun(-4, 38.5, fixed_feet=True, lean=11), blend(spun(4, 39.5, fixed_feet=True), GUARD, 0.3), blend(spun(10, 41, fixed_feet=True), GUARD, 0.6), blend(spun(12, 42, fixed_feet=True), GUARD, 0.85), GUARD]
+    out['b1'] = dict(title='B1 가로 휘두르기', impact=8, poses=sweep, support=[('L', 'R')] * 15,
+                     durations=[100, 90, 100, 110, 130, 160, 55, 45, 60, 180, 100, 90, 90, 90, 100], sheet=[0, 3, 5, 6, 7, 9])
+    out['b2'] = dict(title='B2 세로 내려치기', impact=8, keys=[
+        (0, GUARD, 'linear'),
+        (3, P((-1, -4, 43), 34, 56, (-28, 0, 60), (-10, 82), 46, hl=2, cl=2), 'inout'),
+        (5, P((-2, -8, 44.5), 38, 66, (-29, -6, 70), (-14, 100), 42, hl=0, cl=-6, f=feet(lh=3)), 'inout'),
+        (6, P((-1, 2, 42), 24, 46, (-26, 4, 66), (4, 48), 46, hl=4, cl=6, f=feet(L=(8, 22), la=6, ly=6, rh=2)), 'in'),
+        (7, P((0, 10, 37), 4, 8, thrust(12.5, -13), (12.5, -13), 54, hl=10, cl=24, f=feet(L=(7, 28), ly=5, rh=5)), 'snap'),
+        (8, P((0, 12, 35.5), 2, 5, thrust(12.5, -15, 4), (12.5, -15), 54, hl=12, cl=28, f=feet(L=(7, 28), ly=5, rh=6)), 'out'),
+        (9, P((0, 10, 36.5), 4, 8, thrust(12.5, -13, -2), (12.5, -13), 54, hl=10, cl=23, f=feet(L=(7, 28), ly=5, rh=4)), 'inout'),
+        (11, PULL, 'inout'), (13, BACK, 'inout'), (14, GUARD, 'out')],
+        support=sup(air_L=(6, 12, 13)), durations=[100, 100, 110, 120, 140, 170, 50, 45, 70, 190, 100, 90, 80, 80, 100], sheet=[0, 3, 5, 6, 7, 9])
+    out['b3'] = dict(title='B3 올려치기', impact=8, keys=[
+        (0, GUARD, 'linear'),
+        (3, P((-1, -4, 38), 36, 56, (-22, -8, 56), (4, -30), 60, cl=14), 'inout'),
+        (5, P((-2, -10, 34), 44, 68, (-23, -18, 52), (2, -26), 62, hl=0, cl=18, f=feet(lh=4)), 'inout'),
+        (6, P((-1, 2, 35), 22, 40, (-20, -6, 40), (8, -10), 60, cl=18, f=feet(L=(8, 24), la=6, ly=6, rh=2)), 'in'),
+        (7, P((0, 12, 36), 8, 22, thrust(10.7, 8), (10.7, 8), 57, hl=10, cl=28, f=feet(L=(7, 30), ly=5, rh=6)), 'snap'),
+        (8, P((0, 14, 39), 6, 16, (-17, 16, 42), (10.7, 32), 57, hl=8, cl=16, f=feet(L=(7, 30), ly=5, rh=7)), 'out'),
+        (9, P((0, 13, 39.5), 8, 18, (-17.5, 14, 44), (10.7, 27), 58, hl=8, cl=14, f=feet(L=(7, 30), ly=5, rh=5)), 'inout'),
+        (11, P((-1, 5, 40), 20, 36, (-18, 0, 46), (8, 14), 62, hl=6, cl=11, f=feet(L=(7, 30), ly=5, rh=1)), 'inout'),
+        (12, P((-1, 4, 40.5), 22, 38, (-18.5, -1, 46), (8, 18), 62, hl=6, cl=10, f=feet(L=(7, 30), ly=5, rh=1)), 'inout'),
+        (13, BACK, 'inout'), (14, GUARD, 'out')],
+        support=sup(air_L=(6, 13)), durations=[100, 100, 110, 120, 130, 160, 50, 45, 80, 180, 100, 90, 90, 90, 100], sheet=[0, 3, 5, 6, 7, 8])
     notes = {   # shown to the reviewer under the clip
         'a2': '오른손이 가슴 옆까지 올라와 어깨 높이에서 아래로 꽂는다.',
         'a3': '5~7번 프레임에 두 발이 뜨고, 타격(8번)과 함께 착지한다.',
-        'b1': '왼발을 옆으로 9px 내딛는다. 정면·후면에서 몸 전체가 중심선 밖으로 비껴난다.',
-        'b2': '6번 프레임은 표적 24px 앞에서 멈추는 속임 찌르기다. 실제 타격은 10번.',
-        'b3': '3~7번 프레임에 창끝이 원을 한 번 그린다. 오른발이 왼발을 지나 앞으로 나가 몸이 표적과 정면으로 마주 선다.',
+        'b1': '두 발은 제자리. 2~6번에 상체를 오른쪽으로 크게 감아 창을 수평으로 눕히고, 7~8번에 옆에서 앞으로 휘둘러 친다. 창끝이 옆에서 들어온다.',
+        'b2': '두 손으로 창을 머리 위로 곧게 세웠다가(4~6번) 위에서 아래로 내려친다. 타격은 8번, 끝에서 창끝이 낮게 꽂힌다.',
+        'b3': '창끝을 앞쪽 낮게 떨궜다가(4~6번) 아래에서 위로 쳐올린다. 8번에 표적을 지나 9번에 높이 올라가 멈춘다.',
         's1': '장비 전법. 2번 프레임에 왼손이 자루를 놓고(창은 몸 옆에 세움) 14번에 다시 잡는다. 왼발은 앞이 아니라 옆으로 딛는다. 닿는 공격이 아니다.',
         's2': '하후돈 전법. 창을 몸 앞에 가로로 받치고 깊이 앉았다가 밀어 세운다. 두 발은 끝까지 제자리. 닿는 공격이 아니다.',
         's3': '강유 전법. 방어선 아래 낮은 곳에서 가슴 높이로 솟구치는 큰 찌르기 한 번.',

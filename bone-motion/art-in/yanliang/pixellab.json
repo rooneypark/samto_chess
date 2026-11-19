@@ -1,0 +1,86 @@
+{
+ "hero": "안량",
+ "family": "sword",
+ "description": "Yan Liang, tall chinese general in the supplied pixel art style. Bronze helmet with a green plume, brown lamellar armor with gold trim, a green sash, dark boots. He holds a great curved saber in the right hand",
+ "face": "A stern face with a long dark moustache.",
+ "rear_detail": "Seen from behind: the bronze helmet with the green plume, brown armor with gold trim, a dark red back cloth, the curved saber at his right side.",
+ "guard_action": "the right hand lifts the sword up in front of the body, the left hand stays free as a guard, the left foot steps forward and the knees bend",
+ "actions": {
+  "idle": "One-handed sword fighting guard, breathing",
+  "move": "Seamless combat run in place carrying the sword, no attack. The last frame leads into the first, no pause",
+  "a1": "One diagonal downward cut. Frames 1-5 raise the sword and wind up; frame 8 the cut lands from upper right to lower left; frames 9-11 follow through. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The great curved saber stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b1": "One level horizontal cut. Frames 1-5 the sword is taken far out to the right at chest height; frame 8 it cuts across level to the left; frames 9-11 follow through on the left. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The great curved saber stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a2": "One rising cut from low to high. Frames 1-5 lower the sword and coil; frame 8 the upward cut lands; frames 9-11 the sword finishes high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The great curved saber stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s2": "Block, then a backhand cut. Frames 3-6 the sword is held across in front of the body as a block and the knees sink; frame 7 the sword swings to the LEFT hip; frame 8 a step forward and a backhand cut from left to right; frames 9-12 hold on the right. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The great curved saber stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 54,
+ "weapon_grip": 6,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    85,
+    168
+   ],
+   "weapon tip": [
+    82,
+    222
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    114,
+    174
+   ],
+   "weapon tip": [
+    96,
+    222
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    160,
+    184
+   ],
+   "weapon tip": [
+    167,
+    222
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "helmet plume",
+   "attach": "head",
+   "root": [
+    0,
+    -2,
+    16
+   ],
+   "hang": [
+    0,
+    -9,
+    2
+   ],
+   "sway": 1.0
+  },
+  {
+   "name": "sash ends",
+   "attach": "pelvis",
+   "root": [
+    0,
+    8,
+    -6
+   ],
+   "hang": [
+    0,
+    3,
+    -22
+   ],
+   "sway": 1.0,
+   "lag": 0.35
+  }
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 a1 → b1 → a2, 전법 s2. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. "
+}

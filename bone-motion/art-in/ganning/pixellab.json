@@ -1,0 +1,86 @@
+{
+ "hero": "감녕",
+ "family": "sickle",
+ "description": "Gan Ning, wild chinese river raider in the supplied pixel art style. Thick swept-back black hair with a red headband and long tails, a bare tanned chest with a red scarf, a red sash hung with gold bells, black trousers with gold-trimmed boots. He holds a curved sickle raised in the right hand with a long iron chain hanging from it",
+ "face": "A cocky grinning face, no beard.",
+ "rear_detail": "Seen from behind: the swept-back black hair with the red headband tails, the bare back with the red scarf, the red sash, the chain hanging at his side, the sickle raised at his right.",
+ "guard_action": "the right hand brings the sickle to a ready position in front, the body drops into a low agile stance",
+ "actions": {
+  "idle": "Low agile guard with a chain sickle in the right hand, breathing",
+  "move": "Seamless fast combat run in place carrying the chain sickle, no attack. The last frame leads into the first, no pause",
+  "b1": "Thrust, then hooking up. Frames 1-5 draw back; frame 6 a short straight jab; frames 7-8 the sickle drops low; frame 9 it hooks upward; frames 10-11 finish high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The chain sickle stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a3": "Deep downward hook. Frames 1-6 the sickle is raised over the shoulder; frame 8 he drops low and chops it down; frames 9-11 hold low. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The chain sickle stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b3": "Spinning hook. Frames 1-3 wind to the right; frames 4-7 one full turn on a low hop; frame 9 a step and the sickle hooks in; frames 10-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The chain sickle stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s1": "Raider strike. Frames 1-6 he crouches low with the sickle hidden behind; frame 8 he springs in and hooks short and hard; frames 9-12 hold close. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The chain sickle stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 49,
+ "weapon_grip": 0,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    90,
+    150
+   ],
+   "weapon tip": [
+    82,
+    102
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    104,
+    148
+   ],
+   "weapon tip": [
+    96,
+    110
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    160,
+    148
+   ],
+   "weapon tip": [
+    170,
+    108
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "headband tail",
+   "attach": "head",
+   "root": [
+    9,
+    -3,
+    5
+   ],
+   "hang": [
+    9,
+    -5,
+    -5
+   ],
+   "sway": 2.0
+  },
+  {
+   "name": "sash ends",
+   "attach": "pelvis",
+   "root": [
+    0,
+    8,
+    -6
+   ],
+   "hang": [
+    0,
+    3,
+    -22
+   ],
+   "sway": 1.0,
+   "lag": 0.35
+  }
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 b1 → a3 → b3, 전법 s1. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. "
+}

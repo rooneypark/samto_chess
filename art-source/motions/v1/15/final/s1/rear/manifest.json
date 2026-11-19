@@ -1,0 +1,60 @@
+{
+ "status": "user_approved",
+ "files": [
+  "01.png",
+  "02.png",
+  "03.png",
+  "04.png",
+  "05.png",
+  "06.png",
+  "07.png",
+  "08.png",
+  "09.png",
+  "10.png",
+  "11.png",
+  "12.png",
+  "13.png",
+  "14.png",
+  "15.png"
+ ],
+ "durations_ms": [
+  110,
+  110,
+  120,
+  120,
+  140,
+  160,
+  200,
+  45,
+  70,
+  110,
+  110,
+  260,
+  100,
+  90,
+  100
+ ],
+ "pivot": [
+  128,
+  224
+ ],
+ "loop": false,
+ "source": "bone-motion/out/pixellab/15/s1/rear",
+ "source_frames": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ]
+}

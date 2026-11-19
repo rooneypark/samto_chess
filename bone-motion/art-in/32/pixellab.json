@@ -1,0 +1,71 @@
+{
+ "hero": "조조",
+ "family": "command",
+ "description": "Cao Cao, commanding chinese warlord in the supplied pixel art style. Black hair in a topknot with a small gold crown, black armor with gold trim, long red cape, black boots. He holds a straight sword in the right hand",
+ "face": "Sharp stern eyes, black moustache and a short black beard.",
+ "rear_detail": "Seen from behind: black hair with the gold crown, the long red cape covering the whole back down to the calves, the sword at his right side.",
+ "guard_action": "the right hand lifts the sword up in front of the body, the left hand stays free, the left foot settles half a step forward",
+ "actions": {
+  "idle": "Commander ready stance with a one-handed sword, breathing",
+  "move": "Seamless combat run in place carrying the sword, no attack. The last frame leads into the first, no pause",
+  "a2": "Command with the sword raised. Frames 1-6 he lifts the sword high above his head; frame 8 he holds it at the top, calling the order; frames 9-11 hold. Nothing is struck. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a3": "Direct diagonal cut. Frames 1-5 the sword is raised to the upper right; frames 6-8 a big step forward and a cut from upper right to lower left; frames 9-11 follow through. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b3": "Direct thrust. Frames 1-5 the sword is drawn back beside the hip; frames 6-8 a big step forward and a straight thrust, point first; frames 9-11 hold the reach. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s1": "Overwhelming command. Frames 1-6 he sinks, winds the upper body back and raises the LEFT arm high above his head; frame 8 he drives the body upright and sweeps chest and arm forward and down in one grand gesture, sword pointing forward; frames 9-12 hold. Nothing is struck. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 44,
+ "weapon_grip": 6,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    107,
+    178
+   ],
+   "weapon tip": [
+    107,
+    221
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    113,
+    168
+   ],
+   "weapon tip": [
+    113,
+    217
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    151,
+    178
+   ],
+   "weapon tip": [
+    151,
+    222
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "cape hem",
+   "attach": "neck",
+   "root": [
+    0,
+    -7,
+    -4
+   ],
+   "hang": [
+    0,
+    -7,
+    -44
+   ],
+   "sway": 1.5,
+   "lag": 0.3
+  }
+ ],
+ "notes": "2026-11-19. 평타 a2(호령) → a3(직접 베기) → b3(직접 찌르기), 전법 s1(위무지세). 검 좌표는 원화에서 눈으로 잰 값(±2px)."
+}

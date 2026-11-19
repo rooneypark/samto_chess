@@ -1,0 +1,87 @@
+{
+ "hero": "하후돈",
+ "family": "foot_spear",
+ "description": "Xiahou Dun, fierce chinese general in the supplied pixel art style. Dark helmet with a blue plume, dark armor with gold trim and blue cloth, long blue cape, dark boots. He holds a long spear with a dark shaft, gold fittings and a silver leaf-shaped blade",
+ "face": "A black eye patch over his left eye, scowling face with a short dark beard.",
+ "rear_detail": "Seen from behind: the back of the dark helmet with the blue plume, the long blue cape covering the back, the spear at his right side.",
+ "guard_action": "both hands take the spear and bring it to a ready angle at the right side, the left foot steps forward and the knees bend",
+ "actions": {
+  "idle": "Spearman fighting guard, spear held in both hands, breathing",
+  "move": "Seamless combat run in place carrying the spear, no attack. The last frame leads into the first, no pause",
+  "a1": "One straight two-handed spear thrust. Frames 1-5 the weight goes back and the spear is drawn level; frames 6-8 one big step and a straight thrust at waist height; frames 9-11 hold the reach. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b1": "HORIZONTAL spear sweep, feet planted. Frames 2-6 the whole upper body winds far to the right with the spear held level; frames 7-8 the spear is swung around from the side to the front in a wide flat arc; frames 9-11 hold in front. The spear travels sideways, it is not a thrust. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a3": "Leaping downward spear strike. Frames 1-4 he sinks; frames 5-7 both feet leave the ground with the spear raised over the right shoulder; frame 8 he lands driving the spear down into the target; frames 9-11 absorb the landing. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s2": "Unyielding brace. Frames 1-6 the spear is held across the body like a bar in both hands and he sinks into a deep crouch; frame 8 he pushes the bar outward and stands firm; frames 9-12 hold. Both feet stay planted. Nothing is struck. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 138,
+ "weapon_grip": 34,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "side_offset": 30,
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    89,
+    221
+   ],
+   "weapon tip": [
+    89,
+    82
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    99,
+    221
+   ],
+   "weapon tip": [
+    99,
+    84
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    166,
+    221
+   ],
+   "weapon tip": [
+    166,
+    82
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "cape hem",
+   "attach": "neck",
+   "root": [
+    0,
+    -7,
+    -4
+   ],
+   "hang": [
+    0,
+    -7,
+    -42
+   ],
+   "sway": 1.5,
+   "lag": 0.3
+  },
+  {
+   "name": "helmet plume",
+   "attach": "head",
+   "root": [
+    0,
+    -2,
+    16
+   ],
+   "hang": [
+    0,
+    -9,
+    2
+   ],
+   "sway": 1.0
+  }
+ ],
+ "notes": "2026-11-19. 평타 a1(직창) → b1(가로 휘두르기) → a3(도약 내려찍기), 전법 s2(불굴). 창 138px, 장비처럼 측면만 캔버스에서 30px 옮긴다."
+}

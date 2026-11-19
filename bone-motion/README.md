@@ -90,3 +90,11 @@ python -X utf8 bone-motion/engine/export.py
 ## PixelLab 작업 순서
 
 기본 자세 원화에서 전투 대기, 공격, 전법 모션까지의 순서와 API, 아직 구현하지 않은 부분은 `PIXELLAB-WORKFLOW.md`에 있다.
+
+## 지금 상태 (2026-11-19)
+
+- 모션 최종본은 `art-source/motions/v1/<id>/final/`에 있다. 장비, 요화, 조운, 관우는 사용자 확정이고, 제갈량·황충·조조·하후돈·장료·허저·사마의는 시뮬레이터에 넣어 검토 중이다. 목록과 상태는 `art-source/motions/v1/README.md`.
+- 남은 38명은 `art-in/<id>/pixellab.json`이 준비돼 있고 제출 전 검사를 통과한 상태다(`engine/sweep.py`). 서황은 긴자루 도끼 본(`engine/clips/poleaxe.py`)과 자루를 줄인 원화를 쓴다.
+- 여러 장수를 동시에 돌리는 법과 최종본을 올리는 순서는 `PIXELLAB-WORKFLOW.md`의 마지막 절에 있다.
+- 시뮬레이터(`simulator.cmd`)는 마지막 장수가 쓰러지는 것까지 보여 준 뒤 끝나고, 막힌 길은 돌아서 간다. 평타·전법 이펙트는 임시 도형이다.
+- 이펙트 제작 규격과 장수별 배정은 `EFFECT-GUIDE.md`, 시안은 `sim/effects.html`.

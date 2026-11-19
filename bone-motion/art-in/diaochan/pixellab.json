@@ -1,0 +1,103 @@
+{
+ "hero": "초선",
+ "family": "caster",
+ "description": "Diaochan, graceful chinese court lady in the supplied pixel art style. Black hair in two high buns with gold flower ornaments, a layered pink robe with long flowing sleeves and ribbons, a gold sash. She holds a small round fan in front of her chest",
+ "face": "A delicate gentle face.",
+ "rear_detail": "Seen from behind: the two black hair buns with gold ornaments, the pink robe with long ribbons at both sides. What she holds is in front of the body and hidden.",
+ "guard_action": "the right hand lifts what it holds up beside the right shoulder, the left hand lowers, the left foot settles half a step forward",
+ "actions": {
+  "idle": "Calm ready stance holding the small round fan up, breathing",
+  "move": "Brisk walk in place with small steps, robe swaying, small round fan held up, seamless loop. The last frame leads into the first, no pause",
+  "b1": "Upward flick. Frames 3-6 the knees bend and the small round fan is lowered in front; frames 7-8 the body straightens up tall and it is flicked from below to high above the head; frames 9-11 hold high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The small round fan stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a2": "Open-palm push. The small round fan stays at his right side. Frames 3-6 the empty LEFT hand draws back; frames 7-8 the left shoulder turns forward, body side-on, and the open left palm pushes straight out; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The small round fan stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b2": "Downward stroke. Frames 3-6 he stands tall and raises the small round fan above the head; frames 7-8 he drops into a deep knee bend and draws it straight down in front; frames 9-11 hold low. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The small round fan stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s4": "Pointing out the target. Frames 3-6 the small round fan is held to the chest; frames 7-8 the body turns side-on, a deep step, and the arm extends fully, pointing it at one spot; frames 9-12 hold; the left hand goes behind the back. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The small round fan stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 16,
+ "weapon_grip": 0,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    127,
+    160
+   ],
+   "weapon tip": [
+    127,
+    144
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    116,
+    160
+   ],
+   "weapon tip": [
+    114,
+    146
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    132,
+    160
+   ],
+   "weapon tip": [
+    132,
+    144
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "right sleeve",
+   "attach": "wrist.R",
+   "root": [
+    0,
+    -2,
+    -2
+   ],
+   "hang": [
+    0,
+    -3,
+    -18
+   ],
+   "sway": 1.5,
+   "lag": 0.4
+  },
+  {
+   "name": "left sleeve",
+   "attach": "wrist.L",
+   "root": [
+    0,
+    -2,
+    -2
+   ],
+   "hang": [
+    0,
+    -3,
+    -18
+   ],
+   "sway": 1.5,
+   "lag": 0.4
+  },
+  {
+   "name": "robe hem",
+   "attach": "pelvis",
+   "root": [
+    0,
+    -8,
+    -6
+   ],
+   "hang": [
+    0,
+    -5,
+    -34
+   ],
+   "sway": 1.5,
+   "lag": 0.3
+  }
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 b1 → a2 → b2, 전법 s4. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. "
+}

@@ -1,0 +1,70 @@
+{
+ "hero": "주창",
+ "family": "sword",
+ "description": "Zhou Cang, burly chinese fighter in the supplied pixel art style. A brown cloth head wrap with a tail, olive sleeves under tan lamellar armor, a brown sash, dark trousers and boots. He holds a broad curved saber in the right hand",
+ "face": "A big bushy black beard and heavy brows.",
+ "rear_detail": "Seen from behind: the brown head wrap with its tail, tan armor over olive sleeves, the curved saber at his right side.",
+ "guard_action": "the right hand lifts the sword up in front of the body, the left hand stays free as a guard, the left foot steps forward and the knees bend",
+ "actions": {
+  "idle": "One-handed sword fighting guard, breathing",
+  "move": "Seamless combat run in place carrying the sword, no attack. The last frame leads into the first, no pause",
+  "b1": "One level horizontal cut. Frames 1-5 the sword is taken far out to the right at chest height; frame 8 it cuts across level to the left; frames 9-11 follow through on the left. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The broad curved saber stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a2": "One rising cut from low to high. Frames 1-5 lower the sword and coil; frame 8 the upward cut lands; frames 9-11 the sword finishes high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The broad curved saber stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b3": "Leaping downward cut. Frames 1-4 crouch and raise the sword; frames 5-7 both feet leave the ground; frame 8 he lands cutting straight down; frames 9-11 absorb the landing. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The broad curved saber stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s5": "Standing guard. Frames 1-6 he steps to plant himself and brings the sword across in front as a barrier; frame 8 he braces low and firm; frames 9-12 hold. Nothing is struck. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The broad curved saber stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 42,
+ "weapon_grip": 6,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    97,
+    180
+   ],
+   "weapon tip": [
+    85,
+    220
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    106,
+    182
+   ],
+   "weapon tip": [
+    98,
+    220
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    156,
+    182
+   ],
+   "weapon tip": [
+    163,
+    218
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "headband tail",
+   "attach": "head",
+   "root": [
+    9,
+    -3,
+    5
+   ],
+   "hang": [
+    9,
+    -5,
+    -5
+   ],
+   "sway": 2.0
+  }
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 b1 → a2 → b3, 전법 s5. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. "
+}

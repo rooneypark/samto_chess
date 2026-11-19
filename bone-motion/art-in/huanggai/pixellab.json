@@ -1,0 +1,92 @@
+{
+ "hero": "황개",
+ "family": "flexible",
+ "description": "Huang Gai, tough old chinese veteran in the supplied pixel art style. White hair in a topknot with a red and white headband and tails, a bare scarred muscular torso, red waist armor with gold trim and a red loincloth, dark boots. He holds a heavy iron chain whip with a weighted ball hanging from the right hand",
+ "face": "A fierce old face with a big white beard.",
+ "rear_detail": "Seen from behind: the white topknot with the red headband tails, the bare scarred back, red waist armor, the iron chain hanging at his right side.",
+ "guard_action": "the right hand holds the weapon ready at the side, the left hand comes forward, the knees bend",
+ "actions": {
+  "idle": "Guard with a iron chain whip hanging from the right hand, breathing",
+  "move": "Seamless combat run in place carrying the iron chain whip, no attack. The last frame leads into the first, no pause",
+  "a2": "Rising lash. Frames 1-7 the iron chain whip trails low behind; frame 9 it is whipped up from below; frames 10-11 it arcs high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The iron chain whip stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b2": "Two lashes. Frames 1-6 wind up; frame 7 the first lash; frames 8-10 it swings back round; frame 11 the second lash. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The iron chain whip stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a3": "Downward lash. Frames 1-7 the iron chain whip is swung up over the head; frame 9 it is brought down hard; frames 10-11 hold low. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The iron chain whip stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s2": "Self-sacrifice. Frames 1-6 he bows his body and gathers the iron chain whip in; frame 8 he straightens with the arms spread, chest bared, enduring; frames 9-12 hold. Nothing is struck. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The iron chain whip stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 57,
+ "weapon_grip": 0,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    88,
+    158
+   ],
+   "weapon tip": [
+    80,
+    214
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    102,
+    165
+   ],
+   "weapon tip": [
+    97,
+    216
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    170,
+    160
+   ],
+   "weapon tip": [
+    172,
+    212
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "headband tail",
+   "attach": "head",
+   "root": [
+    9,
+    -3,
+    5
+   ],
+   "hang": [
+    9,
+    -5,
+    -5
+   ],
+   "sway": 2.0
+  },
+  {
+   "name": "sash ends",
+   "attach": "pelvis",
+   "root": [
+    0,
+    8,
+    -6
+   ],
+   "hang": [
+    0,
+    3,
+    -22
+   ],
+   "sway": 1.0,
+   "lag": 0.35
+  }
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 a2 → b2 → a3, 전법 s2. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. ",
+ "canvas_offset": {
+  "front": [
+   0,
+   -6
+  ]
+ }
+}

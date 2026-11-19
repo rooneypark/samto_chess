@@ -21,18 +21,27 @@ def build(mod):
     low = dict(pelvis=(0, -4, 40), hip_turn=16, chest_turn=28, chest_lean=0); lower = dict(pelvis=(0, -5, 39), hip_turn=18, chest_turn=32, chest_lean=-2)
     out_ = dict(pelvis=(0, 5, 41.2), hip_turn=0, chest_turn=-8, chest_lean=8); far = dict(pelvis=(0, 6, 41.4), hip_turn=-2, chest_turn=-11, chest_lean=10)
     DG = [100, 90, 90, 110, 120, 150, 55, 45, 80, 160, 100, 90, 90, 90, 100]; out = {}
-    def gesture(title, coil, fire, over, notes):
-        return clip(title, [(0, G, 'linear'), (3, F(G, *coil, **low), 'inout'), (5, F(G, *coil, **lower), 'out'), (7, F(G, *fire, **out_), 'snap'), (8, F(G, *over, **far), 'out'),
-                            (9, F(G, *fire, **out_), 'inout'), (11, F(G, (-16, 22, 62), (-10, 55), (10, 12, 46), pelvis=(0, 2, 42.3)), 'inout'), (14, G, 'inout')],
+    # 2026-11-19: the four small casts shared one body (sink a little, lean a little), so only a 24 px fan told them apart
+    # and variety.py measured them 5 to 8 px from each other. Each now has its own body: `wind` is the body while gathering,
+    # `send` the body on the release. A cast is read from the whole silhouette, not from the fan.
+    def gesture(title, coil, fire, over, notes, wind=None, send=None):
+        w1 = dict(low, **(wind or {})); w2 = dict(lower, **(wind or {})); s1 = dict(out_, **(send or {})); s2 = dict(far, **(send or {}))
+        if wind and 'pelvis' in wind: w2['pelvis'] = (wind['pelvis'][0], wind['pelvis'][1] - 1, wind['pelvis'][2] - 1)
+        if send and 'pelvis' in send: s2['pelvis'] = (send['pelvis'][0], send['pelvis'][1] + 1, send['pelvis'][2])
+        return clip(title, [(0, G, 'linear'), (3, F(G, *coil, **w1), 'inout'), (5, F(G, *coil, **w2), 'out'), (7, F(G, *fire, **s1), 'snap'), (8, F(G, *over, **s2), 'out'),
+                            (9, F(G, *fire, **s1), 'inout'), (11, F(G, (-16, 22, 62), (-10, 55), (10, 12, 46), pelvis=(0, 2, 42.3)), 'inout'), (14, G, 'inout')],
                     impact=8, event='발사', durations=DG, sheet=[0, 5, 7, 8, 9, 11], notes=notes)
     out['a1'] = gesture('A1 부채 튕기기', ((-10, 14, 58), (-40, 70), (10, 10, 48)), ((-10, 40, 66), (5, 10), (10, 12, 46)), ((-9, 42, 64), (5, 0), (10, 12, 46)),
                         '부채를 가슴으로 당겼다가 앞으로 짧게 튕긴다. 두 발은 제자리, 체중만 뒤에서 앞으로 넘어간다.')
     out['a2'] = gesture('A2 빈손 밀기', ((-18, 8, 60), (-30, 60), (6, 6, 54)), ((-20, 6, 58), (-40, 50), (8, 38, 62)), ((-20, 6, 58), (-42, 48), (8, 41, 62)),
-                        '부채는 몸 옆에 두고 빈 왼손바닥을 앞으로 밀어 낸다.')
-    out['b1'] = gesture('B1 올려 튕기기', ((-14, 16, 40), (0, -50), (10, 10, 46)), ((-12, 38, 74), (0, 60), (10, 12, 46)), ((-12, 38, 78), (-5, 75), (10, 12, 46)),
-                        '부채를 낮게 내렸다가 아래에서 위로 튕겨 올린다.')
-    out['b2'] = gesture('B2 내려 긋기', ((-16, 10, 84), (-10, 80), (10, 10, 48)), ((-10, 40, 52), (5, -30), (10, 12, 46)), ((-9, 40, 48), (5, -45), (10, 12, 46)),
-                        '부채를 머리 높이로 들었다가 위에서 아래로 긋는다.')
+                        '부채는 몸 옆에 두고, 왼쪽 어깨를 앞으로 돌리며 빈 왼손바닥을 길게 밀어 낸다. 몸이 옆으로 선다.',
+                        wind=dict(hip_turn=-6, chest_turn=-14, pelvis=(0, -5, 40)), send=dict(hip_turn=20, chest_turn=40, pelvis=(0, 8, 40.5), chest_lean=12))
+    out['b1'] = gesture('B1 올려 튕기기', ((-14, 16, 40), (0, -50), (10, 10, 46)), ((-12, 34, 84), (0, 70), (10, 10, 44)), ((-12, 33, 88), (-5, 82), (10, 10, 44)),
+                        '무릎을 굽혀 부채를 낮게 내렸다가, 몸을 곧게 펴 일어서며 아래에서 위로 높이 튕겨 올린다. 몸이 위로 솟는다.',
+                        wind=dict(pelvis=(0, -2, 36), chest_lean=14), send=dict(pelvis=(0, 2, 42.6), chest_lean=-8, chest_turn=-4))
+    out['b2'] = gesture('B2 내려 긋기', ((-16, 10, 84), (-10, 80), (10, 10, 48)), ((-10, 42, 38), (5, -40), (12, 14, 40)), ((-9, 42, 34), (5, -52), (12, 14, 38)),
+                        '몸을 세워 부채를 머리 위로 들었다가, 무릎을 깊이 굽혀 내려앉으며 위에서 아래로 긋는다. 몸이 아래로 꺼진다.',
+                        wind=dict(pelvis=(0, -3, 43), chest_lean=-8), send=dict(pelvis=(0, 6, 35), chest_lean=22, chest_turn=-14))
     feet = [('L', 'R')] * 6 + [('R',)] + [('L', 'R')] * 6 + [('R',), ('L', 'R')]
     def cast(title, gather, deep, stepping, release, over, hold, notes, durations=None, body=None, event='발동'):
         body = body or {}
@@ -59,7 +68,8 @@ def build(mod):
         impact=8, event='발동', durations=D_CAST, sheet=[0, 3, 5, 7, 10, 12], notes='화타, 순욱, 노숙. 두 손을 가슴 앞 낮은 곳에 모았다가 일어서며 좌우 위로 넓게 펼친다. 두 발은 제자리.')
     out['s4'] = cast('S4 지목', ((-4, 12, 60), (-30, 60), (12, 4, 46)), ((-4, 11, 60), (-34, 62), (12, 2, 46)), ((-6, 28, 66), (-10, 30), (12, 2, 46)),
                      ((-8, 50, 70), (4, -5), (12, 4, 46)), ((-8, 53, 70), (4, -8), (12, 2, 46)), ((-8, 49, 70), (4, -4), (12, 4, 46)),
-                     notes='곽가 십승십패, 초선. 부채를 가슴에 붙였다가 내딛으며 표적 한 점을 날카롭게 가리키고 오래 버틴다. 왼손은 뒤로 뺀다.')
+                     body=dict(hip_turn=-14, chest_turn=-52, chest_lean=16, pelvis=(0, 13, 40)),
+                     notes='곽가 십승십패, 초선. 부채를 가슴에 붙였다가, 몸을 옆으로 틀어 깊이 내딛으며 팔을 끝까지 뻗어 표적 한 점을 찌르듯 가리키고 오래 버틴다. 왼손은 뒤로 뺀다.')
     press = dict(pelvis=(0, 12, 34), chest_lean=26)
     out['s5'] = cast('S5 눌러 결속', ((-12, 12, 70), (-10, 70), (10, 10, 60)), ((-12, 10, 72), (-10, 74), (10, 8, 62)), ((-10, 26, 60), (0, 0), (10, 22, 54)),
                      ((-10, 44, 36), (5, -50), (10, 38, 34)), ((-10, 45, 33), (5, -55), (10, 39, 31)), ((-10, 44, 36), (5, -50), (10, 38, 34)), body=press,

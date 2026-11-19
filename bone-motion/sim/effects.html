@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>이펙트 시안</title>
+<style>
+  body { margin: 0; padding: 20px; background: #0e1622; color: #dbe4ee; font: 14px "Malgun Gothic", sans-serif; }
+  h1 { font-size: 20px; margin: 0 0 6px; } p { color: #93a4b8; margin: 0 0 14px; }
+  .bar { display: flex; gap: 10px; align-items: center; margin-bottom: 16px; flex-wrap: wrap; }
+  select, input { background: #1a2738; color: #dbe4ee; border: 1px solid #2c4058; border-radius: 4px; padding: 4px 8px; }
+  h2 { font-size: 16px; margin: 22px 0 10px; color: #f0dba4; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, 300px); gap: 12px; }
+  .cell { background: #132033; border: 1px solid #283d53; border-radius: 6px; padding: 8px; }
+  .cell b { font-size: 15px; } .cell small { color: #93a4b8; display: block; line-height: 1.5; }
+  canvas { display: block; background: #192a3c; border-radius: 4px; margin-bottom: 6px; }
+</style>
+</head>
+<body>
+<h1>이펙트 시안</h1>
+<p>회색 사람 모양 왼쪽이 쓰는 장수, 오른쪽이 맞는 대상입니다. 크기는 캐릭터 그림과 같은 배율(한 칸 100px)입니다. 그림은 모두 임시 도형입니다.</p>
+<div class="bar">
+  <label>색 <input type="color" id="col" value="#ffb07a"></label>
+  <label>속도 <select id="speed"><option value="1">1배</option><option value="0.5">0.5배</option><option value="0.25">0.25배</option></select></label>
+  <label>크기 <select id="mode"><option value="attack">평타 크기</option><option value="skill">전법 크기 (1.25배, 빛 번짐)</option></select></label>
+  <label><input type="checkbox" id="still"> 멈춰서 4장면으로 보기</label>
+</div>
+<div id="root"></div>
+<script src="effects.js"></script>
+<script>
+const F = window.SIM_FX, W = 284, H = 440, GROUND = 400;
+const GROUPS = [
+  ['근접 평타 (짧고 굵게)', ['jab', 'cut', 'chop', 'rise', 'thud', 'whip', 'cross', 'spark']],
+  ['원거리 평타', ['arrow', 'missile', 'orb', 'petal', 'needle', 'order']],
+  ['전법 공통', ['cast', 'burst']],
+  ['근접 전법', ['slash', 'pierce', 'dash', 'shock', 'spin', 'roar', 'shield', 'fury', 'flurry', 'blink', 'bind', 'drain', 'stun']],
+  ['책사·지원 전법', ['bolt', 'rock', 'ice', 'fire', 'wind', 'rune', 'chain', 'heal', 'aura']],
+];
+const SELF = new Set(['cast', 'spin', 'roar', 'shield', 'fury', 'heal', 'aura']);      // drawn on the one who uses them
+const QUICK = new Set(['jab', 'cut', 'chop', 'rise', 'thud', 'whip']);
+const cells = [];
+const root = document.getElementById('root');
+for (const [title, kinds] of GROUPS) {
+  const h = document.createElement('h2'); h.textContent = title; root.appendChild(h);
+  const grid = document.createElement('div'); grid.className = 'grid'; root.appendChild(grid);
+  for (const kind of kinds) {
+    const n = F.NOTES[kind], cell = document.createElement('div'); cell.className = 'cell';
+    const cv = document.createElement('canvas'); cv.width = W; cv.height = H; cell.appendChild(cv);
+    const info = document.createElement('div'); cell.appendChild(info);
+    grid.appendChild(cell); cells.push({ kind, cv, g: cv.getContext('2d'), info, n, e: null, wait: 0 });
+  }
+}
+function spec(kind) {
+  const s = { kind, col: document.getElementById('col').value };
+  if (QUICK.has(kind) || (kind === 'cross' && document.getElementById('mode').value === 'attack')) s.quick = true;
+  if (kind === 'arrow') s.n = 1;
+  return s;
+}
+function fresh(c) {
+  const self = SELF.has(c.kind), a = { px: self ? 0.5 : 0, py: 0 }, b = { px: self ? 0.5 : 1, py: 0 }, skill = document.getElementById('mode').value === 'skill';
+  c.e = F.make(spec(c.kind), a, b, [{ px: 0.2, py: 0 }, { px: 1, py: 0 }], skill); c.self = self;
+  c.info.innerHTML = `<b>${c.n[0]}</b> <small>${c.kind} · ${Math.round(c.e.dur)}ms · 권장 ${Math.max(3, Math.round(c.e.dur / 66))}장<br>쓰임: ${c.n[1]}<br>기준점: ${c.n[2]}<br>크기: ${c.n[3]}</small>`;
+}
+const at = (x, y) => [62 + x * 160, GROUND];
+function body(g, x, col) {      // a plain figure the height of the foot-soldier bone (124 px)
+  g.fillStyle = col; g.beginPath(); g.ellipse(x, GROUND, 24, 7, 0, 0, 7); g.globalAlpha = 0.35; g.fill(); g.globalAlpha = 1;
+  g.fillRect(x - 13, GROUND - 92, 26, 60); g.fillRect(x - 11, GROUND - 34, 9, 34); g.fillRect(x + 2, GROUND - 34, 9, 34); g.beginPath(); g.arc(x, GROUND - 108, 16, 0, 7); g.fill();
+}
+function paint(c, t) {
+  const g = c.g; g.clearRect(0, 0, W, H); g.strokeStyle = '#283d53'; g.beginPath(); g.moveTo(0, GROUND + 0.5); g.lineTo(W, GROUND + 0.5); g.stroke();
+  if (c.self) body(g, at(0.5)[0], '#5d6b7c'); else { body(g, at(0)[0], '#5d6b7c'); body(g, at(1)[0], '#7a5d62'); }
+  const e = { ...c.e, t }; F.draw(g, e, at);
+}
+let last = null;
+function tick(now) {
+  const dt = last === null ? 0 : Math.min(50, now - last) * Number(document.getElementById('speed').value); last = now;
+  const still = document.getElementById('still').checked;
+  for (const c of cells) {
+    if (!c.e) fresh(c);
+    if (still) { const k = [0.15, 0.4, 0.65, 0.9][Math.floor(now / 900) % 4]; paint(c, c.e.dur * k); continue; }
+    if (c.wait > 0) { c.wait -= dt; paint(c, c.e.dur); if (c.wait <= 0) fresh(c); continue; }
+    c.e.t += dt; if (c.e.t >= c.e.dur) { c.wait = 450; } paint(c, Math.min(c.e.t, c.e.dur));
+  }
+  requestAnimationFrame(tick);
+}
+for (const id of ['col', 'mode']) document.getElementById(id).onchange = () => cells.forEach(fresh);
+requestAnimationFrame(tick);
+</script>
+</body>
+</html>

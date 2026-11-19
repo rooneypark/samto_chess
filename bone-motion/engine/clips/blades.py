@@ -52,13 +52,22 @@ def blade_set(mod, key, reach):
         (8, K(OVER, (-14, 60, 80), (-25, 70), pelvis=(-2, 28, 43), chest_lean=6), 'out'), (10, K(SET, (-15, 58, 82), (-28, 74), pelvis=(-2, 27, 42), chest_lean=8), 'inout'),
         (12, K(PULL, (-18, 36, 62), (-10, 50)), 'inout'), (13, BACK, 'inout'), (14, G, 'out')], support=sup(air_R=(6, 13)), durations=D_SKILL, sheet=[0, 5, 6, 7, 10, 12],
         notes='무릎을 깊이 접고 검을 몸 뒤 아래에 숨겼다가, 다리부터 펴며 아래에서 위로 가른다. 타격 뒤 몸이 솟는다.')
-    # 강한 대각 내려베기 (선봉 불퇴, 관문의 맹장, 선봉 돌파)
-    out['cleave'] = clip('강한 대각 내려베기', [(0, G, 'linear'), (2, LIFT, 'inout'),
+    # 막고 받아치기 (선봉 불퇴, 관문의 맹장, 선봉 돌파). Until 2026-11-19 this was 강한 대각 내려베기, which variety.py measured 2.6 px
+    # from the basic A1: the same cut, bigger. A skill must not be a basic attack played larger. Every other cut of this
+    # set comes from the right; this one blocks first, then cuts BACKHAND from the left side across to the right.
+    block = lambda pz, z, lean: K(G, (-7, 27, z), (72, 10), pelvis=(0, -3, pz), hip_turn=9, chest_turn=12, chest_lean=lean)
+    out['cleave'] = clip('막고 받아치기', [(0, G, 'linear'), (2, block(40, 62, 8), 'inout'), (4, block(36.5, 64, 12), 'inout'), (5, block(36, 64.5, 13), 'inout'),
+        (6, K(STEP, (10, 26, 55), (125, 4), chest_turn=30), 'in'), (7, K(HIT, at(-15, 0), (-15, 0), pelvis=(-2, 28, 36), chest_lean=28), 'snap'),
+        (8, K(OVER, (-22, 60, 48), (-70, 4), pelvis=(-2, 28, 36)), 'out'), (10, K(SET, (-24, 54, 50), (-80, 8)), 'inout'),
+        (12, PULL, 'inout'), (13, BACK, 'inout'), (14, G, 'out')], support=sup(air_R=(6, 13)), durations=D_SKILL, sheet=[0, 4, 6, 7, 8, 10],
+        notes='검을 몸 앞에 가로로 세워 막으며 무릎을 낮춘다(3~6번). 막은 검을 왼쪽 허리로 돌렸다가, 내딛으며 왼쪽에서 오른쪽으로 되받아 벤다(8번). 다른 베기와 방향이 반대다.')
+    # 깊이 내려찍기: the old strong diagonal cut, kept for 감녕's sickle (it is a hooking chop there, not a sword skill)
+    out['chop'] = clip('깊이 내려찍기', [(0, G, 'linear'), (2, LIFT, 'inout'),
         (4, K(COIL, (-25, -16, 86), (8, 120), pelvis=(-2, -10, 38)), 'inout'), (5, K(COIL, (-25, -17, 87), (8, 123), pelvis=(-2, -11, 37.5)), 'out'),
         (6, STEP, 'in'), (7, K(HIT, at(8, -25), (8, -25), pelvis=(-2, 27, 35), chest_lean=26), 'snap'),
         (8, K(OVER, (6, 62, 38), (45, -50), pelvis=(-2, 28, 34), chest_lean=30), 'out'), (10, K(SET, (2, 60, 42), (38, -42), pelvis=(-2, 27, 35.5), chest_lean=26), 'inout'),
         (12, PULL, 'inout'), (13, BACK, 'inout'), (14, G, 'out')], support=sup(air_R=(6, 13)), durations=D_SKILL, sheet=[0, 5, 6, 7, 10, 12],
-        notes='평타와 같은 오른쪽 위에서 왼쪽 아래 방향이지만 더 높이 들고 더 낮게 내려앉으며 깊게 벤다.')
+        notes='오른쪽 위로 높이 들었다가 깊이 내려앉으며 찍는다.')
     # 낮은 수평 휩쓸기 (설중분단, 폭정)
     out['sweep'] = clip('낮은 수평 휩쓸기', [(0, G, 'linear'),
         (3, K(COIL, (-30, -8, 48), (-100, 0), pelvis=(-2, -9, 35)), 'inout'), (5, K(COIL, (-31, -10, 47), (-110, 0), pelvis=(-3, -11, 33)), 'inout'),

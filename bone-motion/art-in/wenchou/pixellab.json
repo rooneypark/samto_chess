@@ -1,0 +1,101 @@
+{
+ "hero": "문추",
+ "family": "foot_spear",
+ "description": "Wen Chou, heavy-set chinese general in the supplied pixel art style. A bronze helmet with an orange plume, an orange scarf, black armor with gold trim, a maroon waist cloth, dark boots. He holds a long spear with a silver blade",
+ "face": "A hard face with a dark beard.",
+ "rear_detail": "Seen from behind: the bronze helmet with the orange plume, the orange scarf, black armor with gold trim, the spear at his right side.",
+ "guard_action": "both hands take the spear and bring it to a ready angle at the right side, the left foot steps forward and the knees bend",
+ "actions": {
+  "idle": "Spearman fighting guard, spear held in both hands, breathing",
+  "move": "Seamless combat run in place carrying the spear, no attack. The last frame leads into the first, no pause",
+  "b1": "HORIZONTAL spear sweep, feet planted. Frames 2-6 the whole upper body winds far to the right with the spear held level; frames 7-8 the spear swings around from the side to the front in a wide flat arc; frames 9-11 hold in front. The spear travels sideways, not a thrust. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b2": "VERTICAL overhead spear strike. Frames 3-6 both hands raise the spear straight up above the head, pointing at the sky; frames 7-8 it is brought down from above onto the target; frames 9-11 hold with the tip low. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b3": "RISING spear strike. Frames 3-6 the spear tip drops low in front and the knees bend; frames 7-8 the tip scoops up from below through the target; frame 9 it finishes high; frames 10-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s5": "Pursuit, two thrusts. Frames 1-5 draw back; frame 6 a full thrust; frames 7-9 half a withdrawal; frame 10 a second faster thrust; frames 11-12 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 160,
+ "weapon_grip": 34,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    87,
+    222
+   ],
+   "weapon tip": [
+    87,
+    62
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    98,
+    214
+   ],
+   "weapon tip": [
+    98,
+    74
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    166,
+    214
+   ],
+   "weapon tip": [
+    166,
+    60
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "helmet plume",
+   "attach": "head",
+   "root": [
+    0,
+    -2,
+    16
+   ],
+   "hang": [
+    0,
+    -9,
+    2
+   ],
+   "sway": 1.0
+  },
+  {
+   "name": "sash ends",
+   "attach": "pelvis",
+   "root": [
+    0,
+    8,
+    -6
+   ],
+   "hang": [
+    0,
+    3,
+    -22
+   ],
+   "sway": 1.0,
+   "lag": 0.35
+  }
+ ],
+ "variety_ok": "올려치기(b3)와 이단 찌르기(s5)가 8.8px로 기준 9px에 0.2 모자란다. 모양이 다른 동작이라 통과시킨다.",
+ "notes": "2026-11-19 make_configs.py. 평타 b1 → b2 → b3, 전법 s5. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. ",
+ "canvas_offset": {
+  "front": [
+   5,
+   -10
+  ],
+  "left": [
+   16,
+   0
+  ],
+  "rear": [
+   -5,
+   0
+  ]
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "hero": "요화",
+ "family": "sword",
+ "description": "Liao Hua, sturdy veteran chinese soldier in the supplied pixel art style, green cloth head wrap with two short knot tails on his left side, grey hair, green hooded cape over brown lamellar armor with tan trim, tan trousers, dark boots, one curved single-edged saber in the right hand, left hand empty",
+ "face": "Grey beard and thick grey eyebrows, stern eyes.",
+ "rear_detail": "Seen from behind: the back of the green head wrap with grey hair under it, the knot tails on his left, and the green cape covering the back down to the calves.",
+ "guard_action": "the right hand lifts the saber up in front of the body, the left hand stays free as a guard, the left foot steps forward and the knees bend",
+ "actions": {
+  "idle": "Fighting guard with a one-handed saber, breathing",
+  "move": "Seamless combat run in place, two alternating steps over 15 frames, carrying the saber in the right hand, no attack. The last frame leads into the first, no pause",
+  "a1": "One diagonal downward saber cut. Frames 1-5 raise the saber and wind up, frame 8 the cut lands, frames 9-11 follow through. Frames 12-15 return to the supplied guard pose; the last pose matches the first. Follow the skeleton. Keep the saber rigid and the same size, gripped in the right hand the whole time. No weapon stretching, no teleport",
+  "a2": "One rising saber cut from low to high. Frames 1-5 lower the saber and coil, frame 8 the upward cut lands, frames 9-11 follow through. Frames 12-15 return to the supplied guard pose; the last pose matches the first. Follow the skeleton. Keep the saber rigid and the same size, gripped in the right hand the whole time. No weapon stretching, no teleport",
+  "b3": "One leaping downward saber cut. Frames 1-5 crouch and raise the saber, frames 6-7 leap, frame 8 the cut lands with the feet, frames 9-11 absorb the landing. Frames 12-15 return to the supplied guard pose; the last pose matches the first. Follow the skeleton. Keep the saber rigid and the same size, gripped in the right hand the whole time. No weapon stretching, no teleport",
+  "s2": "One heavy diagonal downward saber cut with the whole body. Frames 1-6 big wind-up with the saber high behind the shoulder, frame 8 the cut lands low, frames 9-11 hold the follow-through. Frames 12-15 return to the supplied guard pose; the last pose matches the first. Follow the skeleton. Keep the saber rigid and the same size, gripped in the right hand the whole time. No weapon stretching, no teleport"
+ },
+ "weapon_length": 50,
+ "weapon_grip": 6,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    90,
+    171
+   ],
+   "weapon tip": [
+    81,
+    221
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    113,
+    172
+   ],
+   "weapon tip": [
+    98,
+    220
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    160,
+    172
+   ],
+   "weapon tip": [
+    167,
+    212
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "head wrap tail",
+   "attach": "head",
+   "root": [
+    9,
+    -2,
+    5
+   ],
+   "hang": [
+    8,
+    -4,
+    -5
+   ],
+   "sway": 2.0
+  },
+  {
+   "name": "cape hem",
+   "attach": "neck",
+   "root": [
+    0,
+    -7,
+    -4
+   ],
+   "hang": [
+    0,
+    -7,
+    -44
+   ],
+   "sway": 0.8,
+   "lag": 0.3
+  }
+ ],
+ "notes": "2026-11-19 첫 시험 장수. 평타 a1 → a2 → b3, 전법 s2. 무기 좌표는 256 원화에서 눈으로 잰 값(±2px). 대기에서 망토가 너무 크게 움직였다(사용자 지적 2026-11-19): 망토 sway를 2.5→0.8로 줄이고 대기 문구를 \"호흡에 맞춰 조금만\"으로 바꿨다. 다음 대기 생성부터 적용.",
+ "actions_left": {
+  "move": "Seamless combat run in place, two alternating steps over 15 frames, carrying the saber in the right hand, no attack. The last frame leads into the first, no pause The saber is held in the far right hand but its blade must stay clearly visible, drawn in front of or beyond the body outline, never hidden behind the torso or head",
+  "a1": "One diagonal downward saber cut. Frames 1-5 raise the saber and wind up, frame 8 the cut lands, frames 9-11 follow through. Frames 12-15 return to the supplied guard pose; the last pose matches the first. Follow the skeleton. Keep the saber rigid and the same size, gripped in the right hand the whole time. No weapon stretching, no teleport The saber is held in the far right hand but its blade must stay clearly visible, drawn in front of or beyond the body outline, never hidden behind the torso or head",
+  "a2": "One rising saber cut from low to high. Frames 1-5 lower the saber and coil, frame 8 the upward cut lands, frames 9-11 follow through. Frames 12-15 return to the supplied guard pose; the last pose matches the first. Follow the skeleton. Keep the saber rigid and the same size, gripped in the right hand the whole time. No weapon stretching, no teleport The saber is held in the far right hand but its blade must stay clearly visible, drawn in front of or beyond the body outline, never hidden behind the torso or head",
+  "b3": "One leaping downward saber cut. Frames 1-5 crouch and raise the saber, frames 6-7 leap, frame 8 the cut lands with the feet, frames 9-11 absorb the landing. Frames 12-15 return to the supplied guard pose; the last pose matches the first. Follow the skeleton. Keep the saber rigid and the same size, gripped in the right hand the whole time. No weapon stretching, no teleport The saber is held in the far right hand but its blade must stay clearly visible, drawn in front of or beyond the body outline, never hidden behind the torso or head",
+  "s2": "One heavy diagonal downward saber cut with the whole body. Frames 1-6 big wind-up with the saber high behind the shoulder, frame 8 the cut lands low, frames 9-11 hold the follow-through. Frames 12-15 return to the supplied guard pose; the last pose matches the first. Follow the skeleton. Keep the saber rigid and the same size, gripped in the right hand the whole time. No weapon stretching, no teleport The saber is held in the far right hand but its blade must stay clearly visible, drawn in front of or beyond the body outline, never hidden behind the torso or head"
+ }
+}

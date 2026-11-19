@@ -1,0 +1,86 @@
+{
+ "hero": "황충",
+ "family": "bow",
+ "description": "Huang Zhong, sturdy old chinese general in the supplied pixel art style. Bronze helmet with a red plume, red and gold lamellar armor, long green cape, dark trousers and brown boots, a quiver of white-fletched arrows on his back. He holds a large brown recurve bow in the left hand",
+ "face": "Old weathered face with a long white beard and white eyebrows.",
+ "rear_detail": "Seen from behind: the back of the bronze helmet with the red plume, the green cape covering the back, and the quiver of arrows on the right shoulder. The bow is at his left side.",
+ "guard_action": "the left hand raises the bow in front of the body, the right hand comes to the string, the feet take an archer stance",
+ "actions": {
+  "idle": "Archer ready stance, bow held in front in the left hand, breathing",
+  "move": "Seamless combat run in place carrying the bow in the left hand, no shooting. The last frame leads into the first, no pause",
+  "a1": "One arrow shot. Frames 1-5 the bow is raised level and the right hand draws the string back to full draw; frame 8 the string is released; frames 9-11 the bow arm stays out, the right hand stays back. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bow stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a2": "High shot. Frames 1-5 the bow is lifted high, level with the head and drawn, aiming from above downward; frame 8 release; frames 9-11 follow through. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bow stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a3": "Low shot. Frames 1-5 he bends the knees deeply, lowering the whole body, and draws the bow on a low flat line; frame 8 release; frames 9-11 hold low. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bow stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s1": "One perfect shot. Frames 1-6 the bow is raised higher than usual, the weight settles on the back leg and the string is drawn very deep with the back, then one held breath; frame 8 a single release; frames 9-12 a long still follow-through. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bow stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 70,
+ "weapon_grip": 35,
+ "weapon_mode": "bone",
+ "rear_hand": "L",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    158,
+    205
+   ],
+   "weapon tip": [
+    163,
+    131
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    97,
+    207
+   ],
+   "weapon tip": [
+    98,
+    133
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    95,
+    212
+   ],
+   "weapon tip": [
+    97,
+    125
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "cape hem",
+   "attach": "neck",
+   "root": [
+    0,
+    -7,
+    -4
+   ],
+   "hang": [
+    0,
+    -7,
+    -42
+   ],
+   "sway": 1.5,
+   "lag": 0.3
+  },
+  {
+   "name": "helmet plume",
+   "attach": "head",
+   "root": [
+    0,
+    -2,
+    16
+   ],
+   "hang": [
+    0,
+    -9,
+    2
+   ],
+   "sway": 1.0
+  }
+ ],
+ "notes": "2026-11-19. 평타 a1 → a2 → a3, 전법 s1. 궁은 쏘는 동작이 서로 비슷하고 화살 이펙트로 차이를 낸다(사용자 결정). 활 좌표는 원화에서 눈으로 잰 값(±2px)."
+}

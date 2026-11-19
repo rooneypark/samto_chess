@@ -16,7 +16,7 @@ def build(mod):
     moves, K, at = blade_set(mod, 'swordR', 30.0); G, LIFT, COIL, STEP, HIT, OVER, SET, PULL, BACK = (mod.GUARD, mod.A1_LIFT, mod.A1_COIL, mod.A1_STEP, mod.A1_HIT, mod.A1_OVER, mod.A1_SETTLE, mod.A1_PULL, mod.A1_BACK)
     def named(m, title, who=''): d = dict(moves[m]); d['title'] = title; d['notes'] = (who + ' ' if who else '') + d['notes'] + ' 왼 검은 가슴 앞에서 받친다.'; return d
     out = {'a2': named('rise', 'A2 올려베기'), 'b1': named('level', 'B1 수평 베기'), 'b2': named('double', 'B2 찌르고 올려베기'), 'b3': named('leap', 'B3 도약 내려베기'),
-           's4': named('ambush', 'S4 낮게 숨겼다 올려베기', '공용 전법.'), 's5': named('cleave', 'S5 강한 대각 내려베기', '공용 전법.'), 's6': named('spin', 'S6 돌아 베기', '공용 전법.')}
+           's4': named('ambush', 'S4 낮게 숨겼다 올려베기', '공용 전법.'), 's5': named('cleave', 'S5 막고 받아치기', '공용 전법.'), 's6': named('spin', 'S6 돌아 베기', '공용 전법.')}
     def B(base, r, ra, l, la, **kw):
         d = dict(base); d.update(swordR=r, swordR_aim=ra, swordL=l, swordL_aim=la); d.update(kw); return d
 

@@ -1,0 +1,119 @@
+{
+ "hero": "사마의",
+ "family": "caster",
+ "description": "Sima Yi, gaunt chinese strategist in the supplied pixel art style. Tall black scholar hat, long black robe with a wide white collar, dull purple trim and long hanging sleeves, black shoes. He holds a dark grey feather fan in the right hand",
+ "face": "Cold narrow eyes, thin moustache and a long thin grey-black beard.",
+ "rear_detail": "Seen from behind: the back of the tall black hat, the white collar across the shoulders, the plain long black robe with purple trim at the hem. The fan is in front of the body and mostly hidden.",
+ "guard_action": "the right hand lifts the feather fan up beside the right shoulder, the left hand lowers, the left foot settles half a step forward",
+ "actions": {
+  "idle": "Calm ready stance holding the feather fan up, breathing",
+  "move": "Brisk walk in place with small steps, robe swaying, fan held up, seamless loop. The last frame leads into the first, no pause",
+  "b1": "Upward flick of the fan. Frames 3-6 the knees bend and the fan is lowered in front; frames 7-8 the body straightens up tall and the fan is flicked from below to high above the head; frames 9-11 hold with the fan high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The feather fan stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a2": "Open-palm push. The fan stays at his right side. Frames 3-6 he draws the empty LEFT hand back; frames 7-8 he turns his left shoulder forward, standing side-on, and pushes the open left palm straight out in front; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The feather fan stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b3": "Two-handed push. Frames 3-6 both hands gather in front of the chest, the fan between them; frame 7 the left foot steps forward; frame 8 both hands push straight out in front together; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The feather fan stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s2": "Calling down lightning. Frames 1-6 he raises the fan straight up high above his head and holds it there; frame 7 he steps forward; frame 8 he drops his body low and strikes the fan down from above in front of him, the fan clearly visible in the right hand; frames 9-12 hold low. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The feather fan stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 24,
+ "weapon_grip": 0,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    127,
+    172
+   ],
+   "weapon tip": [
+    128,
+    148
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    112,
+    172
+   ],
+   "weapon tip": [
+    106,
+    146
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    133,
+    170
+   ],
+   "weapon tip": [
+    131,
+    146
+   ]
+  }
+ },
+ "cloth_rgb": [
+  [
+   [
+    20,
+    60
+   ],
+   [
+    20,
+    60
+   ],
+   [
+    25,
+    75
+   ]
+  ]
+ ],
+ "streamers": [
+  {
+   "name": "right sleeve",
+   "attach": "wrist.R",
+   "root": [
+    0,
+    -2,
+    -2
+   ],
+   "hang": [
+    0,
+    -3,
+    -18
+   ],
+   "sway": 1.5,
+   "lag": 0.4
+  },
+  {
+   "name": "left sleeve",
+   "attach": "wrist.L",
+   "root": [
+    0,
+    -2,
+    -2
+   ],
+   "hang": [
+    0,
+    -3,
+    -18
+   ],
+   "sway": 1.5,
+   "lag": 0.4
+  },
+  {
+   "name": "robe hem",
+   "attach": "pelvis",
+   "root": [
+    0,
+    -8,
+    -6
+   ],
+   "hang": [
+    0,
+    -5,
+    -34
+   ],
+   "sway": 1.5,
+   "lag": 0.3
+  }
+ ],
+ "notes": "2026-11-19. 평타 b1(올려 튕기기) → a2(빈손 밀기) → b3(두 손 모아 밀기), 전법 s2(내려 부르기). 부채 좌표는 원화에서 눈으로 잰 값(±2px), 후면은 추정."
+}

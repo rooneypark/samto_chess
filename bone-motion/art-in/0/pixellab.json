@@ -1,0 +1,71 @@
+{
+ "hero": "유비",
+ "family": "dual",
+ "description": "Liu Bei, dignified chinese lord in the supplied pixel art style. Black hair in a topknot with a small gold crown, long green cape with gold shoulder plates, white and gold robe over armor, dark boots. He holds a straight sword in each hand",
+ "face": "Kind steady eyes, a thin black moustache and a short beard.",
+ "rear_detail": "Seen from behind: black hair with the gold crown, the long green cape with gold shoulder plates covering the back, a sword at each side.",
+ "guard_action": "both hands lift their weapons up in front of the body, the left foot steps forward and the knees bend",
+ "actions": {
+  "idle": "Twin-weapon fighting guard, one weapon in each hand, breathing",
+  "move": "Seamless combat run in place with a weapon in each hand, no attack. The last frame leads into the first, no pause",
+  "b1": "Two cuts, right then left. Frames 1-5 wind up; frame 7 the right weapon cuts; frame 9 the left weapon cuts; frames 10-11 follow through. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The twin swords stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a2": "Rising right-hand cut, left weapon blocking low. Frames 1-5 the right weapon drops low; frame 8 it cuts upward while the left weapon guards low; frames 9-11 finish high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The twin swords stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b3": "Leaping double downward cut. Frames 1-4 crouch; frames 5-7 both feet leave the ground with both weapons raised; frame 8 he lands cutting down with both; frames 9-11 absorb the landing. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The twin swords stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s1": "Benevolent rally. Frames 1-6 both weapons are lowered and gathered in front; frame 8 he lifts both weapons up and outward in an open raising gesture; frames 9-12 hold. Nothing is struck. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The twin swords stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 42,
+ "weapon_grip": 6,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    96,
+    178
+   ],
+   "weapon tip": [
+    92,
+    217
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    104,
+    172
+   ],
+   "weapon tip": [
+    103,
+    214
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    166,
+    178
+   ],
+   "weapon tip": [
+    172,
+    214
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "cape hem",
+   "attach": "neck",
+   "root": [
+    0,
+    -7,
+    -4
+   ],
+   "hang": [
+    0,
+    -7,
+    -42
+   ],
+   "sway": 1.5,
+   "lag": 0.3
+  }
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 b1 → a2 → b3, 전법 s1. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. "
+}

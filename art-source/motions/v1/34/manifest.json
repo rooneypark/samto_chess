@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "id": "34",
+ "name": "장료",
+ "family": "mounted_blade",
+ "reviewStatus": "in_simulator_for_review",
+ "canvas": [
+  256,
+  256
+ ],
+ "attacks": [
+  "a1",
+  "b1",
+  "a3"
+ ],
+ "skill": "s2",
+ "skillName": "급습",
+ "clips": {
+  "idle": {
+   "front": "art-source/motions/v1/34/final/idle/front/manifest.json",
+   "left": "art-source/motions/v1/34/final/idle/left/manifest.json",
+   "rear": "art-source/motions/v1/34/final/idle/rear/manifest.json"
+  },
+  "move": {
+   "front": "art-source/motions/v1/34/final/move/front/manifest.json",
+   "left": "art-source/motions/v1/34/final/move/left/manifest.json",
+   "rear": "art-source/motions/v1/34/final/move/rear/manifest.json"
+  },
+  "a1": {
+   "front": "art-source/motions/v1/34/final/a1/front/manifest.json",
+   "left": "art-source/motions/v1/34/final/a1/left/manifest.json",
+   "rear": "art-source/motions/v1/34/final/a1/rear/manifest.json"
+  },
+  "b1": {
+   "front": "art-source/motions/v1/34/final/b1/front/manifest.json",
+   "left": "art-source/motions/v1/34/final/b1/left/manifest.json",
+   "rear": "art-source/motions/v1/34/final/b1/rear/manifest.json"
+  },
+  "a3": {
+   "front": "art-source/motions/v1/34/final/a3/front/manifest.json",
+   "left": "art-source/motions/v1/34/final/a3/left/manifest.json",
+   "rear": "art-source/motions/v1/34/final/a3/rear/manifest.json"
+  },
+  "s2": {
+   "front": "art-source/motions/v1/34/final/s2/front/manifest.json",
+   "left": "art-source/motions/v1/34/final/s2/left/manifest.json",
+   "rear": "art-source/motions/v1/34/final/s2/rear/manifest.json"
+  }
+ },
+ "finalized": "2026-11-19"
+}

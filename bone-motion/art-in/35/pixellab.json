@@ -1,0 +1,122 @@
+{
+ "hero": "제갈량",
+ "family": "caster",
+ "description": "Zhuge Liang, slender chinese strategist in the supplied pixel art style. Tall dark blue scholar's hat with a small white jewel, long cream-white robe with wide hanging sleeves, pale green trim, a green sash tied at the waist with long ends hanging down the front, white shoes. He holds a white crane-feather fan in the right hand",
+ "face": "Calm narrow eyes, thin black moustache and a small pointed black beard.",
+ "rear_detail": "Seen from behind: the back of the tall dark blue hat with black hair under it, the plain cream robe with a green sash across the back and its ends hanging down, wide sleeves at both sides. The fan is in front of the body and mostly hidden.",
+ "guard_action": "the right hand lifts the feather fan up beside the right shoulder, the left hand lowers, the left foot settles half a step forward",
+ "actions": {
+  "idle": "Calm ready stance holding the feather fan up, breathing",
+  "move": "Brisk walk in place with small steps, robe swaying, fan held up, seamless loop. The last frame leads into the first, no pause",
+  "b1": "Upward flick of the fan. Frames 3-6 the knees bend and the fan is lowered in front; frames 7-8 the body straightens up tall and the fan is flicked from below to high above the head; frames 9-11 hold with the fan high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The fan keeps its size and shape and stays in the right hand",
+  "a2": "Open-palm push. The fan stays at his right side. Frames 3-6 he draws the empty LEFT hand back; frames 7-8 he turns his left shoulder forward, standing side-on, and pushes the open left palm straight out in front; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The fan keeps its size and shape and stays in the right hand",
+  "b2": "Downward stroke of the fan. Frames 3-6 he stands tall and raises the fan above his head; frames 7-8 he drops into a deep knee bend and draws the fan straight down in front; frames 9-11 hold low. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The fan keeps its size and shape and stays in the right hand",
+  "s1": "Grand stratagem. Frames 3-6 he sinks low and winds back, fan gathered down beside the right hip; frame 7 the left foot steps forward; frame 8 he sweeps the fan forward and up in one large commanding gesture, arm fully extended; frames 9-12 hold the pose. Frames 13-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The fan keeps its size and shape and stays in the right hand"
+ },
+ "weapon_length": 24,
+ "weapon_grip": 0,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    118,
+    170
+   ],
+   "weapon tip": [
+    122,
+    148
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    114,
+    169
+   ],
+   "weapon tip": [
+    113,
+    148
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    133,
+    168
+   ],
+   "weapon tip": [
+    131,
+    148
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "right sleeve",
+   "attach": "wrist.R",
+   "root": [
+    0,
+    -2,
+    -2
+   ],
+   "hang": [
+    0,
+    -3,
+    -18
+   ],
+   "sway": 1.5,
+   "lag": 0.4
+  },
+  {
+   "name": "left sleeve",
+   "attach": "wrist.L",
+   "root": [
+    0,
+    -2,
+    -2
+   ],
+   "hang": [
+    0,
+    -3,
+    -18
+   ],
+   "sway": 1.5,
+   "lag": 0.4
+  },
+  {
+   "name": "robe hem",
+   "attach": "pelvis",
+   "root": [
+    0,
+    -8,
+    -6
+   ],
+   "hang": [
+    0,
+    -5,
+    -34
+   ],
+   "sway": 1.5,
+   "lag": 0.3
+  }
+ ],
+ "notes": "2026-11-19. 평타 b1(올려 튕기기) → a2(빈손 밀기) → b2(내려 긋기), 전법 s1(대계). 부채 좌표는 원화에서 눈으로 잰 값(±2px), 후면은 몸에 가려 추정. 날리는 천은 긴 소매 둘과 도포 자락.",
+ "cloth_rgb": [
+  [
+   [
+    205,
+    245
+   ],
+   [
+    195,
+    240
+   ],
+   [
+    170,
+    228
+   ]
+  ]
+ ],
+ "actions_left": {
+  "s1": "Grand stratagem. Frames 3-6 he sinks low and winds back, fan gathered down beside the right hip; frame 7 the left foot steps forward; frame 8 he sweeps the fan forward and up in one large commanding gesture, arm fully extended; frames 9-12 hold the pose. Frames 13-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The fan keeps its size and shape and stays in the right hand The white feather fan is ALWAYS visible in the right hand: during frames 8-10 the right arm is fully extended forward and the fan is at the end of it, pointing forward and up. Never draw the right hand empty."
+ }
+}

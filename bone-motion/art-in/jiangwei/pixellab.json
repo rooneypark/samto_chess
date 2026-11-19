@@ -1,0 +1,84 @@
+{
+ "hero": "강유",
+ "family": "foot_spear",
+ "description": "Jiang Wei, young upright chinese general in the supplied pixel art style. Black hair in a bun with a green headband and long green tails, silver lamellar armor over white and green cloth, a white scarf, dark boots. He holds a long spear with a silver leaf-shaped blade",
+ "face": "A clear earnest young face, no beard.",
+ "rear_detail": "Seen from behind: the black hair bun with the green headband tails, silver armor, white and green cloth, the spear at his right side.",
+ "guard_action": "both hands take the spear and bring it to a ready angle at the right side, the left foot steps forward and the knees bend",
+ "actions": {
+  "idle": "Spearman fighting guard, spear held in both hands, breathing",
+  "move": "Seamless combat run in place carrying the spear, no attack. The last frame leads into the first, no pause",
+  "b1": "HORIZONTAL spear sweep, feet planted. Frames 2-6 the whole upper body winds far to the right with the spear held level; frames 7-8 the spear swings around from the side to the front in a wide flat arc; frames 9-11 hold in front. The spear travels sideways, not a thrust. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b2": "VERTICAL overhead spear strike. Frames 3-6 both hands raise the spear straight up above the head, pointing at the sky; frames 7-8 it is brought down from above onto the target; frames 9-11 hold with the tip low. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a3": "Leaping downward spear strike. Frames 1-4 he sinks; frames 5-7 both feet leave the ground with the spear over the right shoulder; frame 8 he lands driving the spear down; frames 9-11 absorb the landing. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s3": "Northern campaign thrust. Frames 1-6 he sinks very low with the spear below the guard line; frame 8 one big rising thrust up into chest height; frames 9-12 hold the reach. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 160,
+ "weapon_grip": 34,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    92,
+    222
+   ],
+   "weapon tip": [
+    92,
+    62
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    105,
+    212
+   ],
+   "weapon tip": [
+    105,
+    58
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    160,
+    218
+   ],
+   "weapon tip": [
+    160,
+    68
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "headband tail",
+   "attach": "head",
+   "root": [
+    9,
+    -3,
+    5
+   ],
+   "hang": [
+    9,
+    -5,
+    -5
+   ],
+   "sway": 2.0
+  }
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 b1 → b2 → a3, 전법 s3. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. ",
+ "canvas_offset": {
+  "front": [
+   5,
+   0
+  ],
+  "left": [
+   14,
+   0
+  ],
+  "rear": [
+   -5,
+   0
+  ]
+ }
+}

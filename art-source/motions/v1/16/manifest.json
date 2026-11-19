@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "id": "16",
+ "name": "황충",
+ "family": "bow",
+ "reviewStatus": "in_simulator_for_review",
+ "canvas": [
+  256,
+  256
+ ],
+ "attacks": [
+  "a1",
+  "a2",
+  "a3"
+ ],
+ "skill": "s1",
+ "skillName": "백발백중",
+ "clips": {
+  "idle": {
+   "front": "art-source/motions/v1/16/final/idle/front/manifest.json",
+   "left": "art-source/motions/v1/16/final/idle/left/manifest.json",
+   "rear": "art-source/motions/v1/16/final/idle/rear/manifest.json"
+  },
+  "move": {
+   "front": "art-source/motions/v1/16/final/move/front/manifest.json",
+   "left": "art-source/motions/v1/16/final/move/left/manifest.json",
+   "rear": "art-source/motions/v1/16/final/move/rear/manifest.json"
+  },
+  "a1": {
+   "front": "art-source/motions/v1/16/final/a1/front/manifest.json",
+   "left": "art-source/motions/v1/16/final/a1/left/manifest.json",
+   "rear": "art-source/motions/v1/16/final/a1/rear/manifest.json"
+  },
+  "a2": {
+   "front": "art-source/motions/v1/16/final/a2/front/manifest.json",
+   "left": "art-source/motions/v1/16/final/a2/left/manifest.json",
+   "rear": "art-source/motions/v1/16/final/a2/rear/manifest.json"
+  },
+  "a3": {
+   "front": "art-source/motions/v1/16/final/a3/front/manifest.json",
+   "left": "art-source/motions/v1/16/final/a3/left/manifest.json",
+   "rear": "art-source/motions/v1/16/final/a3/rear/manifest.json"
+  },
+  "s1": {
+   "front": "art-source/motions/v1/16/final/s1/front/manifest.json",
+   "left": "art-source/motions/v1/16/final/s1/left/manifest.json",
+   "rear": "art-source/motions/v1/16/final/s1/rear/manifest.json"
+  }
+ },
+ "finalized": "2026-11-19"
+}

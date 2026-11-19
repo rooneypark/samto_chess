@@ -1,0 +1,84 @@
+{
+ "hero": "의용보병",
+ "family": "spear_shield",
+ "description": "A volunteer foot soldier in the supplied pixel art style. A brown cap with a maroon headband, grey lamellar armor, a maroon sash, brown trousers and boots. A round wooden shield with an iron boss on the left arm and a long spear in the right hand",
+ "face": "A plain determined face with a short moustache.",
+ "rear_detail": "Seen from behind: the brown cap and maroon headband tails, grey armor, the round shield on his left arm, the spear at his right side.",
+ "guard_action": "the shield comes up in front of the body on the left arm, the spear is held ready at the right side, the left foot steps forward",
+ "actions": {
+  "idle": "Shield-and-spear guard, shield in front on the left arm, spear in the right hand, breathing",
+  "move": "Seamless combat run in place with shield and spear, no attack. The last frame leads into the first, no pause",
+  "b1": "SHIELD BASH. The spear stays upright at the side. Frames 3-6 the shield is pulled in to the chest and he crouches; frame 7 one step forward; frame 8 the shield is rammed forward with the whole body; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b2": "HORIZONTAL spear sweep, feet planted. Frames 2-6 the upper body winds far to the right, shield turning with it; frames 7-8 the spear swings around level from the side to the front; frames 9-11 hold in front. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a3": "Overhand spear stab. Frames 1-5 the spear is lifted above the right shoulder; frame 8 it is driven down over the top of the shield; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s1": "Steadfast defence. Frames 1-6 the shield is drawn square in front of the body, knees and hips sink, the spear stands upright at the side; frame 8 he locks the stance; frames 9-12 hold. Nothing is struck. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 144,
+ "weapon_grip": 40,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    96,
+    218
+   ],
+   "weapon tip": [
+    96,
+    74
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    109,
+    216
+   ],
+   "weapon tip": [
+    109,
+    80
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    151,
+    220
+   ],
+   "weapon tip": [
+    151,
+    76
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "headband tail",
+   "attach": "head",
+   "root": [
+    9,
+    -3,
+    5
+   ],
+   "hang": [
+    9,
+    -5,
+    -5
+   ],
+   "sway": 2.0
+  }
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 b1 → b2 → a3, 전법 s1. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. ",
+ "canvas_offset": {
+  "front": [
+   4,
+   0
+  ],
+  "left": [
+   14,
+   0
+  ],
+  "rear": [
+   -4,
+   0
+  ]
+ }
+}

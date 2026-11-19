@@ -1,0 +1,119 @@
+{
+ "hero": "장료",
+ "family": "mounted_blade",
+ "description": "Zhang Liao, bold chinese cavalry general in the supplied pixel art style, riding a grey war horse. Silver helmet with a purple plume, dark red and gold armor with a purple scarf and a long purple cape. Grey horse with a dark grey mane and tail, blue and gold barding, gold bridle. He holds a long glaive with a dark pole, gold fittings and a curved silver blade in the right hand",
+ "face": "Stern face with a dark moustache.",
+ "rear_detail": "Seen from behind: the back of the silver helmet with the purple plume, the purple cape hanging over the horse's rump, and the horse's dark grey tail between its hind legs.",
+ "guard_action": "the rider brings the glaive from upright to a ready angle; the horse stands still on four legs",
+ "actions": {
+  "idle": "Mounted fighting guard, horse standing still on four legs, breathing",
+  "move": "Seamless gallop in place, rider carrying the glaive, no attack. The four legs follow the skeleton. The last frame leads into the first, no pause",
+  "a1": "Mounted downward diagonal cut. Frames 1-5 the glaive is raised high over the right shoulder; frames 6-8 it is brought down in a diagonal cut onto the target in front as the horse plants a forehoof; frames 9-11 follow through low. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The glaive stays rigid, keeps its size and shape and stays in the hand the whole time. Rider stays seated in the saddle, four horse legs always present.",
+  "b1": "Mounted THRUST with the glaive. Frames 3-5 the pole is laid level beside the right hip and drawn back; frame 8 it is driven straight forward, point first; frames 9-11 hold the reach. A straight thrust, not a cut. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The glaive stays rigid, keeps its size and shape and stays in the hand the whole time. Rider stays seated in the saddle, four horse legs always present.",
+  "a3": "Mounted HORIZONTAL sweeping cut. The rider holds the pole near its butt end. Frames 3-5 the blade is swung far out to the right side and back, level with the ground, the torso twisting right; frames 6-8 it sweeps around from the side to the front in a wide flat arc; frames 9-11 hold in front. The blade travels sideways. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The glaive stays rigid, keeps its size and shape and stays in the hand the whole time. Rider stays seated in the saddle, four horse legs always present.",
+  "s2": "Sudden raid. Frames 1-6 the rider leans low over the horse with the glaive held low beside it, the horse crouched on its haunches; frames 7-8 the horse brakes hard, lifting its forehand, and the blade is cut upward from below into the target; frames 9-12 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The glaive stays rigid, keeps its size and shape and stays in the hand the whole time. Rider stays seated in the saddle, four horse legs always present."
+ },
+ "weapon_length": 144,
+ "weapon_grip": 55,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "body_scale": 1.0,
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    92,
+    166
+   ],
+   "weapon tip": [
+    100,
+    28
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    126,
+    172
+   ],
+   "weapon tip": [
+    134,
+    28
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    161,
+    180
+   ],
+   "weapon tip": [
+    155,
+    24
+   ]
+  }
+ },
+ "art_offset": {
+  "left": {
+   "rider": [
+    7,
+    0
+   ]
+  }
+ },
+ "art_points": {
+  "left": {
+   "NOSE": [
+    128,
+    82
+   ]
+  }
+ },
+ "cloth_rgb": [
+  [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ]
+  ]
+ ],
+ "streamers": [
+  {
+   "name": "cape hem",
+   "attach": "neck",
+   "root": [
+    0,
+    -8,
+    -6
+   ],
+   "hang": [
+    0,
+    -12,
+    -36
+   ],
+   "sway": 2.0,
+   "lag": 0.3
+  },
+  {
+   "name": "helmet plume",
+   "attach": "head",
+   "root": [
+    0,
+    -3,
+    14
+   ],
+   "hang": [
+    0,
+    -10,
+    1
+   ],
+   "sway": 1.2
+  }
+ ],
+ "notes": "2026-11-19. 평타 a1(대각 내려베기) → b1(찌르기) → a3(가로 베기), 전법 s2(급습). 기본 자세 관절은 본의 기마 대기, 무기 좌표는 원화에서 눈으로 잰 값(±2px)."
+}
