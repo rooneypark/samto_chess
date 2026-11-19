@@ -1,6 +1,6 @@
 {
  "hero": "공손찬",
- "family": "mounted_spear",
+ "family": "mounted_lance",
  "description": "Gongsun Zan, seasoned chinese cavalry commander in the supplied pixel art style, riding a white war horse. A grey iron helmet with a black topknot, a red scarf, grey armor, a long white cape. White horse with red tack. He holds a very long spear with a red pennant in the right hand",
  "face": "A weathered face with a dark moustache.",
  "rear_detail": "Seen from behind: the grey helmet with the black topknot, the red scarf, the long white cape hanging over the horse's rump, the horse's tail between its hind legs.",
@@ -8,14 +8,15 @@
  "actions": {
   "idle": "Mounted fighting guard, horse standing still on four legs, breathing",
   "move": "Seamless gallop in place, rider carrying the spear, no attack. The four legs follow the skeleton. The last frame leads into the first, no pause",
-  "b1": "Mounted RISING strike. Frames 3-6 the spear tip hangs low behind on the right side of the horse; frames 7-8 it swings up from below through the target; frames 9-11 it finishes high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time. Rider stays seated in the saddle, four horse legs always present.",
-  "a2": "Mounted VERTICAL overhead spear strike. Frames 3-5 the spear is raised straight up above the head; frames 5-6 the horse lifts both front hooves; frames 7-8 the hooves come down and the spear is brought down from above; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time. Rider stays seated in the saddle, four horse legs always present.",
-  "a3": "Mounted HORIZONTAL spear sweep, held near the butt end. Frames 3-5 the spear is swung far out to the right and back, level; frames 6-8 it sweeps around from the side to the front in a wide flat arc; frames 9-11 hold in front. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time. Rider stays seated in the saddle, four horse legs always present.",
-  "s3": "Entry and braking strike. Frames 1-6 the horse sits low on its haunches, the rider crouched over the saddle; frames 7-8 the horse brakes, lifting its forehand, and the spear thrusts; frames 9-12 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time. Rider stays seated in the saddle, four horse legs always present."
+  "a2": "Mounted VERTICAL overhead spear strike. Frames 3-5 the spear is raised above the head; frames 5-6 the horse lifts both front hooves; frames 7-8 the hooves come down and the spear is brought down from above, its point landing in front of the horse while the hands stay close to the chest; frames 9-11 hold.",
+  "b1": "Mounted RISING strike. Frames 3-6 the spear point hangs low behind on the right side of the horse; frames 7-8 it swings up from below through the target; frames 9-11 it finishes high.",
+  "s2": "Cavalry charge. Frames 2-8 the horse gallops in place, the spear lowered beside its neck; frame 9 a forehoof lifts; frame 10 it lands and the spear strikes; frames 11-12 hold.",
+  "s3": "Entry and braking strike. Frames 1-6 the horse sits low on its haunches, the rider crouched over the saddle; frames 7-8 the horse brakes, lifting its forehand, and the spear strikes; frames 9-12 hold.",
+  "a3": "Overhead turn with both hands. Frames 3-4 both hands come together at the middle of the pole and lift it above the head; frames 5-11 the spear makes ONE full level turn above the head like a propeller: the point goes back, then right, then FRONT at frame 8 (the blow), then left, then back again; frames 12-15 it is lowered to the ready pose. The horse stands still."
  },
  "weapon_length": 194,
  "weapon_grip": 50,
- "weapon_mode": "slide",
+ "weapon_mode": "bone",
  "rear_hand": "R",
  "art_weapon": {
   "front": {
@@ -93,14 +94,19 @@
   ]
  ],
  "notes": "2026-11-19 make_configs.py. 평타 b1 → a2 → a3, 전법 s3. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. 원화의 무기가 본보다 훨씬 길어(약 170~200px) 캔버스에 안 들어간다. weapon_mode slide: 무기 끝은 본의 위치 그대로, 남는 길이는 손 뒤로 보낸다. 공격 중에는 손이 자루 가운데쯤을 잡고, 대기에서는 원화의 그립으로 돌아온다.",
+ "weapon_head": "spear",
  "canvas_offset": {
+  "front": [
+   0,
+   11
+  ],
   "left": [
    0,
-   9
+   8
   ],
   "rear": [
    0,
-   14
+   13
   ]
  }
 }

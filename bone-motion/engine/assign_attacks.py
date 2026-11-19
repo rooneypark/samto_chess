@@ -17,7 +17,9 @@ FIXED = {      # generated already (or being generated): these must never change
     # pinned by hand: the only trio that keeps 초선's casts 6 px or more from her skill (s4). Same three as 제갈량, whose skill and look differ.
     '초선': ['b1', 'a2', 'b2'], '서황': ['a1', 'a2', 'a3'],
     # a long prop (staff, torch) held like the fan goes below the ground in B2 내려 긋기: these two do not use B2
-    '장각': ['b1', 'a2', 'b3'], '육손': ['b1', 'a2', 'b3']}
+    '장각': ['b1', 'a2', 'b3'], '육손': ['b1', 'a2', 'b3'],
+    # long pole weapons on horseback: swings only, held long, nothing cut (clips/mounted_long.py; user decision 2026-11-19)
+    '여포': ['a1', 'a2', 'b3'], '마초': ['a2', 'b1', 'a3'], '공손찬': ['a2', 'b1', 'a3']}
 ATTACKS = ['a1', 'b1', 'a2', 'b2', 'a3', 'b3']
 
 if __name__ == '__main__':

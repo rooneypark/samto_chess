@@ -126,7 +126,7 @@ def outside(p, pts):
         best = min(best, math.hypot(p[0] - a[0] - d[0] * t, p[1] - a[1] - d[1] * t))
     return best
 
-def qa(rig, frames, supports, issues, canvas_margin=2, treadmill=False):
+def qa(rig, frames, supports, issues, canvas_margin=2, treadmill=False, canvas_shift=None, overhead=False):
     """Numbers a reviewer would otherwise have to eyeball. 'fail' lists anything out of tolerance."""
     report = {'fail': []}; fail = report['fail']
     for i, problems in enumerate(issues): fail += ['frame %d: %s' % (i + 1, p) for p in problems]
@@ -155,6 +155,7 @@ def qa(rig, frames, supports, issues, canvas_margin=2, treadmill=False):
         report['min_clearance_weapon_px'] = {k: round(min(v), 1) for k, v in clear.items()}
         for name, values in clear.items():
             bad = [i + 1 for i, v in enumerate(values) if v < 0]
+            if overhead and name == 'rider head': continue      # a declared overhead turn: the pole is held above the head at arm's length (this rider's head is as tall as his reach)
             if bad: fail.append('weapon passes through the %s in frames %s' % (name, bad))
         report['tip_forward_reach_px'] = [round(j[tip][1], 1) for j in frames]; report['tip_height_px'] = [round(j[tip][2], 1) for j in frames]
         report['tip_travel_per_frame_px'] = [round(length(sub(frames[i][tip], frames[i - 1][tip]))) for i in range(1, len(frames))]
@@ -168,6 +169,7 @@ def qa(rig, frames, supports, issues, canvas_margin=2, treadmill=False):
         for view, _ in VIEWS:
             for name, v in j.items():
                 x, y, _n = project(view, v)
+                if canvas_shift: x += canvas_shift.get(view, (0, 0))[0]; y += canvas_shift.get(view, (0, 0))[1]      # a family whose sprite is placed off-centre on the canvas (clips/mounted_halberd.py)
                 if not (canvas_margin <= x <= 256 - canvas_margin and canvas_margin <= y <= 256 - canvas_margin): cut.add((i + 1, view, name))
     report['outside_canvas'] = sorted(cut)
     if cut: fail.append('%d joint positions leave the canvas' % len(cut))

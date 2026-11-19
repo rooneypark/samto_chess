@@ -16,7 +16,7 @@ def build(family, clip_id):
     frames = [j for j, _ in solved]; issues = [i for _, i in solved]
     if hasattr(rig, 'post'): rig.post(frames, poses)
     supports = clip['support']; durations = clip['durations']
-    report = render.qa(rig, frames, supports, issues, treadmill=clip.get('treadmill', False))
+    report = render.qa(rig, frames, supports, issues, treadmill=clip.get('treadmill', False), canvas_shift=getattr(module, 'CANVAS_SHIFT', None), overhead=clip.get('overhead', False))
     report.update(family=family, clip=clip_id, title=clip['title'], impact_frame=clip.get('impact'), impact2_frame=clip.get('impact2'), arrive_frame=clip.get('arrive'), event=clip.get('event', '타격'), durations_ms=durations, body=module.BODY, notes=clip.get('notes'))
     out = os.path.join(sm.WORK, 'out', family); os.makedirs(out, exist_ok=True); base = os.path.join(out, clip_id)
     images = [render.draw_frame(rig, j, '%s · %s   %02d / 15   %dms%s' % (module.TITLE, clip['title'], i + 1, durations[i], ('   ◀ ' + clip.get('event', '타격') if clip.get('impact') == i + 1 else '') + ('   ◀ 도달' if clip.get('arrive') == i + 1 else '') + ('   ◀ 2타' if clip.get('impact2') == i + 1 else '')), supports[i]) for i, j in enumerate(frames)]

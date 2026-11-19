@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import samto_motion as sm
 
 VIEWS = ('front', 'left', 'rear'); ROOT = os.path.dirname(sm.WORK); DEST = os.path.join(ROOT, 'art-source', 'motions', 'v1')
-APPROVED = {'liaohua': '2026-11-19', '15': '2026-11-19', '1': '2026-11-19'}      # the user said "확정" for these; the others are in the simulator for review
+APPROVED = {'liaohua': '2026-11-19', '15': '2026-11-19', '1': '2026-11-19', '0': '2026-11-19', 'sunquan': '2026-11-19', '77': '2026-11-19', 'diaochan': '2026-11-19'}      # the user said "확정" for these; the others are in the simulator for review
 
 def off(cfg, view):
     if view in cfg.get('canvas_offset', {}): return cfg['canvas_offset'][view]

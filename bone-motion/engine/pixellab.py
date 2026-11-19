@@ -361,6 +361,7 @@ def texts(cfg, clip_id, clip, view):
         names = ', '.join(cloth)
         act = act.strip().rstrip('.') + ('. There is no wind: the %s hang still and only ride the breathing of the body; they do not sway, flutter or billow.' % names if clip_id == 'idle' else
                              '. The %s trail behind every movement with follow-through and settle after the body stops, following their marked points; they stay attached at the root and keep their length.' % names)
+    if cfg.get('weapon_note') and clip_id != 'idle': act = act.strip().rstrip('.') + '. ' + cfg['weapon_note'].strip()      # e.g. which end of a long pole is the head (여포: drawn reversed without it)
     stop = lambda t: t if t.endswith('.') else t + '.'
     return ' '.join(stop(p) for p in parts if p), stop(act.strip()) + ' ' + VIEW_RULE[view]
 
@@ -408,6 +409,22 @@ def spans(frames):
 def out_dir(hero, clip_id, view):
     d = os.path.join(sm.WORK, 'out', 'pixellab', hero, clip_id + ('__' + TAG if TAG else ''), view); os.makedirs(d, exist_ok=True); return d
 
+def head_text(motion, name):
+    """Side view of a long pole weapon: say, frame by frame, where its head is. A general 'do not swap the ends' was not
+    enough (여포 b2 and s3 came back with the head on the wrong end); naming the side for each stretch of frames was (b1)."""
+    def where(f):
+        k = {p['label']: (p['x'], p['y']) for p in f}; (tx, ty), (bx, by) = k['weapon tip'], k['weapon butt']; dx, dy = tx - bx, ty - by
+        if abs(dx) < 0.35 * abs(dy): return 'straight up' if dy < 0 else 'straight down'
+        side = 'to the LEFT, in front of the rider' if dx < 0 else 'to the RIGHT, behind the rider'
+        return ('level, ' if abs(dy) < 0.35 * abs(dx) else 'high, up and ' if dy < 0 else 'low, down and ') + side
+    runs = []
+    for n, f in enumerate(motion, 1):
+        w = where(f)
+        if runs and runs[-1][0] == w: runs[-1][2] = n
+        else: runs.append([w, n, n])
+    parts = ['frame%s %s: %s' % ('' if a == b else 's', str(a) if a == b else '%d-%d' % (a, b), w) for w, a, b in runs]
+    return (' The figure faces LEFT in this view. Where the bladed head of the %s points, measured from its plain end: ' % name) + '; '.join(parts) + '. The plain end is always on the opposite side. Draw the head exactly there in each frame.'
+
 def animate(hero, clip_id, view, again=False):
     cfg, clip, first, motion = prepared(hero, clip_id, view)
     im, b64 = art(hero, view, (0.0, 0.0) if stage(hero, view) == 'guard' else shift_of(cfg, view))      # a picked guard frame is already shifted
@@ -422,6 +439,7 @@ def animate(hero, clip_id, view, again=False):
         action += ' In frames %s the weapon passes behind the body: only the covered part is hidden, the rest of it stays clearly drawn past the body outline. The weapon is never removed and the hand is never empty.' % spans(hidden)
     if weapon_far_side(motion):
         action += ' The weapon is in the hand on the far side of the body in this view. It is still drawn in EVERY frame: the part that sticks out past the body outline is always visible. Never draw that hand empty, never leave the weapon out.'
+    if view == 'left' and cfg.get('weapon_head') and clip_id != 'idle': action += head_text(motion, cfg['weapon_head'])
     if stage(hero, view) == 'base':
         n = int(cfg.get('transition', 4))
         action = ('From the supplied neutral standing pose, move smoothly into the fighting guard over frames 1-%d: %s. Then hold the guard, breathing, frames %d-15. ' % (n, cfg.get('guard_action', 'both hands come to the weapon and the knees bend'), n + 1)) + action

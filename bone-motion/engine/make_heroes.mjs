@@ -9,7 +9,8 @@ const load = f => import(pathToFileURL(join(repo, 'game', f)).href);
 const { heroes } = await load('heroes.js'); const { specs } = await load('progression.js');
 
 const FAMILY = { foot_spear: '보행 창', sword: '한손 검·단도', spear_shield: '창·방패', dual: '쌍무기', heavy: '중무기', flexible: '사슬·채찍', bow: '궁', command: '군령',
-  caster: '책사·지원', mounted_spear: '기마 창', mounted_blade: '기마 월도·화극', sickle: '사슬·채찍 (사슬낫 변형)', poleaxe: '중무기 (긴자루 도끼 변형)' };
+  caster: '책사·지원', mounted_spear: '기마 창', mounted_blade: '기마 월도·화극', sickle: '사슬·채찍 (사슬낫 변형)', poleaxe: '중무기 (긴자루 도끼 변형)',
+  mounted_halberd: '기마 월도·화극 (장화극 변형)', mounted_lance: '기마 창 (장창 변형)' };
 // name: [motion type, attack set, skill clip]
 // Three attacks per hero, one from each slot. Every attack starts and ends in the guard, so slot 1, 2 and 3 can be taken
 // from set A or set B independently: 8 trios per type instead of 2. Heroes of one type must not all swing the same
@@ -41,8 +42,8 @@ const MAP = {
   조조: ['command', 'A', 's1'], 손권: ['command', 'B', 's2'], 원소: ['command', 'A', 's3'],
   제갈량: ['caster', 'A', 's1'], 사마의: ['caster', 'A', 's2'], 장각: ['caster', 'B', 's2'], 화타: ['caster', 'B', 's3'], 순욱: ['caster', 'B', 's3'], 노숙: ['caster', 'B', 's3'],
   곽가: ['caster', 'A', 's4'], 초선: ['caster', 'A', 's4'], 방통: ['caster', 'B', 's5'], 육손: ['caster', 'A', 's6'], 군영참모: ['caster', 'B', 's6'],
-  조운: ['mounted_spear', 'A', 's1'], 마초: ['mounted_spear', 'B', 's2'], 공손찬: ['mounted_spear', 'A', 's3'],
-  관우: ['mounted_blade', 'A', 's1'], 장료: ['mounted_blade', 'B', 's2'], 여포: ['mounted_blade', 'A', 's3'],
+  조운: ['mounted_spear', 'A', 's1'], 마초: ['mounted_lance', 'B', 's2'], 공손찬: ['mounted_lance', 'A', 's3'],
+  관우: ['mounted_blade', 'A', 's1'], 장료: ['mounted_blade', 'B', 's2'], 여포: ['mounted_halberd', 'A', 's3'],
 };
 const out = heroes.map(h => {
   const m = MAP[h.name]; if (!m) throw new Error('no motion mapping for ' + h.name);

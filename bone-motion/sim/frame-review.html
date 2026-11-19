@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>프레임 확인</title>
+<style>
+  body { margin: 0; padding: 18px; background: #0e1622; color: #dbe4ee; font: 14px "Malgun Gothic", sans-serif; }
+  h1 { font-size: 19px; margin: 0 0 10px; }
+  .bar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 10px; }
+  select, button, input[type=range] { background: #1a2738; color: #dbe4ee; border: 1px solid #2c4058; border-radius: 4px; padding: 5px 10px; font: inherit; }
+  button { cursor: pointer; } button.on { background: #2f5d8a; }
+  canvas { display: block; background: #192a3c; border: 1px solid #283d53; border-radius: 6px; image-rendering: pixelated; }
+  #seek { width: 512px; padding: 0; }
+  #info { color: #93a4b8; margin: 8px 0; min-height: 20px; }
+  #strip { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 10px; max-width: 1100px; }
+  #strip canvas { cursor: pointer; border-radius: 3px; } #strip canvas.now { border-color: #f0dba4; }
+  small { color: #93a4b8; }
+</style>
+</head>
+<body>
+<h1>프레임 확인</h1>
+<div class="bar">
+  <select id="hero"></select>
+  <select id="clip"></select>
+  <span id="views"></span>
+  <label>크기 <select id="zoom"><option>2</option><option selected>3</option><option>4</option></select>배</label>
+  <label>속도 <select id="speed"><option value="1">1배</option><option value="0.5">0.5배</option><option value="0.25">0.25배</option></select></label>
+  <label><input type="checkbox" id="mirror"> 오른쪽 보기(뒤집기)</label>
+</div>
+<canvas id="cv" width="768" height="768"></canvas>
+<div class="bar" style="margin-top:10px">
+  <button id="prev">◀ 이전</button><button id="play">재생</button><button id="next">다음 ▶</button>
+  <input type="range" id="seek" min="1" max="15" value="1">
+  <b id="num"></b>
+</div>
+<div id="info"></div>
+<small>← → 한 프레임씩, Space 재생/멈춤, ↑ ↓ 클립 바꾸기, 1·2·3 정면·측면·후면. 아래 작은 그림을 눌러도 그 프레임으로 갑니다. 격자 한 칸은 100px, 가로선이 발밑입니다.</small>
+<div id="strip"></div>
+<script src="heroes.js"></script>
+<script src="hero-clips.js"></script>
+<script src="zhangfei-clips.js"></script>
+<script>
+const HEROES = window.SIM_HEROES, ALL = { ...(window.HERO_CLIPS || {}) }; if (window.ZHANGFEI_CLIPS) ALL['2'] = window.ZHANGFEI_CLIPS;
+const VIEWS = [['front', '정면'], ['left', '측면'], ['rear', '후면']], $ = id => document.getElementById(id);
+const LABEL = { idle: '대기', move: '이동' };
+let hero, clip, view = 'left', frame = 0, playing = false, acc = 0, last = null, imgs = [];
+const q = new URLSearchParams(location.search);
+const heroSel = $('hero'), clipSel = $('clip');
+for (const id of Object.keys(ALL)) { const h = HEROES.find(x => String(x.id) === id); const o = document.createElement('option'); o.value = id; o.textContent = h ? h.name : id; heroSel.appendChild(o); }
+VIEWS.forEach(([v, name]) => { const b = document.createElement('button'); b.textContent = name; b.dataset.v = v; b.onclick = () => { view = v; load(); }; $('views').appendChild(b); $('views').append(' '); });
+function clipName(c) { const h = HEROES.find(x => String(x.id) === hero); if (LABEL[c]) return LABEL[c]; if (h && h.skillClip === c) return '전법 ' + h.skill + ' (' + c + ')'; const i = h && h.attacks ? h.attacks.indexOf(c) : -1; return (i >= 0 ? '평타 ' + (i + 1) : c) + ' (' + c + ')'; }
+function setHero(id) {
+  hero = id; heroSel.value = id; clipSel.innerHTML = '';
+  for (const c of Object.keys(ALL[hero])) { const o = document.createElement('option'); o.value = c; o.textContent = clipName(c); clipSel.appendChild(o); }
+  if (!ALL[hero][clip]) clip = Object.keys(ALL[hero])[0]; clipSel.value = clip; load();
+}
+function cur() { return ALL[hero][clip][view]; }
+function load() {
+  const s = cur(); frame = Math.min(frame, s.files.length - 1); imgs = s.files.map(f => { const im = new Image(); im.onload = () => { draw(); strip(); }; im.src = f; return im; });
+  $('seek').max = s.files.length; for (const b of $('views').children) b.className = b.dataset.v === view ? 'on' : ''; draw(); strip();
+}
+function draw() {
+  const z = Number($('zoom').value), cv = $('cv'), g = cv.getContext('2d'), s = cur(); cv.width = cv.height = 256 * z; g.imageSmoothingEnabled = false;
+  g.fillStyle = '#192a3c'; g.fillRect(0, 0, cv.width, cv.height);
+  const px = s.pivot[0], py = s.pivot[1];      // the tile is drawn around the ground pivot, as the board does
+  g.fillStyle = '#1f3449'; g.fillRect((128 - 50) * z, (224 - 74) * z, 100 * z, 100 * z); g.strokeStyle = '#34506c'; g.strokeRect((128 - 50) * z + 0.5, (224 - 74) * z + 0.5, 100 * z, 100 * z);
+  g.strokeStyle = '#e8ddae88'; g.beginPath(); g.moveTo(0, 224 * z + 0.5); g.lineTo(cv.width, 224 * z + 0.5); g.stroke();
+  const im = imgs[frame]; if (im && im.complete && im.naturalWidth) { g.save(); if ($('mirror').checked) { g.translate(cv.width, 0); g.scale(-1, 1); } g.drawImage(im, (128 - px) * z, (224 - py) * z, 256 * z, 256 * z); g.restore(); }
+  $('seek').value = frame + 1; $('num').textContent = (frame + 1) + ' / ' + s.files.length;
+  $('info').textContent = clipName(clip) + ' · ' + VIEWS.find(v => v[0] === view)[1] + ' · 이 프레임 ' + s.durations[frame] + 'ms · 파일 ' + s.files[frame].replace(/^(\.\.\/)+/, '');
+  for (const c of $('strip').children) c.className = Number(c.dataset.i) === frame ? 'now' : '';
+}
+function strip() {
+  const box = $('strip'); box.innerHTML = '';
+  imgs.forEach((im, i) => { const c = document.createElement('canvas'); c.width = c.height = 64; c.dataset.i = i; c.className = i === frame ? 'now' : ''; const g = c.getContext('2d');
+    if (im.complete && im.naturalWidth) g.drawImage(im, 0, 0, 64, 64); g.fillStyle = '#dbe4ee'; g.font = '11px sans-serif'; g.fillText(i + 1, 3, 12); c.onclick = () => { playing = false; $('play').textContent = '재생'; frame = i; draw(); }; box.appendChild(c); });
+}
+function step(d) { const n = cur().files.length; frame = (frame + d + n) % n; draw(); }
+function tick(now) {
+  if (playing && last !== null) { acc += (now - last) * Number($('speed').value); let guard = 0; while (acc >= cur().durations[frame] && guard++ < 30) { acc -= cur().durations[frame]; step(1); } }
+  last = now; requestAnimationFrame(tick);
+}
+$('prev').onclick = () => { playing = false; $('play').textContent = '재생'; step(-1); };
+$('next').onclick = () => { playing = false; $('play').textContent = '재생'; step(1); };
+$('play').onclick = () => { playing = !playing; acc = 0; $('play').textContent = playing ? '멈춤' : '재생'; };
+$('seek').oninput = e => { playing = false; $('play').textContent = '재생'; frame = Number(e.target.value) - 1; draw(); };
+heroSel.onchange = e => setHero(e.target.value); clipSel.onchange = e => { clip = e.target.value; frame = 0; load(); };
+$('zoom').onchange = draw; $('mirror').onchange = draw;
+addEventListener('keydown', e => {
+  if (e.key === 'ArrowRight') $('next').click(); else if (e.key === 'ArrowLeft') $('prev').click(); else if (e.key === ' ') { e.preventDefault(); $('play').click(); }
+  else if (e.key === 'ArrowDown' || e.key === 'ArrowUp') { e.preventDefault(); const ks = Object.keys(ALL[hero]); clip = ks[(ks.indexOf(clip) + (e.key === 'ArrowDown' ? 1 : ks.length - 1)) % ks.length]; clipSel.value = clip; frame = 0; load(); }
+  else if ('123'.includes(e.key)) { view = VIEWS[Number(e.key) - 1][0]; load(); }
+});
+clip = q.get('clip') || 'idle'; view = q.get('view') || 'left'; setHero(ALL[q.get('hero')] ? q.get('hero') : Object.keys(ALL)[0]); requestAnimationFrame(tick);
+</script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+{
+ "schemaVersion": 1,
+ "id": "diaochan",
+ "name": "초선",
+ "family": "caster",
+ "reviewStatus": "user_approved",
+ "canvas": [
+  256,
+  256
+ ],
+ "attacks": [
+  "b1",
+  "a2",
+  "b2"
+ ],
+ "skill": "s4",
+ "skillName": "경국지색",
+ "clips": {
+  "idle": {
+   "front": "art-source/motions/v1/diaochan/final/idle/front/manifest.json",
+   "left": "art-source/motions/v1/diaochan/final/idle/left/manifest.json",
+   "rear": "art-source/motions/v1/diaochan/final/idle/rear/manifest.json"
+  },
+  "move": {
+   "front": "art-source/motions/v1/diaochan/final/move/front/manifest.json",
+   "left": "art-source/motions/v1/diaochan/final/move/left/manifest.json",
+   "rear": "art-source/motions/v1/diaochan/final/move/rear/manifest.json"
+  },
+  "b1": {
+   "front": "art-source/motions/v1/diaochan/final/b1/front/manifest.json",
+   "left": "art-source/motions/v1/diaochan/final/b1/left/manifest.json",
+   "rear": "art-source/motions/v1/diaochan/final/b1/rear/manifest.json"
+  },
+  "a2": {
+   "front": "art-source/motions/v1/diaochan/final/a2/front/manifest.json",
+   "left": "art-source/motions/v1/diaochan/final/a2/left/manifest.json",
+   "rear": "art-source/motions/v1/diaochan/final/a2/rear/manifest.json"
+  },
+  "b2": {
+   "front": "art-source/motions/v1/diaochan/final/b2/front/manifest.json",
+   "left": "art-source/motions/v1/diaochan/final/b2/left/manifest.json",
+   "rear": "art-source/motions/v1/diaochan/final/b2/rear/manifest.json"
+  },
+  "s4": {
+   "front": "art-source/motions/v1/diaochan/final/s4/front/manifest.json",
+   "left": "art-source/motions/v1/diaochan/final/s4/left/manifest.json",
+   "rear": "art-source/motions/v1/diaochan/final/s4/rear/manifest.json"
+  }
+ },
+ "finalized": "2026-11-19",
+ "approvedDate": "2026-11-19"
+}

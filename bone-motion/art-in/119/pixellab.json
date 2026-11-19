@@ -1,6 +1,6 @@
 {
  "hero": "여포",
- "family": "mounted_blade",
+ "family": "mounted_halberd",
  "description": "Lu Bu, towering chinese warrior in the supplied pixel art style, riding a red-brown war horse. Two long red pheasant feathers rising from a gold crown, black and red armor with gold trim, a long red cape. Red-brown horse with red and gold tack. He holds a very long halberd with a spear point and twin crescent side blades in the right hand",
  "face": "Proud fierce young eyes, no beard.",
  "rear_detail": "Seen from behind: the two long red feathers, black hair, the long red cape hanging over the horse's rump, the horse's tail between its hind legs.",
@@ -8,14 +8,14 @@
  "actions": {
   "idle": "Mounted fighting guard, horse standing still on four legs, breathing",
   "move": "Seamless gallop in place, rider carrying the weapon, no attack. The four legs follow the skeleton. The last frame leads into the first, no pause",
-  "b1": "Mounted THRUST. Frames 3-5 the pole is laid level beside the right hip and drawn back; frame 8 it is driven straight forward, point first; frames 9-11 hold the reach. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The halberd stays rigid, keeps its size and shape and stays in the hand the whole time. Rider stays seated in the saddle, four horse legs always present.",
-  "b2": "Two mounted cuts. Frames 1-5 wind up; frame 6 the first cut down; frames 7-9 a half lift; frame 10 the second cut; frames 11-12 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The halberd stays rigid, keeps its size and shape and stays in the hand the whole time. Rider stays seated in the saddle, four horse legs always present.",
-  "a3": "Mounted HORIZONTAL sweeping cut, held near the butt end. Frames 3-5 the blade is swung far out to the right and back, level; frames 6-8 it sweeps around from the side to the front in a wide flat arc; frames 9-11 hold in front. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The halberd stays rigid, keeps its size and shape and stays in the hand the whole time. Rider stays seated in the saddle, four horse legs always present.",
-  "s3": "Peerless sweep. Frames 1-6 the weapon is drawn far out behind on the right, the horse braced low; frame 8 hips, chest and shoulders unwind in turn and it sweeps wide from outside to the front; frames 9-12 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The halberd stays rigid, keeps its size and shape and stays in the hand the whole time. Rider stays seated in the saddle, four horse legs always present."
+  "a1": "Mounted DIAGONAL downward cut. Frames 3-6 the halberd is lifted and laid back over the right shoulder; frame 8 it comes down diagonally and its head lands in front of the horse while the hands stay close to the chest; frames 9-11 hold low.",
+  "a2": "Mounted RISING cut. Frames 3-6 the halberd head hangs low outside and behind on the right side of the horse; frames 7-8 it swings up from below through the target; frames 9-11 it finishes high.",
+  "b3": "Stamp and overhead cut. Frames 2-6 the horse lifts its front hooves high while the halberd goes up; frame 8 the hooves stamp down and the halberd comes down with them; frames 9-11 a long hold.",
+  "s3": "Peerless overhead turn. Frames 3-4 both hands come together at the middle of the pole and lift it above the head; frames 5-11 the halberd makes ONE full level turn above the head like a propeller: the head points back, then right, then FRONT at frame 8 (the blow), then left, then back again; frames 12-15 it is lowered to the ready pose. The horse stands still."
  },
  "weapon_length": 202,
  "weapon_grip": 55,
- "weapon_mode": "slide",
+ "weapon_mode": "bone",
  "rear_hand": "R",
  "art_weapon": {
   "front": {
@@ -93,10 +93,11 @@
   ]
  ],
  "notes": "2026-11-19 make_configs.py. 평타 b1 → b2 → a3, 전법 s3. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. 원화의 무기가 본보다 훨씬 길어(약 170~200px) 캔버스에 안 들어간다. weapon_mode slide: 무기 끝은 본의 위치 그대로, 남는 길이는 손 뒤로 보낸다. 공격 중에는 손이 자루 가운데쯤을 잡고, 대기에서는 원화의 그립으로 돌아온다.",
+ "weapon_head": "halberd",
  "canvas_offset": {
   "front": [
    0,
-   2
+   11
   ],
   "left": [
    0,

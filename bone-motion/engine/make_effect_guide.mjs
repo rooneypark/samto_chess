@@ -94,6 +94,94 @@ for (const h of HEROES) {
   const skillClip = fam.clips[h.skillClip], support = (skillClip.event === '발동') && !['책사', '화공'].includes(h.role) && h.family !== 'bow';
   out.push(`| ${h.name} | ${fam.title} | ${h.skill} | \`${F.colour(h)}\` | ${basic} | ${support ? '-' : list(h, 'skill')} | ${list(h, 'self')} | ${support ? list(h, 'support') : '-'} |`);
 }
+const PROMPT = {
+  jab: 'a short straight thrust streak, thin bright line with a white core, pointing right, appears and fades in a flash',
+  cut: 'a short crescent slash arc, white core with a colored edge, sweeping once and fading',
+  chop: 'a vertical downward slash mark, slightly curved, drawn from top to bottom then fading',
+  rise: 'a vertical upward slash mark, slightly curved, drawn from bottom to top then fading',
+  thud: 'a blunt impact ring that expands once with four short white rays, shield bash hit',
+  whip: 'a thin whip line that bends in an arc and snaps straight to the right',
+  cross: 'two crossing slashes forming an X, the second a moment after the first',
+  spark: 'a small white hit flash with six short rays, very brief',
+  arrow: 'a single arrow flying to the right in a shallow arc, white arrowhead, no bow, no archer',
+  missile: 'a short streak of light flying straight to the right',
+  orb: 'a glowing magic orb with a short trail flying to the right, then bursting into a ring',
+  petal: 'four flower petals fluttering to the right in a wavy path',
+  needle: 'a very thin fast needle streak flying to the right',
+  order: 'a round target mark with four tick lines that tightens onto a point and fades',
+  cast: 'a tall pillar of light rising from a ring on the ground, sparkles floating up, then fading',
+  burst: 'a bright starburst flash with twelve rays and flying sparks, plus a ground ring, then fading',
+  slash: 'a large crescent slash arc with a white core and thick colored edge, one powerful sweep',
+  pierce: 'a long piercing thrust streak that shoots to the right through a point and beyond',
+  dash: 'five parallel speed lines along the ground streaking to the right',
+  shock: 'a ground shockwave: two flat rings expanding on the ground with short cracks radiating out',
+  spin: 'a flat spinning slash ring at waist height, seen from a low top-down camera',
+  roar: 'three flat rings expanding outward on the ground one after another, a war cry shockwave',
+  shield: 'a translucent oval barrier dome with a moving highlight, appears, holds, fades',
+  fury: 'short streaks of energy rising upward from the ground like an aura',
+  flurry: 'five small quick slashes at random angles, one after another',
+  blink: 'a puff of smoke that shrinks and vanishes, vanish effect',
+  bind: 'three rope rings that tighten around an upright body shape and fade',
+  drain: 'seven small glowing motes flying to the left in a loose stream',
+  stun: 'three small stars circling in a flat ring',
+  bolt: 'a lightning bolt striking down from the top of the frame to the ground, flickering, with a glow where it lands',
+  rock: 'a boulder falling from above, hitting the ground and breaking into dust and a dust ring',
+  ice: 'sharp ice shards falling diagonally from the upper left, shattering on the ground',
+  fire: 'a pillar of flames rising from the ground, flickering, with a glowing base, then dying down',
+  wind: 'a small whirlwind, narrow at the bottom and wide at the top, spinning in place',
+  rune: 'an octagonal formation circle drawn on the ground, two nested octagons slowly rotating, flat on the ground',
+  chain: 'a taut chain stretched horizontally between two points, links sliding along it',
+  heal: 'small plus-shaped lights rising upward and fading',
+  aura: 'two flat rings rising from the ground and fading, a buff effect',
+};
+out.push(`
+## 이펙트 그림 만드는 법
+
+### 준비물
+
+| 준비물 | 어디에 있나 |
+|---|---|
+| 종류별 규격 (크기, 시간, 장수, 기준점) | 위의 "종류" 표 |
+| 종류별 시안 그림 | \`art-source/effects/v1/reference/<종류>.png\` (여섯 장면을 사람 모양과 함께), \`<종류>-peak.png\` (가장 뚜렷한 한 장면, 투명 배경) |
+| 움직이는 시안 | \`sim/effects.html\` |
+| 장수 색 | 위의 "장수별 배정" 표 |
+| 그림체 기준 | 확정 원화 \`art-source/characters/v1/\` (굵은 어두운 윤곽선, 단색 면, 픽셀 그림) |
+
+시안 그림은 \`bone-motion/engine/make_effect_refs.cjs\`로 다시 뽑습니다.
+
+### 방법 1. 사람이나 다른 Claude가 그린다
+
+이 문서와 \`art-source/effects/v1/reference/\` 폴더를 통째로 넘기고, 아래 내용을 그대로 요청합니다.
+
+- 종류마다 "종류" 표의 권장 장수만큼 그립니다. 시안의 여섯 장면이 시작, 가장 큰 순간, 사라지는 순간의 기준입니다.
+- 캔버스는 종류마다 하나로 고정하고, 모든 프레임에서 기준점의 위치가 같아야 합니다. 기준점 좌표를 \`fx/<종류>/anchor.json\`에 \`{"canvas": [가로, 세로], "anchor": [x, y], "anchorIs": "대상 가슴"}\` 꼴로 적습니다.
+- 배경은 투명, 흰 심과 색 테두리로 그립니다. 색 테두리는 중간 밝기의 한 가지 색으로 그려 두면 게임에서 장수 색으로 바꿉니다.
+- 캐릭터는 그리지 않습니다. 시안의 회색 사람 모양은 크기와 위치를 보라는 표시입니다.
+- 결과는 \`art-source/effects/v1/fx/<종류>/01.png …\`에 넣습니다.
+
+### 방법 2. PixelLab으로 만든다
+
+PixelLab API 문서(2026-11-19 확인)에 따르면 캐릭터 뼈대 없이 이펙트를 만들 수 있는 기능이 있습니다. 아직 시험해 보지 않았고, 비용은 문서에 적힌 값이라 실제 견적(\`quoted_generations\`)으로 다시 확인해야 합니다.
+
+| 기능 | 넣는 것 | 나오는 것 | 문서상 비용 |
+|---|---|---|---|
+| \`/vfx\` (이펙트 전용) | 설명 글(\`description\`), 프레임 수(\`sprite_frames\` 1~32), 속도(\`sprite_fps\`), 품질(\`artist\`: lite 또는 pro). 참고 그림(\`sprite\`)은 선택 | 최대 512×512, 최대 32프레임 | 128px 이하 lite 1회분, pro 6회분, 참고 그림을 쓰면 3~28회분 |
+| \`/animate-with-text-v3\` | 첫 프레임 그림(\`first_frame\`, 최대 256×256) 필수, 동작 글(\`action\`), 프레임 수(\`frame_count\` 4~16 짝수), 투명 배경(\`no_background\`). 끝 프레임(\`last_frame\`)은 선택 | 최대 256×256, 4~16프레임 | 문서에 없음 |
+| \`/create-image-pixen\` | 설명 글, 크기, 투명 배경(256×256까지) | 정지 그림 1장 (첫 프레임을 만들 때) | 문서에 없음 |
+
+PixelLab으로 가려면 필요한 것은 세 가지입니다.
+
+1. **설명 글**: 아래 표의 영어 문장에 공통 문구를 붙입니다.
+2. **첫 프레임 그림** (\`/animate-with-text-v3\`를 쓸 때만): \`<종류>-peak.png\`를 그 종류 크기로 잘라 쓰거나, 방법 1로 한 장만 먼저 그립니다. 256×256을 넘는 종류(번개, 함성, 시전 빛기둥)는 절반 크기로 만들어 게임에서 키웁니다.
+3. **프레임 수와 크기**: "종류" 표의 권장 장수와 크기.
+
+공통 문구: \`pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera\`
+
+권장 순서: \`/vfx\`로 성격이 다른 세 가지(짧은 베기 cut, 번개 bolt, 보호막 shield)를 lite로 먼저 한 번씩 만들어 보고(문서상 3회분), 쓸 만하면 나머지를 넣습니다. 38가지를 lite로 한 번씩이면 문서상 38회분입니다.
+
+| 종류 | 설명 글 (영어, 공통 문구 앞에 붙인다) |
+|---|---|`);
+for (const [title, kinds] of GROUPS) for (const k of kinds) out.push(`| ${name(k)} | ${PROMPT[k]} |`);
 out.push(`
 ## 그림으로 바꿔 끼우는 법
 

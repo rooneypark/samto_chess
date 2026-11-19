@@ -123,6 +123,8 @@
 | 기마 창 | A1 기마 직창 → jab<br>A2 세로 내려치기 → chop<br>A3 가로 휘두르기 → cut<br>B1 올려치기 → rise<br>B2 이단 찌르기 → jab<br>B3 앞발 굴러 내려치기 → chop |
 | 사슬낫 (감녕) | A1 안쪽 걸어베기 → cut<br>A2 올려 걸기 → rise<br>A3 깊이 내려찍기 → chop<br>B1 찌르고 올려 걸기 → jab<br>B2 도약 내려찍기 → chop<br>B3 돌아 걸기 → cut |
 | 긴자루 도끼 | A1 세로 내려치기 → chop<br>A2 가로 휘두르기 → cut<br>A3 올려치기 → rise |
+| 기마 장화극 | A1 사선 베기 → cut<br>A2 쳐올리기 → cut<br>B3 앞발 굴러 내려베기 → chop |
+| 기마 장창 | A2 세로 내려치기 → chop<br>A3 두 손 돌려치기 → cut<br>B1 올려치기 → rise |
 
 ## 장수별 배정
 
@@ -140,7 +142,7 @@
 | 하후돈 | 보행 창 | 불굴 | `#d05a5a` | jab, cut, chop | - | 보호막(shield) + 충격파(shock) | - |
 | 장료 | 기마 월도 | 급습 | `#8fb8ff` | chop, jab, cut | 돌진 궤적(dash) + 큰 베기(slash) | - | - |
 | 주유 | 한손 검 | 화공 | `#ff5a3a` | chop, cut, jab | 불기둥(fire) | - | - |
-| 여포 | 기마 월도 | 무쌍 | `#e0414f` | jab, cut, cut | 충격파(shock) | 회전 베기(spin) + 기세(fury) | - |
+| 여포 | 기마 장화극 | 무쌍 | `#e0414f` | cut, cut, chop | 충격파(shock) | 회전 베기(spin) + 기세(fury) | - |
 | 의용보병 | 창·방패 | 굳건한 방어 | `#c9d6e6` | thud, cut, chop | - | 보호막(shield) + 충격파(shock) + 함성(roar) | - |
 | 의용궁병 | 궁 | 집중 사격 | `#f4dea0` | 화살(arrow) | 화살(arrow) 3발 | - | - |
 | 군영참모 | 책사·지원 | 응급 처치 | `#b9a2ff` | 빛줄기(missile) | - | 진(rune) | 회복 빛(heal) + 강화 고리(aura) |
@@ -153,7 +155,7 @@
 | 순욱 | 책사·지원 | 왕좌지재 | `#b9a2ff` | 빛줄기(missile) | - | 진(rune) + 함성(roar) | 강화 고리(aura) + 회복 빛(heal) |
 | 악진 | 한손 검 | 선등 | `#e8ecf4` | cut, jab, chop | 큰 베기(slash) | - | - |
 | 조홍 | 창·방패 | 사수 | `#9fb8d8` | cut, chop, rise | - | 보호막(shield) + 충격파(shock) + 기세(fury) | - |
-| 마초 | 기마 창 | 서량철기 | `#f2f2f2` | rise, cut, chop | 돌진 궤적(dash) + 충격파(shock) + 기절 별(stun) | - | - |
+| 마초 | 기마 장창 | 서량철기 | `#f2f2f2` | chop, rise, cut | 돌진 궤적(dash) + 충격파(shock) + 기절 별(stun) | - | - |
 | 방통 | 책사·지원 | 연환계 | `#c8ccd4` | 낙석(rock) | 사슬(chain) + 낙석(rock) | - | - |
 | 강유 | 보행 창 | 북벌의 창 | `#9fe6d0` | cut, chop, chop | 관통 찌르기(pierce) + 밧줄(bind) | - | - |
 | 위연 | 한손 검 | 기습 | `#ff5a5a` | jab, jab, chop | X자 베기(cross) + 흡수(drain) | - | - |
@@ -178,7 +180,7 @@
 | 문추 | 보행 창 | 추격 | `#ffb07a` | cut, chop, rise | 잔 베기(flurry) + 관통 찌르기(pierce) | - | - |
 | 초선 | 책사·지원 | 경국지색 | `#b9a2ff` | 꽃잎(petal) | - | 진(rune) + 함성(roar) | 강화 고리(aura) + 보호막(shield) |
 | 화웅 | 한손 검 | 관문의 맹장 | `#ff8a4a` | cut, rise, jab | 큰 베기(slash) | 기세(fury) | - |
-| 공손찬 | 기마 창 | 백마의종 | `#ffffff` | rise, chop, cut | 순간이동 연기(blink) + 관통 찌르기(pierce) | - | - |
+| 공손찬 | 기마 장창 | 백마의종 | `#ffffff` | chop, rise, cut | 순간이동 연기(blink) + 관통 찌르기(pierce) | - | - |
 
 ## 이펙트 그림 만드는 법
 
@@ -210,7 +212,7 @@ PixelLab API 문서(2026-11-19 확인)에 따르면 캐릭터 뼈대 없이 이�
 
 | 기능 | 넣는 것 | 나오는 것 | 문서상 비용 |
 |---|---|---|---|
-| `/vfx` (이펙트 전용) | 설명 글(`description`), 입력 참고 스트립의 장수(`sprite_frames` 1~32), 입력 속도(`sprite_fps`), 품질(`artist`: lite 또는 pro). 참고 그림(`sprite`)은 선택 | 참고 스프라이트가 프레임당 최대 512×512, 입력 최대 32프레임 | 짧은 설명 기준 lite 신규 1/3/5회분(참고 없음 또는 ≤128/≤256/≤512px), pro 신규 6회분부터 |
+| `/vfx` (이펙트 전용) | 설명 글(`description`), 프레임 수(`sprite_frames` 1~32), 속도(`sprite_fps`), 품질(`artist`: lite 또는 pro). 참고 그림(`sprite`)은 선택 | 최대 512×512, 최대 32프레임 | 128px 이하 lite 1회분, pro 6회분, 참고 그림을 쓰면 3~28회분 |
 | `/animate-with-text-v3` | 첫 프레임 그림(`first_frame`, 최대 256×256) 필수, 동작 글(`action`), 프레임 수(`frame_count` 4~16 짝수), 투명 배경(`no_background`). 끝 프레임(`last_frame`)은 선택 | 최대 256×256, 4~16프레임 | 문서에 없음 |
 | `/create-image-pixen` | 설명 글, 크기, 투명 배경(256×256까지) | 정지 그림 1장 (첫 프레임을 만들 때) | 문서에 없음 |
 
@@ -222,7 +224,7 @@ PixelLab으로 가려면 필요한 것은 세 가지입니다.
 
 공통 문구: `pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera`
 
-권장 순서: `/vfx`로 성격이 다른 세 가지(짧은 베기 cut, 번개 bolt, 보호막 shield)를 lite로 먼저 한 번씩 만들어 보고(참고 없음 또는 128px 이하 정지 참고·짧은 설명 기준 기본 견적 합계 3회분), 쓸 만하면 나머지를 넣습니다. 512px 피크 이미지를 그대로 넣으면 세 건 기본 견적은 합계 15회분입니다. 출력 장수와 시간은 설명에 요청하고 납품 JSON으로 확인합니다. 최종 청구는 제출 견적의 최대 2배입니다. [공식 API 명세](https://api.pixellab.ai/v2/openapi.json)
+권장 순서: `/vfx`로 성격이 다른 세 가지(짧은 베기 cut, 번개 bolt, 보호막 shield)를 lite로 먼저 한 번씩 만들어 보고(문서상 3회분), 쓸 만하면 나머지를 넣습니다. 38가지를 lite로 한 번씩이면 문서상 38회분입니다.
 
 | 종류 | 설명 글 (영어, 공통 문구 앞에 붙인다) |
 |---|---|

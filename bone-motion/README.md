@@ -98,3 +98,4 @@ python -X utf8 bone-motion/engine/export.py
 - 여러 장수를 동시에 돌리는 법과 최종본을 올리는 순서는 `PIXELLAB-WORKFLOW.md`의 마지막 절에 있다.
 - 시뮬레이터(`simulator.cmd`)는 마지막 장수가 쓰러지는 것까지 보여 준 뒤 끝나고, 막힌 길은 돌아서 간다. 평타·전법 이펙트는 임시 도형이다.
 - 이펙트 제작 규격과 장수별 배정은 `EFFECT-GUIDE.md`, 시안은 `sim/effects.html`.
+- 2026-11-19 추가: 유비, 손권, 주유, 초선 확정. 여포는 평타와 전법을 폐기하고 새 본(`clips/mounted_halberd.py`)으로 다시 만든다. 마초와 공손찬도 같은 방식의 본(`clips/mounted_lance.py`)을 쓴다. 한 프레임씩 넘겨 보는 화면은 `sim/frame-review.html`.

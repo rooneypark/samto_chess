@@ -70,7 +70,7 @@
  "notes": "2026-11-19 make_configs.py. 평타 b1 → a3 → b3, 전법 s2. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. ",
  "canvas_offset": {
   "left": [
-   8,
+   16,
    0
   ]
  }

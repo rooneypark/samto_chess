@@ -1,0 +1,52 @@
+{
+ "schemaVersion": 1,
+ "id": "sunquan",
+ "name": "손권",
+ "family": "command",
+ "reviewStatus": "user_approved",
+ "canvas": [
+  256,
+  256
+ ],
+ "attacks": [
+  "b1",
+  "a3",
+  "b3"
+ ],
+ "skill": "s2",
+ "skillName": "강동의 주인",
+ "clips": {
+  "idle": {
+   "front": "art-source/motions/v1/sunquan/final/idle/front/manifest.json",
+   "left": "art-source/motions/v1/sunquan/final/idle/left/manifest.json",
+   "rear": "art-source/motions/v1/sunquan/final/idle/rear/manifest.json"
+  },
+  "move": {
+   "front": "art-source/motions/v1/sunquan/final/move/front/manifest.json",
+   "left": "art-source/motions/v1/sunquan/final/move/left/manifest.json",
+   "rear": "art-source/motions/v1/sunquan/final/move/rear/manifest.json"
+  },
+  "b1": {
+   "front": "art-source/motions/v1/sunquan/final/b1/front/manifest.json",
+   "left": "art-source/motions/v1/sunquan/final/b1/left/manifest.json",
+   "rear": "art-source/motions/v1/sunquan/final/b1/rear/manifest.json"
+  },
+  "a3": {
+   "front": "art-source/motions/v1/sunquan/final/a3/front/manifest.json",
+   "left": "art-source/motions/v1/sunquan/final/a3/left/manifest.json",
+   "rear": "art-source/motions/v1/sunquan/final/a3/rear/manifest.json"
+  },
+  "b3": {
+   "front": "art-source/motions/v1/sunquan/final/b3/front/manifest.json",
+   "left": "art-source/motions/v1/sunquan/final/b3/left/manifest.json",
+   "rear": "art-source/motions/v1/sunquan/final/b3/rear/manifest.json"
+  },
+  "s2": {
+   "front": "art-source/motions/v1/sunquan/final/s2/front/manifest.json",
+   "left": "art-source/motions/v1/sunquan/final/s2/left/manifest.json",
+   "rear": "art-source/motions/v1/sunquan/final/s2/rear/manifest.json"
+  }
+ },
+ "finalized": "2026-11-19",
+ "approvedDate": "2026-11-19"
+}
