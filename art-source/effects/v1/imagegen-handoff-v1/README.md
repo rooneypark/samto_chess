@@ -5,3 +5,5 @@
 - 이번 묶음은 ImageGen 제작 시안이며 게임 연결과 사용자 최종 승인은 별도다. 실시간 게임 코드와 기존 원화는 변경하지 않았다.
 
 Git에서 받은 뒤 저장소 루트에서 `python tools/asset_packs.py restore`를 실행하면 릴리스에 보관한 PNG와 미리보기가 복원된다. 기존 비교판은 `art-source/effects/v1/reference/`, 제작 가이드는 `bone-motion/EFFECT-GUIDE.md`에 있다.
+
+[다음 작업자에게 전달할 문구](NEXT-WORKER.md)
