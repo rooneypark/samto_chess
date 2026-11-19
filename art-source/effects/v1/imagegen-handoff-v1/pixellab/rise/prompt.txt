@@ -1,0 +1,1 @@
+a vertical upward slash mark, slightly curved, drawn from bottom to top then fading. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 3 effect animation frames over 174 ms.

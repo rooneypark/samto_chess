@@ -1,0 +1,1 @@
+a glowing magic orb with a short trail flying to the right, then bursting into a ring. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 5 effect animation frames over 300 ms.

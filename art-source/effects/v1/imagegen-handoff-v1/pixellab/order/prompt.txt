@@ -1,0 +1,1 @@
+a round target mark with four tick lines that tightens onto a point and fades. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 5 effect animation frames over 300 ms.

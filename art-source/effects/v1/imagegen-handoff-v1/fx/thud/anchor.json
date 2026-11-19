@@ -1,0 +1,29 @@
+{
+  "id": "thud",
+  "name": "방패 치기",
+  "role": "근접 평타",
+  "anchorIs": "대상 가슴",
+  "geometry": "고리 지름 20에서 64",
+  "durationMs": 180,
+  "recommendedFrames": 3,
+  "mode": "direct",
+  "path": "fx/thud",
+  "canvas": [
+    96,
+    96
+  ],
+  "anchor": [
+    48,
+    48
+  ],
+  "frames": [
+    "01.png",
+    "02.png",
+    "03.png"
+  ],
+  "frameDurationsMs": [
+    60,
+    60,
+    60
+  ]
+}

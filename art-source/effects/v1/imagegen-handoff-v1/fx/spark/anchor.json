@@ -1,0 +1,29 @@
+{
+  "id": "spark",
+  "name": "맞는 섬광",
+  "role": "모든 근접 평타",
+  "anchorIs": "대상 가슴",
+  "geometry": "섬광 지름 24, 광선 6개 길이 12",
+  "durationMs": 170,
+  "recommendedFrames": 3,
+  "mode": "direct",
+  "path": "fx/spark",
+  "canvas": [
+    96,
+    96
+  ],
+  "anchor": [
+    48,
+    48
+  ],
+  "frames": [
+    "01.png",
+    "02.png",
+    "03.png"
+  ],
+  "frameDurationsMs": [
+    56,
+    56,
+    58
+  ]
+}

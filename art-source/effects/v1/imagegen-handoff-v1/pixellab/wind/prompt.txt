@@ -1,0 +1,1 @@
+a small whirlwind, narrow at the bottom and wide at the top, spinning in place. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 8 effect animation frames over 560 ms.

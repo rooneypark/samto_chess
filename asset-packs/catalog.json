@@ -2318,6 +2318,642 @@
       ]
     },
     {
+      "path": "asset-packs/v1/effects-imagegen-handoff-v1-v1-001.zip",
+      "category": "effects-imagegen-handoff-v1",
+      "bytes": 583292,
+      "sha256": "96580ec9908dc71a8a885c9ff9699aedb2c1df82140ab98bbb7a07af26b4cddb",
+      "files": [
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/cut-review.webp",
+          "bytes": 7062,
+          "sha256": "7ddb8f2c582a30a7d35d45074084f464168dd13a245cf8c46811ca7cebf834d0"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/fx/cut/01.png",
+          "bytes": 958,
+          "sha256": "02dab639a63397bd345271fe02a11a78b8feae65cd5055799dfb0003dad90dbb"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/fx/cut/02.png",
+          "bytes": 3170,
+          "sha256": "75d1c2c05daa22f52408ad555fbca2d39d7f32bbb184ee6bcc4f3a579e5a8082"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/fx/cut/03.png",
+          "bytes": 829,
+          "sha256": "9bcd5bc9cd2dae98f19a484b3e839399108bdcd6e3d702df3f8b6c0b09066e46"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/fx/jab/01.png",
+          "bytes": 1587,
+          "sha256": "93495afc625a2db9ae1d8ac65f7efc7060bd54c28a88cd4aec07e962b77351a5"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/fx/jab/02.png",
+          "bytes": 3266,
+          "sha256": "e05625a25d2ac7223afc5cb20120bf399eaae4804ae1e196df34f53a82e75c31"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/fx/jab/03.png",
+          "bytes": 1359,
+          "sha256": "89d96c34c894b317b71b8f6700d42f2a94aa398838dbf2039349386284b1669c"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/fx/spark/01.png",
+          "bytes": 1185,
+          "sha256": "82da8238eb183e1734a144eed944d8fb7b3a66194a03e383c014e92bfc1c8553"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/fx/spark/02.png",
+          "bytes": 2771,
+          "sha256": "0f8ea5e12f161c0b0dc22bb7650ea100a30833c754174292b7e79a2fb549e6d0"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/fx/spark/03.png",
+          "bytes": 803,
+          "sha256": "78a0bec8e21d23f70ff2bb859facfe754305399811c6cfebff76ea040054c425"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/fx/thud/01.png",
+          "bytes": 2395,
+          "sha256": "a540a59bba97de0ab4290e71a3d72a300af780f836bd9fc3053d753fd5a91ac3"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/fx/thud/02.png",
+          "bytes": 5295,
+          "sha256": "c1bb65083b819d35ab0f100543c2769210b61d40364db15500cb44e1eea716f7"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/fx/thud/03.png",
+          "bytes": 2795,
+          "sha256": "f8b04415c668fc136fbe9625799497c8c2f8c911b7edded16d2f77fe1453c5c9"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/overview.png",
+          "bytes": 165453,
+          "sha256": "4455296022ed62a3b084e236796cd743cfe7e9a525f2f30ceb468b1e620ef1ba"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/arrow/reference.png",
+          "bytes": 3657,
+          "sha256": "7849e5d3601dab5c4e27ad60dce880b97b003e49c695fd686f8e23566fb73457"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/aura/reference.png",
+          "bytes": 12148,
+          "sha256": "8ede586f344e472dade8ca67a4105d6277d1c86ce064036ab9fe64912a4003ed"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/bind/reference.png",
+          "bytes": 21030,
+          "sha256": "80acbfdd0f473b700b12073957d83507947428b4c65d6a8d5398c5787d4f99af"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/blink/reference.png",
+          "bytes": 16961,
+          "sha256": "949ab4d2b9873066bec82a865963b4500a0fb2703b5fce75e8b9d6017d6fbf87"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/bolt/reference.png",
+          "bytes": 18179,
+          "sha256": "1b884a82e945d6cb124f945c2070c55b0f080e022ca37cc5c95877aaca64721d"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/burst/reference.png",
+          "bytes": 20433,
+          "sha256": "eb7ffa601a59332406a5674a2ae439171cb7a3f37e8632fd17550ad93b1f4aca"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/cast/reference.png",
+          "bytes": 10545,
+          "sha256": "d1d18b3177f0b401ece543a01d1a17cf49c69d4dab59a8ca102434f2ea8acfe1"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/chain/reference.png",
+          "bytes": 5289,
+          "sha256": "60ac008c702774e8e93f1cc7563f1ab6e024076f5836066067a3696bd7a513f3"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/chop/reference.png",
+          "bytes": 6894,
+          "sha256": "d7ab0fb326e00818faf1a2439134825e1a6c695d20cf399b3f5fdc7f62725909"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/cross/reference.png",
+          "bytes": 11202,
+          "sha256": "55fece5f4b1348288cd2c1675e41806d16a9066e47bf2c803fdb62d7dd197263"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/dash/reference.png",
+          "bytes": 5372,
+          "sha256": "15dc227da44d869c2a38ddb6ab21fdcfc0145d6ea889a3e80a1aa143043e4df4"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/drain/reference.png",
+          "bytes": 5142,
+          "sha256": "c7667e8a3c9ee059a349b0e8f41b8e4becb3afb37e28f7f0966bb45ea639eb25"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/fire/reference.png",
+          "bytes": 13086,
+          "sha256": "715e2214f6d9a4db97b8b1ad46816686d8a8e60f03248372bf7783d128e08423"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/flurry/reference.png",
+          "bytes": 13029,
+          "sha256": "2a9e1c5a920db59d9c59494492bfb6756712503e4079562219369a0585beb6a7"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/fury/reference.png",
+          "bytes": 11712,
+          "sha256": "66a4e90617d32afa90ba4657579e6d09778718c4f91dd7bad37de1085b90739e"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/heal/reference.png",
+          "bytes": 7083,
+          "sha256": "3fb3ed116284b405e0777b70692ba91bced7e6399c1ce74439e85be311c867aa"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/ice/reference.png",
+          "bytes": 12590,
+          "sha256": "60bd463e92a833a676b6e1b321ddabce819f3e4266c8732f2038271613e9341f"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/missile/reference.png",
+          "bytes": 4089,
+          "sha256": "f25de913884d857023b38976a91303084e07ff34d24f897000bfed3693aaad9c"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/needle/reference.png",
+          "bytes": 2532,
+          "sha256": "5ebc44836d0264ff7e1450c7caa45064e4038574a2f3f2b0614178bc73da625a"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/orb/reference.png",
+          "bytes": 9874,
+          "sha256": "2766344bc4be90d000f05d6aa3095ea3348588a7f33e2f4afc24247b8c4cdcc0"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/order/reference.png",
+          "bytes": 12699,
+          "sha256": "4b15b76629424bb21f13711527042f0528bef658f00d84e0aaf86fd72e4c5839"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/petal/reference.png",
+          "bytes": 4984,
+          "sha256": "3d1d29ea9bc3f99d07646337f2932fc49994e6223d46ac2d5b8c1a2f78567dc7"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/pierce/reference.png",
+          "bytes": 4356,
+          "sha256": "391f96720daf9c5c7235d450ae2609298240b5eed5b3aa6ec7ef4c023eb633ce"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/rise/reference.png",
+          "bytes": 7266,
+          "sha256": "1d3a977457c785584668f80ac31c6625b529cbf433f283c708a1fa29dce7f292"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/roar/reference.png",
+          "bytes": 14150,
+          "sha256": "552836d7f391eb18700a095637aa8caa4a85ca19c56f10c64c12c705a12d123e"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/rock/reference.png",
+          "bytes": 17471,
+          "sha256": "e0de3802391a11b76d70c6a4d87420d2dec2ab32a5e586aa180159515ddadb65"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/rune/reference.png",
+          "bytes": 23692,
+          "sha256": "530aab78034cf25db871b231cfa031aa36e7f84a7052bd26c38496a81dc930f9"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/shield/reference.png",
+          "bytes": 17291,
+          "sha256": "e9006b021ce6f1e2d48ded701ec63211abbcfb900a41354a7b125d83485343b0"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/shock/reference.png",
+          "bytes": 12549,
+          "sha256": "8157a420cc7bafcba495f23368d15752ed8db318491f9fe1b59bc8f18efb98ed"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/slash/reference.png",
+          "bytes": 11636,
+          "sha256": "2e71c49a85f50f6b8b599dbe5ce3c26a407d4ce80d18a5bc1d28d5f5fd6d9da6"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/spin/reference.png",
+          "bytes": 11781,
+          "sha256": "9176f0628fd12ce558edd2a7d347d924abc086ca8789fbc032d6c1f3d57e8a7e"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/stun/reference.png",
+          "bytes": 10284,
+          "sha256": "b486dca7de86a1c4c4ea48aeabe4f7cf5b12ffd2bb918fda89466bb7f223be29"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/whip/reference.png",
+          "bytes": 3264,
+          "sha256": "d069549770bafadfdffc33ab24b80206aaffb20bfb25a001877fb9e600b8b7b0"
+        },
+        {
+          "path": "art-source/effects/v1/imagegen-handoff-v1/pixellab/wind/reference.png",
+          "bytes": 18655,
+          "sha256": "a7ddc9e823d09fd7072e8cd63587741e803bfebdc7895fff2895b8af5a2469cf"
+        }
+      ]
+    },
+    {
+      "path": "asset-packs/v1/effects-reference-v1-001.zip",
+      "category": "effects-reference",
+      "bytes": 973353,
+      "sha256": "e9e0f6d555c242472637c48bbe7cb61fe9bf0085cfb5cff27715d90686b2c512",
+      "files": [
+        {
+          "path": "art-source/effects/v1/reference/arrow-peak.png",
+          "bytes": 1342,
+          "sha256": "18512610fb860f2a73eb9ee206d6e58496f5b856f101c7852597b03aa550667c"
+        },
+        {
+          "path": "art-source/effects/v1/reference/arrow.png",
+          "bytes": 16877,
+          "sha256": "6775ba0dacef2c1378b874e20002cd446f1f5b4a78c08ffce407abbfaab6149e"
+        },
+        {
+          "path": "art-source/effects/v1/reference/aura-peak.png",
+          "bytes": 3732,
+          "sha256": "494751d14cde0b8e8e7dae3fcd6111ee800a14a060072dc36317dcd4a841f121"
+        },
+        {
+          "path": "art-source/effects/v1/reference/aura.png",
+          "bytes": 30081,
+          "sha256": "d2b326943bd46c5ae43eb4ffad882e139ca4f82ee78d978acff2a801eb3c1211"
+        },
+        {
+          "path": "art-source/effects/v1/reference/bind-peak.png",
+          "bytes": 4019,
+          "sha256": "2029c0d1791edc05c8d8dfa9c03ae1b0b012c9456a9d6555a0bdc624c4761817"
+        },
+        {
+          "path": "art-source/effects/v1/reference/bind.png",
+          "bytes": 28959,
+          "sha256": "a419ba29c8a4ce4242c66859389b25bba41f2833c0f24ba800b4db3945fbdf86"
+        },
+        {
+          "path": "art-source/effects/v1/reference/blink-peak.png",
+          "bytes": 4202,
+          "sha256": "b49f732f1f855e2f5449c81285d8a20dfec0c57b677e390c7d9d71b19cf9f4fa"
+        },
+        {
+          "path": "art-source/effects/v1/reference/blink.png",
+          "bytes": 28211,
+          "sha256": "18a54e603687151d1bbf6693ece25ec2e5611d3b3fc61b869863a3544a9660f9"
+        },
+        {
+          "path": "art-source/effects/v1/reference/bolt-peak.png",
+          "bytes": 8143,
+          "sha256": "11611271f74637e9118b30b48a04f76227f9f3184d915434b5c18d0bae34536e"
+        },
+        {
+          "path": "art-source/effects/v1/reference/bolt.png",
+          "bytes": 49129,
+          "sha256": "f203adef13dcd18efb3f8741aa2f6bada26e162240bc789d585c015b38105f6e"
+        },
+        {
+          "path": "art-source/effects/v1/reference/burst-peak.png",
+          "bytes": 6937,
+          "sha256": "71b60fd3d8eb062de39128876dc3ea2cefaef3a8cde38aaa1c7e8d51ad3c6146"
+        },
+        {
+          "path": "art-source/effects/v1/reference/burst.png",
+          "bytes": 42501,
+          "sha256": "edc87b085b64cfad68e9cefd3b24cf1badf1c07db1a4c469c9ba4c5de26944cc"
+        },
+        {
+          "path": "art-source/effects/v1/reference/cast-peak.png",
+          "bytes": 12399,
+          "sha256": "9cb58f59eed2833828ef076bac2d61d03ee81fee09d7fe5dc470f62ffda11b86"
+        },
+        {
+          "path": "art-source/effects/v1/reference/cast.png",
+          "bytes": 63580,
+          "sha256": "a35daf7abec4e53eaa929bfd8fd12f75e40c45f272d7bcd122d81bb7a706bd42"
+        },
+        {
+          "path": "art-source/effects/v1/reference/chain-peak.png",
+          "bytes": 1231,
+          "sha256": "edc6a9a60f2258386b3fc273460c9b9b5f36a5e1c1a715609b0fd96ab4ef2e87"
+        },
+        {
+          "path": "art-source/effects/v1/reference/chain.png",
+          "bytes": 16053,
+          "sha256": "dc939a6bdc73429dddfb4f34a76041463d54ee390d82ed93de1dbdb4c13a5809"
+        },
+        {
+          "path": "art-source/effects/v1/reference/chop-peak.png",
+          "bytes": 3531,
+          "sha256": "fbed9e8f2c18403df7818bd7b35f84fbe119541bfc9267e3402e2f2543dbe6bb"
+        },
+        {
+          "path": "art-source/effects/v1/reference/chop.png",
+          "bytes": 25743,
+          "sha256": "baaa15fa47bcee34ec5841d2c39c9a4a9ff882efe878e3d46fd0cc920a7b74f8"
+        },
+        {
+          "path": "art-source/effects/v1/reference/cross-peak.png",
+          "bytes": 2120,
+          "sha256": "dec22ba6c45343eeadbcf2ce08a7dd9a726206af0a28752f1b91ad4e992d7a73"
+        },
+        {
+          "path": "art-source/effects/v1/reference/cross.png",
+          "bytes": 21355,
+          "sha256": "0d1125397df696ada4aa363938f3e63e0361553f64d1f0a0013e8039c941056d"
+        },
+        {
+          "path": "art-source/effects/v1/reference/cut-peak.png",
+          "bytes": 3309,
+          "sha256": "f6f380584f8844907b11ceb9cc5df38b55cd93ddade54e5bf32e96dcb96d6b1a"
+        },
+        {
+          "path": "art-source/effects/v1/reference/cut.png",
+          "bytes": 23520,
+          "sha256": "6dd383a326c1576dd838cef02e97c574b71f70fbea35fdb9ef04d21b76633bb2"
+        },
+        {
+          "path": "art-source/effects/v1/reference/dash-peak.png",
+          "bytes": 3956,
+          "sha256": "2dad077ade562bb4f2b26ebd805d32bc8769dfc4763bf1389e82045034ec3be2"
+        },
+        {
+          "path": "art-source/effects/v1/reference/dash.png",
+          "bytes": 26864,
+          "sha256": "7a2c9e1c6c60a3b1f9556b1146de574daeeb9d91b6ac90129a7248bc706b7187"
+        },
+        {
+          "path": "art-source/effects/v1/reference/drain-peak.png",
+          "bytes": 2355,
+          "sha256": "372d61a9ff6bad83c2880113de22415b1423e36ad14a136bef0b8cbcf9ede96b"
+        },
+        {
+          "path": "art-source/effects/v1/reference/drain.png",
+          "bytes": 20659,
+          "sha256": "6053c93da25f26bc4f6c7f4ae7612ba4277941b275fca19613afba2dacf2eecb"
+        },
+        {
+          "path": "art-source/effects/v1/reference/fire-peak.png",
+          "bytes": 4732,
+          "sha256": "7d1720c8931fdcac93d1b1efdebaeedecf0799aae8d86a7214dcf47d1d8475cc"
+        },
+        {
+          "path": "art-source/effects/v1/reference/fire.png",
+          "bytes": 28198,
+          "sha256": "d798da83e0f9e2813682b78ab1e68c119ae71d5dc59f7e7bd07dc5e1aef59a1c"
+        },
+        {
+          "path": "art-source/effects/v1/reference/flurry-peak.png",
+          "bytes": 2304,
+          "sha256": "57b90aa0cf7cb73e8d9aa91e2f7663d46106a0c2ed70820cdbcc638efb363875"
+        },
+        {
+          "path": "art-source/effects/v1/reference/flurry.png",
+          "bytes": 21364,
+          "sha256": "5c49f707281a4589312145915490ab617e1f579508f2f55827748803fc7d8357"
+        },
+        {
+          "path": "art-source/effects/v1/reference/fury-peak.png",
+          "bytes": 3191,
+          "sha256": "ea85fdee38feb6f0fb7fcbcf53d0e3c54c83b26c30ea1fe7239e72a6408f0893"
+        },
+        {
+          "path": "art-source/effects/v1/reference/fury.png",
+          "bytes": 24440,
+          "sha256": "e362322dd9f25fb5619ea8d61d5ee4e17a846be47be45fcd0393c7f4ef2cfea2"
+        },
+        {
+          "path": "art-source/effects/v1/reference/heal-peak.png",
+          "bytes": 2016,
+          "sha256": "11e702b359f01ce4cee789e0c37b2236e20db7762a4e3c6240eb1a8892d8da81"
+        },
+        {
+          "path": "art-source/effects/v1/reference/heal.png",
+          "bytes": 18107,
+          "sha256": "efe1812c3f8afb8fb9ba794249d5fa3e28d95165bcf985bc0f7db5cc880a974a"
+        },
+        {
+          "path": "art-source/effects/v1/reference/ice-peak.png",
+          "bytes": 2458,
+          "sha256": "e99e32c92be519b55bdd0e509aaa884fc9da5dbdfaf44e86a89b8c771ffc27a9"
+        },
+        {
+          "path": "art-source/effects/v1/reference/ice.png",
+          "bytes": 21405,
+          "sha256": "6c49cc42dff29c3d3452076e82695ca9356e12473d6cdd8c2c0de3830862e6c9"
+        },
+        {
+          "path": "art-source/effects/v1/reference/jab-peak.png",
+          "bytes": 2215,
+          "sha256": "113f7b810d0857b845ec3cddc8a28898dcf07a7e6b21cc4deeb2747882710a7d"
+        },
+        {
+          "path": "art-source/effects/v1/reference/jab.png",
+          "bytes": 20742,
+          "sha256": "71a497eb04b41f3b48b8816dd8a0971d67ed0d8f9c815580f58cd5784f778cbe"
+        },
+        {
+          "path": "art-source/effects/v1/reference/missile-peak.png",
+          "bytes": 1439,
+          "sha256": "c0ddb0f146683afe7fa10daea26fec75a19166a9908c9f18f12c3b347b9c4af2"
+        },
+        {
+          "path": "art-source/effects/v1/reference/missile.png",
+          "bytes": 16038,
+          "sha256": "0301e641f2b23f56c65c12b740155db026912669ebf5df279403a33aef93f233"
+        },
+        {
+          "path": "art-source/effects/v1/reference/needle-peak.png",
+          "bytes": 1567,
+          "sha256": "afdf1b3cb48be3b46fa85dc8c79dd4d7c0e236b32264866dd4b6ab9d6dbcbcc6"
+        },
+        {
+          "path": "art-source/effects/v1/reference/needle.png",
+          "bytes": 15618,
+          "sha256": "0860f4772e8908f5ccff8a7ae256e275255a8e191a253b714efb1c77425fd8b5"
+        },
+        {
+          "path": "art-source/effects/v1/reference/orb-peak.png",
+          "bytes": 2132,
+          "sha256": "32522c03f410845c98da4987bbdfdb1ce2d154f58001e28d0d92388caf5f6f3d"
+        },
+        {
+          "path": "art-source/effects/v1/reference/orb.png",
+          "bytes": 21038,
+          "sha256": "fe07546e5f502620ac827d026a3f7cf421e77f2b687f160afb89623159fb275c"
+        },
+        {
+          "path": "art-source/effects/v1/reference/order-peak.png",
+          "bytes": 2858,
+          "sha256": "d6a4951ad5690d951d6a8e3914f28694ed6e83b20f77d850b135816eec07a2d5"
+        },
+        {
+          "path": "art-source/effects/v1/reference/order.png",
+          "bytes": 24573,
+          "sha256": "fdc3e0d7bc0594b2125d192cf54b85a35517bf7d5253801c30c3967bc22b6e8a"
+        },
+        {
+          "path": "art-source/effects/v1/reference/petal-peak.png",
+          "bytes": 1798,
+          "sha256": "465f49eb16e5887b56873ec56c1c4406206c4bc0eebb7a6b6bcc9716ec6b9996"
+        },
+        {
+          "path": "art-source/effects/v1/reference/petal.png",
+          "bytes": 19282,
+          "sha256": "17a55b79ca92876ef314836d141e324054338875c1c6a6c2a8743f85df458f90"
+        },
+        {
+          "path": "art-source/effects/v1/reference/pierce-peak.png",
+          "bytes": 2469,
+          "sha256": "9cb0d49867fcb3ceca58e8ca099c5df9e99323ab63fdef5eb098997a10b40a82"
+        },
+        {
+          "path": "art-source/effects/v1/reference/pierce.png",
+          "bytes": 23103,
+          "sha256": "c9db025e70f295c0a85705314592dd4757f222d405fb801fd52880a7508e9713"
+        },
+        {
+          "path": "art-source/effects/v1/reference/rise-peak.png",
+          "bytes": 3326,
+          "sha256": "c5120f9f4e581b36686de6eca38f567c5c744b0ed440b21f6d8160b96dfb0ffe"
+        },
+        {
+          "path": "art-source/effects/v1/reference/rise.png",
+          "bytes": 24879,
+          "sha256": "00e43f1521bf118de4c00c854acadcbdaf397d4cb3f031c2e53378a2da8478af"
+        },
+        {
+          "path": "art-source/effects/v1/reference/roar-peak.png",
+          "bytes": 9622,
+          "sha256": "b583ac07c896cbd1059151e0a58b5630c768f6314a861b59ffc2f343e2ea63a8"
+        },
+        {
+          "path": "art-source/effects/v1/reference/roar.png",
+          "bytes": 50273,
+          "sha256": "9ff5fc3c6a1edfed17ea05bc901330545291a6cb02bf0b6ad867815e0cc6cfe6"
+        },
+        {
+          "path": "art-source/effects/v1/reference/rock-peak.png",
+          "bytes": 2555,
+          "sha256": "f96d438aa776ae9ae60943c7574755ac3df5df69806c4e3885db92b77fbf81ce"
+        },
+        {
+          "path": "art-source/effects/v1/reference/rock.png",
+          "bytes": 22942,
+          "sha256": "701203cbb8b7b0e12a0408ea44dff6340932dd648c38bbc6002d64cb27e85211"
+        },
+        {
+          "path": "art-source/effects/v1/reference/rune-peak.png",
+          "bytes": 3794,
+          "sha256": "8c893a4236fd16ca66116052d87d7d5b4b33ae0346241a4795ea6c3362b8fdd9"
+        },
+        {
+          "path": "art-source/effects/v1/reference/rune.png",
+          "bytes": 30442,
+          "sha256": "7751a0d9d3db3964d54a4c97809561397de81861a71b2cfa053d68dfe4380f5f"
+        },
+        {
+          "path": "art-source/effects/v1/reference/shield-peak.png",
+          "bytes": 5399,
+          "sha256": "39555f63346063b56a417630d55541ae8ac4361bad70abd17641f889606ae3a1"
+        },
+        {
+          "path": "art-source/effects/v1/reference/shield.png",
+          "bytes": 29263,
+          "sha256": "2e6995620f393bd0b01127cc1ade4a2387502249830db1c81dae2b21bf9e1dd8"
+        },
+        {
+          "path": "art-source/effects/v1/reference/shock-peak.png",
+          "bytes": 4842,
+          "sha256": "33b1cdb0240c8e7ee93d9619c0f7017a9f8b45346c4e4f5744dbae50ec1cbce2"
+        },
+        {
+          "path": "art-source/effects/v1/reference/shock.png",
+          "bytes": 35857,
+          "sha256": "e466be8838ab8b83cd966e0842cb459d9be302f3aea0560853491f2d7f728992"
+        },
+        {
+          "path": "art-source/effects/v1/reference/slash-peak.png",
+          "bytes": 3664,
+          "sha256": "8e124180ff454bc7130d68365b1df2b130b92ead4cf316c23d80486cbb2a7d41"
+        },
+        {
+          "path": "art-source/effects/v1/reference/slash.png",
+          "bytes": 25186,
+          "sha256": "1dd485185035defbe1086546b658cab70b81eb5c96e0efed23e82bd97bb4d1e9"
+        },
+        {
+          "path": "art-source/effects/v1/reference/spark-peak.png",
+          "bytes": 2462,
+          "sha256": "b7ff8b8d12a3dcc5c6358dd88ed821e7b4449ff9efca6023e1a156e83f038fca"
+        },
+        {
+          "path": "art-source/effects/v1/reference/spark.png",
+          "bytes": 21398,
+          "sha256": "6d818e21257149500823cec727b9664dfbd56bfaa5a567b1ac2a538451993f16"
+        },
+        {
+          "path": "art-source/effects/v1/reference/spin-peak.png",
+          "bytes": 4729,
+          "sha256": "eeb0aff51fec0b36c4344b17663b91abc5a040ecf55cb8f1ce1928172ff46ece"
+        },
+        {
+          "path": "art-source/effects/v1/reference/spin.png",
+          "bytes": 35855,
+          "sha256": "5505dca26292b7e1a1b71e0f44df3bd6afdee27dc801b15664aba52bab1ed853"
+        },
+        {
+          "path": "art-source/effects/v1/reference/stun-peak.png",
+          "bytes": 1995,
+          "sha256": "8a7074ed258708dee21496577494d90ac7bd2abee4ad5ccc853ca8c69b5425c2"
+        },
+        {
+          "path": "art-source/effects/v1/reference/stun.png",
+          "bytes": 20450,
+          "sha256": "dc1c00f3fa40a7049fcb2042eb0d0d1d72025adaacab6f4db722ade37fda4b33"
+        },
+        {
+          "path": "art-source/effects/v1/reference/thud-peak.png",
+          "bytes": 3375,
+          "sha256": "883e516ddc2d3700da402b32b8f1ec9cc4d6ba537a7d03938507cd76fd62ed02"
+        },
+        {
+          "path": "art-source/effects/v1/reference/thud.png",
+          "bytes": 28838,
+          "sha256": "39447c747a5f916354a39f357c8e4cc158f494d7af8c58c0b6faf87a76fc268e"
+        },
+        {
+          "path": "art-source/effects/v1/reference/whip-peak.png",
+          "bytes": 3076,
+          "sha256": "c14b433a782cd3f5c73e3d52375e64c47db15e8c137d00372fb958e8461eb91b"
+        },
+        {
+          "path": "art-source/effects/v1/reference/whip.png",
+          "bytes": 26206,
+          "sha256": "3473814eb63397772424ade70c3cccb6223945b8ed0c4693e997bc36c6d50910"
+        },
+        {
+          "path": "art-source/effects/v1/reference/wind-peak.png",
+          "bytes": 5454,
+          "sha256": "5089ff79d2234d37fd3b2834bb3ab1a6002dac3ced4bee31b23b8cd0f41cbf7a"
+        },
+        {
+          "path": "art-source/effects/v1/reference/wind.png",
+          "bytes": 42100,
+          "sha256": "79f5ad39175e834a54bd6331a8fe4afa706c62afb47c88f398546d5b13363c09"
+        }
+      ]
+    },
+    {
       "path": "asset-packs/v1/motions-1-v1-001.zip",
       "category": "motions-1",
       "bytes": 2741383,

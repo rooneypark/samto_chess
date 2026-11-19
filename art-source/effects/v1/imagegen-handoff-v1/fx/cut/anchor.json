@@ -1,0 +1,29 @@
+{
+  "id": "cut",
+  "name": "짧은 베기",
+  "role": "근접 평타",
+  "anchorIs": "대상 가슴",
+  "geometry": "반지름 31 초승달, 굵기 7.7",
+  "durationMs": 174,
+  "recommendedFrames": 3,
+  "mode": "direct",
+  "path": "fx/cut",
+  "canvas": [
+    96,
+    96
+  ],
+  "anchor": [
+    48,
+    48
+  ],
+  "frames": [
+    "01.png",
+    "02.png",
+    "03.png"
+  ],
+  "frameDurationsMs": [
+    58,
+    58,
+    58
+  ]
+}

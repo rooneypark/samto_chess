@@ -1,0 +1,29 @@
+{
+  "id": "jab",
+  "name": "짧은 찌르기",
+  "role": "근접 평타",
+  "anchorIs": "자신 가슴 → 대상 너머 33",
+  "geometry": "굵기 4.4",
+  "durationMs": 162,
+  "recommendedFrames": 3,
+  "mode": "direct",
+  "path": "fx/jab",
+  "canvas": [
+    192,
+    96
+  ],
+  "anchor": [
+    16,
+    48
+  ],
+  "frames": [
+    "01.png",
+    "02.png",
+    "03.png"
+  ],
+  "frameDurationsMs": [
+    54,
+    54,
+    54
+  ]
+}

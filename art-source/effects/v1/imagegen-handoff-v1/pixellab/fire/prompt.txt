@@ -1,0 +1,1 @@
+a pillar of flames rising from the ground, flickering, with a glowing base, then dying down. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 8 effect animation frames over 560 ms.

@@ -1,0 +1,1 @@
+a short streak of light flying straight to the right. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 3 effect animation frames over 160 ms.

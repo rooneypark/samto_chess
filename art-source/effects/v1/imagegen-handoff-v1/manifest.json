@@ -1,0 +1,526 @@
+{
+  "jab": {
+    "id": "jab",
+    "name": "짧은 찌르기",
+    "role": "근접 평타",
+    "anchorIs": "자신 가슴 → 대상 너머 33",
+    "geometry": "굵기 4.4",
+    "durationMs": 162,
+    "recommendedFrames": 3,
+    "mode": "direct",
+    "path": "fx/jab",
+    "canvas": [
+      192,
+      96
+    ],
+    "anchor": [
+      16,
+      48
+    ],
+    "frames": [
+      "01.png",
+      "02.png",
+      "03.png"
+    ],
+    "frameDurationsMs": [
+      54,
+      54,
+      54
+    ]
+  },
+  "cut": {
+    "id": "cut",
+    "name": "짧은 베기",
+    "role": "근접 평타",
+    "anchorIs": "대상 가슴",
+    "geometry": "반지름 31 초승달, 굵기 7.7",
+    "durationMs": 174,
+    "recommendedFrames": 3,
+    "mode": "direct",
+    "path": "fx/cut",
+    "canvas": [
+      96,
+      96
+    ],
+    "anchor": [
+      48,
+      48
+    ],
+    "frames": [
+      "01.png",
+      "02.png",
+      "03.png"
+    ],
+    "frameDurationsMs": [
+      58,
+      58,
+      58
+    ]
+  },
+  "chop": {
+    "id": "chop",
+    "name": "내려 베기",
+    "role": "근접 평타",
+    "anchorIs": "대상 가슴",
+    "geometry": "폭 22, 높이 82",
+    "durationMs": 174,
+    "recommendedFrames": 3,
+    "mode": "reference",
+    "path": "pixellab/chop",
+    "prompt": "a vertical downward slash mark, slightly curved, drawn from top to bottom then fading. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 3 effect animation frames over 174 ms."
+  },
+  "rise": {
+    "id": "rise",
+    "name": "올려 베기",
+    "role": "근접 평타",
+    "anchorIs": "대상 가슴",
+    "geometry": "폭 22, 높이 82",
+    "durationMs": 174,
+    "recommendedFrames": 3,
+    "mode": "reference",
+    "path": "pixellab/rise",
+    "prompt": "a vertical upward slash mark, slightly curved, drawn from bottom to top then fading. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 3 effect animation frames over 174 ms."
+  },
+  "thud": {
+    "id": "thud",
+    "name": "방패 치기",
+    "role": "근접 평타",
+    "anchorIs": "대상 가슴",
+    "geometry": "고리 지름 20에서 64",
+    "durationMs": 180,
+    "recommendedFrames": 3,
+    "mode": "direct",
+    "path": "fx/thud",
+    "canvas": [
+      96,
+      96
+    ],
+    "anchor": [
+      48,
+      48
+    ],
+    "frames": [
+      "01.png",
+      "02.png",
+      "03.png"
+    ],
+    "frameDurationsMs": [
+      60,
+      60,
+      60
+    ]
+  },
+  "whip": {
+    "id": "whip",
+    "name": "채찍 줄",
+    "role": "근접 평타",
+    "anchorIs": "자신 가슴 → 대상 가슴",
+    "geometry": "굵기 5, 휘는 폭 46",
+    "durationMs": 192,
+    "recommendedFrames": 3,
+    "mode": "reference",
+    "path": "pixellab/whip",
+    "prompt": "a thin whip line that bends in an arc and snaps straight to the right. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 3 effect animation frames over 192 ms."
+  },
+  "cross": {
+    "id": "cross",
+    "name": "X자 베기",
+    "role": "근접 전법·평타",
+    "anchorIs": "대상 가슴",
+    "geometry": "60×60",
+    "durationMs": 320,
+    "recommendedFrames": 5,
+    "mode": "reference",
+    "path": "pixellab/cross",
+    "prompt": "two crossing slashes forming an X, the second a moment after the first. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 5 effect animation frames over 320 ms."
+  },
+  "spark": {
+    "id": "spark",
+    "name": "맞는 섬광",
+    "role": "모든 근접 평타",
+    "anchorIs": "대상 가슴",
+    "geometry": "섬광 지름 24, 광선 6개 길이 12",
+    "durationMs": 170,
+    "recommendedFrames": 3,
+    "mode": "direct",
+    "path": "fx/spark",
+    "canvas": [
+      96,
+      96
+    ],
+    "anchor": [
+      48,
+      48
+    ],
+    "frames": [
+      "01.png",
+      "02.png",
+      "03.png"
+    ],
+    "frameDurationsMs": [
+      56,
+      56,
+      58
+    ]
+  },
+  "arrow": {
+    "id": "arrow",
+    "name": "화살",
+    "role": "궁병 평타·전법",
+    "anchorIs": "자신 가슴 → 대상 가슴 (화살비는 하늘 → 대상)",
+    "geometry": "길이 24, 굵은 화살 34",
+    "durationMs": 210,
+    "recommendedFrames": 3,
+    "mode": "reference",
+    "path": "pixellab/arrow",
+    "prompt": "a single arrow flying to the right in a shallow arc, white arrowhead, no bow, no archer. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 3 effect animation frames over 210 ms."
+  },
+  "missile": {
+    "id": "missile",
+    "name": "빛줄기",
+    "role": "원거리 평타",
+    "anchorIs": "자신 가슴 → 대상 가슴",
+    "geometry": "굵기 3, 길이는 거리의 30%",
+    "durationMs": 160,
+    "recommendedFrames": 3,
+    "mode": "reference",
+    "path": "pixellab/missile",
+    "prompt": "a short streak of light flying straight to the right. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 3 effect animation frames over 160 ms."
+  },
+  "orb": {
+    "id": "orb",
+    "name": "구슬",
+    "role": "원거리 평타",
+    "anchorIs": "자신 가슴 → 대상 가슴",
+    "geometry": "구슬 지름 16, 터질 때 지름 56",
+    "durationMs": 300,
+    "recommendedFrames": 5,
+    "mode": "reference",
+    "path": "pixellab/orb",
+    "prompt": "a glowing magic orb with a short trail flying to the right, then bursting into a ring. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 5 effect animation frames over 300 ms."
+  },
+  "petal": {
+    "id": "petal",
+    "name": "꽃잎",
+    "role": "원거리 평타",
+    "anchorIs": "자신 가슴 → 대상 가슴",
+    "geometry": "꽃잎 10×5, 4장",
+    "durationMs": 340,
+    "recommendedFrames": 5,
+    "mode": "reference",
+    "path": "pixellab/petal",
+    "prompt": "four flower petals fluttering to the right in a wavy path. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 5 effect animation frames over 340 ms."
+  },
+  "needle": {
+    "id": "needle",
+    "name": "침",
+    "role": "원거리 평타",
+    "anchorIs": "자신 가슴 → 대상 가슴",
+    "geometry": "굵기 1.5",
+    "durationMs": 110,
+    "recommendedFrames": 3,
+    "mode": "reference",
+    "path": "pixellab/needle",
+    "prompt": "a very thin fast needle streak flying to the right. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 3 effect animation frames over 110 ms."
+  },
+  "order": {
+    "id": "order",
+    "name": "표적 표시",
+    "role": "지휘 평타",
+    "anchorIs": "대상 가슴",
+    "geometry": "지름 52에서 32로 조여 듦",
+    "durationMs": 300,
+    "recommendedFrames": 5,
+    "mode": "reference",
+    "path": "pixellab/order",
+    "prompt": "a round target mark with four tick lines that tightens onto a point and fades. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 5 effect animation frames over 300 ms."
+  },
+  "cast": {
+    "id": "cast",
+    "name": "시전 빛기둥",
+    "role": "모든 전법 공통",
+    "anchorIs": "자신 발밑",
+    "geometry": "빛기둥 56×240, 고리 최대 212×72",
+    "durationMs": 620,
+    "recommendedFrames": 9,
+    "mode": "reference",
+    "path": "pixellab/cast",
+    "prompt": "a tall pillar of light rising from a ring on the ground, sparkles floating up, then fading. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 9 effect animation frames over 620 ms."
+  },
+  "burst": {
+    "id": "burst",
+    "name": "명중 섬광",
+    "role": "모든 전법 공통",
+    "anchorIs": "대상 가슴과 발밑",
+    "geometry": "섬광 지름 52에서 78, 광선 12개, 불꽃 10개",
+    "durationMs": 420,
+    "recommendedFrames": 6,
+    "mode": "reference",
+    "path": "pixellab/burst",
+    "prompt": "a bright starburst flash with twelve rays and flying sparks, plus a ground ring, then fading. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 6 effect animation frames over 420 ms."
+  },
+  "slash": {
+    "id": "slash",
+    "name": "큰 베기",
+    "role": "근접 전법",
+    "anchorIs": "대상 가슴",
+    "geometry": "반지름 36 초승달, 굵기 9",
+    "durationMs": 280,
+    "recommendedFrames": 4,
+    "mode": "reference",
+    "path": "pixellab/slash",
+    "prompt": "a large crescent slash arc with a white core and thick colored edge, one powerful sweep. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 4 effect animation frames over 280 ms."
+  },
+  "pierce": {
+    "id": "pierce",
+    "name": "관통 찌르기",
+    "role": "근접 전법",
+    "anchorIs": "자신 가슴 → 대상 너머 60",
+    "geometry": "굵기 8",
+    "durationMs": 260,
+    "recommendedFrames": 4,
+    "mode": "reference",
+    "path": "pixellab/pierce",
+    "prompt": "a long piercing thrust streak that shoots to the right through a point and beyond. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 4 effect animation frames over 260 ms."
+  },
+  "dash": {
+    "id": "dash",
+    "name": "돌진 궤적",
+    "role": "근접 전법",
+    "anchorIs": "자신 발밑 → 대상 발밑",
+    "geometry": "줄 5개, 폭 28",
+    "durationMs": 240,
+    "recommendedFrames": 4,
+    "mode": "reference",
+    "path": "pixellab/dash",
+    "prompt": "five parallel speed lines along the ground streaking to the right. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 4 effect animation frames over 240 ms."
+  },
+  "shock": {
+    "id": "shock",
+    "name": "충격파",
+    "role": "근접 전법",
+    "anchorIs": "대상(또는 자신) 발밑",
+    "geometry": "고리 148×48, 균열 길이 30~56",
+    "durationMs": 500,
+    "recommendedFrames": 8,
+    "mode": "reference",
+    "path": "pixellab/shock",
+    "prompt": "a ground shockwave: two flat rings expanding on the ground with short cracks radiating out. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 8 effect animation frames over 500 ms."
+  },
+  "spin": {
+    "id": "spin",
+    "name": "회전 베기",
+    "role": "근접 전법",
+    "anchorIs": "자신 허리",
+    "geometry": "고리 108×39",
+    "durationMs": 440,
+    "recommendedFrames": 7,
+    "mode": "reference",
+    "path": "pixellab/spin",
+    "prompt": "a flat spinning slash ring at waist height, seen from a low top-down camera. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 7 effect animation frames over 440 ms."
+  },
+  "roar": {
+    "id": "roar",
+    "name": "함성",
+    "role": "근접·지휘 전법",
+    "anchorIs": "자신 발밑",
+    "geometry": "고리 3개, 최대 340×118",
+    "durationMs": 620,
+    "recommendedFrames": 9,
+    "mode": "reference",
+    "path": "pixellab/roar",
+    "prompt": "three flat rings expanding outward on the ground one after another, a war cry shockwave. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 9 effect animation frames over 620 ms."
+  },
+  "shield": {
+    "id": "shield",
+    "name": "보호막",
+    "role": "방어 전법",
+    "anchorIs": "자신 또는 아군 몸통",
+    "geometry": "타원 72×112",
+    "durationMs": 850,
+    "recommendedFrames": 13,
+    "mode": "reference",
+    "path": "pixellab/shield",
+    "prompt": "a translucent oval barrier dome with a moving highlight, appears, holds, fades. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 13 effect animation frames over 850 ms."
+  },
+  "fury": {
+    "id": "fury",
+    "name": "기세",
+    "role": "강화 전법",
+    "anchorIs": "자신 발밑에서 위로",
+    "geometry": "줄 9개, 폭 64, 높이 110",
+    "durationMs": 720,
+    "recommendedFrames": 11,
+    "mode": "reference",
+    "path": "pixellab/fury",
+    "prompt": "short streaks of energy rising upward from the ground like an aura. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 11 effect animation frames over 720 ms."
+  },
+  "flurry": {
+    "id": "flurry",
+    "name": "잔 베기",
+    "role": "근접 전법",
+    "anchorIs": "대상 가슴",
+    "geometry": "길이 40 선 5개",
+    "durationMs": 440,
+    "recommendedFrames": 7,
+    "mode": "reference",
+    "path": "pixellab/flurry",
+    "prompt": "five small quick slashes at random angles, one after another. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 7 effect animation frames over 440 ms."
+  },
+  "blink": {
+    "id": "blink",
+    "name": "순간이동 연기",
+    "role": "근접 전법",
+    "anchorIs": "자신 자리와 대상 자리",
+    "geometry": "연기 지름 64, 두 곳",
+    "durationMs": 340,
+    "recommendedFrames": 5,
+    "mode": "reference",
+    "path": "pixellab/blink",
+    "prompt": "a puff of smoke that shrinks and vanishes, vanish effect. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 5 effect animation frames over 340 ms."
+  },
+  "bind": {
+    "id": "bind",
+    "name": "밧줄",
+    "role": "방해 전법",
+    "anchorIs": "대상 몸통",
+    "geometry": "고리 3개 60×16",
+    "durationMs": 680,
+    "recommendedFrames": 10,
+    "mode": "reference",
+    "path": "pixellab/bind",
+    "prompt": "three rope rings that tighten around an upright body shape and fade. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 10 effect animation frames over 680 ms."
+  },
+  "drain": {
+    "id": "drain",
+    "name": "흡수",
+    "role": "근접 전법",
+    "anchorIs": "대상 가슴 → 자신 가슴",
+    "geometry": "점 7개, 지름 8",
+    "durationMs": 540,
+    "recommendedFrames": 8,
+    "mode": "reference",
+    "path": "pixellab/drain",
+    "prompt": "seven small glowing motes flying to the left in a loose stream. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 8 effect animation frames over 540 ms."
+  },
+  "stun": {
+    "id": "stun",
+    "name": "기절 별",
+    "role": "전법 부가",
+    "anchorIs": "대상 머리 위 (발에서 112)",
+    "geometry": "별 3개, 지름 12",
+    "durationMs": 850,
+    "recommendedFrames": 13,
+    "mode": "reference",
+    "path": "pixellab/stun",
+    "prompt": "three small stars circling in a flat ring. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 13 effect animation frames over 850 ms."
+  },
+  "bolt": {
+    "id": "bolt",
+    "name": "번개",
+    "role": "책사 전법",
+    "anchorIs": "하늘 → 대상 발밑",
+    "geometry": "높이 380, 폭 44, 바닥 빛 60×20",
+    "durationMs": 340,
+    "recommendedFrames": 5,
+    "mode": "reference",
+    "path": "pixellab/bolt",
+    "prompt": "a lightning bolt striking down from the top of the frame to the ground, flickering, with a glow where it lands. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 5 effect animation frames over 340 ms."
+  },
+  "rock": {
+    "id": "rock",
+    "name": "낙석",
+    "role": "책사 평타·전법",
+    "anchorIs": "하늘 → 대상 발밑",
+    "geometry": "바위 지름 36, 낙하 300, 먼지 고리 92×28",
+    "durationMs": 430,
+    "recommendedFrames": 7,
+    "mode": "reference",
+    "path": "pixellab/rock",
+    "prompt": "a boulder falling from above, hitting the ground and breaking into dust and a dust ring. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 7 effect animation frames over 430 ms."
+  },
+  "ice": {
+    "id": "ice",
+    "name": "얼음 조각",
+    "role": "책사 평타·전법",
+    "anchorIs": "하늘 → 대상 발밑",
+    "geometry": "조각 16×34, 낙하 260",
+    "durationMs": 380,
+    "recommendedFrames": 6,
+    "mode": "reference",
+    "path": "pixellab/ice",
+    "prompt": "sharp ice shards falling diagonally from the upper left, shattering on the ground. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 6 effect animation frames over 380 ms."
+  },
+  "fire": {
+    "id": "fire",
+    "name": "불기둥",
+    "role": "책사 전법",
+    "anchorIs": "대상 발밑",
+    "geometry": "폭 80, 높이 86, 바닥 빛 80×22",
+    "durationMs": 560,
+    "recommendedFrames": 8,
+    "mode": "reference",
+    "path": "pixellab/fire",
+    "prompt": "a pillar of flames rising from the ground, flickering, with a glowing base, then dying down. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 8 effect animation frames over 560 ms."
+  },
+  "wind": {
+    "id": "wind",
+    "name": "회오리",
+    "role": "책사 평타·전법",
+    "anchorIs": "대상 발밑",
+    "geometry": "아래 폭 20, 위 폭 80, 높이 90",
+    "durationMs": 560,
+    "recommendedFrames": 8,
+    "mode": "reference",
+    "path": "pixellab/wind",
+    "prompt": "a small whirlwind, narrow at the bottom and wide at the top, spinning in place. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 8 effect animation frames over 560 ms."
+  },
+  "rune": {
+    "id": "rune",
+    "name": "진",
+    "role": "책사·지원 전법",
+    "anchorIs": "대상(또는 자신) 발밑",
+    "geometry": "팔각 두 겹 92×30",
+    "durationMs": 650,
+    "recommendedFrames": 10,
+    "mode": "reference",
+    "path": "pixellab/rune",
+    "prompt": "an octagonal formation circle drawn on the ground, two nested octagons slowly rotating, flat on the ground. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 10 effect animation frames over 650 ms."
+  },
+  "chain": {
+    "id": "chain",
+    "name": "사슬",
+    "role": "책사 전법",
+    "anchorIs": "대상들의 가슴을 잇는다",
+    "geometry": "굵기 3 점선",
+    "durationMs": 650,
+    "recommendedFrames": 10,
+    "mode": "reference",
+    "path": "pixellab/chain",
+    "prompt": "a taut chain stretched horizontally between two points, links sliding along it. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 10 effect animation frames over 650 ms."
+  },
+  "heal": {
+    "id": "heal",
+    "name": "회복 빛",
+    "role": "지원 전법",
+    "anchorIs": "아군 발밑에서 위로",
+    "geometry": "십자 10×10 여섯 개, 상승 90",
+    "durationMs": 650,
+    "recommendedFrames": 10,
+    "mode": "reference",
+    "path": "pixellab/heal",
+    "prompt": "small plus-shaped lights rising upward and fading. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 10 effect animation frames over 650 ms."
+  },
+  "aura": {
+    "id": "aura",
+    "name": "강화 고리",
+    "role": "지원 전법",
+    "anchorIs": "아군 발밑",
+    "geometry": "고리 60×18에서 88×26, 상승 40",
+    "durationMs": 650,
+    "recommendedFrames": 10,
+    "mode": "reference",
+    "path": "pixellab/aura",
+    "prompt": "two flat rings rising from the ground and fading, a buff effect. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 10 effect animation frames over 650 ms."
+  }
+}

@@ -1,0 +1,1 @@
+small plus-shaped lights rising upward and fading. pixel art visual effect sprite, transparent background, no character, no weapon, no text, thick dark outline is not needed, white core with a single mid-bright color edge, clean shapes, readable at small size, low top-down game camera. Target 10 effect animation frames over 650 ms.
