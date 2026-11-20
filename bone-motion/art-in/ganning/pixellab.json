@@ -11,7 +11,11 @@
   "b1": "Thrust, then hooking up. Frames 1-5 draw back; frame 6 a short straight jab; frames 7-8 the sickle drops low; frame 9 it hooks upward; frames 10-11 finish high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The chain sickle stays rigid, keeps its size and shape and stays in the hand the whole time.",
   "a3": "Deep downward hook. Frames 1-6 the sickle is raised over the shoulder; frame 8 he drops low and chops it down; frames 9-11 hold low. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The chain sickle stays rigid, keeps its size and shape and stays in the hand the whole time.",
   "b3": "Spinning hook. Frames 1-3 wind to the right; frames 4-7 one full turn on a low hop; frame 9 a step and the sickle hooks in; frames 10-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The chain sickle stays rigid, keeps its size and shape and stays in the hand the whole time.",
-  "s1": "Raider strike. Frames 1-6 he crouches low with the sickle hidden behind; frame 8 he springs in and hooks short and hard; frames 9-12 hold close. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The chain sickle stays rigid, keeps its size and shape and stays in the hand the whole time."
+  "s1": "Raider strike. Frames 1-6 he crouches low with the sickle hidden behind; frame 8 he springs in and hooks short and hard; frames 9-12 hold close. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The chain sickle stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "c2": "Low sweeping hook. The body drops low, the sickle sweeps round near the ground from the right to the front and hooks in; a short hold.",
+  "b2": "Leaping downward strike. He crouches, jumps with the sickle raised, and brings it straight down on the target as he lands; a short hold low.",
+  "a1": "Hooking cut. The sickle is drawn back outside the right shoulder and cut inward across the target in a wide arc, hooking toward the body; it carries through to the left; a short hold.",
+  "a2": "Rising hook. The sickle drops low beside the right leg and is swept up through the target in a wide arc, finishing high; a short hold."
  },
  "weapon_length": 49,
  "weapon_grip": 0,
@@ -82,5 +86,11 @@
    "lag": 0.35
   }
  ],
- "notes": "2026-11-19 make_configs.py. 평타 b1 → a3 → b3, 전법 s1. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. "
+ "notes": "2026-11-19 make_configs.py. 평타 b1 → a3 → b3, 전법 s1. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. ",
+ "canvas_offset": {
+  "left": [
+   8,
+   0
+  ]
+ }
 }

@@ -26,8 +26,8 @@
   110,
   190,
   45,
-  50,
-  80,
+  40,
+  190,
   220,
   110,
   110,
@@ -36,7 +36,7 @@
  ],
  "pivot": [
   128,
-  224
+  213
  ],
  "loop": false,
  "source": "bone-motion/out/pixellab/xuchu/b3/front",

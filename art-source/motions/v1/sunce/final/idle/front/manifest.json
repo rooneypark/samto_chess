@@ -1,0 +1,28 @@
+{
+ "status": "in_simulator_for_review",
+ "files": [
+  "01.png",
+  "02.png",
+  "03.png",
+  "04.png"
+ ],
+ "durations_ms": [
+  260,
+  260,
+  260,
+  260
+ ],
+ "pivot": [
+  128,
+  190
+ ],
+ "loop": true,
+ "source": "bone-motion/out/pixellab/sunce/idle-still/front",
+ "source_frames": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "note": "숨만 쉬는 대기. 확정 전투 대기 그림에서 로컬로 만든다(engine/idle_breath.py). 상체가 1px 내려갔다 올라오고, 허리 아래로 늘어진 천은 한 박자 늦게 같이 오르내린다. 바람·흔들림 없음. 1번이 공격 클립의 시작 그림과 같다."
+}

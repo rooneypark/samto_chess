@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "id": "sword",
+ "name": "기본 검병",
+ "family": "sword_basic",
+ "reviewStatus": "in_simulator_for_review",
+ "canvas": [
+  256,
+  256
+ ],
+ "attacks": [
+  "pa1",
+  "pb1",
+  "pa2"
+ ],
+ "skill": "ps1",
+ "skillName": "연속 베기",
+ "clips": {
+  "idle": {
+   "front": "art-source/motions/v1/sword/final/idle/front/manifest.json",
+   "left": "art-source/motions/v1/sword/final/idle/left/manifest.json",
+   "rear": "art-source/motions/v1/sword/final/idle/rear/manifest.json"
+  },
+  "move": {
+   "front": "art-source/motions/v1/sword/final/move/front/manifest.json",
+   "left": "art-source/motions/v1/sword/final/move/left/manifest.json",
+   "rear": "art-source/motions/v1/sword/final/move/rear/manifest.json"
+  },
+  "pa1": {
+   "front": "art-source/motions/v1/sword/final/pa1/front/manifest.json",
+   "left": "art-source/motions/v1/sword/final/pa1/left/manifest.json",
+   "rear": "art-source/motions/v1/sword/final/pa1/rear/manifest.json"
+  },
+  "pb1": {
+   "front": "art-source/motions/v1/sword/final/pb1/front/manifest.json",
+   "left": "art-source/motions/v1/sword/final/pb1/left/manifest.json",
+   "rear": "art-source/motions/v1/sword/final/pb1/rear/manifest.json"
+  },
+  "pa2": {
+   "front": "art-source/motions/v1/sword/final/pa2/front/manifest.json",
+   "left": "art-source/motions/v1/sword/final/pa2/left/manifest.json",
+   "rear": "art-source/motions/v1/sword/final/pa2/rear/manifest.json"
+  },
+  "ps1": {
+   "front": "art-source/motions/v1/sword/final/ps1/front/manifest.json",
+   "left": "art-source/motions/v1/sword/final/ps1/left/manifest.json",
+   "rear": "art-source/motions/v1/sword/final/ps1/rear/manifest.json"
+  }
+ },
+ "finalized": "2026-11-20"
+}

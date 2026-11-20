@@ -11,7 +11,8 @@
   "b1": "Left-hand signal. The sword stays low at the right side. Frames 1-6 the LEFT arm winds back; frame 8 the left hand is thrown forward, palm out, giving the signal; frames 9-11 hold. Nothing is struck. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time.",
   "a3": "Direct diagonal cut. Frames 1-5 the sword is raised to the upper right; frames 6-8 a big step and a cut from upper right to lower left; frames 9-11 follow through. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time.",
   "b3": "Direct thrust. Frames 1-5 the sword is drawn back beside the hip; frames 6-8 a big step and a straight thrust, point first; frames 9-11 hold the reach. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time.",
-  "s2": "Lord of the east. Frames 1-6 he gathers, sword lowered across the body; frame 8 he sweeps the sword out level in a wide protective arc; frames 9-12 hold. Nothing is struck. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time."
+  "s2": "Lord of the east. Frames 1-6 he gathers, sword lowered across the body; frame 8 he sweeps the sword out level in a wide protective arc; frames 9-12 hold. Nothing is struck. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a2": "Raised command. The sword is lifted high above the head and swept down to point at the target; he holds the point on it."
  },
  "weapon_length": 62,
  "weapon_grip": 6,
@@ -69,8 +70,12 @@
  ],
  "notes": "2026-11-19 make_configs.py. 평타 b1 → a3 → b3, 전법 s2. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. ",
  "canvas_offset": {
+  "front": [
+   0,
+   -5
+  ],
   "left": [
-   16,
+   33,
    0
   ]
  }

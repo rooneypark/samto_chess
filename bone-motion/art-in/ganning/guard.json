@@ -1,0 +1,470 @@
+{
+ "front": {
+  "frame": 12,
+  "source": "out/pixellab/ganning/idle/front/12.png",
+  "keypoints": [
+   {
+    "x": 0.5,
+    "y": 0.702,
+    "label": "pelvis",
+    "depth": 128.0
+   },
+   {
+    "x": 0.4903,
+    "y": 0.5452,
+    "label": "NECK",
+    "depth": 131.6
+   },
+   {
+    "x": 0.4831,
+    "y": 0.5168,
+    "label": "NOSE",
+    "depth": 150.2
+   },
+   {
+    "x": 0.4271,
+    "y": 0.5697,
+    "label": "RIGHT SHOULDER",
+    "depth": 119.6
+   },
+   {
+    "x": 0.3992,
+    "y": 0.6305,
+    "label": "RIGHT ELBOW",
+    "depth": 113.3
+   },
+   {
+    "x": 0.3946,
+    "y": 0.6583,
+    "label": "RIGHT ARM",
+    "depth": 130.9
+   },
+   {
+    "x": 0.56,
+    "y": 0.5985,
+    "label": "LEFT SHOULDER",
+    "depth": 141.4
+   },
+   {
+    "x": 0.6325,
+    "y": 0.6297,
+    "label": "LEFT ELBOW",
+    "depth": 138.4
+   },
+   {
+    "x": 0.5694,
+    "y": 0.6635,
+    "label": "LEFT ARM",
+    "depth": 146.3
+   },
+   {
+    "x": 0.4538,
+    "y": 0.7033,
+    "label": "RIGHT HIP",
+    "depth": 122.8
+   },
+   {
+    "x": 0.4229,
+    "y": 0.7767,
+    "label": "RIGHT KNEE",
+    "depth": 123.6
+   },
+   {
+    "x": 0.4615,
+    "y": 0.8226,
+    "label": "RIGHT LEG",
+    "depth": 116.0
+   },
+   {
+    "x": 0.5467,
+    "y": 0.7167,
+    "label": "LEFT HIP",
+    "depth": 133.0
+   },
+   {
+    "x": 0.5462,
+    "y": 0.7925,
+    "label": "LEFT KNEE",
+    "depth": 145.6
+   },
+   {
+    "x": 0.5341,
+    "y": 0.8542,
+    "label": "LEFT LEG",
+    "depth": 140.0
+   },
+   {
+    "x": 0.4374,
+    "y": 0.8504,
+    "label": "RIGHT TOE",
+    "depth": 121.7
+   },
+   {
+    "x": 0.5312,
+    "y": 0.8851,
+    "label": "LEFT TOE",
+    "depth": 148.0
+   },
+   {
+    "x": 0.3989,
+    "y": 0.683,
+    "label": "weapon butt",
+    "depth": 133.1
+   },
+   {
+    "x": 0.357,
+    "y": 0.5585,
+    "label": "weapon tip",
+    "depth": 155.1
+   },
+   {
+    "x": 0.528,
+    "y": 0.4546,
+    "label": "headband tail root",
+    "depth": 130.5
+   },
+   {
+    "x": 0.5472,
+    "y": 0.4652,
+    "label": "headband tail mid",
+    "depth": 128.0
+   },
+   {
+    "x": 0.5665,
+    "y": 0.4684,
+    "label": "headband tail tip",
+    "depth": 125.5
+   },
+   {
+    "x": 0.5,
+    "y": 0.737,
+    "label": "sash ends root",
+    "depth": 136.0
+   },
+   {
+    "x": 0.5,
+    "y": 0.7908,
+    "label": "sash ends mid",
+    "depth": 137.5
+   },
+   {
+    "x": 0.5,
+    "y": 0.8302,
+    "label": "sash ends tip",
+    "depth": 139.0
+   }
+  ]
+ },
+ "left": {
+  "frame": 12,
+  "source": "out/pixellab/ganning/idle/left/12.png",
+  "keypoints": [
+   {
+    "x": 0.5312,
+    "y": 0.702,
+    "label": "pelvis",
+    "depth": 128.0
+   },
+   {
+    "x": 0.5159,
+    "y": 0.5376,
+    "label": "NECK",
+    "depth": 125.7
+   },
+   {
+    "x": 0.4364,
+    "y": 0.4823,
+    "label": "NOSE",
+    "depth": 124.0
+   },
+   {
+    "x": 0.567,
+    "y": 0.5582,
+    "label": "RIGHT SHOULDER",
+    "depth": 110.9
+   },
+   {
+    "x": 0.5941,
+    "y": 0.6188,
+    "label": "RIGHT ELBOW",
+    "depth": 104.4
+   },
+   {
+    "x": 0.5188,
+    "y": 0.6219,
+    "label": "RIGHT ARM",
+    "depth": 103.3
+   },
+   {
+    "x": 0.474,
+    "y": 0.5993,
+    "label": "LEFT SHOULDER",
+    "depth": 142.0
+   },
+   {
+    "x": 0.487,
+    "y": 0.6571,
+    "label": "LEFT ELBOW",
+    "depth": 159.0
+   },
+   {
+    "x": 0.4531,
+    "y": 0.6608,
+    "label": "LEFT ARM",
+    "depth": 144.3
+   },
+   {
+    "x": 0.5533,
+    "y": 0.6959,
+    "label": "RIGHT HIP",
+    "depth": 117.2
+   },
+   {
+    "x": 0.55,
+    "y": 0.7587,
+    "label": "RIGHT KNEE",
+    "depth": 109.9
+   },
+   {
+    "x": 0.5825,
+    "y": 0.8266,
+    "label": "RIGHT LEG",
+    "depth": 119.0
+   },
+   {
+    "x": 0.51,
+    "y": 0.7245,
+    "label": "LEFT HIP",
+    "depth": 138.9
+   },
+   {
+    "x": 0.4563,
+    "y": 0.7836,
+    "label": "LEFT KNEE",
+    "depth": 138.8
+   },
+   {
+    "x": 0.48,
+    "y": 0.849,
+    "label": "LEFT LEG",
+    "depth": 136.0
+   },
+   {
+    "x": 0.5584,
+    "y": 0.8394,
+    "label": "RIGHT TOE",
+    "depth": 113.3
+   },
+   {
+    "x": 0.446,
+    "y": 0.8684,
+    "label": "LEFT TOE",
+    "depth": 135.3
+   },
+   {
+    "x": 0.5097,
+    "y": 0.645,
+    "label": "weapon butt",
+    "depth": 104.3
+   },
+   {
+    "x": 0.4157,
+    "y": 0.4786,
+    "label": "weapon tip",
+    "depth": 94.5
+   },
+   {
+    "x": 0.5208,
+    "y": 0.4601,
+    "label": "headband tail root",
+    "depth": 134.6
+   },
+   {
+    "x": 0.5314,
+    "y": 0.4799,
+    "label": "headband tail mid",
+    "depth": 139.1
+   },
+   {
+    "x": 0.5421,
+    "y": 0.4922,
+    "label": "headband tail tip",
+    "depth": 143.6
+   },
+   {
+    "x": 0.4971,
+    "y": 0.7264,
+    "label": "sash ends root",
+    "depth": 128.0
+   },
+   {
+    "x": 0.4907,
+    "y": 0.7783,
+    "label": "sash ends mid",
+    "depth": 128.0
+   },
+   {
+    "x": 0.4843,
+    "y": 0.8158,
+    "label": "sash ends tip",
+    "depth": 128.0
+   }
+  ]
+ },
+ "rear": {
+  "frame": 12,
+  "source": "out/pixellab/ganning/idle/rear/12.png",
+  "keypoints": [
+   {
+    "x": 0.5,
+    "y": 0.702,
+    "label": "pelvis",
+    "depth": 128.0
+   },
+   {
+    "x": 0.5,
+    "y": 0.535,
+    "label": "NECK",
+    "depth": 123.8
+   },
+   {
+    "x": 0.5,
+    "y": 0.4674,
+    "label": "back of skull",
+    "depth": 132.0
+   },
+   {
+    "x": 0.5811,
+    "y": 0.5769,
+    "label": "RIGHT SHOULDER",
+    "depth": 125.1
+   },
+   {
+    "x": 0.6316,
+    "y": 0.6226,
+    "label": "RIGHT ELBOW",
+    "depth": 138.7
+   },
+   {
+    "x": 0.6123,
+    "y": 0.6401,
+    "label": "RIGHT ARM",
+    "depth": 124.2
+   },
+   {
+    "x": 0.4189,
+    "y": 0.5769,
+    "label": "LEFT SHOULDER",
+    "depth": 125.1
+   },
+   {
+    "x": 0.3885,
+    "y": 0.6501,
+    "label": "LEFT ELBOW",
+    "depth": 125.2
+   },
+   {
+    "x": 0.4353,
+    "y": 0.6258,
+    "label": "LEFT ARM",
+    "depth": 111.4
+   },
+   {
+    "x": 0.5513,
+    "y": 0.7103,
+    "label": "RIGHT HIP",
+    "depth": 128.1
+   },
+   {
+    "x": 0.5745,
+    "y": 0.7882,
+    "label": "RIGHT KNEE",
+    "depth": 131.2
+   },
+   {
+    "x": 0.5385,
+    "y": 0.8542,
+    "label": "RIGHT LEG",
+    "depth": 140.0
+   },
+   {
+    "x": 0.4487,
+    "y": 0.7103,
+    "label": "LEFT HIP",
+    "depth": 128.1
+   },
+   {
+    "x": 0.4519,
+    "y": 0.7486,
+    "label": "LEFT KNEE",
+    "depth": 114.7
+   },
+   {
+    "x": 0.4659,
+    "y": 0.8226,
+    "label": "LEFT LEG",
+    "depth": 116.0
+   },
+   {
+    "x": 0.5626,
+    "y": 0.8671,
+    "label": "RIGHT TOE",
+    "depth": 134.3
+   },
+   {
+    "x": 0.4688,
+    "y": 0.8324,
+    "label": "LEFT TOE",
+    "depth": 108.0
+   },
+   {
+    "x": 0.6011,
+    "y": 0.6696,
+    "label": "weapon butt",
+    "depth": 122.9
+   },
+   {
+    "x": 0.643,
+    "y": 0.4871,
+    "label": "weapon tip",
+    "depth": 100.9
+   },
+   {
+    "x": 0.4615,
+    "y": 0.4473,
+    "label": "headband tail root",
+    "depth": 124.9
+   },
+   {
+    "x": 0.4424,
+    "y": 0.4645,
+    "label": "headband tail mid",
+    "depth": 127.4
+   },
+   {
+    "x": 0.4232,
+    "y": 0.4742,
+    "label": "headband tail tip",
+    "depth": 129.9
+   },
+   {
+    "x": 0.5,
+    "y": 0.7159,
+    "label": "sash ends root",
+    "depth": 120.0
+   },
+   {
+    "x": 0.5,
+    "y": 0.7657,
+    "label": "sash ends mid",
+    "depth": 118.5
+   },
+   {
+    "x": 0.5,
+    "y": 0.8012,
+    "label": "sash ends tip",
+    "depth": 117.0
+   }
+  ]
+ }
+}

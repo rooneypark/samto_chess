@@ -1,0 +1,416 @@
+{
+ "front": {
+  "frame": 12,
+  "source": "out/pixellab/2/idle/front/12.png",
+  "keypoints": [
+   {
+    "x": 0.5117,
+    "y": 0.7181,
+    "label": "pelvis",
+    "depth": 128.0
+   },
+   {
+    "x": 0.4971,
+    "y": 0.5769,
+    "label": "NECK",
+    "depth": 131.8
+   },
+   {
+    "x": 0.4875,
+    "y": 0.5521,
+    "label": "NOSE",
+    "depth": 150.6
+   },
+   {
+    "x": 0.4546,
+    "y": 0.5945,
+    "label": "RIGHT SHOULDER",
+    "depth": 116.2
+   },
+   {
+    "x": 0.4349,
+    "y": 0.6655,
+    "label": "RIGHT ELBOW",
+    "depth": 118.8
+   },
+   {
+    "x": 0.4164,
+    "y": 0.7111,
+    "label": "RIGHT ARM",
+    "depth": 134.2
+   },
+   {
+    "x": 0.5493,
+    "y": 0.6293,
+    "label": "LEFT SHOULDER",
+    "depth": 145.3
+   },
+   {
+    "x": 0.4946,
+    "y": 0.6785,
+    "label": "LEFT ELBOW",
+    "depth": 145.9
+   },
+   {
+    "x": 0.4266,
+    "y": 0.6699,
+    "label": "LEFT ARM",
+    "depth": 144.4
+   },
+   {
+    "x": 0.4718,
+    "y": 0.7182,
+    "label": "RIGHT HIP",
+    "depth": 121.9
+   },
+   {
+    "x": 0.4408,
+    "y": 0.7834,
+    "label": "RIGHT KNEE",
+    "depth": 122.6
+   },
+   {
+    "x": 0.4768,
+    "y": 0.8275,
+    "label": "RIGHT LEG",
+    "depth": 116.0
+   },
+   {
+    "x": 0.5523,
+    "y": 0.7325,
+    "label": "LEFT HIP",
+    "depth": 133.9
+   },
+   {
+    "x": 0.553,
+    "y": 0.8004,
+    "label": "LEFT KNEE",
+    "depth": 146.9
+   },
+   {
+    "x": 0.5466,
+    "y": 0.8586,
+    "label": "LEFT LEG",
+    "depth": 142.0
+   },
+   {
+    "x": 0.4532,
+    "y": 0.8521,
+    "label": "RIGHT TOE",
+    "depth": 121.1
+   },
+   {
+    "x": 0.5422,
+    "y": 0.8865,
+    "label": "LEFT TOE",
+    "depth": 149.9
+   },
+   {
+    "x": 0.4187,
+    "y": 0.8316,
+    "label": "weapon butt",
+    "depth": 128.6
+   },
+   {
+    "x": 0.3816,
+    "y": 0.3058,
+    "label": "weapon tip",
+    "depth": 177.7
+   },
+   {
+    "x": 0.5308,
+    "y": 0.4951,
+    "label": "headband tail root",
+    "depth": 131.0
+   },
+   {
+    "x": 0.5483,
+    "y": 0.5047,
+    "label": "headband tail mid",
+    "depth": 128.5
+   },
+   {
+    "x": 0.5656,
+    "y": 0.5075,
+    "label": "headband tail tip",
+    "depth": 126.0
+   }
+  ]
+ },
+ "left": {
+  "frame": 12,
+  "source": "out/pixellab/2/idle/left/12.png",
+  "keypoints": [
+   {
+    "x": 0.5781,
+    "y": 0.6439,
+    "label": "pelvis",
+    "depth": 128.0
+   },
+   {
+    "x": 0.5633,
+    "y": 0.4936,
+    "label": "NECK",
+    "depth": 124.2
+   },
+   {
+    "x": 0.4907,
+    "y": 0.4434,
+    "label": "NOSE",
+    "depth": 121.7
+   },
+   {
+    "x": 0.6237,
+    "y": 0.5168,
+    "label": "RIGHT SHOULDER",
+    "depth": 113.3
+   },
+   {
+    "x": 0.6138,
+    "y": 0.5786,
+    "label": "RIGHT ELBOW",
+    "depth": 108.2
+   },
+   {
+    "x": 0.5542,
+    "y": 0.6,
+    "label": "RIGHT ARM",
+    "depth": 103.4
+   },
+   {
+    "x": 0.511,
+    "y": 0.546,
+    "label": "LEFT SHOULDER",
+    "depth": 137.7
+   },
+   {
+    "x": 0.5087,
+    "y": 0.5775,
+    "label": "LEFT ELBOW",
+    "depth": 123.6
+   },
+   {
+    "x": 0.5148,
+    "y": 0.5498,
+    "label": "LEFT ARM",
+    "depth": 106.0
+   },
+   {
+    "x": 0.6018,
+    "y": 0.639,
+    "label": "RIGHT HIP",
+    "depth": 117.7
+   },
+   {
+    "x": 0.5991,
+    "y": 0.6939,
+    "label": "RIGHT KNEE",
+    "depth": 109.7
+   },
+   {
+    "x": 0.6246,
+    "y": 0.7569,
+    "label": "RIGHT LEG",
+    "depth": 119.0
+   },
+   {
+    "x": 0.5553,
+    "y": 0.6638,
+    "label": "LEFT HIP",
+    "depth": 138.5
+   },
+   {
+    "x": 0.5051,
+    "y": 0.7163,
+    "label": "LEFT KNEE",
+    "depth": 138.7
+   },
+   {
+    "x": 0.5239,
+    "y": 0.7784,
+    "label": "LEFT LEG",
+    "depth": 137.0
+   },
+   {
+    "x": 0.6047,
+    "y": 0.768,
+    "label": "RIGHT TOE",
+    "depth": 112.9
+   },
+   {
+    "x": 0.4933,
+    "y": 0.7955,
+    "label": "LEFT TOE",
+    "depth": 135.9
+   },
+   {
+    "x": 0.5759,
+    "y": 0.7279,
+    "label": "weapon butt",
+    "depth": 104.0
+   },
+   {
+    "x": 0.3857,
+    "y": 0.1319,
+    "label": "weapon tip",
+    "depth": 94.4
+   },
+   {
+    "x": 0.5667,
+    "y": 0.4232,
+    "label": "headband tail root",
+    "depth": 132.9
+   },
+   {
+    "x": 0.5763,
+    "y": 0.4412,
+    "label": "headband tail mid",
+    "depth": 137.4
+   },
+   {
+    "x": 0.5861,
+    "y": 0.4524,
+    "label": "headband tail tip",
+    "depth": 141.9
+   }
+  ]
+ },
+ "rear": {
+  "frame": 12,
+  "source": "out/pixellab/2/idle/rear/12.png",
+  "keypoints": [
+   {
+    "x": 0.5,
+    "y": 0.7025,
+    "label": "pelvis",
+    "depth": 128.0
+   },
+   {
+    "x": 0.5,
+    "y": 0.5502,
+    "label": "NECK",
+    "depth": 122.6
+   },
+   {
+    "x": 0.5,
+    "y": 0.4882,
+    "label": "back of skull",
+    "depth": 130.5
+   },
+   {
+    "x": 0.5735,
+    "y": 0.5884,
+    "label": "RIGHT SHOULDER",
+    "depth": 124.2
+   },
+   {
+    "x": 0.6176,
+    "y": 0.6457,
+    "label": "RIGHT ELBOW",
+    "depth": 133.5
+   },
+   {
+    "x": 0.5845,
+    "y": 0.6721,
+    "label": "RIGHT ARM",
+    "depth": 122.4
+   },
+   {
+    "x": 0.4265,
+    "y": 0.5884,
+    "label": "LEFT SHOULDER",
+    "depth": 124.2
+   },
+   {
+    "x": 0.4954,
+    "y": 0.6082,
+    "label": "LEFT ELBOW",
+    "depth": 120.6
+   },
+   {
+    "x": 0.5604,
+    "y": 0.6096,
+    "label": "LEFT ARM",
+    "depth": 115.4
+   },
+   {
+    "x": 0.5465,
+    "y": 0.71,
+    "label": "RIGHT HIP",
+    "depth": 128.1
+   },
+   {
+    "x": 0.5688,
+    "y": 0.7807,
+    "label": "RIGHT KNEE",
+    "depth": 131.8
+   },
+   {
+    "x": 0.5349,
+    "y": 0.8405,
+    "label": "RIGHT LEG",
+    "depth": 140.0
+   },
+   {
+    "x": 0.4535,
+    "y": 0.71,
+    "label": "LEFT HIP",
+    "depth": 128.1
+   },
+   {
+    "x": 0.4562,
+    "y": 0.7439,
+    "label": "LEFT KNEE",
+    "depth": 114.5
+   },
+   {
+    "x": 0.4651,
+    "y": 0.8095,
+    "label": "LEFT LEG",
+    "depth": 114.0
+   },
+   {
+    "x": 0.5586,
+    "y": 0.8528,
+    "label": "RIGHT TOE",
+    "depth": 134.9
+   },
+   {
+    "x": 0.4695,
+    "y": 0.8184,
+    "label": "LEFT TOE",
+    "depth": 106.1
+   },
+   {
+    "x": 0.5675,
+    "y": 0.811,
+    "label": "weapon butt",
+    "depth": 129.2
+   },
+   {
+    "x": 0.6046,
+    "y": 0.1676,
+    "label": "weapon tip",
+    "depth": 80.0
+   },
+   {
+    "x": 0.4651,
+    "y": 0.4705,
+    "label": "headband tail root",
+    "depth": 123.5
+   },
+   {
+    "x": 0.4478,
+    "y": 0.4861,
+    "label": "headband tail mid",
+    "depth": 126.0
+   },
+   {
+    "x": 0.4303,
+    "y": 0.4949,
+    "label": "headband tail tip",
+    "depth": 128.5
+   }
+  ]
+ }
+}

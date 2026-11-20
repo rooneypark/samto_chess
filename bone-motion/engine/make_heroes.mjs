@@ -9,7 +9,7 @@ const load = f => import(pathToFileURL(join(repo, 'game', f)).href);
 const { heroes } = await load('heroes.js'); const { specs } = await load('progression.js');
 
 const FAMILY = { foot_spear: '보행 창', sword: '한손 검·단도', spear_shield: '창·방패', dual: '쌍무기', heavy: '중무기', flexible: '사슬·채찍', bow: '궁', command: '군령',
-  caster: '책사·지원', mounted_spear: '기마 창', mounted_blade: '기마 월도·화극', sickle: '사슬·채찍 (사슬낫 변형)', poleaxe: '중무기 (긴자루 도끼 변형)',
+  caster: '책사·지원', mounted_spear: '기마 창', mounted_blade: '기마 월도·화극', sickle: '사슬·채찍 (사슬낫 변형)', sword_basic: '한손 검 (기본 검병)', sword_front: '한손 검 (동탁)', command_front: '군령 (원소)', bow_long: '궁 (기본 궁병)', poleaxe: '중무기 (긴자루 도끼 변형)',
   mounted_halberd: '기마 월도·화극 (장화극 변형)', mounted_lance: '기마 창 (장창 변형)' };
 // name: [motion type, attack set, skill clip]
 // Three attacks per hero, one from each slot. Every attack starts and ends in the guard, so slot 1, 2 and 3 can be taken
@@ -32,24 +32,31 @@ function combo(name, family, set) {
 }
 const MAP = {
   장비: ['foot_spear', 'A', 's1'], 하후돈: ['foot_spear', 'B', 's2'], 강유: ['foot_spear', 'A', 's3'], 여몽: ['foot_spear', 'B', 's4'], 문추: ['foot_spear', 'B', 's5'],
-  악진: ['sword', 'B', 's1'], 위연: ['sword', 'A', 's1'], 요화: ['sword', 'A', 's2'], 화웅: ['sword', 'A', 's2'], 안량: ['sword', 'B', 's2'], 정봉: ['sword', 'B', 's3'], 동탁: ['sword', 'A', 's3'],
+  악진: ['sword', 'B', 's1'], 위연: ['sword', 'A', 's1'], 요화: ['sword', 'A', 's2'], 화웅: ['sword', 'A', 's2'], 안량: ['sword', 'B', 's2'], 정봉: ['sword', 'B', 's3'], 동탁: ['sword_front', 'A', 's1'],
   주유: ['sword', 'A', 's4'], 주창: ['sword', 'A', 's5'],
-  의용보병: ['spear_shield', 'A', 's1'], 조홍: ['spear_shield', 'B', 's2'],
+  의용보병: ['spear_shield', 'A', 'ps1'], 조홍: ['spear_shield', 'B', 's2'],
   유비: ['dual', 'A', 's1'], 전위: ['dual', 'B', 's2'], 손책: ['dual', 'A', 's3'],
   허저: ['heavy', 'B', 's1'], 서황: ['poleaxe', 'A', 's2'],
   감녕: ['sickle', 'A', 's1'], 황개: ['flexible', 'B', 's2'], 반장: ['flexible', 'A', 's3'],
-  황충: ['bow', 'A', 's1'], 의용궁병: ['bow', 'A', 's2'], 하후연: ['bow', 'B', 's3'], 태사자: ['bow', 'B', 's4'], 손상향: ['bow', 'A', 's5'],
-  조조: ['command', 'A', 's1'], 손권: ['command', 'B', 's2'], 원소: ['command', 'A', 's3'],
+  황충: ['bow', 'A', 's1'], 의용궁병: ['bow', 'A', 'ps2'], 하후연: ['bow', 'B', 's3'], 태사자: ['bow', 'B', 's4'], 손상향: ['bow', 'A', 's5'],
+  조조: ['command', 'A', 's1'], 손권: ['command', 'B', 's2'], 원소: ['command_front', 'A', 's3'],
   제갈량: ['caster', 'A', 's1'], 사마의: ['caster', 'A', 's2'], 장각: ['caster', 'B', 's2'], 화타: ['caster', 'B', 's3'], 순욱: ['caster', 'B', 's3'], 노숙: ['caster', 'B', 's3'],
-  곽가: ['caster', 'A', 's4'], 초선: ['caster', 'A', 's4'], 방통: ['caster', 'B', 's5'], 육손: ['caster', 'A', 's6'], 군영참모: ['caster', 'B', 's6'],
+  곽가: ['caster', 'A', 's4'], 초선: ['caster', 'A', 's4'], 방통: ['caster', 'B', 's5'], 육손: ['caster', 'A', 's6'], 군영참모: ['caster', 'B', 'ps6'],
   조운: ['mounted_spear', 'A', 's1'], 마초: ['mounted_lance', 'B', 's2'], 공손찬: ['mounted_lance', 'A', 's3'],
+  // 기본 병종 (the game data names them since 2026-11-20): plain clips only (p ids), see BASE_ATTACKS
+  '기본 검병': ['sword_basic', 'A', 'ps1'], '기본 창병': ['foot_spear', 'A', 'pa3']      /* skill = the leaping downward strike: the thrust skills (s3 s4 s5) read the same as the thrust attack pa1 (variety 6-9 px) */, '기본 방패병': ['spear_shield', 'A', 'ps1'], '기본 궁병': ['bow_long', 'A', 'ps2'], '기본 책사': ['caster', 'B', 'ps6'],
   관우: ['mounted_blade', 'A', 's1'], 장료: ['mounted_blade', 'B', 's2'], 여포: ['mounted_halberd', 'A', 's3'],
 };
+const BASE_ATTACKS = { '기본 검병': ['pa1', 'pb1', 'pa2'], '기본 창병': ['pa1', 'pb1', 'pb2'], '기본 방패병': ['pb1', 'pb2', 'pa3'], '기본 궁병': ['pb1', 'pb2', 'pa3'], '기본 책사': ['pb1', 'pa2', 'pb2'] };
+// Riders with a glaive or spear use the clips as written (p ids): with the enlarged swing PixelLab lost the weapon in the middle
+// frames (관우 trials 2026-11-20, at 1.35 and again at 0.8); the as-written clips are the ones approved on 2026-11-19.
+Object.assign(BASE_ATTACKS, { 관우: ['pb1', 'pa3', 'ps3'], 여포: ['pa1', 'pa2', 'pb2'], 조운: ['pa3', 'pb3', 'ps6'], 장료: ['pa3', 'ps5', 'ps6'] });
+const PLAIN_SKILL = { 여포: 'ps3', 관우: 'ps1', 조운: 'ps1', 장료: 'ps2' };
 const out = heroes.map(h => {
   const m = MAP[h.name]; if (!m) throw new Error('no motion mapping for ' + h.name);
   const s = specs[h.id], [hp, atk, def, mdef, range, interval, mana] = s.stats;
   return { id: h.id, name: h.name, faction: h.faction, role: h.role, grade: s.grade, hp, atk, def, mdef, range, interval, mana, skill: s.skill, skillText: s.description,
-           family: m[0], set: m[1], skillClip: m[2], attacks: PICKED[h.name] || combo(h.name, m[0], m[1]) };
+           family: m[0], set: m[1], skillClip: PLAIN_SKILL[h.name] || m[2], attacks: BASE_ATTACKS[h.name] || PICKED[h.name] || combo(h.name, m[0], m[1]) };
 });
 writeFileSync(join(here, '..', 'sim', 'heroes.js'), 'window.SIM_HEROES = ' + JSON.stringify(out) + ';\n', 'utf8');
 

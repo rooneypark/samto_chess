@@ -11,7 +11,10 @@
   "b1": "Horizontal lash. Frames 1-7 the coiled rope is wound out to the right; frame 9 it is whipped across level; frames 10-11 follow through on the left. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The coiled rope stays rigid, keeps its size and shape and stays in the hand the whole time.",
   "b2": "Two lashes. Frames 1-6 wind up; frame 7 the first lash; frames 8-10 it swings back round; frame 11 the second lash. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The coiled rope stays rigid, keeps its size and shape and stays in the hand the whole time.",
   "a3": "Downward lash. Frames 1-7 the coiled rope is swung up over the head; frame 9 it is brought down hard; frames 10-11 hold low. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The coiled rope stays rigid, keeps its size and shape and stays in the hand the whole time.",
-  "s3": "Binding throw. Frames 1-7 the coiled rope is circled once above the head; frame 9 it is cast out forward to bind the target; frames 10-12 he pulls it taut and holds. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The coiled rope stays rigid, keeps its size and shape and stays in the hand the whole time."
+  "s3": "Binding throw. Frames 1-7 the coiled rope is circled once above the head; frame 9 it is cast out forward to bind the target; frames 10-12 he pulls it taut and holds. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The coiled rope stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a2": "Rising lash. Frames 1-7 the  trails low behind; frame 9 it is whipped up from below; frames 10-11 it arcs high.",
+  "c4": "Circling lash. The weapon is swung in one full circle around the body and lashes the target as it comes round to the front; then it is drawn back.",
+  "c1": "Leaping lash. He springs forward low and fast and lashes the target as he lands; the weapon carries through and is drawn back."
  },
  "weapon_length": 30,
  "weapon_grip": 0,

@@ -45,3 +45,6 @@ CLIPS = {
  's1': _named('ambush', 'S1 금범적', '감녕 전법. 무릎과 상체를 크게 접어 낮게 들어갔다가, 골반과 가슴을 비틀어 풀며 아래에서 바깥 위로 낫을 거칠게 걸어 올린다. 도착 칸 이동은 게임이 한다.'),
  's2': _named('sweep', 'S2 낮게 휩쓸어 걸기', '여분 전법. 두 무릎을 접고 낫을 뒤로 뺐다가 허리 높이에서 폭넓게 한 번 휩쓴다.'),
 }
+
+RAW = dict(CLIPS)      # as written; families built from this one start from RAW (snappy.py)
+CLIPS = __import__('snappy').upgrade(__import__('sys').modules[__name__])

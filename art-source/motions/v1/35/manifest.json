@@ -9,9 +9,9 @@
   256
  ],
  "attacks": [
-  "b1",
   "a2",
-  "b2"
+  "b2",
+  "a3"
  ],
  "skill": "s1",
  "skillName": "팔진의 책략",
@@ -26,11 +26,6 @@
    "left": "art-source/motions/v1/35/final/move/left/manifest.json",
    "rear": "art-source/motions/v1/35/final/move/rear/manifest.json"
   },
-  "b1": {
-   "front": "art-source/motions/v1/35/final/b1/front/manifest.json",
-   "left": "art-source/motions/v1/35/final/b1/left/manifest.json",
-   "rear": "art-source/motions/v1/35/final/b1/rear/manifest.json"
-  },
   "a2": {
    "front": "art-source/motions/v1/35/final/a2/front/manifest.json",
    "left": "art-source/motions/v1/35/final/a2/left/manifest.json",
@@ -41,11 +36,16 @@
    "left": "art-source/motions/v1/35/final/b2/left/manifest.json",
    "rear": "art-source/motions/v1/35/final/b2/rear/manifest.json"
   },
+  "a3": {
+   "front": "art-source/motions/v1/35/final/a3/front/manifest.json",
+   "left": "art-source/motions/v1/35/final/a3/left/manifest.json",
+   "rear": "art-source/motions/v1/35/final/a3/rear/manifest.json"
+  },
   "s1": {
    "front": "art-source/motions/v1/35/final/s1/front/manifest.json",
    "left": "art-source/motions/v1/35/final/s1/left/manifest.json",
    "rear": "art-source/motions/v1/35/final/s1/rear/manifest.json"
   }
  },
- "finalized": "2026-11-19"
+ "finalized": "2026-11-20"
 }

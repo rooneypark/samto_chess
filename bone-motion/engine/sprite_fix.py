@@ -43,6 +43,11 @@ def clean(path, keep, known=frozenset()):
     flatgrey = lambda p: grey(p) or (p[3] and p[:3] in dull)
     for comp in parts(px, flatgrey):
         own = px[comp[0]][:3] in known and not grey(px[comp[0]])      # the character's own colour: only a patch far larger than any part of it is background
+        if own and len(comp) >= 800:
+            # 2026-11-20: 기본 책사's navy robe back (804 px of one flat colour) was taken for background and cut out. A leftover
+            # background lies open against the transparent canvas; a part of the character is shut in by its dark outline.
+            cs = set(comp); open_edge = sum(1 for (x, y) in comp if any(not (0 <= x + i < 256 and 0 <= y + j < 256) or px[x + i, y + j][3] == 0 for i, j in ((1, 0), (-1, 0), (0, 1), (0, -1))))
+            if open_edge < 30: continue
         if len(comp) >= (800 if own else 150):
             for c in comp: px[c] = (0, 0, 0, 0)
             flat += len(comp)

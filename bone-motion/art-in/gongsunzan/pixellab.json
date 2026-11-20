@@ -12,10 +12,11 @@
   "b1": "Mounted UPWARD swing like a golf stroke, one hand, the grip on the pole never changes. Frames 2-6 the spear is carried back and up behind on the right side of the horse; frame 7 it comes down beside the horse and its point scrapes the ground in front; frame 8 it swings up from the ground through the target; frames 9-11 it finishes high in front; frames 12-15 return to the ready pose.",
   "s2": "Cavalry charge. Frames 2-8 the horse gallops in place, the spear lowered beside its neck; frame 9 a forehoof lifts; frame 10 it lands and the spear strikes; frames 11-12 hold.",
   "s3": "Entry and braking strike. Frames 1-6 the horse sits low on its haunches, the rider crouched over the saddle; frames 7-8 the horse brakes, lifting its forehand, and the spear strikes; frames 9-12 hold.",
-  "a3": "Overhead turn with both hands. Frames 3-4 both hands come together at the middle of the pole and lift it above the head; frames 5-11 the spear makes ONE full level turn above the head like a propeller: the point goes back, then right, then FRONT at frame 8 (the blow), then left, then back again; frames 12-15 it is lowered to the ready pose. The horse stands still."
+  "a3": "Overhead turn with both hands. Frames 3-4 both hands come together at the middle of the pole and lift it above the head; frames 5-11 the spear makes ONE full level turn above the head like a propeller: the point goes back, then right, then FRONT at frame 8 (the blow), then left, then back again; frames 12-15 it is lowered to the ready pose. The horse stands still.",
+  "b2": "Two mounted strikes, one on each side of the horse, one hand. Frames 2-5 the spear is laid back over the right shoulder; frame 6 it strikes down on the RIGHT side of the horse; frames 7-9 it is swept up across the front above the head of the horse to high on the left; frame 10 it strikes down on the LEFT side of the horse; frames 11-12 hold low; frames 13-15 return to the ready pose."
  },
- "weapon_length": 194,
- "weapon_grip": 50,
+ "weapon_length": 170,
+ "weapon_grip": 40,
  "weapon_mode": "bone",
  "rear_hand": "R",
  "art_weapon": {
@@ -95,18 +96,21 @@
  ],
  "notes": "2026-11-19 make_configs.py. 평타 b1 → a2 → a3, 전법 s3. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. 원화의 무기가 본보다 훨씬 길어(약 170~200px) 캔버스에 안 들어간다. weapon_mode slide: 무기 끝은 본의 위치 그대로, 남는 길이는 손 뒤로 보낸다. 공격 중에는 손이 자루 가운데쯤을 잡고, 대기에서는 원화의 그립으로 돌아온다.",
  "weapon_head": "spear",
+ "side_back": true,
+ "_art_weapon_length_was": 194,
+ "_art_note": "2026-11-20: 본의 무기 길이를 170px로 줄였다(자루 끝에서 40px를 잡는다). 원화를 이 길이로 다시 그리기로 했다. 지금 원화는 194px라 그 전에는 PixelLab에 넣지 않는다.",
  "canvas_offset": {
   "front": [
-   0,
-   7
+   4,
+   21
   ],
   "left": [
    0,
-   10
+   29
   ],
   "rear": [
-   0,
-   11
+   -4,
+   21
   ]
  }
 }

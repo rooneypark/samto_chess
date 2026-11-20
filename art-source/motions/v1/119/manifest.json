@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "id": "119",
+ "name": "여포",
+ "family": "mounted_halberd",
+ "reviewStatus": "in_simulator_for_review",
+ "canvas": [
+  256,
+  256
+ ],
+ "attacks": [
+  "pa1",
+  "pa2",
+  "pb2"
+ ],
+ "skill": "ps3",
+ "skillName": "무쌍",
+ "clips": {
+  "idle": {
+   "front": "art-source/motions/v1/119/final/idle/front/manifest.json",
+   "left": "art-source/motions/v1/119/final/idle/left/manifest.json",
+   "rear": "art-source/motions/v1/119/final/idle/rear/manifest.json"
+  },
+  "move": {
+   "front": "art-source/motions/v1/119/final/move/front/manifest.json",
+   "left": "art-source/motions/v1/119/final/move/left/manifest.json",
+   "rear": "art-source/motions/v1/119/final/move/rear/manifest.json"
+  },
+  "pa1": {
+   "front": "art-source/motions/v1/119/final/pa1/front/manifest.json",
+   "left": "art-source/motions/v1/119/final/pa1/left/manifest.json",
+   "rear": "art-source/motions/v1/119/final/pa1/rear/manifest.json"
+  },
+  "pa2": {
+   "front": "art-source/motions/v1/119/final/pa2/front/manifest.json",
+   "left": "art-source/motions/v1/119/final/pa2/left/manifest.json",
+   "rear": "art-source/motions/v1/119/final/pa2/rear/manifest.json"
+  },
+  "pb2": {
+   "front": "art-source/motions/v1/119/final/pb2/front/manifest.json",
+   "left": "art-source/motions/v1/119/final/pb2/left/manifest.json",
+   "rear": "art-source/motions/v1/119/final/pb2/rear/manifest.json"
+  },
+  "ps3": {
+   "front": "art-source/motions/v1/119/final/ps3/front/manifest.json",
+   "left": "art-source/motions/v1/119/final/ps3/left/manifest.json",
+   "rear": "art-source/motions/v1/119/final/ps3/rear/manifest.json"
+  }
+ },
+ "finalized": "2026-11-20"
+}

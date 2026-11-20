@@ -49,3 +49,6 @@ CLIPS = {
 
 from clips import caster_more
 CLIPS.update(caster_more.build(__import__("sys").modules[__name__]))
+
+RAW = dict(CLIPS)      # as written; families built from this one start from RAW (snappy.py)
+CLIPS = __import__('snappy').upgrade(__import__('sys').modules[__name__])

@@ -11,7 +11,9 @@
   "b1": "Two cuts, right then left. Frames 1-5 wind up; frame 7 the right weapon cuts; frame 9 the left weapon cuts; frames 10-11 follow through. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The twin swords stays rigid, keeps its size and shape and stays in the hand the whole time.",
   "a2": "Rising right-hand cut, left weapon blocking low. Frames 1-5 the right weapon drops low; frame 8 it cuts upward while the left weapon guards low; frames 9-11 finish high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The twin swords stays rigid, keeps its size and shape and stays in the hand the whole time.",
   "b3": "Leaping double downward cut. Frames 1-4 crouch; frames 5-7 both feet leave the ground with both weapons raised; frame 8 he lands cutting down with both; frames 9-11 absorb the landing. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The twin swords stays rigid, keeps its size and shape and stays in the hand the whole time.",
-  "s1": "Benevolent rally. Frames 1-6 both weapons are lowered and gathered in front; frame 8 he lifts both weapons up and outward in an open raising gesture; frames 9-12 hold. Nothing is struck. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The twin swords stays rigid, keeps its size and shape and stays in the hand the whole time."
+  "s1": "Benevolent rally. Frames 1-6 both weapons are lowered and gathered in front; frame 8 he lifts both weapons up and outward in an open raising gesture; frames 9-12 hold. Nothing is struck. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The twin swords stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "c4": "Rising double cut from a low hidden guard. Both weapons are held low behind the body, the knees bend, and they are cut upward through the target one after the other as the body rises; they finish high.",
+  "c5": "Block and counter. One weapon is raised to block in front of the body; the other cuts across the target in a wide arc straight after; a short hold."
  },
  "weapon_length": 42,
  "weapon_grip": 6,
@@ -67,5 +69,11 @@
    "lag": 0.3
   }
  ],
- "notes": "2026-11-19 make_configs.py. 평타 b1 → a2 → b3, 전법 s1. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. "
+ "notes": "2026-11-19 make_configs.py. 평타 b1 → a2 → b3, 전법 s1. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. ",
+ "canvas_offset": {
+  "left": [
+   3,
+   0
+  ]
+ }
 }

@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "id": "shield_unit",
+ "name": "기본 방패병",
+ "family": "spear_shield",
+ "reviewStatus": "in_simulator_for_review",
+ "canvas": [
+  256,
+  256
+ ],
+ "attacks": [
+  "pb1",
+  "pb2",
+  "pa3"
+ ],
+ "skill": "ps1",
+ "skillName": "방패 세우기",
+ "clips": {
+  "idle": {
+   "front": "art-source/motions/v1/shield_unit/final/idle/front/manifest.json",
+   "left": "art-source/motions/v1/shield_unit/final/idle/left/manifest.json",
+   "rear": "art-source/motions/v1/shield_unit/final/idle/rear/manifest.json"
+  },
+  "move": {
+   "front": "art-source/motions/v1/shield_unit/final/move/front/manifest.json",
+   "left": "art-source/motions/v1/shield_unit/final/move/left/manifest.json",
+   "rear": "art-source/motions/v1/shield_unit/final/move/rear/manifest.json"
+  },
+  "pb1": {
+   "front": "art-source/motions/v1/shield_unit/final/pb1/front/manifest.json",
+   "left": "art-source/motions/v1/shield_unit/final/pb1/left/manifest.json",
+   "rear": "art-source/motions/v1/shield_unit/final/pb1/rear/manifest.json"
+  },
+  "pb2": {
+   "front": "art-source/motions/v1/shield_unit/final/pb2/front/manifest.json",
+   "left": "art-source/motions/v1/shield_unit/final/pb2/left/manifest.json",
+   "rear": "art-source/motions/v1/shield_unit/final/pb2/rear/manifest.json"
+  },
+  "pa3": {
+   "front": "art-source/motions/v1/shield_unit/final/pa3/front/manifest.json",
+   "left": "art-source/motions/v1/shield_unit/final/pa3/left/manifest.json",
+   "rear": "art-source/motions/v1/shield_unit/final/pa3/rear/manifest.json"
+  },
+  "ps1": {
+   "front": "art-source/motions/v1/shield_unit/final/ps1/front/manifest.json",
+   "left": "art-source/motions/v1/shield_unit/final/ps1/left/manifest.json",
+   "rear": "art-source/motions/v1/shield_unit/final/ps1/rear/manifest.json"
+  }
+ },
+ "finalized": "2026-11-20"
+}

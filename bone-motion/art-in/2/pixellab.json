@@ -1,50 +1,86 @@
 {
  "hero": "장비",
  "family": "foot_spear",
- "description": "stocky chinese warrior with a black beard and topknot, red headband with long tails, dark breastplate over a red tunic with a red skirt, grey trousers, black boots, holding a spear with a wavy serpent blade, a wooden shaft and gold fittings in both hands",
+ "description": "Zhang Fei, stocky powerful chinese warrior in the supplied pixel art style. Black hair in a top bun, a red headband with long tails, black armor with red plates and gold trim, a gold beast buckle, a red front cloth, dark boots with gold bands. He holds a long spear with a wavy serpent blade, a dark shaft and gold fittings",
  "actions": {
   "idle": "battle stance breathing",
   "move": "run",
   "a1": "spear thrust",
   "a2": "high spear thrust downward",
   "a3": "jumping spear strike",
-  "s1": "battle shout with raised fist"
+  "s1": "battle shout with raised fist",
+  "b1": "HORIZONTAL spear sweep, feet planted. Frames 2-6 the whole upper body winds far to the right with the spear held level; frames 7-8 the spear swings around from the side to the front in a wide flat arc; frames 9-11 hold in front. The spear travels sideways, not a thrust.",
+  "c5": "Pursuit, two thrusts. Frames 1-5 draw back; frame 6 a full thrust; frames 7-9 half a withdrawal; frame 10 a second faster thrust; frames 11-12 hold."
  },
- "weapon_length": 140,
+ "weapon_length": 165,
  "weapon_grip": 34,
  "rear_hand": "R",
  "art_weapon": {
   "front": {
-   "weapon tip": [
-    95,
-    94
-   ],
    "weapon butt": [
-    122,
-    206
+    87,
+    223
+   ],
+   "weapon tip": [
+    87,
+    58
    ]
   },
   "left": {
-   "weapon tip": [
-    69.5,
-    100
-   ],
    "weapon butt": [
-    170,
-    197.5
+    106,
+    223
+   ],
+   "weapon tip": [
+    106,
+    58
    ]
   },
   "rear": {
-   "weapon tip": [
-    156,
-    98
-   ],
    "weapon butt": [
-    121,
-    207
+    161,
+    223
+   ],
+   "weapon tip": [
+    161,
+    58
    ]
   }
  },
- "notes": "2차 원화(2026-11-18): 창 140px(측면 실측), 뒷손은 끝에서 34px 기준. 늘어난 12px은 창끝 쪽으로 나간다(weapon_mode forward). 찌르기에서 창끝이 표적 중앙을 12px 지난다.",
- "weapon_mode": "forward"
+ "notes": "2차 원화(2026-11-18): 창 140px(측면 실측), 뒷손은 끝에서 34px 기준. 늘어난 12px은 창끝 쪽으로 나간다(weapon_mode forward). 찌르기에서 창끝이 표적 중앙을 12px 지난다. 2026-11-20: 이 PC에서 처음부터 다시 뽑기 위해 원화를 256으로 줄인 사본을 쓰고(원본 1254는 _1254-original), 무기 좌표를 세운 기본 자세 원화에서 다시 쟀다. 이전 설정은 pixellab.before-20261120.json.",
+ "weapon_mode": "forward",
+ "canvas_offset": {
+  "front": [
+   3,
+   0
+  ],
+  "left": [
+   20,
+   -19
+  ],
+  "rear": [
+   0,
+   -4
+  ]
+ },
+ "face": "A fierce broad face with a thick black beard.",
+ "rear_detail": "Seen from behind: black hair in a top bun, a red headband knotted at the back with two red tails, black and red armor with gold trim, the long serpent spear at his right side.",
+ "guard_action": "both hands take the spear and bring it to a ready angle at the right side, the left foot steps forward and the knees bend",
+ "streamers": [
+  {
+   "name": "headband tail",
+   "attach": "head",
+   "root": [
+    9,
+    -3,
+    5
+   ],
+   "hang": [
+    9,
+    -5,
+    -5
+   ],
+   "sway": 2.0
+  }
+ ]
 }

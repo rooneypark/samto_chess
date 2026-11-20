@@ -1,5 +1,5 @@
 {
- "status": "user_approved",
+ "status": "in_simulator_for_review",
  "files": [
   "01.png",
   "02.png",
@@ -13,7 +13,7 @@
   260
  ],
  "pivot": [
-  128,
+  131,
   224
  ],
  "loop": true,

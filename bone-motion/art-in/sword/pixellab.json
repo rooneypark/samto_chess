@@ -1,0 +1,54 @@
+{
+ "hero": "기본 검병",
+ "family": "sword_basic",
+ "description": "A plain rank-and-file chinese swordsman in the supplied pixel art style. A round grey iron helmet with a small knob, grey lamellar armor with pale trim, cream sleeves, dark bracers, a red neck scarf, a red waist sash with a red front cloth, dark boots with a tan band. He holds a short curved sabre in the right hand",
+ "face": "A stern face with a short grey beard.",
+ "rear_detail": "Seen from behind: the round grey helmet, dark hair under its rim, the red scarf, grey lamellar armor, the red sash, the sabre at his right side. Nothing hangs on his back.",
+ "guard_action": "the right hand lifts the sword up in front of the body, the left hand stays free as a guard, the left foot steps forward and the knees bend",
+ "actions": {
+  "idle": "One-handed sword fighting guard, breathing",
+  "move": "Seamless combat run in place carrying the sword, no attack. The last frame leads into the first, no pause",
+  "pa1": "One diagonal downward cut. Frames 1-5 raise the sword and wind up; frame 8 the cut lands from upper right to lower left; frames 9-11 follow through. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sabre stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "pb1": "One level horizontal cut. Frames 1-5 the sword is taken far out to the right at chest height; frame 8 it cuts across level to the left; frames 9-11 follow through on the left. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sabre stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "pa2": "One rising cut from low to high. Frames 1-5 lower the sword and coil; frame 8 the upward cut lands; frames 9-11 the sword finishes high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sabre stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "ps1": "Hidden low, then a rising cut. Frames 1-6 he folds the knees deep and hides the sword low behind the body; frame 8 the legs drive up and the sword cuts from below upward; frames 9-12 the body rises with it. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sabre stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 29,
+ "weapon_grip": 6,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    98,
+    186
+   ],
+   "weapon tip": [
+    86,
+    212
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    111,
+    188
+   ],
+   "weapon tip": [
+    95,
+    212
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    156,
+    188
+   ],
+   "weapon tip": [
+    167,
+    212
+   ]
+  }
+ },
+ "streamers": [],
+ "notes": "2026-11-19 make_configs.py. 평타 pa1 → pb1 → pa2, 전법 ps1. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. 기본 병종. 밋밋한 클립(p)만 쓴다. 늘어지는 천이 없어 streamers 없음."
+}

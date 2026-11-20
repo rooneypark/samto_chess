@@ -40,3 +40,6 @@ CLIPS = {
 
 from clips import spear_shield_more
 CLIPS.update(spear_shield_more.build(__import__("sys").modules[__name__]))
+
+RAW = dict(CLIPS)      # as written; families built from this one start from RAW (snappy.py)
+CLIPS = __import__('snappy').upgrade(__import__('sys').modules[__name__])

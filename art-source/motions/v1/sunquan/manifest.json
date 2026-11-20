@@ -3,13 +3,13 @@
  "id": "sunquan",
  "name": "손권",
  "family": "command",
- "reviewStatus": "user_approved",
+ "reviewStatus": "in_simulator_for_review",
  "canvas": [
   256,
   256
  ],
  "attacks": [
-  "b1",
+  "a2",
   "a3",
   "b3"
  ],
@@ -26,10 +26,10 @@
    "left": "art-source/motions/v1/sunquan/final/move/left/manifest.json",
    "rear": "art-source/motions/v1/sunquan/final/move/rear/manifest.json"
   },
-  "b1": {
-   "front": "art-source/motions/v1/sunquan/final/b1/front/manifest.json",
-   "left": "art-source/motions/v1/sunquan/final/b1/left/manifest.json",
-   "rear": "art-source/motions/v1/sunquan/final/b1/rear/manifest.json"
+  "a2": {
+   "front": "art-source/motions/v1/sunquan/final/a2/front/manifest.json",
+   "left": "art-source/motions/v1/sunquan/final/a2/left/manifest.json",
+   "rear": "art-source/motions/v1/sunquan/final/a2/rear/manifest.json"
   },
   "a3": {
    "front": "art-source/motions/v1/sunquan/final/a3/front/manifest.json",
@@ -47,6 +47,5 @@
    "rear": "art-source/motions/v1/sunquan/final/s2/rear/manifest.json"
   }
  },
- "finalized": "2026-11-19",
- "approvedDate": "2026-11-19"
+ "finalized": "2026-11-20"
 }

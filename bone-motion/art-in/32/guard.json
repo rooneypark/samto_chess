@@ -142,133 +142,133 @@
   "source": "out/pixellab/32/idle/left/12.png",
   "keypoints": [
    {
-    "x": 0.5,
+    "x": 0.5352,
     "y": 0.7111,
     "label": "pelvis",
     "depth": 128.0
    },
    {
-    "x": 0.4902,
+    "x": 0.5253,
     "y": 0.5602,
     "label": "NECK",
     "depth": 127.3
    },
    {
-    "x": 0.4174,
+    "x": 0.4526,
     "y": 0.5085,
     "label": "NOSE",
     "depth": 126.4
    },
    {
-    "x": 0.5163,
+    "x": 0.5514,
     "y": 0.5759,
     "label": "RIGHT SHOULDER",
     "depth": 109.4
    },
    {
-    "x": 0.552,
+    "x": 0.5872,
     "y": 0.6203,
     "label": "RIGHT ELBOW",
     "depth": 100.7
    },
    {
-    "x": 0.4852,
+    "x": 0.5204,
     "y": 0.6414,
     "label": "RIGHT ARM",
     "depth": 102.5
    },
    {
-    "x": 0.4699,
+    "x": 0.5051,
     "y": 0.62,
     "label": "LEFT SHOULDER",
     "depth": 145.6
    },
    {
-    "x": 0.4905,
+    "x": 0.5256,
     "y": 0.6761,
     "label": "LEFT ELBOW",
     "depth": 161.4
    },
    {
-    "x": 0.4776,
+    "x": 0.5128,
     "y": 0.7054,
     "label": "LEFT ARM",
     "depth": 148.7
    },
    {
-    "x": 0.5101,
+    "x": 0.5453,
     "y": 0.7043,
     "label": "RIGHT HIP",
     "depth": 116.3
    },
    {
-    "x": 0.5117,
+    "x": 0.5469,
     "y": 0.7689,
     "label": "RIGHT KNEE",
     "depth": 111.7
    },
    {
-    "x": 0.5475,
+    "x": 0.5826,
     "y": 0.8302,
     "label": "RIGHT LEG",
     "depth": 119.0
    },
    {
-    "x": 0.4904,
+    "x": 0.5255,
     "y": 0.7329,
     "label": "LEFT HIP",
     "depth": 139.8
    },
    {
-    "x": 0.4466,
+    "x": 0.4817,
     "y": 0.7922,
     "label": "LEFT KNEE",
     "depth": 139.8
    },
    {
-    "x": 0.4684,
+    "x": 0.5036,
     "y": 0.8509,
     "label": "LEFT LEG",
     "depth": 136.0
    },
    {
-    "x": 0.5216,
+    "x": 0.5567,
     "y": 0.8433,
     "label": "RIGHT TOE",
     "depth": 114.4
    },
    {
-    "x": 0.4367,
+    "x": 0.4719,
     "y": 0.8697,
     "label": "LEFT TOE",
     "depth": 136.0
    },
    {
-    "x": 0.4755,
+    "x": 0.5107,
     "y": 0.6691,
     "label": "weapon butt",
     "depth": 104.2
    },
    {
-    "x": 0.4066,
+    "x": 0.4417,
     "y": 0.5124,
     "label": "weapon tip",
     "depth": 95.7
    },
    {
-    "x": 0.5178,
+    "x": 0.553,
     "y": 0.5751,
     "label": "cape hem root",
     "depth": 127.3
    },
    {
-    "x": 0.5317,
+    "x": 0.5668,
     "y": 0.6713,
     "label": "cape hem mid",
     "depth": 127.3
    },
    {
-    "x": 0.5455,
+    "x": 0.5807,
     "y": 0.7406,
     "label": "cape hem tip",
     "depth": 127.3

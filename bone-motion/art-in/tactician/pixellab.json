@@ -1,51 +1,51 @@
 {
- "hero": "군영참모",
+ "hero": "기본 책사",
  "family": "caster",
- "description": "A camp advisor in the supplied pixel art style. A dark scholar cap, a long lavender-grey robe with wide sleeves and a patterned hem, a dark sash. He holds a bundle of bamboo slips in front of his chest",
- "face": "A plain serious face.",
- "rear_detail": "Seen from behind: the dark cap, the plain lavender-grey robe with a sash across the back. What he holds is in front of the body and hidden.",
+ "description": "A plain chinese army strategist in the supplied pixel art style. A dark navy flat-topped scholar cap, grey hair, a long dark navy robe with a red collar trim, red cuffs and a red waist sash, a white inner collar, dark shoes. He holds a white feather fan in the right hand at chest height",
+ "face": "A calm older face with a short grey beard.",
+ "rear_detail": "Seen from behind: the dark navy cap, grey hair below it, and the long robe, which is plain dark navy over the whole back from the shoulders to the hem. The only white is a thin collar line at the neck. A red sash around the waist. The white feather fan shows at his right side.",
  "guard_action": "the right hand lifts what it holds up beside the right shoulder, the left hand lowers, the left foot settles half a step forward",
  "actions": {
-  "idle": "Calm ready stance holding the bundle of bamboo slips up, breathing",
-  "move": "Brisk walk in place with small steps, robe swaying, bundle of bamboo slips held up, seamless loop. The last frame leads into the first, no pause",
-  "b1": "Upward flick. Frames 3-6 the knees bend and the bundle of bamboo slips is lowered in front; frames 7-8 the body straightens up tall and it is flicked from below to high above the head; frames 9-11 hold high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bundle of bamboo slips stays rigid, keeps its size and shape and stays in the hand the whole time.",
-  "b2": "Downward stroke. Frames 3-6 he stands tall and raises the bundle of bamboo slips above the head; frames 7-8 he drops into a deep knee bend and draws it straight down in front; frames 9-11 hold low. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bundle of bamboo slips stays rigid, keeps its size and shape and stays in the hand the whole time.",
-  "b3": "Two-handed push. Frames 3-6 both hands gather in front of the chest; frame 7 the left foot steps forward; frame 8 both hands push straight out together; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bundle of bamboo slips stays rigid, keeps its size and shape and stays in the hand the whole time.",
-  "s6": "Circle and spread. Frames 3-5 the bundle of bamboo slips draws one full circle above the head; frame 6 he crouches; frames 7-8 a step forward and both hands spread wide and low in front; frames 9-12 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bundle of bamboo slips stays rigid, keeps its size and shape and stays in the hand the whole time."
+  "idle": "Calm ready stance holding the white feather fan up, breathing",
+  "move": "Brisk walk in place with small steps, robe swaying, white feather fan held up, seamless loop. The last frame leads into the first, no pause",
+  "pb1": "Upward flick. Frames 3-6 the knees bend and the white feather fan is lowered in front; frames 7-8 the body straightens up tall and it is flicked from below to high above the head; frames 9-11 hold high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The white feather fan stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "pa2": "Open-palm push. The white feather fan stays at his right side. Frames 3-6 the empty LEFT hand draws back; frames 7-8 the left shoulder turns forward, body side-on, and the open left palm pushes straight out; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The white feather fan stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "pb2": "Downward stroke. Frames 3-6 he stands tall and raises the white feather fan above the head; frames 7-8 he drops into a deep knee bend and draws it straight down in front; frames 9-11 hold low. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The white feather fan stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "ps6": "Circle and spread. Frames 3-5 the white feather fan draws one full circle above the head; frame 6 he crouches; frames 7-8 a step forward and both hands spread wide and low in front; frames 9-12 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The white feather fan stays rigid, keeps its size and shape and stays in the hand the whole time."
  },
- "weapon_length": 22,
+ "weapon_length": 28,
  "weapon_grip": 0,
  "weapon_mode": "forward",
  "rear_hand": "R",
  "art_weapon": {
   "front": {
    "weapon butt": [
-    126,
-    176
+    106,
+    178
    ],
    "weapon tip": [
-    126,
-    154
+    106,
+    151
    ]
   },
   "left": {
    "weapon butt": [
-    116,
-    174
+    110,
+    180
    ],
    "weapon tip": [
-    116,
-    156
+    110,
+    152
    ]
   },
   "rear": {
    "weapon butt": [
-    130,
-    172
+    153,
+    178
    ],
    "weapon tip": [
-    130,
-    152
+    153,
+    151
    ]
   }
  },
@@ -99,5 +99,5 @@
    "lag": 0.3
   }
  ],
- "notes": "2026-11-19 make_configs.py. 평타 b1 → b2 → b3, 전법 s6. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. "
+ "notes": "2026-11-19 make_configs.py. 평타 pb1 → pa2 → pb2, 전법 ps6. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. 기본 병종. 밋밋한 클립(p)만 쓴다."
 }

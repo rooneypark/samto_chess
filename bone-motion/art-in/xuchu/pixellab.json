@@ -11,7 +11,9 @@
   "b1": "Short downward mace blow. Frames 1-5 the mace is lifted to shoulder height only; frames 6-8 a short hard blow straight down onto the target; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spiked mace stays rigid, keeps its size and shape and stays in the hand the whole time.",
   "a3": "Rising mace blow. Frames 1-6 the mace head drops low behind the body; frames 7-8 the knees straighten and the mace is swung up from below through the target; frames 9-11 the mace ends high above the head. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spiked mace stays rigid, keeps its size and shape and stays in the hand the whole time.",
   "b3": "Big circular overhead smash. Frames 1-6 the mace head drops low behind and is swung in one big circle back and up over the head; frame 8 it crashes straight down; frames 9-11 hold the low finish. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spiked mace stays rigid, keeps its size and shape and stays in the hand the whole time.",
-  "s1": "Tiger fury. Frames 1-6 he pulls the mace in to his chest and curls into a deep crouch; frame 8 he pushes off the ground, throws the arms and mace wide open and thrusts the chest out with a roar; frames 9-12 hold. Nothing is struck. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spiked mace stays rigid, keeps its size and shape and stays in the hand the whole time."
+  "s1": "Tiger fury. Frames 1-6 he pulls the mace in to his chest and curls into a deep crouch; frame 8 he pushes off the ground, throws the arms and mace wide open and thrusts the chest out with a roar; frames 9-12 hold. Nothing is struck. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spiked mace stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "c4": "Ground smash. The heavy weapon is heaved up over the head with both hands and brought straight down into the ground in front; the body drops with it; a long hold low.",
+  "c5": "Swing and smash. A wide level swing from the right across the front, carried round and up, then straight down onto the target; a long hold low."
  },
  "weapon_length": 74,
  "weapon_grip": 20,
@@ -67,5 +69,11 @@
    "lag": 0.35
   }
  ],
- "notes": "2026-11-19. 평타 b1(짧게 찍기) → a3(올려치기) → b3(크게 돌려 내려찍기), 전법 s1(호치). 철퇴 좌표는 원화에서 눈으로 잰 값(±2px)."
+ "notes": "2026-11-19. 평타 b1(짧게 찍기) → a3(올려치기) → b3(크게 돌려 내려찍기), 전법 s1(호치). 철퇴 좌표는 원화에서 눈으로 잰 값(±2px).",
+ "canvas_offset": {
+  "front": [
+   0,
+   -11
+  ]
+ }
 }

@@ -126,7 +126,7 @@ def outside(p, pts):
         best = min(best, math.hypot(p[0] - a[0] - d[0] * t, p[1] - a[1] - d[1] * t))
     return best
 
-def qa(rig, frames, supports, issues, canvas_margin=2, treadmill=False, canvas_shift=None, overhead=False):
+def qa(rig, frames, supports, issues, canvas_margin=2, treadmill=False, canvas_shift=None, overhead=False, weapon_cut=0.0, balance_slack=0.0):
     """Numbers a reviewer would otherwise have to eyeball. 'fail' lists anything out of tolerance."""
     report = {'fail': []}; fail = report['fail']
     for i, problems in enumerate(issues): fail += ['frame %d: %s' % (i + 1, p) for p in problems]
@@ -162,7 +162,7 @@ def qa(rig, frames, supports, issues, canvas_margin=2, treadmill=False, canvas_s
     if hasattr(rig, 'balance') and not treadmill:
         out = [round(outside(*rig.balance(j, supports[i])), 1) for i, j in enumerate(frames)]; report['balance_outside_px'] = out
         # Standing on both feet the weight must be over them. On one foot the body may be falling into its step, but not far.
-        bad = [i + 1 for i, v in enumerate(out) if v > (6 if len(supports[i]) >= 2 else 16)]
+        bad = [i + 1 for i, v in enumerate(out) if v > (6 if len(supports[i]) >= 2 else 16) + balance_slack]      # balance_slack: a big blow carries the weight past the feet for a frame or two (snappy.py)
         if bad: fail.append('off balance in frames %s (centre of mass up to %.0fpx outside the feet)' % (bad, max(out)))
     cut = set()
     for i, j in enumerate(frames):
@@ -170,7 +170,9 @@ def qa(rig, frames, supports, issues, canvas_margin=2, treadmill=False, canvas_s
             for name, v in j.items():
                 x, y, _n = project(view, v)
                 if canvas_shift: x += canvas_shift.get(view, (0, 0))[0]; y += canvas_shift.get(view, (0, 0))[1]      # a family whose sprite is placed off-centre on the canvas (clips/mounted_halberd.py)
-                if not (canvas_margin <= x <= 256 - canvas_margin and canvas_margin <= y <= 256 - canvas_margin): cut.add((i + 1, view, name))
+                over = max(canvas_margin - x, x - (256 - canvas_margin), canvas_margin - y, y - (256 - canvas_margin))
+                if over > 0 and weapon_cut and over <= weapon_cut and __import__('snappy').weapon_joint(name): continue      # a weapon cut off a little at the edge is accepted (snappy.py)
+                if over > 0: cut.add((i + 1, view, name))
     report['outside_canvas'] = sorted(cut)
     if cut: fail.append('%d joint positions leave the canvas' % len(cut))
     return report

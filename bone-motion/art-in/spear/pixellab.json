@@ -1,0 +1,54 @@
+{
+ "hero": "기본 창병",
+ "family": "foot_spear",
+ "description": "A plain rank-and-file chinese spearman in the supplied pixel art style. A round grey iron helmet with a small knob, grey lamellar armor with pale trim, cream sleeves, dark bracers, a red neck scarf, a red waist sash with a red front cloth, dark boots with a tan band. He holds a plain spear with a small steel leaf-shaped head and a brown shaft",
+ "face": "A stern face with a short grey beard.",
+ "rear_detail": "Seen from behind: the round grey helmet, dark hair under its rim, the red scarf, grey lamellar armor, the red sash, the spear at his right side. Nothing hangs on his back.",
+ "guard_action": "both hands take the spear and bring it to a ready angle at the right side, the left foot steps forward and the knees bend",
+ "actions": {
+  "idle": "Spearman fighting guard, spear held in both hands, breathing",
+  "move": "Seamless combat run in place carrying the spear, no attack. The last frame leads into the first, no pause",
+  "pa1": "One straight spear thrust. Frames 1-5 the spear is drawn back at the right hip; frames 6-8 a step forward and a straight thrust, point first; frames 9-11 hold the reach. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "pb1": "HORIZONTAL spear sweep, feet planted. Frames 2-6 the whole upper body winds far to the right with the spear held level; frames 7-8 the spear swings around from the side to the front in a wide flat arc; frames 9-11 hold in front. The spear travels sideways, not a thrust. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "pb2": "VERTICAL overhead spear strike. Frames 3-6 both hands raise the spear straight up above the head, pointing at the sky; frames 7-8 it is brought down from above onto the target; frames 9-11 hold with the tip low. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "pa3": "Leaping downward spear strike. Frames 1-4 he sinks; frames 5-7 both feet leave the ground with the spear over the right shoulder; frame 8 he lands driving the spear down; frames 9-11 absorb the landing. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The spear stays rigid, keeps its size and shape and stays in the hand the whole time."
+ },
+ "weapon_length": 127,
+ "weapon_grip": 34,
+ "weapon_mode": "forward",
+ "rear_hand": "R",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    104,
+    223
+   ],
+   "weapon tip": [
+    104,
+    96
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    112,
+    223
+   ],
+   "weapon tip": [
+    112,
+    96
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    152,
+    223
+   ],
+   "weapon tip": [
+    152,
+    96
+   ]
+  }
+ },
+ "streamers": [],
+ "notes": "2026-11-19 make_configs.py. 평타 pa1 → pb1 → pb2, 전법 pa3. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. 기본 병종. 밋밋한 클립(p)만 쓴다. 늘어지는 천이 없어 streamers 없음."
+}

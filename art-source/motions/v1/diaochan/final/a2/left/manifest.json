@@ -1,5 +1,5 @@
 {
- "status": "user_approved",
+ "status": "in_simulator_for_review",
  "files": [
   "01.png",
   "02.png",
@@ -24,9 +24,9 @@
   110,
   120,
   150,
-  55,
   45,
-  80,
+  40,
+  190,
   160,
   100,
   90,

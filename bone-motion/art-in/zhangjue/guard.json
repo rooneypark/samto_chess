@@ -1,0 +1,578 @@
+{
+ "front": {
+  "frame": 12,
+  "source": "out/pixellab/zhangjue/idle/front/12.png",
+  "keypoints": [
+   {
+    "x": 0.5,
+    "y": 0.5864,
+    "label": "pelvis",
+    "depth": 128.0
+   },
+   {
+    "x": 0.4974,
+    "y": 0.4527,
+    "label": "NECK",
+    "depth": 130.5
+   },
+   {
+    "x": 0.4946,
+    "y": 0.4247,
+    "label": "NOSE",
+    "depth": 147.5
+   },
+   {
+    "x": 0.4377,
+    "y": 0.4695,
+    "label": "RIGHT SHOULDER",
+    "depth": 125.1
+   },
+   {
+    "x": 0.3969,
+    "y": 0.5334,
+    "label": "RIGHT ELBOW",
+    "depth": 124.7
+   },
+   {
+    "x": 0.4203,
+    "y": 0.5286,
+    "label": "RIGHT ARM",
+    "depth": 138.9
+   },
+   {
+    "x": 0.5605,
+    "y": 0.4797,
+    "label": "LEFT SHOULDER",
+    "depth": 132.9
+   },
+   {
+    "x": 0.6101,
+    "y": 0.5296,
+    "label": "LEFT ELBOW",
+    "depth": 128.4
+   },
+   {
+    "x": 0.5592,
+    "y": 0.5733,
+    "label": "LEFT ARM",
+    "depth": 135.3
+   },
+   {
+    "x": 0.4583,
+    "y": 0.592,
+    "label": "RIGHT HIP",
+    "depth": 126.2
+   },
+   {
+    "x": 0.4439,
+    "y": 0.6632,
+    "label": "RIGHT KNEE",
+    "depth": 130.5
+   },
+   {
+    "x": 0.4661,
+    "y": 0.7071,
+    "label": "RIGHT LEG",
+    "depth": 123.0
+   },
+   {
+    "x": 0.5418,
+    "y": 0.5966,
+    "label": "LEFT HIP",
+    "depth": 129.7
+   },
+   {
+    "x": 0.5475,
+    "y": 0.6673,
+    "label": "LEFT KNEE",
+    "depth": 138.4
+   },
+   {
+    "x": 0.5339,
+    "y": 0.7203,
+    "label": "LEFT LEG",
+    "depth": 133.0
+   },
+   {
+    "x": 0.455,
+    "y": 0.7358,
+    "label": "RIGHT TOE",
+    "depth": 129.5
+   },
+   {
+    "x": 0.5365,
+    "y": 0.7496,
+    "label": "LEFT TOE",
+    "depth": 140.0
+   },
+   {
+    "x": 0.428,
+    "y": 0.5269,
+    "label": "weapon butt",
+    "depth": 143.6
+   },
+   {
+    "x": 0.3905,
+    "y": 0.3237,
+    "label": "weapon tip",
+    "depth": 179.0
+   },
+   {
+    "x": 0.4203,
+    "y": 0.534,
+    "label": "right sleeve root",
+    "depth": 136.9
+   },
+   {
+    "x": 0.4203,
+    "y": 0.5742,
+    "label": "right sleeve mid",
+    "depth": 135.4
+   },
+   {
+    "x": 0.4203,
+    "y": 0.6027,
+    "label": "right sleeve tip",
+    "depth": 133.9
+   },
+   {
+    "x": 0.5592,
+    "y": 0.5787,
+    "label": "left sleeve root",
+    "depth": 133.3
+   },
+   {
+    "x": 0.5592,
+    "y": 0.6188,
+    "label": "left sleeve mid",
+    "depth": 131.8
+   },
+   {
+    "x": 0.5592,
+    "y": 0.6473,
+    "label": "left sleeve tip",
+    "depth": 130.3
+   },
+   {
+    "x": 0.5,
+    "y": 0.6001,
+    "label": "robe hem root",
+    "depth": 120.0
+   },
+   {
+    "x": 0.5,
+    "y": 0.6764,
+    "label": "robe hem mid",
+    "depth": 117.5
+   },
+   {
+    "x": 0.5,
+    "y": 0.7306,
+    "label": "robe hem tip",
+    "depth": 115.0
+   },
+   {
+    "x": 0.4972,
+    "y": 0.3783,
+    "label": "long hair root",
+    "depth": 123.1
+   },
+   {
+    "x": 0.4972,
+    "y": 0.4353,
+    "label": "long hair mid",
+    "depth": 120.1
+   },
+   {
+    "x": 0.4972,
+    "y": 0.4753,
+    "label": "long hair tip",
+    "depth": 117.1
+   }
+  ]
+ },
+ "left": {
+  "frame": 12,
+  "source": "out/pixellab/zhangjue/idle/left/12.png",
+  "keypoints": [
+   {
+    "x": 0.5,
+    "y": 0.6723,
+    "label": "pelvis",
+    "depth": 128.0
+   },
+   {
+    "x": 0.4894,
+    "y": 0.5346,
+    "label": "NECK",
+    "depth": 127.4
+   },
+   {
+    "x": 0.4173,
+    "y": 0.4834,
+    "label": "NOSE",
+    "depth": 126.7
+   },
+   {
+    "x": 0.5123,
+    "y": 0.5399,
+    "label": "RIGHT SHOULDER",
+    "depth": 113.3
+   },
+   {
+    "x": 0.5139,
+    "y": 0.5919,
+    "label": "RIGHT ELBOW",
+    "depth": 103.7
+   },
+   {
+    "x": 0.4538,
+    "y": 0.5755,
+    "label": "RIGHT ARM",
+    "depth": 109.2
+   },
+   {
+    "x": 0.4793,
+    "y": 0.5779,
+    "label": "LEFT SHOULDER",
+    "depth": 142.3
+   },
+   {
+    "x": 0.4985,
+    "y": 0.6491,
+    "label": "LEFT ELBOW",
+    "depth": 154.0
+   },
+   {
+    "x": 0.4691,
+    "y": 0.6679,
+    "label": "LEFT ARM",
+    "depth": 142.0
+   },
+   {
+    "x": 0.5077,
+    "y": 0.6674,
+    "label": "RIGHT HIP",
+    "depth": 118.2
+   },
+   {
+    "x": 0.4896,
+    "y": 0.7285,
+    "label": "RIGHT KNEE",
+    "depth": 114.8
+   },
+   {
+    "x": 0.5212,
+    "y": 0.7892,
+    "label": "RIGHT LEG",
+    "depth": 120.0
+   },
+   {
+    "x": 0.4929,
+    "y": 0.6933,
+    "label": "LEFT HIP",
+    "depth": 137.9
+   },
+   {
+    "x": 0.4561,
+    "y": 0.7543,
+    "label": "LEFT KNEE",
+    "depth": 139.2
+   },
+   {
+    "x": 0.4788,
+    "y": 0.8101,
+    "label": "LEFT LEG",
+    "depth": 136.0
+   },
+   {
+    "x": 0.4937,
+    "y": 0.8059,
+    "label": "RIGHT TOE",
+    "depth": 117.4
+   },
+   {
+    "x": 0.4492,
+    "y": 0.8311,
+    "label": "LEFT TOE",
+    "depth": 136.6
+   },
+   {
+    "x": 0.4339,
+    "y": 0.5702,
+    "label": "weapon butt",
+    "depth": 111.0
+   },
+   {
+    "x": 0.2839,
+    "y": 0.309,
+    "label": "weapon tip",
+    "depth": 102.2
+   },
+   {
+    "x": 0.4622,
+    "y": 0.5837,
+    "label": "right sleeve root",
+    "depth": 109.2
+   },
+   {
+    "x": 0.4685,
+    "y": 0.6258,
+    "label": "right sleeve mid",
+    "depth": 109.2
+   },
+   {
+    "x": 0.4749,
+    "y": 0.6562,
+    "label": "right sleeve tip",
+    "depth": 109.2
+   },
+   {
+    "x": 0.4775,
+    "y": 0.6759,
+    "label": "left sleeve root",
+    "depth": 142.0
+   },
+   {
+    "x": 0.4838,
+    "y": 0.7181,
+    "label": "left sleeve mid",
+    "depth": 142.0
+   },
+   {
+    "x": 0.4902,
+    "y": 0.7485,
+    "label": "left sleeve tip",
+    "depth": 142.0
+   },
+   {
+    "x": 0.5339,
+    "y": 0.6965,
+    "label": "robe hem root",
+    "depth": 128.0
+   },
+   {
+    "x": 0.5445,
+    "y": 0.776,
+    "label": "robe hem mid",
+    "depth": 128.0
+   },
+   {
+    "x": 0.5551,
+    "y": 0.8336,
+    "label": "robe hem tip",
+    "depth": 128.0
+   },
+   {
+    "x": 0.5206,
+    "y": 0.4698,
+    "label": "long hair root",
+    "depth": 127.3
+   },
+   {
+    "x": 0.5333,
+    "y": 0.5307,
+    "label": "long hair mid",
+    "depth": 127.3
+   },
+   {
+    "x": 0.546,
+    "y": 0.5746,
+    "label": "long hair tip",
+    "depth": 127.3
+   }
+  ]
+ },
+ "rear": {
+  "frame": 12,
+  "source": "out/pixellab/zhangjue/idle/rear/12.png",
+  "keypoints": [
+   {
+    "x": 0.5,
+    "y": 0.6528,
+    "label": "pelvis",
+    "depth": 128.0
+   },
+   {
+    "x": 0.5026,
+    "y": 0.5126,
+    "label": "NECK",
+    "depth": 125.5
+   },
+   {
+    "x": 0.5013,
+    "y": 0.449,
+    "label": "back of skull",
+    "depth": 133.1
+   },
+   {
+    "x": 0.5623,
+    "y": 0.5435,
+    "label": "RIGHT SHOULDER",
+    "depth": 130.9
+   },
+   {
+    "x": 0.6031,
+    "y": 0.6085,
+    "label": "RIGHT ELBOW",
+    "depth": 131.3
+   },
+   {
+    "x": 0.5797,
+    "y": 0.5664,
+    "label": "RIGHT ARM",
+    "depth": 117.1
+   },
+   {
+    "x": 0.4395,
+    "y": 0.5333,
+    "label": "LEFT SHOULDER",
+    "depth": 123.1
+   },
+   {
+    "x": 0.3899,
+    "y": 0.5951,
+    "label": "LEFT ELBOW",
+    "depth": 127.6
+   },
+   {
+    "x": 0.4408,
+    "y": 0.6205,
+    "label": "LEFT ARM",
+    "depth": 120.7
+   },
+   {
+    "x": 0.5417,
+    "y": 0.6632,
+    "label": "RIGHT HIP",
+    "depth": 129.8
+   },
+   {
+    "x": 0.5561,
+    "y": 0.7231,
+    "label": "RIGHT KNEE",
+    "depth": 125.5
+   },
+   {
+    "x": 0.5339,
+    "y": 0.7867,
+    "label": "RIGHT LEG",
+    "depth": 133.0
+   },
+   {
+    "x": 0.4582,
+    "y": 0.6586,
+    "label": "LEFT HIP",
+    "depth": 126.3
+   },
+   {
+    "x": 0.4525,
+    "y": 0.7065,
+    "label": "LEFT KNEE",
+    "depth": 117.6
+   },
+   {
+    "x": 0.4661,
+    "y": 0.7735,
+    "label": "LEFT LEG",
+    "depth": 123.0
+   },
+   {
+    "x": 0.545,
+    "y": 0.7983,
+    "label": "RIGHT TOE",
+    "depth": 126.5
+   },
+   {
+    "x": 0.4635,
+    "y": 0.7846,
+    "label": "LEFT TOE",
+    "depth": 116.0
+   },
+   {
+    "x": 0.572,
+    "y": 0.5525,
+    "label": "weapon butt",
+    "depth": 112.4
+   },
+   {
+    "x": 0.6095,
+    "y": 0.2564,
+    "label": "weapon tip",
+    "depth": 77.0
+   },
+   {
+    "x": 0.5797,
+    "y": 0.5771,
+    "label": "right sleeve root",
+    "depth": 119.1
+   },
+   {
+    "x": 0.5797,
+    "y": 0.6212,
+    "label": "right sleeve mid",
+    "depth": 120.6
+   },
+   {
+    "x": 0.5797,
+    "y": 0.6535,
+    "label": "right sleeve tip",
+    "depth": 122.1
+   },
+   {
+    "x": 0.4408,
+    "y": 0.6312,
+    "label": "left sleeve root",
+    "depth": 122.7
+   },
+   {
+    "x": 0.4408,
+    "y": 0.6754,
+    "label": "left sleeve mid",
+    "depth": 124.2
+   },
+   {
+    "x": 0.4408,
+    "y": 0.7077,
+    "label": "left sleeve tip",
+    "depth": 125.7
+   },
+   {
+    "x": 0.5,
+    "y": 0.6874,
+    "label": "robe hem root",
+    "depth": 136.0
+   },
+   {
+    "x": 0.5,
+    "y": 0.7703,
+    "label": "robe hem mid",
+    "depth": 138.5
+   },
+   {
+    "x": 0.5,
+    "y": 0.8311,
+    "label": "robe hem tip",
+    "depth": 141.0
+   },
+   {
+    "x": 0.5028,
+    "y": 0.4575,
+    "label": "long hair root",
+    "depth": 132.9
+   },
+   {
+    "x": 0.5028,
+    "y": 0.5224,
+    "label": "long hair mid",
+    "depth": 135.9
+   },
+   {
+    "x": 0.5028,
+    "y": 0.5701,
+    "label": "long hair tip",
+    "depth": 138.9
+   }
+  ]
+ }
+}

@@ -11,7 +11,10 @@
   "b1": "Side-on shot. Frames 1-6 he turns the body fully side-on to the target and draws; frame 9 release; frames 10-11 hold side-on. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bow stays rigid, keeps its size and shape and stays in the hand the whole time.",
   "a2": "High shot. Frames 1-6 the bow is lifted high, level with the head, and drawn, aiming from above downward; frame 9 release; frames 10-11 follow through. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bow stays rigid, keeps its size and shape and stays in the hand the whole time.",
   "b3": "Deep-drawn shot. Frames 1-7 a slow very deep draw, leaning back; frame 9 release; frames 10-11 a long follow-through. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bow stays rigid, keeps its size and shape and stays in the hand the whole time.",
-  "s4": "Triple shot. Frames 1-4 draw; frame 5 release; frames 6-7 redraw; frame 8 release; frames 9-11 a third draw and release, the bow swinging slightly to a new target each time. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bow stays rigid, keeps its size and shape and stays in the hand the whole time."
+  "s4": "Triple shot. Frames 1-4 draw; frame 5 release; frames 6-7 redraw; frame 8 release; frames 9-11 a third draw and release, the bow swinging slightly to a new target each time. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bow stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b2": "Two quick shots. Frames 1-5 a fast draw; frame 6 release; frames 7-9 a second fast draw; frame 10 release; frame 11 follow through.",
+  "c6": "Leaping shot. He crouches, jumps, draws the bow in the air and releases at the top of the jump; he lands and settles.",
+  "a3": "Low shot. Frames 1-6 he bends the knees deeply and draws the bow on a low flat line; frame 9 release; frames 10-11 hold low."
  },
  "weapon_length": 94,
  "weapon_grip": 35,

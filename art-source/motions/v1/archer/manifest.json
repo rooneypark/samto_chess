@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "id": "archer",
+ "name": "기본 궁병",
+ "family": "bow_long",
+ "reviewStatus": "in_simulator_for_review",
+ "canvas": [
+  256,
+  256
+ ],
+ "attacks": [
+  "pb1",
+  "pb2",
+  "pa3"
+ ],
+ "skill": "ps2",
+ "skillName": "집중 사격",
+ "clips": {
+  "idle": {
+   "front": "art-source/motions/v1/archer/final/idle/front/manifest.json",
+   "left": "art-source/motions/v1/archer/final/idle/left/manifest.json",
+   "rear": "art-source/motions/v1/archer/final/idle/rear/manifest.json"
+  },
+  "move": {
+   "front": "art-source/motions/v1/archer/final/move/front/manifest.json",
+   "left": "art-source/motions/v1/archer/final/move/left/manifest.json",
+   "rear": "art-source/motions/v1/archer/final/move/rear/manifest.json"
+  },
+  "pb1": {
+   "front": "art-source/motions/v1/archer/final/pb1/front/manifest.json",
+   "left": "art-source/motions/v1/archer/final/pb1/left/manifest.json",
+   "rear": "art-source/motions/v1/archer/final/pb1/rear/manifest.json"
+  },
+  "pb2": {
+   "front": "art-source/motions/v1/archer/final/pb2/front/manifest.json",
+   "left": "art-source/motions/v1/archer/final/pb2/left/manifest.json",
+   "rear": "art-source/motions/v1/archer/final/pb2/rear/manifest.json"
+  },
+  "pa3": {
+   "front": "art-source/motions/v1/archer/final/pa3/front/manifest.json",
+   "left": "art-source/motions/v1/archer/final/pa3/left/manifest.json",
+   "rear": "art-source/motions/v1/archer/final/pa3/rear/manifest.json"
+  },
+  "ps2": {
+   "front": "art-source/motions/v1/archer/final/ps2/front/manifest.json",
+   "left": "art-source/motions/v1/archer/final/ps2/left/manifest.json",
+   "rear": "art-source/motions/v1/archer/final/ps2/rear/manifest.json"
+  }
+ },
+ "finalized": "2026-11-20"
+}

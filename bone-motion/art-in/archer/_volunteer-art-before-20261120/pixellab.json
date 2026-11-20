@@ -1,0 +1,76 @@
+{
+ "hero": "의용궁병",
+ "family": "bow",
+ "description": "A volunteer archer in the supplied pixel art style. A wide conical straw hat, a tan tunic with a dark vest, a red sash, a quiver of arrows on his back, dark boots. He holds a brown recurve bow in the left hand",
+ "face": "A plain weathered face.",
+ "rear_detail": "Seen from behind: the wide straw hat, the tan tunic, the quiver of arrows across the back, the bow at his left side.",
+ "guard_action": "the left hand raises the bow in front of the body, the right hand comes to the string, the feet take an archer stance",
+ "actions": {
+  "idle": "Archer ready stance, bow held in front in the left hand, breathing",
+  "move": "Seamless combat run in place carrying the bow in the left hand, no shooting. The last frame leads into the first, no pause",
+  "a1": "One arrow shot. Frames 1-6 the bow is raised level and the right hand draws the string back to full draw; frame 9 release; frames 10-11 the bow arm stays out. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bow stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b2": "Two quick shots. Frames 1-5 a fast draw; frame 6 release; frames 7-9 a second fast draw; frame 10 release; frame 11 follow through. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bow stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a3": "Low shot. Frames 1-6 he bends the knees deeply and draws the bow on a low flat line; frame 9 release; frames 10-11 hold low. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bow stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "s2": "Focused shot. Frames 1-7 he settles, draws steadily and holds the aim; frame 9 one release; frames 10-12 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The bow stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "c6": "Leaping shot. He crouches, jumps, draws the bow in the air and releases at the top of the jump; he lands and settles.",
+  "pb1": "Side-on shot. Frames 1-6 he turns the body fully side-on to the target and draws; frame 9 release; frames 10-11 hold side-on.",
+  "pb2": "Two quick shots. Frames 1-5 a fast draw; frame 6 release; frames 7-9 a second fast draw; frame 10 release; frame 11 follow through.",
+  "pa3": "Low shot. Frames 1-6 he bends the knees deeply and draws the bow on a low flat line; frame 9 release; frames 10-11 hold low.",
+  "ps2": "Focused shot. Frames 1-7 he settles, draws steadily and holds the aim; frame 9 one release; frames 10-12 hold."
+ },
+ "weapon_length": 97,
+ "weapon_grip": 35,
+ "weapon_mode": "bone",
+ "rear_hand": "L",
+ "art_weapon": {
+  "front": {
+   "weapon butt": [
+    160,
+    214
+   ],
+   "weapon tip": [
+    162,
+    120
+   ]
+  },
+  "left": {
+   "weapon butt": [
+    100,
+    212
+   ],
+   "weapon tip": [
+    102,
+    129
+   ]
+  },
+  "rear": {
+   "weapon butt": [
+    93,
+    216
+   ],
+   "weapon tip": [
+    93,
+    119
+   ]
+  }
+ },
+ "streamers": [
+  {
+   "name": "sash ends",
+   "attach": "pelvis",
+   "root": [
+    0,
+    8,
+    -6
+   ],
+   "hang": [
+    0,
+    3,
+    -22
+   ],
+   "sway": 1.0,
+   "lag": 0.35
+  }
+ ],
+ "notes": "2026-11-19 make_configs.py. 평타 a1 → b2 → a3, 전법 s2. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. "
+}

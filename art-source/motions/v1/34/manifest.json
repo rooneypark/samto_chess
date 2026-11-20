@@ -9,11 +9,11 @@
   256
  ],
  "attacks": [
-  "a1",
-  "b1",
-  "a3"
+  "pa3",
+  "ps5",
+  "ps6"
  ],
- "skill": "s2",
+ "skill": "ps2",
  "skillName": "급습",
  "clips": {
   "idle": {
@@ -26,26 +26,26 @@
    "left": "art-source/motions/v1/34/final/move/left/manifest.json",
    "rear": "art-source/motions/v1/34/final/move/rear/manifest.json"
   },
-  "a1": {
-   "front": "art-source/motions/v1/34/final/a1/front/manifest.json",
-   "left": "art-source/motions/v1/34/final/a1/left/manifest.json",
-   "rear": "art-source/motions/v1/34/final/a1/rear/manifest.json"
+  "pa3": {
+   "front": "art-source/motions/v1/34/final/pa3/front/manifest.json",
+   "left": "art-source/motions/v1/34/final/pa3/left/manifest.json",
+   "rear": "art-source/motions/v1/34/final/pa3/rear/manifest.json"
   },
-  "b1": {
-   "front": "art-source/motions/v1/34/final/b1/front/manifest.json",
-   "left": "art-source/motions/v1/34/final/b1/left/manifest.json",
-   "rear": "art-source/motions/v1/34/final/b1/rear/manifest.json"
+  "ps5": {
+   "front": "art-source/motions/v1/34/final/ps5/front/manifest.json",
+   "left": "art-source/motions/v1/34/final/ps5/left/manifest.json",
+   "rear": "art-source/motions/v1/34/final/ps5/rear/manifest.json"
   },
-  "a3": {
-   "front": "art-source/motions/v1/34/final/a3/front/manifest.json",
-   "left": "art-source/motions/v1/34/final/a3/left/manifest.json",
-   "rear": "art-source/motions/v1/34/final/a3/rear/manifest.json"
+  "ps6": {
+   "front": "art-source/motions/v1/34/final/ps6/front/manifest.json",
+   "left": "art-source/motions/v1/34/final/ps6/left/manifest.json",
+   "rear": "art-source/motions/v1/34/final/ps6/rear/manifest.json"
   },
-  "s2": {
-   "front": "art-source/motions/v1/34/final/s2/front/manifest.json",
-   "left": "art-source/motions/v1/34/final/s2/left/manifest.json",
-   "rear": "art-source/motions/v1/34/final/s2/rear/manifest.json"
+  "ps2": {
+   "front": "art-source/motions/v1/34/final/ps2/front/manifest.json",
+   "left": "art-source/motions/v1/34/final/ps2/left/manifest.json",
+   "rear": "art-source/motions/v1/34/final/ps2/rear/manifest.json"
   }
  },
- "finalized": "2026-11-19"
+ "finalized": "2026-11-20"
 }

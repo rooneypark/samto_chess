@@ -11,7 +11,13 @@
   "a1": "One straight mounted spear thrust forward. Frames 1-5 the horse sits back and the rider draws the spear back, frame 8 the horse drives forward and the thrust lands, frames 9-11 follow through. Frames 12-15 return to the supplied guard pose; the last pose matches the first. Follow the skeleton. Keep the spear rigid and the same length. Rider stays seated in the saddle, four horse legs always present",
   "a2": "Mounted VERTICAL overhead spear strike. Frames 3-5 the rider raises the spear straight up above the head, pointing at the sky; frames 5-6 the horse lifts both front hooves off the ground; frame 7-8 the front hooves come down and the spear is brought down from above in a vertical arc onto the target in front, ending with the tip low. Frames 9-11 hold. Frames 12-15 return to the supplied guard pose; the last pose matches the first. Follow the skeleton exactly. Keep the spear rigid and the same length. Rider stays seated in the saddle, four horse legs always present",
   "a3": "Mounted HORIZONTAL spear sweep. The rider holds the spear near its butt end. Frames 3-5 the spear is swung far out to the right side and back, level with the ground, the torso twisting right; frames 6-8 it sweeps around from the side to the front in a wide flat arc and strikes. Frames 9-11 hold with the spear across the front. Not a thrust: the spear travels sideways. Frames 12-15 return to the supplied guard pose; the last pose matches the first. Follow the skeleton exactly. Keep the spear rigid and the same length. Rider stays seated in the saddle, four horse legs always present",
-  "s1": "Heroic charge. Frames 3-7 the horse REARS UP high on its hind legs, both front hooves in the air, the rider rising with it with the spear couched under the arm pointing forward and up. Frame 8 the front hooves crash down and horse and rider plunge forward into one long deep spear thrust. Frames 9-12 hold the deepest reach. Frames 13-15 return to the supplied guard pose; the last pose matches the first. Follow the skeleton exactly. Keep the spear rigid and the same length. Rider stays in the saddle, four horse legs always present"
+  "s1": "Heroic charge. Frames 3-7 the horse REARS UP high on its hind legs, both front hooves in the air, the rider rising with it with the spear couched under the arm pointing forward and up. Frame 8 the front hooves crash down and horse and rider plunge forward into one long deep spear thrust. Frames 9-12 hold the deepest reach. Frames 13-15 return to the supplied guard pose; the last pose matches the first. Follow the skeleton exactly. Keep the spear rigid and the same length. Rider stays in the saddle, four horse legs always present",
+  "b3": "Stamp and overhead strike. Frames 2-6 the horse lifts its front hooves high while the spear goes straight up; frame 8 the hooves stamp down and the spear comes down with them; frames 9-11 a long hold.",
+  "c6": "Deep mounted strike. The horse sits far back on its haunches while the spear is raised; then horse and rider surge forward and the spear comes down in one big strike; a long hold low.",
+  "pa3": "Mounted HORIZONTAL spear sweep. The rider holds the spear near its butt end. Frames 3-5 the spear is swung far out to the right side and back, level with the ground, the torso twisting right; frames 6-8 it sweeps around from the side to the front in a wide flat arc and strikes. Frames 9-11 hold with the spear across the front. Not a thrust: the spear travels sideways. Frames 12-15 return to the supplied guard pose; the last pose matches the first. Follow the skeleton exactly. Keep the spear rigid and the same length. Rider stays seated in the saddle, four horse legs always present",
+  "pb3": "Stamp and overhead strike. Frames 2-6 the horse lifts its front hooves high while the spear goes straight up; frame 8 the hooves stamp down and the spear comes down with them; frames 9-11 a long hold.",
+  "ps6": "Deep mounted strike. The horse sits far back on its haunches while the spear is raised; then horse and rider surge forward and the spear comes down in one big strike; a long hold low.",
+  "ps1": "Heroic charge. Frames 3-7 the horse REARS UP high on its hind legs, both front hooves in the air, the rider rising with it with the spear couched under the arm pointing forward and up. Frame 8 the front hooves crash down and horse and rider plunge forward into one long deep spear thrust. Frames 9-12 hold the deepest reach. Frames 13-15 return to the supplied guard pose; the last pose matches the first. Follow the skeleton exactly. Keep the spear rigid and the same length. Rider stays in the saddle, four horse legs always present"
  },
  "weapon_length": 134,
  "weapon_grip": 46,
@@ -115,5 +121,11 @@
     0
    ]
   ]
- ]
+ ],
+ "canvas_offset": {
+  "left": [
+   0,
+   3
+  ]
+ }
 }

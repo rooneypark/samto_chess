@@ -123,7 +123,7 @@
 | 기마 창 | A1 기마 직창 → jab<br>A2 세로 내려치기 → chop<br>A3 가로 휘두르기 → cut<br>B1 올려치기 → rise<br>B2 이단 찌르기 → jab<br>B3 앞발 굴러 내려치기 → chop |
 | 사슬낫 (감녕) | A1 안쪽 걸어베기 → cut<br>A2 올려 걸기 → rise<br>A3 깊이 내려찍기 → chop<br>B1 찌르고 올려 걸기 → jab<br>B2 도약 내려찍기 → chop<br>B3 돌아 걸기 → cut |
 | 긴자루 도끼 | A1 세로 내려치기 → chop<br>A2 가로 휘두르기 → cut<br>A3 올려치기 → rise |
-| 기마 장화극 | A1 사선 베기 → cut<br>A2 쳐올리기 → cut<br>B3 앞발 굴러 내려베기 → chop |
+| 기마 장화극 | A1 사선 베기 → cut<br>A2 쳐올리기 → cut<br>B2 이단 베기 → cut |
 | 기마 장창 | A2 세로 내려치기 → chop<br>A3 두 손 돌려치기 → cut<br>B1 올려치기 → rise |
 
 ## 장수별 배정
@@ -142,7 +142,7 @@
 | 하후돈 | 보행 창 | 불굴 | `#d05a5a` | jab, cut, chop | - | 보호막(shield) + 충격파(shock) | - |
 | 장료 | 기마 월도 | 급습 | `#8fb8ff` | chop, jab, cut | 돌진 궤적(dash) + 큰 베기(slash) | - | - |
 | 주유 | 한손 검 | 화공 | `#ff5a3a` | chop, cut, jab | 불기둥(fire) | - | - |
-| 여포 | 기마 장화극 | 무쌍 | `#e0414f` | cut, cut, chop | 충격파(shock) | 회전 베기(spin) + 기세(fury) | - |
+| 여포 | 기마 장화극 | 무쌍 | `#e0414f` | cut, cut, cut | 충격파(shock) | 회전 베기(spin) + 기세(fury) | - |
 | 의용보병 | 창·방패 | 굳건한 방어 | `#c9d6e6` | thud, cut, chop | - | 보호막(shield) + 충격파(shock) + 함성(roar) | - |
 | 의용궁병 | 궁 | 집중 사격 | `#f4dea0` | 화살(arrow) | 화살(arrow) 3발 | - | - |
 | 군영참모 | 책사·지원 | 응급 처치 | `#b9a2ff` | 빛줄기(missile) | - | 진(rune) | 회복 빛(heal) + 강화 고리(aura) |

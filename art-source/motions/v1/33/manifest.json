@@ -9,9 +9,9 @@
   256
  ],
  "attacks": [
-  "a1",
   "b1",
-  "a3"
+  "b2",
+  "c5"
  ],
  "skill": "s2",
  "skillName": "불굴",
@@ -26,20 +26,20 @@
    "left": "art-source/motions/v1/33/final/move/left/manifest.json",
    "rear": "art-source/motions/v1/33/final/move/rear/manifest.json"
   },
-  "a1": {
-   "front": "art-source/motions/v1/33/final/a1/front/manifest.json",
-   "left": "art-source/motions/v1/33/final/a1/left/manifest.json",
-   "rear": "art-source/motions/v1/33/final/a1/rear/manifest.json"
-  },
   "b1": {
    "front": "art-source/motions/v1/33/final/b1/front/manifest.json",
    "left": "art-source/motions/v1/33/final/b1/left/manifest.json",
    "rear": "art-source/motions/v1/33/final/b1/rear/manifest.json"
   },
-  "a3": {
-   "front": "art-source/motions/v1/33/final/a3/front/manifest.json",
-   "left": "art-source/motions/v1/33/final/a3/left/manifest.json",
-   "rear": "art-source/motions/v1/33/final/a3/rear/manifest.json"
+  "b2": {
+   "front": "art-source/motions/v1/33/final/b2/front/manifest.json",
+   "left": "art-source/motions/v1/33/final/b2/left/manifest.json",
+   "rear": "art-source/motions/v1/33/final/b2/rear/manifest.json"
+  },
+  "c5": {
+   "front": "art-source/motions/v1/33/final/c5/front/manifest.json",
+   "left": "art-source/motions/v1/33/final/c5/left/manifest.json",
+   "rear": "art-source/motions/v1/33/final/c5/rear/manifest.json"
   },
   "s2": {
    "front": "art-source/motions/v1/33/final/s2/front/manifest.json",
@@ -47,5 +47,5 @@
    "rear": "art-source/motions/v1/33/final/s2/rear/manifest.json"
   }
  },
- "finalized": "2026-11-19"
+ "finalized": "2026-11-20"
 }

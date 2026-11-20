@@ -52,3 +52,6 @@ CLIPS = {
 
 from clips import foot_spear_more
 CLIPS.update(foot_spear_more.build(pose, GUARD))
+
+RAW = dict(CLIPS)      # as written; families built from this one start from RAW (snappy.py)
+CLIPS = __import__('snappy').upgrade(__import__('sys').modules[__name__])

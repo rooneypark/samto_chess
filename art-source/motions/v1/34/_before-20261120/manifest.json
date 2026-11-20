@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "id": "34",
+ "name": "장료",
+ "family": "mounted_blade",
+ "reviewStatus": "in_simulator_for_review",
+ "canvas": [
+  256,
+  256
+ ],
+ "attacks": [
+  "pa3",
+  "ps5",
+  "ps6"
+ ],
+ "skill": "ps2",
+ "skillName": "급습",
+ "clips": {
+  "idle": {
+   "front": "art-source/motions/v1/34/final/idle/front/manifest.json",
+   "left": "art-source/motions/v1/34/final/idle/left/manifest.json",
+   "rear": "art-source/motions/v1/34/final/idle/rear/manifest.json"
+  },
+  "move": {
+   "front": "art-source/motions/v1/34/final/move/front/manifest.json",
+   "left": "art-source/motions/v1/34/final/move/left/manifest.json",
+   "rear": "art-source/motions/v1/34/final/move/rear/manifest.json"
+  },
+  "pa3": {
+   "front": "art-source/motions/v1/34/final/pa3/front/manifest.json",
+   "left": "art-source/motions/v1/34/final/pa3/left/manifest.json",
+   "rear": "art-source/motions/v1/34/final/pa3/rear/manifest.json"
+  },
+  "ps5": {
+   "front": "art-source/motions/v1/34/final/ps5/front/manifest.json",
+   "left": "art-source/motions/v1/34/final/ps5/left/manifest.json",
+   "rear": "art-source/motions/v1/34/final/ps5/rear/manifest.json"
+  },
+  "ps6": {
+   "front": "art-source/motions/v1/34/final/ps6/front/manifest.json",
+   "left": "art-source/motions/v1/34/final/ps6/left/manifest.json",
+   "rear": "art-source/motions/v1/34/final/ps6/rear/manifest.json"
+  },
+  "ps2": {
+   "front": "art-source/motions/v1/34/final/ps2/front/manifest.json",
+   "left": "art-source/motions/v1/34/final/ps2/left/manifest.json",
+   "rear": "art-source/motions/v1/34/final/ps2/rear/manifest.json"
+  }
+ },
+ "finalized": "2026-11-20"
+}

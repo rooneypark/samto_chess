@@ -44,7 +44,7 @@ def _clip(c, title, notes=None):
     if notes: out['notes'] = notes
     return out
 
-S = spear.CLIPS
+S = getattr(spear, 'RAW', spear.CLIPS)
 CLIPS = {
  'idle': _clip(S['idle'], S['idle']['title']), 'move': _clip(S['move'], S['move']['title']),
  'a1': _clip(S['b2'], 'A1 세로 내려치기', '두 손으로 도끼를 머리 위로 곧게 세웠다가(4~6번) 위에서 아래로 내려친다. 타격은 8번, 끝에서 도끼머리가 낮게 꽂힌다.'),
@@ -53,3 +53,6 @@ CLIPS = {
  's2': _clip(S['a3'], 'S2 대부 강타', '서황 전법. 깊이 앉았다가 5~7번에 두 발이 뜨고, 도끼를 오른 어깨 위로 넘겼다가 착지(8번)와 함께 내려찍는다.'),
  's3': _clip(S['s6'], 'S3 대회전', '공용 전법. 2~6번에 상체를 오른쪽으로 감고, 7~14번에 낮게 뜬 채 한 바퀴 돌며 8번에 도끼날이 정면을 지난다.'),
 }
+
+RAW = dict(CLIPS)      # as written; families built from this one start from RAW (snappy.py)
+CLIPS = __import__('snappy').upgrade(__import__('sys').modules[__name__])

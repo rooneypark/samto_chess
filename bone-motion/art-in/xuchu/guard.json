@@ -5,133 +5,133 @@
   "keypoints": [
    {
     "x": 0.5,
-    "y": 0.7027,
+    "y": 0.6598,
     "label": "pelvis",
     "depth": 128.0
    },
    {
     "x": 0.4963,
-    "y": 0.5435,
+    "y": 0.5005,
     "label": "NECK",
     "depth": 132.2
    },
    {
     "x": 0.4938,
-    "y": 0.5146,
+    "y": 0.4717,
     "label": "NOSE",
     "depth": 150.9
    },
    {
     "x": 0.4166,
-    "y": 0.5776,
+    "y": 0.5347,
     "label": "RIGHT SHOULDER",
     "depth": 126.9
    },
    {
     "x": 0.4478,
-    "y": 0.6377,
+    "y": 0.5948,
     "label": "RIGHT ELBOW",
     "depth": 142.1
    },
    {
     "x": 0.4893,
-    "y": 0.6416,
+    "y": 0.5987,
     "label": "RIGHT ARM",
     "depth": 156.5
    },
    {
     "x": 0.5785,
-    "y": 0.5882,
+    "y": 0.5453,
     "label": "LEFT SHOULDER",
     "depth": 134.8
    },
    {
     "x": 0.6017,
-    "y": 0.6682,
+    "y": 0.6252,
     "label": "LEFT ELBOW",
     "depth": 137.9
    },
    {
     "x": 0.5464,
-    "y": 0.6934,
+    "y": 0.6504,
     "label": "LEFT ARM",
     "depth": 150.1
    },
    {
     "x": 0.4486,
-    "y": 0.708,
+    "y": 0.665,
     "label": "RIGHT HIP",
     "depth": 125.8
    },
    {
     "x": 0.4186,
-    "y": 0.7808,
+    "y": 0.7378,
     "label": "RIGHT KNEE",
     "depth": 124.7
    },
    {
     "x": 0.4608,
-    "y": 0.8216,
+    "y": 0.7786,
     "label": "RIGHT LEG",
     "depth": 116.0
    },
    {
     "x": 0.5515,
-    "y": 0.7137,
+    "y": 0.6707,
     "label": "LEFT HIP",
     "depth": 130.0
    },
    {
     "x": 0.5496,
-    "y": 0.7872,
+    "y": 0.7443,
     "label": "LEFT KNEE",
     "depth": 144.0
    },
    {
     "x": 0.5348,
-    "y": 0.8538,
+    "y": 0.8108,
     "label": "LEFT LEG",
     "depth": 140.0
    },
    {
     "x": 0.4361,
-    "y": 0.8499,
+    "y": 0.8069,
     "label": "RIGHT TOE",
     "depth": 121.7
    },
    {
     "x": 0.5318,
-    "y": 0.8853,
+    "y": 0.8423,
     "label": "LEFT TOE",
     "depth": 148.0
    },
    {
     "x": 0.5428,
-    "y": 0.7251,
+    "y": 0.6822,
     "label": "weapon butt",
     "depth": 150.6
    },
    {
     "x": 0.4407,
-    "y": 0.5227,
+    "y": 0.4797,
     "label": "weapon tip",
     "depth": 175.4
    },
    {
     "x": 0.5,
-    "y": 0.7383,
+    "y": 0.6953,
     "label": "loincloth root",
     "depth": 136.0
    },
    {
     "x": 0.5,
-    "y": 0.7933,
+    "y": 0.7503,
     "label": "loincloth mid",
     "depth": 137.5
    },
    {
     "x": 0.5,
-    "y": 0.8335,
+    "y": 0.7906,
     "label": "loincloth tip",
     "depth": 139.0
    }

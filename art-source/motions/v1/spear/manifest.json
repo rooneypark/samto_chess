@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "id": "spear",
+ "name": "기본 창병",
+ "family": "foot_spear",
+ "reviewStatus": "in_simulator_for_review",
+ "canvas": [
+  256,
+  256
+ ],
+ "attacks": [
+  "pa1",
+  "pb1",
+  "pb2"
+ ],
+ "skill": "pa3",
+ "skillName": "창 찌르기",
+ "clips": {
+  "idle": {
+   "front": "art-source/motions/v1/spear/final/idle/front/manifest.json",
+   "left": "art-source/motions/v1/spear/final/idle/left/manifest.json",
+   "rear": "art-source/motions/v1/spear/final/idle/rear/manifest.json"
+  },
+  "move": {
+   "front": "art-source/motions/v1/spear/final/move/front/manifest.json",
+   "left": "art-source/motions/v1/spear/final/move/left/manifest.json",
+   "rear": "art-source/motions/v1/spear/final/move/rear/manifest.json"
+  },
+  "pa1": {
+   "front": "art-source/motions/v1/spear/final/pa1/front/manifest.json",
+   "left": "art-source/motions/v1/spear/final/pa1/left/manifest.json",
+   "rear": "art-source/motions/v1/spear/final/pa1/rear/manifest.json"
+  },
+  "pb1": {
+   "front": "art-source/motions/v1/spear/final/pb1/front/manifest.json",
+   "left": "art-source/motions/v1/spear/final/pb1/left/manifest.json",
+   "rear": "art-source/motions/v1/spear/final/pb1/rear/manifest.json"
+  },
+  "pb2": {
+   "front": "art-source/motions/v1/spear/final/pb2/front/manifest.json",
+   "left": "art-source/motions/v1/spear/final/pb2/left/manifest.json",
+   "rear": "art-source/motions/v1/spear/final/pb2/rear/manifest.json"
+  },
+  "pa3": {
+   "front": "art-source/motions/v1/spear/final/pa3/front/manifest.json",
+   "left": "art-source/motions/v1/spear/final/pa3/left/manifest.json",
+   "rear": "art-source/motions/v1/spear/final/pa3/rear/manifest.json"
+  }
+ },
+ "finalized": "2026-11-20"
+}

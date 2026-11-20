@@ -27,6 +27,7 @@
 <body>
 <main>
   <h1>모션 클립 보기</h1>
+  <div class="bar"><span class="l">장수</span><span id="heroes"></span></div>
   <div class="bar"><span class="l">유형</span><span id="fams"></span></div>
   <div class="bar"><span class="l">클립</span><span id="clips"></span></div>
   <div class="bar">
@@ -41,9 +42,18 @@
   <div id="notes"></div>
 </main>
 <script src="data.js"></script>
+<script src="heroes.js"></script>
 <script>
 const D = window.SIM_DATA, S = 2, VIEWS = [['front', '정면'], ['left', '왼쪽 측면'], ['rear', '후면']];
-let fam = D.families[0], queue = ['a1'], qi = 0, t = 0, paused = false, speed = 1, last = null;
+let fam = D.families[0], queue = ['a1'], qi = 0, t = 0, paused = false, speed = 1, last = null, hero = null;
+// 출시 명단: 나라별 대표 장수 5명씩과 기본 병종. 장수를 고르면 그 장수의 대기, 이동, 평타 세 개, 전법만 나온다.
+const ROSTER = [['촉', ['유비', '관우', '장비', '조운', '제갈량']], ['위', ['조조', '하후돈', '장료', '허저', '사마의']], ['오', ['손권', '주유', '손책', '감녕', '육손']],
+                ['군웅', ['여포', '초선', '동탁', '원소', '장각']], ['기본', ['검병', '창병', '의용보병', '의용궁병', '군영참모']]];
+// 검병과 창병은 아직 명단에 없다. 본만 미리 본다: 키우지 않은 원래 동작(p로 시작하는 클립) 세 개, 전법은 아직 없음.
+const HEROES = (window.SIM_HEROES || []).concat([
+  { name: '검병', family: 'sword', attacks: ['pa1', 'pb1', 'pa2'], skillClip: null, skill: '' },
+  { name: '창병', family: 'foot_spear', attacks: ['pa1', 'pb1', 'pb2'], skillClip: null, skill: '' }]);
+const LABEL = { 의용보병: '방패병', 의용궁병: '궁병', 군영참모: '책사' };
 const ctx = VIEWS.map(([v, name]) => { const fig = document.createElement('figure'), cv = document.createElement('canvas'); cv.width = cv.height = 256 * S;
   fig.innerHTML = `<figcaption>${name}</figcaption>`; fig.appendChild(cv); document.getElementById('views').appendChild(fig); return [v, cv.getContext('2d')]; });
 const sum = a => a.reduce((x, y) => x + y, 0);
@@ -52,11 +62,17 @@ function frameOf(c, time) { let r = time; for (let i = 0; i < c.durations.length
 function startOf(c, i) { return sum(c.durations.slice(0, i)); }
 
 function buttons() {
+  const hb = document.getElementById('heroes'); hb.innerHTML = '';
+  ROSTER.forEach(([fac, names]) => { const tag = document.createElement('span'); tag.textContent = fac + ' '; tag.style.color = '#93a4b8'; tag.style.marginLeft = '6px'; hb.appendChild(tag);
+    names.forEach(n => { const h = HEROES.find(x => x.name === n); if (!h) return; const b = document.createElement('button'); b.textContent = LABEL[n] || n; b.className = hero === h ? 'on' : '';
+      b.onclick = () => { hero = h; fam = D.families.find(f => f.id === h.family); pick([h.attacks[0]]); }; hb.appendChild(b); }); });
   const fb = document.getElementById('fams'); fb.innerHTML = '';
-  D.families.forEach((f, n) => { const b = document.createElement('button'); b.textContent = `${n + 1} ${f.title}`; b.className = f === fam ? 'on' : ''; b.onclick = () => { fam = f; pick(fam.clips[queue[0]] ? queue : ['idle']); }; fb.appendChild(b); });
+  D.families.forEach((f, n) => { const b = document.createElement('button'); b.textContent = `${n + 1} ${f.title}`; b.className = f === fam ? 'on' : ''; b.onclick = () => { hero = null; fam = f; pick(fam.clips[queue[0]] ? queue : ['idle']); }; fb.appendChild(b); });
   const cb = document.getElementById('clips'); cb.innerHTML = '';
-  Object.entries(fam.clips).forEach(([id, c]) => { const b = document.createElement('button'); b.textContent = c.title; b.className = queue.length === 1 && queue[0] === id ? 'on' : ''; b.onclick = () => pick([id]); cb.appendChild(b); });
-  document.getElementById('combo').className = queue.join() === 'a1,a2,a3' ? 'on' : ''; document.getElementById('combo2').className = queue.join() === 'b1,b2,b3' ? 'on' : '';
+  const shown = hero ? [['idle', '대기'], ['move', '이동'], ...hero.attacks.map((id, i) => [id, '평타 ' + (i + 1)]), [hero.skillClip, '전법 ' + hero.skill]].filter(([id]) => id && fam.clips[id]).map(([id, tag]) => [id, fam.clips[id], tag]) : Object.entries(fam.clips).map(([id, c]) => [id, c, '']);
+  shown.forEach(([id, c, tag]) => { const b = document.createElement('button'); b.textContent = tag ? tag + ' · ' + c.title.replace(/^[A-Z] ?[A-Z]?[0-9] /, '') : c.title; b.className = queue.length === 1 && queue[0] === id ? 'on' : ''; b.onclick = () => pick([id]); cb.appendChild(b); });
+  document.getElementById('combo').textContent = hero ? '평타 연속(1·2·3)' : 'A 연속(1·2·3타)'; document.getElementById('combo2').style.display = hero ? 'none' : '';
+  document.getElementById('combo').className = queue.join() === (hero ? hero.attacks.join() : 'a1,a2,a3') ? 'on' : ''; document.getElementById('combo2').className = queue.join() === 'b1,b2,b3' ? 'on' : '';
 }
 function pick(q) { queue = q.filter(id => fam.clips[id]); if (!queue.length) queue = ['idle']; qi = 0; t = 0; buttons(); }
 
@@ -82,7 +98,7 @@ function draw() {
   [...strip.children].forEach((e, i) => { e.className = (i === f ? 'now ' : '') + ((c.impact === i + 1 || c.impact2 === i + 1 || c.arrive === i + 1) ? 'hit' : ''); });
   const mark = c.impact === f + 1 ? `  ◀ ${c.event}` : c.impact2 === f + 1 ? '  ◀ 2타' : c.arrive === f + 1 ? '  ◀ 도달' : '';
   const feet = (c.support[f] || []).join('·') || '없음';
-  document.getElementById('info').textContent = `${fam.title} · ${c.title} · ${String(f + 1).padStart(2, '0')} / ${c.durations.length} · ${c.durations[f]}ms · 딛는 발: ${feet}${mark}`;
+  document.getElementById('info').textContent = `${hero ? (LABEL[hero.name] || hero.name) + ' (' + fam.title + ')' : fam.title} · ${c.title} · ${String(f + 1).padStart(2, '0')} / ${c.durations.length} · ${c.durations[f]}ms · 딛는 발: ${feet}${mark}`;
   document.getElementById('notes').textContent = c.notes || '';
 }
 function tick(now) {
@@ -94,7 +110,8 @@ function step(d) { paused = true; document.getElementById('pause').textContent =
 document.getElementById('pause').onclick = e => { paused = !paused; e.target.textContent = paused ? '재생' : '멈춤'; };
 document.getElementById('prev').onclick = () => step(-1); document.getElementById('next').onclick = () => step(1);
 document.getElementById('speed').onchange = e => { speed = Number(e.target.value); };
-document.getElementById('combo').onclick = () => pick(['a1', 'a2', 'a3']); document.getElementById('combo2').onclick = () => pick(['b1', 'b2', 'b3']);
+document.getElementById('combo').onclick = () => pick(hero ? hero.attacks : ['a1', 'a2', 'a3']); document.getElementById('combo2').onclick = () => pick(['b1', 'b2', 'b3']);
+hero = HEROES.find(x => x.name === '여포') || null; if (hero) { fam = D.families.find(f => f.id === hero.family); queue = [hero.attacks[0]]; }
 buttons(); requestAnimationFrame(tick);
 </script>
 </body>

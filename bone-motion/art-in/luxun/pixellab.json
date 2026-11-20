@@ -11,7 +11,8 @@
   "b1": "Upward flick. Frames 3-6 the knees bend and the torch is lowered in front; frames 7-8 the body straightens up tall and it is flicked from below to high above the head; frames 9-11 hold high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The torch stays rigid, keeps its size and shape and stays in the hand the whole time.",
   "a2": "Open-palm push. The torch stays at his right side. Frames 3-6 the empty LEFT hand draws back; frames 7-8 the left shoulder turns forward, body side-on, and the open left palm pushes straight out; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The torch stays rigid, keeps its size and shape and stays in the hand the whole time.",
   "b3": "Two-handed push. Frames 3-6 both hands gather in front of the chest; frame 7 the left foot steps forward; frame 8 both hands push straight out together; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The torch stays rigid, keeps its size and shape and stays in the hand the whole time.",
-  "s6": "Circle and spread. Frames 3-5 the torch draws one full circle above the head; frame 6 he crouches; frames 7-8 a step forward and both hands spread wide and low in front; frames 9-12 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The torch stays rigid, keeps its size and shape and stays in the hand the whole time."
+  "s6": "Circle and spread. Frames 3-5 the torch draws one full circle above the head; frame 6 he crouches; frames 7-8 a step forward and both hands spread wide and low in front; frames 9-12 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The torch stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b2": "Downward stroke. Frames 3-6 he stands tall and raises the  above the head; frames 7-8 he drops into a deep knee bend and draws it straight down in front; frames 9-11 hold low."
  },
  "weapon_length": 55,
  "weapon_grip": 0,
@@ -67,5 +68,11 @@
    "lag": 0.3
   }
  ],
- "notes": "2026-11-19 make_configs.py. 평타 b1 → a2 → b3, 전법 s6. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. 횃불은 손 위쪽만 뼈대에 넣었다(손~불꽃 끝). 손 아래 자루는 그림에서 따라온다."
+ "notes": "2026-11-19 make_configs.py. 평타 b1 → a2 → b3, 전법 s6. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. 횃불은 손 위쪽만 뼈대에 넣었다(손~불꽃 끝). 손 아래 자루는 그림에서 따라온다.",
+ "canvas_offset": {
+  "front": [
+   0,
+   -15
+  ]
+ }
 }

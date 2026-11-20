@@ -1,6 +1,6 @@
 {
  "hero": "동탁",
- "family": "sword",
+ "family": "sword_front",
  "description": "Dong Zhuo, enormously fat chinese tyrant in the supplied pixel art style. A gold and purple crown, a huge round body in black belly armor with a red and gold belt, purple robe sleeves and a long purple cape, dark boots. He holds a heavy curved saber in the right hand",
  "face": "A wide cruel face with a thick black beard.",
  "rear_detail": "Seen from behind: the gold and purple crown, the very wide purple cape covering the whole back, the curved saber at his right side.",
@@ -11,7 +11,12 @@
   "a1": "One diagonal downward cut. Frames 1-5 raise the sword and wind up; frame 8 the cut lands from upper right to lower left; frames 9-11 follow through. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The heavy curved saber stays rigid, keeps its size and shape and stays in the hand the whole time.",
   "a2": "One rising cut from low to high. Frames 1-5 lower the sword and coil; frame 8 the upward cut lands; frames 9-11 the sword finishes high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The heavy curved saber stays rigid, keeps its size and shape and stays in the hand the whole time.",
   "b2": "Thrust, then rising cut. Frames 1-5 draw back; frame 6 a straight thrust; frames 7-8 the sword drops low; frame 9 a rising cut; frames 10-11 the sword finishes high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The heavy curved saber stays rigid, keeps its size and shape and stays in the hand the whole time.",
-  "s3": "Low wide sweep. Frames 1-6 both knees fold and the sword is drawn far behind; frame 8 one broad level sweep at waist height from right to left; frames 9-12 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The heavy curved saber stays rigid, keeps its size and shape and stays in the hand the whole time."
+  "s3": "Low wide sweep. Frames 1-6 both knees fold and the sword is drawn far behind; frame 8 one broad level sweep at waist height from right to left; frames 9-12 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The heavy curved saber stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "b3": "Leaping downward cut. Frames 1-4 crouch and raise the sword; frames 5-7 both feet leave the ground; frame 8 he lands cutting straight down; frames 9-11 absorb the landing.",
+  "c6": "Spinning cut. The body winds to the right with the sword drawn back, then makes one full turn on the spot with the sword held out level, and the blade comes round onto the target; a short hold facing forward.",
+  "a3": "One straight thrust. Frames 1-5 the sword is drawn back beside the hip; frames 6-8 a step forward and a straight thrust, point first; frames 9-11 hold the reach.",
+  "c2": "Block, then a backhand cut. Frames 3-6 the sword is held across in front of the body as a block and the knees sink; frame 7 the sword swings to the LEFT hip; frame 8 a step forward and a backhand cut from left to right; frames 9-12 hold on the right.",
+  "s1": "Hidden low, then a rising cut. Frames 1-6 he folds the knees deep and hides the sword low behind the body; frame 8 the legs drive up and the sword cuts from below upward; frames 9-12 the body rises with it."
  },
  "weapon_length": 49,
  "weapon_grip": 6,
@@ -67,5 +72,11 @@
    "lag": 0.3
   }
  ],
- "notes": "2026-11-19 make_configs.py. 평타 a1 → a2 → b2, 전법 s3. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. "
+ "notes": "2026-11-19 make_configs.py. 평타 a1 → a2 → b2, 전법 s3. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. ",
+ "canvas_offset": {
+  "left": [
+   10,
+   0
+  ]
+ }
 }

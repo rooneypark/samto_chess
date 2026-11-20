@@ -11,7 +11,8 @@
   "b1": "Upward flick. Frames 3-6 the knees bend and the gnarled staff is lowered in front; frames 7-8 the body straightens up tall and it is flicked from below to high above the head; frames 9-11 hold high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The gnarled staff stays rigid, keeps its size and shape and stays in the hand the whole time.",
   "a2": "Open-palm push. The gnarled staff stays at his right side. Frames 3-6 the empty LEFT hand draws back; frames 7-8 the left shoulder turns forward, body side-on, and the open left palm pushes straight out; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The gnarled staff stays rigid, keeps its size and shape and stays in the hand the whole time.",
   "b3": "Two-handed push. Frames 3-6 both hands gather in front of the chest; frame 7 the left foot steps forward; frame 8 both hands push straight out together; frames 9-11 hold. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The gnarled staff stays rigid, keeps its size and shape and stays in the hand the whole time.",
-  "s2": "Calling down. Frames 1-6 the gnarled staff is raised straight up high above the head and held; frame 7 a step forward; frame 8 the body drops low and it is struck down from above in front; frames 9-12 hold low. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The gnarled staff stays rigid, keeps its size and shape and stays in the hand the whole time."
+  "s2": "Calling down. Frames 1-6 the gnarled staff is raised straight up high above the head and held; frame 7 a step forward; frame 8 the body drops low and it is struck down from above in front; frames 9-12 hold low. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The gnarled staff stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a1": "Short forward flick of the . Frames 3-6 it is drawn in to the chest; frames 7-8 it is flicked forward; frames 9-11 hold. Feet stay in place."
  },
  "weapon_length": 78,
  "weapon_grip": 0,
@@ -119,11 +120,15 @@
  "canvas_offset": {
   "front": [
    0,
-   -12
+   -32
   ],
   "left": [
-   2,
-   0
+   0,
+   -10
+  ],
+  "rear": [
+   0,
+   -15
   ]
  }
 }

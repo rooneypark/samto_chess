@@ -11,7 +11,9 @@
   "a1": "One diagonal downward cut. Frames 1-5 raise the sword and wind up; frame 8 the cut lands from upper right to lower left; frames 9-11 follow through. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time.",
   "b1": "One level horizontal cut. Frames 1-5 the sword is taken far out to the right at chest height; frame 8 it cuts across level to the left; frames 9-11 follow through on the left. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time.",
   "b2": "Thrust, then rising cut. Frames 1-5 draw back; frame 6 a straight thrust; frames 7-8 the sword drops low; frame 9 a rising cut; frames 10-11 the sword finishes high. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time.",
-  "s4": "Command with the sword. Frames 1-6 the sword is raised; frame 9 it is pointed sharply forward at the target, giving the order; frames 10-12 hold. Nothing is struck. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time."
+  "s4": "Command with the sword. Frames 1-6 the sword is raised; frame 9 it is pointed sharply forward at the target, giving the order; frames 10-12 hold. Nothing is struck. Frames 12-15 return to the supplied ready pose; the last pose matches the first. Follow the skeleton exactly. The sword stays rigid, keeps its size and shape and stays in the hand the whole time.",
+  "a2": "One rising cut from low to high. Frames 1-5 lower the sword and coil; frame 8 the upward cut lands; frames 9-11 the sword finishes high.",
+  "c2": "Block, then a backhand cut. Frames 3-6 the sword is held across in front of the body as a block and the knees sink; frame 7 the sword swings to the LEFT hip; frame 8 a step forward and a backhand cut from left to right; frames 9-12 hold on the right."
  },
  "weapon_length": 56,
  "weapon_grip": 6,
@@ -86,7 +88,7 @@
  "notes": "2026-11-19 make_configs.py. 평타 a1 → b1 → b2, 전법 s4. 무기 좌표는 원화에서 눈으로 잰 값(±2px), 가려진 끝은 추정. ",
  "canvas_offset": {
   "left": [
-   8,
+   23,
    0
   ]
  }

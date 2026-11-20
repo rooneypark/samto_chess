@@ -9,8 +9,8 @@
   256
  ],
  "attacks": [
-  "a2",
-  "a3",
+  "b1",
+  "b2",
   "b3"
  ],
  "skill": "s1",
@@ -26,15 +26,15 @@
    "left": "art-source/motions/v1/32/final/move/left/manifest.json",
    "rear": "art-source/motions/v1/32/final/move/rear/manifest.json"
   },
-  "a2": {
-   "front": "art-source/motions/v1/32/final/a2/front/manifest.json",
-   "left": "art-source/motions/v1/32/final/a2/left/manifest.json",
-   "rear": "art-source/motions/v1/32/final/a2/rear/manifest.json"
+  "b1": {
+   "front": "art-source/motions/v1/32/final/b1/front/manifest.json",
+   "left": "art-source/motions/v1/32/final/b1/left/manifest.json",
+   "rear": "art-source/motions/v1/32/final/b1/rear/manifest.json"
   },
-  "a3": {
-   "front": "art-source/motions/v1/32/final/a3/front/manifest.json",
-   "left": "art-source/motions/v1/32/final/a3/left/manifest.json",
-   "rear": "art-source/motions/v1/32/final/a3/rear/manifest.json"
+  "b2": {
+   "front": "art-source/motions/v1/32/final/b2/front/manifest.json",
+   "left": "art-source/motions/v1/32/final/b2/left/manifest.json",
+   "rear": "art-source/motions/v1/32/final/b2/rear/manifest.json"
   },
   "b3": {
    "front": "art-source/motions/v1/32/final/b3/front/manifest.json",
@@ -47,5 +47,5 @@
    "rear": "art-source/motions/v1/32/final/s1/rear/manifest.json"
   }
  },
- "finalized": "2026-11-19"
+ "finalized": "2026-11-20"
 }

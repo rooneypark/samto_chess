@@ -3,15 +3,15 @@
  "id": "77",
  "name": "주유",
  "family": "sword",
- "reviewStatus": "user_approved",
+ "reviewStatus": "in_simulator_for_review",
  "canvas": [
   256,
   256
  ],
  "attacks": [
-  "a1",
   "b1",
-  "b2"
+  "a2",
+  "c2"
  ],
  "skill": "s4",
  "skillName": "화공",
@@ -26,20 +26,20 @@
    "left": "art-source/motions/v1/77/final/move/left/manifest.json",
    "rear": "art-source/motions/v1/77/final/move/rear/manifest.json"
   },
-  "a1": {
-   "front": "art-source/motions/v1/77/final/a1/front/manifest.json",
-   "left": "art-source/motions/v1/77/final/a1/left/manifest.json",
-   "rear": "art-source/motions/v1/77/final/a1/rear/manifest.json"
-  },
   "b1": {
    "front": "art-source/motions/v1/77/final/b1/front/manifest.json",
    "left": "art-source/motions/v1/77/final/b1/left/manifest.json",
    "rear": "art-source/motions/v1/77/final/b1/rear/manifest.json"
   },
-  "b2": {
-   "front": "art-source/motions/v1/77/final/b2/front/manifest.json",
-   "left": "art-source/motions/v1/77/final/b2/left/manifest.json",
-   "rear": "art-source/motions/v1/77/final/b2/rear/manifest.json"
+  "a2": {
+   "front": "art-source/motions/v1/77/final/a2/front/manifest.json",
+   "left": "art-source/motions/v1/77/final/a2/left/manifest.json",
+   "rear": "art-source/motions/v1/77/final/a2/rear/manifest.json"
+  },
+  "c2": {
+   "front": "art-source/motions/v1/77/final/c2/front/manifest.json",
+   "left": "art-source/motions/v1/77/final/c2/left/manifest.json",
+   "rear": "art-source/motions/v1/77/final/c2/rear/manifest.json"
   },
   "s4": {
    "front": "art-source/motions/v1/77/final/s4/front/manifest.json",
@@ -47,6 +47,5 @@
    "rear": "art-source/motions/v1/77/final/s4/rear/manifest.json"
   }
  },
- "finalized": "2026-11-19",
- "approvedDate": "2026-11-19"
+ "finalized": "2026-11-20"
 }

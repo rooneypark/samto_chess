@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "id": "dongzhuo",
+ "name": "동탁",
+ "family": "sword_front",
+ "reviewStatus": "in_simulator_for_review",
+ "canvas": [
+  256,
+  256
+ ],
+ "attacks": [
+  "a3",
+  "b3",
+  "c2"
+ ],
+ "skill": "s1",
+ "skillName": "폭정",
+ "clips": {
+  "idle": {
+   "front": "art-source/motions/v1/dongzhuo/final/idle/front/manifest.json",
+   "left": "art-source/motions/v1/dongzhuo/final/idle/left/manifest.json",
+   "rear": "art-source/motions/v1/dongzhuo/final/idle/rear/manifest.json"
+  },
+  "move": {
+   "front": "art-source/motions/v1/dongzhuo/final/move/front/manifest.json",
+   "left": "art-source/motions/v1/dongzhuo/final/move/left/manifest.json",
+   "rear": "art-source/motions/v1/dongzhuo/final/move/rear/manifest.json"
+  },
+  "a3": {
+   "front": "art-source/motions/v1/dongzhuo/final/a3/front/manifest.json",
+   "left": "art-source/motions/v1/dongzhuo/final/a3/left/manifest.json",
+   "rear": "art-source/motions/v1/dongzhuo/final/a3/rear/manifest.json"
+  },
+  "b3": {
+   "front": "art-source/motions/v1/dongzhuo/final/b3/front/manifest.json",
+   "left": "art-source/motions/v1/dongzhuo/final/b3/left/manifest.json",
+   "rear": "art-source/motions/v1/dongzhuo/final/b3/rear/manifest.json"
+  },
+  "c2": {
+   "front": "art-source/motions/v1/dongzhuo/final/c2/front/manifest.json",
+   "left": "art-source/motions/v1/dongzhuo/final/c2/left/manifest.json",
+   "rear": "art-source/motions/v1/dongzhuo/final/c2/rear/manifest.json"
+  },
+  "s1": {
+   "front": "art-source/motions/v1/dongzhuo/final/s1/front/manifest.json",
+   "left": "art-source/motions/v1/dongzhuo/final/s1/left/manifest.json",
+   "rear": "art-source/motions/v1/dongzhuo/final/s1/rear/manifest.json"
+  }
+ },
+ "finalized": "2026-11-20"
+}

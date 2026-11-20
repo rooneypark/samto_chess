@@ -18,7 +18,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import samto_motion as sm
 
 VIEWS = ('front', 'left', 'rear'); ROOT = os.path.dirname(sm.WORK); DEST = os.path.join(ROOT, 'art-source', 'motions', 'v1')
-APPROVED = {'liaohua': '2026-11-19', '15': '2026-11-19', '1': '2026-11-19', '0': '2026-11-19', 'sunquan': '2026-11-19', '77': '2026-11-19', 'diaochan': '2026-11-19'}      # the user said "확정" for these; the others are in the simulator for review
+ONLY = [a for a in sys.argv[1:] if not a.startswith('--')]      # ids to finalize; none = every hero with clips.json
+APPROVED = {}      # 2026-11-20: everything was redrawn from the start; nothing of this round has the user's '확정' yet except 창병's thrust      # the user said "확정" for these; the others are in the simulator for review
 
 def off(cfg, view):
     if view in cfg.get('canvas_offset', {}): return cfg['canvas_offset'][view]
@@ -28,7 +29,7 @@ def heroes():
     src = open(os.path.join(sm.WORK, 'sim', 'heroes.js'), encoding='utf-8').read(); rows = {h['id']: h for h in json.loads(src[src.index('['):src.rindex(']') + 1])}
     for hero in sorted(os.listdir(os.path.join(sm.WORK, 'art-in'))):
         p = os.path.join(sm.WORK, 'art-in', hero, 'clips.json')
-        if hero == '2' or hero not in rows or not os.path.exists(p): continue
+        if hero not in rows or not os.path.exists(p) or (ONLY and hero not in ONLY): continue      # 장비 (2) is made here too since 2026-11-20
         data = json.load(open(p, encoding='utf-8'))
         if 'order' in data: yield hero, rows[hero], data
 
@@ -40,7 +41,14 @@ def finalize():
         missing = [src(f, v, n) for c, (f, ns) in plan.items() for v in VIEWS for n in ns if not os.path.exists(src(f, v, n))]
         if missing: print('%s: 없는 그림 %d장, 건너뜀 (%s)' % (row['name'], len(missing), missing[0])); continue
         base = os.path.join(DEST, hero); status = 'user_approved' if hero in APPROVED else 'in_simulator_for_review'
-        for sub in ('final', 'guard'): shutil.rmtree(os.path.join(base, sub), ignore_errors=True)
+        for sub in ('final', 'guard'):      # the published folder of the previous round is kept beside the new one, not deleted
+            old = os.path.join(base, sub)
+            if os.path.isdir(old):
+                keep = os.path.join(base, '_before-20261120', sub)
+                if os.path.exists(keep): shutil.rmtree(old)
+                else: os.makedirs(os.path.dirname(keep), exist_ok=True); shutil.move(old, keep)
+        if os.path.exists(os.path.join(base, 'manifest.json')) and not os.path.exists(os.path.join(base, '_before-20261120', 'manifest.json')):
+            os.makedirs(os.path.join(base, '_before-20261120'), exist_ok=True); shutil.copy2(os.path.join(base, 'manifest.json'), os.path.join(base, '_before-20261120', 'manifest.json'))
         index = {}
         for c, (folder, ns) in plan.items():
             for v in VIEWS:

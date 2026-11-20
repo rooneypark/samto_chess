@@ -64,8 +64,8 @@ def sim_data():
     data = {'families': []}
     for f in FAMILIES:
         mod = importlib.import_module('clips.' + f); attack = 'a1' if 'a1' in mod.CLIPS else 's1'; entry = {'id': f, 'title': mod.TITLE, 'attack': attack, 'clips': {}}
-        order = ['idle', 'move', 'a1', 'a2', 'a3', 'b1', 'b2', 'b3', 's1', 's2', 's3', 's4', 's5', 's6']
-        for cid in [c for c in order if c in mod.CLIPS]:
+        order = ['idle', 'move', 'a1', 'a2', 'a3', 'b1', 'b2', 'b3', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 's1', 's2', 's3', 's4', 's5', 's6']
+        for cid in [c for c in order if c in mod.CLIPS] + sorted(c for c in mod.CLIPS if c not in order):
             m, clip, rig, frames = solve(f, cid)
             entry['clips'][cid] = {'title': clip['title'], 'durations': clip['durations'], 'impact': clip.get('impact'), 'impact2': clip.get('impact2'), 'arrive': clip.get('arrive'),
                                    'event': clip.get('event', '타격'), 'notes': clip.get('notes'), 'support': [list(x) for x in clip['support']],

@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "id": "tactician",
+ "name": "기본 책사",
+ "family": "caster",
+ "reviewStatus": "in_simulator_for_review",
+ "canvas": [
+  256,
+  256
+ ],
+ "attacks": [
+  "pb1",
+  "pa2",
+  "pb2"
+ ],
+ "skill": "ps6",
+ "skillName": "응급 처치",
+ "clips": {
+  "idle": {
+   "front": "art-source/motions/v1/tactician/final/idle/front/manifest.json",
+   "left": "art-source/motions/v1/tactician/final/idle/left/manifest.json",
+   "rear": "art-source/motions/v1/tactician/final/idle/rear/manifest.json"
+  },
+  "move": {
+   "front": "art-source/motions/v1/tactician/final/move/front/manifest.json",
+   "left": "art-source/motions/v1/tactician/final/move/left/manifest.json",
+   "rear": "art-source/motions/v1/tactician/final/move/rear/manifest.json"
+  },
+  "pb1": {
+   "front": "art-source/motions/v1/tactician/final/pb1/front/manifest.json",
+   "left": "art-source/motions/v1/tactician/final/pb1/left/manifest.json",
+   "rear": "art-source/motions/v1/tactician/final/pb1/rear/manifest.json"
+  },
+  "pa2": {
+   "front": "art-source/motions/v1/tactician/final/pa2/front/manifest.json",
+   "left": "art-source/motions/v1/tactician/final/pa2/left/manifest.json",
+   "rear": "art-source/motions/v1/tactician/final/pa2/rear/manifest.json"
+  },
+  "pb2": {
+   "front": "art-source/motions/v1/tactician/final/pb2/front/manifest.json",
+   "left": "art-source/motions/v1/tactician/final/pb2/left/manifest.json",
+   "rear": "art-source/motions/v1/tactician/final/pb2/rear/manifest.json"
+  },
+  "ps6": {
+   "front": "art-source/motions/v1/tactician/final/ps6/front/manifest.json",
+   "left": "art-source/motions/v1/tactician/final/ps6/left/manifest.json",
+   "rear": "art-source/motions/v1/tactician/final/ps6/rear/manifest.json"
+  }
+ },
+ "finalized": "2026-11-20"
+}

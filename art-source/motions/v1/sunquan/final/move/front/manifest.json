@@ -1,5 +1,5 @@
 {
- "status": "user_approved",
+ "status": "in_simulator_for_review",
  "files": [
   "01.png",
   "02.png",
@@ -34,7 +34,7 @@
  ],
  "pivot": [
   128,
-  224
+  219
  ],
  "loop": true,
  "source": "bone-motion/out/pixellab/sunquan/move/front",

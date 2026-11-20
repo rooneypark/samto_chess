@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "id": "sunce",
+ "name": "손책",
+ "family": "dual",
+ "reviewStatus": "in_simulator_for_review",
+ "canvas": [
+  256,
+  256
+ ],
+ "attacks": [
+  "b2",
+  "b3",
+  "c4"
+ ],
+ "skill": "s3",
+ "skillName": "소패왕",
+ "clips": {
+  "idle": {
+   "front": "art-source/motions/v1/sunce/final/idle/front/manifest.json",
+   "left": "art-source/motions/v1/sunce/final/idle/left/manifest.json",
+   "rear": "art-source/motions/v1/sunce/final/idle/rear/manifest.json"
+  },
+  "move": {
+   "front": "art-source/motions/v1/sunce/final/move/front/manifest.json",
+   "left": "art-source/motions/v1/sunce/final/move/left/manifest.json",
+   "rear": "art-source/motions/v1/sunce/final/move/rear/manifest.json"
+  },
+  "b2": {
+   "front": "art-source/motions/v1/sunce/final/b2/front/manifest.json",
+   "left": "art-source/motions/v1/sunce/final/b2/left/manifest.json",
+   "rear": "art-source/motions/v1/sunce/final/b2/rear/manifest.json"
+  },
+  "b3": {
+   "front": "art-source/motions/v1/sunce/final/b3/front/manifest.json",
+   "left": "art-source/motions/v1/sunce/final/b3/left/manifest.json",
+   "rear": "art-source/motions/v1/sunce/final/b3/rear/manifest.json"
+  },
+  "c4": {
+   "front": "art-source/motions/v1/sunce/final/c4/front/manifest.json",
+   "left": "art-source/motions/v1/sunce/final/c4/left/manifest.json",
+   "rear": "art-source/motions/v1/sunce/final/c4/rear/manifest.json"
+  },
+  "s3": {
+   "front": "art-source/motions/v1/sunce/final/s3/front/manifest.json",
+   "left": "art-source/motions/v1/sunce/final/s3/left/manifest.json",
+   "rear": "art-source/motions/v1/sunce/final/s3/rear/manifest.json"
+  }
+ },
+ "finalized": "2026-11-20"
+}

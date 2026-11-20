@@ -4,315 +4,311 @@
   "source": "out/pixellab/119/idle/front/12.png",
   "keypoints": [
    {
-    "x": 0.5,
-    "y": 0.6862,
+    "x": 0.5234,
+    "y": 0.7252,
     "label": "horse body",
     "depth": 128.0
    },
    {
-    "x": 0.5,
-    "y": 0.5983,
+    "x": 0.5234,
+    "y": 0.6373,
     "label": "pelvis",
     "depth": 126.0
    },
    {
-    "x": 0.5,
-    "y": 0.7089,
+    "x": 0.5234,
+    "y": 0.7479,
     "label": "horse chest",
     "depth": 153.0
    },
    {
-    "x": 0.5,
-    "y": 0.6545,
+    "x": 0.5234,
+    "y": 0.6935,
     "label": "horse withers",
     "depth": 151.0
    },
    {
-    "x": 0.5,
-    "y": 0.6545,
+    "x": 0.5234,
+    "y": 0.6935,
     "label": "horse neck",
     "depth": 159.1
    },
    {
-    "x": 0.5,
-    "y": 0.6174,
+    "x": 0.5234,
+    "y": 0.6564,
     "label": "horse poll",
     "depth": 172.8
    },
    {
-    "x": 0.5,
-    "y": 0.7485,
+    "x": 0.5234,
+    "y": 0.7875,
     "label": "horse muzzle",
     "depth": 192.5
    },
    {
-    "x": 0.5,
-    "y": 0.645,
+    "x": 0.5234,
+    "y": 0.684,
     "label": "horse croup",
     "depth": 97.0
    },
    {
-    "x": 0.5,
-    "y": 0.6268,
+    "x": 0.5234,
+    "y": 0.6658,
     "label": "horse tail root",
     "depth": 88.0
    },
    {
-    "x": 0.5,
-    "y": 0.7162,
+    "x": 0.5234,
+    "y": 0.7552,
     "label": "horse tail tip",
     "depth": 79.0
    },
    {
-    "x": 0.5547,
-    "y": 0.7127,
+    "x": 0.5781,
+    "y": 0.7517,
     "label": "horse front left shoulder",
     "depth": 150.0
    },
    {
-    "x": 0.5547,
-    "y": 0.8133,
+    "x": 0.5781,
+    "y": 0.8523,
     "label": "horse front left elbow",
     "depth": 154.5
    },
    {
-    "x": 0.5547,
-    "y": 0.861,
+    "x": 0.5781,
+    "y": 0.9,
     "label": "horse front left knee",
     "depth": 156.6
    },
    {
-    "x": 0.5547,
-    "y": 0.9172,
+    "x": 0.5781,
+    "y": 0.9562,
     "label": "horse front left fetlock",
     "depth": 152.0
    },
    {
-    "x": 0.5547,
-    "y": 0.9369,
+    "x": 0.5781,
+    "y": 0.9759,
     "label": "horse front left hoof",
     "depth": 156.0
    },
    {
-    "x": 0.4453,
-    "y": 0.7127,
+    "x": 0.4687,
+    "y": 0.7517,
     "label": "horse front right shoulder",
     "depth": 150.0
    },
    {
-    "x": 0.4453,
-    "y": 0.8133,
+    "x": 0.4687,
+    "y": 0.8523,
     "label": "horse front right elbow",
     "depth": 154.5
    },
    {
-    "x": 0.4453,
-    "y": 0.861,
+    "x": 0.4687,
+    "y": 0.9,
     "label": "horse front right knee",
     "depth": 156.6
    },
    {
-    "x": 0.4453,
-    "y": 0.9172,
+    "x": 0.4687,
+    "y": 0.9562,
     "label": "horse front right fetlock",
     "depth": 152.0
    },
    {
-    "x": 0.4453,
-    "y": 0.9369,
+    "x": 0.4687,
+    "y": 0.9759,
     "label": "horse front right hoof",
     "depth": 156.0
    },
    {
-    "x": 0.5625,
-    "y": 0.6636,
+    "x": 0.5859,
+    "y": 0.7026,
     "label": "horse hind left hip",
     "depth": 97.0
    },
    {
-    "x": 0.5625,
-    "y": 0.7497,
+    "x": 0.5859,
+    "y": 0.7887,
     "label": "horse hind left stifle",
     "depth": 107.4
    },
    {
-    "x": 0.5625,
-    "y": 0.7928,
+    "x": 0.5859,
+    "y": 0.8318,
     "label": "horse hind left hock",
     "depth": 92.0
    },
    {
-    "x": 0.5625,
-    "y": 0.8484,
+    "x": 0.5859,
+    "y": 0.8874,
     "label": "horse hind left fetlock",
     "depth": 95.0
    },
    {
-    "x": 0.5625,
-    "y": 0.8681,
+    "x": 0.5859,
+    "y": 0.9071,
     "label": "horse hind left hoof",
     "depth": 99.0
    },
    {
-    "x": 0.4375,
-    "y": 0.6636,
+    "x": 0.4609,
+    "y": 0.7026,
     "label": "horse hind right hip",
     "depth": 97.0
    },
    {
-    "x": 0.4375,
-    "y": 0.7497,
+    "x": 0.4609,
+    "y": 0.7887,
     "label": "horse hind right stifle",
     "depth": 107.4
    },
    {
-    "x": 0.4375,
-    "y": 0.7928,
+    "x": 0.4609,
+    "y": 0.8318,
     "label": "horse hind right hock",
     "depth": 92.0
    },
    {
-    "x": 0.4375,
-    "y": 0.8484,
+    "x": 0.4609,
+    "y": 0.8874,
     "label": "horse hind right fetlock",
     "depth": 95.0
    },
    {
-    "x": 0.4375,
-    "y": 0.8681,
+    "x": 0.4609,
+    "y": 0.9071,
     "label": "horse hind right hoof",
     "depth": 99.0
    },
    {
-    "x": 0.5,
-    "y": 0.4519,
+    "x": 0.5234,
+    "y": 0.4909,
     "label": "NECK",
     "depth": 127.8
    },
    {
-    "x": 0.5,
-    "y": 0.4187,
+    "x": 0.5234,
+    "y": 0.4577,
     "label": "NOSE",
     "depth": 145.2
    },
    {
-    "x": 0.4297,
-    "y": 0.4774,
+    "x": 0.4531,
+    "y": 0.5164,
     "label": "RIGHT SHOULDER",
     "depth": 127.4
    },
    {
-    "x": 0.3839,
-    "y": 0.5258,
+    "x": 0.4073,
+    "y": 0.5648,
     "label": "RIGHT ELBOW",
     "depth": 122.6
    },
    {
-    "x": 0.3741,
-    "y": 0.5793,
+    "x": 0.3975,
+    "y": 0.6183,
     "label": "RIGHT ARM",
     "depth": 134.8
    },
    {
-    "x": 0.5703,
-    "y": 0.4774,
+    "x": 0.5937,
+    "y": 0.5164,
     "label": "LEFT SHOULDER",
     "depth": 127.4
    },
    {
-    "x": 0.5751,
-    "y": 0.5524,
+    "x": 0.5985,
+    "y": 0.5914,
     "label": "LEFT ELBOW",
     "depth": 131.4
    },
    {
-    "x": 0.5386,
-    "y": 0.5911,
+    "x": 0.562,
+    "y": 0.6301,
     "label": "LEFT ARM",
     "depth": 143.0
    },
    {
-    "x": 0.4531,
-    "y": 0.602,
+    "x": 0.4765,
+    "y": 0.641,
     "label": "RIGHT HIP",
     "depth": 126.0
    },
    {
-    "x": 0.3944,
-    "y": 0.715,
+    "x": 0.4178,
+    "y": 0.754,
     "label": "RIGHT KNEE",
     "depth": 141.5
    },
    {
-    "x": 0.4062,
-    "y": 0.7951,
+    "x": 0.4296,
+    "y": 0.8341,
     "label": "RIGHT LEG",
     "depth": 129.0
    },
    {
-    "x": 0.5469,
-    "y": 0.602,
+    "x": 0.5703,
+    "y": 0.641,
     "label": "LEFT HIP",
     "depth": 126.0
    },
    {
-    "x": 0.6056,
-    "y": 0.715,
+    "x": 0.629,
+    "y": 0.754,
     "label": "LEFT KNEE",
     "depth": 141.5
    },
    {
-    "x": 0.5938,
-    "y": 0.7951,
+    "x": 0.6172,
+    "y": 0.8341,
     "label": "LEFT LEG",
     "depth": 129.0
    },
    {
-    "x": 0.4062,
-    "y": 0.8246,
+    "x": 0.4296,
+    "y": 0.8636,
     "label": "RIGHT TOE",
     "depth": 138.0
    },
    {
-    "x": 0.5938,
-    "y": 0.8246,
+    "x": 0.6172,
+    "y": 0.8636,
     "label": "LEFT TOE",
     "depth": 138.0
    },
    {
-    "x": 0.3662,
-    "y": 0.7954,
+    "x": 0.3912,
+    "y": 0.7693,
     "label": "weapon butt",
-    "depth": 120.5
+    "depth": 126.4
    },
    {
-    "x": 0.382,
-    "y": 0.1481,
+    "x": 0.4049,
+    "y": 0.2085,
     "label": "weapon tip",
-    "depth": 179.1
+    "depth": 177.2
    },
    {
-    "x": 0.5,
-    "y": 0.4645,
+    "x": 0.5234,
+    "y": 0.5035,
     "label": "cape hem root",
     "depth": 119.8
    },
    {
-    "x": 0.5,
-    "y": 0.5354,
+    "x": 0.5234,
+    "y": 0.5744,
     "label": "cape hem mid",
     "depth": 113.8
    },
    {
-    "x": 0.5,
-    "y": 0.5838,
+    "x": 0.5234,
+    "y": 0.6228,
     "label": "cape hem tip",
     "depth": 107.8
    }
-  ],
-  "shifted_px": [
-   0,
-   9
   ]
  },
  "left": {
@@ -320,308 +316,308 @@
   "source": "out/pixellab/119/idle/left/12.png",
   "keypoints": [
    {
-    "x": 0.5,
-    "y": 0.6901,
+    "x": 0.5156,
+    "y": 0.7526,
     "label": "horse body",
     "depth": 128.0
    },
    {
-    "x": 0.5078,
-    "y": 0.6046,
+    "x": 0.5234,
+    "y": 0.6671,
     "label": "pelvis",
     "depth": 128.0
    },
    {
-    "x": 0.4023,
-    "y": 0.6826,
+    "x": 0.4179,
+    "y": 0.7451,
     "label": "horse chest",
     "depth": 128.0
    },
    {
-    "x": 0.4102,
-    "y": 0.6306,
+    "x": 0.4258,
+    "y": 0.6931,
     "label": "horse withers",
     "depth": 128.0
    },
    {
-    "x": 0.3784,
-    "y": 0.6208,
+    "x": 0.394,
+    "y": 0.6833,
     "label": "horse neck",
     "depth": 128.0
    },
    {
-    "x": 0.3251,
-    "y": 0.5672,
+    "x": 0.3407,
+    "y": 0.6297,
     "label": "horse poll",
     "depth": 128.0
    },
    {
-    "x": 0.248,
-    "y": 0.6746,
+    "x": 0.2636,
+    "y": 0.7371,
     "label": "horse muzzle",
     "depth": 128.0
    },
    {
-    "x": 0.6211,
-    "y": 0.6864,
+    "x": 0.6367,
+    "y": 0.7489,
     "label": "horse croup",
     "depth": 128.0
    },
    {
-    "x": 0.6562,
-    "y": 0.6789,
+    "x": 0.6718,
+    "y": 0.7414,
     "label": "horse tail root",
     "depth": 128.0
    },
    {
-    "x": 0.6914,
-    "y": 0.7792,
+    "x": 0.707,
+    "y": 0.8417,
     "label": "horse tail tip",
     "depth": 128.0
    },
    {
-    "x": 0.4141,
-    "y": 0.707,
+    "x": 0.4297,
+    "y": 0.7695,
     "label": "horse front left shoulder",
     "depth": 142.0
    },
    {
-    "x": 0.3966,
-    "y": 0.8021,
+    "x": 0.4122,
+    "y": 0.8646,
     "label": "horse front left elbow",
     "depth": 142.0
    },
    {
-    "x": 0.3883,
-    "y": 0.8473,
+    "x": 0.4039,
+    "y": 0.9098,
     "label": "horse front left knee",
     "depth": 142.0
    },
    {
-    "x": 0.4062,
-    "y": 0.9091,
+    "x": 0.4218,
+    "y": 0.9716,
     "label": "horse front left fetlock",
     "depth": 142.0
    },
    {
-    "x": 0.3906,
-    "y": 0.9239,
+    "x": 0.4062,
+    "y": 0.9864,
     "label": "horse front left hoof",
     "depth": 142.0
    },
    {
-    "x": 0.4141,
-    "y": 0.6732,
+    "x": 0.4297,
+    "y": 0.7357,
     "label": "horse front right shoulder",
     "depth": 114.0
    },
    {
-    "x": 0.3966,
-    "y": 0.7683,
+    "x": 0.4122,
+    "y": 0.8308,
     "label": "horse front right elbow",
     "depth": 114.0
    },
    {
-    "x": 0.3883,
-    "y": 0.8135,
+    "x": 0.4039,
+    "y": 0.876,
     "label": "horse front right knee",
     "depth": 114.0
    },
    {
-    "x": 0.4062,
-    "y": 0.8753,
+    "x": 0.4218,
+    "y": 0.9378,
     "label": "horse front right fetlock",
     "depth": 114.0
    },
    {
-    "x": 0.3906,
-    "y": 0.8901,
+    "x": 0.4062,
+    "y": 0.9526,
     "label": "horse front right hoof",
     "depth": 114.0
    },
    {
-    "x": 0.6211,
-    "y": 0.7243,
+    "x": 0.6367,
+    "y": 0.7868,
     "label": "horse hind left hip",
     "depth": 144.0
    },
    {
-    "x": 0.5804,
-    "y": 0.7977,
+    "x": 0.596,
+    "y": 0.8602,
     "label": "horse hind left stifle",
     "depth": 144.0
    },
    {
-    "x": 0.6406,
-    "y": 0.8595,
+    "x": 0.6562,
+    "y": 0.922,
     "label": "horse hind left hock",
     "depth": 144.0
    },
    {
-    "x": 0.6289,
-    "y": 0.9115,
+    "x": 0.6445,
+    "y": 0.974,
     "label": "horse hind left fetlock",
     "depth": 144.0
    },
    {
-    "x": 0.6133,
-    "y": 0.9264,
+    "x": 0.6289,
+    "y": 0.9889,
     "label": "horse hind left hoof",
     "depth": 144.0
    },
    {
-    "x": 0.6211,
-    "y": 0.6856,
+    "x": 0.6367,
+    "y": 0.7481,
     "label": "horse hind right hip",
     "depth": 112.0
    },
    {
-    "x": 0.5804,
-    "y": 0.7591,
+    "x": 0.596,
+    "y": 0.8216,
     "label": "horse hind right stifle",
     "depth": 112.0
    },
    {
-    "x": 0.6406,
-    "y": 0.8209,
+    "x": 0.6562,
+    "y": 0.8834,
     "label": "horse hind right hock",
     "depth": 112.0
    },
    {
-    "x": 0.6289,
-    "y": 0.8729,
+    "x": 0.6445,
+    "y": 0.9354,
     "label": "horse hind right fetlock",
     "depth": 112.0
    },
    {
-    "x": 0.6133,
-    "y": 0.8877,
+    "x": 0.6289,
+    "y": 0.9502,
     "label": "horse hind right hoof",
     "depth": 112.0
    },
    {
-    "x": 0.5008,
-    "y": 0.456,
+    "x": 0.5164,
+    "y": 0.5185,
     "label": "NECK",
     "depth": 128.0
    },
    {
-    "x": 0.4329,
-    "y": 0.4018,
+    "x": 0.4485,
+    "y": 0.4643,
     "label": "NOSE",
     "depth": 128.0
    },
    {
-    "x": 0.5024,
-    "y": 0.4603,
+    "x": 0.518,
+    "y": 0.5228,
     "label": "RIGHT SHOULDER",
     "depth": 110.0
    },
    {
-    "x": 0.5213,
-    "y": 0.5004,
+    "x": 0.5369,
+    "y": 0.5629,
     "label": "RIGHT ELBOW",
     "depth": 98.3
    },
    {
-    "x": 0.4733,
-    "y": 0.536,
+    "x": 0.4889,
+    "y": 0.5985,
     "label": "RIGHT ARM",
     "depth": 95.8
    },
    {
-    "x": 0.5024,
-    "y": 0.5038,
+    "x": 0.518,
+    "y": 0.5663,
     "label": "LEFT SHOULDER",
     "depth": 146.0
    },
    {
-    "x": 0.4866,
-    "y": 0.5754,
+    "x": 0.5022,
+    "y": 0.6379,
     "label": "LEFT ELBOW",
     "depth": 147.2
    },
    {
-    "x": 0.4416,
-    "y": 0.5889,
+    "x": 0.4572,
+    "y": 0.6514,
     "label": "LEFT ARM",
     "depth": 137.9
    },
    {
-    "x": 0.5078,
-    "y": 0.5939,
+    "x": 0.5234,
+    "y": 0.6564,
     "label": "RIGHT HIP",
     "depth": 116.0
    },
    {
-    "x": 0.4474,
-    "y": 0.67,
+    "x": 0.463,
+    "y": 0.7325,
     "label": "RIGHT KNEE",
     "depth": 101.0
    },
    {
-    "x": 0.4961,
-    "y": 0.7688,
+    "x": 0.5117,
+    "y": 0.8313,
     "label": "RIGHT LEG",
     "depth": 104.0
    },
    {
-    "x": 0.5078,
-    "y": 0.6228,
+    "x": 0.5234,
+    "y": 0.6853,
     "label": "LEFT HIP",
     "depth": 140.0
    },
    {
-    "x": 0.4474,
-    "y": 0.7353,
+    "x": 0.463,
+    "y": 0.7978,
     "label": "LEFT KNEE",
     "depth": 155.0
    },
    {
-    "x": 0.4961,
-    "y": 0.8268,
+    "x": 0.5117,
+    "y": 0.8893,
     "label": "LEFT LEG",
     "depth": 152.0
    },
    {
-    "x": 0.4609,
-    "y": 0.7874,
+    "x": 0.4765,
+    "y": 0.8499,
     "label": "RIGHT TOE",
     "depth": 104.0
    },
    {
-    "x": 0.4609,
-    "y": 0.8454,
+    "x": 0.4765,
+    "y": 0.9079,
     "label": "LEFT TOE",
     "depth": 152.0
    },
    {
-    "x": 0.5292,
-    "y": 0.767,
+    "x": 0.5218,
+    "y": 0.7578,
     "label": "weapon butt",
-    "depth": 93.8
+    "depth": 94.2
    },
    {
-    "x": 0.3004,
-    "y": 0.0538,
+    "x": 0.3236,
+    "y": 0.1399,
     "label": "weapon tip",
-    "depth": 97.8
+    "depth": 97.7
    },
    {
-    "x": 0.532,
-    "y": 0.4783,
+    "x": 0.5476,
+    "y": 0.5408,
     "label": "cape hem root",
     "depth": 128.0
    },
    {
-    "x": 0.5555,
-    "y": 0.5565,
+    "x": 0.5711,
+    "y": 0.619,
     "label": "cape hem mid",
     "depth": 128.0
    },
    {
-    "x": 0.5789,
-    "y": 0.612,
+    "x": 0.5945,
+    "y": 0.6745,
     "label": "cape hem tip",
     "depth": 128.0
    }
@@ -632,308 +628,308 @@
   "source": "out/pixellab/119/idle/rear/12.png",
   "keypoints": [
    {
-    "x": 0.5,
-    "y": 0.7096,
+    "x": 0.4766,
+    "y": 0.7174,
     "label": "horse body",
     "depth": 128.0
    },
    {
-    "x": 0.5,
-    "y": 0.6265,
+    "x": 0.4766,
+    "y": 0.6343,
     "label": "pelvis",
     "depth": 130.0
    },
    {
-    "x": 0.5,
-    "y": 0.672,
+    "x": 0.4766,
+    "y": 0.6798,
     "label": "horse chest",
     "depth": 103.0
    },
    {
-    "x": 0.5,
-    "y": 0.6224,
+    "x": 0.4766,
+    "y": 0.6302,
     "label": "horse withers",
     "depth": 105.0
    },
    {
-    "x": 0.5,
-    "y": 0.6027,
+    "x": 0.4766,
+    "y": 0.6105,
     "label": "horse neck",
     "depth": 96.9
    },
    {
-    "x": 0.5,
-    "y": 0.5327,
+    "x": 0.4766,
+    "y": 0.5405,
     "label": "horse poll",
     "depth": 83.2
    },
    {
-    "x": 0.5,
-    "y": 0.6162,
+    "x": 0.4766,
+    "y": 0.624,
     "label": "horse muzzle",
     "depth": 63.5
    },
    {
-    "x": 0.5,
-    "y": 0.7433,
+    "x": 0.4766,
+    "y": 0.7511,
     "label": "horse croup",
     "depth": 159.0
    },
    {
-    "x": 0.5,
-    "y": 0.7467,
+    "x": 0.4766,
+    "y": 0.7545,
     "label": "horse tail root",
     "depth": 168.0
    },
    {
-    "x": 0.5,
-    "y": 0.8579,
+    "x": 0.4766,
+    "y": 0.8657,
     "label": "horse tail tip",
     "depth": 177.0
    },
    {
-    "x": 0.4453,
-    "y": 0.683,
+    "x": 0.4219,
+    "y": 0.6908,
     "label": "horse front left shoulder",
     "depth": 106.0
    },
    {
-    "x": 0.4453,
-    "y": 0.7728,
+    "x": 0.4219,
+    "y": 0.7806,
     "label": "horse front left elbow",
     "depth": 101.5
    },
    {
-    "x": 0.4453,
-    "y": 0.8153,
+    "x": 0.4219,
+    "y": 0.8231,
     "label": "horse front left knee",
     "depth": 99.4
    },
    {
-    "x": 0.4453,
-    "y": 0.8827,
+    "x": 0.4219,
+    "y": 0.8905,
     "label": "horse front left fetlock",
     "depth": 104.0
    },
    {
-    "x": 0.4453,
-    "y": 0.8927,
+    "x": 0.4219,
+    "y": 0.9005,
     "label": "horse front left hoof",
     "depth": 100.0
    },
    {
-    "x": 0.5547,
-    "y": 0.683,
+    "x": 0.5313,
+    "y": 0.6908,
     "label": "horse front right shoulder",
     "depth": 106.0
    },
    {
-    "x": 0.5547,
-    "y": 0.7728,
+    "x": 0.5313,
+    "y": 0.7806,
     "label": "horse front right elbow",
     "depth": 101.5
    },
    {
-    "x": 0.5547,
-    "y": 0.8153,
+    "x": 0.5313,
+    "y": 0.8231,
     "label": "horse front right knee",
     "depth": 99.4
    },
    {
-    "x": 0.5547,
-    "y": 0.8827,
+    "x": 0.5313,
+    "y": 0.8905,
     "label": "horse front right fetlock",
     "depth": 104.0
    },
    {
-    "x": 0.5547,
-    "y": 0.8927,
+    "x": 0.5313,
+    "y": 0.9005,
     "label": "horse front right hoof",
     "depth": 100.0
    },
    {
-    "x": 0.4375,
-    "y": 0.7619,
+    "x": 0.4141,
+    "y": 0.7697,
     "label": "horse hind left hip",
     "depth": 159.0
    },
    {
-    "x": 0.4375,
-    "y": 0.8228,
+    "x": 0.4141,
+    "y": 0.8306,
     "label": "horse hind left stifle",
     "depth": 148.6
    },
    {
-    "x": 0.4375,
-    "y": 0.9031,
+    "x": 0.4141,
+    "y": 0.9109,
     "label": "horse hind left hock",
     "depth": 164.0
    },
    {
-    "x": 0.4375,
-    "y": 0.9515,
+    "x": 0.4141,
+    "y": 0.9593,
     "label": "horse hind left fetlock",
     "depth": 161.0
    },
    {
-    "x": 0.4375,
-    "y": 0.9615,
+    "x": 0.4141,
+    "y": 0.9693,
     "label": "horse hind left hoof",
     "depth": 157.0
    },
    {
-    "x": 0.5625,
-    "y": 0.7619,
+    "x": 0.5391,
+    "y": 0.7697,
     "label": "horse hind right hip",
     "depth": 159.0
    },
    {
-    "x": 0.5625,
-    "y": 0.8228,
+    "x": 0.5391,
+    "y": 0.8306,
     "label": "horse hind right stifle",
     "depth": 148.6
    },
    {
-    "x": 0.5625,
-    "y": 0.9031,
+    "x": 0.5391,
+    "y": 0.9109,
     "label": "horse hind right hock",
     "depth": 164.0
    },
    {
-    "x": 0.5625,
-    "y": 0.9515,
+    "x": 0.5391,
+    "y": 0.9593,
     "label": "horse hind right fetlock",
     "depth": 161.0
    },
    {
-    "x": 0.5625,
-    "y": 0.9615,
+    "x": 0.5391,
+    "y": 0.9693,
     "label": "horse hind right hoof",
     "depth": 157.0
    },
    {
-    "x": 0.5,
-    "y": 0.4758,
+    "x": 0.4766,
+    "y": 0.4836,
     "label": "NECK",
     "depth": 128.2
    },
    {
-    "x": 0.5,
-    "y": 0.413,
+    "x": 0.4766,
+    "y": 0.4208,
     "label": "back of skull",
     "depth": 137.9
    },
    {
-    "x": 0.5703,
-    "y": 0.5023,
+    "x": 0.5469,
+    "y": 0.5101,
     "label": "RIGHT SHOULDER",
     "depth": 128.6
    },
    {
-    "x": 0.6161,
-    "y": 0.5624,
+    "x": 0.5927,
+    "y": 0.5702,
     "label": "RIGHT ELBOW",
     "depth": 133.4
    },
    {
-    "x": 0.6259,
-    "y": 0.5862,
+    "x": 0.6025,
+    "y": 0.594,
     "label": "RIGHT ARM",
     "depth": 121.2
    },
    {
-    "x": 0.4297,
-    "y": 0.5023,
+    "x": 0.4063,
+    "y": 0.5101,
     "label": "LEFT SHOULDER",
     "depth": 128.6
    },
    {
-    "x": 0.4249,
-    "y": 0.5676,
+    "x": 0.4015,
+    "y": 0.5754,
     "label": "LEFT ELBOW",
     "depth": 124.6
    },
    {
-    "x": 0.4614,
-    "y": 0.5784,
+    "x": 0.438,
+    "y": 0.5862,
     "label": "LEFT ARM",
     "depth": 113.0
    },
    {
-    "x": 0.5469,
-    "y": 0.6303,
+    "x": 0.5235,
+    "y": 0.6381,
     "label": "RIGHT HIP",
     "depth": 130.0
    },
    {
-    "x": 0.6056,
-    "y": 0.7059,
+    "x": 0.5822,
+    "y": 0.7137,
     "label": "RIGHT KNEE",
     "depth": 114.5
    },
    {
-    "x": 0.5938,
-    "y": 0.8161,
+    "x": 0.5704,
+    "y": 0.8239,
     "label": "RIGHT LEG",
     "depth": 127.0
    },
    {
-    "x": 0.4531,
-    "y": 0.6303,
+    "x": 0.4297,
+    "y": 0.6381,
     "label": "LEFT HIP",
     "depth": 130.0
    },
    {
-    "x": 0.3944,
-    "y": 0.7059,
+    "x": 0.371,
+    "y": 0.7137,
     "label": "LEFT KNEE",
     "depth": 114.5
    },
    {
-    "x": 0.4062,
-    "y": 0.8161,
+    "x": 0.3828,
+    "y": 0.8239,
     "label": "LEFT LEG",
     "depth": 127.0
    },
    {
-    "x": 0.5938,
-    "y": 0.8238,
+    "x": 0.5704,
+    "y": 0.8316,
     "label": "RIGHT TOE",
     "depth": 118.0
    },
    {
-    "x": 0.4062,
-    "y": 0.8238,
+    "x": 0.3828,
+    "y": 0.8316,
     "label": "LEFT TOE",
     "depth": 118.0
    },
    {
-    "x": 0.6338,
-    "y": 0.8368,
+    "x": 0.6088,
+    "y": 0.7653,
     "label": "weapon butt",
-    "depth": 135.5
+    "depth": 129.6
    },
    {
-    "x": 0.618,
-    "y": 0.0481,
+    "x": 0.5951,
+    "y": 0.082,
     "label": "weapon tip",
-    "depth": 76.9
+    "depth": 78.8
    },
    {
-    "x": 0.5,
-    "y": 0.5077,
+    "x": 0.4766,
+    "y": 0.5155,
     "label": "cape hem root",
     "depth": 136.2
    },
    {
-    "x": 0.5,
-    "y": 0.5931,
+    "x": 0.4766,
+    "y": 0.6009,
     "label": "cape hem mid",
     "depth": 142.2
    },
    {
-    "x": 0.5,
-    "y": 0.6559,
+    "x": 0.4766,
+    "y": 0.6637,
     "label": "cape hem tip",
     "depth": 148.2
    }

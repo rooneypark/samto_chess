@@ -84,7 +84,9 @@ def check(pl, hero, clip_id, view):
     out = []
     for i, frame in enumerate([first] + motion):
         for k in frame:
-            if not (0.0 <= k['x'] <= 1.0 and 0.0 <= k['y'] <= 1.0): out.append((i, k['label'], round(k['x'] * 256), round(k['y'] * 256)))
+            over = max(-k['x'], k['x'] - 1.0, -k['y'], k['y'] - 1.0) * 256
+            if over > 0 and 'weapon' in k['label'] and over <= __import__('snappy').CUT: continue      # a weapon end may leave the canvas a little in a big swing (user 2026-11-20; snappy.py CUT). The request clamps it to the edge
+            if over > 0: out.append((i, k['label'], round(k['x'] * 256), round(k['y'] * 256)))
     if out:
         worst = max(out, key=lambda o: max(-o[2], o[2] - 256, -o[3], o[3] - 256))
         bad.append('캔버스 밖 관절 %d개 (예: %s번 프레임 %s → %d,%d). fit_canvas.py로 캔버스 배치를 맞추고, 그래도 안 들어가면 무기 길이를 확인' % (len(out), worst[0] or '시작', worst[1], worst[2], worst[3]))

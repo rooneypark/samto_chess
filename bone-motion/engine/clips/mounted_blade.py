@@ -61,3 +61,6 @@ CLIPS = {
 
 from clips import mounted_more
 CLIPS.update(mounted_more.build(__import__("sys").modules[__name__], "blade"))
+
+RAW = dict(CLIPS)      # as written; families built from this one start from RAW (snappy.py)
+CLIPS = __import__('snappy').upgrade(__import__('sys').modules[__name__])
