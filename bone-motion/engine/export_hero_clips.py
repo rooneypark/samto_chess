@@ -19,7 +19,7 @@ if __name__ == '__main__':
     out = {}; base = os.path.join(sm.WORK, 'art-in')
     for hero in sorted(os.listdir(base)):
         p = os.path.join(base, hero, 'clips.json')
-        if hero == '2' or not os.path.exists(p) or hero not in rows: continue
+        if not os.path.exists(p) or hero not in rows: continue      # 장비 (2) is made by the same tools since 2026-11-20
         data = json.load(open(p, encoding='utf-8'))
         if 'order' not in data: continue
         cfg = json.load(open(os.path.join(base, hero, 'pixellab.json'), encoding='utf-8')); m = importlib.import_module('clips.' + rows[hero]['family'])

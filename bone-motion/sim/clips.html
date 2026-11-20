@@ -48,12 +48,10 @@ const D = window.SIM_DATA, S = 2, VIEWS = [['front', '정면'], ['left', '왼쪽
 let fam = D.families[0], queue = ['a1'], qi = 0, t = 0, paused = false, speed = 1, last = null, hero = null;
 // 출시 명단: 나라별 대표 장수 5명씩과 기본 병종. 장수를 고르면 그 장수의 대기, 이동, 평타 세 개, 전법만 나온다.
 const ROSTER = [['촉', ['유비', '관우', '장비', '조운', '제갈량']], ['위', ['조조', '하후돈', '장료', '허저', '사마의']], ['오', ['손권', '주유', '손책', '감녕', '육손']],
-                ['군웅', ['여포', '초선', '동탁', '원소', '장각']], ['기본', ['검병', '창병', '의용보병', '의용궁병', '군영참모']]];
-// 검병과 창병은 아직 명단에 없다. 본만 미리 본다: 키우지 않은 원래 동작(p로 시작하는 클립) 세 개, 전법은 아직 없음.
-const HEROES = (window.SIM_HEROES || []).concat([
-  { name: '검병', family: 'sword', attacks: ['pa1', 'pb1', 'pa2'], skillClip: null, skill: '' },
-  { name: '창병', family: 'foot_spear', attacks: ['pa1', 'pb1', 'pb2'], skillClip: null, skill: '' }]);
-const LABEL = { 의용보병: '방패병', 의용궁병: '궁병', 군영참모: '책사' };
+                ['군웅', ['여포', '초선', '동탁', '원소', '장각']], ['기본', ['기본 검병', '기본 창병', '기본 방패병', '기본 궁병', '기본 책사']]];
+// 기본 병종 다섯은 2026-11-20부터 게임 명단에 있다 (기본 검병 등). 단추에는 '기본'을 떼고 적는다.
+const HEROES = window.SIM_HEROES || [];
+const LABEL = { '기본 검병': '검병', '기본 창병': '창병', '기본 방패병': '방패병', '기본 궁병': '궁병', '기본 책사': '책사' };
 const ctx = VIEWS.map(([v, name]) => { const fig = document.createElement('figure'), cv = document.createElement('canvas'); cv.width = cv.height = 256 * S;
   fig.innerHTML = `<figcaption>${name}</figcaption>`; fig.appendChild(cv); document.getElementById('views').appendChild(fig); return [v, cv.getContext('2d')]; });
 const sum = a => a.reduce((x, y) => x + y, 0);
