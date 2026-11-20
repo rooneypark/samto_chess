@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "id": "yuanshao",
  "name": "원소",
- "family": "command",
+ "family": "command_front",
  "reviewStatus": "in_simulator_for_review",
  "canvas": [
   256,
