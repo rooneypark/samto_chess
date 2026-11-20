@@ -5,7 +5,7 @@ import {paintArtworkLayout} from './art-layout.js';
 import {nineSlice,disposeNineSlices} from './nine-slice.js';
 import {generalPortrait} from './general-portraits.js';
 import {generalArtwork} from './general-art.js';
-import {heroes} from './heroes.js';
+import {heroes,generalRoster} from './heroes.js';
 import {specs} from './progression.js';
 import {heroSources,factionRoster,codexReward,factionTitles} from './collection.js';
 import {codexTemplate} from './codex-template.js';
@@ -13,7 +13,7 @@ import {treasureTraits} from './treasure-traits.js';
 import {prepareServices,serviceCommand} from './services.js';
 export function initCodex({host,store,navigate,toast,onWallet,showSources}){
 const game=createArtworkScreen({host,className:'gate-lobby codex-runtime',label:'도감',template:codexTemplate,navigate,onWallet});const $=s=>game.querySelector(s);let owned=new Set(),busy=false,revision=0;
-const ordered=[...featuredGenerals.map(id=>heroes.find(h=>h.id===id)),...heroes.filter(h=>!featuredGenerals.includes(h.id))];
+const ordered=[...featuredGenerals.map(id=>heroes.find(h=>h.id===id)),...generalRoster.filter(h=>!featuredGenerals.includes(h.id))];
 let faction='전체',page=0,selected='1',kind='heroes';
 const treasureGroups=['전체','무기','군마','서책','기타'];
 const treasureCategory={weapon:'무기',horse:'군마',book:'서책',armor:'방어구',object:'소품',jewel:'장신구'};
@@ -56,7 +56,7 @@ async function render(){
 
  const painting=[],filtered=ordered.filter(h=>faction==='전체'||h.faction===faction),pages=Math.ceil(filtered.length/6),visible=filtered.slice(page*6,page*6+6);
  if(!visible.some(h=>h.id===selected))selected=visible[0].id;
- $('.summary-title b').textContent=owned.size+' / '+heroes.length;
+ $('.summary-title b').textContent=generalRoster.filter(h=>owned.has(h.id)).length+' / '+generalRoster.length;
  for(const b of game.querySelectorAll('[data-faction]')){painting.push(paintArtworkSelection(b,b.dataset.faction===faction));}
  const cards=$('.hero-cards');disposeNineSlices(cards);cards.replaceChildren();
  visible.forEach((h,i)=>{const b=document.createElement('button');b.className='codex-entry'+(owned.has(h.id)?' owned':'');b.dataset.hero=h.id;b.setAttribute('aria-pressed',String(h.id===selected));b.setAttribute('aria-label',h.name+' · '+(owned.has(h.id)?'등용 완료':'미등용'));

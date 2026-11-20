@@ -78,6 +78,36 @@
 #modal.art-dialog .game-dialog-hero.dialog-art-panel {padding:clamp(4px,2cqw,10px)}
 #modal.art-dialog #modal-title {min-width:0;word-break:keep-all}
 #modal.art-dialog #close-modal {flex:none}
+
+/* Every modal uses the same square slate container as faction synergy. */
+#modal,#modal.art-dialog{
+ border:1px solid #899eb2;
+ border-image:none;
+ border-radius:0;
+ background:linear-gradient(#1a2b41,#142232);
+ background-clip:padding-box;
+ box-shadow:inset 0 0 0 1px #0c1726;
+}
+#modal #close-modal{
+ border:0;
+ border-image:none;
+ border-radius:0;
+ background:transparent;
+ box-shadow:none;
+ color:#fff0cd;
+ font-size:26px;
+ line-height:1;
+ text-shadow:none;
+}
+#modal #close-modal:focus-visible{outline:0!important;outline-offset:0}
+#modal .angular-container{
+ box-sizing:border-box;
+ border:1px solid #899eb2!important;
+ border-image:none!important;
+ border-radius:0;
+ background:linear-gradient(#1a2b41,#142232)!important;
+ box-shadow:inset 0 0 0 1px #0c1726!important;
+}
 #modal.art-dialog .game-dialog-row {
  display:grid;
  grid-template-columns:fit-content(40%) minmax(0,1fr);

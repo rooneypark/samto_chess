@@ -25,6 +25,6 @@ export const combatRecordTemplate=`
  <div class="detail-panel" data-box="20,1320,901,64"><div class="panel-frame" data-frame="blue"></div></div>
  <p class="selection-detail" data-box="46,1335,849,34" aria-live="polite"></p>
  <button id="record-return" class="result-back" data-tone="green" data-box="20,1402,582,84">결과로 돌아가기</button>
- <button id="record-home" class="home-back" data-tone="blue" data-box="620,1402,301,84">성문으로</button>
+
  ${artworkFooter}
 `;

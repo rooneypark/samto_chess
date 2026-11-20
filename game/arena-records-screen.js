@@ -51,7 +51,7 @@ async function render(){
 function draw(){render().catch(error=>{root.inert=false;root.setAttribute('aria-busy','false');toast(error.message);});}
 root.querySelectorAll('[data-tab]').forEach(button=>button.onclick=()=>navigate(button.dataset.tab==='rank'?'arenaRanking':'arenaHistory'));
 const back=()=>navigate('arena');
-find('.home-back').onclick=back;
+find('.home-back')?.addEventListener('click',back);
 find('#barracks-back').onclick=back;
 root.addEventListener('keydown',event=>{
  if(event.key==='Escape'&&!document.querySelector('dialog[open]')){event.stopImmediatePropagation();back();}

@@ -1,6 +1,6 @@
 // Dialogs for the collection and side content: 도감·인연 임무, 시작 7일 임무, 토벌 파견, 연무탑.
 // Rules live in collection.js / services.js / expedition.js / tower.js; this file only shows and sends commands.
-import {heroes} from './heroes.js';
+import {heroes,generalRoster,activeRoster,generalRosterIds} from './heroes.js';
 import {specs} from './progression.js';
 import {bonds} from './bonds.js';
 import {factions} from './factions.js';
@@ -24,8 +24,8 @@ export function initContent({store,dialog,toast,startBattle}){
  // 도감: every hero by faction, where to get the missing ones, faction completion reward, bond missions.
  function codex(focus){
   const s=snapshot(),q=s.services,owned=id=>s.heroes[id]?.owned;
-  const missions=Object.entries(q.bondMissions).map(([id,m])=>{const bond=bonds.find(b=>b.id===id);return bond?`<div class="service-row"><div><strong>${bond.name} · ${hero(m.hero).name}</strong><small>출정 승리 ${m.wins} / ${BOND_MISSION_WINS} · 보상 ${hero(m.hero).name} ${owned(m.hero)?'카드 1장':'합류'}</small></div><button class="action" data-bond-mission="${id}" ${m.claimed||m.wins<BOND_MISSION_WINS?'disabled':''}>${m.claimed?'수령 완료':'받기'}</button></div>`:'';}).join('');
-  dialog.open('장수 도감',`<p>보유 ${heroes.filter(h=>owned(h.id)).length} / ${heroes.length}명 · 장수를 누르면 얻는 곳이 나옵니다.</p><div id="codex-detail" role="status">${focus?sourceText(focus,owned(focus)):''}</div>`+
+  const missions=Object.entries(q.bondMissions).filter(([,m])=>generalRosterIds.has(m.hero)).map(([id,m])=>{const bond=bonds.find(b=>b.id===id);return bond?`<div class="service-row"><div><strong>${bond.name} · ${hero(m.hero).name}</strong><small>출정 승리 ${m.wins} / ${BOND_MISSION_WINS} · 보상 ${hero(m.hero).name} ${owned(m.hero)?'카드 1장':'합류'}</small></div><button class="action" data-bond-mission="${id}" ${m.claimed||m.wins<BOND_MISSION_WINS?'disabled':''}>${m.claimed?'수령 완료':'받기'}</button></div>`:'';}).join('');
+  dialog.open('장수 도감',`<p>보유 ${generalRoster.filter(h=>owned(h.id)).length} / ${generalRoster.length}명 · 장수를 누르면 얻는 곳이 나옵니다.</p><div id="codex-detail" role="status">${focus?sourceText(focus,owned(focus)):''}</div>`+
    Object.values(factions).map(f=>{const ids=factionRoster(f.id),have=ids.filter(owned).length,done=!!q.codex[f.id];
     return `<section><h3 style="color:${f.color}">${f.title} · ${have} / ${ids.length}</h3><div class="codex-grid">${ids.map(id=>`<button class="codex-card ${owned(id)?'':'missing'}" data-codex="${id}" aria-label="${hero(id).name} ${owned(id)?'보유':'미보유'}"><img src="${hero(id).portrait}" alt=""><span>${hero(id).name}</span><b>${specs[id].grade}</b></button>`).join('')}</div><button class="action secondary" data-codex-reward="${f.id}" ${done||!codexComplete(s,f.id)?'disabled':''}>${done?'달성 보상 수령 완료 · '+factionTitles[f.id]:'전원 수집 보상 '+rewardText(codexReward)+' + 칭호'}</button></section>`;}).join('')+
    `<section><h3>인연 임무</h3>${missions||dialogEmpty('scroll','인연의 구성원을 한 명만 남기고 모으면 임무가 열립니다.')}</section>`);
@@ -33,7 +33,7 @@ export function initContent({store,dialog,toast,startBattle}){
   body().querySelectorAll('[data-codex-reward]').forEach(b=>b.onclick=()=>run(st=>serviceCommand(st,{type:'codex',faction:b.dataset.codexReward}),()=>codex(),'도감 달성 보상을 받았습니다.'));
   body().querySelectorAll('[data-bond-mission]').forEach(b=>b.onclick=()=>run(st=>serviceCommand(st,{type:'bond-mission',id:b.dataset.bondMission}),()=>codex(),'인연 임무 보상을 받았습니다.'));
  }
- const sourceText=(id,owned)=>dialogInset(`<strong>${hero(id).name}</strong> · ${hero(id).faction} · ${specs[id].grade}등급 · ${hero(id).role} · ${owned?'보유 중':'미보유'}<br>얻는 곳: ${heroSources(id).join(' · ')}<br>인연: ${bonds.filter(b=>b.members.includes(id)).map(b=>b.name).join(' · ')||'없음'}`);
+ const sourceText=(id,owned)=>dialogInset(`<strong>${hero(id).name}</strong> · ${hero(id).faction} · ${specs[id].grade}등급 · ${hero(id).role} · ${owned?'보유 중':'미보유'}<br>얻는 곳: ${heroSources(id).join(' · ')}<br>인연: ${bonds.filter(b=>b.members.includes(id)&&b.members.filter(member=>generalRosterIds.has(member)).length>=b.need).map(b=>b.name).join(' · ')||'없음'}`);
 
  // 시작 7일 임무
  function start(){
@@ -58,7 +58,7 @@ export function initContent({store,dialog,toast,startBattle}){
  }
  function pick(site){
   const s=store.get(),status=expeditionStatus(s),chosen=new Set();
-  const list=heroes.filter(h=>s.heroes[h.id].owned&&!status.busy.has(h.id)).sort((a,b)=>heroPower(s,b.id)-heroPower(s,a.id));
+  const list=activeRoster.filter(h=>s.heroes[h.id].owned&&!status.busy.has(h.id)).sort((a,b)=>heroPower(s,b.id)-heroPower(s,a.id));
   dialog.open(site.name+' · 부대 편성',`<p>장수 3명을 고르세요. 필요 전투력 ${site.power}.</p><div class="codex-grid">${list.map(h=>`<button class="codex-card" data-pick="${h.id}" aria-pressed="false"><img src="${h.portrait}" alt=""><span>${h.name}</span><b>${heroPower(s,h.id)}</b></button>`).join('')}</div><p id="expedition-summary" role="status"></p><div class="modal-actions"><button class="action secondary" id="expedition-back">목록</button><button class="action" id="expedition-send" disabled>파견</button></div>`);
   const summary=()=>{const ids=[...chosen],power=ids.reduce((n,id)=>n+heroPower(s,id),0),bonus=ids.length?teamBonus(site,ids):{rate:0,sameFaction:0,bond:false};
    body().querySelector('#expedition-summary').textContent=`선택 ${ids.length} / 3 · 전투력 ${power} / ${site.power} · 보상 +${Math.round(bonus.rate*100)}%`+(bonus.bond?' (인연)':'');

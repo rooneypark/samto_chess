@@ -1,5 +1,5 @@
 import {trackServices} from './services.js';
-import {heroes} from './heroes.js';
+import {heroes,activeRoster} from './heroes.js';
 import {loadProgress,legacyTreasureIds} from './progression.js';
 import {compactSave} from './retention.js';
 import {SAVE_KEY,RULESET,LEGACY_PROGRESS_KEY,LEGACY_LOBBY_KEY} from './versions.js';
@@ -11,7 +11,18 @@ const starter=defaultStarter;
 const emptyHero=owned=>({owned,level:1,star:1,cards:0,treasure:null});
 const validOrder=(order,hs)=>Array.isArray(order)&&order.length===6&&new Set(order).size===6&&order.every(id=>hs[id]?.owned);
 // Saves written before the roster grew lack the newer heroes; they join as not owned.
-function normalize(s){if(s?.heroes)for(const id of ids)s.heroes[id]??=emptyHero(false);return s;}
+function normalize(s){
+ if(!s?.heroes)return s;
+ for(const id of ids)s.heroes[id]??=emptyHero(false);
+ const allowed=new Set(activeRoster.map(h=>h.id));
+ const oldStarter=['15','0','16','infantry','archer','tactician'];
+ const owned=Object.entries(s.heroes).filter(([,hero])=>hero.owned).map(([id])=>id).sort();
+ const untouched=hero=>hero.level===1&&hero.star===1&&hero.cards===0&&hero.treasure===null;
+ const freshOldProfile=s.gold===500&&s.diamonds===0&&s.heroTokens===0&&s.treasureTokens===0&&s.treasures.length===0&&!s.campaign&&!s.tutorial&&!s.battleRun&&!s.arena&&!s.alliance&&Object.keys(s.shop.receipts).length===0&&Object.values(s.heroes).every(untouched)&&owned.join()===[...oldStarter].sort().join();
+ if(freshOldProfile){for(const id of starter)s.heroes[id].owned=true;s.order=[...starter];return s;}
+ if(!validOrder(s.order,s.heroes)||s.order.some(id=>!allowed.has(id))){for(const id of starter)s.heroes[id].owned=true;const kept=(Array.isArray(s.order)?s.order:[]).filter(id=>allowed.has(id)&&s.heroes[id]?.owned);s.order=[...kept,...starter.filter(id=>!kept.includes(id))].slice(0,6);}
+ return s;
+}
 function validate(s){
  if(s.faction!=null&&!factions[s.faction])throw Error('세력 저장 데이터 오류');
  const nonnegative=n=>Number.isSafeInteger(n)&&n>=0;
@@ -34,7 +45,7 @@ export function createGameStore(storage=localStorage,clock=Date.now){
   if(old&&old.version!==2)throw Error('지원하지 않는 저장 버전입니다.');
   const hs=Object.fromEntries(ids.map(id=>[id,emptyHero(!old&&starter.includes(id))]));
   if(old)for(const id of legacyIds){if(!old.heroes?.[id])throw Error('이전 장수 데이터 오류');hs[id]={...old.heroes[id],owned:true};if(hs[id].treasure)hs[id].treasure='legacy-'+hs[id].treasure;}
-  state=validate({version:3,revision:0,gold:old?.gold??500,diamonds:old?.diamonds??0,freeDiamonds:old?.diamonds??0,paidDiamonds:0,heroTokens:0,treasureTokens:0,heroes:hs,order:old?.order??starter,reducedMotion:old?.reducedMotion??false,treasures:old?legacyTreasureIds.map(defId=>({id:'legacy-'+defId,defId,star:1})):[],shop:{pity:{hero:{a:0,s:0},treasure:{a:0,s:0}},receipts:{},limits:{},lastTime:0,pending:null}});
+  state=validate(normalize({version:3,revision:0,gold:old?.gold??500,diamonds:old?.diamonds??0,freeDiamonds:old?.diamonds??0,paidDiamonds:0,heroTokens:0,treasureTokens:0,heroes:hs,order:old?.order??starter,reducedMotion:old?.reducedMotion??false,treasures:old?legacyTreasureIds.map(defId=>({id:'legacy-'+defId,defId,star:1})):[],shop:{pity:{hero:{a:0,s:0},treasure:{a:0,s:0}},receipts:{},limits:{},lastTime:0,pending:null}}));
  }
  const listeners=new Set();
  const update=change=>{

@@ -1,6 +1,6 @@
-// Roster expansion data (docs/삼국체스_종합기획서_v1.0.md).
-// All numbers are balance proposals. Stats: HP, ATK, DEF, MDEF, range, attack interval (s), max mana.
-// Heroes listed here have no artwork yet; heroes.js gives them a clearly marked placeholder token.
+// Historical roster extension data (docs/삼국체스_종합기획서_v1.0.md).
+// Balance proposals. Stats: HP, ATK, DEF, MDEF, range, attack interval (s), max mana.
+// Only the explicitly selected launch generals are exposed by heroes.js.
 
 export const factionColors={'위':'#4A82B8','촉':'#3E9B62','오':'#B8483E','군웅':'#7A6C9B'};
 
@@ -59,7 +59,7 @@ export const awakening5={
  lumeng:'침묵 2→3초',huanggai:'HP 소모 없음',lusu:'대상 2→3명',sunshangxiang:'화살이 뒤의 적 1명에게 50% 피해',dingfeng:'HP 50% 미만인 적에게 +30%',panzhang:'둔화 중인 적에게 자신의 평타 +20%',
  '119':'맞힌 적 1명마다 HP 3% 회복',zhangjue:'맞은 적 0.5초 기절',dongzhuo:'회복 50→80%',yuanshao:'공격속도 +15% 추가',huatuo:'3초간 재생(초당 최대 HP 2%)',yanliang:'맨 앞의 적 1초 기절',
  wenchou:'기준 HP 50→65%',diaochan:'대상 적이 1초간 공격하지 못함',huaxiong:'공격속도 +20→+35%',gongsunzan:'이동 뒤 2초간 받는 피해 30% 감소',
- infantry:'보호막 200→260%',archer:'180→220%',tactician:'250→320%'
+ infantry:'보호막 200→260%',spear:'창 피해 +30%',sword:'검 피해 +30%',shield_unit:'보호막 240→300%',archer:'180→220%',tactician:'250→320%'
 };
 
 // Placeholder artwork until the commissioned sprites arrive: faction colour, name and a visible "임시" mark.

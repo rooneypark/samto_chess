@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기본 병종 3방향 원화 기준</title>
+<style>
+*{box-sizing:border-box}body{margin:0;padding:24px;background:#101c2b;color:#e8dcc2;font:16px/1.5 system-ui,sans-serif}h1{margin:0 0 8px;font-size:24px}.note{color:#aebbc9;margin:0 0 24px}.grid{display:grid;grid-template-columns:repeat(3,minmax(180px,1fr));gap:12px}.head,.unit{border:1px solid #52677d;border-radius:8px;background:#17273a;padding:12px}.head{text-align:center;font-weight:700;color:#d3bd8c}.unit h2{margin:0 0 8px;font-size:17px}.views{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.view{min-width:0;text-align:center;color:#aebbc9;font-size:12px}.view img{display:block;width:100%;aspect-ratio:1;background-color:#1b2b3e;background-image:linear-gradient(45deg,#22344a 25%,transparent 25%),linear-gradient(-45deg,#22344a 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#22344a 75%),linear-gradient(-45deg,transparent 75%,#22344a 75%);background-size:12px 12px;background-position:0 0,0 6px,6px -6px,-6px 0;object-fit:contain;image-rendering:pixelated}.view span{display:block;margin-top:4px}@media(max-width:640px){body{padding:12px}.grid{grid-template-columns:1fr}.head{display:none}.unit{padding:10px}.view img{max-height:240px}}
+</style>
+<body>
+<h1>기본 병종 원화 기준 · 3방향</h1>
+<p class="note">게임에 승인된 원본 PNG를 직접 참조합니다. 좌우 방향·외곽선·색면 밀도를 비교하고, 신규 병종의 디자인 기준으로 사용하세요.</p>
+<main id="board"></main>
+<script>
+const rows=[
+ ['검병','liaohua','한손 검·단도'],
+ ['창병','2','보행 창'],
+ ['방패병','caohong','창·방패'],
+ ['궁병','archer','궁'],
+ ['책사','tactician','책사·지원']
+];
+const viewNames=[['front','정면'],['side','왼쪽 측면'],['back','후면']];
+const root=document.querySelector('#board');root.className='grid';
+for(const name of ['병종 / 참고 유형','1','2']){const el=document.createElement('div');el.className='head';el.textContent=name;root.append(el)}
+for(const [label,id,type] of rows){const title=document.createElement('div');title.className='unit';title.style.gridColumn='1 / -1';title.innerHTML='<h2>'+label+' · '+type+'</h2><div class="views"></div>';const strip=title.querySelector('.views');for(const [view,korean] of viewNames){const cell=document.createElement('div');cell.className='view';const image=document.createElement('img');image.src='../../characters/v1/'+id+'/'+view+'.png';image.alt=label+' '+korean;const caption=document.createElement('span');caption.textContent=korean;cell.append(image,caption);strip.append(cell)}root.append(title)}
+</script>
+</body>
+</html>

@@ -102,7 +102,7 @@ find('.apply').onclick=()=>{
  modal.querySelector('#products-confirm').onclick=event=>commit(command,event.currentTarget);
 };
 const back=()=>navigate('shop');
-find('.home-back').onclick=back;
+find('.home-back')?.addEventListener('click',back);
 find('#shop-back').onclick=back;
 root.addEventListener('keydown',event=>{
  if(event.key==='Escape'&&!document.querySelector('dialog[open]')){event.stopImmediatePropagation();back();}

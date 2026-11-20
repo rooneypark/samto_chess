@@ -52,7 +52,7 @@ import { initArena } from './arena.js?ui=arena-v2';
 import { initAlliance } from './alliance.js?ui=alliance-v2-review';
 import { initShop } from './shop.js';
 import { initBarracks } from './barracks.js';
-import { heroes } from './heroes.js';
+import { heroes,activeRoster } from './heroes.js';
 
 const game = document.querySelector('.game');
 // Retire old playtest bookmarks without replacing the real profile or active run.
@@ -130,7 +130,7 @@ function formation() {
   draw();
   function replacements(){
    document.querySelector('#replace-slot').innerHTML=draft.map((id,i)=>`<option value="${i}">${i+1}. ${heroes.find(h=>h.id===id).name}</option>`).join('');
-   const available=heroes.filter(h=>state.heroes[h.id].owned&&!draft.includes(h.id));
+   const available=activeRoster.filter(h=>state.heroes[h.id].owned&&!draft.includes(h.id));
    document.querySelector('#replace-hero').innerHTML=available.map(h=>`<option value="${h.id}">${h.name}</option>`).join('')||'<option>대기 장수 없음</option>';
    document.querySelector('#replace-party').disabled=!available.length;
   }
@@ -227,7 +227,7 @@ const actions = {
   home: () => navigate('home'),
   barracks: () => navigate('barracks'),
   depart: () => battle.open(null,currentStage(state)),
-  profile: () => {if(artSet==='a'){navigate('profile');return;}const l=lordLevel(state),waiting=unclaimedLordRewards(state);open('군주 정보',dialogHero(lord(),'군주 Lv.'+l.level)+dialogRow('군주 경험치',l.next?l.xp+' / '+l.next:'최고 레벨 '+lordMaxLevel)+(waiting.length?'<button class="action" id="lord-reward">레벨 보상 받기 · Lv.'+waiting.join(', ')+'</button>':dialogRow('다음 레벨 보상',l.level<lordMaxLevel?rewardText(lordReward(l.level+1)):'없음'))+dialogRow('출전 장수',state.order.length+'명')+dialogRow('보유 장수',Object.values(state.heroes).filter(hero=>hero.owned).length+' / '+heroes.length+'명')+(nextUnlocks(state).length?dialogInset('다음 해금 · '+nextUnlocks(state).slice(0,3).map(u=>'Lv.'+u.level+' '+u.name).join(' · ')):'')+dialogInset('위·촉·오·군웅의 모든 장수를 등용할 수 있습니다. 편성한 장수의 세력에 따라 전투 시너지가 발동합니다.')+'<button class="action" id="government-open">내정 · 성내 시설</button>');document.querySelector('#government-open').onclick=()=>government.show();const claim=document.querySelector('#lord-reward');if(claim)claim.onclick=async()=>{claim.disabled=true;try{await store.transact(s=>serviceCommand(s,{type:'lord-reward'}));toast('군주 레벨 보상을 받았습니다.');actions.profile();}catch(e){toast(e.message);claim.disabled=false;}};},
+  profile: () => {if(artSet==='a'){navigate('profile');return;}const l=lordLevel(state),waiting=unclaimedLordRewards(state);open('군주 정보',dialogHero(lord(),'군주 Lv.'+l.level)+dialogRow('군주 경험치',l.next?l.xp+' / '+l.next:'최고 레벨 '+lordMaxLevel)+(waiting.length?'<button class="action" id="lord-reward">레벨 보상 받기 · Lv.'+waiting.join(', ')+'</button>':dialogRow('다음 레벨 보상',l.level<lordMaxLevel?rewardText(lordReward(l.level+1)):'없음'))+dialogRow('출전 장수',state.order.length+'명')+dialogRow('보유 장수',activeRoster.filter(hero=>state.heroes[hero.id]?.owned).length+' / '+activeRoster.length+'명')+(nextUnlocks(state).length?dialogInset('다음 해금 · '+nextUnlocks(state).slice(0,3).map(u=>'Lv.'+u.level+' '+u.name).join(' · ')):'')+dialogInset('기본 병종 5종과 확정 명단 장수 20명을 사용할 수 있습니다. 편성한 장수의 세력에 따라 전투 시너지가 발동합니다.')+'<button class="action" id="government-open">내정 · 성내 시설</button>');document.querySelector('#government-open').onclick=()=>government.show();const claim=document.querySelector('#lord-reward');if(claim)claim.onclick=async()=>{claim.disabled=true;try{await store.transact(s=>serviceCommand(s,{type:'lord-reward'}));toast('군주 레벨 보상을 받았습니다.');actions.profile();}catch(e){toast(e.message);claim.disabled=false;}};},
   wallet: () => barracks.wallet(),
   mail: () => mailArtwork?navigate('mail'):services.mail(),
   quests: () => missionsArtwork?navigate('missions'):services.quests(),

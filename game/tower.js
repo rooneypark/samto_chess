@@ -1,5 +1,5 @@
 // 연무탑 (종합기획서 7.6): the deck a floor allows. Floors themselves are stage definitions in stages.js.
-import {heroes} from './heroes.js';
+import {heroes,activeRoster} from './heroes.js';
 import {specs} from './progression.js';
 import {towerStages} from './stages.js';
 
@@ -12,6 +12,6 @@ export const allowed=(c,heroId)=>{const hero=heroes.find(h=>h.id===heroId);retur
 // Up to six owned heroes the floor allows: the saved formation first, then the rest of the roster.
 export function towerDeck(state,stage){
  const owned=id=>state.heroes[id]?.owned,c=stage.constraint;
- return [...state.order,...heroes.map(h=>h.id).filter(id=>!state.order.includes(id))].filter(id=>owned(id)&&allowed(c,id)).slice(0,6);
+ return [...state.order,...activeRoster.map(h=>h.id).filter(id=>!state.order.includes(id))].filter(id=>owned(id)&&allowed(c,id)).slice(0,6);
 }
 export const towerProgress=state=>towerFloorIds.filter(id=>state.campaign?.stages?.[id]?.cleared).length;

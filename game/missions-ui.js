@@ -38,7 +38,7 @@ export async function renderMissionsArtwork(game,{state,tab,actions}){
  $('.bonus-rewards').innerHTML=isAchievement?'<span class="achievement-description">첫 승전 · 황건 토벌 최초 승리</span>':rewards(periodBonus[tab]);
  $('.bonus-copy').textContent=isAchievement?'달성한 업적은 각 보상을 한 번씩 받습니다.':'모든 임무 보상을 받은 뒤 수령할 수 있습니다.';
  const bonus=$('.bonus-claim');bonus.disabled=done||claimed<defs.length;bonus.textContent=isAchievement?claimed+' / '+defs.length+' 수령':done?'수령 완료':claimed===defs.length?'보너스 받기':claimed+' / '+defs.length+' 수령';painting.push(paintClaim(bonus,!bonus.disabled,bonus.textContent));
- $('#barracks-back').id='missions-back';$('#missions-back').onclick=$('.home-back').onclick=()=>actions.navigate('home');
+ $('#barracks-back').id='missions-back';$('#missions-back').onclick=()=>actions.navigate('home');
  game.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>actions.tab(b.dataset.tab));
  $('.attendance-claim').onclick=()=>actions.claim({type:'attendance'});$('.bonus-claim').onclick=()=>actions.claim({type:'bonus',period:tab});
  game.querySelectorAll('.bottom-nav button').forEach(b=>b.onclick=()=>actions.navigate(b.dataset.action));

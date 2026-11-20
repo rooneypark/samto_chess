@@ -120,6 +120,30 @@ export const heroes = [
     "mappingStatus": "STATIC_VERIFIED"
   },
   {
+    "id": "sword",
+    "name": "기본 검병",
+    "role": "근접",
+    "faction": null,
+    "portrait": "assets/portraits-v4/sword.png",
+    "sourceUnit": 120
+  },
+  {
+    "id": "shield_unit",
+    "name": "기본 방패병",
+    "role": "방어",
+    "faction": null,
+    "portrait": "assets/portraits-v4/shield_unit.png",
+    "sourceUnit": 0
+  },
+  {
+    "id": "spear",
+    "name": "기본 창병",
+    "role": "창술",
+    "faction": null,
+    "portrait": "assets/portraits-v4/spear.png",
+    "sourceUnit": 0
+  },
+  {
     "id": "infantry",
     "name": "의용보병",
     "role": "근접",
@@ -133,9 +157,9 @@ export const heroes = [
   },
   {
     "id": "archer",
-    "name": "의용궁병",
-    "role": "원거리",
-    "faction": "군웅",
+    "name": "기본 궁병",
+    "role": "궁수",
+    "faction": null,
     "portrait": "assets/portraits-v4/archer.png",
     "sourceHero": 234,
     "sourceUnit": 18,
@@ -145,9 +169,9 @@ export const heroes = [
   },
   {
     "id": "tactician",
-    "name": "군영참모",
-    "role": "지원",
-    "faction": "군웅",
+    "name": "기본 책사",
+    "role": "책사",
+    "faction": null,
     "portrait": "assets/portraits-v4/tactician.png",
     "sourceHero": 334,
     "sourceUnit": 63,
@@ -162,4 +186,15 @@ import {extraHeroes} from './roster-data.js';
 heroes.push(...extraHeroes.map(hero=>({...hero})));
 import {designPortrait} from './art.js';
 import {characterSource} from './character-art.js';
-for(const hero of heroes){const portrait=designPortrait(hero.id);if(portrait)hero.portrait=portrait;const source=characterSource(hero.id);if(source){hero.sprite=source;hero.artworkStatus='user-approved';hero.art='approved';}}
+for(const hero of heroes){const portrait=designPortrait(hero.id);if(portrait)hero.portrait=portrait;const source=characterSource(hero.id)??(hero.id==='spear'?characterSource('infantry'):undefined);if(source){hero.sprite=source;hero.artworkStatus='user-approved';hero.art='approved';}else if(hero.sourceUnit!==undefined)hero.sprite=`assets/battle/unit${hero.sourceUnit}/MOV-7.png`;}
+
+// Launch roster: the twenty named generals plus five neutral starter troop classes.
+// The full historical list stays available for old saves and archived battle results.
+export const generalRosterIds=new Set([
+ '0','1','2','15','35', '32','33','34','xuchu','simayi',
+ 'sunquan','77','sunce','ganning','luxun', '119','diaochan','dongzhuo','yuanshao','zhangjue'
+]);
+export const generalRoster=heroes.filter(hero=>generalRosterIds.has(hero.id));
+export const basicUnitIds=['sword','spear','shield_unit','archer','tactician'];
+export const basicUnits=basicUnitIds.map(id=>heroes.find(hero=>hero.id===id)).filter(Boolean);
+export const activeRoster=[...generalRoster,...basicUnits];

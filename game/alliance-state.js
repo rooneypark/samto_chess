@@ -1,5 +1,5 @@
 import {periods} from './economy.js';
-import {heroes} from './heroes.js';
+import {heroes,generalRoster} from './heroes.js';
 import {specs} from './progression.js';
 import {combatant,arenaUnits} from './battle-data.js';
 import {createBattle,stepBattle} from './battle-engine.js';
@@ -33,7 +33,7 @@ export function raidStatus(state,time=Date.now()){
 }
 // 동맹 상점: bought with contribution, weekly limits. The hero card follows a faction that changes each week.
 export function allianceShop(time){
- const week=Number(periods(time).week),faction=['위','촉','오','군웅'][week%4],hero=heroes.find(h=>h.faction===faction&&specs[h.id].grade==='A');
+ const week=Number(periods(time).week),faction=['위','촉','오','군웅'][week%4],hero=generalRoster.find(h=>h.faction===faction&&specs[h.id].grade==='A');
  return [{id:'card',name:hero.name+' 카드 1장',hero:hero.id,price:60,limit:1},{id:'treasure',name:'보물 교환재료 5개',reward:{treasureTokens:5},price:30,limit:2}];
 }
 export const allianceBought=(state,item,time)=>{const b=state.alliance?.shop;return b?.week===periods(time).week?b.counts?.[item]??0:0;};

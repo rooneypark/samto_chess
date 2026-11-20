@@ -2,6 +2,7 @@ import {artSet} from './art.js';
 import {lordLevel} from './services.js';
 import {chapters,currentStage,stages,stageOrder} from './stages.js';
 import {characterSource} from './character-art.js';
+import {heroes} from './heroes.js';
 import {artButton,initArtPress} from './art-controls.js';
 import {artworkShell,artworkWallet} from './ui-shell.js';
 import {artboard} from './ui-spec.js';
@@ -66,7 +67,7 @@ export function initGateLobby(game,store){
   game.querySelector('.party-toolbar strong').textContent=state.order.length+' / 6';
   for(const [i,button] of [...game.querySelectorAll('.party .hero')].entries()){
    const id=state.order[i],image=button.querySelector('img');button.classList.add('gate-hero');button.dataset.gateHero=id;
-   image.src=characterSource(id);button.classList.remove('gate-fallback');
+   image.src=characterSource(id)??heroes.find(hero=>hero.id===id)?.sprite??'';button.classList.remove('gate-fallback');
    // All canvases share one scale and ground baseline; transparent margins remain.
    const size=256,slot=150;rect(button,centers[i]-slot/2,1034-size*224/256,slot,size);
 

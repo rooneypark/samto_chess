@@ -5,6 +5,7 @@ export const questDefs=[
 ].map(([id,period,name,event,target,gold])=>({id,period,name,event,target,gold}));
 import {bondMissionCandidates,BOND_MISSION_WINS,codexComplete,codexReward,factionTitles,startMissions,startFinalReward} from './collection.js';
 import {factions} from './factions.js';
+import {activeRoster,generalRosterIds} from './heroes.js';
 const DAY=86400000;
 // Completion bonuses. The weekly bonus is one of the few sources of free diamonds (기획 공백 E1의 제안).
 export const periodBonus={day:{gold:100,freeDiamonds:20},week:{gold:500,freeDiamonds:50}};
@@ -39,7 +40,7 @@ export function prepareServices(s,time=Date.now()){
    if(defs.every(d=>q.quests[d.id]?.claimed)&&!q.claims[`bonus:${kind}:${oldPeriod}`])q.mail.push({id:`bonus:${kind}:${oldPeriod}`,title:'임무 완료 보너스',body:'지난 기간 완료 보너스입니다.',createdAt:boundary,expireAt:boundary+7*DAY,attachments:{...periodBonus[kind]},claimedAt:null});
   }
   q.periods[kind]=periods[kind];
-  for(const d of defs){const alternate=d.id==='daily_train'&&Object.values(s.heroes).filter(h=>h.owned).every(h=>h.level>=20);q.quests[d.id]={progress:0,claimed:false,target:alternate?3:d.target,event:alternate?'run':d.event};}
+  for(const d of defs){const alternate=d.id==='daily_train'&&activeRoster.filter(hero=>s.heroes[hero.id]?.owned).every(hero=>s.heroes[hero.id].level>=20);q.quests[d.id]={progress:0,claimed:false,target:alternate?3:d.target,event:alternate?'run':d.event};}
  }
  return q;
 }
@@ -78,7 +79,7 @@ export function serviceCommand(state,c,time=Date.now()){
   if(q.attendance.day===q.periods.day)throw Error('오늘은 이미 출석했습니다.');
   grant(s,attendanceRewards[q.attendance.index%attendanceRewards.length]);q.attendance={day:q.periods.day,index:q.attendance.index+1};
  }else if(c.type==='bond-mission'){
-  const m=q.bondMissions[c.id];if(!m)throw Error('열리지 않은 인연 임무입니다.');if(m.wins<BOND_MISSION_WINS)throw Error('아직 완료하지 않은 인연 임무입니다.');
+  const m=q.bondMissions[c.id];if(!m||!generalRosterIds.has(m.hero))throw Error('열리지 않은 인연 임무입니다.');if(m.wins<BOND_MISSION_WINS)throw Error('아직 완료하지 않은 인연 임무입니다.');
   if(!m.claimed){const h=s.heroes[m.hero];if(!h)throw Error('장수 데이터 오류');if(h.owned)h.cards++;else h.owned=true;m.claimed=true;}
  }else if(c.type==='codex'){
   if(!factions[c.faction])throw Error('없는 세력입니다.');if(!codexComplete(s,c.faction))throw Error('아직 모으지 못한 장수가 있습니다.');

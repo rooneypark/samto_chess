@@ -6,7 +6,7 @@ import {createArtworkScreen} from './artwork-screen.js';
 import {generalPortrait,portraitCrops} from './general-portraits.js';
 import {treasureDefs,treasureQuote,manageTreasure} from './treasures.js';
 import {treasureTemplate} from './treasure-template.js';
-import {heroes} from './heroes.js';
+import {heroes,activeRoster} from './heroes.js';
 const definition=item=>treasureDefs.find(d=>d.id===item.defId);
 const ownerOf=(s,id)=>heroes.find(h=>s.heroes[h.id]?.treasure===id);
 const materialsFor=(s,item)=>s.treasures.filter(m=>m.id!==item.id&&m.defId===item.defId&&m.star===1&&!m.locked&&!m.favorite&&!ownerOf(s,m.id));
@@ -38,7 +38,7 @@ export function initTreasureScreen({host,store,navigate,toast,onWallet,dialog}){
  async function draw(){try{await render()}catch(e){root.inert=false;root.setAttribute('aria-busy','false');toast('보물함을 표시하지 못했습니다. '+e.message)}}
  async function commit(change){if(busy)return;busy=true;const confirm=document.querySelector('#treasure-confirm');if(confirm)confirm.disabled=true;try{await store.transact(change);dialog.dismiss();toast('보물 변경 완료');}catch(e){toast('저장하지 못했습니다. '+e.message);if(confirm)confirm.disabled=false;}finally{busy=false;draw()}}
  function equip(){const id=chosen,s=store.get(),owner=ownerOf(s,id);if(!id||s.battleRun)return;
- dialog.open('보물 장착 · 해제',`<p>${definition(s.treasures.find(i=>i.id===id)).name} · ${owner?owner.name+' 장착 중':'미장착'}</p>${owner?'<button class="action secondary" id="treasure-unequip">장착 해제</button>':''}<p>장수를 선택하세요. 기존 장착 보물은 보물함에 보관됩니다.</p><div class="selection-grid">${heroes.filter(h=>s.heroes[h.id]?.owned).map(h=>`<button class="action secondary" data-equip-hero="${h.id}">${h.name}${s.heroes[h.id].treasure?' · 장착 중':''}</button>`).join('')}</div>`);
+ dialog.open('보물 장착 · 해제',`<p>${definition(s.treasures.find(i=>i.id===id)).name} · ${owner?owner.name+' 장착 중':'미장착'}</p>${owner?'<button class="action secondary" id="treasure-unequip">장착 해제</button>':''}<p>장수를 선택하세요. 기존 장착 보물은 보물함에 보관됩니다.</p><div class="selection-grid">${activeRoster.filter(h=>s.heroes[h.id]?.owned).map(h=>`<button class="action secondary" data-equip-hero="${h.id}">${h.name}${s.heroes[h.id].treasure?' · 장착 중':''}</button>`).join('')}</div>`);
  const confirmFor=hero=>{dialog.open('장착 변경 확인',`<p>${hero?heroes.find(h=>h.id===hero).name+'에게 장착합니다.':'현재 장착을 해제합니다.'}</p><div class="modal-actions"><button class="action secondary" id="treasure-cancel">취소</button><button class="action" id="treasure-confirm">확인</button></div>`);document.querySelector('#treasure-cancel').onclick=equip;document.querySelector('#treasure-confirm').onclick=()=>commit(state=>{if(ownerOf(state,id)?.id!==owner?.id)throw Error('장착 상태가 변경되었습니다. 다시 선택하세요.');let next=state;if(owner)next=manageTreasure(next,{type:'equip',id,hero:owner.id});if(hero)next=manageTreasure(next,{type:'equip',id,hero});return next;});};
  document.querySelector('#treasure-unequip')?.addEventListener('click',()=>confirmFor(null));document.querySelectorAll('[data-equip-hero]').forEach(b=>b.onclick=()=>confirmFor(b.dataset.equipHero));}
  function upgrade(){const s=store.get(),id=chosen;if(!id||$('.enhance').disabled)return;const {item,def,copies,gold}=treasureQuote(s,id),star=item.star,materials=materialsFor(s,item).slice(0,copies).map(m=>m.id);

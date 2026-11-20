@@ -2,6 +2,7 @@ import {durableStore} from './durable-store.js';
 import {createGameStore,validateSave} from './store.js';
 import {artSet,setArtSet} from './art.js';
 import {SAVE_KEY,LEGACY_PROGRESS_KEY,LEGACY_LOBBY_KEY} from './versions.js';
+import {activeRoster} from './heroes.js';
 export function downloadJson(name,value){const blob=new Blob([typeof value==='string'?value:JSON.stringify(value,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 export async function bootStore(dialog){
  const raw=localStorage.getItem(SAVE_KEY),legacy=localStorage.getItem(LEGACY_PROGRESS_KEY)||localStorage.getItem(LEGACY_LOBBY_KEY);
@@ -40,6 +41,6 @@ export function settingsActions({store,dialog,toast}){
  backup:()=>downloadJson('samguk-backup.json',store.get()),
  diagnostics:()=>downloadJson('samguk-diagnostics.json',{revision:store.get().revision,ledger:store.get().ledger,battle:store.get().battleRun?.battle}),
  async fullscreen(){try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen();}catch{toast('전체 화면을 지원하지 않습니다.');}},
- async restore(file){if(!file)return;try{const backup=validateSave(JSON.parse(await file.text()));dialog.confirm('백업 복구',`골드 ${backup.gold.toLocaleString()}, 보유 장수 ${Object.values(backup.heroes).filter(h=>h.owned).length}명. 현재 저장을 백업한 뒤 선택한 파일의 저장으로 교체합니다.`,'복구',async()=>{try{downloadJson('samguk-before-restore.json',store.get());await store.restore(backup);location.reload();}catch(e){toast('복구 실패: '+e.message);}});}catch(e){toast('복구 실패: '+e.message);}}
+ async restore(file){if(!file)return;try{const backup=validateSave(JSON.parse(await file.text()));dialog.confirm('백업 복구',`골드 ${backup.gold.toLocaleString()}, 보유 장수 ${activeRoster.filter(hero=>backup.heroes[hero.id]?.owned).length}명. 현재 저장을 백업한 뒤 선택한 파일의 저장으로 교체합니다.`,'복구',async()=>{try{downloadJson('samguk-before-restore.json',store.get());await store.restore(backup);location.reload();}catch(e){toast('복구 실패: '+e.message);}});}catch(e){toast('복구 실패: '+e.message);}}
  };
 }

@@ -6,7 +6,7 @@ import {nineSlice,disposeNineSlices} from './nine-slice.js';
 import {generalArtwork} from './general-art.js';
 import {landmarkArtwork} from './campaign-landmarks.js';
 import {sites,expeditionRules,teamBonus,heroPower,siteOpen,expeditionStatus,expeditionCommand} from './expedition.js';
-import {heroes} from './heroes.js';
+import {heroes,activeRoster} from './heroes.js';
 import {expeditionTemplate} from './expedition-template.js';
 import {pickGenerals} from './general-picker.js';
 import {periods} from './economy.js';
@@ -18,7 +18,7 @@ export function initExpedition({host,store,navigate,toast,onWallet,dialog}){
  const root=createArtworkScreen({host,className:'expedition-runtime',label:'토벌 파견',template:expeditionTemplate,navigate,onWallet}),$=s=>root.querySelector(s);
  let page=0,selected='yellow',team=[],slotIndex=0,busy=false,revision=0,timer=null,nextRefresh=Infinity;
  const ready=Promise.all([uiComponentsReady,paintArtworkLayout(root)]);
- const available=(s,status)=>heroes.filter(h=>s.heroes[h.id]?.owned&&!status.busy.has(h.id)).map(h=>h.id);
+ const available=(s,status)=>activeRoster.filter(h=>s.heroes[h.id]?.owned&&!status.busy.has(h.id)).map(h=>h.id);
  async function render(){
   const token=++revision;await ready;if(root.hidden||token!==revision)return;root.inert=true;root.setAttribute('aria-busy','true');
   const s=store.get(),now=Date.now(),status=expeditionStatus(s,now),eligible=available(s,status),painting=[];

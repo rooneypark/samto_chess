@@ -58,7 +58,7 @@ export function createCombatRecord({game,onError}){
   const outcome=$('.outcome');outcome.textContent=fighting?'전투 중':({win:'승리',loss:'패배',draw:'무승부'}[run.outcome]??'기록');outcome.dataset.outcome=run.outcome??'';outcome.classList.toggle('long-outcome',outcome.textContent.length>2);
   $('.summary-title').textContent=options.previousRound?'지난 라운드 · '+(run.round-1):arena?'공정 대전 · 1 / 1':(run.round===roundCount(run.stageId)?'최종 라운드':'라운드')+' · '+run.round+' / '+roundCount(run.stageId);
   artworkShell(root,{screen:arena?'arena':'home',title:'전투 기록',progress:state,controlsRoot:root});
-  const back=$('#barracks-back');back.id='record-back';back.onclick=()=>close();$('#record-return').textContent=options.previousRound?'훈련으로 돌아가기':fighting?'전투로 돌아가기':'결과로 돌아가기';$('#record-return').onclick=()=>close();$('#record-home').onclick=()=>onNavigate('home');
+  const back=$('#barracks-back');back.id='record-back';back.onclick=()=>close();$('#record-return').textContent=options.previousRound?'훈련으로 돌아가기':fighting?'전투로 돌아가기':'결과로 돌아가기';$('#record-return').onclick=()=>close();
   root.querySelectorAll('.bottom-nav button').forEach(b=>{b.setAttribute('aria-current',b.dataset.action===(arena?'arena':'home')?'page':'false');b.onclick=()=>onNavigate(b.dataset.action);});
   root.querySelectorAll('.wallet button').forEach((b,i)=>{b.setAttribute('aria-label',(i?'다이아 ':'골드 ')+state[i?'diamonds':'gold'].toLocaleString());b.onclick=onWallet;});
   root.querySelectorAll('[data-side]').forEach(b=>b.onclick=()=>{side=Number(b.dataset.side);selected=null;page=0;draw('[data-side="'+side+'"]');});

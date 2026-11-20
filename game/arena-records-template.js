@@ -5,4 +5,4 @@ export const arenaRecordsTemplate=artworkScreenTemplate(`<h1 class="scroll-headi
 ${artworkPanel('20,348,901,166')}<h2 class="section-title" data-box="50,369,841,44"></h2><p class="record-summary" data-box="50,432,841,44"></p>
 ${artworkPanel('20,534,901,788')}<div class="record-list" tabindex="0" data-box="50,564,841,728"></div>
 <p class="hint" data-box="20,1354,901,38"></p>
-<button class="home-back" data-tone="green" data-box="20,1414,901,64">군웅대전으로</button>`);
+`);

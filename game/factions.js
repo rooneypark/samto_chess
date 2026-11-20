@@ -2,15 +2,14 @@
 // Numbers are balance proposals.
 import {factionColors} from './roster-data.js';
 
-const commons=['infantry','archer','tactician'];
+const commons=['sword','spear','shield_unit','archer','tactician'];
+export const defaultStarter=[...commons,'0'];
 export const factions={
- '위':{id:'위',title:'위나라',lord:'32',color:factionColors['위'],trait:'정공법 · 강한 공격과 약화',starter:['32','33','xuhuang',...commons]},
- '촉':{id:'촉',title:'촉나라',lord:'0',color:factionColors['촉'],trait:'버티며 싸운다 · 체력과 회복',starter:['15','0','weiyan',...commons]},
- '오':{id:'오',title:'오나라',lord:'sunquan',color:factionColors['오'],trait:'전법 중심 · 화공과 보호막',starter:['sunquan','huanggai','sunshangxiang',...commons]},
- '군웅':{id:'군웅',title:'군웅',lord:'yuanshao',color:factionColors['군웅'],trait:'변칙 · 빠른 공격과 흡혈',starter:['yuanshao','huaxiong','gongsunzan',...commons]}
+ '위':{id:'위',title:'위나라',lord:'32',color:factionColors['위'],trait:'정공법 · 강한 공격과 약화',starter:[...defaultStarter]},
+ '촉':{id:'촉',title:'촉나라',lord:'0',color:factionColors['촉'],trait:'버티며 싸운다 · 체력과 회복',starter:[...defaultStarter]},
+ '오':{id:'오',title:'오나라',lord:'sunquan',color:factionColors['오'],trait:'전법 중심 · 화공과 보호막',starter:[...defaultStarter]},
+ '군웅':{id:'군웅',title:'군웅',lord:'yuanshao',color:factionColors['군웅'],trait:'변칙 · 빠른 공격과 흡혈',starter:[...defaultStarter]}
 };
-// The starter set of a profile that has not chosen a faction yet (and of saves from before the choice existed).
-export const defaultStarter=['15','0','16',...commons];
 export const recruitWeight=2;
 
 // Synergy by distinct deployed heroes of one faction: tiers at 2 / 4 / 6.

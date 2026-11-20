@@ -18,7 +18,7 @@ export function renderShopArtwork(root,{state,pool,pickup,currency,onPool,onCurr
  <div class="scroll-heading" data-box="22,153,895,90">${title}</div>
  <nav class="pool-tabs" role="tablist" aria-label="모집 종류">${[['hero','장수 등용'],['pickup','픽업 등용'],['treasure','보물 모집']].map(([id,label],i)=>{const active=id===(pickup?'pickup':pool);return `<button role="tab" data-pool="${id}" aria-selected="${active}" data-tone="${active?'green':'blue'}" data-box="${32+i*298},264,281,74">${label}</button>`;}).join('')}</nav>
  <section class="recruit-stage" data-box="20,354,901,488"><div class="hall" data-recruit-art="${pickup?'pickup':isHero?'hero':'treasure'}"></div><div class="stage-frame"></div></section>
- ${isHero?`<div class="stage-caption recruit-intro" data-box="120,379,701,42">${pickup?'픽업 모집 · '+heroes.find(h=>h.id===up.s).name+' · '+new Date(up.endsAt).toLocaleDateString('ko-KR')+'까지':'위 · 촉 · 오 · 군웅, 모든 세력의 장수'}</div>`:''}<div class="general-lineup"></div>
+ ${isHero?`<div class="stage-caption recruit-intro" data-box="120,379,701,42">${pickup?'픽업 모집 · '+heroes.find(h=>h.id===up.s).name+' · '+new Date(up.endsAt).toLocaleDateString('ko-KR')+'까지':'기본 병종 5종 · 확정 명단 장수 20명'}</div>`:''}<div class="general-lineup"></div>
  <div class="pity-scroll" data-box="22,861,895,90"><span>A 이상 보장까지 <b>${30-pity.a}회</b></span><i></i><span>S 보장까지 <b>${100-pity.s}회</b></span></div>
  <p class="odds-note" data-box="41,967,600,40">${pickup?'픽업 모집 · 다이아 전용':'골드·다이아 동일 확률 · '+(isHero?'장수':'보물')+' '+poolEntries(pool).length+'종'}</p>
  <button id="probabilities" class="small" data-tone="blue" data-box="721,956,180,60">확률 정보</button>

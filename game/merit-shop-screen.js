@@ -12,7 +12,6 @@ const $=selector=>root.querySelector(selector);
 const products=meritShop(Date.now());
 let selected='treasure',busy=false,revision=0,week,refreshTimer;
 const icons=['33.333% 0','100% 100%','66.667% 50%'];
-$('.home-back').textContent='군웅대전으로';
 $('.scroll-heading').textContent='군공 교환';
 root.querySelector('[data-box="50,286,841,44"]').textContent='보유 군공';
 root.querySelector('[data-box="50,1234,841,44"]').textContent='주간 갱신';
@@ -62,7 +61,6 @@ $('.apply').onclick=async()=>{
  finally{busy=false;if(!root.hidden)draw();}
 };
 const back=()=>navigate('arena');
-$('.home-back').onclick=back;
 $('#barracks-back').onclick=back;
 root.addEventListener('keydown',event=>{
  if(event.key==='Escape'&&!document.querySelector('dialog[open]')){event.stopImmediatePropagation();back();}

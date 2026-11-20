@@ -6,8 +6,7 @@ import {nineSlice} from './nine-slice.js';
 export {contentBounds} from './side-layout.js';
 export function paintArtworkLayout(root,{hollow='.duel-stage,.victory-scene',stablePixels=false}={}){
  root.querySelectorAll('[data-box]').forEach(el=>placeArtwork(el,el.dataset.box.split(',').map(Number)));
- return Promise.all([
-  ...Array.from(root.querySelectorAll('[data-tone]'),el=>nineSlice(el,el.dataset.tone,{stablePixels})),
-  ...Array.from(root.querySelectorAll('[data-frame]'),el=>nineSlice(el,el.dataset.frame,{button:false,center:!el.closest(hollow),stablePixels}))
- ]);
+ const panels=[...root.querySelectorAll('[data-frame]')].filter(el=>!el.matches('button'));
+ panels.forEach(el=>{el.classList.add('angular-panel-frame');el.classList.toggle('angular-panel-hollow',!!el.closest(hollow));});
+ return Promise.all(Array.from(root.querySelectorAll('[data-tone]'),el=>nineSlice(el,el.dataset.tone,{stablePixels})));
 }

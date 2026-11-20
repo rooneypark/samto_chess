@@ -22,6 +22,6 @@ export const missionsTemplate=`
  <p class="bonus-copy" data-box="50,1321,520,28"></p>
  <button class="bonus-claim" data-tone="blue" data-box="652,1245,239,84" disabled>1 / 4 수령</button>
  <p class="mail-note" data-box="20,1372,901,30">완료한 미수령 임무 보상은 우편으로 7일간 보관됩니다.</p>
- <button class="home-back" data-tone="green" data-box="20,1414,901,64">성문으로</button>
+ 
  ${artworkFooter}
 `;

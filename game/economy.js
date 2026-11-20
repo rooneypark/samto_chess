@@ -1,4 +1,4 @@
-import {heroes} from './heroes.js';
+import {generalRoster} from './heroes.js';
 import {specs} from './progression.js';
 import {treasureDefs} from './treasures.js';
 import {marketExchangeLimit} from './government.js';
@@ -6,13 +6,16 @@ import {pickupOf,pickupRules,poolLocked,S_SELECT_COST} from './collection.js';
 // Weekly choice boxes follow the market level (1/1/2/2/3); the daily gold exchange keeps its own limit.
 export const productLimit=(state,p)=>p.period==='week'?Math.max(p.limit,marketExchangeLimit(state)):p.limit;
 export const rates={C:.60,B:.30,A:.08,S:.02};
+// The named general pool has no C-grade generals, so its B/A/S rates are normalized.
+export const generalRates={B:.75,A:.20,S:.05};
+export const ratesFor=pool=>pool==='hero'?generalRates:rates;
 export const products=[
  {id:'gold',name:'골드 300',currency:'freeDiamonds',price:100,limit:3,period:'day',icon:'gold'},
  {id:'hero',name:'A등급 장수 선택상자',currency:'heroTokens',price:20,limit:1,period:'week',icon:'helmet'},
  {id:'treasure',name:'A등급 보물 선택상자',currency:'treasureTokens',price:20,limit:1,period:'week',icon:'chest'}
 ];
 export const currencyNames={sShards:'S 선택 조각',gold:'골드',diamonds:'다이아',freeDiamonds:'무료 다이아',heroTokens:'장수 교환재료',treasureTokens:'보물 교환재료'};
-export const poolEntries=pool=>pool==='hero'?heroes.map(h=>({...h,grade:specs[h.id].grade})):pool==='treasure'?treasureDefs:[];
+export const poolEntries=pool=>pool==='hero'?generalRoster.map(h=>({...h,grade:specs[h.id].grade})):pool==='treasure'?treasureDefs:[];
 export function periods(time){const day=Math.floor((time+4*3600000)/86400000);return {day:String(day),week:String(Math.floor((day+3)/7))};}
 export function remaining(state,p,time=Date.now()){const period=periods(Math.max(time,state.shop.lastTime))[p.period],count=state.shop.limits[p.id];return productLimit(state,p)-(count?.period===period?count.count:0);}
 export function seededRandom(seed){let a=seed>>>0;return()=>{a+=0x6D2B79F5;let t=a;t=Math.imul(t^t>>>15,t|1);t^=t+Math.imul(t^t>>>7,t|61);return ((t^t>>>14)>>>0)/4294967296;};}
@@ -33,11 +36,11 @@ export function applyShopCommand(state,command){
   if(command.banner!==undefined&&command.banner!=='pickup')throw Error('없는 모집입니다.');
   if(pickup&&(pool!=='hero'||currency!==pickupRules.currency))throw Error('픽업 모집은 다이아로만 할 수 있습니다.');
   // Heroes gated behind a campaign chapter are not in the pool until that chapter is cleared.
-  const entries=poolEntries(pool).filter(e=>pool!=='hero'||!poolLocked(s,e.id));let lowOnly=true;if(Object.keys(rates).some(g=>!entries.some(e=>e.grade===g)))throw Error('모집 목록을 불러오지 못했습니다.');
+  const weights=ratesFor(pool),entries=poolEntries(pool).filter(e=>pool!=='hero'||!poolLocked(s,e.id));let lowOnly=true;if(Object.keys(weights).some(g=>!entries.some(e=>e.grade===g)))throw Error('모집 목록을 불러오지 못했습니다.');
   if(!Number.isInteger(command.seed))throw Error('모집 seed가 필요합니다.');
   spend(s,(currency==='gold'?300:100)*count,currency);const random=seededRandom(command.seed),pity=s.shop.pity[pool];
   for(let i=0;i<count;i++){
-   const r=random();let grade=pity.s>=99?'S':pity.a>=29?(r<.8?'A':'S'):r<.6?'C':r<.9?'B':r<.98?'A':'S';
+   const r=random();let grade=pity.s>=99?'S':pity.a>=29?(r<.8?'A':'S'):(()=>{let edge=0;for(const [key,weight] of Object.entries(weights)){edge+=weight;if(r<edge)return key;}return Object.keys(weights).at(-1);})();
    // 10회 모집은 B 이상 1명 확정: if the first nine were all C, the tenth is at least B.
    if(count===10&&i===9&&lowOnly&&grade==='C')grade='B';if(grade!=='C')lowOnly=false;
    // All nations share the same pool; historical account faction never changes the odds.

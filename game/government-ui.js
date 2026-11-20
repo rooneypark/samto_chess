@@ -78,7 +78,6 @@ export function initGovernmentArtwork({host,store,navigate,toast,onWallet,onExch
  }
  $('.collect').onclick=()=>{if(selected==='market'){if(!busy)onExchange();}else execute('collect');};
  $('.upgrade').onclick=()=>execute('upgrade');
- $('.refresh').onclick=()=>{if(!busy){if(store.get().government?.levels)draw();else execute('initialize');}};
  store.subscribe(()=>{if(!root.hidden&&!busy)draw();});
  window.addEventListener('focus',()=>{if(!root.hidden&&!busy)draw();});
  return {show(visible){

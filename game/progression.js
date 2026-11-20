@@ -14,7 +14,10 @@ export const specs = {
 "34":{"grade": "A", "stats": [850, 110, 25, 20, 1, 0.9, 80], "skill": "급습", "description": "후열 최저 방어 적에게 돌진, 200% 물리 피해"},
 "77":{"grade": "S", "stats": [650, 110, 15, 40, 4, 1.2, 100], "skill": "화공", "description": "반경 1.5에 1초마다 70% 마법 피해, 4회"},
 "119":{"grade": "S", "stats": [1200, 145, 25, 15, 1, 1.3, 100], "skill": "무쌍", "description": "반경 2에 250% 물리 피해, 현재 HP 10% 소모"},
+"sword":{"grade":"C","stats":[900,80,22,12,1,1,80],"skill":"연속 베기","description":"현재 적에게 200% 물리 피해"},
+"shield_unit":{"grade":"C","stats":[1200,55,45,18,1,1.3,80],"skill":"방패 세우기","description":"자신에게 공격력 240% 보호막 3초"},
 "infantry":{"grade": "C", "stats": [900, 65, 30, 15, 1, 1.2, 80], "skill": "굳건한 방어", "description": "자신에게 공격력 200% 보호막 3초"},
+"spear":{"grade":"C","stats":[1000,80,25,15,2,1.2,80],"skill":"창 찌르기","description":"현재 적에게 190% 물리 피해"},
 "archer":{"grade": "C", "stats": [550, 80, 10, 10, 4, 1.2, 80], "skill": "집중 사격", "description": "현재 적에게 180% 물리 추적 화살"},
 "tactician":{"grade": "C", "stats": [650, 55, 15, 25, 3, 1.3, 90], "skill": "응급 처치", "description": "HP 비율 최저 아군에게 공격력 250% 회복"}
 };

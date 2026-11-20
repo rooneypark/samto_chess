@@ -1,6 +1,6 @@
 // 군웅대전 보강 (종합기획서 12.3~12.4): 상대 풀, 티어, 시즌, 군공과 군공 상점, 방어 편성.
 // Local simulator: every opponent is an NPC with a fixed formation. Numbers are proposals.
-import {heroes} from './heroes.js';
+import {generalRoster,basicUnitIds} from './heroes.js';
 import {specs} from './progression.js';
 import {periods} from './economy.js';
 import {prepareServices} from './services.js';
@@ -16,13 +16,13 @@ export const seasonEndsAt=time=>(seasonOf(time)+1)*SEASON_DAYS*DAY-4*3600000;
 export const meritRules={win:10,other:4,dailyMatches:3,dailyBonus:{freeDiamonds:10}};
 
 // Twenty NPC opponents across the score range, each a single-faction or mixed line-up with its own strategy.
-const byFaction=f=>heroes.filter(h=>h.faction===f).sort((a,b)=>'SABC'.indexOf(specs[a.id].grade)-'SABC'.indexOf(specs[b.id].grade)).map(h=>h.id);
+const byFaction=f=>generalRoster.filter(h=>h.faction===f).sort((a,b)=>'SABC'.indexOf(specs[a.id].grade)-'SABC'.indexOf(specs[b.id].grade)).map(h=>h.id);
 const names=['청운','솔바람','백운','한빛','강바람','물안개','새벽달','먹구름','산울림','여울','단풍','서리','노을','바위','파도','번개','솔개','은하','불꽃','용오름'];
 const strategies=['vanguard','strategist','vanguard','logistics'];
 export const opponentPool=names.map((name,i)=>{
  const faction=['위','촉','오','군웅'][i%4],roster=byFaction(faction),other=byFaction(['촉','오','군웅','위'][i%4]);
  // Stronger opponents field higher grades: weaker ones start further down the faction list.
- const start=Math.max(0,Math.min(roster.length-6,Math.floor((19-i)/4))),order=i%5===4?[...roster.slice(start,start+4),...other.slice(0,2)]:roster.slice(start,start+6);
+ const start=Math.max(0,Math.min(roster.length-5,Math.floor((19-i)/4))),order=i%5===4?[...roster.slice(start,start+4),...other.slice(0,2)]:[...roster.slice(start,start+5),...other.filter(id=>!roster.includes(id)).slice(0,1)];
  return {id:'npc'+(i+1),name,score:820+i*38,strategy:strategies[i%4],order};
 });
 // The three opponents nearest to the player's score; `offset` pages through the rest.
@@ -32,9 +32,9 @@ export function opponentsFor(score,offset=0){
 }
 // 금지 장수 주간: two S or A heroes sit out each week, for both sides. A banned hero in an NPC line-up is
 // replaced by a common soldier that is not already in it.
-const banPool=heroes.filter(h=>['S','A'].includes(specs[h.id].grade)).map(h=>h.id);
+const banPool=generalRoster.filter(h=>['S','A'].includes(specs[h.id].grade)).map(h=>h.id);
 export const bannedHeroes=time=>{const week=Number(periods(time).week);return [banPool[(week*7)%banPool.length],banPool[(week*7+11)%banPool.length]];};
-export function applyBans(order,time){const banned=bannedHeroes(time),spare=['infantry','archer','tactician'].filter(id=>!order.includes(id));return order.map(id=>banned.includes(id)?spare.shift()??id:id);}
+export function applyBans(order,time){const banned=bannedHeroes(time),spare=basicUnitIds.filter(id=>!order.includes(id));return order.map(id=>banned.includes(id)?spare.shift()??id:id);}
 export const HISTORY=10;
 export const emptyArena=()=>({score:1000,match:null,rewardDay:null,rewards:0});
 
@@ -51,10 +51,10 @@ export function rollSeason(s,time){
 }
 
 // 군공 상점: weekly limits. The hero card rotates through the A grade by week.
-const aHeroes=heroes.filter(h=>specs[h.id].grade==='A').map(h=>h.id);
+const aHeroes=generalRoster.filter(h=>specs[h.id].grade==='A').map(h=>h.id);
 export function meritShop(time){
  const week=Number(periods(time).week);
- return [{id:'card',name:heroes.find(h=>h.id===aHeroes[week%aHeroes.length]).name+' 카드 1장',hero:aHeroes[week%aHeroes.length],price:80,limit:1},
+ return [{id:'card',name:generalRoster.find(h=>h.id===aHeroes[week%aHeroes.length]).name+' 카드 1장',hero:aHeroes[week%aHeroes.length],price:80,limit:1},
   {id:'treasure',name:'보물 교환재료 5개',reward:{treasureTokens:5},price:30,limit:3},
   {id:'hero',name:'장수 교환재료 5개',reward:{heroTokens:5},price:40,limit:2}];
 }

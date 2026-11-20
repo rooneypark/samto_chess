@@ -18,12 +18,14 @@ export function createGameDialog(dialog,{artwork=false}={}) {
   titleElement.before(titleIcon);
   body.addEventListener('click',event=>{if(event.target.closest('[data-dialog-close]'))dialog.close();});
   function paintActions(){
+    if(!dialog.open)return;
+    const panels=[...body.querySelectorAll('.game-dialog-inset:not(.dialog-message),.guild-modal-row,.treasure-card,.result-card,.product-row,.rate-list section,.dialog-art-panel,.game-dialog-hero')].filter(panel=>!panel.matches('button'));
+    panels.forEach(panel=>panel.classList.add('angular-container'));
     styleDialogButtons(body,titleElement.textContent);
-    if(!artwork||!dialog.open)return;
+    if(!artwork)return;
     styleDialogContent(body);
     const corner=Math.max(7,Math.round(dialog.clientWidth*28/821));
     const paint=(element,tone,button)=>nineSlice(element,tone,{button,corner,stablePixels:true,fitCorner:true}).catch(error=>console.error(error));
-    body.querySelectorAll('.game-dialog-inset:not(.dialog-message),.guild-modal-row,.treasure-card,.result-card,.product-row,.rate-list section').forEach(panel=>paint(panel,'blue',false));
     body.querySelectorAll(dialogButtonSelector).forEach(button=>paint(button,button.dataset.dialogRole==='primary'?'green':'blue',true));
   }
   const observer = new MutationObserver(records=>{

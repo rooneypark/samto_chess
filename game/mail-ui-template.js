@@ -25,7 +25,7 @@ export const mailTemplate=`
  <button class="delete-mail" data-tone="blue" data-box="50,1276,266,64">우편 삭제</button>
  <button class="claim-mail" data-tone="green" data-box="560,1269,331,71">보상 받기</button>
  <p class="mail-note" data-box="20,1372,901,30">모두 받기는 수령 가능한 우편에만 적용됩니다.</p>
- <button class="claim-all" data-tone="green" data-box="20,1408,582,76">보상 모두 받기</button>
- <button class="home-back" data-tone="blue" data-box="620,1414,301,64">성문으로</button>
+ <button class="claim-all" data-tone="green" data-box="20,1408,901,76">보상 모두 받기</button>
+ 
  ${artworkFooter}
 `;

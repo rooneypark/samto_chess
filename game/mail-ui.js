@@ -39,7 +39,7 @@ export async function renderMailArtwork(game,{state,view,actions}){
  const m=view.chosen;$('.detail-title').textContent=m?.title??'선택한 우편 없음';$('.detail-status').textContent=m?status(m):'';$('.detail-status').classList.toggle('expired',!!m&&!m.claimedAt&&m.expireAt<=now);$('.detail-body').textContent=m?.body??'다른 탭에서 우편을 확인해 주세요.';$('.detail-title').title=m?.title??'';$('.detail-body').classList.toggle('long-body',(m?.body??'').length>40||!!m?.body?.includes('\n'));$('.detail-body').tabIndex=0;setRewards($('.detail-rewards'),m?.attachments??{},m?'첨부 보상 없음':'');
  const claim=$('.claim-mail');claim.disabled=!m||!available(m);claim.textContent=!m?'보상 받기':m.claimedAt?'수령 완료':m.expireAt<=now?'기한 만료':'보상 받기';$('.delete-mail').hidden=claim.hidden=!m;$('.delete-mail').disabled=!m;$('.claim-all').disabled=!waiting.length;
  painting.push(nineSlice(claim,claim.disabled?'blue':'green'));
- $('#barracks-back').id='mail-back';$('#mail-back').onclick=$('.home-back').onclick=()=>actions.navigate('home');
+ $('#barracks-back').id='mail-back';$('#mail-back').onclick=()=>actions.navigate('home');
  game.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>actions.tab(b.dataset.tab));
  $('.page-prev').onclick=()=>actions.page(-1);$('.page-next').onclick=()=>actions.page(1);
  $('.claim-mail').onclick=()=>actions.claim(selected);$('.claim-all').onclick=actions.claimAll;$('.delete-mail').onclick=()=>actions.remove(selected);

@@ -1,7 +1,9 @@
 // Bonds (docs/삼국체스_종합기획서_v1.0.md §4). Numbers are balance proposals.
 // A bond is judged on the distinct heroes deployed on one side when the battle is created;
 // copies of a hero count once, and the bond stays active even if a member falls.
-const commons=['infantry','archer','tactician'];
+import {generalRosterIds,basicUnitIds} from './heroes.js';
+const activeIds=new Set([...generalRosterIds,...basicUnitIds]);
+const commons=basicUnitIds;
 export const bonds=[
  // 촉
  {id:'peach',name:'도원결의',faction:'촉',members:['0','1','2'],need:3,text:'전투 시작 시 최대 HP 10% 보호막 5초'},
@@ -29,13 +31,14 @@ export const bonds=[
  // 세력을 넘는 인연
  {id:'chibi',name:'적벽의 동맹',faction:null,members:['35','77'],need:2,text:'두 장수의 전법 피해 +10%'}
 ];
+const launchBonds=bonds.map(bond=>({...bond,members:bond.members.filter(id=>activeIds.has(id))})).filter(bond=>bond.members.length>=bond.need);
 // units: anything with {hero}. Returns [{bond, present:[heroId]}] for bonds whose requirement is met.
 export function activeBonds(units){
  const deployed=new Set(units.map(u=>u.hero));
- return bonds.map(bond=>({bond,present:bond.members.filter(id=>deployed.has(id))}))
+ return launchBonds.map(bond=>({bond,present:bond.members.filter(id=>deployed.has(id))}))
   .filter(({bond,present})=>present.length>=bond.need&&(bond.requires??[]).every(id=>present.includes(id)));
 }
-export const bondsOf=heroId=>bonds.filter(bond=>bond.members.includes(heroId));
+export const bondsOf=heroId=>launchBonds.filter(bond=>bond.members.includes(heroId));
 
 const scaleHp=(u,ratio)=>{u.maxHp=u.hp=Math.floor(u.maxHp*ratio);};
 const faster=(u,ratio)=>{u.interval=Math.max(1,Math.ceil(u.interval/ratio));};
